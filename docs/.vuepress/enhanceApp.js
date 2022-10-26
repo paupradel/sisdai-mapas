@@ -8,8 +8,8 @@
 // import "../../src/styles/main.scss";
 import 'dadsig-css/src/eni.scss'
 
-//import DaiMaps from "dai-maps"
-import DaiMaps from '../../src/index.js'
+//import SisDaiMapas from "dai-maps"
+import SisDaiMapas from '../../src/index.js'
 
 // import "./styles/general.css";
 
@@ -19,6 +19,6 @@ export default ({
   router, // the router instance for the app
   siteData, // site metadata
 }) => {
-  Vue.use(DaiMaps)
+  Vue.use(SisDaiMapas)
   // ...apply enhancements for the site.
 }
