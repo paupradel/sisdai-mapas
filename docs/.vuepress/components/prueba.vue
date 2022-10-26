@@ -1,14 +1,24 @@
 <template>
   <DaiMapa
     :centro="mapa.centro"
+    :iconoConacytVisible="true"
     :extension="mapa.extension"
     :zoom="mapa.zoom"
   >
-    <DaiCapaGeojson
-      :datos="geojson.edos"
-      :zIndex="geojson.zIndex"
-    />
-    <DaiCapaXyzOsm :zIndex="osm.zIndex" />
+    <DaiEncabezado>
+      Hola este es el encabezado
+      <p>Cómo me gustaría tener más contenido</p>
+    </DaiEncabezado>
+
+    <DaiCapas>
+      <DaiCapaGeojson
+        :datos="geojson.edos"
+        :zIndex="geojson.zIndex"
+      />
+
+      <DaiCapaXyzOsm :zIndex="osm.zIndex" />
+    </DaiCapas>
+
   </DaiMapa>
 </template>
 
@@ -23,6 +33,7 @@ export default {
   data: () => ({
     mapa: {
       centro: [-102, 24],
+      iconoConacytVisible: false,
       // extension,
       zoom: 4.5,
     },
