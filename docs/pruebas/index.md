@@ -7,30 +7,30 @@
   tema="algun-tema"
   :extension="mapa.extension"
 >
-  <EncabezadoMapa>
+  <SisdaiMapaEncabezado>
     Contenido HTML, Titulos, Controles, uso de leyenda, etc
-  </EncabezadoMapa>
+  </SisdaiMapaEncabezado>
 
-  <IzquierdaMapa>
+  <SisdaiMapaIzquierda>
     Contenido HTML, Controles, uso de leyenda, scrolables, etc
-  </IzquierdaMapa>
+  </SisdaiMapaIzquierda>
 
-  <Capas>
-    <DaiCapaGeojson
+  <SisdaiMapaCapas>
+    <SisdaiCapaGeojson
       :datos="geojson.edos"
       :zIndex="geojson.zIndex"
     />
 
-    <DaiCapaXyzOsm :zIndex="osm.zIndex" />
-  </Capas>
+    <SisdaiCapaXyzOsm :zIndex="osm.zIndex" />
+  </SisdaiMapaCapas>
 
-  <DerechaMapa>
+  <SisdaiMapaDerecha>
     Contenido HTML, Controles, uso de leyenda, scrolables, etc
-  </DerechaMapa>
+  </SisdaiMapaDerecha>
 
-  <PieMapa>
+  <SisdaiMapaPie>
     Contenido HTML, Referencias, Controles, uso de leyenda, etc
-  </PieMapa>
+  </SisdaiMapaPie>
 </SisdaiMapa>
 ```
 

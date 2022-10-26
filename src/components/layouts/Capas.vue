@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: 'DaiCapas',
+  name: 'SisdaiMapaCapas',
 }
 </script>

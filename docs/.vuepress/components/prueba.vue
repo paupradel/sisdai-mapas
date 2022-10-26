@@ -5,19 +5,19 @@
     :extension="mapa.extension"
     :zoom="mapa.zoom"
   >
-    <DaiEncabezado>
+    <SisdaiMapaEncabezado>
       Hola este es el encabezado
       <p>Cómo me gustaría tener más contenido</p>
-    </DaiEncabezado>
+    </SisdaiMapaEncabezado>
 
-    <DaiCapas>
+    <SisdaiMapaCapas>
       <DaiCapaGeojson
         :datos="geojson.edos"
         :zIndex="geojson.zIndex"
       />
 
       <DaiCapaXyzOsm :zIndex="osm.zIndex" />
-    </DaiCapas>
+    </SisdaiMapaCapas>
 
   </SisdaiMapa>
 </template>
