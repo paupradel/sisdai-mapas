@@ -1,11 +1,18 @@
 <template>
-  <div class="dai-contenedor-mapa">
+  <div
+    class="dai-mapa-contenedor borde borde-redondeado-8"
+    :class="`tema-${tema}`"
+  >
     <div
       ref="refMapa"
-      class="dai-mapa"
-    >
-      <slot /><!-- Slot que permite ingresar capas dentro de etiqueta dai-mapa -->
-    </div>
+      class="dai-mapa borde-redondeado-8"
+      :class="{ 'icono-conacyt-visible': iconoConacytVisible }"
+    />
+
+    <!-- Permite ingresar capas dentro de etiqueta dai-mapa -->
+    <slot />
+
+    <BotonConacyt />
   </div>
 </template>
 
@@ -16,6 +23,8 @@ import Map from 'ol/Map'
 import View from 'ol/View'
 import AttributionControl from 'ol/control/Attribution'
 import 'ol/ol.css'
+
+import BotonConacyt from './../TarjetaContenedora/BotonConacyt'
 
 import ControlZoomPersonalizado from '../../controls/ZoomPersonalizado'
 import ControlVistaInicial from './../../controls/VistaInicial'
@@ -33,6 +42,7 @@ const rellenoAlBordeDeLaExtension = [10, 10, 10, 10]
 export default {
   name: 'DaiMapa',
   props,
+  components: { BotonConacyt },
   setup(props) {
     const { salvarInstancia, cambiarZoom, cambiarCentro, extraerControl } =
       usarMapa()
@@ -44,9 +54,10 @@ export default {
     watch(refMapa, crearMapa)
 
     const { proyeccion } = props // Props no reactivos
-    const { centro, extension, zoom } = toRefs(props) // Props reactivos
+    const { centro, extension, iconoConacytVisible, tema, zoom } = toRefs(props) // Props reactivos
     watch(centro, cambiarCentro)
     watch(extension, cambiarExtension)
+    watch(iconoConacytVisible, () => {})
     watch(zoom, cambiarZoom)
 
     /**
@@ -91,23 +102,46 @@ export default {
       controlVistaInicial.reiniciarVista()
     }
 
-    return { refMapa }
+    return { refMapa, tema }
   },
 }
 </script>
 
 <style lang="scss">
-.dai-contenedor-mapa {
+$altura-boton-conacyt: 40px;
+
+.dai-mapa-contenedor {
   min-height: 200px;
   min-width: 200px;
-  height: 40vh;
+  // height: calc(40vh + $altura-boton-conacyt);
   position: relative;
+
+  display: grid;
+  grid-template-areas: 'mapa-encabezado' 'mapa-mapa' 'boton-conacyt';
+  gap: 0;
+  grid-template-rows: auto 40vh 40px;
+  .dai-mapa-encabezado {
+    grid-area: mapa-encabezado;
+  }
+  .dai-mapa {
+    grid-area: mapa-mapa;
+  }
+  .boton-conacyt {
+    grid-area: boton-conacyt;
+  }
 
   .dai-mapa {
     width: 100%;
-    height: 100%;
-    position: absolute;
+    // min-height: 200px;
+    // height: 200px;
+    // position: absolute;
     background-color: #e9e9e9;
+    // padding-bottom: $altura-boton-conacyt;
+
+    /*.ol-viewport {
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+    }*/
   }
 }
 </style>
