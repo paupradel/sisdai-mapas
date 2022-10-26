@@ -3,7 +3,6 @@
     :centro="mapa.centro"
     :iconoConacytVisible="true"
     :extension="mapa.extension"
-    tema="sencillo"
     :zoom="mapa.zoom"
   >
     <DaiEncabezado>

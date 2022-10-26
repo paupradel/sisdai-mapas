@@ -138,10 +138,10 @@ $altura-boton-conacyt: 40px;
     background-color: #e9e9e9;
     // padding-bottom: $altura-boton-conacyt;
 
-    .ol-viewport {
+    /*.ol-viewport {
       border-top-left-radius: 8px;
       border-top-right-radius: 8px;
-    }
+    }*/
   }
 }
 </style>
