@@ -32,7 +32,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, ":host,:root{--ol-background-color:#fff
 
 /***/ }),
 
-/***/ 913:
+/***/ 396:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46,7 +46,70 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".dai-contenedor-mapa{min-height:200px;min-width:200px;height:40vh;position:relative}.dai-contenedor-mapa .dai-mapa{width:100%;height:100%;position:absolute;background-color:#e9e9e9}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".dai-mapa-contenedor{min-height:200px;min-width:200px;position:relative;display:grid;grid-template-areas:\"mapa-encabezado\" \"mapa-mapa\" \"boton-conacyt\";gap:0;grid-template-rows:auto 40vh 40px}.dai-mapa-contenedor .dai-mapa-encabezado{grid-area:mapa-encabezado}.dai-mapa-contenedor .dai-mapa{grid-area:mapa-mapa}.dai-mapa-contenedor .boton-conacyt{grid-area:boton-conacyt}.dai-mapa-contenedor .dai-mapa{width:100%;background-color:#e9e9e9}", ""]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ 303:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(481);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(400);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".boton.boton-conacyt[data-v-0a3ec68d]{min-height:40px;height:40px;max-height:40px}", ""]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ 377:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(481);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(400);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".dai-mapa-tarjeta-contenedora[data-v-d290501a]{position:relative;padding-bottom:37px}.dai-mapa-tarjeta-contenedora .no-visible[data-v-d290501a]{display:none}", ""]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ 561:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(481);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(400);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".dai-mapa-encabezado[data-v-4aa431d3]{padding:16px}", ""]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -219,19 +282,67 @@ var update = add("6e2af567", content, true, {"sourceMap":false,"shadowMode":fals
 
 /***/ }),
 
-/***/ 89:
+/***/ 946:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(913);
+var content = __webpack_require__(396);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.id, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = (__webpack_require__(402)/* ["default"] */ .Z)
-var update = add("4bf6d75e", content, true, {"sourceMap":false,"shadowMode":false});
+var update = add("43d61762", content, true, {"sourceMap":false,"shadowMode":false});
+
+/***/ }),
+
+/***/ 813:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(303);
+if(content.__esModule) content = content.default;
+if(typeof content === 'string') content = [[module.id, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = (__webpack_require__(402)/* ["default"] */ .Z)
+var update = add("cee3f1b6", content, true, {"sourceMap":false,"shadowMode":false});
+
+/***/ }),
+
+/***/ 265:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(377);
+if(content.__esModule) content = content.default;
+if(typeof content === 'string') content = [[module.id, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = (__webpack_require__(402)/* ["default"] */ .Z)
+var update = add("0c787733", content, true, {"sourceMap":false,"shadowMode":false});
+
+/***/ }),
+
+/***/ 591:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(561);
+if(content.__esModule) content = content.default;
+if(typeof content === 'string') content = [[module.id, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = (__webpack_require__(402)/* ["default"] */ .Z)
+var update = add("c4d4b834", content, true, {"sourceMap":false,"shadowMode":false});
 
 /***/ }),
 
@@ -609,7 +720,8 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "CapaGeoJSON": function() { return /* reexport */ capas_GeoJSON; },
   "CapaOSM": function() { return /* reexport */ capas_OSM; },
-  "MapaPrincipal": function() { return /* reexport */ components_MapaPrincipal; },
+  "MapaPrincipal": function() { return /* reexport */ MapaPrincipal; },
+  "TarjetaContenedora": function() { return /* reexport */ components_TarjetaContenedora; },
   "default": function() { return /* binding */ entry_lib; },
   "install": function() { return /* reexport */ src_plugin; }
 });
@@ -631,18 +743,238 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"41cfcd41-vue-loader-template"}!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/MapaPrincipal/MapaPrincipal.vue?vue&type=template&id=3dbc83f7&
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"295b5d78-vue-loader-template"}!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/TarjetaContenedora/TarjetaContenedora.vue?vue&type=template&id=d290501a&scoped=true&
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
   return _c('div', {
-    staticClass: "dai-contenedor-mapa"
+    staticClass: "dai-mapa-tarjeta-contenedora borde borde-redondeado-8"
   }, [_c('div', {
-    ref: "refMapa",
-    staticClass: "dai-mapa"
-  }, [_vm._t("default")], 2)]);
+    staticClass: "dai-mapa-contenedor-encabezado"
+  }, [_vm._t("encabezadoMapa")], 2), _c('span', {
+    staticClass: "no-visible"
+  }), _c('div', {
+    staticClass: "dai-mapa-contenedor-izquierda"
+  }, [_vm._t("izquierdaMapa")], 2), _vm._t("default"), _c('div', {
+    staticClass: "dai-mapa-contenedor-derecha"
+  }, [_vm._t("derechaMapa")], 2), _c('span', {
+    staticClass: "no-visible"
+  }), _c('div', {
+    staticClass: "dai-mapa-contenedor-pie"
+  }, [_vm._t("pieMapa")], 2), _c('BotonConacyt')], 2);
 };
 var staticRenderFns = [];
+
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"295b5d78-vue-loader-template"}!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/TarjetaContenedora/BotonConacyt.vue?vue&type=template&id=0a3ec68d&scoped=true&
+var BotonConacytvue_type_template_id_0a3ec68d_scoped_true_render = function render() {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _vm._m(0);
+};
+var BotonConacytvue_type_template_id_0a3ec68d_scoped_true_staticRenderFns = [function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c('a', {
+    staticClass: "boton boton-conacyt borde-t",
+    attrs: {
+      "href": "https://conacyt.mx/",
+      "target": "_blank"
+    }
+  }, [_c('img', {
+    attrs: {
+      "src": "https://conacyt.mx/wp-content/uploads/2021/10/logo_conacyt_con_sintagma_azul_completo.svg",
+      "alt": "Conacyt",
+      "height": "28px"
+    }
+  })]);
+}];
+
+;// CONCATENATED MODULE: ./src/components/TarjetaContenedora/BotonConacyt.vue?vue&type=template&id=0a3ec68d&scoped=true&
+
+// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-64.use[0]!./node_modules/@vue/cli-service/node_modules/css-loader/dist/cjs.js??clonedRuleSet-64.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-64.use[2]!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-64.use[3]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-64.use[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/TarjetaContenedora/BotonConacyt.vue?vue&type=style&index=0&id=0a3ec68d&prod&lang=scss&scoped=true&
+var BotonConacytvue_type_style_index_0_id_0a3ec68d_prod_lang_scss_scoped_true_ = __webpack_require__(813);
+;// CONCATENATED MODULE: ./src/components/TarjetaContenedora/BotonConacyt.vue?vue&type=style&index=0&id=0a3ec68d&prod&lang=scss&scoped=true&
+
+;// CONCATENATED MODULE: ./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js
+/* globals __VUE_SSR_CONTEXT__ */
+
+// IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
+// This module is a runtime utility for cleaner component module output and will
+// be included in the final webpack user bundle.
+
+function normalizeComponent(
+  scriptExports,
+  render,
+  staticRenderFns,
+  functionalTemplate,
+  injectStyles,
+  scopeId,
+  moduleIdentifier /* server only */,
+  shadowMode /* vue-cli only */
+) {
+  // Vue.extend constructor export interop
+  var options =
+    typeof scriptExports === 'function' ? scriptExports.options : scriptExports
+
+  // render functions
+  if (render) {
+    options.render = render
+    options.staticRenderFns = staticRenderFns
+    options._compiled = true
+  }
+
+  // functional template
+  if (functionalTemplate) {
+    options.functional = true
+  }
+
+  // scopedId
+  if (scopeId) {
+    options._scopeId = 'data-v-' + scopeId
+  }
+
+  var hook
+  if (moduleIdentifier) {
+    // server build
+    hook = function (context) {
+      // 2.3 injection
+      context =
+        context || // cached call
+        (this.$vnode && this.$vnode.ssrContext) || // stateful
+        (this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) // functional
+      // 2.2 with runInNewContext: true
+      if (!context && typeof __VUE_SSR_CONTEXT__ !== 'undefined') {
+        context = __VUE_SSR_CONTEXT__
+      }
+      // inject component styles
+      if (injectStyles) {
+        injectStyles.call(this, context)
+      }
+      // register component module identifier for async chunk inferrence
+      if (context && context._registeredComponents) {
+        context._registeredComponents.add(moduleIdentifier)
+      }
+    }
+    // used by ssr in case component is cached and beforeCreate
+    // never gets called
+    options._ssrRegister = hook
+  } else if (injectStyles) {
+    hook = shadowMode
+      ? function () {
+          injectStyles.call(
+            this,
+            (options.functional ? this.parent : this).$root.$options.shadowRoot
+          )
+        }
+      : injectStyles
+  }
+
+  if (hook) {
+    if (options.functional) {
+      // for template-only hot-reload because in that case the render fn doesn't
+      // go through the normalizer
+      options._injectStyles = hook
+      // register for functional component in vue file
+      var originalRender = options.render
+      options.render = function renderWithStyleInjection(h, context) {
+        hook.call(context)
+        return originalRender(h, context)
+      }
+    } else {
+      // inject component registration as beforeCreate hook
+      var existing = options.beforeCreate
+      options.beforeCreate = existing ? [].concat(existing, hook) : [hook]
+    }
+  }
+
+  return {
+    exports: scriptExports,
+    options: options
+  }
+}
+
+;// CONCATENATED MODULE: ./src/components/TarjetaContenedora/BotonConacyt.vue
+
+var script = {}
+;
+
+
+/* normalize component */
+
+var component = normalizeComponent(
+  script,
+  BotonConacytvue_type_template_id_0a3ec68d_scoped_true_render,
+  BotonConacytvue_type_template_id_0a3ec68d_scoped_true_staticRenderFns,
+  false,
+  null,
+  "0a3ec68d",
+  null
+  
+)
+
+/* harmony default export */ var BotonConacyt = (component.exports);
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/TarjetaContenedora/TarjetaContenedora.vue?vue&type=script&lang=js&
+
+/* harmony default export */ var TarjetaContenedoravue_type_script_lang_js_ = ({
+  name: 'DaiTarjetaContenedoraMapa',
+  components: {
+    BotonConacyt: BotonConacyt
+  }
+});
+;// CONCATENATED MODULE: ./src/components/TarjetaContenedora/TarjetaContenedora.vue?vue&type=script&lang=js&
+ /* harmony default export */ var TarjetaContenedora_TarjetaContenedoravue_type_script_lang_js_ = (TarjetaContenedoravue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-64.use[0]!./node_modules/@vue/cli-service/node_modules/css-loader/dist/cjs.js??clonedRuleSet-64.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-64.use[2]!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-64.use[3]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-64.use[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/TarjetaContenedora/TarjetaContenedora.vue?vue&type=style&index=0&id=d290501a&prod&lang=scss&scoped=true&
+var TarjetaContenedoravue_type_style_index_0_id_d290501a_prod_lang_scss_scoped_true_ = __webpack_require__(265);
+;// CONCATENATED MODULE: ./src/components/TarjetaContenedora/TarjetaContenedora.vue?vue&type=style&index=0&id=d290501a&prod&lang=scss&scoped=true&
+
+;// CONCATENATED MODULE: ./src/components/TarjetaContenedora/TarjetaContenedora.vue
+
+
+
+;
+
+
+/* normalize component */
+
+var TarjetaContenedora_component = normalizeComponent(
+  TarjetaContenedora_TarjetaContenedoravue_type_script_lang_js_,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  "d290501a",
+  null
+  
+)
+
+/* harmony default export */ var TarjetaContenedora = (TarjetaContenedora_component.exports);
+;// CONCATENATED MODULE: ./src/components/TarjetaContenedora/index.js
+
+function TarjetaContenedora_plugin(Vue) {
+  if (TarjetaContenedora_plugin.installed) {
+    return;
+  }
+  TarjetaContenedora_plugin.installed = true;
+  Vue.component(TarjetaContenedora.name, TarjetaContenedora);
+}
+/* harmony default export */ var components_TarjetaContenedora = (TarjetaContenedora_plugin);
+
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"295b5d78-vue-loader-template"}!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/MapaPrincipal/MapaPrincipal.vue?vue&type=template&id=4cbc8efc&
+var MapaPrincipalvue_type_template_id_4cbc8efc_render = function render() {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c('div', {
+    staticClass: "dai-mapa-contenedor borde borde-redondeado-8",
+    class: `tema-${_vm.tema}`
+  }, [_c('div', {
+    ref: "refMapa",
+    staticClass: "dai-mapa borde-redondeado-8",
+    class: {
+      'icono-conacyt-visible': _vm.iconoConacytVisible
+    }
+  }), _vm._t("default"), _c('BotonConacyt')], 2);
+};
+var MapaPrincipalvue_type_template_id_4cbc8efc_staticRenderFns = [];
 
 // EXTERNAL MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__(203);
@@ -21988,6 +22320,13 @@ _defineProperty(VistaInicial, "nombre", 'VistaInicial');
     default: () => [0, 0, 0, 0]
   },
   /**
+   * Ver el icono de Conacyt debajo del mapa
+   */
+  iconoConacytVisible: {
+    type: Boolean,
+    default: true
+  },
+  /**
    * Código de identificación SRS que define la proyección de la vista.
    *
    * El valor predeterminado es Universal Transversal de Mercator.
@@ -21995,6 +22334,14 @@ _defineProperty(VistaInicial, "nombre", 'VistaInicial');
   proyeccion: {
     type: String,
     default: 'EPSG:4326'
+  },
+  /**
+   * Tema de la disposición de elemntos de apoyo del mapa (contenedor del header, pie y columnas
+   * laterales)
+   */
+  tema: {
+    type: String,
+    default: ''
   },
   /**
    * Nivel de zoom utilizado para calcular la resolución inicial de la vista.
@@ -22092,6 +22439,7 @@ function usarMapa() {
 
 
 
+
 /**
  * Relleno (en píxeles) que se agregará a la extensión de la vista. Los valores en la matriz son
  * relleno: [superior, derecho, inferior, izquierdo] y solo es aplicable cuando la extensión es
@@ -22101,6 +22449,9 @@ const rellenoAlBordeDeLaExtension = [10, 10, 10, 10];
 /* harmony default export */ var MapaPrincipalvue_type_script_lang_js_ = ({
   name: 'DaiMapa',
   props: props,
+  components: {
+    BotonConacyt: BotonConacyt
+  },
   setup(props) {
     const {
       salvarInstancia,
@@ -22120,10 +22471,13 @@ const rellenoAlBordeDeLaExtension = [10, 10, 10, 10];
     const {
       centro,
       extension,
+      iconoConacytVisible,
+      tema,
       zoom
     } = (0,external_commonjs_vue_commonjs2_vue_root_Vue_.toRefs)(props); // Props reactivos
     (0,external_commonjs_vue_commonjs2_vue_root_Vue_.watch)(centro, cambiarCentro);
     (0,external_commonjs_vue_commonjs2_vue_root_Vue_.watch)(extension, cambiarExtension);
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_.watch)(iconoConacytVisible, () => {});
     (0,external_commonjs_vue_commonjs2_vue_root_Vue_.watch)(zoom, cambiarZoom);
 
     /**
@@ -22163,113 +22517,16 @@ const rellenoAlBordeDeLaExtension = [10, 10, 10, 10];
       controlVistaInicial.reiniciarVista();
     }
     return {
-      refMapa
+      refMapa,
+      tema
     };
   }
 });
 ;// CONCATENATED MODULE: ./src/components/MapaPrincipal/MapaPrincipal.vue?vue&type=script&lang=js&
  /* harmony default export */ var MapaPrincipal_MapaPrincipalvue_type_script_lang_js_ = (MapaPrincipalvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-64.use[0]!./node_modules/@vue/cli-service/node_modules/css-loader/dist/cjs.js??clonedRuleSet-64.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-64.use[2]!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-64.use[3]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-64.use[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/MapaPrincipal/MapaPrincipal.vue?vue&type=style&index=0&id=3dbc83f7&prod&lang=scss&
-var MapaPrincipalvue_type_style_index_0_id_3dbc83f7_prod_lang_scss_ = __webpack_require__(89);
-;// CONCATENATED MODULE: ./src/components/MapaPrincipal/MapaPrincipal.vue?vue&type=style&index=0&id=3dbc83f7&prod&lang=scss&
-
-;// CONCATENATED MODULE: ./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js
-/* globals __VUE_SSR_CONTEXT__ */
-
-// IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
-// This module is a runtime utility for cleaner component module output and will
-// be included in the final webpack user bundle.
-
-function normalizeComponent(
-  scriptExports,
-  render,
-  staticRenderFns,
-  functionalTemplate,
-  injectStyles,
-  scopeId,
-  moduleIdentifier /* server only */,
-  shadowMode /* vue-cli only */
-) {
-  // Vue.extend constructor export interop
-  var options =
-    typeof scriptExports === 'function' ? scriptExports.options : scriptExports
-
-  // render functions
-  if (render) {
-    options.render = render
-    options.staticRenderFns = staticRenderFns
-    options._compiled = true
-  }
-
-  // functional template
-  if (functionalTemplate) {
-    options.functional = true
-  }
-
-  // scopedId
-  if (scopeId) {
-    options._scopeId = 'data-v-' + scopeId
-  }
-
-  var hook
-  if (moduleIdentifier) {
-    // server build
-    hook = function (context) {
-      // 2.3 injection
-      context =
-        context || // cached call
-        (this.$vnode && this.$vnode.ssrContext) || // stateful
-        (this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) // functional
-      // 2.2 with runInNewContext: true
-      if (!context && typeof __VUE_SSR_CONTEXT__ !== 'undefined') {
-        context = __VUE_SSR_CONTEXT__
-      }
-      // inject component styles
-      if (injectStyles) {
-        injectStyles.call(this, context)
-      }
-      // register component module identifier for async chunk inferrence
-      if (context && context._registeredComponents) {
-        context._registeredComponents.add(moduleIdentifier)
-      }
-    }
-    // used by ssr in case component is cached and beforeCreate
-    // never gets called
-    options._ssrRegister = hook
-  } else if (injectStyles) {
-    hook = shadowMode
-      ? function () {
-          injectStyles.call(
-            this,
-            (options.functional ? this.parent : this).$root.$options.shadowRoot
-          )
-        }
-      : injectStyles
-  }
-
-  if (hook) {
-    if (options.functional) {
-      // for template-only hot-reload because in that case the render fn doesn't
-      // go through the normalizer
-      options._injectStyles = hook
-      // register for functional component in vue file
-      var originalRender = options.render
-      options.render = function renderWithStyleInjection(h, context) {
-        hook.call(context)
-        return originalRender(h, context)
-      }
-    } else {
-      // inject component registration as beforeCreate hook
-      var existing = options.beforeCreate
-      options.beforeCreate = existing ? [].concat(existing, hook) : [hook]
-    }
-  }
-
-  return {
-    exports: scriptExports,
-    options: options
-  }
-}
+// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-64.use[0]!./node_modules/@vue/cli-service/node_modules/css-loader/dist/cjs.js??clonedRuleSet-64.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-64.use[2]!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-64.use[3]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-64.use[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/MapaPrincipal/MapaPrincipal.vue?vue&type=style&index=0&id=4cbc8efc&prod&lang=scss&
+var MapaPrincipalvue_type_style_index_0_id_4cbc8efc_prod_lang_scss_ = __webpack_require__(946);
+;// CONCATENATED MODULE: ./src/components/MapaPrincipal/MapaPrincipal.vue?vue&type=style&index=0&id=4cbc8efc&prod&lang=scss&
 
 ;// CONCATENATED MODULE: ./src/components/MapaPrincipal/MapaPrincipal.vue
 
@@ -22280,10 +22537,10 @@ function normalizeComponent(
 
 /* normalize component */
 
-var component = normalizeComponent(
+var MapaPrincipal_component = normalizeComponent(
   MapaPrincipal_MapaPrincipalvue_type_script_lang_js_,
-  render,
-  staticRenderFns,
+  MapaPrincipalvue_type_template_id_4cbc8efc_render,
+  MapaPrincipalvue_type_template_id_4cbc8efc_staticRenderFns,
   false,
   null,
   null,
@@ -22291,18 +22548,7 @@ var component = normalizeComponent(
   
 )
 
-/* harmony default export */ var MapaPrincipal = (component.exports);
-;// CONCATENATED MODULE: ./src/components/MapaPrincipal/index.js
-
-function MapaPrincipal_plugin(Vue) {
-  if (MapaPrincipal_plugin.installed) {
-    return;
-  }
-  MapaPrincipal_plugin.installed = true;
-  Vue.component(MapaPrincipal.name, MapaPrincipal);
-}
-/* harmony default export */ var components_MapaPrincipal = (MapaPrincipal_plugin);
-
+/* harmony default export */ var MapaPrincipal = (MapaPrincipal_component.exports);
 ;// CONCATENATED MODULE: ./node_modules/ol/layer/TileProperty.js
 /**
  * @module ol/layer/TileProperty
@@ -44897,9 +45143,93 @@ function GeoJSON_plugin(Vue) {
 }
 /* harmony default export */ var capas_GeoJSON = (GeoJSON_plugin);
 
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"295b5d78-vue-loader-template"}!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/layouts/Encabezado.vue?vue&type=template&id=4aa431d3&scoped=true&
+var Encabezadovue_type_template_id_4aa431d3_scoped_true_render = function render() {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c('div', {
+    staticClass: "dai-mapa-encabezado borde-b"
+  }, [_vm._t("default")], 2);
+};
+var Encabezadovue_type_template_id_4aa431d3_scoped_true_staticRenderFns = [];
+
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/layouts/Encabezado.vue?vue&type=script&lang=js&
+/* harmony default export */ var Encabezadovue_type_script_lang_js_ = ({
+  name: 'DaiEncabezado'
+});
+;// CONCATENATED MODULE: ./src/components/layouts/Encabezado.vue?vue&type=script&lang=js&
+ /* harmony default export */ var layouts_Encabezadovue_type_script_lang_js_ = (Encabezadovue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-64.use[0]!./node_modules/@vue/cli-service/node_modules/css-loader/dist/cjs.js??clonedRuleSet-64.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-64.use[2]!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-64.use[3]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-64.use[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/layouts/Encabezado.vue?vue&type=style&index=0&id=4aa431d3&prod&lang=scss&scoped=true&
+var Encabezadovue_type_style_index_0_id_4aa431d3_prod_lang_scss_scoped_true_ = __webpack_require__(591);
+;// CONCATENATED MODULE: ./src/components/layouts/Encabezado.vue?vue&type=style&index=0&id=4aa431d3&prod&lang=scss&scoped=true&
+
+;// CONCATENATED MODULE: ./src/components/layouts/Encabezado.vue
+
+
+
+;
+
+
+/* normalize component */
+
+var Encabezado_component = normalizeComponent(
+  layouts_Encabezadovue_type_script_lang_js_,
+  Encabezadovue_type_template_id_4aa431d3_scoped_true_render,
+  Encabezadovue_type_template_id_4aa431d3_scoped_true_staticRenderFns,
+  false,
+  null,
+  "4aa431d3",
+  null
+  
+)
+
+/* harmony default export */ var Encabezado = (Encabezado_component.exports);
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"295b5d78-vue-loader-template"}!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/layouts/Capas.vue?vue&type=template&id=102b2344&
+var Capasvue_type_template_id_102b2344_render = function render() {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c('span', [_vm._t("default")], 2);
+};
+var Capasvue_type_template_id_102b2344_staticRenderFns = [];
+
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/layouts/Capas.vue?vue&type=script&lang=js&
+/* harmony default export */ var Capasvue_type_script_lang_js_ = ({
+  name: 'DaiCapas'
+});
+;// CONCATENATED MODULE: ./src/components/layouts/Capas.vue?vue&type=script&lang=js&
+ /* harmony default export */ var layouts_Capasvue_type_script_lang_js_ = (Capasvue_type_script_lang_js_); 
+;// CONCATENATED MODULE: ./src/components/layouts/Capas.vue
+
+
+
+
+
+/* normalize component */
+;
+var Capas_component = normalizeComponent(
+  layouts_Capasvue_type_script_lang_js_,
+  Capasvue_type_template_id_102b2344_render,
+  Capasvue_type_template_id_102b2344_staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var Capas = (Capas_component.exports);
+;// CONCATENATED MODULE: ./src/components/layouts/index.js
+/**
+ * @module components/layouts
+ */
+
+
+
 // EXTERNAL MODULE: ./src/styles/controles.scss
 var controles = __webpack_require__(795);
 ;// CONCATENATED MODULE: ./src/index.js
+
+
 
 
 
@@ -44909,9 +45239,12 @@ function src_plugin(Vue) {
     return;
   }
   src_plugin.installed = true;
+  Vue.component(Encabezado.name, Encabezado);
+  Vue.component(Capas.name, Capas);
 
   // componentes
-  Vue.use(components_MapaPrincipal);
+  Vue.use(components_TarjetaContenedora);
+  Vue.component(MapaPrincipal.name, MapaPrincipal);
   Vue.use(capas_OSM);
   Vue.use(capas_GeoJSON);
 }
