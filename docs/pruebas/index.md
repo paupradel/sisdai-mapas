@@ -3,7 +3,7 @@
 <prueba />
 
 ```html
-<DaiMapa
+<SisdaiMapa
   tema="algun-tema"
   :extension="mapa.extension"
 >
@@ -31,7 +31,7 @@
   <PieMapa>
     Contenido HTML, Referencias, Controles, uso de leyenda, etc
   </PieMapa>
-</DaiMapa>
+</SisdaiMapa>
 ```
 
 - <small>vuepress, lint config: 32 vulnerabilities (10 moderate, 22 high)</small>

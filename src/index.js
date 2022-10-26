@@ -18,8 +18,8 @@ export default function plugin(Vue) {
   Vue.component(layout.Capas.name, layout.Capas)
 
   // componentes
-  Vue.use(TarjetaContenedora)
   Vue.component(MapaPrincipal.name, MapaPrincipal)
+  // Vue.use(TarjetaContenedora)
   Vue.use(CapaOSM)
   Vue.use(CapaGeoJSON)
 }

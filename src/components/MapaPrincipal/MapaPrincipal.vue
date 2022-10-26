@@ -40,7 +40,7 @@ import usarMapa from '../../composables/usarMapa'
 const rellenoAlBordeDeLaExtension = [10, 10, 10, 10]
 
 export default {
-  name: 'DaiMapa',
+  name: 'SisdaiMapa',
   props,
   components: { BotonConacyt },
   setup(props) {

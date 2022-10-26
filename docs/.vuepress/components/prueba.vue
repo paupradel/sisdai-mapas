@@ -1,5 +1,5 @@
 <template>
-  <DaiMapa
+  <SisdaiMapa
     :centro="mapa.centro"
     :iconoConacytVisible="true"
     :extension="mapa.extension"
@@ -19,7 +19,7 @@
       <DaiCapaXyzOsm :zIndex="osm.zIndex" />
     </DaiCapas>
 
-  </DaiMapa>
+  </SisdaiMapa>
 </template>
 
 <script>
