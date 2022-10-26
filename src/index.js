@@ -1,81 +1,27 @@
-import {
-    DaiMap,
-    DaiCardMapContainer,
+import MapaPrincipal from './components/MapaPrincipal'
+import CapaOSM from './components/capas/OSM'
+import CapaGeoJSON from './components/capas/GeoJSON'
 
-    DaiXyzLayer,
-    DaiXyzLayerOsm,
-    DaiGeojsonLayer,
-    DaiCapaGeojsonCluster,
-    DaiCapaGeojsonPuntosDesplazados,
-    DaiCapaGeojsonHexbin,
-    DaiWmsLayer,
-    DaiTopojsonLayer,
+import './styles/controles.scss'
 
-    DaiLeyendaMapa,
-    DaiMapSelector,
-    DaiMapOpacity,
-    DaiMapSwitch,
-    DaiMapSearcher,
-    DaiMapInfo
-} from "./components"
+export default function plugin(Vue) {
+  if (plugin.installed) {
+    return
+  }
 
-import {
-    WidthControl
-} from "./directives"
+  plugin.installed = true
 
-import "./styles/main.scss"
-export default function plugin(Vue){
-    if (plugin.installed) {
-        return
-    }
-    plugin.installed = true
-    Vue.use(DaiMap)
-    Vue.use(DaiCardMapContainer)
-
-    Vue.use(DaiXyzLayer)
-    Vue.use(DaiXyzLayerOsm)
-    Vue.use(DaiGeojsonLayer)
-    Vue.use(DaiCapaGeojsonCluster)
-    Vue.use(DaiCapaGeojsonPuntosDesplazados)
-    Vue.use(DaiCapaGeojsonHexbin)
-    Vue.use(DaiWmsLayer)
-    Vue.use(DaiTopojsonLayer)
-
-    Vue.use(DaiLeyendaMapa)
-    Vue.use(DaiMapSelector)
-    Vue.use(DaiMapOpacity)
-    Vue.use(DaiMapSwitch)
-    Vue.use(DaiMapSearcher)
-    Vue.use(DaiMapInfo)
-
-    //directivas
-    Vue.directive(WidthControl.name,WidthControl);
-
+  // componentes
+  Vue.use(MapaPrincipal)
+  Vue.use(CapaOSM)
+  Vue.use(CapaGeoJSON)
 }
 
 export {
-    plugin as install,
-    //componentes
-    DaiMap,
-    DaiCardMapContainer,
+  plugin as install,
 
-    DaiXyzLayer,
-    DaiXyzLayerOsm,
-    DaiGeojsonLayer,
-    DaiCapaGeojsonCluster,
-    DaiCapaGeojsonPuntosDesplazados,
-    DaiCapaGeojsonHexbin,
-    DaiWmsLayer,
-    DaiTopojsonLayer,
-
-    DaiLeyendaMapa,
-    DaiMapSelector,
-    DaiMapOpacity,
-    DaiMapSwitch,
-    DaiMapSearcher,
-    DaiMapInfo,
-
-    //directivas
-    WidthControl
-
+  // componentes
+  MapaPrincipal,
+  CapaOSM,
+  CapaGeoJSON,
 }

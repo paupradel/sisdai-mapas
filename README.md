@@ -1,34 +1,37 @@
 # dai-maps
 
-Componentes reutilizables de mapas para la DAI.
+Componentes reutilizables de mapas.
 
-Si contribuyes al codigo de este componente ve a  [esta sección](#contribuir)
+Si quieres contribuyes al código de este componente revisa los [lineamientos de contribución establecidos por salsa](https://salsa.crip.conacyt.mx/guidelines/contribute/)
 
 ## Como empezar
 
 ### Instalar y crear el primer mapa
 
-1.- *En un futuro* (hasta que se publique en npm)
+1.- _En un futuro_ (hasta que se publique en npm)
+
 ```bash
 npm install dai-maps
 ```
 
-1.- *Por el momento*
+1.- _Por el momento_
+
 ```bash
-npm install git+https://github.com/conacyt-dai/dai-maps.git#version-a-instalar
+npm install github:conacyt-dai/dai-maps#version-a-instalar
 ```
 
-2.- 
+2.-
 
 En el archivo `src/main.js`, importar y registrar el uso de los componentes de esta libreria
+
 ```javascript
+// src/mai.js
+
 import Vue from 'vue'
 import App from './App.vue'
 //agregar la libreria, su css y registrarla en Vue
 import DaiMaps from "dai-maps"
-import "dai-maps/dist/dai-maps.css"
 Vue.use(DaiMaps)
-
 
 new Vue({ ... el codigo de siempre
 ```
@@ -37,6 +40,7 @@ Tambien seria posible instalar subcomponentes especificos [TERMINAR DE REDACTAR 
 
 3.-
 Dentro del componente en el que se desee crear mapas con el diseño Dai mandar a llamar al componente `dai-map`, dentro de el agregar los layers necesarios
+
 ```html
 <template>
     <!--el center como coordenadas (x,y) en EPSG:4326-->
@@ -47,14 +51,11 @@ Dentro del componente en el que se desee crear mapas con el diseño Dai mandar a
 
 ```
 
-
-
 ### Revisar la documentacion en local
 
 ```bash
 npm install
 npm run docs:serve
-
 ```
 
-abrir localhost:8080
+Abrir [localhost:8080](localhost:8080)
