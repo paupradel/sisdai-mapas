@@ -1,25 +1,24 @@
 <template>
-  <DaiMapa
+  <SisdaiMapa
     :centro="mapa.centro"
     :iconoConacytVisible="true"
     :extension="mapa.extension"
     :zoom="mapa.zoom"
   >
-    <DaiEncabezado>
+    <SisdaiMapaEncabezado>
       Hola este es el encabezado
       <p>Cómo me gustaría tener más contenido</p>
-    </DaiEncabezado>
+    </SisdaiMapaEncabezado>
 
-    <DaiCapas>
-      <DaiCapaGeojson
+    <SisdaiMapaCapas>
+      <SisdaiCapaGeojson
         :datos="geojson.edos"
         :zIndex="geojson.zIndex"
       />
 
-      <DaiCapaXyzOsm :zIndex="osm.zIndex" />
-    </DaiCapas>
-
-  </DaiMapa>
+      <SisdaiCapaXyzOsm :zIndex="osm.zIndex" />
+    </SisdaiMapaCapas>
+  </SisdaiMapa>
 </template>
 
 <script>

@@ -1,9 +1,6 @@
-import TarjetaContenedora from './components/TarjetaContenedora'
-import MapaPrincipal from './components/MapaPrincipal/MapaPrincipal'
-import CapaOSM from './components/capas/OSM'
-import CapaGeoJSON from './components/capas/GeoJSON'
-
+import Mapa from './components/Mapa'
 import * as layout from './components/layouts'
+import * as capas from './components/capas'
 
 import './styles/controles.scss'
 
@@ -14,25 +11,16 @@ export default function plugin(Vue) {
 
   plugin.installed = true
 
-  Vue.component(layout.Encabezado.name, layout.Encabezado)
-  Vue.component(layout.Capas.name, layout.Capas)
+  Vue.component(Mapa.name, Mapa)
 
-  // componentes
-  Vue.use(TarjetaContenedora)
-  Vue.component(MapaPrincipal.name, MapaPrincipal)
-  Vue.use(CapaOSM)
-  Vue.use(CapaGeoJSON)
+  Object.entries(layout).forEach(([, contenedor]) => {
+    Vue.component(contenedor.name, contenedor)
+  })
+
+  // Capas
+  Object.entries(capas).forEach(([, capa]) => {
+    Vue.component(capa.name, capa)
+  })
 }
 
-export {
-  plugin as install,
-
-  // layouts
-  // Capas,
-
-  // componentes
-  TarjetaContenedora,
-  MapaPrincipal,
-  CapaOSM,
-  CapaGeoJSON,
-}
+export { plugin as install }

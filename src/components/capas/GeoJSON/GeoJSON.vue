@@ -11,7 +11,7 @@ import usarCapaVectorial, {
 } from './../../../composables/usarCapaVectorial'
 
 export default {
-  name: 'DaiCapaGeojson',
+  name: 'SisdaiCapaGeojson',
   props,
   setup(propsRefs) {
     const { datos } = toRefs(propsRefs)
