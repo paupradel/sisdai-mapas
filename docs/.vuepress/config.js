@@ -39,7 +39,7 @@ module.exports = {
     ],
   ],
 
-  base: '/dai-maps/',
+  base: '/sisdai-mapas/',
 
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
