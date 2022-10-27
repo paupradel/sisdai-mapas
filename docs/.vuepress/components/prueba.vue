@@ -6,8 +6,9 @@
     :zoom="mapa.zoom"
   >
     <SisdaiMapaEncabezado>
-      Hola este es el encabezado
-      <p>Cómo me gustaría tener más contenido</p>
+      <div>Hola este es el encabezado</div>
+
+      <SisdaiMapaLeyenda />
     </SisdaiMapaEncabezado>
 
     <SisdaiMapaCapas>
