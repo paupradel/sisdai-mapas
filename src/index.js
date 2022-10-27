@@ -1,7 +1,6 @@
 import MapaPrincipal from './components/MapaPrincipal/MapaPrincipal'
 import * as layout from './components/layouts'
-import CapaOSM from './components/capas/OSM'
-import CapaGeoJSON from './components/capas/GeoJSON'
+import * as capas from './components/capas'
 
 import './styles/controles.scss'
 
@@ -19,8 +18,9 @@ export default function plugin(Vue) {
   })
 
   // Capas
-  Vue.use(CapaOSM)
-  Vue.use(CapaGeoJSON)
+  Object.entries(capas).forEach(([, capa]) => {
+    Vue.component(capa.name, capa)
+  })
 }
 
-export { plugin as install, CapaOSM, CapaGeoJSON }
+export { plugin as install }

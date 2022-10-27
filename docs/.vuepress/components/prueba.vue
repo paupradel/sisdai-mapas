@@ -11,14 +11,13 @@
     </SisdaiMapaEncabezado>
 
     <SisdaiMapaCapas>
-      <DaiCapaGeojson
+      <SisdaiCapaGeojson
         :datos="geojson.edos"
         :zIndex="geojson.zIndex"
       />
 
-      <DaiCapaXyzOsm :zIndex="osm.zIndex" />
+      <SisdaiCapaXyzOsm :zIndex="osm.zIndex" />
     </SisdaiMapaCapas>
-
   </SisdaiMapa>
 </template>
 
