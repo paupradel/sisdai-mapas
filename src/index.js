@@ -1,4 +1,4 @@
-import MapaPrincipal from './components/MapaPrincipal/MapaPrincipal'
+import Mapa from './components/Mapa'
 import * as layout from './components/layouts'
 import * as capas from './components/capas'
 
@@ -11,7 +11,7 @@ export default function plugin(Vue) {
 
   plugin.installed = true
 
-  Vue.component(MapaPrincipal.name, MapaPrincipal)
+  Vue.component(Mapa.name, Mapa)
 
   Object.entries(layout).forEach(([, contenedor]) => {
     Vue.component(contenedor.name, contenedor)

@@ -24,10 +24,10 @@ import View from 'ol/View'
 import AttributionControl from 'ol/control/Attribution'
 import 'ol/ol.css'
 
-import BotonConacyt from './../TarjetaContenedora/BotonConacyt'
+import BotonConacyt from './../layouts/BotonConacyt'
 
 import ControlZoomPersonalizado from '../../controls/ZoomPersonalizado'
-import ControlVistaInicial from './../../controls/VistaInicial'
+import ControlVistaInicial from '../../controls/VistaInicial'
 
 import props from './props'
 import usarMapa from '../../composables/usarMapa'
