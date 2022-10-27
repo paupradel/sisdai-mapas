@@ -11,7 +11,7 @@
 export function crearContenedorControl(claseCss) {
   const contenedorControl = document.createElement('div')
 
-  contenedorControl.className = `mapa-control dai-${claseCss} ol-unselectable`
+  contenedorControl.className = `sisdai-mapa-control sisdai-mapa-control-${claseCss} ol-unselectable`
 
   return contenedorControl
 }
@@ -27,7 +27,7 @@ export function crearContenedorControl(claseCss) {
 export function crearBotonControl(claseCss, icono, accion) {
   const boton = document.createElement('button')
 
-  boton.className = `dai-${claseCss}-boton boton-icono boton-secundario`
+  boton.className = `sisdai-mapa-control-${claseCss}-boton boton-icono boton-secundario`
   boton.innerHTML = `<span class="icono-${icono}" />`
 
   boton.addEventListener('click', accion, false)
