@@ -1,15 +1,15 @@
 <template>
   <div
-    class="dai-mapa-contenedor borde borde-redondeado-8"
+    class="sisdai-mapa-contenedor borde borde-redondeado-8"
     :class="`tema-${tema}`"
   >
     <div
       ref="refMapa"
-      class="dai-mapa borde-redondeado-8"
+      class="sisdai-mapa borde-redondeado-8"
       :class="{ 'icono-conacyt-visible': iconoConacytVisible }"
     />
 
-    <!-- Permite ingresar capas dentro de etiqueta dai-mapa -->
+    <!-- Permite ingresar etiquetas dentro de etiqueta sisdai-mapa -->
     <slot />
 
     <BotonConacyt />
@@ -24,10 +24,10 @@ import View from 'ol/View'
 import AttributionControl from 'ol/control/Attribution'
 import 'ol/ol.css'
 
-import BotonConacyt from './../TarjetaContenedora/BotonConacyt'
+import BotonConacyt from './../layouts/BotonConacyt'
 
 import ControlZoomPersonalizado from '../../controls/ZoomPersonalizado'
-import ControlVistaInicial from './../../controls/VistaInicial'
+import ControlVistaInicial from '../../controls/VistaInicial'
 
 import props from './props'
 import usarMapa from '../../composables/usarMapa'
@@ -40,7 +40,7 @@ import usarMapa from '../../composables/usarMapa'
 const rellenoAlBordeDeLaExtension = [10, 10, 10, 10]
 
 export default {
-  name: 'DaiMapa',
+  name: 'SisdaiMapa',
   props,
   components: { BotonConacyt },
   setup(props) {
@@ -110,7 +110,7 @@ export default {
 <style lang="scss">
 $altura-boton-conacyt: 40px;
 
-.dai-mapa-contenedor {
+.sisdai-mapa-contenedor {
   min-height: 200px;
   min-width: 200px;
   // height: calc(40vh + $altura-boton-conacyt);
@@ -120,17 +120,17 @@ $altura-boton-conacyt: 40px;
   grid-template-areas: 'mapa-encabezado' 'mapa-mapa' 'boton-conacyt';
   gap: 0;
   grid-template-rows: auto 40vh 40px;
-  .dai-mapa-encabezado {
+  .sisdai-mapa-encabezado {
     grid-area: mapa-encabezado;
   }
-  .dai-mapa {
+  .sisdai-mapa {
     grid-area: mapa-mapa;
   }
   .boton-conacyt {
     grid-area: boton-conacyt;
   }
 
-  .dai-mapa {
+  .sisdai-mapa {
     width: 100%;
     // min-height: 200px;
     // height: 200px;

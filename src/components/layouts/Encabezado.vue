@@ -1,17 +1,17 @@
 <template>
-  <div class="dai-mapa-encabezado borde-b">
+  <div class="sisdai-mapa-encabezado borde-b">
     <slot />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'DaiEncabezado',
+  name: 'SisdaiMapaEncabezado',
 }
 </script>
 
 <style lang="scss" scoped>
-.dai-mapa-encabezado {
+.sisdai-mapa-encabezado {
   padding: 16px;
 }
 </style>
