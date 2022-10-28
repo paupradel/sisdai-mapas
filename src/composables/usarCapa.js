@@ -4,7 +4,7 @@ import usarMapa from './usarMapa'
 
 export const props = {
   /**
-   *
+   * Identificador unico de la capa. Si no es detectado, se asignará un identificador random.
    */
   id: {
     type: String,
@@ -18,11 +18,19 @@ export const props = {
     type: Number,
     default: undefined,
   },
+
+  /**
+   * Nombre de la capa que aparecerá en el control de la leyenda.
+   */
+  nombre: {
+    type: String,
+    default: 'Nombre no asignado',
+  },
 }
 
 export default function usarCapa(propsRefs) {
   let olCapa = undefined
-  const { zIndex } = toRefs(propsRefs)
+  const { nombre, zIndex } = toRefs(propsRefs)
   const { mapaPrincipal, agregarCapa } = usarMapa()
 
   /**
@@ -36,7 +44,7 @@ export default function usarCapa(propsRefs) {
   })
 
   /**
-   *
+   * Asigna un identificador aleatorio en caso de que no se asigne.
    */
   const id =
     propsRefs.id !== '_default_'
@@ -69,6 +77,7 @@ export default function usarCapa(propsRefs) {
   function asignarPorps() {
     olCapa.set('id', id)
     olCapa.setZIndex(zIndex.value)
+    olCapa.set('nombre', nombre)
     // console.log('asignarProps', zIndex)
   }
 

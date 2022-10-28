@@ -8,11 +8,12 @@
     <SisdaiMapaEncabezado>
       <div>Hola este es el encabezado</div>
 
-      <SisdaiMapaLeyenda />
+      <SisdaiMapaLeyenda para="capaConLeyenda" />
     </SisdaiMapaEncabezado>
 
     <SisdaiMapaCapas>
       <SisdaiCapaGeojson
+        id="capaConLeyenda"
         :datos="geojson.edos"
         :zIndex="geojson.zIndex"
       />
