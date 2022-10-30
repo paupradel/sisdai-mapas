@@ -12,25 +12,33 @@ export const props = {
   },
 
   /**
-   *
-   */
-  zIndex: {
-    type: Number,
-    default: undefined,
-  },
-
-  /**
    * Nombre de la capa que aparecerá en el control de la leyenda.
    */
   nombre: {
     type: String,
     default: 'Nombre no asignado',
   },
+
+  /**
+   * Visibilidad de la capa, true por defecto.
+   */
+  visible: {
+    type: Boolean,
+    default: true,
+  },
+
+  /**
+   *
+   */
+  zIndex: {
+    type: Number,
+    default: undefined,
+  },
 }
 
 export default function usarCapa(propsRefs) {
   let olCapa = undefined
-  const { nombre, zIndex } = toRefs(propsRefs)
+  const { nombre, visible, zIndex } = toRefs(propsRefs)
   const { mapaPrincipal, agregarCapa } = usarMapa()
 
   /**
@@ -78,6 +86,7 @@ export default function usarCapa(propsRefs) {
     olCapa.set('id', id)
     olCapa.setZIndex(zIndex.value)
     olCapa.set('nombre', nombre)
+    olCapa.setVisible(visible)
     // console.log('asignarProps', zIndex)
   }
 

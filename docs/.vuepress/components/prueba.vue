@@ -15,6 +15,7 @@
       <SisdaiCapaGeojson
         id="capaConLeyenda"
         :datos="geojson.edos"
+        :visible="geojson.visible"
         :zIndex="geojson.zIndex"
       />
 
@@ -40,6 +41,7 @@ export default {
     },
     geojson: {
       edos,
+      visible: true,
       zIndex: 1,
     },
     osm: {
