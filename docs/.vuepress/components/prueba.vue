@@ -63,24 +63,4 @@ watch(
     console.log('osm.visible cambió')
   }
 )
-
-/*export default {
-  data: () => ({
-    mapa: {
-      centro: [-102, 24],
-      iconoConacytVisible: false,
-      // extension,
-      zoom: 4.5,
-    },
-    geojson: {
-      edos,
-      visible: true,
-      zIndex: 1,
-    },
-    osm: {
-      id: 'osm-capa-id',
-      zIndex: 0,
-    },
-  }),
-}*/
 </script>

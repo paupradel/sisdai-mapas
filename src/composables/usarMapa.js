@@ -50,17 +50,6 @@ export default function usarMapa() {
   }
 
   /**
-   * @DEPRECATED
-   * Agrega una capa a la vista del mapa
-   * @param {import("ol/layer/Layer.js").default} olCapa capa de OpenLayers
-  function agregarCapa(olCapa) {
-    if (olMapa.value) {
-      olMapa.value.addLayer(olCapa)
-    }
-  }
-   */
-
-  /**
    * Devuelve un control por su nombre registrado
    * @param {String} nombreDelControl
    * @returns {import("ol/control/Control.js").default|undefined} Control
