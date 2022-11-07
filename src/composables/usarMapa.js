@@ -3,6 +3,7 @@
  */
 
 import { ref, readonly } from 'vue'
+import usarRegistroCapas from './usarRegistroCapas'
 
 /**
  * Objeto que contendrá la instancia del mapa, declararlo fuera de la función composable hace que
@@ -16,12 +17,15 @@ const mapaPrincipal = ref(undefined)
  * @returns {Function} composable
  */
 export default function usarMapa() {
+  const { agregarTodoALMapa: agregarCapasRegistradas } = usarRegistroCapas()
+
   /**
    * Guarda el objeto del mapa en una variable reactiva.
    * @param {import("ol/Map.js").default} mapaInstanciado
    */
   function salvarInstancia(mapaInstanciado) {
     // console.log('hola desde el composable del mapa', mapaInstanciado)
+    agregarCapasRegistradas(mapaInstanciado)
     mapaPrincipal.value = mapaInstanciado
   }
 
@@ -46,14 +50,15 @@ export default function usarMapa() {
   }
 
   /**
+   * @DEPRECATED
    * Agrega una capa a la vista del mapa
    * @param {import("ol/layer/Layer.js").default} olCapa capa de OpenLayers
-   */
   function agregarCapa(olCapa) {
     if (mapaPrincipal.value) {
       mapaPrincipal.value.addLayer(olCapa)
     }
   }
+   */
 
   /**
    * Devuelve un control por su nombre registrado
@@ -74,7 +79,6 @@ export default function usarMapa() {
     salvarInstancia,
     cambiarZoom,
     cambiarCentro,
-    agregarCapa,
     extraerControl,
   }
 }

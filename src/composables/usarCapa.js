@@ -1,6 +1,7 @@
-import { toRefs, watch } from 'vue'
+import usarRegistroCapas from './usarRegistroCapas'
 
-import usarMapa from './usarMapa'
+import { idAleatorio } from './../utiles'
+import { toRefs, watch } from 'vue'
 
 export const props = {
   /**
@@ -36,61 +37,84 @@ export const props = {
   },
 }
 
-export default function usarCapa(propsRefs) {
-  let olCapa = undefined
+export const emits = ['al-cambiar-visibilidad']
+
+export default function usarCapa(propsRefs, emit) {
+  // let olCapa = undefined
   const { nombre, visible, zIndex } = toRefs(propsRefs)
-  const { mapaPrincipal, agregarCapa } = usarMapa()
+  watch(visible, alternarVisibilidad)
+
+  const { registrar: registrarCapa, capas } = usarRegistroCapas()
 
   /**
    *
-   */
   watch(zIndex, nuevoValor => {
-    if (olCapa && olCapa.getZIndex() !== nuevoValor) {
+    if (capas[idValida] && capas[idValida].getZIndex() !== nuevoValor) {
       // console.log('el zIndex ha cambiado', nuevoValor)
-      olCapa.setZIndex(nuevoValor)
+      capas[idValida].setZIndex(nuevoValor)
     }
   })
+   */
 
   /**
    * Asigna un identificador aleatorio en caso de que no se asigne.
    */
-  const id =
-    propsRefs.id !== '_default_'
-      ? propsRefs.id
-      : Math.random().toString(36).substring(7)
+  const idValida = propsRefs.id === '_default_' ? idAleatorio() : propsRefs.id
 
   /**
+   * @DEPRECATED
    * Observador que verifica cuando la instancia del mapa está lista para para agregar capas.
    *
    * Como este es un composable de Capa, se ejecutará este observasdor por cada capa que se
    * registre en el componente.
-   */
   watch(mapaPrincipal, () => {
     // console.log('Mapa listo para recibir capas')
     asignarPorps()
     agregarCapa(olCapa)
   })
+   */
 
   /**
-   *
+   * @DEPRECATED
    * @param {*} capaObjeto
-   */
   function salvarCapaComoObjeto(capaObjeto) {
     olCapa = capaObjeto
   }
+   */
 
   /**
    *
    */
-  function asignarPorps() {
-    olCapa.set('id', id)
-    olCapa.setZIndex(zIndex.value)
-    olCapa.set('nombre', nombre)
-    olCapa.setVisible(visible)
+  function asignarPorps(capa) {
+    capa.set('id', idValida)
+    capa.set('nombre', nombre.value)
+    capa.setVisible(visible.value)
+    capa.setZIndex(zIndex.value)
     // console.log('asignarProps', zIndex)
   }
 
+  function agregarEventos(capa) {
+    capa.on('change:visible', ({ target }) => {
+      emit('al-cambiar-visibilidad', target.getVisible())
+    })
+  }
+
+  function registrar(capa) {
+    asignarPorps(capa)
+    agregarEventos(capa)
+    registrarCapa(capa)
+  }
+
+  function alternarVisibilidad(estado = undefined) {
+    if (estado === undefined) {
+      capas[idValida].setVisible(!capas[idValida].getVisible())
+    } else {
+      capas[idValida].setVisible(estado)
+    }
+  }
+
   return {
-    salvarCapaComoObjeto,
+    registrar,
+    alternarVisibilidad,
   }
 }

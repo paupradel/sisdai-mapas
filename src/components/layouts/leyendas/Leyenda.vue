@@ -4,28 +4,31 @@
       type="checkbox"
       name="pruebas"
       id="prueba1"
-      v-model="capaVisible"
+      v-model="visibilidadCapa"
     />
-    <label for="prueba1">{{ capa.nombre }}</label>
+    <label for="prueba1">{{ nota }}</label>
   </div>
 </template>
 
 <script>
-import { ref, watch } from 'vue'
-import usarLeyenda, { props } from './../../../composables/usarLeyenda'
+import { onMounted, ref } from 'vue'
+import usarLeyenda, { props } from './../../../composables/usarLeyenda2'
 
 export default {
   name: 'SisdaiMapaLeyenda',
   props,
-  setup(props) {
-    const { capa, alternarVisibilidad } = usarLeyenda(props)
-    const capaVisible = ref(true)
+  setup(propsSetup) {
+    const { vincularCapa, visibilidadCapa } = usarLeyenda(propsSetup)
 
-    watch(capaVisible, alternarVisibilidad)
+    const nota = ref('Cargando...')
+
+    onMounted(() => {
+      vincularCapa(props.para)
+    })
 
     return {
-      capa,
-      capaVisible,
+      nota,
+      visibilidadCapa,
     }
   },
 }

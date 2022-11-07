@@ -6,32 +6,63 @@
     :zoom="mapa.zoom"
   >
     <SisdaiMapaEncabezado>
-      <div>Hola este es el encabezado</div>
+      <div>
+        Hola este es el encabezado
+        <button @click="osm.visible = !osm.visible">
+          {{ osm.visible ? 'apagar' : 'prender' }}
+        </button>
+      </div>
 
-      <SisdaiMapaLeyenda para="capaConLeyenda" />
+      <SisdaiMapaLeyenda :para="osm.id" />
     </SisdaiMapaEncabezado>
 
     <SisdaiMapaCapas>
-      <SisdaiCapaGeojson
-        id="capaConLeyenda"
+      <!--SisdaiCapaGeojson
         :datos="geojson.edos"
         :visible="geojson.visible"
         :zIndex="geojson.zIndex"
-      />
+      /-->
 
-      <SisdaiCapaXyzOsm :zIndex="osm.zIndex" />
+      <SisdaiCapaXyzOsm
+        :id="osm.id"
+        :visible="osm.visible"
+        :zIndex="osm.zIndex"
+        @al-cambiar-visibilidad="visibilidad => (osm.visible = visibilidad)"
+      />
     </SisdaiMapaCapas>
   </SisdaiMapa>
 </template>
 
-<script>
-import edos from './../public/capas/sample-edos.json'
+<script setup>
+// import edos from './../public/capas/sample-edos.json'
+
+import { ref, watch } from 'vue'
 
 const extension = [
   -118.365119934082, 14.5320978164673, -86.7104034423828, 32.7186546325684,
 ]
 
-export default {
+const mapa = {
+  centro: [-102, 24],
+  iconoConacytVisible: false,
+  // extension,
+  zoom: 4.5,
+}
+
+const osm = ref({
+  id: 'osm-capa-id',
+  visible: true,
+  zIndex: 0,
+})
+
+watch(
+  () => osm.value.visible,
+  () => {
+    console.log('osm.visible cambió')
+  }
+)
+
+/*export default {
   data: () => ({
     mapa: {
       centro: [-102, 24],
@@ -45,8 +76,9 @@ export default {
       zIndex: 1,
     },
     osm: {
+      id: 'osm-capa-id',
       zIndex: 0,
     },
   }),
-}
+}*/
 </script>

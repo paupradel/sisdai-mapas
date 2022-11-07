@@ -2,15 +2,16 @@
 import TileLayer from 'ol/layer/Tile'
 import OSM from 'ol/source/OSM'
 
-import usarCapa, { props } from '../../composables/usarCapa'
+import usarCapa, { props, emits } from '../../composables/usarCapa'
 
 export default {
   name: 'SisdaiCapaXyzOsm',
   props,
-  setup(propsRefs) {
-    const { salvarCapaComoObjeto } = usarCapa(propsRefs)
+  emits,
+  setup(propsSetup, { emit }) {
+    const { registrar } = usarCapa(propsSetup, emit)
 
-    salvarCapaComoObjeto(
+    registrar(
       new TileLayer({
         source: new OSM(),
         // className: this.className,
