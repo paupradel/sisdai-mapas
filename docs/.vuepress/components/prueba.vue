@@ -27,8 +27,10 @@
         :id="osm.id"
         :visible="osm.visible"
         :zIndex="osm.zIndex"
-        @al-cambiar-visibilidad="visibilidad => (osm.visible = visibilidad)"
       />
+      <!--
+        @al-cambiar-visibilidad="visibilidad => (osm.visible = visibilidad)"
+      -->
     </SisdaiMapaCapas>
   </SisdaiMapa>
 </template>

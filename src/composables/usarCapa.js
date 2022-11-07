@@ -1,6 +1,7 @@
 import usarRegistroCapas from './usarRegistroCapas'
 
 import { idAleatorio } from './../utiles'
+import { alternarVisibilidadCapa } from './utiles'
 import { toRefs, watch } from 'vue'
 
 export const props = {
@@ -106,11 +107,7 @@ export default function usarCapa(propsRefs, emit) {
   }
 
   function alternarVisibilidad(estado = undefined) {
-    if (estado === undefined) {
-      capas[idValida].setVisible(!capas[idValida].getVisible())
-    } else {
-      capas[idValida].setVisible(estado)
-    }
+    alternarVisibilidadCapa(capas[idValida], estado)
   }
 
   return {

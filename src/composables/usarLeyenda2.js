@@ -4,8 +4,7 @@
 
 import { ref, watch } from 'vue'
 import usarRegistroCapas from './usarRegistroCapas'
-
-// import usarRegistroCapas from './usarRegistroCapas'
+import { alternarVisibilidadCapa as _alternarVisibilidadCapa } from './utiles'
 
 export const props = {
   /**
@@ -51,11 +50,7 @@ export default function usarLeyenda(propsRefs) {
   }
 
   function alternarVisibilidad(estado = undefined) {
-    if (estado === undefined) {
-      capas[idCapa].setVisible(!capas[idCapa].getVisible())
-    } else {
-      capas[idCapa].setVisible(estado)
-    }
+    _alternarVisibilidadCapa(capas[idCapa], estado)
   }
 
   return { vincularCapa, visibilidadCapa }
