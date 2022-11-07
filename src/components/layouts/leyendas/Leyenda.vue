@@ -12,7 +12,7 @@
 
 <script>
 import { onMounted, ref } from 'vue'
-import usarLeyenda, { props } from './../../../composables/usarLeyenda2'
+import usarLeyenda, { props } from './../../../composables/usarLeyenda'
 
 export default {
   name: 'SisdaiMapaLeyenda',

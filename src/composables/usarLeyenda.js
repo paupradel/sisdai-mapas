@@ -2,8 +2,9 @@
  * @module composables/usarLeyenda
  */
 
-import { reactive, ref, watch } from 'vue'
-import usarMapa from './usarMapa'
+import { ref, watch } from 'vue'
+import usarRegistroCapas from './usarRegistroCapas'
+import { alternarVisibilidadCapa as _alternarVisibilidadCapa } from './utiles'
 
 export const props = {
   /**
@@ -15,47 +16,47 @@ export const props = {
   },
 }
 
+/**
+ * La finalidad de este composable es acceder a las funciones del genericas de la leyenda desde
+ * diferentes componentes o composables
+ * @returns {Function} composable
+ */
 export default function usarLeyenda(propsRefs) {
-  const { olMapa } = usarMapa()
+  // const { alternarVisibilidad } = usarCapa({ id: propsRefs.para })
+  const { capas } = usarRegistroCapas()
 
-  const olCapa = ref(undefined)
+  const visibilidadCapa = ref(false)
+  watch(visibilidadCapa, alternarVisibilidad)
 
-  const capa = reactive({
-    nombre: 'Cargando...',
-  })
-
-  function enlazarCapa(capaEncontrada) {
-    if (capaEncontrada !== undefined) {
-      olCapa.value = capaEncontrada
-      console.log(capaEncontrada)
-      capa.nombre = capaEncontrada.get('nombre')
-    } else console.warn(`La capa '${propsRefs.para}' no fue encontrada`)
+  function vincularPropiedades() {
+    visibilidadCapa.value = capas[idCapa].getVisible()
   }
 
-  watch(
-    // Cuando el número de capas en el mapa cambie
-    () => olMapa.value?.getLayers().getArray().length,
-    () => {
-      const capas = olMapa.value.getLayers().getArray()
-      enlazarCapa(capas.find(capa => capa.get('id') === propsRefs.para))
-    }
-  )
+  function agregarEventos() {
+    capas[idCapa].on('change:visible', ({ target }) => {
+      visibilidadCapa.value = target.getVisible()
+    })
+  }
 
-  /**
-   * Cambiar el estado de visivilidad de la capa. Si no se define el parámetro booleano, se
-   * asignará el estado contratrio de su estado actual.
-   * @param {Boolean|undefined} estado
-   */
+  function capaNoVinculada(id) {
+    console.warn(`La capa '${id}' no fue encontrada`)
+  }
+
+  var idCapa
+  function vincularCapa() {
+    // console.log('tratando de vincular', propsRefs.para, capas)
+    if (capas[propsRefs.para] !== undefined) {
+      idCapa = propsRefs.para
+      vincularPropiedades()
+      agregarEventos()
+    } else {
+      capaNoVinculada(propsRefs.para)
+    }
+  }
+
   function alternarVisibilidad(estado = undefined) {
-    if (olCapa.value) {
-      if (estado === undefined) {
-        olCapa.value.setVisible(!olCapa.value.getVisible())
-      } else olCapa.value.setVisible(estado)
-    }
+    _alternarVisibilidadCapa(capas[idCapa], estado)
   }
 
-  return {
-    capa,
-    alternarVisibilidad,
-  }
+  return { vincularCapa, visibilidadCapa }
 }
