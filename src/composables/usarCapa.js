@@ -67,7 +67,7 @@ export default function usarCapa(propsRefs, emit) {
    *
    * Como este es un composable de Capa, se ejecutará este observasdor por cada capa que se
    * registre en el componente.
-  watch(mapaPrincipal, () => {
+  watch(olMapa, () => {
     // console.log('Mapa listo para recibir capas')
     asignarPorps()
     agregarCapa(olCapa)

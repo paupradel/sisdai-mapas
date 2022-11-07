@@ -5,7 +5,7 @@
   >
     <div
       ref="refMapa"
-      class="sisdai-mapa borde-redondeado-8"
+      class="sisdai-mapa"
       :class="{ 'icono-conacyt-visible': iconoConacytVisible }"
     />
 

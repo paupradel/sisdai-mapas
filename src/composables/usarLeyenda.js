@@ -16,7 +16,7 @@ export const props = {
 }
 
 export default function usarLeyenda(propsRefs) {
-  const { mapaPrincipal } = usarMapa()
+  const { olMapa } = usarMapa()
 
   const olCapa = ref(undefined)
 
@@ -34,9 +34,9 @@ export default function usarLeyenda(propsRefs) {
 
   watch(
     // Cuando el número de capas en el mapa cambie
-    () => mapaPrincipal.value?.getLayers().getArray().length,
+    () => olMapa.value?.getLayers().getArray().length,
     () => {
-      const capas = mapaPrincipal.value.getLayers().getArray()
+      const capas = olMapa.value.getLayers().getArray()
       enlazarCapa(capas.find(capa => capa.get('id') === propsRefs.para))
     }
   )
