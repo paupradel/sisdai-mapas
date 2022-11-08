@@ -1,5 +1,5 @@
 /**
- * @module composables/usarMapa
+ * @module composables/usarCapas
  */
 
 /**
@@ -12,7 +12,7 @@ const olCapas = {}
  * componernte desde diferentes componentes o composables de esta biblioteca.
  * @returns {Function} composable.
  */
-export default function usarRegistroCapas() {
+export default function usarCapas() {
   /**
    * Agrega todas las capas registradas en el objeto olCapas en el mapa visible.
    * @param {import("ol/Map.js").default} mapa objeto de mapa de openlayers.
@@ -63,10 +63,23 @@ export default function usarRegistroCapas() {
     }
   }
 
+  /**
+   * Agrega funciones a eventos detectables.
+   * @param {String} idCapa id de la caopa a la que se agregará el evento.
+   * @param {import("ol/ObjectEventType").Types|'change:extent'|'change:maxResolution'|'change:maxZoom'|
+   *    'change:minResolution'|'change:minZoom'|'change:opacity'|'change:visible'|'change:zIndex'} tipoEvento
+   *    tipio de evento a detectar.
+   * @param {Function} funsion función que se desencadenará al detectar el evento.
+   */
+  function agregarFuncionesPorEvento(idCapa, tipoEvento, funcion) {
+    olCapas[idCapa].on(tipoEvento, funcion)
+  }
+
   return {
     agregarTodoALMapa,
     registrar,
     alternarVisibilidadCapa,
+    agregarFuncionesPorEvento,
     capas: olCapas,
   }
 }

@@ -3,7 +3,7 @@
  */
 
 import { ref, watch } from 'vue'
-import usarRegistroCapas from './usarRegistroCapas'
+import usarRegistroCapas from './usarCapas'
 import { alternarVisibilidadCapa as _alternarVisibilidadCapa } from './utiles'
 
 export const props = {
