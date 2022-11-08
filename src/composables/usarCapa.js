@@ -2,7 +2,7 @@
  * @module composables/usarCapa
  */
 
-import usarCapas from './usarCapas'
+import usarCapasRegistradas from './usarCapasRegistradas'
 import { idAleatorio } from '../utiles'
 import { toRefs, watch } from 'vue'
 
@@ -55,7 +55,7 @@ export default function usarCapa(propsParam, emitsParam) {
     registrar: registrarCapa,
     agregarFuncionesPorEvento,
     alternarVisibilidadCapa,
-  } = usarCapas()
+  } = usarCapasRegistradas()
 
   const { nombre, visible, zIndex } = toRefs(propsParam)
   watch(visible, alternarVisibilidad)
@@ -96,7 +96,8 @@ export default function usarCapa(propsParam, emitsParam) {
   }
 
   /**
-   * @param {Boolean} estado estado que se asignará.
+   * Cambia el estado de visibilidad de la capa.
+   * @param {Boolean} estado estado visible que se asignará.
    */
   function alternarVisibilidad(estado) {
     alternarVisibilidadCapa(idValida, estado)

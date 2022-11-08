@@ -1,5 +1,5 @@
 /**
- * @module composables/usarCapas
+ * @module composables/usarCapasRegistradas
  */
 
 /**
@@ -12,7 +12,7 @@ const olCapas = {}
  * componernte desde diferentes componentes o composables de esta biblioteca.
  * @returns {Function} composable.
  */
-export default function usarCapas() {
+export default function usarCapasRegistradas() {
   /**
    * Agrega todas las capas registradas en el objeto olCapas en el mapa visible.
    * @param {import("ol/Map.js").default} mapa objeto de mapa de openlayers.

@@ -3,7 +3,7 @@
  */
 
 import { ref, readonly } from 'vue'
-import usarRegistroCapas from './usarCapas'
+import usarRegistroCapas from './usarCapasRegistradas'
 
 /**
  * Objeto que contendrá la instancia del mapa, declararlo fuera de la función composable hace que

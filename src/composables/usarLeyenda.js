@@ -3,8 +3,7 @@
  */
 
 import { ref, watch } from 'vue'
-import usarRegistroCapas from './usarCapas'
-import { alternarVisibilidadCapa as _alternarVisibilidadCapa } from './utiles'
+import usarCapasRegistradas from './usarCapasRegistradas'
 
 export const props = {
   /**
@@ -19,43 +18,64 @@ export const props = {
 /**
  * La finalidad de este composable es acceder a las funciones del genéricas de la leyenda desde
  * diferentes componentes o composables.
- * @param {Object} propsRefs props genéricos de leyenda.
+ * @param {Object} propsParam props genéricos de leyenda.
  * @returns {Function} composable.
  */
-export default function usarLeyenda(propsRefs) {
-  const { capas } = usarRegistroCapas()
+export default function usarLeyenda(propsParam) {
+  /**
+   * @property {String} idCapa id de la capa con la que se tratará de vincular la leyenda.
+   */
+  var idCapa
+  const { capas, agregarFuncionesPorEvento, alternarVisibilidadCapa } =
+    usarCapasRegistradas()
 
   const visibilidadCapa = ref(false)
   watch(visibilidadCapa, alternarVisibilidad)
 
+  /**
+   * Vimnculación de propiedades de una capa con variables reactivas que necesita la leyenda.
+   */
   function vincularPropiedades() {
     visibilidadCapa.value = capas[idCapa].getVisible()
   }
 
+  /**
+   * Agregar eventos que podrán ser escuchados por este componente.
+   */
   function agregarEventos() {
-    capas[idCapa].on('change:visible', ({ target }) => {
+    agregarFuncionesPorEvento(idCapa, 'change:visible', ({ target }) => {
       visibilidadCapa.value = target.getVisible()
     })
   }
 
+  /**
+   * En caso de que no se encuentre la capa en las capas registradas, llegar a esta funciónß.
+   * @param {String} id id de la capa con la que se trató de vincular.
+   */
   function capaNoVinculada(id) {
     console.warn(`La capa '${id}' no fue encontrada`)
   }
 
-  var idCapa
+  /**
+   * Ejecutar esta función para vincular el idCapa con alguna capa registrada.
+   */
   function vincularCapa() {
-    // console.log('tratando de vincular', propsRefs.para, capas)
-    if (capas[propsRefs.para] !== undefined) {
-      idCapa = propsRefs.para
+    // console.log('tratando de vincular', propsParam.para, capas)
+    if (capas[propsParam.para] !== undefined) {
+      idCapa = propsParam.para
       vincularPropiedades()
       agregarEventos()
     } else {
-      capaNoVinculada(propsRefs.para)
+      capaNoVinculada(propsParam.para)
     }
   }
 
-  function alternarVisibilidad(estado = undefined) {
-    _alternarVisibilidadCapa(capas[idCapa], estado)
+  /**
+   * Cambia el estado de visibilidad de la capa vinculada.
+   * @param {Boolean} estado estado visible que se asignará.
+   */
+  function alternarVisibilidad(estado) {
+    alternarVisibilidadCapa(idCapa, estado)
   }
 
   return { vincularCapa, visibilidadCapa }

@@ -23,7 +23,7 @@ export default {
     const nota = ref('Cargando...')
 
     onMounted(() => {
-      vincularCapa(props.para)
+      vincularCapa()
     })
 
     return {
