@@ -8,17 +8,19 @@ import GeoJSON from 'ol/format/GeoJSON'
 
 import usarCapaVectorial, {
   props,
+  emits,
 } from './../../../composables/usarCapaVectorial'
 
 export default {
   name: 'SisdaiCapaGeojson',
   props,
-  setup(propsRefs) {
+  emits,
+  setup(propsRefs, { emit }) {
     const { datos } = toRefs(propsRefs)
 
-    const { salvarCapaComoObjeto } = usarCapaVectorial(propsRefs)
+    const { registrar } = usarCapaVectorial(propsRefs, emit)
 
-    salvarCapaComoObjeto(
+    registrar(
       new VectorLayer({
         source: new VectorSource({
           features: new GeoJSON().readFeatures({ ...datos.value }),

@@ -13,15 +13,17 @@
         </button>
       </div>
 
+      <SisdaiMapaLeyenda :para="geojson.id" />
       <SisdaiMapaLeyenda :para="osm.id" />
     </SisdaiMapaEncabezado>
 
     <SisdaiMapaCapas>
-      <!--SisdaiCapaGeojson
-        :datos="geojson.edos"
+      <SisdaiCapaGeojson
+        :id="geojson.id"
+        :datos="geojson.datos"
         :visible="geojson.visible"
         :zIndex="geojson.zIndex"
-      /-->
+      />
 
       <SisdaiCapaXyzOsm
         :id="osm.id"
@@ -36,7 +38,7 @@
 </template>
 
 <script setup>
-// import edos from './../public/capas/sample-edos.json'
+import edos from './../public/capas/sample-edos.json'
 
 import { ref, watch } from 'vue'
 
@@ -63,4 +65,11 @@ watch(
     console.log('osm.visible cambió')
   }
 )
+
+const geojson = ref({
+  id: 'geojson-capa-id',
+  datos: edos,
+  visible: true,
+  zIndex: 1,
+})
 </script>

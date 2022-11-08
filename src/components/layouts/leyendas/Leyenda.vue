@@ -2,17 +2,17 @@
   <div>
     <input
       type="checkbox"
-      name="pruebas"
-      id="prueba1"
+      :id="idCheck"
       v-model="visibilidadCapa"
     />
-    <label for="prueba1">{{ nota }}</label>
+    <label :for="idCheck">{{ nota }}</label>
   </div>
 </template>
 
 <script>
 import { onMounted, ref } from 'vue'
 import usarLeyenda, { props } from './../../../composables/usarLeyenda'
+import { idAleatorio } from './../../../utiles'
 
 export default {
   name: 'SisdaiMapaLeyenda',
@@ -27,6 +27,7 @@ export default {
     })
 
     return {
+      idCheck: `${idAleatorio()}-${props.para}`,
       nota,
       visibilidadCapa,
     }
