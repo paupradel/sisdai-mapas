@@ -49,9 +49,24 @@ export default function usarRegistroCapas() {
     olCapas[idCapa] = capa
   }
 
+  /**
+   * Cambiar el estado de visivilidad de una capa de acuerdo con su id. Si no se define el
+   * parámetro booleano, se asignará el estado contratrio de su estado actual.
+   * @param {String} idCapa capa de OpenLayers.
+   * @param {Boolean|undefined} estado prendido/apagado.
+   */
+  function alternarVisibilidadCapa(idCapa, estado = undefined) {
+    if (olCapas[idCapa]) {
+      if (estado === undefined) {
+        olCapas[idCapa].setVisible(!olCapas[idCapa].getVisible())
+      } else olCapas[idCapa].setVisible(estado)
+    }
+  }
+
   return {
     agregarTodoALMapa,
     registrar,
+    alternarVisibilidadCapa,
     capas: olCapas,
   }
 }

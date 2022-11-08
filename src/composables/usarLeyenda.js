@@ -8,7 +8,7 @@ import { alternarVisibilidadCapa as _alternarVisibilidadCapa } from './utiles'
 
 export const props = {
   /**
-   * Identificador de la caopa a la que se quiere enlazar el control de leyenda
+   * Identificador de la caopa a la que se quiere enlazar el control de leyenda.
    */
   para: {
     type: String,
@@ -17,12 +17,12 @@ export const props = {
 }
 
 /**
- * La finalidad de este composable es acceder a las funciones del genericas de la leyenda desde
- * diferentes componentes o composables
- * @returns {Function} composable
+ * La finalidad de este composable es acceder a las funciones del genéricas de la leyenda desde
+ * diferentes componentes o composables.
+ * @param {Object} propsRefs props genéricos de leyenda.
+ * @returns {Function} composable.
  */
 export default function usarLeyenda(propsRefs) {
-  // const { alternarVisibilidad } = usarCapa({ id: propsRefs.para })
   const { capas } = usarRegistroCapas()
 
   const visibilidadCapa = ref(false)

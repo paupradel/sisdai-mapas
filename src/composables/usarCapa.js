@@ -1,7 +1,6 @@
 import usarRegistroCapas from './usarRegistroCapas'
 
 import { idAleatorio } from './../utiles'
-import { alternarVisibilidadCapa } from './utiles'
 import { toRefs, watch } from 'vue'
 
 export const props = {
@@ -30,7 +29,8 @@ export const props = {
   },
 
   /**
-   *
+   * Nivel de jerarquía visible en la lista de capas, cuanto más alto el número más arriba estará
+   * la capa de otras.
    */
   zIndex: {
     type: Number,
@@ -40,22 +40,19 @@ export const props = {
 
 export const emits = ['al-cambiar-visibilidad']
 
+/**
+ * La finalidad de este composable es acceder a las funciones del genéricas de la capa desde
+ * diferentes componentes o composables.
+ * @param {Object} propsRefs props genéricos de capa.
+ * @param {Object} emit emits genéricos de capa.
+ * @returns {Function} composable.
+ */
 export default function usarCapa(propsRefs, emit) {
-  // let olCapa = undefined
+  const { registrar: registrarCapa, alternarVisibilidadCapa } =
+    usarRegistroCapas()
+
   const { nombre, visible, zIndex } = toRefs(propsRefs)
   watch(visible, alternarVisibilidad)
-
-  const { registrar: registrarCapa, capas } = usarRegistroCapas()
-
-  /**
-   *
-  watch(zIndex, nuevoValor => {
-    if (capas[idValida] && capas[idValida].getZIndex() !== nuevoValor) {
-      // console.log('el zIndex ha cambiado', nuevoValor)
-      capas[idValida].setZIndex(nuevoValor)
-    }
-  })
-   */
 
   /**
    * Asigna un identificador aleatorio en caso de que no se asigne.
@@ -63,28 +60,8 @@ export default function usarCapa(propsRefs, emit) {
   const idValida = propsRefs.id === '_default_' ? idAleatorio() : propsRefs.id
 
   /**
-   * @DEPRECATED
-   * Observador que verifica cuando la instancia del mapa está lista para para agregar capas.
-   *
-   * Como este es un composable de Capa, se ejecutará este observasdor por cada capa que se
-   * registre en el componente.
-  watch(olMapa, () => {
-    // console.log('Mapa listo para recibir capas')
-    asignarPorps()
-    agregarCapa(olCapa)
-  })
-   */
-
-  /**
-   * @DEPRECATED
-   * @param {*} capaObjeto
-  function salvarCapaComoObjeto(capaObjeto) {
-    olCapa = capaObjeto
-  }
-   */
-
-  /**
-   *
+   * Agrega los porps al objeto y propiedades de la capa.
+   * @param {import("ol/layer/Layer.js").default} capa objeto de capa de openlayers.
    */
   function asignarPorps(capa) {
     capa.set('id', idValida)
@@ -94,20 +71,31 @@ export default function usarCapa(propsRefs, emit) {
     // console.log('asignarProps', zIndex)
   }
 
+  /**
+   * Agregar eventos que podrán ser escuchados por este componente.
+   * @param {import("ol/layer/Layer.js").default} capa objeto de capa de openlayers.
+   */
   function agregarEventos(capa) {
     capa.on('change:visible', ({ target }) => {
       emit('al-cambiar-visibilidad', target.getVisible())
     })
   }
 
+  /**
+   * Prepara la cap y la registra en el composable de capas.
+   * @param {import("ol/layer/Layer.js").default} capa objeto de capa de openlayers.
+   */
   function registrar(capa) {
     asignarPorps(capa)
     agregarEventos(capa)
     registrarCapa(capa)
   }
 
-  function alternarVisibilidad(estado = undefined) {
-    alternarVisibilidadCapa(capas[idValida], estado)
+  /**
+   * @param {Boolean} estado estado que se asignará.
+   */
+  function alternarVisibilidad(estado) {
+    alternarVisibilidadCapa(idValida, estado)
   }
 
   return {
