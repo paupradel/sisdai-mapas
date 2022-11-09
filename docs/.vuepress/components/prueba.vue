@@ -76,6 +76,7 @@
       <SisdaiCapaXyz
         :id="xyz.id"
         :nombre="xyz.nombre"
+        :url="xyz.url"
         :visible="xyz.visible"
         :zIndex="xyz.zIndex"
       />
@@ -127,8 +128,9 @@ const geojson = ref({
 
 const xyz = ref({
   id: 'xyz-capa-id',
-  nombre: 'Capa de XYZ',
-  visible: true,
+  nombre: 'Capa XYZ de calles',
+  url: 'https://mt1.google.com/vt/lyrs=h&x={x}&y={y}&z={z}',
+  visible: false,
   zIndex: 2,
 })
 </script>
