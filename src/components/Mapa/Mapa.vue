@@ -22,6 +22,7 @@ import { onMounted, ref, toRefs, watch } from 'vue'
 import Map from 'ol/Map'
 import View from 'ol/View'
 import AttributionControl from 'ol/control/Attribution'
+import ScaleLine from 'ol/control/ScaleLine'
 import 'ol/ol.css'
 
 import BotonConacyt from './../layouts/BotonConacyt'
@@ -84,6 +85,9 @@ export default {
             }),
             new AttributionControl({
               collapsible: false,
+            }),
+            new ScaleLine({
+              units: 'metric',
             }),
           ],
         })

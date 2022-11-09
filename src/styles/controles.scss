@@ -1,19 +1,28 @@
+$margen: 12px;
+
 .sisdai-mapa-control {
   position: absolute;
   display: flex;
   flex-direction: column;
-  margin: 12px;
+  margin: $margen;
 
   &-zoom {
     > button {
       margin: 0;
       &:not(:last-child) {
-        margin-bottom: 6px;
+        margin-bottom: calc($margen / 2);
       }
     }
   }
 
   &-vista-inicial {
     bottom: 0;
+  }
+}
+
+.ol-viewport {
+  .ol-scale-line {
+    bottom: $margen;
+    left: calc(34px + $margen * 2);
   }
 }
