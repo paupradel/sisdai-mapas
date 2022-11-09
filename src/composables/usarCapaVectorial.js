@@ -1,11 +1,13 @@
-// import {  } from 'vue'
+/**
+ * @module composables/usarCapaVectorial
+ */
 
 import {
   DEFAULT_FILL_COLOR,
   DEFAULT_STROKE_COLOR,
   DEFAULT_RADIUS,
 } from './../defaults/estiloCapa'
-import usarCapa, { props as propsCapa } from './usarCapa'
+import usarCapa, { props as propsCapa, emits as emitsCapa } from './usarCapa'
 
 export const props = {
   /**
@@ -54,10 +56,12 @@ export const props = {
   ...propsCapa,
 }
 
-export default function usarCapaVectorial(propsRefs) {
+export const emits = [...emitsCapa]
+
+export default function usarCapaVectorial(propsParam, emitsParam) {
   // function asignarEstilo(params) {}
 
   return {
-    ...usarCapa(propsRefs),
+    ...usarCapa(propsParam, emitsParam),
   }
 }
