@@ -6,14 +6,36 @@
     :zoom="mapa.zoom"
   >
     <SisdaiMapaEncabezado>
-      <div>
-        Hola este es el encabezado
-        <button @click="osm.visible = !osm.visible">
+      <div class="iline">
+        GeoJSON
+        <button
+          class="boton-secundario boton-chico"
+          @click="geojson.visible = !geojson.visible"
+        >
+          {{ geojson.visible ? 'apagar' : 'prender' }}
+        </button>
+        <input
+          type="text"
+          v-model="geojson.nombre"
+        />
+      </div>
+      <SisdaiMapaLeyenda :para="geojson.id" />
+
+      <hr />
+
+      <div class="iline">
+        OSM
+        <button
+          class="boton-secundario boton-chico"
+          @click="osm.visible = !osm.visible"
+        >
           {{ osm.visible ? 'apagar' : 'prender' }}
         </button>
+        <input
+          type="text"
+          v-model="osm.nombre"
+        />
       </div>
-
-      <SisdaiMapaLeyenda :para="geojson.id" />
       <SisdaiMapaLeyenda :para="osm.id" />
     </SisdaiMapaEncabezado>
 
@@ -21,12 +43,14 @@
       <SisdaiCapaGeojson
         :id="geojson.id"
         :datos="geojson.datos"
+        :nombre="geojson.nombre"
         :visible="geojson.visible"
         :zIndex="geojson.zIndex"
       />
 
       <SisdaiCapaXyzOsm
         :id="osm.id"
+        :nombre="osm.nombre"
         :visible="osm.visible"
         :zIndex="osm.zIndex"
       />
@@ -55,6 +79,7 @@ const mapa = {
 
 const osm = ref({
   id: 'osm-capa-id',
+  nombre: 'Capa de OpenStreetMap',
   visible: true,
   zIndex: 0,
 })
@@ -69,7 +94,17 @@ watch(
 const geojson = ref({
   id: 'geojson-capa-id',
   datos: edos,
+  nombre: 'Capa de Vectorial GeoJSON',
   visible: true,
   zIndex: 1,
 })
 </script>
+
+<style lang="scss">
+.iline {
+  display: flex;
+  input[type='text'] {
+    margin: 0 !important;
+  }
+}
+</style>
