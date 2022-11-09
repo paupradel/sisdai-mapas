@@ -3,12 +3,13 @@
  */
 
 import { ref, readonly } from 'vue'
+import usarRegistroCapas from './usarCapasRegistradas'
 
 /**
  * Objeto que contendrá la instancia del mapa, declararlo fuera de la función composable hace que
  * no se genere una nueva variable del mapa cada que se utilice el composable
  */
-const mapaPrincipal = ref(undefined)
+const olMapa = ref(undefined)
 
 /**
  * Uso del mapa, la finalidad de este composable es acceder al mapa desde diferentes componentes
@@ -16,13 +17,16 @@ const mapaPrincipal = ref(undefined)
  * @returns {Function} composable
  */
 export default function usarMapa() {
+  const { agregarTodoALMapa: agregarCapasRegistradas } = usarRegistroCapas()
+
   /**
    * Guarda el objeto del mapa en una variable reactiva.
    * @param {import("ol/Map.js").default} mapaInstanciado
    */
   function salvarInstancia(mapaInstanciado) {
     // console.log('hola desde el composable del mapa', mapaInstanciado)
-    mapaPrincipal.value = mapaInstanciado
+    agregarCapasRegistradas(mapaInstanciado)
+    olMapa.value = mapaInstanciado
   }
 
   /**
@@ -30,8 +34,8 @@ export default function usarMapa() {
    * @param {Number} centro nueva coordenada centrica
    */
   function cambiarCentro(centro) {
-    if (mapaPrincipal.value) {
-      mapaPrincipal.value.getView().setCenter(centro)
+    if (olMapa.value) {
+      olMapa.value.getView().setCenter(centro)
     }
   }
 
@@ -40,18 +44,8 @@ export default function usarMapa() {
    * @param {Number} zoom nuevo bnivel de zoom
    */
   function cambiarZoom(zoom) {
-    if (mapaPrincipal.value) {
-      mapaPrincipal.value.getView().setZoom(zoom)
-    }
-  }
-
-  /**
-   * Agrega una capa a la vista del mapa
-   * @param {import("ol/layer/Layer.js").default} olCapa capa de OpenLayers
-   */
-  function agregarCapa(olCapa) {
-    if (mapaPrincipal.value) {
-      mapaPrincipal.value.addLayer(olCapa)
+    if (olMapa.value) {
+      olMapa.value.getView().setZoom(zoom)
     }
   }
 
@@ -61,8 +55,8 @@ export default function usarMapa() {
    * @returns {import("ol/control/Control.js").default|undefined} Control
    */
   function extraerControl(nombreDelControl) {
-    if (mapaPrincipal.value) {
-      return mapaPrincipal.value
+    if (olMapa.value) {
+      return olMapa.value
         .getControls()
         .getArray()
         .find(control => control.nombre === nombreDelControl)
@@ -70,11 +64,10 @@ export default function usarMapa() {
   }
 
   return {
-    mapaPrincipal: readonly(mapaPrincipal),
+    olMapa: readonly(olMapa),
     salvarInstancia,
     cambiarZoom,
     cambiarCentro,
-    agregarCapa,
     extraerControl,
   }
 }

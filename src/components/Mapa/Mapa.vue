@@ -5,7 +5,7 @@
   >
     <div
       ref="refMapa"
-      class="sisdai-mapa borde-redondeado-8"
+      class="sisdai-mapa"
       :class="{ 'icono-conacyt-visible': iconoConacytVisible }"
     />
 
@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import { ref, toRefs, watch } from 'vue'
+import { onMounted, ref, toRefs, watch } from 'vue'
 
 import Map from 'ol/Map'
 import View from 'ol/View'
@@ -51,7 +51,6 @@ export default {
      * Referencia al elemento html contenedor del mapa
      */
     const refMapa = ref(null)
-    watch(refMapa, crearMapa)
 
     const { proyeccion } = props // Props no reactivos
     const { centro, extension, iconoConacytVisible, tema, zoom } = toRefs(props) // Props reactivos
@@ -90,6 +89,13 @@ export default {
         })
       )
     }
+
+    /**
+     * Instanciar el mapa en cuanto el html esté montado
+     */
+    onMounted(() => {
+      crearMapa(refMapa.value)
+    })
 
     /**
      * Cambiar la extension, esto proboca que el mapa ajuste la vista con la extención actual
