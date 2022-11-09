@@ -7,6 +7,23 @@
   >
     <SisdaiMapaEncabezado>
       <div class="iline">
+        OSM:
+        <button
+          class="boton-secundario boton-chico"
+          @click="osm.visible = !osm.visible"
+        >
+          {{ osm.visible ? 'Apagar' : 'Prender' }}
+        </button>
+        <input
+          type="text"
+          v-model="osm.nombre"
+        />
+      </div>
+      <SisdaiMapaLeyenda :para="osm.id" />
+
+      <hr />
+
+      <div class="iline">
         GeoJSON:
         <button
           class="boton-secundario boton-chico"
@@ -24,19 +41,19 @@
       <hr />
 
       <div class="iline">
-        OSM:
+        XYZ:
         <button
           class="boton-secundario boton-chico"
-          @click="osm.visible = !osm.visible"
+          @click="xyz.visible = !xyz.visible"
         >
-          {{ osm.visible ? 'Apagar' : 'Prender' }}
+          {{ xyz.visible ? 'Apagar' : 'Prender' }}
         </button>
         <input
           type="text"
-          v-model="osm.nombre"
+          v-model="xyz.nombre"
         />
       </div>
-      <SisdaiMapaLeyenda :para="osm.id" />
+      <SisdaiMapaLeyenda :para="xyz.id" />
     </SisdaiMapaEncabezado>
 
     <SisdaiMapaCapas>
@@ -54,6 +71,13 @@
         :visible="osm.visible"
         :zIndex="osm.zIndex"
         @al-cambiar-visibilidad="alCambiarVisibilidad"
+      />
+
+      <SisdaiCapaXyz
+        :id="xyz.id"
+        :nombre="xyz.nombre"
+        :visible="xyz.visible"
+        :zIndex="xyz.zIndex"
       />
     </SisdaiMapaCapas>
   </SisdaiMapa>
@@ -99,6 +123,13 @@ const geojson = ref({
   nombre: 'Capa de Vectorial GeoJSON',
   visible: true,
   zIndex: 1,
+})
+
+const xyz = ref({
+  id: 'xyz-capa-id',
+  nombre: 'Capa de XYZ',
+  visible: true,
+  zIndex: 2,
 })
 </script>
 
