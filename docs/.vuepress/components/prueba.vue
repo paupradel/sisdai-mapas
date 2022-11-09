@@ -36,7 +36,7 @@
         />
       </div>
 
-      <hr>
+      <hr />
 
       <SisdaiMapaLeyenda :para="osm.id" />
       <SisdaiMapaLeyenda :para="geojson.id" />
