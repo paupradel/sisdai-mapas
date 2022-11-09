@@ -2,10 +2,13 @@
  * @module composables/usarCapasRegistradas
  */
 
+import { ref, watch } from 'vue'
+
 /**
  * Objeto de objetos de capas de openlayers, los leys de cada objeto debe ser el id de cada capa.
  */
 const olCapas = {}
+const capasRegistradas = {}
 
 /**
  * La finalidad de este composable es acceder al a las capas usadan en cada intsncia del
@@ -14,13 +17,13 @@ const olCapas = {}
  */
 export default function usarCapasRegistradas() {
   /**
-   * Agrega todas las capas registradas en el objeto olCapas en el mapa visible.
+   * Agrega todas las capas registradas en el objeto capasRegistradas al mapa visible.
    * @param {import("ol/Map.js").default} mapa objeto de mapa de openlayers.
    */
   function agregarTodoALMapa(mapa) {
-    for (const idCapa in olCapas) {
-      if (olCapas[idCapa]) {
-        mapa.addLayer(olCapas[idCapa])
+    for (const idCapa in capasRegistradas) {
+      if (capasRegistradas[idCapa]) {
+        mapa.addLayer(capasRegistradas[idCapa].value)
       }
     }
   }
@@ -31,7 +34,7 @@ export default function usarCapasRegistradas() {
    * @returns {Boolean}
    */
   function laCapaYaExiste(idCapa) {
-    if (olCapas[idCapa] !== undefined) {
+    if (capasRegistradas[idCapa] !== undefined) {
       console.warn('¡La capa ya existe!')
       return true
     }
@@ -47,7 +50,10 @@ export default function usarCapasRegistradas() {
     if (laCapaYaExiste(idCapa)) return
 
     olCapas[idCapa] = capa
+    capasRegistradas[idCapa] = ref(capa)
   }
+
+  /****  */
 
   /**
    * Cambiar el estado de visivilidad de una capa de acuerdo con su id. Si no se define el
@@ -63,6 +69,10 @@ export default function usarCapasRegistradas() {
     }
   }
 
+  function cambiarNombreCapa(id, nuevoNombre) {
+    olCapas[id].set('nombre', nuevoNombre)
+  }
+
   /**
    * Agrega funciones a eventos detectables.
    * @param {String} idCapa id de la caopa a la que se agregará el evento.
@@ -75,11 +85,46 @@ export default function usarCapasRegistradas() {
     olCapas[idCapa].on(tipoEvento, funcion)
   }
 
+  function usarCapa(idCapa) {
+    const capa = () => capasRegistradas[idCapa].value
+
+    const visibilidad = ref(capa().getVisible())
+    function alternarVisibilidad(estado = undefined) {
+      if (estado === undefined) {
+        estado = !capa().getVisible()
+      }
+      capa().setVisible(estado)
+    }
+    watch(
+      () => capa().values_.visible,
+      nuevoValor => (visibilidad.value = nuevoValor)
+    )
+    watch(visibilidad, alternarVisibilidad)
+
+    const nombre = ref(capa().get('nombre'))
+    function cambiarNombre(nuevoNombre) {
+      capa().set('nombre', nuevoNombre)
+    }
+    watch(
+      () => capa().values_.nombre,
+      nuevoValor => (nombre.value = nuevoValor)
+    )
+
+    return {
+      alternarVisibilidad,
+      visibilidad,
+      cambiarNombre,
+      nombre,
+    }
+  }
+
   return {
     agregarTodoALMapa,
     registrar,
     alternarVisibilidadCapa,
     agregarFuncionesPorEvento,
     capas: olCapas,
+    cambiarNombreCapa,
+    usarCapa,
   }
 }
