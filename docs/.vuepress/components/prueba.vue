@@ -41,6 +41,7 @@
       <SisdaiMapaLeyenda :para="osm.id" />
       <SisdaiMapaLeyenda :para="geojson.id" />
       <SisdaiMapaLeyenda :para="xyz.id" />
+      <SisdaiMapaLeyenda :para="wms.id" />
     </SisdaiMapaEncabezado>
 
     <SisdaiMapaCapas>
