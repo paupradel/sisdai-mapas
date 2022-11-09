@@ -29,7 +29,7 @@ export default function usarCapasRegistradas() {
   }
 
   /**
-   * Devuelve verdadero si la capa ya se encuentra dentro del objeto olCapas
+   * Devuelve verdadero si la capa ya se encuentra dentro del objeto capasRegistradas.
    * @param {String} idCapa identificador único de la capa.
    * @returns {Boolean}
    */
@@ -45,32 +45,12 @@ export default function usarCapasRegistradas() {
    * Agrega la capa en el listado de capas disponibles para usarse.
    * @param {import("ol/layer/Layer.js").default} capa objeo de capa de OpenLayers.
    */
-  function registrar(capa) {
+  function registrarNuevaCapa(capa) {
     const idCapa = capa.get('id')
     if (laCapaYaExiste(idCapa)) return
 
     olCapas[idCapa] = capa
     capasRegistradas[idCapa] = ref(capa)
-  }
-
-  /****  */
-
-  /**
-   * Cambiar el estado de visivilidad de una capa de acuerdo con su id. Si no se define el
-   * parámetro booleano, se asignará el estado contratrio de su estado actual.
-   * @param {String} idCapa capa de OpenLayers.
-   * @param {Boolean|undefined} estado prendido/apagado.
-   */
-  function alternarVisibilidadCapa(idCapa, estado = undefined) {
-    if (olCapas[idCapa]) {
-      if (estado === undefined) {
-        olCapas[idCapa].setVisible(!olCapas[idCapa].getVisible())
-      } else olCapas[idCapa].setVisible(estado)
-    }
-  }
-
-  function cambiarNombreCapa(id, nuevoNombre) {
-    olCapas[id].set('nombre', nuevoNombre)
   }
 
   /**
@@ -80,19 +60,24 @@ export default function usarCapasRegistradas() {
    *    'change:minResolution'|'change:minZoom'|'change:opacity'|'change:visible'|'change:zIndex'} tipoEvento
    *    tipio de evento a detectar.
    * @param {Function} funsion función que se desencadenará al detectar el evento.
+   function agregarFuncionesPorEvento(idCapa, tipoEvento, funcion) {
+     olCapas[idCapa].on(tipoEvento, funcion)
+    }
    */
-  function agregarFuncionesPorEvento(idCapa, tipoEvento, funcion) {
-    olCapas[idCapa].on(tipoEvento, funcion)
-  }
 
-  function usarCapa(idCapa) {
+  function vincularCapa(idCapa) {
     const capa = () => capasRegistradas[idCapa].value
 
     const visibilidad = ref(capa().getVisible())
+    const nombre = ref(capa().get('nombre'))
+
+    /**
+     * Cambiar el estado de visivilidad de una capa de acuerdo con su id. Si no se define el
+     * parámetro booleano, se asignará el estado contratrio de su estado actual.
+     * @param {Boolean|undefined} estado prendido/apagado.
+     */
     function alternarVisibilidad(estado = undefined) {
-      if (estado === undefined) {
-        estado = !capa().getVisible()
-      }
+      if (estado === undefined) estado = !capa().getVisible()
       capa().setVisible(estado)
     }
     watch(
@@ -101,7 +86,6 @@ export default function usarCapasRegistradas() {
     )
     watch(visibilidad, alternarVisibilidad)
 
-    const nombre = ref(capa().get('nombre'))
     function cambiarNombre(nuevoNombre) {
       capa().set('nombre', nuevoNombre)
     }
@@ -120,11 +104,7 @@ export default function usarCapasRegistradas() {
 
   return {
     agregarTodoALMapa,
-    registrar,
-    alternarVisibilidadCapa,
-    agregarFuncionesPorEvento,
-    capas: olCapas,
-    cambiarNombreCapa,
-    usarCapa,
+    registrarNuevaCapa,
+    vincularCapa,
   }
 }

@@ -22,61 +22,33 @@ export const props = {
  * @returns {Function} composable.
  */
 export default function usarLeyenda(propsParam) {
-  /**
-   * @property {String} idCapa id de la capa con la que se tratará de vincular la leyenda.
-   */
-  var idCapa
-  const { capas, agregarFuncionesPorEvento, alternarVisibilidadCapa } =
-    usarCapasRegistradas()
-
   const visibilidadCapa = ref(false)
-  watch(visibilidadCapa, alternarVisibilidad)
-
-  /**
-   * Vimnculación de propiedades de una capa con variables reactivas que necesita la leyenda.
-   */
-  function vincularPropiedades() {
-    visibilidadCapa.value = capas[idCapa].getVisible()
-  }
-
-  /**
-   * Agregar eventos que podrán ser escuchados por este componente.
-   */
-  function agregarEventos() {
-    agregarFuncionesPorEvento(idCapa, 'change:visible', ({ target }) => {
-      visibilidadCapa.value = target.getVisible()
-    })
-  }
+  const nombreCapa = ref('Cargando...')
 
   /**
    * En caso de que no se encuentre la capa en las capas registradas, llegar a esta funciónß.
    * @param {String} id id de la capa con la que se trató de vincular.
+   function capaNoVinculada(id) {
+     console.warn(`La capa '${id}' no fue encontrada`)
+    }
    */
-  function capaNoVinculada(id) {
-    console.warn(`La capa '${id}' no fue encontrada`)
-  }
 
   /**
    * Ejecutar esta función para vincular el idCapa con alguna capa registrada.
    */
   function vincularCapa() {
-    // console.log('tratando de vincular', propsParam.para, capas)
-    if (capas[propsParam.para] !== undefined) {
-      idCapa = propsParam.para
-      vincularPropiedades()
-      agregarEventos()
-    } else {
-      capaNoVinculada(propsParam.para)
-    }
+    // console.log('tratando de vincular', propsParam.para)
+
+    const { alternarVisibilidad, visibilidad, nombre } =
+      usarCapasRegistradas().vincularCapa(propsParam.para)
+
+    visibilidadCapa.value = visibilidad.value
+    watch(visibilidad, nuevoValor => (visibilidadCapa.value = nuevoValor))
+    watch(visibilidadCapa, alternarVisibilidad)
+
+    nombreCapa.value = nombre.value
+    watch(nombre, nuevoValor => (nombreCapa.value = nuevoValor))
   }
 
-  /**
-   * Cambia el estado de visibilidad de la capa vinculada.
-   * @param {Boolean} estado estado visible que se asignará.
-   */
-  function alternarVisibilidad(estado) {
-    alternarVisibilidadCapa(idCapa, estado)
-  }
-
-  return { vincularCapa, visibilidadCapa }
+  return { vincularCapa, visibilidadCapa, nombreCapa }
 }

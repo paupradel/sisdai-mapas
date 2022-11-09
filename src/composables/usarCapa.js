@@ -51,14 +51,9 @@ export const emits = ['al-cambiar-visibilidad']
  * @returns {Function} composable.
  */
 export default function usarCapa(propsParam, emitsParam) {
-  const {
-    registrar: registrarCapa,
-    agregarFuncionesPorEvento,
-    alternarVisibilidadCapa,
-  } = usarCapasRegistradas()
+  const { registrarNuevaCapa, vincularCapa } = usarCapasRegistradas()
 
   const { nombre, visible, zIndex } = toRefs(propsParam)
-  watch(visible, alternarVisibilidad)
 
   /**
    * Asigna un identificador aleatorio en caso de que no se asigne.
@@ -67,44 +62,36 @@ export default function usarCapa(propsParam, emitsParam) {
 
   /**
    * Agrega los porps al objeto y propiedades de la capa.
-   * @param {import("ol/layer/Layer.js").default} capa objeto de capa de openlayers.
+   * @param {import("ol/layer/Layer.js").default} olCapa objeto de capa de openlayers.
    */
-  function asignarPorps(capa) {
-    capa.set('id', idValida)
-    capa.set('nombre', nombre.value)
-    capa.setVisible(visible.value)
-    capa.setZIndex(zIndex.value)
-  }
-
-  /**
-   * Agregar eventos que podrán ser escuchados por este componente.
-   */
-  function agregarEventos() {
-    agregarFuncionesPorEvento(idValida, 'change:visible', ({ target }) => {
-      emitsParam('al-cambiar-visibilidad', target.getVisible())
-    })
+  function asignarPorps(olCapa) {
+    olCapa.set('id', idValida)
+    olCapa.set('nombre', nombre.value)
+    olCapa.setVisible(visible.value)
+    olCapa.setZIndex(zIndex.value)
   }
 
   /**
    * Prepara la cap y la registra en el composable de capas.
-   * @param {import("ol/layer/Layer.js").default} capa objeto de capa de openlayers.
+   * @param {import("ol/layer/Layer.js").default} olCapa objeto de capa de openlayers.
    */
-  function registrar(capa) {
-    asignarPorps(capa)
-    registrarCapa(capa)
-    agregarEventos()
-  }
+  function registrar(olCapa) {
+    asignarPorps(olCapa)
+    registrarNuevaCapa(olCapa)
+    // agregarEventos()
 
-  /**
-   * Cambia el estado de visibilidad de la capa.
-   * @param {Boolean} estado estado visible que se asignará.
-   */
-  function alternarVisibilidad(estado) {
-    alternarVisibilidadCapa(idValida, estado)
+    const { visibilidad, alternarVisibilidad, cambiarNombre } =
+      vincularCapa(idValida)
+
+    watch(visible, alternarVisibilidad)
+    watch(visibilidad, nuevoValor =>
+      emitsParam('al-cambiar-visibilidad', nuevoValor)
+    )
+
+    watch(nombre, cambiarNombre)
   }
 
   return {
     registrar,
-    alternarVisibilidad,
   }
 }

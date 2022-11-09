@@ -5,12 +5,12 @@
       :id="idCheck"
       v-model="visibilidadCapa"
     />
-    <label :for="idCheck">{{ nota }}</label>
+    <label :for="idCheck">{{ nombreCapa }}</label>
   </div>
 </template>
 
 <script>
-import { onMounted, ref } from 'vue'
+import { onMounted } from 'vue'
 import usarLeyenda, { props } from './../../../composables/usarLeyenda'
 import { idAleatorio } from './../../../utiles'
 
@@ -18,9 +18,8 @@ export default {
   name: 'SisdaiMapaLeyenda',
   props,
   setup(propsSetup) {
-    const { vincularCapa, visibilidadCapa } = usarLeyenda(propsSetup)
-
-    const nota = ref('Cargando...')
+    const { vincularCapa, visibilidadCapa, nombreCapa } =
+      usarLeyenda(propsSetup)
 
     onMounted(() => {
       vincularCapa()
@@ -28,8 +27,8 @@ export default {
 
     return {
       idCheck: `${idAleatorio()}-${props.para}`,
-      nota,
       visibilidadCapa,
+      nombreCapa,
     }
   },
 }

@@ -18,9 +18,7 @@ export default {
   setup(propsRefs, { emit }) {
     const { datos } = toRefs(propsRefs)
 
-    const { registrar } = usarCapaVectorial(propsRefs, emit)
-
-    registrar(
+    usarCapaVectorial(propsRefs, emit).registrar(
       new VectorLayer({
         source: new VectorSource({
           features: new GeoJSON().readFeatures({ ...datos.value }),

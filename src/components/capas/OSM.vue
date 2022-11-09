@@ -9,9 +9,7 @@ export default {
   props,
   emits,
   setup(propsSetup, { emit }) {
-    const { registrar } = usarCapa(propsSetup, emit)
-
-    registrar(
+    usarCapa(propsSetup, emit).registrar(
       new TileLayer({
         source: new OSM(),
         // className: this.className,

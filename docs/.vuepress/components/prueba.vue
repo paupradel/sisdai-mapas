@@ -7,12 +7,12 @@
   >
     <SisdaiMapaEncabezado>
       <div class="iline">
-        GeoJSON
+        GeoJSON:
         <button
           class="boton-secundario boton-chico"
           @click="geojson.visible = !geojson.visible"
         >
-          {{ geojson.visible ? 'apagar' : 'prender' }}
+          {{ geojson.visible ? 'Apagar' : 'Prender' }}
         </button>
         <input
           type="text"
@@ -24,12 +24,12 @@
       <hr />
 
       <div class="iline">
-        OSM
+        OSM:
         <button
           class="boton-secundario boton-chico"
           @click="osm.visible = !osm.visible"
         >
-          {{ osm.visible ? 'apagar' : 'prender' }}
+          {{ osm.visible ? 'Apagar' : 'Prender' }}
         </button>
         <input
           type="text"
@@ -53,10 +53,8 @@
         :nombre="osm.nombre"
         :visible="osm.visible"
         :zIndex="osm.zIndex"
+        @al-cambiar-visibilidad="alCambiarVisibilidad"
       />
-      <!--
-        @al-cambiar-visibilidad="visibilidad => (osm.visible = visibilidad)"
-      -->
     </SisdaiMapaCapas>
   </SisdaiMapa>
 </template>
@@ -90,6 +88,10 @@ watch(
     console.log('osm.visible cambió')
   }
 )
+
+function alCambiarVisibilidad(params) {
+  console.log('emit detectado')
+}
 
 const geojson = ref({
   id: 'geojson-capa-id',
