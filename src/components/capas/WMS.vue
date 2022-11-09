@@ -6,7 +6,7 @@ import usarCapa, { props, emits } from '../../composables/usarCapa'
 import { toRefs } from 'vue'
 
 export default {
-  name: 'SisdaiCapaWMS',
+  name: 'SisdaiCapaWms',
   props: {
     /**
      * Url del servicio wms.

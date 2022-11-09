@@ -80,6 +80,15 @@
         :visible="xyz.visible"
         :zIndex="xyz.zIndex"
       />
+
+      <SisdaiCapaWms
+        :id="wms.id"
+        :nombre="wms.nombre"
+        :parametros="wms.parametros"
+        :url="wms.url"
+        :visible="wms.visible"
+        :zIndex="wms.zIndex"
+      />
     </SisdaiMapaCapas>
   </SisdaiMapa>
 </template>
@@ -121,7 +130,7 @@ function alCambiarVisibilidad(params) {
 const geojson = ref({
   id: 'geojson-capa-id',
   datos: edos,
-  nombre: 'Capa de Vectorial GeoJSON',
+  nombre: 'Capa Vectorial GeoJSON',
   visible: true,
   zIndex: 1,
 })
@@ -131,6 +140,15 @@ const xyz = ref({
   nombre: 'Capa XYZ de calles',
   url: 'https://mt1.google.com/vt/lyrs=h&x={x}&y={y}&z={z}',
   visible: false,
+  zIndex: 3,
+})
+
+const wms = ref({
+  id: 'wms-capa-id',
+  nombre: 'Capa WMS de estados',
+  parametros: { LAYERS: 'estados_inegi_2019' },
+  url: 'https://geo.crip.conacyt.mx/geoserver/estados_inegi_2019/wms',
+  visible: true,
   zIndex: 2,
 })
 </script>
