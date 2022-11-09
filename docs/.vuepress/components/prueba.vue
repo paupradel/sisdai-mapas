@@ -19,7 +19,6 @@
           v-model="osm.nombre"
         />
       </div>
-      <SisdaiMapaLeyenda :para="osm.id" />
 
       <hr />
 
@@ -36,23 +35,11 @@
           v-model="geojson.nombre"
         />
       </div>
+
+      <hr>
+
+      <SisdaiMapaLeyenda :para="osm.id" />
       <SisdaiMapaLeyenda :para="geojson.id" />
-
-      <hr />
-
-      <div class="iline">
-        XYZ:
-        <button
-          class="boton-secundario boton-chico"
-          @click="xyz.visible = !xyz.visible"
-        >
-          {{ xyz.visible ? 'Apagar' : 'Prender' }}
-        </button>
-        <input
-          type="text"
-          v-model="xyz.nombre"
-        />
-      </div>
       <SisdaiMapaLeyenda :para="xyz.id" />
     </SisdaiMapaEncabezado>
 
