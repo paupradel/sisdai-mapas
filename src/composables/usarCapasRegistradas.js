@@ -35,6 +35,7 @@ export default function usarCapasRegistradas() {
    */
   function laCapaYaExiste(idCapa) {
     if (capasRegistradas[idCapa] !== undefined) {
+      // eslint-disable-next-line
       console.warn('¡La capa ya existe!')
       return true
     }
