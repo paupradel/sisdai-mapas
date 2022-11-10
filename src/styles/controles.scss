@@ -18,13 +18,10 @@ $margen: 12px;
   &-vista-inicial {
     bottom: 0;
   }
-}
 
-.ol-viewport {
-  .ol-scale-line,
-  .ol-scale-bar {
-    bottom: $margen;
-    left: calc(34px + $margen * 2);
+  &-barra-escala {
+    bottom: 0;
+    left: calc(34px + $margen);
 
     .ol-scale-bar-inner {
       .ol-scale-step-marker {
