@@ -88,6 +88,11 @@ export default {
             }),
             new ScaleLine({
               units: 'metric',
+              bar: true,
+              steps: 4,
+              text: false,
+              minWidth: 140,
+              maxWidth: 220,
             }),
           ],
         })
