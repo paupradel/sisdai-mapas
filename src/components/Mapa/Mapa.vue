@@ -26,7 +26,7 @@ import 'ol/ol.css'
 
 import BotonConacyt from './../layouts/BotonConacyt'
 
-import ControlBarraEscala from '../../controls/barra-escala'
+import ControlBarraEscala from '../../controls/BarraEscala'
 import ControlZoomPersonalizado from '../../controls/ZoomPersonalizado'
 import ControlVistaInicial from '../../controls/VistaInicial'
 
@@ -145,11 +145,6 @@ $altura-boton-conacyt: 40px;
     // position: absolute;
     background-color: #e9e9e9;
     // padding-bottom: $altura-boton-conacyt;
-
-    /*.ol-viewport {
-      border-top-left-radius: 8px;
-      border-top-right-radius: 8px;
-    }*/
   }
 }
 </style>

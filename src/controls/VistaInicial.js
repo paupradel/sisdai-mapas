@@ -5,6 +5,10 @@
 import Control from 'ol/control/Control'
 import { crearContenedorControl, crearBotonControl } from './utiles'
 
+/**
+ * @property {String} claseCss clase del elemnto HTML del control. La clase se concatenará con la
+ * clase genérica `sisdai-mapa-control-${claseCss}`.
+ */
 const claseCss = 'vista-inicial'
 
 /**
