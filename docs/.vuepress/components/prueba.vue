@@ -1,26 +1,21 @@
 <template>
   <SisdaiMapa
     :centro="mapa.centro"
-    :iconoConacytVisible="true"
+    :escalaGrafica="mapa.escalaGrafica"
     :extension="mapa.extension"
+    :iconoConacytVisible="true"
     :zoom="mapa.zoom"
   >
     <SisdaiMapaEncabezado>
-      <div class="iline">
-        OSM:
-        <button
-          class="boton-secundario boton-chico"
-          @click="osm.visible = !osm.visible"
-        >
-          {{ osm.visible ? 'Apagar' : 'Prender' }}
-        </button>
+      Cotroles que no son del mapa
+      <div>
         <input
-          type="text"
-          v-model="osm.nombre"
+          type="checkbox"
+          id="check-escala"
+          v-model="mapa.escalaGrafica"
         />
+        <label for="check-escala">Visualizar escala</label>
       </div>
-
-      <hr />
 
       <div class="iline">
         GeoJSON:
@@ -37,7 +32,7 @@
       </div>
 
       <hr />
-
+      Controles del mapa
       <SisdaiMapaLeyenda :para="osm.id" />
       <SisdaiMapaLeyenda :para="geojson.id" />
       <SisdaiMapaLeyenda :para="xyz.id" />
@@ -90,12 +85,13 @@ const extension = [
   -118.365119934082, 14.5320978164673, -86.7104034423828, 32.7186546325684,
 ]
 
-const mapa = {
+const mapa = ref({
   centro: [-102, 24],
+  escalaGrafica: true,
   iconoConacytVisible: false,
   // extension,
   zoom: 4.5,
-}
+})
 
 const osm = ref({
   id: 'osm-capa-id',

@@ -25,13 +25,10 @@ import AttributionControl from 'ol/control/Attribution'
 import 'ol/ol.css'
 
 import BotonConacyt from './../layouts/BotonConacyt'
-
-import ControlBarraEscala from '../../controls/BarraEscala'
 import ControlZoomPersonalizado from '../../controls/ZoomPersonalizado'
 import ControlVistaInicial from '../../controls/VistaInicial'
 
-import props from './props'
-import usarMapa from '../../composables/usarMapa'
+import usarMapa, { props } from '../../composables/usarMapa'
 
 /**
  * Relleno (en píxeles) que se agregará a la extensión de la vista. Los valores en la matriz son
@@ -44,17 +41,23 @@ export default {
   name: 'SisdaiMapa',
   props,
   components: { BotonConacyt },
-  setup(props) {
-    const { salvarInstancia, cambiarZoom, cambiarCentro, extraerControl } =
-      usarMapa()
+  setup(propsSetup) {
+    const {
+      salvarInstancia,
+      cambiarZoom,
+      cambiarCentro,
+      conseguirControl,
+      alternarEscalaGrafica,
+    } = usarMapa(propsSetup)
 
     /**
      * Referencia al elemento html contenedor del mapa
      */
     const refMapa = ref(null)
 
-    const { proyeccion } = props // Props no reactivos
-    const { centro, extension, iconoConacytVisible, tema, zoom } = toRefs(props) // Props reactivos
+    const { proyeccion } = propsSetup // Props no reactivos
+    const { centro, extension, iconoConacytVisible, tema, zoom } =
+      toRefs(propsSetup) // Props reactivos
     watch(centro, cambiarCentro)
     watch(extension, cambiarExtension)
     watch(iconoConacytVisible, () => {})
@@ -86,10 +89,11 @@ export default {
             new AttributionControl({
               collapsible: false,
             }),
-            new ControlBarraEscala(),
           ],
         })
       )
+
+      alternarEscalaGrafica(propsSetup.escalaGrafica)
     }
 
     /**
@@ -105,7 +109,7 @@ export default {
      * @param {Array<Number>} extension
      */
     function cambiarExtension(nuevaExtension) {
-      const controlVistaInicial = extraerControl(ControlVistaInicial.nombre)
+      const controlVistaInicial = conseguirControl(ControlVistaInicial.nombre)
       controlVistaInicial.extension = nuevaExtension
       controlVistaInicial.reiniciarVista()
     }
