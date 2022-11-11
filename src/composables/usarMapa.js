@@ -4,6 +4,7 @@
 
 import { ref, toRefs, watch } from 'vue'
 import ControlEscalaGrafica from './../controls/EscalaGrafica'
+import ControlVistaInicial from './../controls/VistaInicial'
 import usarRegistroCapas from './usarCapasRegistradas'
 
 /**
@@ -85,7 +86,7 @@ export const props = {
  */
 export default function usarMapa(propsParam) {
   const { agregarTodoALMapa: agregarCapasRegistradas } = usarRegistroCapas()
-  const { escalaGrafica } = toRefs(propsParam)
+  const { centro, escalaGrafica, extension, zoom } = toRefs(propsParam)
 
   /**
    * Guarda el objeto del mapa en una variable reactiva.
@@ -98,6 +99,40 @@ export default function usarMapa(propsParam) {
   }
 
   /**
+   * Devuelve un control por su nombre registrado
+   * @param {String} nombreDelControl
+   * @returns {import("ol/control/Control.js").default|undefined} olControl
+   */
+  function conseguirControl(nombreDelControl) {
+    if (olMapa.value) {
+      return olMapa.value
+        .getControls()
+        .getArray()
+        .find(olControl => olControl.nombre === nombreDelControl)
+    }
+  }
+
+  /**
+   * Agrega un control de openlayers en el mapa.
+   * @param {import("ol/control/Control.js").default} olControl
+   */
+  function agregarControl(olControl) {
+    if (olMapa.value) {
+      olMapa.value.addControl(olControl)
+    }
+  }
+
+  /**
+   * Quita un control de openlayers en el mapa.
+   * @param {import("ol/control/Control.js").default} olControl
+   */
+  function removerControl(olControl) {
+    if (olMapa.value) {
+      olMapa.value.removeControl(olControl)
+    }
+  }
+
+  /**
    * Actualiza la coordenada centrica del mapa
    * @param {Number} centro nueva coordenada centrica
    */
@@ -106,6 +141,32 @@ export default function usarMapa(propsParam) {
       olMapa.value.getView().setCenter(centro)
     }
   }
+  watch(centro, cambiarCentro)
+
+  /**
+   * Quita o agrega el control de escala gáfica en el mapa dependiendo del parámetro boleano.
+   * @param {Boolean} visible
+   */
+  function alternarEscalaGrafica(visible) {
+    if (visible) {
+      agregarControl(new ControlEscalaGrafica())
+    } else {
+      removerControl(conseguirControl(ControlEscalaGrafica.nombre))
+    }
+  }
+  watch(escalaGrafica, alternarEscalaGrafica)
+
+  /**
+   * Cambiar la extension, esto proboca que el mapa ajuste la vista con la extención actual
+   * en caso de ser valida.
+   * @param {Array<Number>} extension
+   */
+  function cambiarExtension(nuevaExtension) {
+    const controlVistaInicial = conseguirControl(ControlVistaInicial.nombre)
+    controlVistaInicial.extension = nuevaExtension
+    controlVistaInicial.reiniciarVista()
+  }
+  watch(extension, cambiarExtension)
 
   /**
    * Actualiza el nivel de zoom en el mapa.
@@ -116,43 +177,10 @@ export default function usarMapa(propsParam) {
       olMapa.value.getView().setZoom(zoom)
     }
   }
-
-  /**
-   * Devuelve un control por su nombre registrado
-   * @param {String} nombreDelControl
-   * @returns {import("ol/control/Control.js").default|undefined} Control
-   */
-  function conseguirControl(nombreDelControl) {
-    if (olMapa.value) {
-      return olMapa.value
-        .getControls()
-        .getArray()
-        .find(control => control.nombre === nombreDelControl)
-    }
-  }
-
-  function agregarControl(control) {
-    olMapa.value.addControl(control)
-  }
-
-  function removerControl(control) {
-    olMapa.value.removeControl(control)
-  }
-
-  function alternarEscalaGrafica(visible) {
-    if (visible) {
-      agregarControl(new ControlEscalaGrafica())
-    } else {
-      removerControl(conseguirControl(ControlEscalaGrafica.nombre))
-    }
-  }
-  watch(escalaGrafica, alternarEscalaGrafica)
+  watch(zoom, cambiarZoom)
 
   return {
     salvarInstancia,
-    cambiarZoom,
-    cambiarCentro,
-    conseguirControl,
     alternarEscalaGrafica,
   }
 }

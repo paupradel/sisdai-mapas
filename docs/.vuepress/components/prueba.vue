@@ -2,19 +2,23 @@
   <SisdaiMapa
     :centro="mapa.centro"
     :escalaGrafica="mapa.escalaGrafica"
-    :extension="mapa.extension"
     :iconoConacytVisible="true"
     :zoom="mapa.zoom"
   >
+    <!--
+      :extension="mapa.extension"
+    -->
     <SisdaiMapaEncabezado>
       Cotroles que no son del mapa
       <div>
-        <input
-          type="checkbox"
-          id="check-escala"
-          v-model="mapa.escalaGrafica"
-        />
-        <label for="check-escala">Visualizar escala</label>
+        <span>
+          <input
+            type="checkbox"
+            id="check-escala"
+            v-model="mapa.escalaGrafica"
+          />
+          <label for="check-escala">Visualizar escala</label>
+        </span>
       </div>
 
       <div class="iline">
@@ -46,6 +50,7 @@
         :nombre="geojson.nombre"
         :visible="geojson.visible"
         :zIndex="geojson.zIndex"
+        @alCambiarVisibilidad="v => (geojson.visible = v)"
       />
 
       <SisdaiCapaXyzOsm
@@ -53,7 +58,6 @@
         :nombre="osm.nombre"
         :visible="osm.visible"
         :zIndex="osm.zIndex"
-        @al-cambiar-visibilidad="alCambiarVisibilidad"
       />
 
       <SisdaiCapaXyz
@@ -79,7 +83,7 @@
 <script setup>
 import edos from './../public/capas/sample-edos.json'
 
-import { ref, watch } from 'vue'
+import { ref } from 'vue'
 
 const extension = [
   -118.365119934082, 14.5320978164673, -86.7104034423828, 32.7186546325684,
@@ -99,17 +103,6 @@ const osm = ref({
   visible: true,
   zIndex: 0,
 })
-
-watch(
-  () => osm.value.visible,
-  () => {
-    console.log('osm.visible cambió')
-  }
-)
-
-function alCambiarVisibilidad(params) {
-  console.log('emit detectado')
-}
 
 const geojson = ref({
   id: 'geojson-capa-id',

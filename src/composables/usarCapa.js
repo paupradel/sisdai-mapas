@@ -41,7 +41,7 @@ export const props = {
   },
 }
 
-export const emits = ['al-cambiar-visibilidad']
+export const emits = ['alCambiarVisibilidad']
 
 /**
  * La finalidad de este composable es acceder a las funciones del genéricas de la capa desde
@@ -85,7 +85,7 @@ export default function usarCapa(propsParam, emitsParam) {
 
     watch(visible, alternarVisibilidad)
     watch(visibilidad, nuevoValor =>
-      emitsParam('al-cambiar-visibilidad', nuevoValor)
+      emitsParam('alCambiarVisibilidad', nuevoValor)
     )
 
     watch(nombre, cambiarNombre)

@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import { onMounted, ref, toRefs, watch } from 'vue'
+import { onMounted, ref, toRefs } from 'vue'
 
 import Map from 'ol/Map'
 import View from 'ol/View'
@@ -42,26 +42,18 @@ export default {
   props,
   components: { BotonConacyt },
   setup(propsSetup) {
-    const {
-      salvarInstancia,
-      cambiarZoom,
-      cambiarCentro,
-      conseguirControl,
-      alternarEscalaGrafica,
-    } = usarMapa(propsSetup)
+    const { salvarInstancia, alternarEscalaGrafica } = usarMapa(propsSetup)
 
     /**
      * Referencia al elemento html contenedor del mapa
      */
     const refMapa = ref(null)
 
-    const { proyeccion } = propsSetup // Props no reactivos
-    const { centro, extension, iconoConacytVisible, tema, zoom } =
-      toRefs(propsSetup) // Props reactivos
-    watch(centro, cambiarCentro)
-    watch(extension, cambiarExtension)
-    watch(iconoConacytVisible, () => {})
-    watch(zoom, cambiarZoom)
+    /**
+     * Props reactivos
+     * ¡¡¡REVISAR SI ES NECESARIO QUE SEAN REACTIVOS AQUÍ O SOLO EN EL COMPOSABLE!!!
+     */
+    const { centro, extension, tema, zoom } = toRefs(propsSetup)
 
     /**
      * Creación del elemento mapa con atributos definidos
@@ -76,7 +68,7 @@ export default {
           view: new View({
             center: centro.value,
             zoom: zoom.value,
-            projection: proyeccion,
+            projection: propsSetup.proyeccion,
           }),
           controls: [
             new ControlZoomPersonalizado(),
@@ -102,17 +94,6 @@ export default {
     onMounted(() => {
       crearMapa(refMapa.value)
     })
-
-    /**
-     * Cambiar la extension, esto proboca que el mapa ajuste la vista con la extención actual
-     * en caso de ser valida.
-     * @param {Array<Number>} extension
-     */
-    function cambiarExtension(nuevaExtension) {
-      const controlVistaInicial = conseguirControl(ControlVistaInicial.nombre)
-      controlVistaInicial.extension = nuevaExtension
-      controlVistaInicial.reiniciarVista()
-    }
 
     return { refMapa, tema }
   },
