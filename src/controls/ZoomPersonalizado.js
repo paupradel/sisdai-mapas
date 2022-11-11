@@ -23,6 +23,14 @@ export default class ZoomPersonalizado extends Control {
    */
   static nombre = 'ZoomPersonalizado'
 
+  /**
+   * Acceder al nombre estatico desde el objeto instanciado.
+   * @returns {String}
+   */
+  get nombre() {
+    return ZoomPersonalizado.nombre
+  }
+
   constructor() {
     /**
      * Elemento contenedor del control

@@ -33,6 +33,10 @@ export default class EscalaGrafica extends ScaleLine {
    */
   static nombre = 'EscalaGrafica'
 
+  /**
+   * Acceder al nombre estatico desde el objeto instanciado.
+   * @returns {String}
+   */
   get nombre() {
     return EscalaGrafica.nombre
   }

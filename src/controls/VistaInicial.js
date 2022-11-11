@@ -33,6 +33,14 @@ export default class VistaInicial extends Control {
    */
   static nombre = 'VistaInicial'
 
+  /**
+   * Acceder al nombre estatico desde el objeto instanciado.
+   * @returns {String}
+   */
+  get nombre() {
+    return VistaInicial.nombre
+  }
+
   constructor(opciones) {
     /**
      * Elemento contenedor del control
