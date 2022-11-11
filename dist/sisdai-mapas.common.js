@@ -22,7 +22,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, ":host,:root{--ol-background-color:#fff
 
 /***/ }),
 
-/***/ 68:
+/***/ 316:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -99,7 +99,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".sisdai-mapa-control{position:absolute;display:flex;flex-direction:column;margin:12px}.sisdai-mapa-control-zoom>button{margin:0}.sisdai-mapa-control-zoom>button:not(:last-child){margin-bottom:6px}.sisdai-mapa-control-vista-inicial{bottom:0}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".sisdai-mapa-control{position:absolute;display:flex;flex-direction:column;margin:12px}.sisdai-mapa-control-zoom>button{margin:0}.sisdai-mapa-control-zoom>button:not(:last-child){margin-bottom:6px}.sisdai-mapa-control-vista-inicial{bottom:0}.sisdai-mapa-control-escala-grafica{bottom:0;left:46px}.sisdai-mapa-control-escala-grafica .ol-scale-bar-inner .ol-scale-step-marker{height:10px;top:0!important}.sisdai-mapa-control-escala-grafica .ol-scale-bar-inner .ol-scale-singlebar{height:3px;top:8px}.sisdai-mapa-control-escala-grafica .ol-scale-bar-inner .ol-scale-step-text{bottom:10px;font-size:11px}.sisdai-mapa-control-escala-grafica .ol-scale-bar-inner div>.ol-scale-step-marker{top:-2px!important}", ""]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -251,19 +251,19 @@ var update = add("a8943b36", content, true, {"sourceMap":false,"shadowMode":fals
 
 /***/ }),
 
-/***/ 794:
+/***/ 526:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(68);
+var content = __webpack_require__(316);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.id, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = (__webpack_require__(402)/* ["default"] */ .Z)
-var update = add("2ec69e15", content, true, {"sourceMap":false,"shadowMode":false});
+var update = add("669e2dba", content, true, {"sourceMap":false,"shadowMode":false});
 
 /***/ }),
 
@@ -703,7 +703,7 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"505ef569-vue-loader-template"}!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Mapa/Mapa.vue?vue&type=template&id=3a269284&
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"505ef569-vue-loader-template"}!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Mapa/Mapa.vue?vue&type=template&id=10b9907c&
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
@@ -21995,6 +21995,11 @@ function crearBotonControl(claseCss, icono, accion) {
 
 
 
+
+/**
+ * @property {String} claseCss clase del elemnto HTML del control. La clase se concatenará con la
+ * clase genérica `sisdai-mapa-control-${claseCss}`.
+ */
 const claseCss = 'zoom';
 
 /**
@@ -22008,6 +22013,13 @@ class ZoomPersonalizado extends control_Control {
    * @type {String}
    */
 
+  /**
+   * Acceder al nombre estatico desde el objeto instanciado.
+   * @returns {String}
+   */
+  get nombre() {
+    return ZoomPersonalizado.nombre;
+  }
   constructor() {
     /**
      * Elemento contenedor del control
@@ -22066,6 +22078,11 @@ _defineProperty(ZoomPersonalizado, "nombre", 'ZoomPersonalizado');
 
 
 
+
+/**
+ * @property {String} claseCss clase del elemnto HTML del control. La clase se concatenará con la
+ * clase genérica `sisdai-mapa-control-${claseCss}`.
+ */
 const VistaInicial_claseCss = 'vista-inicial';
 
 /**
@@ -22089,6 +22106,13 @@ class VistaInicial extends control_Control {
    * @type {String}
    */
 
+  /**
+   * Acceder al nombre estatico desde el objeto instanciado.
+   * @returns {String}
+   */
+  get nombre() {
+    return VistaInicial.nombre;
+  }
   constructor(opciones) {
     /**
      * Elemento contenedor del control
@@ -22191,58 +22215,547 @@ class VistaInicial extends control_Control {
    */
 }
 _defineProperty(VistaInicial, "nombre", 'VistaInicial');
-;// CONCATENATED MODULE: ./src/components/Mapa/props.js
-/* harmony default export */ var props = ({
+;// CONCATENATED MODULE: ./node_modules/ol/control/ScaleLine.js
+/**
+ * @module ol/control/ScaleLine
+ */
+
+
+
+
+
+/**
+ * @type {string}
+ */
+const UNITS_PROP = 'units';
+
+/**
+ * @typedef {'degrees' | 'imperial' | 'nautical' | 'metric' | 'us'} Units
+ * Units for the scale line.
+ */
+
+/**
+ * @const
+ * @type {Array<number>}
+ */
+const LEADING_DIGITS = [1, 2, 5];
+
+/**
+ * @const
+ * @type {number}
+ */
+const DEFAULT_DPI = 25.4 / 0.28;
+
+/***
+ * @template Return
+ * @typedef {import("../Observable").OnSignature<import("../Observable").EventTypes, import("../events/Event.js").default, Return> &
+ *   import("../Observable").OnSignature<import("../ObjectEventType").Types|
+ *     'change:units', import("../Object").ObjectEvent, Return> &
+ *   import("../Observable").CombinedOnSignature<import("../Observable").EventTypes|import("../ObjectEventType").Types
+ *     |'change:units', Return>} ScaleLineOnSignature
+ */
+
+/**
+ * @typedef {Object} Options
+ * @property {string} [className] CSS class name. The default is `ol-scale-bar` when configured with
+ * `bar: true`. Otherwise the default is `ol-scale-line`.
+ * @property {number} [minWidth=64] Minimum width in pixels at the OGC default dpi. The width will be
+ * adjusted to match the dpi used.
+ * @property {number} [maxWidth] Maximum width in pixels at the OGC default dpi. The width will be
+ * adjusted to match the dpi used.
+ * @property {function(import("../MapEvent.js").default):void} [render] Function called when the control
+ * should be re-rendered. This is called in a `requestAnimationFrame` callback.
+ * @property {HTMLElement|string} [target] Specify a target if you want the control
+ * to be rendered outside of the map's viewport.
+ * @property {Units} [units='metric'] Units.
+ * @property {boolean} [bar=false] Render scalebars instead of a line.
+ * @property {number} [steps=4] Number of steps the scalebar should use. Use even numbers
+ * for best results. Only applies when `bar` is `true`.
+ * @property {boolean} [text=false] Render the text scale above of the scalebar. Only applies
+ * when `bar` is `true`.
+ * @property {number|undefined} [dpi=undefined] dpi of output device such as printer. Only applies
+ * when `bar` is `true`. If undefined the OGC default screen pixel size of 0.28mm will be assumed.
+ */
+
+/**
+ * @classdesc
+ * A control displaying rough y-axis distances, calculated for the center of the
+ * viewport. For conformal projections (e.g. EPSG:3857, the default view
+ * projection in OpenLayers), the scale is valid for all directions.
+ * No scale line will be shown when the y-axis distance of a pixel at the
+ * viewport center cannot be calculated in the view projection.
+ * By default the scale line will show in the bottom left portion of the map,
+ * but this can be changed by using the css selector `.ol-scale-line`.
+ * When specifying `bar` as `true`, a scalebar will be rendered instead
+ * of a scaleline.
+ *
+ * @api
+ */
+class ScaleLine extends control_Control {
   /**
-   * Coordenadas [x, y] del centro inicial de la vista.
-   *
-   * Estas coordenadas deben coincidir con la proyección definida
+   * @param {Options} [options] Scale line options.
    */
-  centro: {
-    type: Array,
-    default: () => [0, 0]
-  },
-  /**
-   * Coordenadas extremas [x1, y1, x2, y2] de la caja envolvente de la vista.
-   *
-   * Estas coordenadas deben coincidir con la proyección definida
-   */
-  extension: {
-    type: Array,
-    default: () => [0, 0, 0, 0]
-  },
-  /**
-   * Ver el icono de Conacyt debajo del mapa
-   */
-  iconoConacytVisible: {
-    type: Boolean,
-    default: true
-  },
-  /**
-   * Código de identificación SRS que define la proyección de la vista.
-   *
-   * El valor predeterminado es Universal Transversal de Mercator.
-   */
-  proyeccion: {
-    type: String,
-    default: 'EPSG:4326'
-  },
-  /**
-   * Tema de la disposición de elemntos de apoyo del mapa (contenedor del header, pie y columnas
-   * laterales)
-   */
-  tema: {
-    type: String,
-    default: ''
-  },
-  /**
-   * Nivel de zoom utilizado para calcular la resolución inicial de la vista.
-   */
-  zoom: {
-    type: Number,
-    default: 1
+  constructor(options) {
+    options = options ? options : {};
+
+    const element = document.createElement('div');
+    element.style.pointerEvents = 'none';
+
+    super({
+      element: element,
+      render: options.render,
+      target: options.target,
+    });
+
+    /***
+     * @type {ScaleLineOnSignature<import("../events").EventsKey>}
+     */
+    this.on;
+
+    /***
+     * @type {ScaleLineOnSignature<import("../events").EventsKey>}
+     */
+    this.once;
+
+    /***
+     * @type {ScaleLineOnSignature<void>}
+     */
+    this.un;
+
+    const className =
+      options.className !== undefined
+        ? options.className
+        : options.bar
+        ? 'ol-scale-bar'
+        : 'ol-scale-line';
+
+    /**
+     * @private
+     * @type {HTMLElement}
+     */
+    this.innerElement_ = document.createElement('div');
+    this.innerElement_.className = className + '-inner';
+
+    this.element.className = className + ' ' + CLASS_UNSELECTABLE;
+    this.element.appendChild(this.innerElement_);
+
+    /**
+     * @private
+     * @type {?import("../View.js").State}
+     */
+    this.viewState_ = null;
+
+    /**
+     * @private
+     * @type {number}
+     */
+    this.minWidth_ = options.minWidth !== undefined ? options.minWidth : 64;
+
+    /**
+     * @private
+     * @type {number|undefined}
+     */
+    this.maxWidth_ = options.maxWidth;
+
+    /**
+     * @private
+     * @type {boolean}
+     */
+    this.renderedVisible_ = false;
+
+    /**
+     * @private
+     * @type {number|undefined}
+     */
+    this.renderedWidth_ = undefined;
+
+    /**
+     * @private
+     * @type {string}
+     */
+    this.renderedHTML_ = '';
+
+    this.addChangeListener(UNITS_PROP, this.handleUnitsChanged_);
+
+    this.setUnits(options.units || 'metric');
+
+    /**
+     * @private
+     * @type {boolean}
+     */
+    this.scaleBar_ = options.bar || false;
+
+    /**
+     * @private
+     * @type {number}
+     */
+    this.scaleBarSteps_ = options.steps || 4;
+
+    /**
+     * @private
+     * @type {boolean}
+     */
+    this.scaleBarText_ = options.text || false;
+
+    /**
+     * @private
+     * @type {number|undefined}
+     */
+    this.dpi_ = options.dpi || undefined;
   }
-});
+
+  /**
+   * Return the units to use in the scale line.
+   * @return {Units} The units
+   * to use in the scale line.
+   * @observable
+   * @api
+   */
+  getUnits() {
+    return this.get(UNITS_PROP);
+  }
+
+  /**
+   * @private
+   */
+  handleUnitsChanged_() {
+    this.updateElement_();
+  }
+
+  /**
+   * Set the units to use in the scale line.
+   * @param {Units} units The units to use in the scale line.
+   * @observable
+   * @api
+   */
+  setUnits(units) {
+    this.set(UNITS_PROP, units);
+  }
+
+  /**
+   * Specify the dpi of output device such as printer.
+   * @param {number|undefined} dpi The dpi of output device.
+   * @api
+   */
+  setDpi(dpi) {
+    this.dpi_ = dpi;
+  }
+
+  /**
+   * @private
+   */
+  updateElement_() {
+    const viewState = this.viewState_;
+
+    if (!viewState) {
+      if (this.renderedVisible_) {
+        this.element.style.display = 'none';
+        this.renderedVisible_ = false;
+      }
+      return;
+    }
+
+    const center = viewState.center;
+    const projection = viewState.projection;
+    const units = this.getUnits();
+    const pointResolutionUnits = units == 'degrees' ? 'degrees' : 'm';
+    let pointResolution = getPointResolution(
+      projection,
+      viewState.resolution,
+      center,
+      pointResolutionUnits
+    );
+
+    const minWidth =
+      (this.minWidth_ * (this.dpi_ || DEFAULT_DPI)) / DEFAULT_DPI;
+
+    const maxWidth =
+      this.maxWidth_ !== undefined
+        ? (this.maxWidth_ * (this.dpi_ || DEFAULT_DPI)) / DEFAULT_DPI
+        : undefined;
+
+    let nominalCount = minWidth * pointResolution;
+    let suffix = '';
+    if (units == 'degrees') {
+      const metersPerDegree = Units_METERS_PER_UNIT.degrees;
+      nominalCount *= metersPerDegree;
+      if (nominalCount < metersPerDegree / 60) {
+        suffix = '\u2033'; // seconds
+        pointResolution *= 3600;
+      } else if (nominalCount < metersPerDegree) {
+        suffix = '\u2032'; // minutes
+        pointResolution *= 60;
+      } else {
+        suffix = '\u00b0'; // degrees
+      }
+    } else if (units == 'imperial') {
+      if (nominalCount < 0.9144) {
+        suffix = 'in';
+        pointResolution /= 0.0254;
+      } else if (nominalCount < 1609.344) {
+        suffix = 'ft';
+        pointResolution /= 0.3048;
+      } else {
+        suffix = 'mi';
+        pointResolution /= 1609.344;
+      }
+    } else if (units == 'nautical') {
+      pointResolution /= 1852;
+      suffix = 'NM';
+    } else if (units == 'metric') {
+      if (nominalCount < 0.001) {
+        suffix = 'μm';
+        pointResolution *= 1000000;
+      } else if (nominalCount < 1) {
+        suffix = 'mm';
+        pointResolution *= 1000;
+      } else if (nominalCount < 1000) {
+        suffix = 'm';
+      } else {
+        suffix = 'km';
+        pointResolution /= 1000;
+      }
+    } else if (units == 'us') {
+      if (nominalCount < 0.9144) {
+        suffix = 'in';
+        pointResolution *= 39.37;
+      } else if (nominalCount < 1609.344) {
+        suffix = 'ft';
+        pointResolution /= 0.30480061;
+      } else {
+        suffix = 'mi';
+        pointResolution /= 1609.3472;
+      }
+    } else {
+      asserts_assert(false, 33); // Invalid units
+    }
+
+    let i = 3 * Math.floor(Math.log(minWidth * pointResolution) / Math.log(10));
+    let count, width, decimalCount;
+    let previousCount, previousWidth, previousDecimalCount;
+    while (true) {
+      decimalCount = Math.floor(i / 3);
+      const decimal = Math.pow(10, decimalCount);
+      count = LEADING_DIGITS[((i % 3) + 3) % 3] * decimal;
+      width = Math.round(count / pointResolution);
+      if (isNaN(width)) {
+        this.element.style.display = 'none';
+        this.renderedVisible_ = false;
+        return;
+      }
+      if (maxWidth !== undefined && width >= maxWidth) {
+        count = previousCount;
+        width = previousWidth;
+        decimalCount = previousDecimalCount;
+        break;
+      } else if (width >= minWidth) {
+        break;
+      }
+      previousCount = count;
+      previousWidth = width;
+      previousDecimalCount = decimalCount;
+      ++i;
+    }
+    const html = this.scaleBar_
+      ? this.createScaleBar(width, count, suffix)
+      : count.toFixed(decimalCount < 0 ? -decimalCount : 0) + ' ' + suffix;
+
+    if (this.renderedHTML_ != html) {
+      this.innerElement_.innerHTML = html;
+      this.renderedHTML_ = html;
+    }
+
+    if (this.renderedWidth_ != width) {
+      this.innerElement_.style.width = width + 'px';
+      this.renderedWidth_ = width;
+    }
+
+    if (!this.renderedVisible_) {
+      this.element.style.display = '';
+      this.renderedVisible_ = true;
+    }
+  }
+
+  /**
+   * @private
+   * @param {number} width The current width of the scalebar.
+   * @param {number} scale The current scale.
+   * @param {string} suffix The suffix to append to the scale text.
+   * @return {string} The stringified HTML of the scalebar.
+   */
+  createScaleBar(width, scale, suffix) {
+    const resolutionScale = this.getScaleForResolution();
+    const mapScale =
+      resolutionScale < 1
+        ? Math.round(1 / resolutionScale).toLocaleString() + ' : 1'
+        : '1 : ' + Math.round(resolutionScale).toLocaleString();
+    const steps = this.scaleBarSteps_;
+    const stepWidth = width / steps;
+    const scaleSteps = [this.createMarker('absolute')];
+    for (let i = 0; i < steps; ++i) {
+      const cls =
+        i % 2 === 0 ? 'ol-scale-singlebar-odd' : 'ol-scale-singlebar-even';
+      scaleSteps.push(
+        '<div>' +
+          '<div ' +
+          `class="ol-scale-singlebar ${cls}" ` +
+          `style="width: ${stepWidth}px;"` +
+          '>' +
+          '</div>' +
+          this.createMarker('relative') +
+          // render text every second step, except when only 2 steps
+          (i % 2 === 0 || steps === 2
+            ? this.createStepText(i, width, false, scale, suffix)
+            : '') +
+          '</div>'
+      );
+    }
+    // render text at the end
+    scaleSteps.push(this.createStepText(steps, width, true, scale, suffix));
+
+    const scaleBarText = this.scaleBarText_
+      ? `<div class="ol-scale-text" style="width: ${width}px;">` +
+        mapScale +
+        '</div>'
+      : '';
+    return scaleBarText + scaleSteps.join('');
+  }
+
+  /**
+   * Creates a marker at given position
+   * @param {'absolute'|'relative'} position The position, absolute or relative
+   * @return {string} The stringified div containing the marker
+   */
+  createMarker(position) {
+    const top = position === 'absolute' ? 3 : -10;
+    return (
+      '<div ' +
+      'class="ol-scale-step-marker" ' +
+      `style="position: ${position}; top: ${top}px;"` +
+      '></div>'
+    );
+  }
+
+  /**
+   * Creates the label for a marker marker at given position
+   * @param {number} i The iterator
+   * @param {number} width The width the scalebar will currently use
+   * @param {boolean} isLast Flag indicating if we add the last step text
+   * @param {number} scale The current scale for the whole scalebar
+   * @param {string} suffix The suffix for the scale
+   * @return {string} The stringified div containing the step text
+   */
+  createStepText(i, width, isLast, scale, suffix) {
+    const length =
+      i === 0 ? 0 : Math.round((scale / this.scaleBarSteps_) * i * 100) / 100;
+    const lengthString = length + (i === 0 ? '' : ' ' + suffix);
+    const margin = i === 0 ? -3 : (width / this.scaleBarSteps_) * -1;
+    const minWidth = i === 0 ? 0 : (width / this.scaleBarSteps_) * 2;
+    return (
+      '<div ' +
+      'class="ol-scale-step-text" ' +
+      'style="' +
+      `margin-left: ${margin}px;` +
+      `text-align: ${i === 0 ? 'left' : 'center'};` +
+      `min-width: ${minWidth}px;` +
+      `left: ${isLast ? width + 'px' : 'unset'};` +
+      '">' +
+      lengthString +
+      '</div>'
+    );
+  }
+
+  /**
+   * Returns the appropriate scale for the given resolution and units.
+   * @return {number} The appropriate scale.
+   */
+  getScaleForResolution() {
+    const resolution = getPointResolution(
+      this.viewState_.projection,
+      this.viewState_.resolution,
+      this.viewState_.center,
+      'm'
+    );
+    const dpi = this.dpi_ || DEFAULT_DPI;
+    const inchesPerMeter = 1000 / 25.4;
+    return resolution * inchesPerMeter * dpi;
+  }
+
+  /**
+   * Update the scale line element.
+   * @param {import("../MapEvent.js").default} mapEvent Map event.
+   * @override
+   */
+  render(mapEvent) {
+    const frameState = mapEvent.frameState;
+    if (!frameState) {
+      this.viewState_ = null;
+    } else {
+      this.viewState_ = frameState.viewState;
+    }
+    this.updateElement_();
+  }
+}
+
+/* harmony default export */ var control_ScaleLine = (ScaleLine);
+
+;// CONCATENATED MODULE: ./src/controls/EscalaGrafica.js
+
+/**
+ * @module control/EscalaGrafica
+ */
+
+
+
+/**
+ * Configuración del objeto original de openlayers.
+ */
+const consifguracion = {
+  units: 'metric',
+  bar: true,
+  steps: 4,
+  text: false,
+  minWidth: 140,
+  maxWidth: 220
+};
+
+/**
+ * @property {String} claseCss clase del elemnto HTML del control. La clase se concatenará con la
+ * clase genérica `sisdai-mapa-control-${claseCss}`.
+ */
+const EscalaGrafica_claseCss = 'escala-grafica';
+
+/**
+ * @classdesc
+ * Clase extendida de la clase `ScaleLine` de openlayers configurada especialmente para este mapa.
+ */
+class EscalaGrafica extends control_ScaleLine {
+  /**
+   * Nombre con el que se podrá extraer el control del mapa.
+   * @type {String}
+   */
+
+  /**
+   * Acceder al nombre estatico desde el objeto instanciado.
+   * @returns {String}
+   */
+  get nombre() {
+    return EscalaGrafica.nombre;
+  }
+  constructor() {
+    super(consifguracion);
+    this._agregarClasesSisdai();
+  }
+
+  /**
+   * Agrega al elemnto HTML del control las clases genéricas de los controles de la biblioteca.
+   */
+  _agregarClasesSisdai() {
+    this.element.classList.add('sisdai-mapa-control');
+    this.element.classList.add(`sisdai-mapa-control-${EscalaGrafica_claseCss}`);
+  }
+}
+_defineProperty(EscalaGrafica, "nombre", 'EscalaGrafica');
 ;// CONCATENATED MODULE: ./src/composables/usarCapasRegistradas.js
 /**
  * @module composables/usarCapasRegistradas
@@ -22352,21 +22865,88 @@ function usarCapasRegistradas() {
 
 
 
+
+
 /**
  * Objeto que contendrá la instancia del mapa, declararlo fuera de la función composable hace que
  * no se genere una nueva variable del mapa cada que se utilice el composable
  */
 const olMapa = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)(undefined);
+const props = {
+  /**
+   * Coordenadas [x, y] del centro inicial de la vista.
+   *
+   * Estas coordenadas deben coincidir con la proyección definida
+   */
+  centro: {
+    type: Array,
+    default: () => [0, 0]
+  },
+  /**
+   * Coordenadas extremas [x1, y1, x2, y2] de la caja envolvente de la vista.
+   *
+   * Estas coordenadas deben coincidir con la proyección definida
+   */
+  extension: {
+    type: Array,
+    default: () => [0, 0, 0, 0]
+  },
+  /**
+   * Ver el icono de Conacyt debajo del mapa
+   */
+  iconoConacytVisible: {
+    type: Boolean,
+    default: true
+  },
+  /**
+   * Código de identificación SRS que define la proyección de la vista.
+   *
+   * El valor predeterminado es Universal Transversal de Mercator.
+   */
+  proyeccion: {
+    type: String,
+    default: 'EPSG:4326'
+  },
+  /**
+   * Tema de la disposición de elemntos de apoyo del mapa (contenedor del header, pie y columnas
+   * laterales)
+   */
+  tema: {
+    type: String,
+    default: ''
+  },
+  /**
+   * Nivel de zoom utilizado para calcular la resolución inicial de la vista.
+   */
+  zoom: {
+    type: Number,
+    default: 1
+  },
+  /**
+   * Booleano que
+   */
+  escalaGrafica: {
+    type: Boolean,
+    default: false,
+    validator: valor => typeof valor === typeof Boolean()
+  }
+};
 
 /**
  * Uso del mapa, la finalidad de este composable es acceder al mapa desde diferentes componentes
  * o composables
  * @returns {Function} composable
  */
-function usarMapa() {
+function usarMapa(propsParam) {
   const {
     agregarTodoALMapa: agregarCapasRegistradas
   } = usarCapasRegistradas();
+  const {
+    centro,
+    escalaGrafica,
+    extension,
+    zoom
+  } = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.toRefs)(propsParam);
 
   /**
    * Guarda el objeto del mapa en una variable reactiva.
@@ -22379,6 +22959,37 @@ function usarMapa() {
   }
 
   /**
+   * Devuelve un control por su nombre registrado
+   * @param {String} nombreDelControl
+   * @returns {import("ol/control/Control.js").default|undefined} olControl
+   */
+  function conseguirControl(nombreDelControl) {
+    if (olMapa.value) {
+      return olMapa.value.getControls().getArray().find(olControl => olControl.nombre === nombreDelControl);
+    }
+  }
+
+  /**
+   * Agrega un control de openlayers en el mapa.
+   * @param {import("ol/control/Control.js").default} olControl
+   */
+  function agregarControl(olControl) {
+    if (olMapa.value) {
+      olMapa.value.addControl(olControl);
+    }
+  }
+
+  /**
+   * Quita un control de openlayers en el mapa.
+   * @param {import("ol/control/Control.js").default} olControl
+   */
+  function removerControl(olControl) {
+    if (olMapa.value) {
+      olMapa.value.removeControl(olControl);
+    }
+  }
+
+  /**
    * Actualiza la coordenada centrica del mapa
    * @param {Number} centro nueva coordenada centrica
    */
@@ -22387,6 +22998,32 @@ function usarMapa() {
       olMapa.value.getView().setCenter(centro);
     }
   }
+  (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(centro, cambiarCentro);
+
+  /**
+   * Quita o agrega el control de escala gáfica en el mapa dependiendo del parámetro boleano.
+   * @param {Boolean} visible
+   */
+  function alternarEscalaGrafica(visible) {
+    if (visible) {
+      agregarControl(new EscalaGrafica());
+    } else {
+      removerControl(conseguirControl(EscalaGrafica.nombre));
+    }
+  }
+  (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(escalaGrafica, alternarEscalaGrafica);
+
+  /**
+   * Cambiar la extension, esto proboca que el mapa ajuste la vista con la extención actual
+   * en caso de ser valida.
+   * @param {Array<Number>} extension
+   */
+  function cambiarExtension(nuevaExtension) {
+    const controlVistaInicial = conseguirControl(VistaInicial.nombre);
+    controlVistaInicial.extension = nuevaExtension;
+    controlVistaInicial.reiniciarVista();
+  }
+  (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(extension, cambiarExtension);
 
   /**
    * Actualiza el nivel de zoom en el mapa.
@@ -22397,27 +23034,13 @@ function usarMapa() {
       olMapa.value.getView().setZoom(zoom);
     }
   }
-
-  /**
-   * Devuelve un control por su nombre registrado
-   * @param {String} nombreDelControl
-   * @returns {import("ol/control/Control.js").default|undefined} Control
-   */
-  function extraerControl(nombreDelControl) {
-    if (olMapa.value) {
-      return olMapa.value.getControls().getArray().find(control => control.nombre === nombreDelControl);
-    }
-  }
+  (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(zoom, cambiarZoom);
   return {
-    olMapa: (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.readonly)(olMapa),
     salvarInstancia,
-    cambiarZoom,
-    cambiarCentro,
-    extraerControl
+    alternarEscalaGrafica
   };
 }
 ;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Mapa/Mapa.vue?vue&type=script&lang=js&
-
 
 
 
@@ -22440,32 +23063,27 @@ const rellenoAlBordeDeLaExtension = [10, 10, 10, 10];
   components: {
     BotonConacyt: BotonConacyt
   },
-  setup(props) {
+  setup(propsSetup) {
     const {
       salvarInstancia,
-      cambiarZoom,
-      cambiarCentro,
-      extraerControl
-    } = usarMapa();
+      alternarEscalaGrafica
+    } = usarMapa(propsSetup);
 
     /**
      * Referencia al elemento html contenedor del mapa
      */
     const refMapa = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)(null);
-    const {
-      proyeccion
-    } = props; // Props no reactivos
+
+    /**
+     * Props reactivos
+     * ¡¡¡REVISAR SI ES NECESARIO QUE SEAN REACTIVOS AQUÍ O SOLO EN EL COMPOSABLE!!!
+     */
     const {
       centro,
       extension,
-      iconoConacytVisible,
       tema,
       zoom
-    } = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.toRefs)(props); // Props reactivos
-    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(centro, cambiarCentro);
-    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(extension, cambiarExtension);
-    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(iconoConacytVisible, () => {});
-    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(zoom, cambiarZoom);
+    } = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.toRefs)(propsSetup);
 
     /**
      * Creación del elemento mapa con atributos definidos
@@ -22480,7 +23098,7 @@ const rellenoAlBordeDeLaExtension = [10, 10, 10, 10];
         view: new ol_View({
           center: centro.value,
           zoom: zoom.value,
-          projection: proyeccion
+          projection: propsSetup.proyeccion
         }),
         controls: [new ZoomPersonalizado(), new VistaInicial({
           centro,
@@ -22491,6 +23109,7 @@ const rellenoAlBordeDeLaExtension = [10, 10, 10, 10];
           collapsible: false
         })]
       }));
+      alternarEscalaGrafica(propsSetup.escalaGrafica);
     }
 
     /**
@@ -22499,17 +23118,6 @@ const rellenoAlBordeDeLaExtension = [10, 10, 10, 10];
     (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.onMounted)(() => {
       crearMapa(refMapa.value);
     });
-
-    /**
-     * Cambiar la extension, esto proboca que el mapa ajuste la vista con la extención actual
-     * en caso de ser valida.
-     * @param {Array<Number>} extension
-     */
-    function cambiarExtension(nuevaExtension) {
-      const controlVistaInicial = extraerControl(VistaInicial.nombre);
-      controlVistaInicial.extension = nuevaExtension;
-      controlVistaInicial.reiniciarVista();
-    }
     return {
       refMapa,
       tema
@@ -22518,9 +23126,9 @@ const rellenoAlBordeDeLaExtension = [10, 10, 10, 10];
 });
 ;// CONCATENATED MODULE: ./src/components/Mapa/Mapa.vue?vue&type=script&lang=js&
  /* harmony default export */ var Mapa_Mapavue_type_script_lang_js_ = (Mapavue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-22.use[0]!./node_modules/@vue/cli-service/node_modules/css-loader/dist/cjs.js??clonedRuleSet-22.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[2]!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[3]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-22.use[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Mapa/Mapa.vue?vue&type=style&index=0&id=3a269284&prod&lang=scss&
-var Mapavue_type_style_index_0_id_3a269284_prod_lang_scss_ = __webpack_require__(794);
-;// CONCATENATED MODULE: ./src/components/Mapa/Mapa.vue?vue&type=style&index=0&id=3a269284&prod&lang=scss&
+// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-22.use[0]!./node_modules/@vue/cli-service/node_modules/css-loader/dist/cjs.js??clonedRuleSet-22.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[2]!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[3]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-22.use[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Mapa/Mapa.vue?vue&type=style&index=0&id=10b9907c&prod&lang=scss&
+var Mapavue_type_style_index_0_id_10b9907c_prod_lang_scss_ = __webpack_require__(526);
+;// CONCATENATED MODULE: ./src/components/Mapa/Mapa.vue?vue&type=style&index=0&id=10b9907c&prod&lang=scss&
 
 ;// CONCATENATED MODULE: ./src/components/Mapa/Mapa.vue
 
@@ -39578,7 +40186,7 @@ const usarCapa_props = {
     default: undefined
   }
 };
-const emits = ['al-cambiar-visibilidad'];
+const emits = ['alCambiarVisibilidad'];
 
 /**
  * La finalidad de este composable es acceder a las funciones del genéricas de la capa desde
@@ -39629,7 +40237,7 @@ function usarCapa(propsParam, emitsParam) {
       cambiarNombre
     } = vincularCapa(idValida);
     (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(visible, alternarVisibilidad);
-    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(visibilidad, nuevoValor => emitsParam('al-cambiar-visibilidad', nuevoValor));
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(visibilidad, nuevoValor => emitsParam('alCambiarVisibilidad', nuevoValor));
     (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(nombre, cambiarNombre);
   }
   return {
