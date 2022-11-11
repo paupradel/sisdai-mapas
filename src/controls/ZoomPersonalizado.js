@@ -5,6 +5,10 @@
 import Control from 'ol/control/Control'
 import { crearContenedorControl, crearBotonControl } from './utiles'
 
+/**
+ * @property {String} claseCss clase del elemnto HTML del control. La clase se concatenará con la
+ * clase genérica `sisdai-mapa-control-${claseCss}`.
+ */
 const claseCss = 'zoom'
 
 /**
@@ -18,6 +22,14 @@ export default class ZoomPersonalizado extends Control {
    * @type {String}
    */
   static nombre = 'ZoomPersonalizado'
+
+  /**
+   * Acceder al nombre estatico desde el objeto instanciado.
+   * @returns {String}
+   */
+  get nombre() {
+    return ZoomPersonalizado.nombre
+  }
 
   constructor() {
     /**

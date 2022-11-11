@@ -1,26 +1,25 @@
 <template>
   <SisdaiMapa
     :centro="mapa.centro"
+    :escalaGrafica="mapa.escalaGrafica"
     :iconoConacytVisible="true"
-    :extension="mapa.extension"
     :zoom="mapa.zoom"
   >
+    <!--
+      :extension="mapa.extension"
+    -->
     <SisdaiMapaEncabezado>
-      <div class="iline">
-        OSM:
-        <button
-          class="boton-secundario boton-chico"
-          @click="osm.visible = !osm.visible"
-        >
-          {{ osm.visible ? 'Apagar' : 'Prender' }}
-        </button>
-        <input
-          type="text"
-          v-model="osm.nombre"
-        />
+      Cotroles que no son del mapa
+      <div>
+        <span>
+          <input
+            type="checkbox"
+            id="check-escala"
+            v-model="mapa.escalaGrafica"
+          />
+          <label for="check-escala">Visualizar escala</label>
+        </span>
       </div>
-
-      <hr />
 
       <div class="iline">
         GeoJSON:
@@ -37,10 +36,11 @@
       </div>
 
       <hr />
-
+      Controles del mapa
       <SisdaiMapaLeyenda :para="osm.id" />
       <SisdaiMapaLeyenda :para="geojson.id" />
       <SisdaiMapaLeyenda :para="xyz.id" />
+      <SisdaiMapaLeyenda :para="wms.id" />
     </SisdaiMapaEncabezado>
 
     <SisdaiMapaCapas>
@@ -50,6 +50,7 @@
         :nombre="geojson.nombre"
         :visible="geojson.visible"
         :zIndex="geojson.zIndex"
+        @alCambiarVisibilidad="v => (geojson.visible = v)"
       />
 
       <SisdaiCapaXyzOsm
@@ -57,7 +58,6 @@
         :nombre="osm.nombre"
         :visible="osm.visible"
         :zIndex="osm.zIndex"
-        @al-cambiar-visibilidad="alCambiarVisibilidad"
       />
 
       <SisdaiCapaXyz
@@ -83,18 +83,19 @@
 <script setup>
 import edos from './../public/capas/sample-edos.json'
 
-import { ref, watch } from 'vue'
+import { ref } from 'vue'
 
 const extension = [
   -118.365119934082, 14.5320978164673, -86.7104034423828, 32.7186546325684,
 ]
 
-const mapa = {
+const mapa = ref({
   centro: [-102, 24],
+  escalaGrafica: true,
   iconoConacytVisible: false,
   // extension,
   zoom: 4.5,
-}
+})
 
 const osm = ref({
   id: 'osm-capa-id',
@@ -102,17 +103,6 @@ const osm = ref({
   visible: true,
   zIndex: 0,
 })
-
-watch(
-  () => osm.value.visible,
-  () => {
-    console.log('osm.visible cambió')
-  }
-)
-
-function alCambiarVisibilidad(params) {
-  console.log('emit detectado')
-}
 
 const geojson = ref({
   id: 'geojson-capa-id',

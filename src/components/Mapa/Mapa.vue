@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import { onMounted, ref, toRefs, watch } from 'vue'
+import { onMounted, ref, toRefs } from 'vue'
 
 import Map from 'ol/Map'
 import View from 'ol/View'
@@ -25,12 +25,10 @@ import AttributionControl from 'ol/control/Attribution'
 import 'ol/ol.css'
 
 import BotonConacyt from './../layouts/BotonConacyt'
-
 import ControlZoomPersonalizado from '../../controls/ZoomPersonalizado'
 import ControlVistaInicial from '../../controls/VistaInicial'
 
-import props from './props'
-import usarMapa from '../../composables/usarMapa'
+import usarMapa, { props } from '../../composables/usarMapa'
 
 /**
  * Relleno (en píxeles) que se agregará a la extensión de la vista. Los valores en la matriz son
@@ -43,21 +41,19 @@ export default {
   name: 'SisdaiMapa',
   props,
   components: { BotonConacyt },
-  setup(props) {
-    const { salvarInstancia, cambiarZoom, cambiarCentro, extraerControl } =
-      usarMapa()
+  setup(propsSetup) {
+    const { salvarInstancia, alternarEscalaGrafica } = usarMapa(propsSetup)
 
     /**
      * Referencia al elemento html contenedor del mapa
      */
     const refMapa = ref(null)
 
-    const { proyeccion } = props // Props no reactivos
-    const { centro, extension, iconoConacytVisible, tema, zoom } = toRefs(props) // Props reactivos
-    watch(centro, cambiarCentro)
-    watch(extension, cambiarExtension)
-    watch(iconoConacytVisible, () => {})
-    watch(zoom, cambiarZoom)
+    /**
+     * Props reactivos
+     * ¡¡¡REVISAR SI ES NECESARIO QUE SEAN REACTIVOS AQUÍ O SOLO EN EL COMPOSABLE!!!
+     */
+    const { centro, extension, tema, zoom } = toRefs(propsSetup)
 
     /**
      * Creación del elemento mapa con atributos definidos
@@ -72,7 +68,7 @@ export default {
           view: new View({
             center: centro.value,
             zoom: zoom.value,
-            projection: proyeccion,
+            projection: propsSetup.proyeccion,
           }),
           controls: [
             new ControlZoomPersonalizado(),
@@ -88,6 +84,8 @@ export default {
           ],
         })
       )
+
+      alternarEscalaGrafica(propsSetup.escalaGrafica)
     }
 
     /**
@@ -96,17 +94,6 @@ export default {
     onMounted(() => {
       crearMapa(refMapa.value)
     })
-
-    /**
-     * Cambiar la extension, esto proboca que el mapa ajuste la vista con la extención actual
-     * en caso de ser valida.
-     * @param {Array<Number>} extension
-     */
-    function cambiarExtension(nuevaExtension) {
-      const controlVistaInicial = extraerControl(ControlVistaInicial.nombre)
-      controlVistaInicial.extension = nuevaExtension
-      controlVistaInicial.reiniciarVista()
-    }
 
     return { refMapa, tema }
   },
@@ -143,11 +130,6 @@ $altura-boton-conacyt: 40px;
     // position: absolute;
     background-color: #e9e9e9;
     // padding-bottom: $altura-boton-conacyt;
-
-    /*.ol-viewport {
-      border-top-left-radius: 8px;
-      border-top-right-radius: 8px;
-    }*/
   }
 }
 </style>
