@@ -2,7 +2,6 @@
   <SisdaiMapa
     :centro="mapa.centro"
     :escalaGrafica="mapa.escalaGrafica"
-    :iconoConacytVisible="true"
     :zoom="mapa.zoom"
   >
     <!--
@@ -125,7 +124,7 @@ const wms = ref({
   nombre: 'Capa WMS de estados',
   parametros: { LAYERS: 'estados_inegi_2019' },
   url: 'https://geo.crip.conacyt.mx/geoserver/estados_inegi_2019/wms',
-  visible: true,
+  visible: false,
   zIndex: 2,
 })
 </script>

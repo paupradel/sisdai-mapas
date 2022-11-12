@@ -66,6 +66,11 @@ export default function usarCapasRegistradas() {
     }
    */
 
+  /**
+   * Esta función en un pequeño composable para acceder a propiedades reactivas y funciones de a
+   * una capa en especifico.
+   * @param {String} idCapa id de la caopa a la que se vinculará.
+   */
   function vincularCapa(idCapa) {
     const capa = () => capasRegistradas[idCapa].value
 
@@ -87,6 +92,10 @@ export default function usarCapasRegistradas() {
     )
     watch(visibilidad, alternarVisibilidad)
 
+    /**
+     * Cambia el nombre de la capa, la cual es visible en la leyenda nativa.
+     * @param {String} estado nombre a asignar.
+     */
     function cambiarNombre(nuevoNombre) {
       capa().set('nombre', nuevoNombre)
     }

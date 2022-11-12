@@ -3,6 +3,8 @@
  */
 
 import { ref, toRefs, watch } from 'vue'
+// import MapEventType from 'ol/MapEventType'
+
 import ControlEscalaGrafica from './../controls/EscalaGrafica'
 import ControlVistaInicial from './../controls/VistaInicial'
 import usarRegistroCapas from './usarCapasRegistradas'
@@ -96,6 +98,8 @@ export default function usarMapa(propsParam) {
     // console.log('hola desde el composable del mapa', mapaInstanciado)
     agregarCapasRegistradas(mapaInstanciado)
     olMapa.value = mapaInstanciado
+    // olMapa.value.on(MapEventType.LOADSTART, console.log(MapEventType.LOADSTART))
+    // olMapa.value.on(MapEventType.LOADEND, console.log(MapEventType.LOADEND))
   }
 
   /**
