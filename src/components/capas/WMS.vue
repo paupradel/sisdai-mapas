@@ -49,7 +49,7 @@ export default {
 
     ...props,
   },
-  emits,
+  emits: ['alFinalizarCarga', 'alIniciarCarga', ...emits],
   setup(propsSetup, { emit }) {
     const { parametros, url, servidor } = toRefs(propsSetup)
 
@@ -60,14 +60,12 @@ export default {
       crossOrigin: 'Anonymous',
     })
 
-    source.on(ImageSourceEventType.IMAGELOADSTART, x =>
-      console.log(ImageSourceEventType.IMAGELOADSTART, x)
-    )
-    source.on(ImageSourceEventType.IMAGELOADEND, x =>
-      console.log(ImageSourceEventType.IMAGELOADEND, x)
-    )
-    source.on(ImageSourceEventType.IMAGELOADERROR, x =>
-      console.log(ImageSourceEventType.IMAGELOADERROR, x)
+    source.on(ImageSourceEventType.IMAGELOADSTART, () => emit('alIniciarCarga'))
+    source.on(
+      [ImageSourceEventType.IMAGELOADEND, ImageSourceEventType.IMAGELOADERROR],
+      e => {
+        emit('alFinalizarCarga', e.type === ImageSourceEventType.IMAGELOADEND)
+      }
     )
 
     usarCapa(propsSetup, emit).registrar(

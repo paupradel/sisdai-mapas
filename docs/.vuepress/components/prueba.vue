@@ -74,6 +74,8 @@
         :url="wms.url"
         :visible="wms.visible"
         :zIndex="wms.zIndex"
+        @alIniciarCarga="alIniciarCargaWMS"
+        @alFinalizarCarga="alFinalizarCargaWMS"
       />
     </SisdaiMapaCapas>
   </SisdaiMapa>
@@ -127,6 +129,13 @@ const wms = ref({
   visible: false,
   zIndex: 2,
 })
+
+function alIniciarCargaWMS() {
+  console.log('Empezó a cargar')
+}
+function alFinalizarCargaWMS(tipo) {
+  console.log('terminó de cargar', tipo)
+}
 </script>
 
 <style lang="scss">
