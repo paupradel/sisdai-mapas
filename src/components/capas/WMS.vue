@@ -4,9 +4,6 @@ import ImageWMS from 'ol/source/ImageWMS'
 import { ImageSourceEventType } from 'ol/source/Image'
 
 import usarCapa, { props, emits } from '../../composables/usarCapa'
-import { toRefs } from 'vue'
-
-// const { IMAGELOADSTART, IMAGELOADEND, IMAGELOADERROR } = event
 
 export default {
   name: 'SisdaiCapaWms',
@@ -49,14 +46,12 @@ export default {
 
     ...props,
   },
-  emits: ['alFinalizarCarga', 'alIniciarCarga', ...emits],
+  emits: ['alIniciarCarga', 'alFinalizarCarga', ...emits],
   setup(propsSetup, { emit }) {
-    const { parametros, url, servidor } = toRefs(propsSetup)
-
     const source = new ImageWMS({
-      url: url.value,
-      params: parametros.value,
-      serverType: servidor.value,
+      url: propsSetup.url,
+      params: propsSetup.parametros,
+      serverType: propsSetup.servidor,
       crossOrigin: 'Anonymous',
     })
 

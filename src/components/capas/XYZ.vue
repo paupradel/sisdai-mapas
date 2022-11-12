@@ -1,9 +1,9 @@
 <script>
 import TileLayer from 'ol/layer/Tile'
 import XYZ from 'ol/source/XYZ'
+import TileEventType from 'ol/source/TileEventType'
 
 import usarCapa, { props, emits } from '../../composables/usarCapa'
-import { toRefs } from 'vue'
 
 export default {
   name: 'SisdaiCapaXyz',
@@ -15,12 +15,18 @@ export default {
     },
     ...props,
   },
-  emits,
+  emits: ['alIniciarCargaMosaico', 'alFinalizarCargaMosaico', ...emits],
   setup(propsSetup, { emit }) {
-    const { url } = toRefs(propsSetup)
+    const source = new XYZ({ url: propsSetup.url, crossOrigin: 'Anonymous' })
+
+    source.on(TileEventType.TILELOADSTART, () => emit('alIniciarCargaMosaico'))
+    source.on([TileEventType.TILELOADEND, TileEventType.TILELOADERROR], e => {
+      emit('alFinalizarCargaMosaico', e.type === TileEventType.TILELOADEND)
+    })
+
     usarCapa(propsSetup, emit).registrar(
       new TileLayer({
-        source: new XYZ({ url: url.value, crossOrigin: 'Anonymous' }),
+        source,
         // className: this.className,
       })
     )

@@ -57,6 +57,8 @@
         :nombre="osm.nombre"
         :visible="osm.visible"
         :zIndex="osm.zIndex"
+        @alIniciarCargaMosaico="tipo => alIniciarCarga('osm', tipo)"
+        @alFinalizarCargaMosaico="tipo => alFinalizarCarga('osm', tipo)"
       />
 
       <SisdaiCapaXyz
@@ -65,6 +67,8 @@
         :url="xyz.url"
         :visible="xyz.visible"
         :zIndex="xyz.zIndex"
+        @alIniciarCargaMosaico="tipo => alIniciarCarga('xyz', tipo)"
+        @alFinalizarCargaMosaico="tipo => alFinalizarCarga('xyz', tipo)"
       />
 
       <SisdaiCapaWms
@@ -74,8 +78,8 @@
         :url="wms.url"
         :visible="wms.visible"
         :zIndex="wms.zIndex"
-        @alIniciarCarga="alIniciarCargaWMS"
-        @alFinalizarCarga="alFinalizarCargaWMS"
+        @alIniciarCarga="tipo => alIniciarCarga('wms', tipo)"
+        @alFinalizarCarga="tipo => alFinalizarCarga('wms', tipo)"
       />
     </SisdaiMapaCapas>
   </SisdaiMapa>
@@ -130,11 +134,11 @@ const wms = ref({
   zIndex: 2,
 })
 
-function alIniciarCargaWMS() {
-  console.log('Empezó a cargar')
+function alIniciarCarga(tipo) {
+  console.log(`Empezó a cargar ${tipo}`)
 }
-function alFinalizarCargaWMS(tipo) {
-  console.log('terminó de cargar', tipo)
+function alFinalizarCarga(tipo, estatus) {
+  console.log(`Terminó de cargar ${tipo}`, estatus)
 }
 </script>
 
