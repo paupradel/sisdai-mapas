@@ -57,8 +57,8 @@
         :nombre="osm.nombre"
         :visible="osm.visible"
         :zIndex="osm.zIndex"
-        @alIniciarCargaMosaico="tipo => alIniciarCarga('osm', tipo)"
-        @alFinalizarCargaMosaico="tipo => alFinalizarCarga('osm', tipo)"
+        @alIniciarCargaTesela="tipo => alIniciarCarga('osm', tipo)"
+        @alFinalizarCargaTesela="tipo => alFinalizarCarga('osm', tipo)"
       />
 
       <SisdaiCapaXyz
@@ -67,8 +67,8 @@
         :url="xyz.url"
         :visible="xyz.visible"
         :zIndex="xyz.zIndex"
-        @alIniciarCargaMosaico="tipo => alIniciarCarga('xyz', tipo)"
-        @alFinalizarCargaMosaico="tipo => alFinalizarCarga('xyz', tipo)"
+        @alIniciarCargaTesela="tipo => alIniciarCarga('xyz', tipo)"
+        @alFinalizarCargaTesela="tipo => alFinalizarCarga('xyz', tipo)"
       />
 
       <SisdaiCapaWms
