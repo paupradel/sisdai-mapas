@@ -6,5 +6,4 @@ dist
 coverage
 libs
 docs/.vuepress/dist
-_docs
-_src
+deprecated

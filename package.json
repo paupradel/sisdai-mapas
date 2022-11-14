@@ -10,7 +10,9 @@
     "fld:build": "npm run format-lint && vuepress build docs && npm run build",
     "docs:build": "vuepress build docs",
     "docs:build-nossr": "vuepress buildnossr docs",
-    "docs:serve": "vuepress dev docs"
+    "docs:serve": "vuepress dev docs",
+    "deprecated:install": "cd deprecated && npm install",
+    "deprecated:serve": "cd deprecated && vuepress dev docs"
   },
   "main": "./dist/sisdai-mapas.umd.js",
   "files": [
