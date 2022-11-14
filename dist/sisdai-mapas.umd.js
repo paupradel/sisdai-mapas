@@ -32,7 +32,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, ":host,:root{--ol-background-color:#fff
 
 /***/ }),
 
-/***/ 5:
+/***/ 127:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -261,19 +261,19 @@ var update = add("6e2af567", content, true, {"sourceMap":false,"shadowMode":fals
 
 /***/ }),
 
-/***/ 78:
+/***/ 526:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(5);
+var content = __webpack_require__(127);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.id, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = (__webpack_require__(402)/* ["default"] */ .Z)
-var update = add("491faf23", content, true, {"sourceMap":false,"shadowMode":false});
+var update = add("f47a771e", content, true, {"sourceMap":false,"shadowMode":false});
 
 /***/ }),
 
@@ -721,7 +721,7 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"505ef569-vue-loader-template"}!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Mapa/Mapa.vue?vue&type=template&id=10b9907c&
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"505ef569-vue-loader-template"}!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Mapa/Mapa.vue?vue&type=template&id=4492012c&
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
@@ -22842,6 +22842,11 @@ function usarCapasRegistradas() {
     }
    */
 
+  /**
+   * Esta función en un pequeño composable para acceder a propiedades reactivas y funciones de a
+   * una capa en especifico.
+   * @param {String} idCapa id de la caopa a la que se vinculará.
+   */
   function vincularCapa(idCapa) {
     const capa = () => capasRegistradas[idCapa].value;
     const visibilidad = (0,external_commonjs_vue_commonjs2_vue_root_Vue_.ref)(capa().getVisible());
@@ -22858,6 +22863,11 @@ function usarCapasRegistradas() {
     }
     (0,external_commonjs_vue_commonjs2_vue_root_Vue_.watch)(() => capa().values_.visible, nuevoValor => visibilidad.value = nuevoValor);
     (0,external_commonjs_vue_commonjs2_vue_root_Vue_.watch)(visibilidad, alternarVisibilidad);
+
+    /**
+     * Cambia el nombre de la capa, la cual es visible en la leyenda nativa.
+     * @param {String} estado nombre a asignar.
+     */
     function cambiarNombre(nuevoNombre) {
       capa().set('nombre', nuevoNombre);
     }
@@ -22880,6 +22890,8 @@ function usarCapasRegistradas() {
  * @module composables/usarMapa
  */
 
+
+// import MapEventType from 'ol/MapEventType'
 
 
 
@@ -22974,6 +22986,8 @@ function usarMapa(propsParam) {
     // console.log('hola desde el composable del mapa', mapaInstanciado)
     agregarCapasRegistradas(mapaInstanciado);
     olMapa.value = mapaInstanciado;
+    // olMapa.value.on(MapEventType.LOADSTART, console.log(MapEventType.LOADSTART))
+    // olMapa.value.on(MapEventType.LOADEND, console.log(MapEventType.LOADEND))
   }
 
   /**
@@ -23093,7 +23107,7 @@ const rellenoAlBordeDeLaExtension = [10, 10, 10, 10];
     const refMapa = (0,external_commonjs_vue_commonjs2_vue_root_Vue_.ref)(null);
 
     /**
-     * Props reactivos
+     * Props reactivos.
      * ¡¡¡REVISAR SI ES NECESARIO QUE SEAN REACTIVOS AQUÍ O SOLO EN EL COMPOSABLE!!!
      */
     const {
@@ -23104,8 +23118,8 @@ const rellenoAlBordeDeLaExtension = [10, 10, 10, 10];
     } = (0,external_commonjs_vue_commonjs2_vue_root_Vue_.toRefs)(propsSetup);
 
     /**
-     * Creación del elemento mapa con atributos definidos
-     * @param {HTMLDivElement|String} target elemento html que contendrá el mapa o id de mismo
+     * Creación del elemento mapa con atributos definidos.
+     * @param {HTMLDivElement|String} target elemento o id del elemento html que contendrá el mapa.
      */
     function crearMapa(target) {
       salvarInstancia(
@@ -23131,7 +23145,7 @@ const rellenoAlBordeDeLaExtension = [10, 10, 10, 10];
     }
 
     /**
-     * Instanciar el mapa en cuanto el html esté montado
+     * Instanciar el mapa en cuanto el html esté montado.
      */
     (0,external_commonjs_vue_commonjs2_vue_root_Vue_.onMounted)(() => {
       crearMapa(refMapa.value);
@@ -23144,9 +23158,9 @@ const rellenoAlBordeDeLaExtension = [10, 10, 10, 10];
 });
 ;// CONCATENATED MODULE: ./src/components/Mapa/Mapa.vue?vue&type=script&lang=js&
  /* harmony default export */ var Mapa_Mapavue_type_script_lang_js_ = (Mapavue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-64.use[0]!./node_modules/@vue/cli-service/node_modules/css-loader/dist/cjs.js??clonedRuleSet-64.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-64.use[2]!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-64.use[3]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-64.use[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Mapa/Mapa.vue?vue&type=style&index=0&id=10b9907c&prod&lang=scss&
-var Mapavue_type_style_index_0_id_10b9907c_prod_lang_scss_ = __webpack_require__(78);
-;// CONCATENATED MODULE: ./src/components/Mapa/Mapa.vue?vue&type=style&index=0&id=10b9907c&prod&lang=scss&
+// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-64.use[0]!./node_modules/@vue/cli-service/node_modules/css-loader/dist/cjs.js??clonedRuleSet-64.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-64.use[2]!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-64.use[3]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-64.use[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Mapa/Mapa.vue?vue&type=style&index=0&id=4492012c&prod&lang=scss&
+var Mapavue_type_style_index_0_id_4492012c_prod_lang_scss_ = __webpack_require__(526);
+;// CONCATENATED MODULE: ./src/components/Mapa/Mapa.vue?vue&type=style&index=0&id=4492012c&prod&lang=scss&
 
 ;// CONCATENATED MODULE: ./src/components/Mapa/Mapa.vue
 
@@ -40241,14 +40255,12 @@ function usarCapa(propsParam, emitsParam) {
   }
 
   /**
-   * Prepara la cap y la registra en el composable de capas.
+   * Prepara la capa y la registra en el composable de capas registradas.
    * @param {import("ol/layer/Layer.js").default} olCapa objeto de capa de openlayers.
    */
   function registrar(olCapa) {
     asignarPorps(olCapa);
     registrarNuevaCapa(olCapa);
-    // agregarEventos()
-
     const {
       visibilidad,
       alternarVisibilidad,
@@ -40323,32 +40335,46 @@ function usarCapaVectorial(propsParam, emitsParam) {
 }
 ;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/capas/GeoJSON/GeoJSON.vue?vue&type=script&lang=js&
 
-
 // import VectorImage from 'ol/layer/VectorImage'
+
 
 
 
 /* harmony default export */ var GeoJSONvue_type_script_lang_js_ = ({
   name: 'SisdaiCapaGeojson',
   props: usarCapaVectorial_props,
-  emits: usarCapaVectorial_emits,
-  setup(propsRefs, {
+  emits: ['alIniciarCarga', 'alFinalizarCarga', ...usarCapaVectorial_emits],
+  setup(propsSetup, {
     emit
   }) {
-    const {
-      datos
-    } = (0,external_commonjs_vue_commonjs2_vue_root_Vue_.toRefs)(propsRefs);
-    usarCapaVectorial(propsRefs, emit).registrar(new Vector({
-      source: new source_Vector({
-        features: new format_GeoJSON().readFeatures({
-          ...datos.value
-        })
+    const source = new source_Vector({
+      features: new format_GeoJSON().readFeatures({
+        ...propsSetup.datos
       })
+    });
+    source.on(VectorEventType.FEATURESLOADSTART, ({
+      target
+    }) => {
+      emit('alIniciarCarga');
+
+      // si los datos no son cargados mediante url, los datos yas se tienen al alcance.
+      if (target.getUrl() === undefined) {
+        emit('alFinalizarCarga', true);
+      }
+    });
+    source.on(
+    // Estos eventos solo se desencadenan cuando los datos son cargados por una url.
+    [VectorEventType.FEATURESLOADEND, VectorEventType.FEATURESLOADERROR], ({
+      type
+    }) => {
+      emit('alFinalizarCarga', type === VectorEventType.FEATURESLOADEND);
+    });
+    usarCapaVectorial(propsSetup, emit).registrar(new Vector({
+      source
       // className: this.className,
     }));
-
-    return {};
   },
+
   render: () => null
 });
 ;// CONCATENATED MODULE: ./src/components/capas/GeoJSON/GeoJSON.vue?vue&type=script&lang=js&
@@ -46082,24 +46108,75 @@ class OSM extends source_XYZ {
 
 /* harmony default export */ var source_OSM = (OSM);
 
+;// CONCATENATED MODULE: ./src/composables/usarCapaTeselas.js
+/**
+ * @module composables/usarCapaTeselas
+ */
+
+
+
+const usarCapaTeselas_props = {
+  /**
+   *
+   */
+  url: {
+    type: String,
+    default: 'https://{a-c}.basemaps.cartocdn.com/rastertiles/light_nolabels/{z}/{x}/{y}.png'
+  },
+  ...usarCapa_props
+};
+const usarCapaTeselas_emits = ['alIniciarCargaTesela', 'alFinalizarCargaTesela', ...emits];
+
+/**
+ * La finalidad de este composable es acceder a las funciones del genéricas de las capas que sean
+ * cargadas por teselas desde diferentes componentes o composables.
+ * @param {Object} propsParam props genéricos de capa.
+ * @param {Object} emitsParam emits genéricos de capa.
+ * @returns {Function} composable.
+ */
+function usarCapaTeselas(propsParam, emitsParam) {
+  /**
+   * Agrega los emits de carga por cada tesela.
+   * @param {import("ol/layer/Layer.js").default} olCapa objeto de capa de openlayers.
+   */
+  function agregarEmitsCarga(olCapa) {
+    olCapa.getSource().on(TileEventType.TILELOADSTART, () => emitsParam('alIniciarCargaTesela'));
+    olCapa.getSource().on([TileEventType.TILELOADEND, TileEventType.TILELOADERROR], ({
+      type
+    }) => {
+      emitsParam('alFinalizarCargaTesela', type === TileEventType.TILELOADEND);
+    });
+  }
+
+  /**
+   * Prepara la capa y la registra en el composable de capa.
+   * @param {import("ol/layer/Layer.js").default} olCapa objeto de capa de openlayers.
+   */
+  function registrar(olCapa) {
+    agregarEmitsCarga(olCapa);
+    usarCapa(propsParam, emitsParam).registrar(olCapa);
+  }
+  return {
+    registrar
+  };
+}
 ;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/capas/OSM.vue?vue&type=script&lang=js&
 
 
 
 /* harmony default export */ var OSMvue_type_script_lang_js_ = ({
   name: 'SisdaiCapaXyzOsm',
-  props: usarCapa_props,
-  emits: emits,
+  props: usarCapaTeselas_props,
+  emits: usarCapaTeselas_emits,
   setup(propsSetup, {
     emit
   }) {
-    usarCapa(propsSetup, emit).registrar(new layer_Tile({
+    usarCapaTeselas(propsSetup, emit).registrar(new layer_Tile({
       source: new source_OSM()
       // className: this.className,
     }));
-
-    return {};
   },
+
   render: () => null
 });
 ;// CONCATENATED MODULE: ./src/components/capas/OSM.vue?vue&type=script&lang=js&
@@ -47618,24 +47695,32 @@ class ImageWMS extends source_Image {
       type: String,
       default: 'geoserver'
     },
+    /**
+     * Extensión de la capa. Con este parametro se calcularán los minimos y maximos de las capas
+     * registradas en el mapa.
+     */
+    extension: {
+      type: Array,
+      default: () => []
+    },
     ...usarCapa_props
   },
-  emits: emits,
+  emits: ['alIniciarCarga', 'alFinalizarCarga', ...emits],
   setup(propsSetup, {
     emit
   }) {
-    const {
-      parametros,
-      url,
-      servidor
-    } = (0,external_commonjs_vue_commonjs2_vue_root_Vue_.toRefs)(propsSetup);
+    const source = new source_ImageWMS({
+      url: propsSetup.url,
+      params: propsSetup.parametros,
+      serverType: propsSetup.servidor,
+      crossOrigin: 'Anonymous'
+    });
+    source.on(ImageSourceEventType.IMAGELOADSTART, () => emit('alIniciarCarga'));
+    source.on([ImageSourceEventType.IMAGELOADEND, ImageSourceEventType.IMAGELOADERROR], e => {
+      emit('alFinalizarCarga', e.type === ImageSourceEventType.IMAGELOADEND);
+    });
     usarCapa(propsSetup, emit).registrar(new layer_Image({
-      source: new source_ImageWMS({
-        url: url.value,
-        params: parametros.value,
-        serverType: servidor.value,
-        crossOrigin: 'Anonymous'
-      })
+      source
       // className: this.className,
     }));
 
@@ -47669,33 +47754,22 @@ var WMS_component = normalizeComponent(
 
 
 
-
 /* harmony default export */ var XYZvue_type_script_lang_js_ = ({
   name: 'SisdaiCapaXyz',
-  props: {
-    url: {
-      type: String,
-      default: 'https://{a-c}.basemaps.cartocdn.com/rastertiles/light_nolabels/{z}/{x}/{y}.png'
-    },
-    ...usarCapa_props
-  },
-  emits: emits,
+  props: usarCapaTeselas_props,
+  emits: usarCapaTeselas_emits,
   setup(propsSetup, {
     emit
   }) {
-    const {
-      url
-    } = (0,external_commonjs_vue_commonjs2_vue_root_Vue_.toRefs)(propsSetup);
-    usarCapa(propsSetup, emit).registrar(new layer_Tile({
+    usarCapaTeselas(propsSetup, emit).registrar(new layer_Tile({
       source: new source_XYZ({
-        url: url.value,
+        url: propsSetup.url,
         crossOrigin: 'Anonymous'
       })
       // className: this.className,
     }));
-
-    return {};
   },
+
   render: () => null
 });
 ;// CONCATENATED MODULE: ./src/components/capas/XYZ.vue?vue&type=script&lang=js&
