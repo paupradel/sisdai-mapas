@@ -50,6 +50,8 @@
         :visible="geojson.visible"
         :zIndex="geojson.zIndex"
         @alCambiarVisibilidad="v => (geojson.visible = v)"
+        @alIniciarCarga="tipo => alIniciarCarga('geojson', tipo)"
+        @alFinalizarCarga="tipo => alFinalizarCarga('geojson', tipo)"
       />
 
       <SisdaiCapaXyzOsm

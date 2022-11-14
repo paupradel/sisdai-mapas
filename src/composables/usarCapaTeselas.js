@@ -33,7 +33,7 @@ export const emits = [
  */
 export default function usarCapaTeselas(propsParam, emitsParam) {
   /**
-   * .
+   * Agrega los emits de carga por cada tesela.
    * @param {import("ol/layer/Layer.js").default} olCapa objeto de capa de openlayers.
    */
   function agregarEmitsCarga(olCapa) {
@@ -42,16 +42,19 @@ export default function usarCapaTeselas(propsParam, emitsParam) {
       .on(TileEventType.TILELOADSTART, () => emitsParam('alIniciarCargaTesela'))
     olCapa
       .getSource()
-      .on([TileEventType.TILELOADEND, TileEventType.TILELOADERROR], e => {
-        emitsParam(
-          'alFinalizarCargaTesela',
-          e.type === TileEventType.TILELOADEND
-        )
-      })
+      .on(
+        [TileEventType.TILELOADEND, TileEventType.TILELOADERROR],
+        ({ type }) => {
+          emitsParam(
+            'alFinalizarCargaTesela',
+            type === TileEventType.TILELOADEND
+          )
+        }
+      )
   }
 
   /**
-   *
+   * Prepara la capa y la registra en el composable de capa.
    * @param {import("ol/layer/Layer.js").default} olCapa objeto de capa de openlayers.
    */
   function registrar(olCapa) {
