@@ -8,12 +8,7 @@ Si quieres contribuir al código de este componente revisa los [lineamientos de 
 
 ### Instalación
 
-* _En un futuro_ (hasta que se publique en npm)
-```bash
-npm i sisdai-mapas
-```
-
-* _Por el momento_
+Instalación y descarga de la depencdencia desde GitHub:
 ```bash
 npm i github:salsa-community/sisdai-mapas#version-a-instalar
 ```
