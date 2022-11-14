@@ -2,7 +2,6 @@
   <SisdaiMapa
     :centro="mapa.centro"
     :escalaGrafica="mapa.escalaGrafica"
-    :iconoConacytVisible="true"
     :zoom="mapa.zoom"
   >
     <!--
@@ -21,7 +20,7 @@
         </span>
       </div>
 
-      <div class="iline">
+      <div class="inline">
         GeoJSON:
         <button
           class="boton-secundario boton-chico"
@@ -51,6 +50,8 @@
         :visible="geojson.visible"
         :zIndex="geojson.zIndex"
         @alCambiarVisibilidad="v => (geojson.visible = v)"
+        @alIniciarCarga="tipo => alIniciarCarga('geojson', tipo)"
+        @alFinalizarCarga="tipo => alFinalizarCarga('geojson', tipo)"
       />
 
       <SisdaiCapaXyzOsm
@@ -58,6 +59,8 @@
         :nombre="osm.nombre"
         :visible="osm.visible"
         :zIndex="osm.zIndex"
+        @alIniciarCargaTesela="tipo => alIniciarCarga('osm', tipo)"
+        @alFinalizarCargaTesela="tipo => alFinalizarCarga('osm', tipo)"
       />
 
       <SisdaiCapaXyz
@@ -66,6 +69,8 @@
         :url="xyz.url"
         :visible="xyz.visible"
         :zIndex="xyz.zIndex"
+        @alIniciarCargaTesela="tipo => alIniciarCarga('xyz', tipo)"
+        @alFinalizarCargaTesela="tipo => alFinalizarCarga('xyz', tipo)"
       />
 
       <SisdaiCapaWms
@@ -75,6 +80,8 @@
         :url="wms.url"
         :visible="wms.visible"
         :zIndex="wms.zIndex"
+        @alIniciarCarga="tipo => alIniciarCarga('wms', tipo)"
+        @alFinalizarCarga="tipo => alFinalizarCarga('wms', tipo)"
       />
     </SisdaiMapaCapas>
   </SisdaiMapa>
@@ -125,13 +132,20 @@ const wms = ref({
   nombre: 'Capa WMS de estados',
   parametros: { LAYERS: 'estados_inegi_2019' },
   url: 'https://geo.crip.conacyt.mx/geoserver/estados_inegi_2019/wms',
-  visible: true,
+  visible: false,
   zIndex: 2,
 })
+
+function alIniciarCarga(tipo) {
+  console.log(`Empezó a cargar ${tipo}`)
+}
+function alFinalizarCarga(tipo, estatus) {
+  console.log(`Terminó de cargar ${tipo}`, estatus)
+}
 </script>
 
 <style lang="scss">
-.iline {
+.inline {
   display: flex;
   input[type='text'] {
     margin: 0 !important;

@@ -1,31 +1,22 @@
 <script>
 import TileLayer from 'ol/layer/Tile'
 import XYZ from 'ol/source/XYZ'
-
-import usarCapa, { props, emits } from '../../composables/usarCapa'
-import { toRefs } from 'vue'
+import usarCapaTeselas, {
+  props,
+  emits,
+} from '../../composables/usarCapaTeselas'
 
 export default {
   name: 'SisdaiCapaXyz',
-  props: {
-    url: {
-      type: String,
-      default:
-        'https://{a-c}.basemaps.cartocdn.com/rastertiles/light_nolabels/{z}/{x}/{y}.png',
-    },
-    ...props,
-  },
+  props,
   emits,
   setup(propsSetup, { emit }) {
-    const { url } = toRefs(propsSetup)
-    usarCapa(propsSetup, emit).registrar(
+    usarCapaTeselas(propsSetup, emit).registrar(
       new TileLayer({
-        source: new XYZ({ url: url.value, crossOrigin: 'Anonymous' }),
+        source: new XYZ({ url: propsSetup.url, crossOrigin: 'Anonymous' }),
         // className: this.className,
       })
     )
-
-    return {}
   },
   render: () => null,
 }

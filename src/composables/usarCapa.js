@@ -72,13 +72,12 @@ export default function usarCapa(propsParam, emitsParam) {
   }
 
   /**
-   * Prepara la cap y la registra en el composable de capas.
+   * Prepara la capa y la registra en el composable de capas registradas.
    * @param {import("ol/layer/Layer.js").default} olCapa objeto de capa de openlayers.
    */
   function registrar(olCapa) {
     asignarPorps(olCapa)
     registrarNuevaCapa(olCapa)
-    // agregarEventos()
 
     const { visibilidad, alternarVisibilidad, cambiarNombre } =
       vincularCapa(idValida)
