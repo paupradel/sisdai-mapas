@@ -20,7 +20,7 @@
         </span>
       </div>
 
-      <div class="iline">
+      <div class="inline">
         GeoJSON:
         <button
           class="boton-secundario boton-chico"
@@ -145,7 +145,7 @@ function alFinalizarCarga(tipo, estatus) {
 </script>
 
 <style lang="scss">
-.iline {
+.inline {
   display: flex;
   input[type='text'] {
     margin: 0 !important;
