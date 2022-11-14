@@ -1,61 +1,59 @@
-# dai-maps
+# sisdai-mapas
 
 Componentes reutilizables de mapas.
 
-Si quieres contribuyes al código de este componente revisa los [lineamientos de contribución establecidos por salsa](https://salsa.crip.conacyt.mx/guidelines/contribute/)
+Si quieres contribuir al código de este componente revisa los [lineamientos de contribución establecidos por SALSA](https://salsa.crip.conacyt.mx/guidelines/contribute/)
 
-## Como empezar
+## Como empezar a usar el componente en un proyecto de Vue.js
 
-### Instalar y crear el primer mapa
+### Instalación
 
-1.- _En un futuro_ (hasta que se publique en npm)
-
+* _En un futuro_ (hasta que se publique en npm)
 ```bash
-npm install dai-maps
+npm i sisdai-mapas
 ```
 
-1.- _Por el momento_
-
+* _Por el momento_
 ```bash
-npm install github:conacyt-dai/dai-maps#version-a-instalar
+npm i github:salsa-community/sisdai-mapas#version-a-instalar
 ```
 
-2.-
+### Importación y registro
 
-En el archivo `src/main.js`, importar y registrar el uso de los componentes de esta libreria
+En el archivo que se desee utilizar el componente:
 
 ```javascript
-// src/mai.js
-
 import Vue from 'vue'
-import App from './App.vue'
-//agregar la libreria, su css y registrarla en Vue
-import DaiMaps from "dai-maps"
-Vue.use(DaiMaps)
-
-new Vue({ ... el codigo de siempre
+import SisdaiMapas from "sisdai-mapas"
+Vue.use(SisdaiMapas)
 ```
 
-Tambien seria posible instalar subcomponentes especificos [TERMINAR DE REDACTAR ESTA SECCION]
+Si se utiliza el componente sisdai-mapas en dos archivos o más, se recomienda registrar el componente en el archivo `src/main.js` del proyecto.
 
-3.-
-Dentro del componente en el que se desee crear mapas con el diseño Dai mandar a llamar al componente `dai-map`, dentro de el agregar los layers necesarios
+### Crear un mapa básico
+
+Dentro del componente en el que se desee crear mapas con el diseño sisdai, usa la etiqueta `SisdaiMapa` dentro del `template` del HTML y agrega las capas y directivas que necesites:
 
 ```html
-<template>
-    <!--el center como coordenadas (x,y) en EPSG:4326-->
-    <dai-mapa :zoom="2" :centro="0,0">
-        <dai-capa-xyz-osm/>
-    </dai-map>
-</template>
-
+<SisdaiMapa :zoom="2" :centro="0,0">
+    <SisdaiCapaXyzOsm/>
+</SisdaiMapa>
 ```
 
-### Revisar la documentacion en local
+Para un uso avanzado revisa la documentación en local.
 
+## Documentación en local
+
+Para revisar la documentación en local primero clona este repositorio y accede a la carpeta del proyecto con:
+```bash
+git clone https://github.com/salsa-community/sisdai-mapas
+cd sisdai-mapas
+```
+
+Seguido de la instalación de las dependencias y ejecución de vuepress:
 ```bash
 npm install
 npm run docs:serve
 ```
 
-Abrir [localhost:8080](localhost:8080)
+Se habilitara en [localhost:8080](localhost:8080).
