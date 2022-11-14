@@ -50,14 +50,14 @@ export default {
     const refMapa = ref(null)
 
     /**
-     * Props reactivos
+     * Props reactivos.
      * ¡¡¡REVISAR SI ES NECESARIO QUE SEAN REACTIVOS AQUÍ O SOLO EN EL COMPOSABLE!!!
      */
     const { centro, extension, tema, zoom } = toRefs(propsSetup)
 
     /**
-     * Creación del elemento mapa con atributos definidos
-     * @param {HTMLDivElement|String} target elemento html que contendrá el mapa o id de mismo
+     * Creación del elemento mapa con atributos definidos.
+     * @param {HTMLDivElement|String} target elemento o id del elemento html que contendrá el mapa.
      */
     function crearMapa(target) {
       salvarInstancia(
@@ -89,7 +89,7 @@ export default {
     }
 
     /**
-     * Instanciar el mapa en cuanto el html esté montado
+     * Instanciar el mapa en cuanto el html esté montado.
      */
     onMounted(() => {
       crearMapa(refMapa.value)
