@@ -11,7 +11,7 @@ import 'dadsig-css/src/eni.scss'
 //import SisDaiMapas from "dai-maps"
 import SisDaiMapas from '../../src/index.js'
 
-// import "./styles/general.css";
+import './styles/general.scss'
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app

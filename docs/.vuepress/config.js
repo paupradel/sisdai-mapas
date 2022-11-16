@@ -2,19 +2,19 @@ const { description, version, repository } = require('../../package')
 
 module.exports = {
   /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#title
+   * @see https://v1.vuepress.vuejs.org/config/#title
    */
   title: 'SISDAI-MAPAS',
 
   /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#description
+   * @see https://v1.vuepress.vuejs.org/config/#description
    */
   description: description,
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
    *
-   * ref：https://v1.vuepress.vuejs.org/config/#head
+   * @see https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
     [
@@ -44,7 +44,7 @@ module.exports = {
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *
-   * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
+   * @see https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
     version: version,
@@ -55,19 +55,50 @@ module.exports = {
     lastUpdated: true,
     nav: [
       {
+        text: 'Guía de inicio',
+        link: '/guia/',
+      },
+      {
+        text: 'Documentación',
+        link: '/docs/',
+      },
+      {
+        text: 'Ejemplos',
+        link: '/ejemplos/',
+      },
+      {
         text: 'Pruebas',
         link: '/pruebas/',
       },
     ],
-    sidebar: {},
+    sidebar: {
+      '/docs/': [
+        {
+          title: 'Mapa',
+          collapsable: false,
+          children: [''],
+        },
+        {
+          title: 'Capas',
+          collapsable: true,
+          children: ['capas'],
+        },
+        {
+          title: 'Contenedores',
+          collapsable: true,
+          children: ['contenedores'],
+        },
+      ],
+    },
   },
 
   /**
    * Apply plugins
-   * ref：https://v1.vuepress.vuejs.org/zh/plugin/
+   * @see https://v1.vuepress.vuejs.org/zh/plugin/
    */
   plugins: ['@vuepress/plugin-back-to-top', '@vuepress/plugin-medium-zoom'],
-  //Comando para construir sin el SSR
+
+  // Comando para construir sin el SSR
   extendCli(cli) {
     cli
       .command('buildnossr [targetDir]', 'Build without ssr')
