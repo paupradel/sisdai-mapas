@@ -15,48 +15,53 @@ El componente `SisdaiMapa` es el componente princial de esta librería. Dentro d
 ### Vista del mapa
 
 ##### centro
+
 - Tipo: `Array`
 - Valor por defecto: `[0, 0]`
 - Interactivo: ✅
 
 Coordenadas `[x, y]` del centro inicial de la vista.
 
-> ℹ️ __Información:__ La proyección de estas coordenadas deben coincidir con la `proyeccion` definida en el mapa.
+> ℹ️ **Información:** La proyección de estas coordenadas deben coincidir con la `proyeccion` definida en el mapa.
 
-> ⚠️ __Importante:__ Debe tener en cuenta que si la propiedad `extension` se define, esta propiedad se ignorará.
+> ⚠️ **Importante:** Debe tener en cuenta que si la propiedad `extension` se define, esta propiedad será ignorada.
 
 ##### extension
+
 - Tipo: `Array`
 - Valor por defecto: `[0, 0, 0, 0]`
 - Interactivo: ✅
 
 Coordenadas extremas `[x1, y1, x2, y2]` de la caja envolvente de la vista.
 
-> ℹ️ __Información:__ La proyección de estas coordenadas deben coincidir con la `proyeccion` definida en el mapa.
+> ℹ️ **Información:** La proyección de estas coordenadas deben coincidir con la `proyeccion` definida en el mapa.
 
-> ⚠️ __Importante:__ Debe tener en cuenta que si esta propiedad es definida o diferente al valor por defecto, las propiedades `centro` y `zoom` serán ignoradas.
+> ⚠️ **Importante:** Debe tener en cuenta que si esta propiedad es definida o diferente al valor por defecto, las propiedades `centro` y `zoom` serán ignoradas.
 
 ##### proyeccion
+
 - Tipo: `String`
 - Valor por defecto: `EPSG:4326`
 - Interactivo: ❌
 
 Código de identificación SRS que define la proyección de la vista.
 
-> ℹ️ __Información:__ El valor predeterminado es Universal Transversal de Mercator.
+> ℹ️ **Información:** El valor predeterminado es Universal Transversal de Mercator.
 
 ##### zoom
+
 - Tipo: `Number`
 - Valor por defecto: `1`
 - Interactivo: ✅
 
 Nivel de zoom utilizado para calcular la resolución inicial de la vista.
 
-> ⚠️ __Importante:__ Debe tener en cuenta que si la propiedad `extension` se define, esta propiedad será ignorada.
+> ⚠️ **Importante:** Debe tener en cuenta que si la propiedad `extension` se define, esta propiedad será ignorada.
 
 ### Controles
 
 ##### escalaGrafica
+
 - Tipo: `Boolean`
 - Valor por defecto: `false`
 - Interactivo: ✅
@@ -70,4 +75,5 @@ Define si se agrega la escala grafica en el mapa.
 <mapa-basico />
 
 ```html
+
 ```

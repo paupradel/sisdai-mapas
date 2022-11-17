@@ -29,7 +29,10 @@
           <label for="vistaExtension">Vista con Extensión</label>
         </span>
 
-        <select v-model="mapa.extension" :disabled="!vistaExtension">
+        <select
+          v-model="mapa.extension"
+          :disabled="!vistaExtension"
+        >
           <option
             v-for="(_, idx) in extensiones"
             :key="`ext_${idx}`"
@@ -52,7 +55,10 @@
           <label for="vistaCentro">Vista con Centro y Zoom</label>
         </span>
 
-        <select v-model="mapa.centro" :disabled="vistaExtension">
+        <select
+          v-model="mapa.centro"
+          :disabled="vistaExtension"
+        >
           <option
             v-for="(_, idx) in centros"
             :key="`cent_${idx}`"
@@ -64,19 +70,19 @@
       </div>
     </div>
     <span class="horizontal">
-          Zoom
-          <input
-            id="inputZoom"
-            type="range"
-            name=""
-            min="1"
-            max="22"
-            step=".1"
-            :value="mapa.zoom"
-            @input="cambiarZoom"
-          />
-          {{ mapa.zoom }}
-        </span>
+      Zoom
+      <input
+        id="inputZoom"
+        type="range"
+        name=""
+        min="1"
+        max="22"
+        step=".1"
+        :value="mapa.zoom"
+        @input="cambiarZoom"
+      />
+      {{ mapa.zoom }}
+    </span>
 
     <SisdaiMapa
       :centro="centros[mapa.centro]"
@@ -121,7 +127,7 @@ function quitarExtension() {
   }
 }
 
-function cambiarZoom({target}) {
+function cambiarZoom({ target }) {
   mapa.value.zoom = target.valueAsNumber
 }
 </script>
