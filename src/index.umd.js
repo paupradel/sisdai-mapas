@@ -1,5 +1,5 @@
-import * as DaiMaps from './index'
+import * as SisdaiMapas from './index'
 
 export default {
-  ...DaiMaps,
+  ...SisdaiMapas,
 }

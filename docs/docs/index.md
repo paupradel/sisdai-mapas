@@ -15,40 +15,53 @@ El componente `SisdaiMapa` es el componente princial de esta librería. Dentro d
 ### Vista del mapa
 
 ##### centro
-
 - Tipo: `Array`
 - Valor por defecto: `[0, 0]`
 - Interactivo: ✅
 
-Centro en coordenadas a las que el mapa se acercara. Es una array en formato `[x,y]`, en EPSG:4326, es decir `[longitud,latitud]`.
+Coordenadas `[x, y]` del centro inicial de la vista.
 
-Tener en cuenta que si la propiedad `extension` se define, esta propiedad se igonora.
+> ℹ️ __Información:__ La proyección de estas coordenadas deben coincidir con la `proyeccion` definida en el mapa.
+
+> ⚠️ __Importante:__ Debe tener en cuenta que si la propiedad `extension` se define, esta propiedad se ignorará.
 
 ##### extension
-
 - Tipo: `Array`
 - Valor por defecto: `[0, 0, 0, 0]`
 - Interactivo: ✅
 
-##### proyeccion
+Coordenadas extremas `[x1, y1, x2, y2]` de la caja envolvente de la vista.
 
+> ℹ️ __Información:__ La proyección de estas coordenadas deben coincidir con la `proyeccion` definida en el mapa.
+
+> ⚠️ __Importante:__ Debe tener en cuenta que si esta propiedad es definida o diferente al valor por defecto, las propiedades `centro` y `zoom` serán ignoradas.
+
+##### proyeccion
 - Tipo: `String`
 - Valor por defecto: `EPSG:4326`
 - Interactivo: ❌
 
-##### zoom
+Código de identificación SRS que define la proyección de la vista.
 
+> ℹ️ __Información:__ El valor predeterminado es Universal Transversal de Mercator.
+
+##### zoom
 - Tipo: `Number`
 - Valor por defecto: `1`
 - Interactivo: ✅
 
+Nivel de zoom utilizado para calcular la resolución inicial de la vista.
+
+> ⚠️ __Importante:__ Debe tener en cuenta que si la propiedad `extension` se define, esta propiedad será ignorada.
+
 ### Controles
 
 ##### escalaGrafica
-
 - Tipo: `Boolean`
 - Valor por defecto: `false`
 - Interactivo: ✅
+
+Define si se agrega la escala grafica en el mapa.
 
 ## Eventos
 
