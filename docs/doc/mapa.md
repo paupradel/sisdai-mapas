@@ -7,7 +7,7 @@ El componente `SisdaiMapa` es el componente princial de esta librería. Dentro d
 ```html
 <SisdaiMapa>
   <!-- 
-    Aqui van las capas, leyendas y contenedores que
+    Aquí van las capas, leyendas y contenedores que
     quedarán dentro del mapa 
   -->
 </SisdaiMapa>
