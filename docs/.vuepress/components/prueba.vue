@@ -88,7 +88,7 @@
 </template>
 
 <script setup>
-import edos from './../public/capas/sample-edos.json'
+import edos from './../capas/ejemplo-edos.json'
 
 import { ref } from 'vue'
 

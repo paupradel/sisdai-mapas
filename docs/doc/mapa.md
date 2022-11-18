@@ -6,7 +6,10 @@ El componente `SisdaiMapa` es el componente princial de esta librería. Dentro d
 
 ```html
 <SisdaiMapa>
-  <!-- Aqui van las capas, leyendas y contenedores que quedarán dentro del mapa -->
+  <!-- 
+    Aqui van las capas, leyendas y contenedores que
+    quedarán dentro del mapa 
+  -->
 </SisdaiMapa>
 ```
 
@@ -72,8 +75,4 @@ Define si se agrega la escala grafica en el mapa.
 
 ## Ejemplo
 
-<mapa-basico />
-
-```html
-
-```
+<mapa-PropiedadesInteractivas />

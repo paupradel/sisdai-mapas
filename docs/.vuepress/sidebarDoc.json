@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Guía",
+    "collapsable": false,
+    "children": ["introduccion", "instalacion"]
+  },
+  {
+    "title": "Mapa",
+    "collapsable": false,
+    "children": ["mapa"]
+  }
+]

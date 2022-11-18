@@ -1,4 +1,6 @@
-const { description, version, repository } = require('../../package')
+const { description, version, repository } = require('./../../package')
+const navbar = require('./navbar')
+const sidebarDoc = require('./sidebarDoc')
 
 module.exports = {
   /**
@@ -17,13 +19,6 @@ module.exports = {
    * @see https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    [
-      'link',
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Montserrat:wght@300;400;500;600&display=swap',
-      },
-    ],
     [
       'link',
       {
@@ -53,42 +48,9 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: true,
-    nav: [
-      {
-        text: 'Guía de inicio',
-        link: '/guia/',
-      },
-      {
-        text: 'Documentación',
-        link: '/docs/',
-      },
-      {
-        text: 'Ejemplos',
-        link: '/ejemplos/',
-      },
-      {
-        text: 'Pruebas',
-        link: '/pruebas/',
-      },
-    ],
+    nav: navbar,
     sidebar: {
-      '/docs/': [
-        {
-          title: 'Mapa',
-          collapsable: false,
-          children: [''],
-        },
-        {
-          title: 'Capas',
-          collapsable: true,
-          children: ['capas'],
-        },
-        {
-          title: 'Contenedores',
-          collapsable: true,
-          children: ['contenedores'],
-        },
-      ],
+      '/doc/': sidebarDoc,
     },
   },
 
