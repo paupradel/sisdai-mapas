@@ -8,5 +8,25 @@
     "title": "Mapa",
     "collapsable": false,
     "children": ["mapa"]
+  },
+  {
+    "title": "Contenedores",
+    "collapsable": true,
+    "children": []
+  },
+  {
+    "title": "Capas",
+    "collapsable": true,
+    "children": ["xyz"]
+  },
+  {
+    "title": "Clasificación",
+    "collapsable": true,
+    "children": []
+  },
+  {
+    "title": "Leyendas",
+    "collapsable": true,
+    "children": ["leyenda"]
   }
 ]
