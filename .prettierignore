@@ -3,4 +3,5 @@ coverage
 libs
 node_modules
 docs/.vuepress/dist
+docs/.vitepress/dist
 deprecated

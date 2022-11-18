@@ -4,7 +4,7 @@ dist/
 
 #docs
 docs/.vuepress/dist/
-
+docs/.vitepress/dist/
 
 # local env files
 .env.local
@@ -25,5 +25,4 @@ pnpm-debug.log*
 *.sln
 *.sw?
 
-_src/
-_docs/
+deprecated/
