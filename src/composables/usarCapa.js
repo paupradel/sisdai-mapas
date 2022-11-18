@@ -2,9 +2,9 @@
  * @module composables/usarCapa
  */
 
-import usarCapasRegistradas from './usarCapasRegistradas'
-import { idAleatorio } from '../utiles'
 import { toRefs, watch } from 'vue'
+import usarCapasRegistradas from './usarCapasRegistradas'
+import { idAleatorio } from './../utiles'
 
 export const props = {
   /**

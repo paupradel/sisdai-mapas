@@ -1,5 +1,5 @@
 /**
- * @module control/EscalaGrafica
+ * @module controles/EscalaGrafica
  */
 
 import ScaleLine from 'ol/control/ScaleLine'

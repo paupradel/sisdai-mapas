@@ -1,0 +1,20 @@
+@charset 'UTF-8';
+
+@import './controles';
+@import './icons.css';
+
+@import 'dadsig-css/src/_variables';
+@import 'dadsig-css/src/_normalizar';
+@import 'dadsig-css/src/_mixins';
+
+@import 'dadsig-css/src/bordes/base';
+@import 'dadsig-css/src/bordes/redondeado';
+@import 'dadsig-css/src/bordes/colores';
+@import 'dadsig-css/src/bordes/grosores';
+@import 'dadsig-css/src/bordes/separadores';
+
+@import 'dadsig-css/src/boton/base';
+@import 'dadsig-css/src/boton/iconos';
+@import 'dadsig-css/src/boton/compuestos';
+
+@import 'dadsig-css/src/formularios/base';

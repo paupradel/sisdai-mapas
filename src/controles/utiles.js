@@ -1,5 +1,5 @@
 /**
- * @module controls/utiles
+ * @module controles/utiles
  */
 
 /**

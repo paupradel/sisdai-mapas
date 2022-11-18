@@ -1,5 +1,5 @@
 /**
- * @module controls/ZoomPersonalizado
+ * @module controles/ZoomPersonalizado
  */
 
 import Control from 'ol/control/Control'

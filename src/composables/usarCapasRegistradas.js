@@ -7,7 +7,6 @@ import { ref, watch } from 'vue'
 /**
  * Objeto de objetos de capas de openlayers, los leys de cada objeto debe ser el id de cada capa.
  */
-const olCapas = {}
 const capasRegistradas = {}
 
 /**
@@ -50,21 +49,8 @@ export default function usarCapasRegistradas() {
     const idCapa = capa.get('id')
     if (laCapaYaExiste(idCapa)) return
 
-    olCapas[idCapa] = capa
     capasRegistradas[idCapa] = ref(capa)
   }
-
-  /**
-   * Agrega funciones a eventos detectables.
-   * @param {String} idCapa id de la caopa a la que se agregará el evento.
-   * @param {import("ol/ObjectEventType").Types|'change:extent'|'change:maxResolution'|'change:maxZoom'|
-   *    'change:minResolution'|'change:minZoom'|'change:opacity'|'change:visible'|'change:zIndex'} tipoEvento
-   *    tipio de evento a detectar.
-   * @param {Function} funsion función que se desencadenará al detectar el evento.
-   function agregarFuncionesPorEvento(idCapa, tipoEvento, funcion) {
-     olCapas[idCapa].on(tipoEvento, funcion)
-    }
-   */
 
   /**
    * Esta función en un pequeño composable para acceder a propiedades reactivas y funciones de a

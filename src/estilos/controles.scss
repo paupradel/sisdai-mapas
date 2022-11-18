@@ -11,6 +11,7 @@ $margen: 12px;
       margin: 0;
       &:not(:last-child) {
         margin-bottom: calc($margen / 2);
+        margin-right: 0px;
       }
     }
   }
@@ -21,7 +22,7 @@ $margen: 12px;
 
   &-escala-grafica {
     bottom: 0;
-    left: calc(34px + $margen);
+    left: calc(34px + $margen) !important;
 
     .ol-scale-bar-inner {
       .ol-scale-step-marker {

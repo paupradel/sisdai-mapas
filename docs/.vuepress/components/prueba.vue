@@ -54,7 +54,7 @@
         @alFinalizarCarga="tipo => alFinalizarCarga('geojson', tipo)"
       />
 
-      <SisdaiCapaXyzOsm
+      <SisdaiCapaOsm
         :id="osm.id"
         :nombre="osm.nombre"
         :visible="osm.visible"

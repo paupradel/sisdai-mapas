@@ -90,7 +90,7 @@
       :zoom="mapa.zoom"
       :extension="extensiones[mapa.extension]"
     >
-      <SisdaiCapaXyzOsm />
+      <SisdaiCapaOsm />
     </SisdaiMapa>
   </div>
 </template>

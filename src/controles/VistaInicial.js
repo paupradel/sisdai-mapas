@@ -1,5 +1,5 @@
 /**
- * @module controls/VistaInicial
+ * @module controles/VistaInicial
  */
 
 import Control from 'ol/control/Control'
@@ -121,8 +121,7 @@ export default class VistaInicial extends Control {
    */
   extensionEsValida() {
     return Boolean(
-      Number(this.extension.value[0]) !== 0 &&
-        Number(this.extension.value[3]) !== 0
+      Number(this.extension[0]) !== 0 && Number(this.extension[3]) !== 0
     )
   }
 

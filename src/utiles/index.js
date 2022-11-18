@@ -1,5 +1,5 @@
 /**
- * @module utiles
+ * @module utiles/index
  */
 
 /**

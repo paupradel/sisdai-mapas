@@ -1,8 +1,7 @@
-import Mapa from './components/Mapa'
-import * as layout from './components/layouts'
-import * as capas from './components/capas'
-
-import './styles/controles.scss'
+import './estilos/index.scss'
+import Mapa from './componentes/SisdaiMapa.vue'
+import * as Capas from './componentes/capas'
+import * as Elementos from './componentes/elementos'
 
 export default function plugin(Vue) {
   if (plugin.installed) {
@@ -11,16 +10,19 @@ export default function plugin(Vue) {
 
   plugin.installed = true
 
-  Vue.component(Mapa.name, Mapa)
+  agregarComponente(Mapa)
+  agregarComponentes(Capas)
+  agregarComponentes(Elementos)
 
-  Object.entries(layout).forEach(([, contenedor]) => {
-    Vue.component(contenedor.name, contenedor)
-  })
+  function agregarComponente(componente) {
+    Vue.component(componente.__name, componente)
+  }
 
-  // Capas
-  Object.entries(capas).forEach(([, capa]) => {
-    Vue.component(capa.name, capa)
-  })
+  function agregarComponentes(componentes) {
+    Object.values(componentes).forEach(componente =>
+      agregarComponente(componente)
+    )
+  }
 }
 
 export { plugin as install }

@@ -5,9 +5,9 @@
 import { ref, toRefs, watch } from 'vue'
 // import MapEventType from 'ol/MapEventType'
 
-import ControlEscalaGrafica from './../controls/EscalaGrafica'
-import ControlVistaInicial from './../controls/VistaInicial'
-import usarRegistroCapas from './usarCapasRegistradas'
+import ControlEscalaGrafica from './../controles/EscalaGrafica'
+import ControlVistaInicial from './../controles/VistaInicial'
+import usarCapasRegistradas from './usarCapasRegistradas'
 
 /**
  * Objeto que contendrá la instancia del mapa, declararlo fuera de la función composable hace que
@@ -124,7 +124,7 @@ export const props = {
  * @returns {Function} composable
  */
 export default function usarMapa(propsParam) {
-  const { agregarTodoALMapa: agregarCapasRegistradas } = usarRegistroCapas()
+  const { agregarTodoALMapa: agregarCapasRegistradas } = usarCapasRegistradas()
   const { centro, escalaGrafica, extension, zoom } = toRefs(propsParam)
 
   /**
@@ -132,7 +132,6 @@ export default function usarMapa(propsParam) {
    * @param {import("ol/Map.js").default} mapaInstanciado
    */
   function salvarInstancia(mapaInstanciado) {
-    // console.log('hola desde el composable del mapa', mapaInstanciado)
     agregarCapasRegistradas(mapaInstanciado)
     olMapa.value = mapaInstanciado
     // olMapa.value.on(MapEventType.LOADSTART, console.log(MapEventType.LOADSTART))
