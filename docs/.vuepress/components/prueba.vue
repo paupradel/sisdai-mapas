@@ -50,8 +50,6 @@
         :visible="geojson.visible"
         :zIndex="geojson.zIndex"
         @alCambiarVisibilidad="v => (geojson.visible = v)"
-        @alIniciarCarga="tipo => alIniciarCarga('geojson', tipo)"
-        @alFinalizarCarga="tipo => alFinalizarCarga('geojson', tipo)"
       />
 
       <SisdaiCapaOsm
@@ -59,8 +57,8 @@
         :nombre="osm.nombre"
         :visible="osm.visible"
         :zIndex="osm.zIndex"
-        @alIniciarCargaTesela="tipo => alIniciarCarga('osm', tipo)"
-        @alFinalizarCargaTesela="tipo => alFinalizarCarga('osm', tipo)"
+        @alIniciarCarga="tipo => alIniciarCarga('osm', tipo)"
+        @alFinalizarCarga="tipo => alFinalizarCarga('osm', tipo)"
       />
 
       <SisdaiCapaXyz
@@ -69,8 +67,10 @@
         :url="xyz.url"
         :visible="xyz.visible"
         :zIndex="xyz.zIndex"
-        @alIniciarCargaTesela="tipo => alIniciarCarga('xyz', tipo)"
-        @alFinalizarCargaTesela="tipo => alFinalizarCarga('xyz', tipo)"
+        @alIniciarCarga="tipo => alIniciarCarga('xyz', tipo)"
+        @alFinalizarCarga="tipo => alFinalizarCarga('xyz', tipo)"
+        @alIniciarCargaTesela="tipo => alIniciarCarga('xyz t', tipo)"
+        @alFinalizarCargaTesela="tipo => alFinalizarCarga('xyz t', tipo)"
       />
 
       <SisdaiCapaWms

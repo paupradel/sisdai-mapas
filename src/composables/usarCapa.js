@@ -29,7 +29,7 @@ export const props = {
    */
   verCargador: {
     type: Boolean,
-    default: true,
+    default: false,
   },
 
   /**
@@ -50,7 +50,11 @@ export const props = {
   },
 }
 
-export const emits = ['alCambiarVisibilidad']
+export const emits = [
+  'alCambiarVisibilidad',
+  'alIniciarCarga',
+  'alFinalizarCarga',
+]
 
 /**
  * La finalidad de este composable es acceder a las funciones del genéricas de la capa desde

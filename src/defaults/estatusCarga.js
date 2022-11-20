@@ -1,6 +1,6 @@
 export default {
   no: 'indefinida',
   ini: 'iniciada',
-  eror: 'error',
+  error: 'error',
   fin: 'finalizada',
 }

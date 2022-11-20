@@ -47,7 +47,7 @@ const propsSetup = defineProps({
 })
 
 // eslint-disable-next-line
-const emit = defineEmits(['alIniciarCarga', 'alFinalizarCarga', ...emits])
+const emit = defineEmits(emits)
 
 const source = new ImageWMS({
   url: propsSetup.url,

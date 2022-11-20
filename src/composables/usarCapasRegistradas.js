@@ -59,9 +59,9 @@ export default function usarCapasRegistradas() {
   }
 
   /**
-   * La finalidad de este watcher es actulizar la variable `estadoCapasCargadorVisible` cada que
-   * cambie el estado de algua capa, filra solo las capas que tienen el cargador visible y checa
-   * si hay alguna capa en procesos de carga `tiposEstatusCarga.ini`
+   * Este watcher actualiza la variable `estadoCapasCargadorVisible` cada que cambie el estado
+   * de algua capa, filra solo las capas que tienen el cargador visible y checa si hay alguna
+   * capa en procesos de carga `tiposEstatusCarga.ini`.
    */
   watch(
     () =>
@@ -115,13 +115,11 @@ export default function usarCapasRegistradas() {
     )
 
     function cambiarEstatusCarga(nuevoEstatus) {
-      // capa().set('estatusCarga', nuevoEstatus)
       estatusCarga.value = nuevoEstatus
     }
     watch(estatusCarga, nuevoEstatus => {
-      // estatusCarga.value = nuevoEstatus
       capa().set('estatusCarga', nuevoEstatus)
-      console.log(`estatus ${nuevoEstatus} detectado desde el watcher`)
+      console.log(`estatus ${nombre.value}: ${nuevoEstatus}`)
     })
 
     return {

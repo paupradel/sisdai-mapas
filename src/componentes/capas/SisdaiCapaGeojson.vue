@@ -15,7 +15,7 @@ import usarCapaVectorial, {
 const propsSetup = defineProps(props)
 
 // eslint-disable-next-line
-const emitsSetup = defineEmits(['alIniciarCarga', 'alFinalizarCarga', ...emits])
+const emitsSetup = defineEmits(emits)
 
 const { registrar, estatusCarga } = usarCapaVectorial(propsSetup, emitsSetup)
 
@@ -31,12 +31,6 @@ source.on(VectorEventType.FEATURESLOADSTART, ({ target }) => {
   if (target.getUrl() === undefined) {
     emitsSetup('alFinalizarCarga', true)
     estatusCarga.value = tiposEstatusCarga.fin
-    // setTimeout(() => {
-    //   estatusCarga.value = tiposEstatusCarga.ini
-    //   setTimeout(() => {
-    //     estatusCarga.value = tiposEstatusCarga.fin
-    //   }, 2000)
-    // }, 2000)
   }
 })
 source.on(
