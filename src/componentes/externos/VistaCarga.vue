@@ -1,5 +1,3 @@
-<script setup></script>
-
 <template>
   <div class="sisdai-mapa-vista-carga">
     <svg

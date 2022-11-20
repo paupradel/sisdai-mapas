@@ -2,9 +2,10 @@
  * @module composables/usarCapa
  */
 
-import { toRefs, watch } from 'vue'
+import { ref, toRefs, watch } from 'vue'
 import usarCapasRegistradas from './usarCapasRegistradas'
 import { idAleatorio } from './../utiles'
+import tiposEstatusCarga from './../defaults/estatusCarga'
 
 export const props = {
   /**
@@ -21,6 +22,14 @@ export const props = {
   nombre: {
     type: String,
     default: 'Nombre no asignado',
+  },
+
+  /**
+   *
+   */
+  verCargador: {
+    type: Boolean,
+    default: true,
   },
 
   /**
@@ -52,8 +61,8 @@ export const emits = ['alCambiarVisibilidad']
  */
 export default function usarCapa(propsParam, emitsParam) {
   const { registrarNuevaCapa, vincularCapa } = usarCapasRegistradas()
-
-  const { nombre, visible, zIndex } = toRefs(propsParam)
+  const { nombre, verCargador, visible, zIndex } = toRefs(propsParam)
+  const estatusCarga = ref(tiposEstatusCarga.no)
 
   /**
    * Asigna un identificador aleatorio en caso de que no se asigne.
@@ -65,8 +74,10 @@ export default function usarCapa(propsParam, emitsParam) {
    * @param {import("ol/layer/Layer.js").default} olCapa objeto de capa de openlayers.
    */
   function asignarPorps(olCapa) {
+    olCapa.set('estatusCarga', estatusCarga.value)
     olCapa.set('id', idValida)
     olCapa.set('nombre', nombre.value)
+    olCapa.set('verCargador', verCargador.value)
     olCapa.setVisible(visible.value)
     olCapa.setZIndex(zIndex.value)
   }
@@ -79,8 +90,12 @@ export default function usarCapa(propsParam, emitsParam) {
     asignarPorps(olCapa)
     registrarNuevaCapa(olCapa)
 
-    const { visibilidad, alternarVisibilidad, cambiarNombre } =
-      vincularCapa(idValida)
+    const {
+      visibilidad,
+      alternarVisibilidad,
+      cambiarNombre,
+      cambiarEstatusCarga,
+    } = vincularCapa(idValida)
 
     watch(visible, alternarVisibilidad)
     watch(visibilidad, nuevoValor =>
@@ -88,9 +103,11 @@ export default function usarCapa(propsParam, emitsParam) {
     )
 
     watch(nombre, cambiarNombre)
+    watch(estatusCarga, cambiarEstatusCarga)
   }
 
   return {
     registrar,
+    estatusCarga,
   }
 }
