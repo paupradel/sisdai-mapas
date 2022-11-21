@@ -11,7 +11,7 @@ import tiposEstatusCarga from './../defaults/estatusCarga'
 const capasRegistradas = {}
 
 /**
- * Vriable que indica si hay capas que tienen el cargador visible en proceso de carga/actualiación.
+ * Variable que indica si hay capas que tienen el cargador visible en proceso de carga/actualiación.
  */
 const hayCapasCargadorVisibleProcesando = ref(false)
 
@@ -117,10 +117,9 @@ export default function usarCapasRegistradas() {
     function cambiarEstatusCarga(nuevoEstatus) {
       estatusCarga.value = nuevoEstatus
     }
-    watch(estatusCarga, nuevoEstatus => {
+    watch(estatusCarga, nuevoEstatus =>
       capa().set('estatusCarga', nuevoEstatus)
-      console.log(`estatus ${nombre.value}: ${nuevoEstatus}`)
-    })
+    )
 
     return {
       alternarVisibilidad,

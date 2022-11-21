@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, ref, watch } from 'vue'
+import { onMounted, ref } from 'vue'
 import 'ol/ol.css'
 import Map from 'ol/Map'
 import View from 'ol/View'
@@ -21,8 +21,6 @@ const rellenoAlBordeDeLaExtension = [10, 10, 10, 10]
 const propsSetup = defineProps(props)
 const { salvarInstancia, alternarEscalaGrafica, verCargador } =
   usarMapa(propsSetup)
-
-watch(verCargador, n => console.log('verCargador Mapa', n))
 
 /**
  * Referencia al elemento html contenedor del mapa

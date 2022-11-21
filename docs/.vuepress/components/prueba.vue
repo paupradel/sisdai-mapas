@@ -78,6 +78,7 @@
         :nombre="wms.nombre"
         :parametros="wms.parametros"
         :url="wms.url"
+        :verCargador="true"
         :visible="wms.visible"
         :zIndex="wms.zIndex"
         @alIniciarCarga="tipo => alIniciarCarga('wms', tipo)"
