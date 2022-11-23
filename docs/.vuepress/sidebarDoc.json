@@ -16,8 +16,8 @@
   },
   {
     "title": "Capas",
-    "collapsable": true,
-    "children": ["xyz"]
+    "collapsable": false,
+    "children": ["capas-general", "capas-xyz"]
   },
   {
     "title": "Clasificación",
@@ -26,7 +26,7 @@
   },
   {
     "title": "Leyendas",
-    "collapsable": true,
+    "collapsable": false,
     "children": ["leyenda"]
   }
 ]
