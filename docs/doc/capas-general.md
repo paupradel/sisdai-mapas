@@ -1,6 +1,7 @@
 # Generalidades
 
 Aquí se describen las propiedades y eventos generales que tienen todas las capas que se pueden registrar en este componente.
+
 - SisdaiCapaGeojson
 - SisdaiCapaXyz
 - SisdaiCapaWms
@@ -54,17 +55,19 @@ Indica la posición respecto a otras capas, cuando se define un z-index mas alto
 Evento ejecutado cuando se detecta el cambio de visibilidad de la capa desde las propiedades reactivas o desde los controles del componente como el control de leyenda.
 
 Parámetros esperados:
+
 - visibilidad: `Boolean` Visibilidad final al ejecutarse este evento.
 
 #### `@alIniciarCarga`
 
-Evento ejecutado cuando se detecta que se inicia con la carga de la información visible en el mapa. En el caso de capas vectoriales (GeoJSON) cuando inicia la consulta de los features; En el caso de capas raster (WMS) cuando inicia la consulta de la imagen; En el caso de las capas por conjunto de teselas (XYZ, OSM) cuando inicia la consulta de un grupo de teselas.
+Evento ejecutado cuando se detecta que ha iniciado la carga de la información visible en el mapa. En el caso de capas vectoriales (GeoJSON) cuando inicia la consulta de los features; En el caso de capas raster (WMS) cuando inicia la consulta de la imagen; En el caso de las capas por conjunto de teselas (XYZ, OSM) cuando inicia la consulta de un grupo de teselas.
 
-Sin parámetros esperados
+Sin parámetros esperados.
 
 #### `@alFinalizarCarga`
 
-Evento ejecutado cuando se detecta que la carga de la información visible en el mapa ha finalizado. En el caso de capas vectoriales (GeoJSON) cuando finaliza la consulta de los features; En el caso de capas raster (WMS) cuando finaliza la consulta de la imagen; En el caso de las capas por conjunto de teselas (XYZ, OSM) cuando finaliza la consulta de un grupo de teselas.
+Evento ejecutado cuando se detecta que ha finalizado la carga de la información visible en el mapa. En el caso de capas vectoriales (GeoJSON) cuando finaliza la consulta de los features; En el caso de capas raster (WMS) cuando finaliza la consulta de la imagen; En el caso de las capas por conjunto de teselas (XYZ, OSM) cuando finaliza la consulta de un grupo de teselas.
 
 Parámetros esperados:
+
 - cargaExitosa: `Boolean` Indica si la carga no ha presentado error.
