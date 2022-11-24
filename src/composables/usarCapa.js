@@ -9,12 +9,13 @@ import tiposEstatusCarga from './../defaults/estatusCarga'
 
 export const props = {
   /**
-   * id
+   * `id`
    * - Tipo: `String`
    * - Obligatorio: ✅
    * - Interactivo: ❌
    *
-   * Identificador unico de la capa. Si no es detectado, se asignará un identificador random.
+   * Identificador único de la capa. Si no es detectado, se asignará una cadena de texto
+   * aleatorea. Para hacer uso de la leyenda esta propiedad pasa a ser obligatoria.
    */
   id: {
     type: String,
@@ -22,12 +23,13 @@ export const props = {
   },
 
   /**
-   * nombre
+   * `nombre`
    * - Tipo: `String`
-   * - Valor por defecto: `Nombre no asignado`
+   * - Valor por defecto: Identificador único de la capa.
    * - Interactivo: ✅
    *
-   * Nombre de la capa que aparecerá en el control de la leyenda.
+   * Nombre de la capa que aparecerá en el control de la leyenda. Si no es detectado, se asignará
+   * el identificador único de la capa (`id`).
    */
   nombre: {
     type: String,
@@ -35,7 +37,7 @@ export const props = {
   },
 
   /**
-   * verCargador
+   * `verCargador`
    * - Tipo: `Boolean`
    * - Valor por defecto: `false`
    * - Interactivo: ❌
@@ -49,7 +51,7 @@ export const props = {
   },
 
   /**
-   * visible
+   * `visible`
    * - Tipo: `Boolean`
    * - Valor por defecto: `true`
    * - Interactivo: ✅
@@ -62,13 +64,13 @@ export const props = {
   },
 
   /**
-   * zIndex
+   * `zIndex`
    * - Tipo: `Number`
    * - Valor por defecto: [trabajando...]
    * - Interactivo: ✅ [trabajando...]
    *
-   * Indica la posicion respecto a otras capas, cuando se define un z-index mas alto respecto a
-   * las demas capas, esa capa se posicionara enfrente de ellas.
+   * Indica la posición respecto a otras capas, cuando se define un z-index mas alto respecto a
+   * las demás capas, esa capa se posicionara enfrente de ellas.
    */
   zIndex: {
     type: Number,
@@ -87,7 +89,7 @@ export const eventos = {
   /**
    * Evento ejecutado cuando se detecta que se inicia con la carga de la información visible en
    * el mapa. En el caso de capas vectoriales (GeoJSON) cuando inicia la consulta de los features;
-   * En el caso de capas raster (WMS) cuando inicia la consulta de la imágen; En el caso de las
+   * En el caso de capas raster (WMS) cuando inicia la consulta de la imagen; En el caso de las
    * capas por conjunto de teselas (XYZ, OSM) cuando inicia la consulta de un grupo de teselas.
    */
   alIniciarCarga: 'alIniciarCarga',
@@ -95,7 +97,7 @@ export const eventos = {
   /**
    * Evento ejecutado cuando se detecta que la carga de la información visible en el mapa ha
    * finalizado. En el caso de capas vectoriales (GeoJSON) cuando finaliza la consulta de los
-   * features; En el caso de capas raster (WMS) cuando finaliza la consulta de la imágen; En el
+   * features; En el caso de capas raster (WMS) cuando finaliza la consulta de la imagen; En el
    * caso de las capas por conjunto de teselas (XYZ, OSM) cuando finaliza la consulta de un grupo
    * de teselas.
    * @param {Boolean} cargaExitosa Indica si la carga no ha presentado error.
