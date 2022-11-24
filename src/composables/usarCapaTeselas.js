@@ -4,7 +4,10 @@
 
 import TileEventType from 'ol/source/TileEventType'
 import { ref, watch } from 'vue'
-import usarCapa, { props as propsCapa, emits as emitsCapa } from './usarCapa'
+import usarCapa, {
+  props as propsCapa,
+  eventos as eventosCapa,
+} from './usarCapa'
 import tiposEstatusCarga from './../defaults/estatusCarga'
 
 export const props = {
@@ -20,11 +23,21 @@ export const props = {
   ...propsCapa,
 }
 
-export const emits = [
-  'alIniciarCargaTesela',
-  'alFinalizarCargaTesela',
-  ...emitsCapa,
-]
+export const eventos = {
+  /**
+   *
+   */
+  alIniciarCargaTesela: 'alIniciarCargaTesela',
+
+  /**
+   *
+   */
+  alFinalizarCargaTesela: 'alFinalizarCargaTesela',
+
+  ...eventosCapa,
+}
+
+export const emits = Object.values(eventos)
 
 /**
  * La finalidad de este composable es acceder a las funciones del genéricas de las capas que sean
@@ -78,11 +91,11 @@ export default function usarCapaTeselas(propsParam, emitsParam) {
     cargaCompleta => {
       if (cargaCompleta) {
         actualizarEstatusCarga()
-        emitsParam('alFinalizarCarga', true)
+        emitsParam(eventos.alFinalizarCarga, true)
         reiniciarNumeroTeselasSolicitadas()
       } else {
         estatusCarga.value = tiposEstatusCarga.ini
-        emitsParam('alIniciarCarga')
+        emitsParam(eventos.alIniciarCarga)
       }
     }
   )
@@ -93,15 +106,15 @@ export default function usarCapaTeselas(propsParam, emitsParam) {
    */
   function agregarEmitsCarga(olCapa) {
     olCapa.getSource().on(TileEventType.TILELOADSTART, () => {
-      emitsParam('alIniciarCargaTesela')
+      emitsParam(eventos.alIniciarCargaTesela)
       nTeselasSolicitadas.value.inicio++
     })
     olCapa.getSource().on(TileEventType.TILELOADEND, () => {
-      emitsParam('alFinalizarCargaTesela', true)
+      emitsParam(eventos.alFinalizarCargaTesela, true)
       nTeselasSolicitadas.value.fin++
     })
     olCapa.getSource().on(TileEventType.TILELOADERROR, () => {
-      emitsParam('alFinalizarCargaTesela', false)
+      emitsParam(eventos.alFinalizarCargaTesela, false)
       nTeselasSolicitadas.value.fin++
       nTeselasSolicitadas.value.error++
     })

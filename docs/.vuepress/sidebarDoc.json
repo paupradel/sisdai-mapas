@@ -17,7 +17,7 @@
   {
     "title": "Capas",
     "collapsable": false,
-    "children": ["capas-general", "capas-xyz"]
+    "children": ["capas-general", "capas-teselas", "capas-xyz"]
   },
   {
     "title": "Clasificación",
