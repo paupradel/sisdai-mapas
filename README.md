@@ -8,7 +8,7 @@ Si quieres contribuir al código de este componente revisa los [lineamientos de 
 
 ### Instalación
 
-Instalación y descarga de la depencdencia desde GitHub:
+Instalación y descarga de la biblioteca desde GitHub:
 
 ```bash
 npm i github:salsa-community/sisdai-mapas#version-a-instalar
@@ -39,7 +39,7 @@ Dentro del componente en el que se desee crear mapas con el diseño sisdai, usa 
 </SisdaiMapa>
 ```
 
-Para un uso avanzado revisa la documentación en local.
+Para un uso avanzado revisa la documentación.
 
 ## Documentación en local
 

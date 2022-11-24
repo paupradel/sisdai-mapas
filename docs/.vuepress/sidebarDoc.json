@@ -1,8 +1,8 @@
 [
   {
-    "title": "Guía",
+    "title": "Inicio",
     "collapsable": false,
-    "children": ["introduccion", "instalacion"]
+    "children": ["introduccion"]
   },
   {
     "title": "Mapa",
