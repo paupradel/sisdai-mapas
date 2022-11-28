@@ -22,7 +22,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, ":host,:root{--ol-background-color:#fff
 
 /***/ }),
 
-/***/ 607:
+/***/ 467:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36,14 +36,14 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".sisdai-mapa-contenedor{min-height:200px;min-width:200px;position:relative;display:grid;grid-template-areas:\"mapa-encabezado\" \"mapa-mapa\" \"boton-conacyt\";gap:0;grid-template-rows:auto 40vh 40px}.sisdai-mapa-contenedor .sisdai-mapa-encabezado{grid-area:mapa-encabezado}.sisdai-mapa-contenedor .sisdai-mapa{grid-area:mapa-mapa}.sisdai-mapa-contenedor .boton-conacyt{grid-area:boton-conacyt}.sisdai-mapa-contenedor .sisdai-mapa{width:100%;background-color:#e9e9e9}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".sisdai-mapa-contenedor[data-v-51ced022]{min-height:200px;min-width:200px;position:relative;display:grid;grid-template-columns:repeat(1,1fr);grid-gap:0;grid-template-rows:auto 40vh 40px}.sisdai-mapa-contenedor .sisdai-mapa-encabezado[data-v-51ced022]{grid-column:1;grid-row:1}.sisdai-mapa-contenedor .sisdai-mapa[data-v-51ced022],.sisdai-mapa-contenedor .sisdai-mapa-vista-carga[data-v-51ced022]{grid-column:1;grid-row:2}.sisdai-mapa-contenedor .boton-conacyt[data-v-51ced022]{grid-column:1;grid-row:3}.sisdai-mapa-contenedor .sisdai-mapa[data-v-51ced022]{width:100%;background-color:#e9e9e9}", ""]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
 
 /***/ }),
 
-/***/ 72:
+/***/ 528:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57,14 +57,14 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".boton.boton-conacyt[data-v-0c26e26f]{min-height:40px;height:40px;max-height:40px}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".sisdai-mapa-encabezado[data-v-8615f578]{padding:16px}", ""]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
 
 /***/ }),
 
-/***/ 642:
+/***/ 683:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -78,14 +78,14 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".sisdai-mapa-encabezado[data-v-2377d2cb]{padding:16px}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".boton.boton-conacyt[data-v-7f6aef72]{min-height:40px;height:40px;max-height:40px}", ""]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
 
 /***/ }),
 
-/***/ 885:
+/***/ 437:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -99,7 +99,56 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".sisdai-mapa-control{position:absolute;display:flex;flex-direction:column;margin:12px}.sisdai-mapa-control-zoom>button{margin:0}.sisdai-mapa-control-zoom>button:not(:last-child){margin-bottom:6px}.sisdai-mapa-control-vista-inicial{bottom:0}.sisdai-mapa-control-escala-grafica{bottom:0;left:46px}.sisdai-mapa-control-escala-grafica .ol-scale-bar-inner .ol-scale-step-marker{height:10px;top:0!important}.sisdai-mapa-control-escala-grafica .ol-scale-bar-inner .ol-scale-singlebar{height:3px;top:8px}.sisdai-mapa-control-escala-grafica .ol-scale-bar-inner .ol-scale-step-text{bottom:10px;font-size:11px}.sisdai-mapa-control-escala-grafica .ol-scale-bar-inner div>.ol-scale-step-marker{top:-2px!important}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".sisdai-mapa-vista-carga[data-v-6af7c961]{background:rgba(0,0,0,.2);z-index:2;display:flex;justify-content:center;align-items:center}", ""]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ 50:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(481);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(400);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "@font-face{font-family:sisdai-iconos;src:url(https://file.myfontastic.com/JS4TgqY9L4s8WsKQDkt5qA/fonts/1665440470.eot);src:url(https://file.myfontastic.com/JS4TgqY9L4s8WsKQDkt5qA/fonts/1665440470.eot?#iefix) format(\"embedded-opentype\"),url(https://file.myfontastic.com/JS4TgqY9L4s8WsKQDkt5qA/fonts/1665440470.woff) format(\"woff\"),url(https://file.myfontastic.com/JS4TgqY9L4s8WsKQDkt5qA/fonts/1665440470.ttf) format(\"truetype\"),url(https://file.myfontastic.com/JS4TgqY9L4s8WsKQDkt5qA/fonts/1665440470.svg#1665440470) format(\"svg\");font-weight:400;font-style:normal}[data-icon]:before{content:attr(data-icon)}[class*=\" icono-\"]:before,[class^=icono-]:before,[data-icon]:before{font-family:sisdai-iconos!important;font-style:normal!important;font-weight:400!important;font-variant:normal!important;text-transform:none!important;speak:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icono-actualizar:before{content:\"a\"}.icono-agregar:before{content:\"b\"}.icono-angulo-abajo:before{content:\"c\"}.icono-angulo-arriba:before{content:\"d\"}.icono-angulo-derecho:before{content:\"e\"}.icono-angulo-doble-abajo:before{content:\"f\"}.icono-angulo-doble-arriba:before{content:\"g\"}.icono-angulo-doble-derecha:before{content:\"h\"}.icono-angulo-doble-izquierda:before{content:\"i\"}.icono-angulo-izquierdo:before{content:\"j\"}.icono-aprobado:before{content:\"k\"}.icono-archivo-descargar:before{content:\"l\"}.icono-archivo-subir:before{content:\"m\"}.icono-arrastrar:before{content:\"n\"}.icono-ayuda:before{content:\"o\"}.icono-buscar:before{content:\"p\"}.icono-calendario:before{content:\"q\"}.icono-cambio-tipografia:before{content:\"r\"}.icono-capa-lineas:before{content:\"s\"}.icono-capa-puntos:before{content:\"t\"}.icono-casilla:before{content:\"u\"}.icono-casilla-verificada:before{content:\"v\"}.icono-cerrar:before{content:\"w\"}.icono-colaborar:before{content:\"x\"}.icono-compartir:before{content:\"y\"}.icono-contraste:before{content:\"z\"}.icono-control-comenzar:before{content:\"A\"}.icono-control-detener:before{content:\"B\"}.icono-control-final:before{content:\"C\"}.icono-control-inicio:before{content:\"D\"}.icono-control-pausa:before{content:\"E\"}.icono-copiar:before{content:\"F\"}.icono-documento:before{content:\"G\"}.icono-documento-csv:before{content:\"H\"}.icono-documento-geojson:before{content:\"I\"}.icono-documento-geopaquete:before{content:\"J\"}.icono-documento-pdf:before{content:\"K\"}.icono-documento-png:before{content:\"L\"}.icono-documento-ppt:before{content:\"M\"}.icono-documento-word:before{content:\"N\"}.icono-editar:before{content:\"O\"}.icono-eliminar:before{content:\"P\"}.icono-enlace-subrayado:before{content:\"Q\"}.icono-estrella:before{content:\"R\"}.icono-flecha-abajo:before{content:\"S\"}.icono-flecha-abajo-derecha:before{content:\"T\"}.icono-flecha-abajo-izquierda:before{content:\"U\"}.icono-flecha-arriba:before{content:\"V\"}.icono-flecha-arriba-derecha:before{content:\"W\"}.icono-flecha-arriba-izquierda:before{content:\"X\"}.icono-flecha-derecha:before{content:\"Y\"}.icono-flecha-izquierda:before{content:\"Z\"}.icono-flechas-horizontales:before{content:\"0\"}.icono-flkt:before{content:\"1\"}.icono-groupo:before{content:\"2\"}.icono-social-facebook:before{content:\"3\"}.icono-social-github:before{content:\"4\"}.icono-social-instagram:before{content:\"5\"}.icono-social-twitter:before{content:\"6\"}.icono-social-youtube:before{content:\"7\"}.icono-informacion:before{content:\"8\"}.icono-inicio:before{content:\"9\"}.icono-mapa-centro:before{content:\"!\"}.icono-mapa-generador:before{content:'\"'}.icono-maximizar:before{content:\"#\"}.icono-menu:before{content:\"$\"}.icono-mexico:before{content:\"%\"}.icono-minimizar:before{content:\"&\"}.icono-nivel:before{content:\"'\"}.icono-numerales:before{content:\"(\"}.icono-ojo-ocultar:before{content:\")\"}.icono-ojo-ver:before{content:\"*\"}.icono-ordenar-alfabetico-asc:before{content:\"+\"}.icono-ordenar-alfabetico-desc:before{content:\",\"}.icono-ordenar-asc:before{content:\"-\"}.icono-ordenar-desc:before{content:\".\"}.icono-persona:before{content:\"/\"}.icono-capa-poligono:before{content:\":\"}.icono-reloj:before{content:\";\"}.icono-restar:before{content:\"<\"}.icono-teclado:before{content:\"=\"}.icono-ubicacion:before{content:\">\"}.icono-vista-simplificada:before{content:\"?\"}.icono-voto-no:before{content:\"@\"}.icono-voto-si:before{content:\"[\"}.icono-accesibilidad:before{content:\"^\"}.icono-restablecer:before{content:\"`\"}", ""]);
+// Exports
+/* harmony default export */ __webpack_exports__["Z"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ 527:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(481);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(400);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_clonedRuleSet_24_use_1_node_modules_vue_cli_service_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_24_use_2_node_modules_vue_cli_service_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_24_use_3_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_24_use_4_icons_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(50);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(806);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_3__);
+// Imports
+
+
+
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(130), __webpack_require__.b);
+var ___CSS_LOADER_EXPORT___ = _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+___CSS_LOADER_EXPORT___.i(_node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_clonedRuleSet_24_use_1_node_modules_vue_cli_service_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_24_use_2_node_modules_vue_cli_service_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_24_use_3_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_24_use_4_icons_css__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_3___default()(___CSS_LOADER_URL_IMPORT_0___);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".sisdai-mapa-control{position:absolute;display:flex;flex-direction:column;margin:12px}.sisdai-mapa-control-zoom>button{margin:0}.sisdai-mapa-control-zoom>button:not(:last-child){margin-bottom:6px;margin-right:0}.sisdai-mapa-control-vista-inicial{bottom:0}.sisdai-mapa-control-escala-grafica{bottom:0;left:46px!important}.sisdai-mapa-control-escala-grafica .ol-scale-bar-inner .ol-scale-step-marker{height:10px;top:0!important}.sisdai-mapa-control-escala-grafica .ol-scale-bar-inner .ol-scale-singlebar{height:3px;top:8px}.sisdai-mapa-control-escala-grafica .ol-scale-bar-inner .ol-scale-step-text{bottom:10px;font-size:11px}.sisdai-mapa-control-escala-grafica .ol-scale-bar-inner div>.ol-scale-step-marker{top:-2px!important}:root{--pagina-fondo:#fff;--tipografia-color:#141414;--tipografia-color-1:#fff;--tipografia-color-2:#6f7271;--tipografia-color-3:#404041;--tabla-fondo-impar:#f6f6f6;--tabla-fondo-notas:#a9a8a9;--detalle-fondo:#f6f6f6;--detalle-focus-sombra:#005dff;--sombra:#0000001a;--sombra-focus:#005dff;--sombra-hover:#00000033;--label-color:#6f7271;--input-fondo:transparent;--input-color:#141414;--input-borde:#a9a8a9;--input-controles-color:#14a634;--input-deshabilitado-fondo:#f6f6f6;--input-deshabilitado-color:#a9a8a9;--input-hover-borde:#6f7271;--input-focus-sombra:#005dff;--acciones-informativo:#1256c4;--acciones-error:#c51228;--acciones-advertencia:#feb301;--acciones-correcto:#069165;--borde-color-1:#141414;--borde-color-2:#6f7271;--borde-color-3:#a9a8a9;--borde-color-4:#fff;--tipografia-familia:\"Montserrat\",sans-serif;--tipografia-tamanio:16px;--boton-primario-fondo:#141414;--boton-primario-borde:#141414;--boton-primario-color:#fff;--boton-primario-sombra:transparent;--boton-primario-deshabilitado-fondo:#ddd;--boton-primario-deshabilitado-borde:#ddd;--boton-primario-deshabilitado-color:#a9a8a9;--boton-primario-deshabilitado-sombra:transparent;--boton-primario-hover-fondo:#404041;--boton-primario-hover-borde:#404041;--boton-primario-hover-color:#fff;--boton-primario-hover-sombra:#00000033;--boton-primario-focus-fondo:#141414;--boton-primario-focus-borde:#005dff;--boton-primario-focus-color:#fff;--boton-primario-focus-sombra:#005dff;--boton-secundario-fondo:#fff;--boton-secundario-borde:#141414;--boton-secundario-color:#141414;--boton-secundario-sombra:transparent;--boton-secundario-deshabilitado-fondo:#fff;--boton-secundario-deshabilitado-borde:#ddd;--boton-secundario-deshabilitado-color:#a9a8a9;--boton-secundario-deshabilitado-sombra:transparent;--boton-secundario-hover-fondo:#fff;--boton-secundario-hover-borde:#141414;--boton-secundario-hover-color:#141414;--boton-secundario-hover-sombra:#00000033;--boton-secundario-focus-fondo:#fff;--boton-secundario-focus-borde:#005dff;--boton-secundario-focus-color:#141414;--boton-secundario-focus-sombra:#005dff;--boton-terciario-fondo:transparent;--boton-terciario-borde:transparent;--boton-terciario-color:#141414;--boton-terciario-sombra:transparent;--boton-terciario-deshabilitado-fondo:transparent;--boton-terciario-deshabilitado-borde:transparent;--boton-terciario-deshabilitado-color:#a9a8a9;--boton-terciario-deshabilitado-sombra:transparent;--boton-terciario-hover-fondo:transparent;--boton-terciario-hover-borde:transparent;--boton-terciario-hover-color:#141414;--boton-terciario-hover-sombra:#00000033;--boton-terciario-focus-fondo:transparent;--boton-terciario-focus-borde:#005dff;--boton-terciario-focus-color:#141414;--boton-terciario-focus-sombra:#005dff;--hipervinculo-color:#005dff;--hipervinculo-sombra:transparent;--hipervinculo-deshabilitado-color:#a9a8a980;--hipervinculo-deshabilitado-sombra:transparent;--hipervinculo-hover-color:#356ccc;--hipervinculo-hover-sombra:transparent;--hipervinculo-focus-color:#005dff;--hipervinculo-focus-sombra:#005dff;--navegacion-fondo:#eef;--navegacion-sombra:0 1px 0 0 #ccf,0 8px 8px -4px rgba(0,0,0,.2);--navegacion-redondeado:0 0 8px 8px;--navegacion-color:#00f;--navegacion-fondo-hover:#ddf;--navegacion-sombra-hover:0 1px 0 0 #ccf,0 8px 8px -4px rgba(0,0,0,.2);--navegacion-color-hover:#00f;--navegacion-fondo-active:#00f;--navegacion-sombra-active:0 0 0 0;--navegacion-color-active:#fff}html{line-height:1.3;scroll-behavior:smooth;text-rendering:optimizeLegibility;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{padding:0;margin:0}body *{box-sizing:border-box}iframe,main{display:block}iframe{border:none}progress{vertical-align:baseline}abbr{cursor:help;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}abbr,ins{border:none}ins{-webkit-text-decoration:underline dashed;text-decoration:underline dashed}b,strong{font-weight:600}sub,sup{line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border:none}.borde{border:1px solid var(--borde-color-1)}.borde-t{border-top:1px solid var(--borde-color-1)}.borde-r{border-right:1px solid var(--borde-color-1)}.borde-b{border-bottom:1px solid var(--borde-color-1)}.borde-l,.borde-x{border-left:1px solid var(--borde-color-1)}.borde-x{border-right:1px solid var(--borde-color-1)}.borde-y{border-top:1px solid var(--borde-color-1);border-bottom:1px solid var(--borde-color-1)}.border-redondeado-t-0{border-top-left-radius:0;border-top-right-radius:0}.border-redondeado-b-0{border-bottom-left-radius:0;border-bottom-right-radius:0}.border-redondeado-l-0{border-bottom-left-radius:0;border-top-right-radius:0;border-bottom-right-radius:0}.borde-redondeado-t-l-0,.border-redondeado-l-0{border-top-left-radius:0}.borde-redondeado-t-r-0{border-top-right-radius:0}.borde-redondeado-b-l-0{border-bottom-left-radius:0}.borde-redondeado-b-r-0{border-bottom-right-radius:0}.borde-redondeado-minimo{border-radius:4px}.border-redondeado-t-minimo{border-top-left-radius:4px;border-top-right-radius:4px}.border-redondeado-b-minimo{border-bottom-left-radius:4px;border-bottom-right-radius:4px}.border-redondeado-l-minimo{border-top-left-radius:4px;border-bottom-left-radius:4px;border-top-right-radius:4px;border-bottom-right-radius:4px}.borde-redondeado-t-l-minimo{border-top-left-radius:4px}.borde-redondeado-t-r-minimo{border-top-right-radius:4px}.borde-redondeado-b-l-minimo{border-bottom-left-radius:4px}.borde-redondeado-b-r-minimo{border-bottom-right-radius:4px}.borde-redondeado-1{border-radius:8px}.border-redondeado-t-1{border-top-left-radius:8px;border-top-right-radius:8px}.border-redondeado-b-1{border-bottom-left-radius:8px;border-bottom-right-radius:8px}.border-redondeado-l-1{border-bottom-left-radius:8px;border-top-right-radius:8px;border-bottom-right-radius:8px}.borde-redondeado-t-l-1,.border-redondeado-l-1{border-top-left-radius:8px}.borde-redondeado-t-r-1{border-top-right-radius:8px}.borde-redondeado-b-l-1{border-bottom-left-radius:8px}.borde-redondeado-b-r-1{border-bottom-right-radius:8px}.borde-redondeado-2{border-radius:16px}.border-redondeado-t-2{border-top-left-radius:16px;border-top-right-radius:16px}.border-redondeado-b-2{border-bottom-left-radius:16px;border-bottom-right-radius:16px}.border-redondeado-l-2{border-bottom-left-radius:16px;border-top-right-radius:16px;border-bottom-right-radius:16px}.borde-redondeado-t-l-2,.border-redondeado-l-2{border-top-left-radius:16px}.borde-redondeado-t-r-2{border-top-right-radius:16px}.borde-redondeado-b-l-2{border-bottom-left-radius:16px}.borde-redondeado-b-r-2{border-bottom-right-radius:16px}.borde-redondeado-3{border-radius:24px}.border-redondeado-t-3{border-top-left-radius:24px;border-top-right-radius:24px}.border-redondeado-b-3{border-bottom-left-radius:24px;border-bottom-right-radius:24px}.border-redondeado-l-3{border-bottom-left-radius:24px;border-top-right-radius:24px;border-bottom-right-radius:24px}.borde-redondeado-t-l-3,.border-redondeado-l-3{border-top-left-radius:24px}.borde-redondeado-t-r-3{border-top-right-radius:24px}.borde-redondeado-b-l-3{border-bottom-left-radius:24px}.borde-redondeado-b-r-3{border-bottom-right-radius:24px}.borde-redondeado-4{border-radius:32px}.border-redondeado-t-4{border-top-left-radius:32px;border-top-right-radius:32px}.border-redondeado-b-4{border-bottom-left-radius:32px;border-bottom-right-radius:32px}.border-redondeado-l-4{border-bottom-left-radius:32px;border-top-right-radius:32px;border-bottom-right-radius:32px}.borde-redondeado-t-l-4,.border-redondeado-l-4{border-top-left-radius:32px}.borde-redondeado-t-r-4{border-top-right-radius:32px}.borde-redondeado-b-l-4{border-bottom-left-radius:32px}.borde-redondeado-b-r-4{border-bottom-right-radius:32px}.borde-redondeado-5{border-radius:40px}.border-redondeado-t-5{border-top-left-radius:40px;border-top-right-radius:40px}.border-redondeado-b-5{border-bottom-left-radius:40px;border-bottom-right-radius:40px}.border-redondeado-l-5{border-bottom-left-radius:40px;border-top-right-radius:40px;border-bottom-right-radius:40px}.borde-redondeado-t-l-5,.border-redondeado-l-5{border-top-left-radius:40px}.borde-redondeado-t-r-5{border-top-right-radius:40px}.borde-redondeado-b-l-5{border-bottom-left-radius:40px}.borde-redondeado-b-r-5{border-bottom-right-radius:40px}.borde-redondeado-6{border-radius:48px}.border-redondeado-t-6{border-top-left-radius:48px;border-top-right-radius:48px}.border-redondeado-b-6{border-bottom-left-radius:48px;border-bottom-right-radius:48px}.border-redondeado-l-6{border-bottom-left-radius:48px;border-top-right-radius:48px;border-bottom-right-radius:48px}.borde-redondeado-t-l-6,.border-redondeado-l-6{border-top-left-radius:48px}.borde-redondeado-t-r-6{border-top-right-radius:48px}.borde-redondeado-b-l-6{border-bottom-left-radius:48px}.borde-redondeado-b-r-6{border-bottom-right-radius:48px}.borde-redondeado-7{border-radius:56px}.border-redondeado-t-7{border-top-left-radius:56px;border-top-right-radius:56px}.border-redondeado-b-7{border-bottom-left-radius:56px;border-bottom-right-radius:56px}.border-redondeado-l-7{border-bottom-left-radius:56px;border-top-right-radius:56px;border-bottom-right-radius:56px}.borde-redondeado-t-l-7,.border-redondeado-l-7{border-top-left-radius:56px}.borde-redondeado-t-r-7{border-top-right-radius:56px}.borde-redondeado-b-l-7{border-bottom-left-radius:56px}.borde-redondeado-b-r-7{border-bottom-right-radius:56px}.borde-redondeado-8{border-radius:64px}.border-redondeado-t-8{border-top-left-radius:64px;border-top-right-radius:64px}.border-redondeado-b-8{border-bottom-left-radius:64px;border-bottom-right-radius:64px}.border-redondeado-l-8{border-bottom-left-radius:64px;border-top-right-radius:64px;border-bottom-right-radius:64px}.borde-redondeado-t-l-8,.border-redondeado-l-8{border-top-left-radius:64px}.borde-redondeado-t-r-8{border-top-right-radius:64px}.borde-redondeado-b-l-8{border-bottom-left-radius:64px}.borde-redondeado-b-r-8{border-bottom-right-radius:64px}.borde-redondeado-9{border-radius:72px}.border-redondeado-t-9{border-top-left-radius:72px;border-top-right-radius:72px}.border-redondeado-b-9{border-bottom-left-radius:72px;border-bottom-right-radius:72px}.border-redondeado-l-9{border-bottom-left-radius:72px;border-top-right-radius:72px;border-bottom-right-radius:72px}.borde-redondeado-t-l-9,.border-redondeado-l-9{border-top-left-radius:72px}.borde-redondeado-t-r-9{border-top-right-radius:72px}.borde-redondeado-b-l-9{border-bottom-left-radius:72px}.borde-redondeado-b-r-9{border-bottom-right-radius:72px}.borde-redondeado-10{border-radius:80px}.border-redondeado-t-10{border-top-left-radius:80px;border-top-right-radius:80px}.border-redondeado-b-10{border-bottom-left-radius:80px;border-bottom-right-radius:80px}.border-redondeado-l-10{border-bottom-left-radius:80px;border-top-right-radius:80px;border-bottom-right-radius:80px}.borde-redondeado-t-l-10,.border-redondeado-l-10{border-top-left-radius:80px}.borde-redondeado-t-r-10{border-top-right-radius:80px}.borde-redondeado-b-l-10{border-bottom-left-radius:80px}.borde-redondeado-b-r-10{border-bottom-right-radius:80px}.borde-redondeado-extra{border-radius:96px}.border-redondeado-t-extra{border-top-left-radius:96px;border-top-right-radius:96px}.border-redondeado-b-extra{border-bottom-left-radius:96px;border-bottom-right-radius:96px}.border-redondeado-l-extra{border-bottom-left-radius:96px;border-top-right-radius:96px;border-bottom-right-radius:96px}.borde-redondeado-t-l-extra,.border-redondeado-l-extra{border-top-left-radius:96px}.borde-redondeado-t-r-extra{border-top-right-radius:96px}.borde-redondeado-b-l-extra{border-bottom-left-radius:96px}.borde-redondeado-b-r-extra{border-bottom-right-radius:96px}.borde-redondeado-maximo{border-radius:120px}.border-redondeado-t-maximo{border-top-left-radius:120px;border-top-right-radius:120px}.border-redondeado-b-maximo{border-bottom-left-radius:120px;border-bottom-right-radius:120px}.border-redondeado-l-maximo{border-bottom-left-radius:120px;border-top-right-radius:120px;border-bottom-right-radius:120px}.borde-redondeado-t-l-maximo,.border-redondeado-l-maximo{border-top-left-radius:120px}.borde-redondeado-t-r-maximo{border-top-right-radius:120px}.borde-redondeado-b-l-maximo{border-bottom-left-radius:120px}.borde-redondeado-b-r-maximo{border-bottom-right-radius:120px}.borde-redondeado-0{border-radius:0}.borde-t-redondeado-0{border-top-left-radius:0;border-top-right-radius:0}.borde-b-redondeado-0{border-bottom-left-radius:0;border-bottom-right-radius:0}.borde-r-redondeado-0{border-top-left-radius:0;border-bottom-left-radius:0}.borde-l-redondeado-0{border-top-right-radius:0;border-bottom-right-radius:0}.borde-t-l-redondeado-0{border-top-left-radius:0}.borde-t-r-redondeado-0{border-top-right-radius:0}.borde-b-l-redondeado-0{border-bottom-left-radius:0}.borde-b-r-redondeado-0{border-bottom-right-radius:0}.borde-redondeado-1{border-radius:1px}.borde-t-redondeado-1{border-top-left-radius:1px;border-top-right-radius:1px}.borde-b-redondeado-1{border-bottom-left-radius:1px;border-bottom-right-radius:1px}.borde-r-redondeado-1{border-top-left-radius:1px;border-bottom-left-radius:1px}.borde-l-redondeado-1{border-top-right-radius:1px;border-bottom-right-radius:1px}.borde-t-l-redondeado-1{border-top-left-radius:1px}.borde-t-r-redondeado-1{border-top-right-radius:1px}.borde-b-l-redondeado-1{border-bottom-left-radius:1px}.borde-b-r-redondeado-1{border-bottom-right-radius:1px}.borde-redondeado-2{border-radius:2px}.borde-t-redondeado-2{border-top-left-radius:2px;border-top-right-radius:2px}.borde-b-redondeado-2{border-bottom-left-radius:2px;border-bottom-right-radius:2px}.borde-r-redondeado-2{border-top-left-radius:2px;border-bottom-left-radius:2px}.borde-l-redondeado-2{border-top-right-radius:2px;border-bottom-right-radius:2px}.borde-t-l-redondeado-2{border-top-left-radius:2px}.borde-t-r-redondeado-2{border-top-right-radius:2px}.borde-b-l-redondeado-2{border-bottom-left-radius:2px}.borde-b-r-redondeado-2{border-bottom-right-radius:2px}.borde-redondeado-4{border-radius:4px}.borde-t-redondeado-4{border-top-left-radius:4px;border-top-right-radius:4px}.borde-b-redondeado-4{border-bottom-left-radius:4px;border-bottom-right-radius:4px}.borde-r-redondeado-4{border-top-left-radius:4px;border-bottom-left-radius:4px}.borde-l-redondeado-4{border-top-right-radius:4px;border-bottom-right-radius:4px}.borde-t-l-redondeado-4{border-top-left-radius:4px}.borde-t-r-redondeado-4{border-top-right-radius:4px}.borde-b-l-redondeado-4{border-bottom-left-radius:4px}.borde-b-r-redondeado-4{border-bottom-right-radius:4px}.borde-redondeado-8{border-radius:8px}.borde-t-redondeado-8{border-top-left-radius:8px;border-top-right-radius:8px}.borde-b-redondeado-8{border-bottom-left-radius:8px;border-bottom-right-radius:8px}.borde-r-redondeado-8{border-top-left-radius:8px;border-bottom-left-radius:8px}.borde-l-redondeado-8{border-top-right-radius:8px;border-bottom-right-radius:8px}.borde-t-l-redondeado-8{border-top-left-radius:8px}.borde-t-r-redondeado-8{border-top-right-radius:8px}.borde-b-l-redondeado-8{border-bottom-left-radius:8px}.borde-b-r-redondeado-8{border-bottom-right-radius:8px}.borde-redondeado-16{border-radius:16px}.borde-t-redondeado-16{border-top-left-radius:16px;border-top-right-radius:16px}.borde-b-redondeado-16{border-bottom-left-radius:16px;border-bottom-right-radius:16px}.borde-r-redondeado-16{border-top-left-radius:16px;border-bottom-left-radius:16px}.borde-l-redondeado-16{border-top-right-radius:16px;border-bottom-right-radius:16px}.borde-t-l-redondeado-16{border-top-left-radius:16px}.borde-t-r-redondeado-16{border-top-right-radius:16px}.borde-b-l-redondeado-16{border-bottom-left-radius:16px}.borde-b-r-redondeado-16{border-bottom-right-radius:16px}.borde-color-1{border-color:var(--borde-color-1)}.borde-t-color-1{border-top-color:var(--borde-color-1)}.borde-r-color-1{border-right-color:var(--borde-color-1)}.borde-b-color-1{border-bottom-color:var(--borde-color-1)}.borde-l-color-1,.borde-x-color-1{border-left-color:var(--borde-color-1)}.borde-x-color-1{border-right-color:var(--borde-color-1)}.borde-y-color-1{border-top-color:var(--borde-color-1);border-bottom-color:var(--borde-color-1)}.borde-color-2{border-color:var(--borde-color-2)}.borde-t-color-2{border-top-color:var(--borde-color-2)}.borde-r-color-2{border-right-color:var(--borde-color-2)}.borde-b-color-2{border-bottom-color:var(--borde-color-2)}.borde-l-color-2,.borde-x-color-2{border-left-color:var(--borde-color-2)}.borde-x-color-2{border-right-color:var(--borde-color-2)}.borde-y-color-2{border-top-color:var(--borde-color-2);border-bottom-color:var(--borde-color-2)}.borde-color-3{border-color:var(--borde-color-3)}.borde-t-color-3{border-top-color:var(--borde-color-3)}.borde-r-color-3{border-right-color:var(--borde-color-3)}.borde-b-color-3{border-bottom-color:var(--borde-color-3)}.borde-l-color-3,.borde-x-color-3{border-left-color:var(--borde-color-3)}.borde-x-color-3{border-right-color:var(--borde-color-3)}.borde-y-color-3{border-top-color:var(--borde-color-3);border-bottom-color:var(--borde-color-3)}.borde-color-4{border-color:var(--borde-color-4)}.borde-t-color-4{border-top-color:var(--borde-color-4)}.borde-r-color-4{border-right-color:var(--borde-color-4)}.borde-b-color-4{border-bottom-color:var(--borde-color-4)}.borde-l-color-4,.borde-x-color-4{border-left-color:var(--borde-color-4)}.borde-x-color-4{border-right-color:var(--borde-color-4)}.borde-y-color-4{border-top-color:var(--borde-color-4);border-bottom-color:var(--borde-color-4)}.borde-grosor-0{border-width:0}.borde-t-grosor-0{border-top-width:0}.borde-r-grosor-0{border-right-width:0}.borde-b-grosor-0{border-bottom-width:0}.borde-l-grosor-0,.borde-x-grosor-0{border-left-width:0}.borde-x-grosor-0{border-right-width:0}.borde-y-grosor-0{border-top-width:0;border-bottom-width:0}.borde-grosor-1{border-width:1px}.borde-t-grosor-1{border-top-width:1px}.borde-r-grosor-1{border-right-width:1px}.borde-b-grosor-1{border-bottom-width:1px}.borde-l-grosor-1,.borde-x-grosor-1{border-left-width:1px}.borde-x-grosor-1{border-right-width:1px}.borde-y-grosor-1{border-top-width:1px;border-bottom-width:1px}.borde-grosor-2{border-width:2px}.borde-t-grosor-2{border-top-width:2px}.borde-r-grosor-2{border-right-width:2px}.borde-b-grosor-2{border-bottom-width:2px}.borde-l-grosor-2,.borde-x-grosor-2{border-left-width:2px}.borde-x-grosor-2{border-right-width:2px}.borde-y-grosor-2{border-top-width:2px;border-bottom-width:2px}.borde-grosor-4{border-width:4px}.borde-t-grosor-4{border-top-width:4px}.borde-r-grosor-4{border-right-width:4px}.borde-b-grosor-4{border-bottom-width:4px}.borde-l-grosor-4,.borde-x-grosor-4{border-left-width:4px}.borde-x-grosor-4{border-right-width:4px}.borde-y-grosor-4{border-top-width:4px;border-bottom-width:4px}.borde-grosor-8{border-width:8px}.borde-t-grosor-8{border-top-width:8px}.borde-r-grosor-8{border-right-width:8px}.borde-b-grosor-8{border-bottom-width:8px}.borde-l-grosor-8,.borde-x-grosor-8{border-left-width:8px}.borde-x-grosor-8{border-right-width:8px}.borde-y-grosor-8{border-top-width:8px;border-bottom-width:8px}.borde-grosor-16{border-width:16px}.borde-t-grosor-16{border-top-width:16px}.borde-r-grosor-16{border-right-width:16px}.borde-b-grosor-16{border-bottom-width:16px}.borde-l-grosor-16,.borde-x-grosor-16{border-left-width:16px}.borde-x-grosor-16{border-right-width:16px}.borde-y-grosor-16{border-top-width:16px;border-bottom-width:16px}hr{border-top:1px solid var(--borde-color-1);box-sizing:content-box;height:0;overflow:visible;margin-top:16px;margin-bottom:16px}h1+hr,h2+hr,h3+hr,h4+hr,h5+hr,h6+hr{margin-top:-8px}ol+hr,ul+hr{margin-top:0;margin-bottom:0}.separador,.separador-primario{border-top-color:var(--borde-color-1)}.separador-secundario{border-top-color:var(--borde-color-2)}.boton,button,input[type=button],input[type=reset],input[type=submit]{border-style:solid;border-width:1px;border-radius:4px;box-shadow:3px 3px 4px transparent;box-sizing:border-box;font-family:var(--tipografia-familia,\"sans-serif\");font-size:1rem;font-weight:500;line-height:1.3em;padding:16px 24px;text-decoration:none;text-align:center;display:inline-flex;align-items:center}.boton:not(:disabled),button:not(:disabled),input[type=button]:not(:disabled),input[type=reset]:not(:disabled),input[type=submit]:not(:disabled){cursor:pointer;transition:all .27s ease-in-out}.boton:disabled,button:disabled,input[type=button]:disabled,input[type=reset]:disabled,input[type=submit]:disabled{pointer-events:none}.boton:not(:last-child),button:not(:last-child),input[type=button]:not(:last-child),input[type=reset]:not(:last-child),input[type=submit]:not(:last-child){margin-right:8px}.boton-descarga,.boton-icono,.boton-info,.boton-primario{background-color:var(--boton-primario-fondo);border-color:var(--boton-primario-borde);color:var(--boton-primario-color)}.boton-descarga:disabled,.boton-icono:disabled,.boton-info:disabled,.boton-primario:disabled{background-color:var(--boton-primario-deshabilitado-fondo);border-color:var(--boton-primario-deshabilitado-borde);box-shadow:3px 3px 4px var(--boton-primario-deshabilitado-sombra);color:var(--boton-primario-deshabilitado-color)}.boton-descarga:not(:disabled):hover,.boton-icono:not(:disabled):hover,.boton-info:not(:disabled):hover,.boton-primario:not(:disabled):hover{background-color:var(--boton-primario-hover-fondo);border-color:var(--boton-primario-hover-borde);box-shadow:3px 3px 4px var(--boton-primario-hover-sombra);color:var(--boton-primario-hover-color)}.boton-descarga:not(:disabled):focus,.boton-icono:not(:disabled):focus,.boton-info:not(:disabled):focus,.boton-primario:not(:disabled):focus{background-color:var(--boton-primario-focus-fondo);border-color:var(--boton-primario-focus-borde);box-shadow:0 0 8px var(--boton-primario-focus-sombra);color:var(--boton-primario-focus-color);outline:none}.boton-secundario{background-color:var(--boton-secundario-fondo);border-color:var(--boton-secundario-borde);color:var(--boton-secundario-color)}.boton-secundario:disabled{background-color:var(--boton-secundario-deshabilitado-fondo);border-color:var(--boton-secundario-deshabilitado-borde);box-shadow:3px 3px 4px var(--boton-secundario-deshabilitado-sombra);color:var(--boton-secundario-deshabilitado-color)}.boton-secundario:not(:disabled):hover{background-color:var(--boton-secundario-hover-fondo);border-color:var(--boton-secundario-hover-borde);box-shadow:3px 3px 4px var(--boton-secundario-hover-sombra);color:var(--boton-secundario-hover-color)}.boton-secundario:not(:disabled):focus{background-color:var(--boton-secundario-focus-fondo);border-color:var(--boton-secundario-focus-borde);box-shadow:0 0 8px var(--boton-secundario-focus-sombra);color:var(--boton-secundario-focus-color);outline:none}.boton-terciario{background-color:var(--boton-terciario-fondo);border-color:var(--boton-terciario-borde);color:var(--boton-terciario-color)}.boton-terciario:disabled{background-color:var(--boton-terciario-deshabilitado-fondo);border-color:var(--boton-terciario-deshabilitado-borde);box-shadow:3px 3px 4px var(--boton-terciario-deshabilitado-sombra);color:var(--boton-terciario-deshabilitado-color)}.boton-terciario:not(:disabled):hover{background-color:var(--boton-terciario-hover-fondo);border-color:var(--boton-terciario-hover-borde);box-shadow:3px 3px 4px var(--boton-terciario-hover-sombra);color:var(--boton-terciario-hover-color)}.boton-terciario:not(:disabled):focus{background-color:var(--boton-terciario-focus-fondo);border-color:var(--boton-terciario-focus-borde);box-shadow:0 0 8px var(--boton-terciario-focus-sombra);color:var(--boton-terciario-focus-color);outline:none}.boton-chico{font-size:.875rem;padding:8px 16px}.boton-grande{font-size:1.125rem;padding:24px}.boton [class*=\" icono-\"],.boton [class^=icono-],[class*=\" boton-\"] [class*=\" icono-\"],[class*=\" boton-\"] [class^=icono-],[class^=boton-] [class*=\" icono-\"],[class^=boton-] [class^=icono-]{display:inline-flex;align-items:center;padding-left:8px}.boton-icono{font-size:1.5rem;line-height:0;padding:4px}.boton-icono [class*=\" icono-\"],.boton-icono [class^=icono-]{padding-left:0}.boton-icono.boton-chico{font-size:1rem}.boton-icono.boton-grande{font-size:2rem}.boton-descarga{border-radius:8px;display:block;padding:32px;text-align:left;width:100%}.boton-descarga .titulo{font-weight:600;line-height:1.2em;margin:0 0 8px}.boton-descarga .descripcion{display:flex;font-weight:300;line-height:1.2em;margin:0;align-items:center;justify-content:space-around}.boton-descarga .descripcion .texto{flex:1;margin:0;font-size:.875rem}.boton-descarga .descripcion [class*=\" icono-\"],.boton-descarga .descripcion [class^=icono-]{font-size:2rem;padding-left:32px}.boton-info{border-radius:0;border-width:0;font-size:.875rem;display:block;padding:8px;width:100%}.boton-conacyt{background-color:#f6f6f6;border-radius:0 0 8px 8px;border-width:0;box-shadow:3px 3px 4px transparent;display:flex;color:#003384;filter:grayscale(100%);padding:4px 8px;text-align:left;width:100%;cursor:pointer}.boton-conacyt img{height:28px;opacity:.5;transition:all .25s ease-in-out}.boton-conacyt:focus,.boton-conacyt:hover{filter:grayscale(0)}.boton-conacyt:focus img,.boton-conacyt:hover img{opacity:1}fieldset{background-color:var(--input-fondo);border:1px solid var(--input-borde);border-radius:4px;padding:16px;margin-top:8px;margin-bottom:24px}legend{color:var(--tipografia-color);padding:0 16px;font-family:var(--tipografia-familia,\"sans-serif\");font-size:1rem;font-weight:500}label{color:var(--label-color)}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]),select,textarea{background-color:var(--input-fondo);border:1px solid var(--input-borde);border-radius:4px;box-sizing:border-box;color:var(--input-color);font-family:var(--tipografia-familia,\"sans-serif\");font-size:1rem;font-weight:400;padding:8px 16px;margin-top:8px;margin-bottom:24px;width:100%;touch-action:manipulation}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset])::-moz-placeholder,select::-moz-placeholder,textarea::-moz-placeholder{color:var(--tipografia-color-2)}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset])::placeholder,select::placeholder,textarea::placeholder{color:var(--tipografia-color-2)}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]):disabled,select:disabled,textarea:disabled{background-color:var(--input-deshabilitado-fondo);color:var(--input-deshabilitado-color)}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]):-moz-read-only:not(select):not([type=file]),select:-moz-read-only:not(select):not([type=file]),textarea:-moz-read-only:not(select):not([type=file]){background-color:var(--input-deshabilitado-fondo)}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]):read-only:not(select):not([type=file]),select:read-only:not(select):not([type=file]),textarea:read-only:not(select):not([type=file]){background-color:var(--input-deshabilitado-fondo)}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]):not(:disabled),select:not(:disabled),textarea:not(:disabled){transition:all .27s ease-in-out}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]):not(:disabled):hover,select:not(:disabled):hover,textarea:not(:disabled):hover{border-color:var(--input-hover-borde)}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]):not(:disabled):focus,select:not(:disabled):focus,textarea:not(:disabled):focus{border-color:var(--input-focus-sombra);box-shadow:0 0 8px var(--input-focus-sombra);outline:none}[type=checkbox],[type=radio]{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}[type=checkbox]+label,[type=radio]+label{background-color:var(--input-fondo);border:1px solid transparent;border-radius:4px;color:var(--label-color);cursor:pointer;display:inline-flex;position:relative;margin-top:8px;margin-bottom:8px;margin-right:8px;padding-left:calc(1.25rem + 8px);padding-right:16px;padding-top:4px;padding-bottom:4px}[type=checkbox]:focus+label,[type=radio]:focus+label{border-color:var(--input-focus-sombra);box-shadow:0 0 8px var(--input-focus-sombra);color:var(--input-color);outline:none}[type=checkbox]:checked+label,[type=checkbox]:hover+label,[type=radio]:checked+label,[type=radio]:hover+label{color:var(--input-color)}[type=checkbox]:hover+label:before,[type=radio]:hover+label:before{box-shadow:inset 0 0 0 1px var(--input-color)}[type=checkbox]+label:before,[type=radio]+label:before{box-sizing:border-box;box-shadow:inset 0 0 0 1px var(--input-borde);content:\"\";height:1.25rem;width:1.25rem;left:4px;background-color:var(--input-fondo);position:absolute}[type=checkbox]+label:before{border:2px solid var(--pagina-fondo);border-radius:4px}[type=checkbox]:checked+label:before,[type=radio]:checked+label:before{box-shadow:inset 0 0 0 1px var(--input-controles-color);background:var(--input-controles-color)}[type=checkbox]:checked+label:after{font-family:dai-iconos;content:\"k\";color:var(--pagina-fondo);position:absolute;left:calc(.125rem + 4px)}[type=radio]+label:before{border-radius:50%}[type=radio]:checked+label:before{background-color:var(--pagina-fondo);box-shadow:inset 0 0 0 .375rem var(--input-controles-color)}select{appearance:none;-moz-appearance:none;-webkit-appearance:none;background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");background-position:calc(100% - 16px),50%;background-size:24px;background-repeat:no-repeat;padding-right:32px}[type=file]{padding-top:6px!important}[type=range]{box-sizing:border-box!important;border:1px solid transparent;width:100%;margin-top:8px;margin-bottom:24px;background-color:transparent;-webkit-appearance:none}[type=range]:focus{border-color:var(--input-focus-sombra);box-shadow:0 0 8px var(--input-focus-sombra);border-radius:4px;outline:none}[type=range]::-webkit-slider-runnable-track{background:var(--input-color);border:0;border-radius:.25rem;width:100%;height:.25rem;cursor:pointer}[type=range]::-webkit-slider-thumb{margin-top:-.625rem;width:1.5rem;height:1.5rem;background:var(--input-color);border:0;border-radius:.75rem;cursor:pointer;-webkit-appearance:none}[type=range]:focus::-webkit-slider-runnable-track{background:var(--input-color)}[type=range]::-moz-range-track{background:var(--input-color);border:0;border-radius:.25rem;width:100%;height:.25rem;cursor:pointer}[type=range]::-moz-range-thumb{width:1.5rem;height:1.5rem;background:var(--input-color);border:0;border-radius:.75rem;cursor:pointer}[type=range]::-ms-track{background:transparent;border-color:transparent;border-width:8px 0;color:transparent;width:100%;height:8px;cursor:pointer}[type=range]::-ms-fill-lower,[type=range]::-ms-fill-upper{background:var(--input-color);border:0;border-radius:1.5rem}[type=range]::-ms-thumb{width:1.5rem;height:1.5rem;border:0;border-radius:.75rem;cursor:pointer;margin-top:0}[type=range]::-ms-thumb,[type=range]:focus::-ms-fill-lower{background:var(--input-color)}[type=range]:focus::-ms-fill-upper{background:var(--input-color)}.formulario-horizontal label{margin-right:4px}.formulario-horizontal input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]),.formulario-horizontal select,.formulario-horizontal textarea{width:inherit}.formulario-horizontal input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]):not(:last-child),.formulario-horizontal select:not(:last-child),.formulario-horizontal textarea:not(:last-child){margin-right:24px}.formulario-horizontal .input-correcto,.formulario-horizontal .input-error{display:inline-flex}.formulario-horizontal .input-correcto:not(:last-child),.formulario-horizontal .input-error:not(:last-child){margin-right:24px}", ""]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -117,68 +166,55 @@ ___CSS_LOADER_EXPORT___.push([module.id, ".sisdai-mapa-control{position:absolute
   Author Tobias Koppers @sokra
 */
 module.exports = function (cssWithMappingToString) {
-  var list = []; // return the list of modules as css string
+  var list = [];
 
+  // return the list of modules as css string
   list.toString = function toString() {
     return this.map(function (item) {
       var content = "";
       var needLayer = typeof item[5] !== "undefined";
-
       if (item[4]) {
         content += "@supports (".concat(item[4], ") {");
       }
-
       if (item[2]) {
         content += "@media ".concat(item[2], " {");
       }
-
       if (needLayer) {
         content += "@layer".concat(item[5].length > 0 ? " ".concat(item[5]) : "", " {");
       }
-
       content += cssWithMappingToString(item);
-
       if (needLayer) {
         content += "}";
       }
-
       if (item[2]) {
         content += "}";
       }
-
       if (item[4]) {
         content += "}";
       }
-
       return content;
     }).join("");
-  }; // import a list of modules into the list
+  };
 
-
+  // import a list of modules into the list
   list.i = function i(modules, media, dedupe, supports, layer) {
     if (typeof modules === "string") {
       modules = [[null, modules, undefined]];
     }
-
     var alreadyImportedModules = {};
-
     if (dedupe) {
       for (var k = 0; k < this.length; k++) {
         var id = this[k][0];
-
         if (id != null) {
           alreadyImportedModules[id] = true;
         }
       }
     }
-
     for (var _k = 0; _k < modules.length; _k++) {
       var item = [].concat(modules[_k]);
-
       if (dedupe && alreadyImportedModules[item[0]]) {
         continue;
       }
-
       if (typeof layer !== "undefined") {
         if (typeof item[5] === "undefined") {
           item[5] = layer;
@@ -187,7 +223,6 @@ module.exports = function (cssWithMappingToString) {
           item[5] = layer;
         }
       }
-
       if (media) {
         if (!item[2]) {
           item[2] = media;
@@ -196,7 +231,6 @@ module.exports = function (cssWithMappingToString) {
           item[2] = media;
         }
       }
-
       if (supports) {
         if (!item[4]) {
           item[4] = "".concat(supports);
@@ -205,12 +239,43 @@ module.exports = function (cssWithMappingToString) {
           item[4] = supports;
         }
       }
-
       list.push(item);
     }
   };
-
   return list;
+};
+
+/***/ }),
+
+/***/ 806:
+/***/ (function(module) {
+
+"use strict";
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    options = {};
+  }
+  if (!url) {
+    return url;
+  }
+  url = String(url.__esModule ? url.default : url);
+
+  // If url is already wrapped in quotes, remove them
+  if (/^['"].*['"]$/.test(url)) {
+    url = url.slice(1, -1);
+  }
+  if (options.hash) {
+    url += options.hash;
+  }
+
+  // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+  if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+  return url;
 };
 
 /***/ }),
@@ -251,67 +316,83 @@ var update = add("a8943b36", content, true, {"sourceMap":false,"shadowMode":fals
 
 /***/ }),
 
-/***/ 543:
+/***/ 611:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(607);
+var content = __webpack_require__(467);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.id, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = (__webpack_require__(402)/* ["default"] */ .Z)
-var update = add("0953fe71", content, true, {"sourceMap":false,"shadowMode":false});
+var update = add("3c92d823", content, true, {"sourceMap":false,"shadowMode":false});
 
 /***/ }),
 
-/***/ 379:
+/***/ 256:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(72);
+var content = __webpack_require__(528);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.id, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = (__webpack_require__(402)/* ["default"] */ .Z)
-var update = add("20651c8d", content, true, {"sourceMap":false,"shadowMode":false});
+var update = add("ffc1f492", content, true, {"sourceMap":false,"shadowMode":false});
 
 /***/ }),
 
-/***/ 87:
+/***/ 890:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(642);
+var content = __webpack_require__(683);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.id, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = (__webpack_require__(402)/* ["default"] */ .Z)
-var update = add("1e3dd032", content, true, {"sourceMap":false,"shadowMode":false});
+var update = add("f55f6d52", content, true, {"sourceMap":false,"shadowMode":false});
 
 /***/ }),
 
-/***/ 204:
+/***/ 403:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(885);
+var content = __webpack_require__(437);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.id, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = (__webpack_require__(402)/* ["default"] */ .Z)
-var update = add("0ad3e3b3", content, true, {"sourceMap":false,"shadowMode":false});
+var update = add("54dc3064", content, true, {"sourceMap":false,"shadowMode":false});
+
+/***/ }),
+
+/***/ 954:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(527);
+if(content.__esModule) content = content.default;
+if(typeof content === 'string') content = [[module.id, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = (__webpack_require__(402)/* ["default"] */ .Z)
+var update = add("492a86fc", content, true, {"sourceMap":false,"shadowMode":false});
 
 /***/ }),
 
@@ -579,6 +660,14 @@ function applyToTag (styleElement, obj) {
 }
 
 
+/***/ }),
+
+/***/ 130:
+/***/ (function(module) {
+
+"use strict";
+module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZGF0YS1uYW1lPSJUcmF6YWRvIDI4ODgyIiBkPSJNMTIuMjUgMTUuMyA3IDEwLjA1IDguMDUgOWw0LjIgNC4yIDQuMi00LjIgMS4wNSAxLjA1WiIvPjxwYXRoIGZpbGw9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiLz48L3N2Zz4=";
+
 /***/ })
 
 /******/ 	});
@@ -606,6 +695,9 @@ function applyToTag (styleElement, obj) {
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
+/******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
@@ -653,6 +745,32 @@ function applyToTag (styleElement, obj) {
 /******/ 		__webpack_require__.p = "";
 /******/ 	}();
 /******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	!function() {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			810: 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
+/******/ 	}();
+/******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be in strict mode.
@@ -667,23 +785,23 @@ __webpack_require__.d(__webpack_exports__, {
   "install": function() { return /* reexport */ src_plugin; }
 });
 
-// NAMESPACE OBJECT: ./src/components/layouts/index.js
-var layouts_namespaceObject = {};
-__webpack_require__.r(layouts_namespaceObject);
-__webpack_require__.d(layouts_namespaceObject, {
-  "Capas": function() { return Capas; },
-  "Encabezado": function() { return Encabezado; },
-  "Leyenda": function() { return Leyenda; }
-});
-
-// NAMESPACE OBJECT: ./src/components/capas/index.js
+// NAMESPACE OBJECT: ./src/componentes/capas/index.js
 var capas_namespaceObject = {};
 __webpack_require__.r(capas_namespaceObject);
 __webpack_require__.d(capas_namespaceObject, {
-  "GeoJSON": function() { return GeoJSON_GeoJSON; },
-  "OSM": function() { return capas_OSM; },
-  "WMS": function() { return WMS; },
-  "XYZ": function() { return capas_XYZ; }
+  "GeoJSON": function() { return SisdaiCapaGeojson; },
+  "OSM": function() { return SisdaiCapaOsm; },
+  "WMS": function() { return SisdaiCapaWms; },
+  "XYZ": function() { return SisdaiCapaXyz; }
+});
+
+// NAMESPACE OBJECT: ./src/componentes/elementos/index.js
+var elementos_namespaceObject = {};
+__webpack_require__.r(elementos_namespaceObject);
+__webpack_require__.d(elementos_namespaceObject, {
+  "Capas": function() { return SisdaiMapaCapas; },
+  "Encabezado": function() { return SisdaiMapaEncabezado; },
+  "Leyenda": function() { return SisdaiMapaLeyenda; }
 });
 
 ;// CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/setPublicPath.js
@@ -703,25 +821,33 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"505ef569-vue-loader-template"}!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Mapa/Mapa.vue?vue&type=template&id=4492012c&
+// EXTERNAL MODULE: ./src/estilos/index.scss
+var estilos = __webpack_require__(954);
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"23f98b37-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/SisdaiMapa.vue?vue&type=template&id=51ced022&scoped=true&
 var render = function render() {
   var _vm = this,
-    _c = _vm._self._c;
+    _c = _vm._self._c,
+    _setup = _vm._self._setupProxy;
   return _c('div', {
-    staticClass: "sisdai-mapa-contenedor borde borde-redondeado-8",
-    class: `tema-${_vm.tema}`
+    staticClass: "sisdai-mapa-contenedor borde borde-redondeado-8"
   }, [_c('div', {
     ref: "refMapa",
-    staticClass: "sisdai-mapa",
-    class: {
-      'icono-conacyt-visible': _vm.iconoConacytVisible
-    }
-  }), _vm._t("default"), _c('BotonConacyt')], 2);
+    staticClass: "sisdai-mapa"
+  }), _c(_setup.VistaCarga, {
+    directives: [{
+      name: "show",
+      rawName: "v-show",
+      value: _setup.verCargador,
+      expression: "verCargador"
+    }]
+  }), _vm._t("default"), _c(_setup.BotonConacyt)], 2);
 };
 var staticRenderFns = [];
 
 ;// CONCATENATED MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject = require("vue");
+// EXTERNAL MODULE: ./node_modules/ol/ol.css
+var ol = __webpack_require__(640);
 ;// CONCATENATED MODULE: ./node_modules/ol/events/Event.js
 /**
  * @module ol/events/Event
@@ -21791,158 +21917,39 @@ function createOptionsInternal(options) {
 }
 /* harmony default export */ var ol_Map = (Map_Map);
 
-// EXTERNAL MODULE: ./node_modules/ol/ol.css
-var ol = __webpack_require__(640);
-;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"505ef569-vue-loader-template"}!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/layouts/BotonConacyt.vue?vue&type=template&id=0c26e26f&scoped=true&
-var BotonConacytvue_type_template_id_0c26e26f_scoped_true_render = function render() {
-  var _vm = this,
-    _c = _vm._self._c;
-  return _vm._m(0);
-};
-var BotonConacytvue_type_template_id_0c26e26f_scoped_true_staticRenderFns = [function () {
-  var _vm = this,
-    _c = _vm._self._c;
-  return _c('a', {
-    staticClass: "boton boton-conacyt borde-t",
-    attrs: {
-      "href": "https://conacyt.mx/",
-      "target": "_blank"
-    }
-  }, [_c('img', {
-    attrs: {
-      "src": "https://conacyt.mx/wp-content/uploads/2021/10/logo_conacyt_con_sintagma_azul_completo.svg",
-      "alt": "Conacyt",
-      "height": "28px"
-    }
-  })]);
-}];
+;// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/typeof.js
+function _typeof(obj) {
+  "@babel/helpers - typeof";
 
-;// CONCATENATED MODULE: ./src/components/layouts/BotonConacyt.vue?vue&type=template&id=0c26e26f&scoped=true&
-
-// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-22.use[0]!./node_modules/@vue/cli-service/node_modules/css-loader/dist/cjs.js??clonedRuleSet-22.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[2]!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[3]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-22.use[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/layouts/BotonConacyt.vue?vue&type=style&index=0&id=0c26e26f&prod&lang=scss&scoped=true&
-var BotonConacytvue_type_style_index_0_id_0c26e26f_prod_lang_scss_scoped_true_ = __webpack_require__(379);
-;// CONCATENATED MODULE: ./src/components/layouts/BotonConacyt.vue?vue&type=style&index=0&id=0c26e26f&prod&lang=scss&scoped=true&
-
-;// CONCATENATED MODULE: ./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js
-/* globals __VUE_SSR_CONTEXT__ */
-
-// IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
-// This module is a runtime utility for cleaner component module output and will
-// be included in the final webpack user bundle.
-
-function normalizeComponent(
-  scriptExports,
-  render,
-  staticRenderFns,
-  functionalTemplate,
-  injectStyles,
-  scopeId,
-  moduleIdentifier /* server only */,
-  shadowMode /* vue-cli only */
-) {
-  // Vue.extend constructor export interop
-  var options =
-    typeof scriptExports === 'function' ? scriptExports.options : scriptExports
-
-  // render functions
-  if (render) {
-    options.render = render
-    options.staticRenderFns = staticRenderFns
-    options._compiled = true
-  }
-
-  // functional template
-  if (functionalTemplate) {
-    options.functional = true
-  }
-
-  // scopedId
-  if (scopeId) {
-    options._scopeId = 'data-v-' + scopeId
-  }
-
-  var hook
-  if (moduleIdentifier) {
-    // server build
-    hook = function (context) {
-      // 2.3 injection
-      context =
-        context || // cached call
-        (this.$vnode && this.$vnode.ssrContext) || // stateful
-        (this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) // functional
-      // 2.2 with runInNewContext: true
-      if (!context && typeof __VUE_SSR_CONTEXT__ !== 'undefined') {
-        context = __VUE_SSR_CONTEXT__
-      }
-      // inject component styles
-      if (injectStyles) {
-        injectStyles.call(this, context)
-      }
-      // register component module identifier for async chunk inferrence
-      if (context && context._registeredComponents) {
-        context._registeredComponents.add(moduleIdentifier)
-      }
-    }
-    // used by ssr in case component is cached and beforeCreate
-    // never gets called
-    options._ssrRegister = hook
-  } else if (injectStyles) {
-    hook = shadowMode
-      ? function () {
-          injectStyles.call(
-            this,
-            (options.functional ? this.parent : this).$root.$options.shadowRoot
-          )
-        }
-      : injectStyles
-  }
-
-  if (hook) {
-    if (options.functional) {
-      // for template-only hot-reload because in that case the render fn doesn't
-      // go through the normalizer
-      options._injectStyles = hook
-      // register for functional component in vue file
-      var originalRender = options.render
-      options.render = function renderWithStyleInjection(h, context) {
-        hook.call(context)
-        return originalRender(h, context)
-      }
-    } else {
-      // inject component registration as beforeCreate hook
-      var existing = options.beforeCreate
-      options.beforeCreate = existing ? [].concat(existing, hook) : [hook]
-    }
-  }
-
-  return {
-    exports: scriptExports,
-    options: options
-  }
+  return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) {
+    return typeof obj;
+  } : function (obj) {
+    return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
+  }, _typeof(obj);
 }
+;// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/toPrimitive.js
 
-;// CONCATENATED MODULE: ./src/components/layouts/BotonConacyt.vue
+function _toPrimitive(input, hint) {
+  if (_typeof(input) !== "object" || input === null) return input;
+  var prim = input[Symbol.toPrimitive];
+  if (prim !== undefined) {
+    var res = prim.call(input, hint || "default");
+    if (_typeof(res) !== "object") return res;
+    throw new TypeError("@@toPrimitive must return a primitive value.");
+  }
+  return (hint === "string" ? String : Number)(input);
+}
+;// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/toPropertyKey.js
 
-var script = {}
-;
 
-
-/* normalize component */
-
-var component = normalizeComponent(
-  script,
-  BotonConacytvue_type_template_id_0c26e26f_scoped_true_render,
-  BotonConacytvue_type_template_id_0c26e26f_scoped_true_staticRenderFns,
-  false,
-  null,
-  "0c26e26f",
-  null
-  
-)
-
-/* harmony default export */ var BotonConacyt = (component.exports);
+function _toPropertyKey(arg) {
+  var key = _toPrimitive(arg, "string");
+  return _typeof(key) === "symbol" ? key : String(key);
+}
 ;// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/defineProperty.js
+
 function _defineProperty(obj, key, value) {
+  key = _toPropertyKey(key);
   if (key in obj) {
     Object.defineProperty(obj, key, {
       value: value,
@@ -21955,266 +21962,6 @@ function _defineProperty(obj, key, value) {
   }
   return obj;
 }
-;// CONCATENATED MODULE: ./src/controls/utiles.js
-/**
- * @module controls/utiles
- */
-
-/**
- * Crea un elemento html de tipo div, para usarse como contenedor del control, con las siguientes
- * características
- * @param {String} claseCss Clase que distinguirá al elemento contenedor
- * @returns {HTMLDivElement} Elemento html
- */
-function crearContenedorControl(claseCss) {
-  const contenedorControl = document.createElement('div');
-  contenedorControl.className = `sisdai-mapa-control sisdai-mapa-control-${claseCss} ol-unselectable`;
-  return contenedorControl;
-}
-
-/**
- * Crea un elemento html de tipo botón con las siguientes características
- * @param {String} claseCss Clase que distinguirá al elemento, recomendable usar la misma clase
- * del contenedor
- * @param {String} icono Icono que se visualizará dentro del botón
- * @param {Function} accion Función que se desencadenará con el evento click
- * @returns {HTMLButtonElement} Elemento html
- */
-function crearBotonControl(claseCss, icono, accion) {
-  const boton = document.createElement('button');
-  boton.className = `sisdai-mapa-control-${claseCss}-boton boton-icono boton-secundario`;
-  boton.innerHTML = `<span class="icono-${icono}" />`;
-  boton.addEventListener('click', accion, false);
-  return boton;
-}
-;// CONCATENATED MODULE: ./src/controls/ZoomPersonalizado.js
-
-/**
- * @module controls/ZoomPersonalizado
- */
-
-
-
-
-/**
- * @property {String} claseCss clase del elemnto HTML del control. La clase se concatenará con la
- * clase genérica `sisdai-mapa-control-${claseCss}`.
- */
-const claseCss = 'zoom';
-
-/**
- * @classdesc
- * Agrega un control con iconos y estilos personalizados que permite hacer zoom in y zoom out
- * sobre el mapa.
- */
-class ZoomPersonalizado extends control_Control {
-  /**
-   * Nombre con el que se podrá extraer el control del mapa.
-   * @type {String}
-   */
-
-  /**
-   * Acceder al nombre estatico desde el objeto instanciado.
-   * @returns {String}
-   */
-  get nombre() {
-    return ZoomPersonalizado.nombre;
-  }
-  constructor() {
-    /**
-     * Elemento contenedor del control
-     * @type {HTMLDivElement}
-     * @private
-     */
-    const contenedorControl = crearContenedorControl(claseCss);
-    super({
-      element: contenedorControl,
-      target: undefined
-    });
-
-    /**
-     * Elemento clickable del control
-     * @type {HTMLButtonElement}
-     * @protected
-     */
-    this.botonAcercar = crearBotonControl(claseCss, 'agregar', this.acercamiento.bind(this));
-
-    /**
-     * Elemento clickable del control
-     * @type {HTMLButtonElement}
-     * @protected
-     */
-    this.botonAlejar = crearBotonControl(claseCss, 'restar', this.alejamiento.bind(this));
-    contenedorControl.appendChild(this.botonAcercar);
-    contenedorControl.appendChild(this.botonAlejar);
-  }
-
-  /**
-   * Acerca la vista del mapa por una unidad de zoom
-   */
-  acercamiento() {
-    this.getMap().getView().animate({
-      zoom: this.getMap().getView().getZoom() + 1,
-      duration: 250
-    });
-  }
-
-  /**
-   * Aleja la vista del mapa por una unidad de zoom
-   */
-  alejamiento() {
-    this.getMap().getView().animate({
-      zoom: this.getMap().getView().getZoom() - 1,
-      duration: 250
-    });
-  }
-}
-_defineProperty(ZoomPersonalizado, "nombre", 'ZoomPersonalizado');
-;// CONCATENATED MODULE: ./src/controls/VistaInicial.js
-
-/**
- * @module controls/VistaInicial
- */
-
-
-
-
-/**
- * @property {String} claseCss clase del elemnto HTML del control. La clase se concatenará con la
- * clase genérica `sisdai-mapa-control-${claseCss}`.
- */
-const VistaInicial_claseCss = 'vista-inicial';
-
-/**
- * @typedef {Object} Opciones
- * @property {Number} centro Coordenadas [x, y] del centro inicial de la vista.
- * @property {Array<Number>} extension Coordenadas extremas [x1, y1, x2, y2] de la caja envolvente
- * de la vista.
- * @property {Array<Number>} rellenoAlBordeDeLaExtension Relleno (en píxeles [superior, derecho,
- * inferior, izquierdo]) que se agregará a la extensión de la vista.
- * @property {Number} zoom Nivel de zoom de la vista.
- */
-
-/**
- * @classdesc
- * Agrega un control personalizado que permite volver a la vista del mapa que se definió
- * inicialmente.
- */
-class VistaInicial extends control_Control {
-  /**
-   * Nombre con el que se podrá extraer el control del mapa.
-   * @type {String}
-   */
-
-  /**
-   * Acceder al nombre estatico desde el objeto instanciado.
-   * @returns {String}
-   */
-  get nombre() {
-    return VistaInicial.nombre;
-  }
-  constructor(opciones) {
-    /**
-     * Elemento contenedor del control
-     * @type {HTMLDivElement}
-     * @private
-     */
-    const contenedorControl = crearContenedorControl(VistaInicial_claseCss);
-    super({
-      element: contenedorControl,
-      target: undefined
-    });
-
-    /**
-     * Elemento clickable del control
-     * @type {HTMLButtonElement}
-     * @private
-     */
-    _defineProperty(this, "funcionesPorTipoDeVista", {
-      centro: () => this.getMap().getView().animate({
-        zoom: this.zoom,
-        center: this.centro
-      }),
-      extension: () => this.getMap().getView().fit(this.extension, {
-        padding: this.rellenoAlBordeDeLaExtension,
-        duration: 1000
-      })
-    });
-    this.botonVistaInicial = crearBotonControl(VistaInicial_claseCss, 'mapa-centro', this.reiniciarVista.bind(this));
-    contenedorControl.appendChild(this.botonVistaInicial);
-
-    /**
-     * @type {number}
-     * @protected
-     */
-    this.centro = opciones.centro;
-
-    /**
-     * @type {Array<number>}
-     * @protected
-     */
-    this.extension = opciones.extension;
-
-    /**
-     * @type {String}
-     * @private
-     */
-    this.tipoDeVista = this.extensionEsValida() ? 'extension' : 'centro';
-
-    /**
-     * @type {Array<number>}
-     * @protected
-     */
-    this.rellenoAlBordeDeLaExtension = opciones.rellenoAlBordeDeLaExtension;
-
-    /**
-     * @type {number}
-     * @protected
-     */
-    this.zoom = opciones.zoom;
-
-    /**
-     * Si la vista es de tipo extension, solicitar la vista inical cuando el mapa esté listo.
-     */
-    if (this.tipoDeVista === 'extension') {
-      new Promise(resolve => {
-        const _this = this;
-        function revisarMapa() {
-          if (_this.getMap()) {
-            resolve();
-          } else setTimeout(revisarMapa, 50);
-        }
-        revisarMapa();
-      }).then(() => {
-        this.reiniciarVista();
-      });
-    }
-  }
-
-  /**
-   *
-   * @returns {Boolean}
-   */
-  extensionEsValida() {
-    return Boolean(Number(this.extension.value[0]) !== 0 && Number(this.extension.value[3]) !== 0);
-  }
-
-  /**
-   * Reinicia la vista que se difinió inicialmente en el mapa
-   */
-  reiniciarVista() {
-    // const vInicial = this.getMap().get('vistaInicial')
-    this.funcionesPorTipoDeVista[this.tipoDeVista]();
-    this.dispatchEvent('reset');
-  }
-
-  /**
-   * Contiene las funciones que reinician la vista dependiendo del tipo de vista
-   * @type {Object} [centro|extension]
-   * @protected
-   */
-}
-_defineProperty(VistaInicial, "nombre", 'VistaInicial');
 ;// CONCATENATED MODULE: ./node_modules/ol/control/ScaleLine.js
 /**
  * @module ol/control/ScaleLine
@@ -22699,10 +22446,10 @@ class ScaleLine extends control_Control {
 
 /* harmony default export */ var control_ScaleLine = (ScaleLine);
 
-;// CONCATENATED MODULE: ./src/controls/EscalaGrafica.js
+;// CONCATENATED MODULE: ./src/controles/EscalaGrafica.js
 
 /**
- * @module control/EscalaGrafica
+ * @module controles/EscalaGrafica
  */
 
 
@@ -22723,7 +22470,7 @@ const consifguracion = {
  * @property {String} claseCss clase del elemnto HTML del control. La clase se concatenará con la
  * clase genérica `sisdai-mapa-control-${claseCss}`.
  */
-const EscalaGrafica_claseCss = 'escala-grafica';
+const claseCss = 'escala-grafica';
 
 /**
  * @classdesc
@@ -22752,10 +22499,194 @@ class EscalaGrafica extends control_ScaleLine {
    */
   _agregarClasesSisdai() {
     this.element.classList.add('sisdai-mapa-control');
-    this.element.classList.add(`sisdai-mapa-control-${EscalaGrafica_claseCss}`);
+    this.element.classList.add(`sisdai-mapa-control-${claseCss}`);
   }
 }
 _defineProperty(EscalaGrafica, "nombre", 'EscalaGrafica');
+;// CONCATENATED MODULE: ./src/controles/utiles.js
+/**
+ * @module controles/utiles
+ */
+
+/**
+ * Crea un elemento html de tipo div, para usarse como contenedor del control, con las siguientes
+ * características
+ * @param {String} claseCss Clase que distinguirá al elemento contenedor
+ * @returns {HTMLDivElement} Elemento html
+ */
+function crearContenedorControl(claseCss) {
+  const contenedorControl = document.createElement('div');
+  contenedorControl.className = `sisdai-mapa-control sisdai-mapa-control-${claseCss} ol-unselectable`;
+  return contenedorControl;
+}
+
+/**
+ * Crea un elemento html de tipo botón con las siguientes características
+ * @param {String} claseCss Clase que distinguirá al elemento, recomendable usar la misma clase
+ * del contenedor
+ * @param {String} icono Icono que se visualizará dentro del botón
+ * @param {Function} accion Función que se desencadenará con el evento click
+ * @returns {HTMLButtonElement} Elemento html
+ */
+function crearBotonControl(claseCss, icono, accion) {
+  const boton = document.createElement('button');
+  boton.className = `sisdai-mapa-control-${claseCss}-boton boton-icono boton-secundario`;
+  boton.innerHTML = `<span class="icono-${icono}" />`;
+  boton.addEventListener('click', accion, false);
+  return boton;
+}
+;// CONCATENATED MODULE: ./src/controles/VistaInicial.js
+
+/**
+ * @module controles/VistaInicial
+ */
+
+
+
+
+/**
+ * @property {String} claseCss clase del elemnto HTML del control. La clase se concatenará con la
+ * clase genérica `sisdai-mapa-control-${claseCss}`.
+ */
+const VistaInicial_claseCss = 'vista-inicial';
+
+/**
+ * @typedef {Object} Opciones
+ * @property {Number} centro Coordenadas [x, y] del centro inicial de la vista.
+ * @property {Array<Number>} extension Coordenadas extremas [x1, y1, x2, y2] de la caja envolvente
+ * de la vista.
+ * @property {Array<Number>} rellenoAlBordeDeLaExtension Relleno (en píxeles [superior, derecho,
+ * inferior, izquierdo]) que se agregará a la extensión de la vista.
+ * @property {Number} zoom Nivel de zoom de la vista.
+ */
+
+/**
+ * @classdesc
+ * Agrega un control personalizado que permite volver a la vista del mapa que se definió
+ * inicialmente.
+ */
+class VistaInicial extends control_Control {
+  /**
+   * Nombre con el que se podrá extraer el control del mapa.
+   * @type {String}
+   */
+
+  /**
+   * Acceder al nombre estatico desde el objeto instanciado.
+   * @returns {String}
+   */
+  get nombre() {
+    return VistaInicial.nombre;
+  }
+  constructor(opciones) {
+    /**
+     * Elemento contenedor del control
+     * @type {HTMLDivElement}
+     * @private
+     */
+    const contenedorControl = crearContenedorControl(VistaInicial_claseCss);
+    super({
+      element: contenedorControl,
+      target: undefined
+    });
+
+    /**
+     * Elemento clickable del control
+     * @type {HTMLButtonElement}
+     * @private
+     */
+    _defineProperty(this, "funcionesPorTipoDeVista", {
+      centro: () => this.getMap().getView().animate({
+        zoom: this.zoom,
+        center: this.centro
+      }),
+      extension: () => this.getMap().getView().fit(this.extension, {
+        padding: this.rellenoAlBordeDeLaExtension,
+        duration: 1000
+      })
+    });
+    this.botonVistaInicial = crearBotonControl(VistaInicial_claseCss, 'mapa-centro', this.reiniciarVista.bind(this));
+    contenedorControl.appendChild(this.botonVistaInicial);
+
+    /**
+     * @type {number}
+     * @protected
+     */
+    this.centro = opciones.centro;
+
+    /**
+     * @type {Array<number>}
+     * @protected
+     */
+    this.extension = opciones.extension;
+
+    /**
+     * @type {String}
+     * @private
+     */
+    this.tipoDeVista = this.extensionEsValida() ? 'extension' : 'centro';
+
+    /**
+     * @type {Array<number>}
+     * @protected
+     */
+    this.rellenoAlBordeDeLaExtension = opciones.rellenoAlBordeDeLaExtension;
+
+    /**
+     * @type {number}
+     * @protected
+     */
+    this.zoom = opciones.zoom;
+
+    /**
+     * Si la vista es de tipo extension, solicitar la vista inical cuando el mapa esté listo.
+     */
+    if (this.tipoDeVista === 'extension') {
+      new Promise(resolve => {
+        const _this = this;
+        function revisarMapa() {
+          if (_this.getMap()) {
+            resolve();
+          } else setTimeout(revisarMapa, 50);
+        }
+        revisarMapa();
+      }).then(() => {
+        this.reiniciarVista();
+      });
+    }
+  }
+
+  /**
+   *
+   * @returns {Boolean}
+   */
+  extensionEsValida() {
+    return Boolean(Number(this.extension[0]) !== 0 && Number(this.extension[3]) !== 0);
+  }
+
+  /**
+   * Reinicia la vista que se difinió inicialmente en el mapa
+   */
+  reiniciarVista() {
+    // const vInicial = this.getMap().get('vistaInicial')
+    this.funcionesPorTipoDeVista[this.tipoDeVista]();
+    this.dispatchEvent('reset');
+  }
+
+  /**
+   * Contiene las funciones que reinician la vista dependiendo del tipo de vista
+   * @type {Object} [centro|extension]
+   * @protected
+   */
+}
+_defineProperty(VistaInicial, "nombre", 'VistaInicial');
+;// CONCATENATED MODULE: ./src/defaults/estatusCarga.js
+/* harmony default export */ var defaults_estatusCarga = ({
+  no: 'indefinida',
+  ini: 'iniciada',
+  error: 'error',
+  fin: 'finalizada'
+});
 ;// CONCATENATED MODULE: ./src/composables/usarCapasRegistradas.js
 /**
  * @module composables/usarCapasRegistradas
@@ -22763,11 +22694,16 @@ _defineProperty(EscalaGrafica, "nombre", 'EscalaGrafica');
 
 
 
+
 /**
  * Objeto de objetos de capas de openlayers, los leys de cada objeto debe ser el id de cada capa.
  */
-const olCapas = {};
 const capasRegistradas = {};
+
+/**
+ * Variable que indica si hay capas que tienen el cargador visible en proceso de carga/actualiación.
+ */
+const hayCapasCargadorVisibleProcesando = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)(false);
 
 /**
  * La finalidad de este composable es acceder al a las capas usadan en cada intsncia del
@@ -22808,21 +22744,15 @@ function usarCapasRegistradas() {
   function registrarNuevaCapa(capa) {
     const idCapa = capa.get('id');
     if (laCapaYaExiste(idCapa)) return;
-    olCapas[idCapa] = capa;
     capasRegistradas[idCapa] = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)(capa);
   }
 
   /**
-   * Agrega funciones a eventos detectables.
-   * @param {String} idCapa id de la caopa a la que se agregará el evento.
-   * @param {import("ol/ObjectEventType").Types|'change:extent'|'change:maxResolution'|'change:maxZoom'|
-   *    'change:minResolution'|'change:minZoom'|'change:opacity'|'change:visible'|'change:zIndex'} tipoEvento
-   *    tipio de evento a detectar.
-   * @param {Function} funsion función que se desencadenará al detectar el evento.
-   function agregarFuncionesPorEvento(idCapa, tipoEvento, funcion) {
-     olCapas[idCapa].on(tipoEvento, funcion)
-    }
+   * Este watcher actualiza la variable `estadoCapasCargadorVisible` cada que cambie el estado
+   * de algua capa, filra solo las capas que tienen el cargador visible y checa si hay alguna
+   * capa en procesos de carga `tiposEstatusCarga.ini`.
    */
+  (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(() => Object.values(capasRegistradas).filter(capa => capa.value.get('verCargador')).map(capa => capa.value.get('estatusCarga')).join(), estadoCapasCargadorVisible => hayCapasCargadorVisibleProcesando.value = estadoCapasCargadorVisible.includes(defaults_estatusCarga.ini));
 
   /**
    * Esta función en un pequeño composable para acceder a propiedades reactivas y funciones de a
@@ -22831,8 +22761,10 @@ function usarCapasRegistradas() {
    */
   function vincularCapa(idCapa) {
     const capa = () => capasRegistradas[idCapa].value;
-    const visibilidad = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)(capa().getVisible());
     const nombre = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)(capa().get('nombre'));
+    const estatusCarga = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)(capa().get('estatusCarga'));
+    // const verCargador = ref(capa().get('verCargador'))
+    const visibilidad = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)(capa().getVisible());
 
     /**
      * Cambiar el estado de visivilidad de una capa de acuerdo con su id. Si no se define el
@@ -22854,17 +22786,23 @@ function usarCapasRegistradas() {
       capa().set('nombre', nuevoNombre);
     }
     (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(() => capa().values_.nombre, nuevoValor => nombre.value = nuevoValor);
+    function cambiarEstatusCarga(nuevoEstatus) {
+      estatusCarga.value = nuevoEstatus;
+    }
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(estatusCarga, nuevoEstatus => capa().set('estatusCarga', nuevoEstatus));
     return {
       alternarVisibilidad,
       visibilidad,
       cambiarNombre,
-      nombre
+      nombre,
+      cambiarEstatusCarga
     };
   }
   return {
     agregarTodoALMapa,
     registrarNuevaCapa,
-    vincularCapa
+    vincularCapa,
+    hayCapasCargadorVisibleProcesando
   };
 }
 ;// CONCATENATED MODULE: ./src/composables/usarMapa.js
@@ -22886,18 +22824,36 @@ function usarCapasRegistradas() {
 const olMapa = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)(undefined);
 const props = {
   /**
-   * Coordenadas [x, y] del centro inicial de la vista.
+   * centro
+   * - Tipo: `Array`
+   * - Valor por defecto: `[0, 0]`
+   * - Interactivo: ✅
    *
-   * Estas coordenadas deben coincidir con la proyección definida
+   * Coordenadas `[x, y]` del centro inicial de la vista.
+   *
+   * > ℹ️ **Información:** La proyección de estas coordenadas deben coincidir con la `proyeccion`
+   * definida en el mapa.
+   *
+   * > ⚠️ **Importante:** Debe tener en cuenta que si la propiedad `extension` se define, esta
+   * propiedad será ignorada.
    */
   centro: {
     type: Array,
     default: () => [0, 0]
   },
   /**
-   * Coordenadas extremas [x1, y1, x2, y2] de la caja envolvente de la vista.
+   * extension
+   * - Tipo: `Array`
+   * - Valor por defecto: `[0, 0, 0, 0]`
+   * - Interactivo: ✅
    *
-   * Estas coordenadas deben coincidir con la proyección definida
+   * Coordenadas extremas `[x1, y1, x2, y2]` de la caja envolvente de la vista.
+   *
+   * > ℹ️ **Información:** La proyección de estas coordenadas deben coincidir con la `proyeccion`
+   * definida en el mapa.
+   *
+   * > ⚠️ **Importante:** Debe tener en cuenta que si esta propiedad es definida o diferente al
+   * valor por defecto, las propiedades `centro` y `zoom` serán ignoradas.
    */
   extension: {
     type: Array,
@@ -22905,15 +22861,21 @@ const props = {
   },
   /**
    * Ver el icono de Conacyt debajo del mapa
+   * deprecated??
    */
   iconoConacytVisible: {
     type: Boolean,
     default: true
   },
   /**
+   * proyeccion
+   * - Tipo: `String`
+   * - Valor por defecto: `EPSG:4326`
+   * - Interactivo: ❌
+   *
    * Código de identificación SRS que define la proyección de la vista.
    *
-   * El valor predeterminado es Universal Transversal de Mercator.
+   * > ℹ️ **Información:** El valor predeterminado es Universal Transversal de Mercator.
    */
   proyeccion: {
     type: String,
@@ -22928,14 +22890,27 @@ const props = {
     default: ''
   },
   /**
+   * zoom
+   * - Tipo: `Number`
+   * - Valor por defecto: `1`
+   * - Interactivo: ✅
+   *
    * Nivel de zoom utilizado para calcular la resolución inicial de la vista.
+   *
+   * > ⚠️ **Importante:** Debe tener en cuenta que si la propiedad `extension` se define, esta
+   * propiedad será ignorada.
    */
   zoom: {
     type: Number,
     default: 1
   },
   /**
-   * Booleano que
+   * escalaGrafica
+   * - Tipo: `Boolean`
+   * - Valor por defecto: `false`
+   * - Interactivo: ✅
+   *
+   * Define si se agrega la escala gráfica en el mapa.
    */
   escalaGrafica: {
     type: Boolean,
@@ -22951,7 +22926,8 @@ const props = {
  */
 function usarMapa(propsParam) {
   const {
-    agregarTodoALMapa: agregarCapasRegistradas
+    agregarTodoALMapa: agregarCapasRegistradas,
+    hayCapasCargadorVisibleProcesando: verCargador
   } = usarCapasRegistradas();
   const {
     centro,
@@ -22965,7 +22941,6 @@ function usarMapa(propsParam) {
    * @param {import("ol/Map.js").default} mapaInstanciado
    */
   function salvarInstancia(mapaInstanciado) {
-    // console.log('hola desde el composable del mapa', mapaInstanciado)
     agregarCapasRegistradas(mapaInstanciado);
     olMapa.value = mapaInstanciado;
     // olMapa.value.on(MapEventType.LOADSTART, console.log(MapEventType.LOADSTART))
@@ -23051,10 +23026,352 @@ function usarMapa(propsParam) {
   (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(zoom, cambiarZoom);
   return {
     salvarInstancia,
-    alternarEscalaGrafica
+    alternarEscalaGrafica,
+    verCargador
   };
 }
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Mapa/Mapa.vue?vue&type=script&lang=js&
+;// CONCATENATED MODULE: ./src/controles/ZoomPersonalizado.js
+
+/**
+ * @module controles/ZoomPersonalizado
+ */
+
+
+
+
+/**
+ * @property {String} claseCss clase del elemnto HTML del control. La clase se concatenará con la
+ * clase genérica `sisdai-mapa-control-${claseCss}`.
+ */
+const ZoomPersonalizado_claseCss = 'zoom';
+
+/**
+ * @classdesc
+ * Agrega un control con iconos y estilos personalizados que permite hacer zoom in y zoom out
+ * sobre el mapa.
+ */
+class ZoomPersonalizado extends control_Control {
+  /**
+   * Nombre con el que se podrá extraer el control del mapa.
+   * @type {String}
+   */
+
+  /**
+   * Acceder al nombre estatico desde el objeto instanciado.
+   * @returns {String}
+   */
+  get nombre() {
+    return ZoomPersonalizado.nombre;
+  }
+  constructor() {
+    /**
+     * Elemento contenedor del control
+     * @type {HTMLDivElement}
+     * @private
+     */
+    const contenedorControl = crearContenedorControl(ZoomPersonalizado_claseCss);
+    super({
+      element: contenedorControl,
+      target: undefined
+    });
+
+    /**
+     * Elemento clickable del control
+     * @type {HTMLButtonElement}
+     * @protected
+     */
+    this.botonAcercar = crearBotonControl(ZoomPersonalizado_claseCss, 'agregar', this.acercamiento.bind(this));
+
+    /**
+     * Elemento clickable del control
+     * @type {HTMLButtonElement}
+     * @protected
+     */
+    this.botonAlejar = crearBotonControl(ZoomPersonalizado_claseCss, 'restar', this.alejamiento.bind(this));
+    contenedorControl.appendChild(this.botonAcercar);
+    contenedorControl.appendChild(this.botonAlejar);
+  }
+
+  /**
+   * Acerca la vista del mapa por una unidad de zoom
+   */
+  acercamiento() {
+    this.getMap().getView().animate({
+      zoom: this.getMap().getView().getZoom() + 1,
+      duration: 250
+    });
+  }
+
+  /**
+   * Aleja la vista del mapa por una unidad de zoom
+   */
+  alejamiento() {
+    this.getMap().getView().animate({
+      zoom: this.getMap().getView().getZoom() - 1,
+      duration: 250
+    });
+  }
+}
+_defineProperty(ZoomPersonalizado, "nombre", 'ZoomPersonalizado');
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"23f98b37-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/externos/BotonConacyt.vue?vue&type=template&id=7f6aef72&scoped=true&
+var BotonConacytvue_type_template_id_7f6aef72_scoped_true_render = function render() {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _vm._m(0);
+};
+var BotonConacytvue_type_template_id_7f6aef72_scoped_true_staticRenderFns = [function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c('a', {
+    staticClass: "boton boton-conacyt borde-t",
+    attrs: {
+      "href": "https://conacyt.mx/",
+      "target": "_blank"
+    }
+  }, [_c('img', {
+    attrs: {
+      "src": "https://conacyt.mx/wp-content/uploads/2021/10/logo_conacyt_con_sintagma_azul_completo.svg",
+      "alt": "Conacyt",
+      "height": "28px"
+    }
+  })]);
+}];
+
+;// CONCATENATED MODULE: ./src/componentes/externos/BotonConacyt.vue?vue&type=template&id=7f6aef72&scoped=true&
+
+// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-22.use[0]!./node_modules/@vue/cli-service/node_modules/css-loader/dist/cjs.js??clonedRuleSet-22.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[2]!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[3]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-22.use[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/externos/BotonConacyt.vue?vue&type=style&index=0&id=7f6aef72&prod&lang=scss&scoped=true&
+var BotonConacytvue_type_style_index_0_id_7f6aef72_prod_lang_scss_scoped_true_ = __webpack_require__(890);
+;// CONCATENATED MODULE: ./src/componentes/externos/BotonConacyt.vue?vue&type=style&index=0&id=7f6aef72&prod&lang=scss&scoped=true&
+
+;// CONCATENATED MODULE: ./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js
+/* globals __VUE_SSR_CONTEXT__ */
+
+// IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
+// This module is a runtime utility for cleaner component module output and will
+// be included in the final webpack user bundle.
+
+function normalizeComponent(
+  scriptExports,
+  render,
+  staticRenderFns,
+  functionalTemplate,
+  injectStyles,
+  scopeId,
+  moduleIdentifier /* server only */,
+  shadowMode /* vue-cli only */
+) {
+  // Vue.extend constructor export interop
+  var options =
+    typeof scriptExports === 'function' ? scriptExports.options : scriptExports
+
+  // render functions
+  if (render) {
+    options.render = render
+    options.staticRenderFns = staticRenderFns
+    options._compiled = true
+  }
+
+  // functional template
+  if (functionalTemplate) {
+    options.functional = true
+  }
+
+  // scopedId
+  if (scopeId) {
+    options._scopeId = 'data-v-' + scopeId
+  }
+
+  var hook
+  if (moduleIdentifier) {
+    // server build
+    hook = function (context) {
+      // 2.3 injection
+      context =
+        context || // cached call
+        (this.$vnode && this.$vnode.ssrContext) || // stateful
+        (this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) // functional
+      // 2.2 with runInNewContext: true
+      if (!context && typeof __VUE_SSR_CONTEXT__ !== 'undefined') {
+        context = __VUE_SSR_CONTEXT__
+      }
+      // inject component styles
+      if (injectStyles) {
+        injectStyles.call(this, context)
+      }
+      // register component module identifier for async chunk inferrence
+      if (context && context._registeredComponents) {
+        context._registeredComponents.add(moduleIdentifier)
+      }
+    }
+    // used by ssr in case component is cached and beforeCreate
+    // never gets called
+    options._ssrRegister = hook
+  } else if (injectStyles) {
+    hook = shadowMode
+      ? function () {
+          injectStyles.call(
+            this,
+            (options.functional ? this.parent : this).$root.$options.shadowRoot
+          )
+        }
+      : injectStyles
+  }
+
+  if (hook) {
+    if (options.functional) {
+      // for template-only hot-reload because in that case the render fn doesn't
+      // go through the normalizer
+      options._injectStyles = hook
+      // register for functional component in vue file
+      var originalRender = options.render
+      options.render = function renderWithStyleInjection(h, context) {
+        hook.call(context)
+        return originalRender(h, context)
+      }
+    } else {
+      // inject component registration as beforeCreate hook
+      var existing = options.beforeCreate
+      options.beforeCreate = existing ? [].concat(existing, hook) : [hook]
+    }
+  }
+
+  return {
+    exports: scriptExports,
+    options: options
+  }
+}
+
+;// CONCATENATED MODULE: ./src/componentes/externos/BotonConacyt.vue
+
+var script = {}
+;
+
+
+/* normalize component */
+
+var component = normalizeComponent(
+  script,
+  BotonConacytvue_type_template_id_7f6aef72_scoped_true_render,
+  BotonConacytvue_type_template_id_7f6aef72_scoped_true_staticRenderFns,
+  false,
+  null,
+  "7f6aef72",
+  null
+  
+)
+
+/* harmony default export */ var BotonConacyt = (component.exports);
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"23f98b37-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/externos/VistaCarga.vue?vue&type=template&id=6af7c961&scoped=true&
+var VistaCargavue_type_template_id_6af7c961_scoped_true_render = function render() {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c('div', {
+    staticClass: "sisdai-mapa-vista-carga"
+  }, [_c('svg', {
+    attrs: {
+      "width": "55",
+      "height": "80",
+      "viewBox": "0 0 55 80",
+      "xmlns": "http://www.w3.org/2000/svg",
+      "fill": "#FFF"
+    }
+  }, [_c('g', {
+    attrs: {
+      "transform": "matrix(1 0 0 -1 0 80)"
+    }
+  }, [_c('rect', {
+    attrs: {
+      "width": "10",
+      "height": "20",
+      "rx": "3"
+    }
+  }, [_c('animate', {
+    attrs: {
+      "attributeName": "height",
+      "begin": "0s",
+      "dur": "4.3s",
+      "values": "20;45;57;80;64;32;66;45;64;23;66;13;64;56;34;34;2;23;76;79;20",
+      "calcMode": "linear",
+      "repeatCount": "indefinite"
+    }
+  })]), _c('rect', {
+    attrs: {
+      "x": "15",
+      "width": "10",
+      "height": "80",
+      "rx": "3"
+    }
+  }, [_c('animate', {
+    attrs: {
+      "attributeName": "height",
+      "begin": "0s",
+      "dur": "2s",
+      "values": "80;55;33;5;75;23;73;33;12;14;60;80",
+      "calcMode": "linear",
+      "repeatCount": "indefinite"
+    }
+  })]), _c('rect', {
+    attrs: {
+      "x": "30",
+      "width": "10",
+      "height": "50",
+      "rx": "3"
+    }
+  }, [_c('animate', {
+    attrs: {
+      "attributeName": "height",
+      "begin": "0s",
+      "dur": "1.4s",
+      "values": "50;34;78;23;56;23;34;76;80;54;21;50",
+      "calcMode": "linear",
+      "repeatCount": "indefinite"
+    }
+  })]), _c('rect', {
+    attrs: {
+      "x": "45",
+      "width": "10",
+      "height": "30",
+      "rx": "3"
+    }
+  }, [_c('animate', {
+    attrs: {
+      "attributeName": "height",
+      "begin": "0s",
+      "dur": "2s",
+      "values": "30;45;13;80;56;72;45;76;34;23;67;30",
+      "calcMode": "linear",
+      "repeatCount": "indefinite"
+    }
+  })])])])]);
+};
+var VistaCargavue_type_template_id_6af7c961_scoped_true_staticRenderFns = [];
+
+// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-22.use[0]!./node_modules/@vue/cli-service/node_modules/css-loader/dist/cjs.js??clonedRuleSet-22.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[2]!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[3]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-22.use[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/externos/VistaCarga.vue?vue&type=style&index=0&id=6af7c961&prod&lang=scss&scoped=true&
+var VistaCargavue_type_style_index_0_id_6af7c961_prod_lang_scss_scoped_true_ = __webpack_require__(403);
+;// CONCATENATED MODULE: ./src/componentes/externos/VistaCarga.vue?vue&type=style&index=0&id=6af7c961&prod&lang=scss&scoped=true&
+
+;// CONCATENATED MODULE: ./src/componentes/externos/VistaCarga.vue
+
+var VistaCarga_script = {}
+;
+
+
+/* normalize component */
+
+var VistaCarga_component = normalizeComponent(
+  VistaCarga_script,
+  VistaCargavue_type_template_id_6af7c961_scoped_true_render,
+  VistaCargavue_type_template_id_6af7c961_scoped_true_staticRenderFns,
+  false,
+  null,
+  "6af7c961",
+  null
+  
+)
+
+/* harmony default export */ var VistaCarga = (VistaCarga_component.exports);
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/SisdaiMapa.vue?vue&type=script&setup=true&lang=js&
+
 
 
 
@@ -23070,17 +23387,20 @@ function usarMapa(propsParam) {
  * relleno: [superior, derecho, inferior, izquierdo] y solo es aplicable cuando la extensión es
  * definida.
  */
-const rellenoAlBordeDeLaExtension = [10, 10, 10, 10];
-/* harmony default export */ var Mapavue_type_script_lang_js_ = ({
-  name: 'SisdaiMapa',
+
+/* harmony default export */ var SisdaiMapavue_type_script_setup_true_lang_js_ = ({
+  __name: 'SisdaiMapa',
   props: props,
-  components: {
-    BotonConacyt: BotonConacyt
-  },
-  setup(propsSetup) {
+  setup(__props) {
+    const propsSetup = __props;
+    const rellenoAlBordeDeLaExtension = [10, 10, 10, 10];
+
+    // eslint-disable-next-line
+
     const {
       salvarInstancia,
-      alternarEscalaGrafica
+      alternarEscalaGrafica,
+      verCargador
     } = usarMapa(propsSetup);
 
     /**
@@ -23089,62 +23409,54 @@ const rellenoAlBordeDeLaExtension = [10, 10, 10, 10];
     const refMapa = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)(null);
 
     /**
-     * Props reactivos.
-     * ¡¡¡REVISAR SI ES NECESARIO QUE SEAN REACTIVOS AQUÍ O SOLO EN EL COMPOSABLE!!!
-     */
-    const {
-      centro,
-      extension,
-      tema,
-      zoom
-    } = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.toRefs)(propsSetup);
-
-    /**
      * Creación del elemento mapa con atributos definidos.
      * @param {HTMLDivElement|String} target elemento o id del elemento html que contendrá el mapa.
      */
     function crearMapa(target) {
-      salvarInstancia(
-      // Instanciamiento del maapa como onjeto de la calse ol/Map
-      new ol_Map({
+      // Instanciamiento del maapa como objeto de la calse ol/Map
+      return new ol_Map({
         target,
         layers: [],
         view: new ol_View({
-          center: centro.value,
-          zoom: zoom.value,
+          center: propsSetup.centro,
+          zoom: propsSetup.zoom,
           projection: propsSetup.proyeccion
         }),
         controls: [new ZoomPersonalizado(), new VistaInicial({
-          centro,
-          extension,
+          centro: propsSetup.centro,
+          extension: propsSetup.extension,
           rellenoAlBordeDeLaExtension,
-          zoom
+          zoom: propsSetup.zoom
         }), new control_Attribution({
           collapsible: false
         })]
-      }));
-      alternarEscalaGrafica(propsSetup.escalaGrafica);
+      });
     }
-
-    /**
-     * Instanciar el mapa en cuanto el html esté montado.
-     */
     (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.onMounted)(() => {
-      crearMapa(refMapa.value);
+      salvarInstancia(crearMapa(refMapa.value));
+      alternarEscalaGrafica(propsSetup.escalaGrafica);
     });
     return {
+      __sfc: true,
+      rellenoAlBordeDeLaExtension,
+      propsSetup,
+      salvarInstancia,
+      alternarEscalaGrafica,
+      verCargador,
       refMapa,
-      tema
+      crearMapa,
+      BotonConacyt: BotonConacyt,
+      VistaCarga: VistaCarga
     };
   }
 });
-;// CONCATENATED MODULE: ./src/components/Mapa/Mapa.vue?vue&type=script&lang=js&
- /* harmony default export */ var Mapa_Mapavue_type_script_lang_js_ = (Mapavue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-22.use[0]!./node_modules/@vue/cli-service/node_modules/css-loader/dist/cjs.js??clonedRuleSet-22.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[2]!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[3]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-22.use[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/Mapa/Mapa.vue?vue&type=style&index=0&id=4492012c&prod&lang=scss&
-var Mapavue_type_style_index_0_id_4492012c_prod_lang_scss_ = __webpack_require__(543);
-;// CONCATENATED MODULE: ./src/components/Mapa/Mapa.vue?vue&type=style&index=0&id=4492012c&prod&lang=scss&
+;// CONCATENATED MODULE: ./src/componentes/SisdaiMapa.vue?vue&type=script&setup=true&lang=js&
+ /* harmony default export */ var componentes_SisdaiMapavue_type_script_setup_true_lang_js_ = (SisdaiMapavue_type_script_setup_true_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-22.use[0]!./node_modules/@vue/cli-service/node_modules/css-loader/dist/cjs.js??clonedRuleSet-22.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[2]!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[3]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-22.use[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/SisdaiMapa.vue?vue&type=style&index=0&id=51ced022&prod&lang=scss&scoped=true&
+var SisdaiMapavue_type_style_index_0_id_51ced022_prod_lang_scss_scoped_true_ = __webpack_require__(611);
+;// CONCATENATED MODULE: ./src/componentes/SisdaiMapa.vue?vue&type=style&index=0&id=51ced022&prod&lang=scss&scoped=true&
 
-;// CONCATENATED MODULE: ./src/components/Mapa/Mapa.vue
+;// CONCATENATED MODULE: ./src/componentes/SisdaiMapa.vue
 
 
 
@@ -23153,271 +23465,26 @@ var Mapavue_type_style_index_0_id_4492012c_prod_lang_scss_ = __webpack_require__
 
 /* normalize component */
 
-var Mapa_component = normalizeComponent(
-  Mapa_Mapavue_type_script_lang_js_,
+var SisdaiMapa_component = normalizeComponent(
+  componentes_SisdaiMapavue_type_script_setup_true_lang_js_,
   render,
   staticRenderFns,
   false,
   null,
-  null,
+  "51ced022",
   null
   
 )
 
-/* harmony default export */ var Mapa = (Mapa_component.exports);
-;// CONCATENATED MODULE: ./src/components/Mapa/index.js
-/**
- * @module components/Mapa
- */
-
-
-;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"505ef569-vue-loader-template"}!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/layouts/Encabezado.vue?vue&type=template&id=2377d2cb&scoped=true&
-var Encabezadovue_type_template_id_2377d2cb_scoped_true_render = function render() {
+/* harmony default export */ var SisdaiMapa = (SisdaiMapa_component.exports);
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"23f98b37-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/capas/SisdaiCapaGeojson.vue?vue&type=template&id=5741834d&style=display%3A%20none&
+var SisdaiCapaGeojsonvue_type_template_id_5741834d_style_display_3A_20none_render = function render() {
   var _vm = this,
-    _c = _vm._self._c;
-  return _c('div', {
-    staticClass: "sisdai-mapa-encabezado borde-b"
-  }, [_vm._t("default")], 2);
+    _c = _vm._self._c,
+    _setup = _vm._self._setupProxy;
+  return _c('span');
 };
-var Encabezadovue_type_template_id_2377d2cb_scoped_true_staticRenderFns = [];
-
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/layouts/Encabezado.vue?vue&type=script&lang=js&
-/* harmony default export */ var Encabezadovue_type_script_lang_js_ = ({
-  name: 'SisdaiMapaEncabezado'
-});
-;// CONCATENATED MODULE: ./src/components/layouts/Encabezado.vue?vue&type=script&lang=js&
- /* harmony default export */ var layouts_Encabezadovue_type_script_lang_js_ = (Encabezadovue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-22.use[0]!./node_modules/@vue/cli-service/node_modules/css-loader/dist/cjs.js??clonedRuleSet-22.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[2]!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[3]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-22.use[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/layouts/Encabezado.vue?vue&type=style&index=0&id=2377d2cb&prod&lang=scss&scoped=true&
-var Encabezadovue_type_style_index_0_id_2377d2cb_prod_lang_scss_scoped_true_ = __webpack_require__(87);
-;// CONCATENATED MODULE: ./src/components/layouts/Encabezado.vue?vue&type=style&index=0&id=2377d2cb&prod&lang=scss&scoped=true&
-
-;// CONCATENATED MODULE: ./src/components/layouts/Encabezado.vue
-
-
-
-;
-
-
-/* normalize component */
-
-var Encabezado_component = normalizeComponent(
-  layouts_Encabezadovue_type_script_lang_js_,
-  Encabezadovue_type_template_id_2377d2cb_scoped_true_render,
-  Encabezadovue_type_template_id_2377d2cb_scoped_true_staticRenderFns,
-  false,
-  null,
-  "2377d2cb",
-  null
-  
-)
-
-/* harmony default export */ var Encabezado = (Encabezado_component.exports);
-;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"505ef569-vue-loader-template"}!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/layouts/Capas.vue?vue&type=template&id=4de637ac&
-var Capasvue_type_template_id_4de637ac_render = function render() {
-  var _vm = this,
-    _c = _vm._self._c;
-  return _c('span', [_vm._t("default")], 2);
-};
-var Capasvue_type_template_id_4de637ac_staticRenderFns = [];
-
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/layouts/Capas.vue?vue&type=script&lang=js&
-/* harmony default export */ var Capasvue_type_script_lang_js_ = ({
-  name: 'SisdaiMapaCapas'
-});
-;// CONCATENATED MODULE: ./src/components/layouts/Capas.vue?vue&type=script&lang=js&
- /* harmony default export */ var layouts_Capasvue_type_script_lang_js_ = (Capasvue_type_script_lang_js_); 
-;// CONCATENATED MODULE: ./src/components/layouts/Capas.vue
-
-
-
-
-
-/* normalize component */
-;
-var Capas_component = normalizeComponent(
-  layouts_Capasvue_type_script_lang_js_,
-  Capasvue_type_template_id_4de637ac_render,
-  Capasvue_type_template_id_4de637ac_staticRenderFns,
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* harmony default export */ var Capas = (Capas_component.exports);
-;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"505ef569-vue-loader-template"}!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/layouts/leyendas/Leyenda.vue?vue&type=template&id=b09aec0a&
-var Leyendavue_type_template_id_b09aec0a_render = function render() {
-  var _vm = this,
-    _c = _vm._self._c;
-  return _c('div', [_c('input', {
-    directives: [{
-      name: "model",
-      rawName: "v-model",
-      value: _vm.visibilidadCapa,
-      expression: "visibilidadCapa"
-    }],
-    attrs: {
-      "type": "checkbox",
-      "id": _vm.idCheck
-    },
-    domProps: {
-      "checked": Array.isArray(_vm.visibilidadCapa) ? _vm._i(_vm.visibilidadCapa, null) > -1 : _vm.visibilidadCapa
-    },
-    on: {
-      "change": function ($event) {
-        var $$a = _vm.visibilidadCapa,
-          $$el = $event.target,
-          $$c = $$el.checked ? true : false;
-        if (Array.isArray($$a)) {
-          var $$v = null,
-            $$i = _vm._i($$a, $$v);
-          if ($$el.checked) {
-            $$i < 0 && (_vm.visibilidadCapa = $$a.concat([$$v]));
-          } else {
-            $$i > -1 && (_vm.visibilidadCapa = $$a.slice(0, $$i).concat($$a.slice($$i + 1)));
-          }
-        } else {
-          _vm.visibilidadCapa = $$c;
-        }
-      }
-    }
-  }), _c('label', {
-    attrs: {
-      "for": _vm.idCheck
-    }
-  }, [_vm._v(_vm._s(_vm.nombreCapa))])]);
-};
-var Leyendavue_type_template_id_b09aec0a_staticRenderFns = [];
-
-;// CONCATENATED MODULE: ./src/composables/usarLeyenda.js
-/**
- * @module composables/usarLeyenda
- */
-
-
-
-const usarLeyenda_props = {
-  /**
-   * Identificador de la caopa a la que se quiere enlazar el control de leyenda.
-   */
-  para: {
-    type: String,
-    required: true
-  }
-};
-
-/**
- * La finalidad de este composable es acceder a las funciones del genéricas de la leyenda desde
- * diferentes componentes o composables.
- * @param {Object} propsParam props genéricos de leyenda.
- * @returns {Function} composable.
- */
-function usarLeyenda(propsParam) {
-  const visibilidadCapa = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)(false);
-  const nombreCapa = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)('Cargando...');
-
-  /**
-   * En caso de que no se encuentre la capa en las capas registradas, llegar a esta funciónß.
-   * @param {String} id id de la capa con la que se trató de vincular.
-   function capaNoVinculada(id) {
-     console.warn(`La capa '${id}' no fue encontrada`)
-    }
-   */
-
-  /**
-   * Ejecutar esta función para vincular el idCapa con alguna capa registrada.
-   */
-  function vincularCapa() {
-    // console.log('tratando de vincular', propsParam.para)
-
-    const {
-      alternarVisibilidad,
-      visibilidad,
-      nombre
-    } = usarCapasRegistradas().vincularCapa(propsParam.para);
-    visibilidadCapa.value = visibilidad.value;
-    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(visibilidad, nuevoValor => visibilidadCapa.value = nuevoValor);
-    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(visibilidadCapa, alternarVisibilidad);
-    nombreCapa.value = nombre.value;
-    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(nombre, nuevoValor => nombreCapa.value = nuevoValor);
-  }
-  return {
-    vincularCapa,
-    visibilidadCapa,
-    nombreCapa
-  };
-}
-;// CONCATENATED MODULE: ./src/utiles.js
-/**
- * @module utiles
- */
-
-/**
- * Devuelve una cadena de texto aleatoreo.
- * @returns {String}
- */
-function idAleatorio() {
-  return Math.random().toString(36).substring(7);
-}
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/layouts/leyendas/Leyenda.vue?vue&type=script&lang=js&
-
-
-
-/* harmony default export */ var Leyendavue_type_script_lang_js_ = ({
-  name: 'SisdaiMapaLeyenda',
-  props: usarLeyenda_props,
-  setup(propsSetup) {
-    const {
-      vincularCapa,
-      visibilidadCapa,
-      nombreCapa
-    } = usarLeyenda(propsSetup);
-    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.onMounted)(() => {
-      vincularCapa();
-    });
-    return {
-      idCheck: `${idAleatorio()}-${usarLeyenda_props.para}`,
-      visibilidadCapa,
-      nombreCapa
-    };
-  }
-});
-;// CONCATENATED MODULE: ./src/components/layouts/leyendas/Leyenda.vue?vue&type=script&lang=js&
- /* harmony default export */ var leyendas_Leyendavue_type_script_lang_js_ = (Leyendavue_type_script_lang_js_); 
-;// CONCATENATED MODULE: ./src/components/layouts/leyendas/Leyenda.vue
-
-
-
-
-
-/* normalize component */
-;
-var Leyenda_component = normalizeComponent(
-  leyendas_Leyendavue_type_script_lang_js_,
-  Leyendavue_type_template_id_b09aec0a_render,
-  Leyendavue_type_template_id_b09aec0a_staticRenderFns,
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* harmony default export */ var Leyenda = (Leyenda_component.exports);
-;// CONCATENATED MODULE: ./src/components/layouts/leyendas/index.js
-/**
- * @module components/layouts/Leyenda
- */
-
-
-;// CONCATENATED MODULE: ./src/components/layouts/index.js
-/**
- * @module components/layouts
- */
-
-
-
+var SisdaiCapaGeojsonvue_type_template_id_5741834d_style_display_3A_20none_staticRenderFns = [];
 
 // EXTERNAL MODULE: ./node_modules/rbush/rbush.min.js
 var rbush_min = __webpack_require__(582);
@@ -40161,6 +40228,18 @@ function writePolygonGeometry(geometry, options) {
 const estiloCapa_DEFAULT_FILL_COLOR = 'gray';
 const DEFAULT_STROKE_COLOR = 'white';
 const estiloCapa_DEFAULT_RADIUS = 7;
+;// CONCATENATED MODULE: ./src/utiles/index.js
+/**
+ * @module utiles/index
+ */
+
+/**
+ * Devuelve una cadena de texto aleatoreo.
+ * @returns {String}
+ */
+function idAleatorio() {
+  return Math.random().toString(36).substring(7);
+}
 ;// CONCATENATED MODULE: ./src/composables/usarCapa.js
 /**
  * @module composables/usarCapa
@@ -40169,38 +40248,98 @@ const estiloCapa_DEFAULT_RADIUS = 7;
 
 
 
+
 const usarCapa_props = {
   /**
-   * Identificador unico de la capa. Si no es detectado, se asignará un identificador random.
+   * `id`
+   * - Tipo: `String`
+   * - Obligatorio: ✅
+   * - Interactivo: ❌
+   *
+   * Identificador único de la capa. Si no es detectado, se asignará una cadena de texto
+   * aleatorea. Para hacer uso de la leyenda esta propiedad pasa a ser obligatoria.
    */
   id: {
     type: String,
     default: '_default_'
   },
   /**
-   * Nombre de la capa que aparecerá en el control de la leyenda.
+   * `nombre`
+   * - Tipo: `String`
+   * - Valor por defecto: Identificador único de la capa.
+   * - Interactivo: ✅
+   *
+   * Nombre de la capa que aparecerá en el control de la leyenda. Si no es detectado, se asignará
+   * el identificador único de la capa (`id`).
    */
   nombre: {
     type: String,
     default: 'Nombre no asignado'
   },
   /**
-   * Visibilidad de la capa, true por defecto.
+   * `verCargador`
+   * - Tipo: `Boolean`
+   * - Valor por defecto: `false`
+   * - Interactivo: ❌
+   *
+   * Esta propiedad le comunica a la vista del mapa si se desea sobreponer la vista que indica
+   * el proceso de carga de una capa.
+   */
+  verCargador: {
+    type: Boolean,
+    default: false
+  },
+  /**
+   * `visible`
+   * - Tipo: `Boolean`
+   * - Valor por defecto: `true`
+   * - Interactivo: ✅
+   *
+   * Visibilidad de la capa.
    */
   visible: {
     type: Boolean,
     default: true
   },
   /**
-   * Nivel de jerarquía visible en la lista de capas, cuanto más alto el número más arriba estará
-   * la capa de otras.
+   * `zIndex`
+   * - Tipo: `Number`
+   * - Valor por defecto: [trabajando...]
+   * - Interactivo: ✅ [trabajando...]
+   *
+   * Indica la posición respecto a otras capas, cuando se define un z-index mas alto respecto a
+   * las demás capas, esa capa se posicionara enfrente de ellas.
    */
   zIndex: {
     type: Number,
     default: undefined
   }
 };
-const emits = ['alCambiarVisibilidad'];
+const eventos = {
+  /**
+   * Evento ejecutado cuando se detecta el cambio de visibilidad de la capa desde las propiedades
+   * reactivas o desde los controles del componente como el control de leyenda.
+   * @param {Boolean} visibilidad Visibilidad final al ejecutarse este evento.
+   */
+  alCambiarVisibilidad: 'alCambiarVisibilidad',
+  /**
+   * Evento ejecutado cuando se detecta que ha iniciado la carga de la información visible en el
+   * mapa. En el caso de capas vectoriales (GeoJSON) cuando inicia la consulta de los features;
+   * En el caso de capas raster (WMS) cuando inicia la consulta de la imagen; En el caso de las
+   * capas por conjunto de teselas (XYZ, OSM) cuando inicia la consulta de un grupo de teselas.
+   */
+  alIniciarCarga: 'alIniciarCarga',
+  /**
+   * Evento ejecutado cuando se detecta que ha finalizado la carga de la información visible en
+   * el mapa. En el caso de capas vectoriales (GeoJSON) cuando finaliza la consulta de los
+   * features; En el caso de capas raster (WMS) cuando finaliza la consulta de la imagen; En el
+   * caso de las capas por conjunto de teselas (XYZ, OSM) cuando finaliza la consulta de un
+   * grupo de teselas.
+   * @param {Boolean} cargaExitosa Indica si la carga no ha presentado error.
+   */
+  alFinalizarCarga: 'alFinalizarCarga'
+};
+const emits = Object.values(eventos);
 
 /**
  * La finalidad de este composable es acceder a las funciones del genéricas de la capa desde
@@ -40216,9 +40355,11 @@ function usarCapa(propsParam, emitsParam) {
   } = usarCapasRegistradas();
   const {
     nombre,
+    verCargador,
     visible,
     zIndex
   } = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.toRefs)(propsParam);
+  const estatusCarga = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)(defaults_estatusCarga.no);
 
   /**
    * Asigna un identificador aleatorio en caso de que no se asigne.
@@ -40230,8 +40371,10 @@ function usarCapa(propsParam, emitsParam) {
    * @param {import("ol/layer/Layer.js").default} olCapa objeto de capa de openlayers.
    */
   function asignarPorps(olCapa) {
+    olCapa.set('estatusCarga', estatusCarga.value);
     olCapa.set('id', idValida);
     olCapa.set('nombre', nombre.value);
+    olCapa.set('verCargador', verCargador.value);
     olCapa.setVisible(visible.value);
     olCapa.setZIndex(zIndex.value);
   }
@@ -40246,14 +40389,17 @@ function usarCapa(propsParam, emitsParam) {
     const {
       visibilidad,
       alternarVisibilidad,
-      cambiarNombre
+      cambiarNombre,
+      cambiarEstatusCarga
     } = vincularCapa(idValida);
     (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(visible, alternarVisibilidad);
-    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(visibilidad, nuevoValor => emitsParam('alCambiarVisibilidad', nuevoValor));
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(visibilidad, nuevoValor => emitsParam(eventos.alCambiarVisibilidad, nuevoValor));
     (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(nombre, cambiarNombre);
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(estatusCarga, cambiarEstatusCarga);
   }
   return {
-    registrar
+    registrar,
+    estatusCarga
   };
 }
 ;// CONCATENATED MODULE: ./src/composables/usarCapaVectorial.js
@@ -40315,20 +40461,32 @@ function usarCapaVectorial(propsParam, emitsParam) {
     ...usarCapa(propsParam, emitsParam)
   };
 }
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/capas/GeoJSON/GeoJSON.vue?vue&type=script&lang=js&
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/capas/SisdaiCapaGeojson.vue?vue&type=script&setup=true&lang=js&
 
 // import VectorImage from 'ol/layer/VectorImage'
 
 
 
 
-/* harmony default export */ var GeoJSONvue_type_script_lang_js_ = ({
-  name: 'SisdaiCapaGeojson',
+
+
+// eslint-disable-next-line
+
+/* harmony default export */ var SisdaiCapaGeojsonvue_type_script_setup_true_lang_js_ = ({
+  __name: 'SisdaiCapaGeojson',
   props: usarCapaVectorial_props,
-  emits: ['alIniciarCarga', 'alFinalizarCarga', ...usarCapaVectorial_emits],
-  setup(propsSetup, {
-    emit
+  emits: usarCapaVectorial_emits,
+  setup(__props, {
+    emit: emitsSetup
   }) {
+    const propsSetup = __props;
+
+    // eslint-disable-next-line
+
+    const {
+      registrar,
+      estatusCarga
+    } = usarCapaVectorial(propsSetup, emitsSetup);
     const source = new source_Vector({
       features: new format_GeoJSON().readFeatures({
         ...propsSetup.datos
@@ -40337,11 +40495,13 @@ function usarCapaVectorial(propsParam, emitsParam) {
     source.on(VectorEventType.FEATURESLOADSTART, ({
       target
     }) => {
-      emit('alIniciarCarga');
+      emitsSetup('alIniciarCarga');
+      estatusCarga.value = defaults_estatusCarga.ini;
 
       // si los datos no son cargados mediante url, los datos yas se tienen al alcance.
       if (target.getUrl() === undefined) {
-        emit('alFinalizarCarga', true);
+        emitsSetup('alFinalizarCarga', true);
+        estatusCarga.value = defaults_estatusCarga.fin;
       }
     });
     source.on(
@@ -40349,30 +40509,37 @@ function usarCapaVectorial(propsParam, emitsParam) {
     [VectorEventType.FEATURESLOADEND, VectorEventType.FEATURESLOADERROR], ({
       type
     }) => {
-      emit('alFinalizarCarga', type === VectorEventType.FEATURESLOADEND);
+      emitsSetup('alFinalizarCarga', type === VectorEventType.FEATURESLOADEND);
     });
-    usarCapaVectorial(propsSetup, emit).registrar(new Vector({
+    registrar(new Vector({
       source
       // className: this.className,
     }));
-  },
 
-  render: () => null
+    return {
+      __sfc: true,
+      propsSetup,
+      emitsSetup,
+      registrar,
+      estatusCarga,
+      source
+    };
+  }
 });
-;// CONCATENATED MODULE: ./src/components/capas/GeoJSON/GeoJSON.vue?vue&type=script&lang=js&
- /* harmony default export */ var GeoJSON_GeoJSONvue_type_script_lang_js_ = (GeoJSONvue_type_script_lang_js_); 
-;// CONCATENATED MODULE: ./src/components/capas/GeoJSON/GeoJSON.vue
-var GeoJSON_render, GeoJSON_staticRenderFns
-;
+;// CONCATENATED MODULE: ./src/componentes/capas/SisdaiCapaGeojson.vue?vue&type=script&setup=true&lang=js&
+ /* harmony default export */ var capas_SisdaiCapaGeojsonvue_type_script_setup_true_lang_js_ = (SisdaiCapaGeojsonvue_type_script_setup_true_lang_js_); 
+;// CONCATENATED MODULE: ./src/componentes/capas/SisdaiCapaGeojson.vue
+
+
 
 
 
 /* normalize component */
 ;
-var GeoJSON_component = normalizeComponent(
-  GeoJSON_GeoJSONvue_type_script_lang_js_,
-  GeoJSON_render,
-  GeoJSON_staticRenderFns,
+var SisdaiCapaGeojson_component = normalizeComponent(
+  capas_SisdaiCapaGeojsonvue_type_script_setup_true_lang_js_,
+  SisdaiCapaGeojsonvue_type_template_id_5741834d_style_display_3A_20none_render,
+  SisdaiCapaGeojsonvue_type_template_id_5741834d_style_display_3A_20none_staticRenderFns,
   false,
   null,
   null,
@@ -40380,12 +40547,15 @@ var GeoJSON_component = normalizeComponent(
   
 )
 
-/* harmony default export */ var GeoJSON_GeoJSON = (GeoJSON_component.exports);
-;// CONCATENATED MODULE: ./src/components/capas/GeoJSON/index.js
-/**
- * @module components/capas/GeoJSON
- */
-
+/* harmony default export */ var SisdaiCapaGeojson = (SisdaiCapaGeojson_component.exports);
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"23f98b37-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/capas/SisdaiCapaOsm.vue?vue&type=template&id=c52245fa&style=display%3A%20none&
+var SisdaiCapaOsmvue_type_template_id_c52245fa_style_display_3A_20none_render = function render() {
+  var _vm = this,
+    _c = _vm._self._c,
+    _setup = _vm._self._setupProxy;
+  return _c('span');
+};
+var SisdaiCapaOsmvue_type_template_id_c52245fa_style_display_3A_20none_staticRenderFns = [];
 
 ;// CONCATENATED MODULE: ./node_modules/ol/layer/TileProperty.js
 /**
@@ -46097,9 +46267,16 @@ class OSM extends source_XYZ {
 
 
 
+
+
 const usarCapaTeselas_props = {
   /**
+   * `url`
+   * - Tipo: `String`
+   * - Valor por defecto: `undefined`
+   * - Interactivo: ❌
    *
+   * Url remota de la capa.
    */
   url: {
     type: String,
@@ -46107,7 +46284,21 @@ const usarCapaTeselas_props = {
   },
   ...usarCapa_props
 };
-const usarCapaTeselas_emits = ['alIniciarCargaTesela', 'alFinalizarCargaTesela', ...emits];
+const usarCapaTeselas_eventos = {
+  /**
+   * Evento ejecutado cuando se detecta que ha iniciado la carga de cada uno de los mosaicos que
+   * conponen la capa visible en el mapa.
+   */
+  alIniciarCargaTesela: 'alIniciarCargaTesela',
+  /**
+   * Evento ejecutado cuando se detecta que ha finalizado la carga de cada uno de los mosaicos
+   * que conponen la capa visible en el mapa.
+   * @param {Boolean} cargaExitosa Indica si la carga del mosaico no ha presentado error.
+   */
+  alFinalizarCargaTesela: 'alFinalizarCargaTesela',
+  ...eventos
+};
+const usarCapaTeselas_emits = Object.values(usarCapaTeselas_eventos);
 
 /**
  * La finalidad de este composable es acceder a las funciones del genéricas de las capas que sean
@@ -46117,16 +46308,71 @@ const usarCapaTeselas_emits = ['alIniciarCargaTesela', 'alFinalizarCargaTesela',
  * @returns {Function} composable.
  */
 function usarCapaTeselas(propsParam, emitsParam) {
+  const {
+    estatusCarga,
+    registrar: registrarCapa
+  } = usarCapa(propsParam, emitsParam);
+
+  /**
+   * La variable `nTeselasSolicitadas` sirve para monitoriar las teselas cargadas y en proceso, con la
+   * finalidad de saber en que momento se desencadenan los emits de carga.
+   */
+  const nTeselasSolicitadas = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)({
+    inicio: 0,
+    fin: 0,
+    error: 0
+  });
+
+  /**
+   * Reinicia con 0 las propiedades de la carga de teselas
+   */
+  function reiniciarNumeroTeselasSolicitadas() {
+    nTeselasSolicitadas.value.inicio = 0;
+    nTeselasSolicitadas.value.fin = 0;
+    nTeselasSolicitadas.value.error = 0;
+  }
+
+  /**
+   * Actualiza el estado de carga con error si todas las teselas cargadas dieron error, de lo
+   * contrario el estado de carga se toma como finalizada.
+   */
+  function actualizarEstatusCarga() {
+    estatusCarga.value = nTeselasSolicitadas.value.error === nTeselasSolicitadas.value.inicio ? defaults_estatusCarga.error // si todas las teselas dan error
+    : defaults_estatusCarga.fin;
+  }
+
+  /**
+   * Este watcher detecta los cambios en el numero de teselas cargadas para disparar diferentes
+   * eventos.
+   */
+  (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(() => nTeselasSolicitadas.value.fin === nTeselasSolicitadas.value.inicio, cargaCompleta => {
+    if (cargaCompleta) {
+      actualizarEstatusCarga();
+      emitsParam(usarCapaTeselas_eventos.alFinalizarCarga, true);
+      reiniciarNumeroTeselasSolicitadas();
+    } else {
+      estatusCarga.value = defaults_estatusCarga.ini;
+      emitsParam(usarCapaTeselas_eventos.alIniciarCarga);
+    }
+  });
+
   /**
    * Agrega los emits de carga por cada tesela.
    * @param {import("ol/layer/Layer.js").default} olCapa objeto de capa de openlayers.
    */
   function agregarEmitsCarga(olCapa) {
-    olCapa.getSource().on(TileEventType.TILELOADSTART, () => emitsParam('alIniciarCargaTesela'));
-    olCapa.getSource().on([TileEventType.TILELOADEND, TileEventType.TILELOADERROR], ({
-      type
-    }) => {
-      emitsParam('alFinalizarCargaTesela', type === TileEventType.TILELOADEND);
+    olCapa.getSource().on(TileEventType.TILELOADSTART, () => {
+      emitsParam(usarCapaTeselas_eventos.alIniciarCargaTesela);
+      nTeselasSolicitadas.value.inicio++;
+    });
+    olCapa.getSource().on(TileEventType.TILELOADEND, () => {
+      emitsParam(usarCapaTeselas_eventos.alFinalizarCargaTesela, true);
+      nTeselasSolicitadas.value.fin++;
+    });
+    olCapa.getSource().on(TileEventType.TILELOADERROR, () => {
+      emitsParam(usarCapaTeselas_eventos.alFinalizarCargaTesela, false);
+      nTeselasSolicitadas.value.fin++;
+      nTeselasSolicitadas.value.error++;
     });
   }
 
@@ -46136,45 +46382,56 @@ function usarCapaTeselas(propsParam, emitsParam) {
    */
   function registrar(olCapa) {
     agregarEmitsCarga(olCapa);
-    usarCapa(propsParam, emitsParam).registrar(olCapa);
+    registrarCapa(olCapa);
   }
   return {
     registrar
   };
 }
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/capas/OSM.vue?vue&type=script&lang=js&
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/capas/SisdaiCapaOsm.vue?vue&type=script&setup=true&lang=js&
 
 
 
-/* harmony default export */ var OSMvue_type_script_lang_js_ = ({
-  name: 'SisdaiCapaXyzOsm',
+
+// eslint-disable-next-line
+
+/* harmony default export */ var SisdaiCapaOsmvue_type_script_setup_true_lang_js_ = ({
+  __name: 'SisdaiCapaOsm',
   props: usarCapaTeselas_props,
   emits: usarCapaTeselas_emits,
-  setup(propsSetup, {
+  setup(__props, {
     emit
   }) {
+    const propsSetup = __props;
+
+    // eslint-disable-next-line
+
     usarCapaTeselas(propsSetup, emit).registrar(new layer_Tile({
       source: new source_OSM()
       // className: this.className,
     }));
-  },
 
-  render: () => null
+    return {
+      __sfc: true,
+      propsSetup,
+      emit
+    };
+  }
 });
-;// CONCATENATED MODULE: ./src/components/capas/OSM.vue?vue&type=script&lang=js&
- /* harmony default export */ var capas_OSMvue_type_script_lang_js_ = (OSMvue_type_script_lang_js_); 
-;// CONCATENATED MODULE: ./src/components/capas/OSM.vue
-var OSM_render, OSM_staticRenderFns
-;
+;// CONCATENATED MODULE: ./src/componentes/capas/SisdaiCapaOsm.vue?vue&type=script&setup=true&lang=js&
+ /* harmony default export */ var capas_SisdaiCapaOsmvue_type_script_setup_true_lang_js_ = (SisdaiCapaOsmvue_type_script_setup_true_lang_js_); 
+;// CONCATENATED MODULE: ./src/componentes/capas/SisdaiCapaOsm.vue
+
+
 
 
 
 /* normalize component */
 ;
-var OSM_component = normalizeComponent(
-  capas_OSMvue_type_script_lang_js_,
-  OSM_render,
-  OSM_staticRenderFns,
+var SisdaiCapaOsm_component = normalizeComponent(
+  capas_SisdaiCapaOsmvue_type_script_setup_true_lang_js_,
+  SisdaiCapaOsmvue_type_template_id_c52245fa_style_display_3A_20none_render,
+  SisdaiCapaOsmvue_type_template_id_c52245fa_style_display_3A_20none_staticRenderFns,
   false,
   null,
   null,
@@ -46182,7 +46439,80 @@ var OSM_component = normalizeComponent(
   
 )
 
-/* harmony default export */ var capas_OSM = (OSM_component.exports);
+/* harmony default export */ var SisdaiCapaOsm = (SisdaiCapaOsm_component.exports);
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"23f98b37-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/capas/SisdaiCapaXyz.vue?vue&type=template&id=1b294ca1&style=display%3A%20none&
+var SisdaiCapaXyzvue_type_template_id_1b294ca1_style_display_3A_20none_render = function render() {
+  var _vm = this,
+    _c = _vm._self._c,
+    _setup = _vm._self._setupProxy;
+  return _c('span');
+};
+var SisdaiCapaXyzvue_type_template_id_1b294ca1_style_display_3A_20none_staticRenderFns = [];
+
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/capas/SisdaiCapaXyz.vue?vue&type=script&setup=true&lang=js&
+
+
+
+
+// eslint-disable-next-line
+
+/* harmony default export */ var SisdaiCapaXyzvue_type_script_setup_true_lang_js_ = ({
+  __name: 'SisdaiCapaXyz',
+  props: usarCapaTeselas_props,
+  emits: usarCapaTeselas_emits,
+  setup(__props, {
+    emit
+  }) {
+    const propsSetup = __props;
+
+    // eslint-disable-next-line
+
+    usarCapaTeselas(propsSetup, emit).registrar(new layer_Tile({
+      source: new source_XYZ({
+        url: propsSetup.url,
+        crossOrigin: 'Anonymous'
+      })
+      // className: this.className,
+    }));
+
+    return {
+      __sfc: true,
+      propsSetup,
+      emit
+    };
+  }
+});
+;// CONCATENATED MODULE: ./src/componentes/capas/SisdaiCapaXyz.vue?vue&type=script&setup=true&lang=js&
+ /* harmony default export */ var capas_SisdaiCapaXyzvue_type_script_setup_true_lang_js_ = (SisdaiCapaXyzvue_type_script_setup_true_lang_js_); 
+;// CONCATENATED MODULE: ./src/componentes/capas/SisdaiCapaXyz.vue
+
+
+
+
+
+/* normalize component */
+;
+var SisdaiCapaXyz_component = normalizeComponent(
+  capas_SisdaiCapaXyzvue_type_script_setup_true_lang_js_,
+  SisdaiCapaXyzvue_type_template_id_1b294ca1_style_display_3A_20none_render,
+  SisdaiCapaXyzvue_type_template_id_1b294ca1_style_display_3A_20none_staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var SisdaiCapaXyz = (SisdaiCapaXyz_component.exports);
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"23f98b37-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/capas/SisdaiCapaWms.vue?vue&type=template&id=373ac732&style=display%3A%20none&
+var SisdaiCapaWmsvue_type_template_id_373ac732_style_display_3A_20none_render = function render() {
+  var _vm = this,
+    _c = _vm._self._c,
+    _setup = _vm._self._setupProxy;
+  return _c('span');
+};
+var SisdaiCapaWmsvue_type_template_id_373ac732_style_display_3A_20none_staticRenderFns = [];
+
 ;// CONCATENATED MODULE: ./node_modules/ol/layer/BaseImage.js
 /**
  * @module ol/layer/BaseImage
@@ -47645,13 +47975,17 @@ class ImageWMS extends source_Image {
 
 /* harmony default export */ var source_ImageWMS = (ImageWMS);
 
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/capas/WMS.vue?vue&type=script&lang=js&
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/capas/SisdaiCapaWms.vue?vue&type=script&setup=true&lang=js&
 
 
 
 
-/* harmony default export */ var WMSvue_type_script_lang_js_ = ({
-  name: 'SisdaiCapaWms',
+
+
+// eslint-disable-next-line
+
+/* harmony default export */ var SisdaiCapaWmsvue_type_script_setup_true_lang_js_ = ({
+  __name: 'SisdaiCapaWms',
   props: {
     /**
      * Url del servicio wms.
@@ -47678,7 +48012,7 @@ class ImageWMS extends source_Image {
       default: 'geoserver'
     },
     /**
-     * Extensión de la capa. Con este parametro se calcularán los minimos y maximos de las capas
+     * Extensión de la capa. Con este parametro se calcularán los mínimos y máximos de las capas
      * registradas en el mapa.
      */
     extension: {
@@ -47687,43 +48021,65 @@ class ImageWMS extends source_Image {
     },
     ...usarCapa_props
   },
-  emits: ['alIniciarCarga', 'alFinalizarCarga', ...emits],
-  setup(propsSetup, {
-    emit
+  emits: emits,
+  setup(__props, {
+    emit: emitsSetup
   }) {
+    const propsSetup = __props;
+
+    // eslint-disable-next-line
+
+    const {
+      estatusCarga,
+      registrar
+    } = usarCapa(propsSetup, emitsSetup);
     const source = new source_ImageWMS({
       url: propsSetup.url,
       params: propsSetup.parametros,
       serverType: propsSetup.servidor,
       crossOrigin: 'Anonymous'
     });
-    source.on(ImageSourceEventType.IMAGELOADSTART, () => emit('alIniciarCarga'));
-    source.on([ImageSourceEventType.IMAGELOADEND, ImageSourceEventType.IMAGELOADERROR], e => {
-      emit('alFinalizarCarga', e.type === ImageSourceEventType.IMAGELOADEND);
+    source.on(ImageSourceEventType.IMAGELOADSTART, () => {
+      emitsSetup('alIniciarCarga');
+      estatusCarga.value = defaults_estatusCarga.ini;
     });
-    usarCapa(propsSetup, emit).registrar(new layer_Image({
+    source.on(ImageSourceEventType.IMAGELOADERROR, () => {
+      emitsSetup('alFinalizarCarga', true);
+      estatusCarga.value = defaults_estatusCarga.error;
+    });
+    source.on(ImageSourceEventType.IMAGELOADEND, () => {
+      emitsSetup('alFinalizarCarga', true);
+      estatusCarga.value = defaults_estatusCarga.fin;
+    });
+    registrar(new layer_Image({
       source
       // className: this.className,
     }));
 
-    return {};
-  },
-  render: () => null
+    return {
+      __sfc: true,
+      propsSetup,
+      emitsSetup,
+      estatusCarga,
+      registrar,
+      source
+    };
+  }
 });
-;// CONCATENATED MODULE: ./src/components/capas/WMS.vue?vue&type=script&lang=js&
- /* harmony default export */ var capas_WMSvue_type_script_lang_js_ = (WMSvue_type_script_lang_js_); 
-;// CONCATENATED MODULE: ./src/components/capas/WMS.vue
-var WMS_render, WMS_staticRenderFns
-;
+;// CONCATENATED MODULE: ./src/componentes/capas/SisdaiCapaWms.vue?vue&type=script&setup=true&lang=js&
+ /* harmony default export */ var capas_SisdaiCapaWmsvue_type_script_setup_true_lang_js_ = (SisdaiCapaWmsvue_type_script_setup_true_lang_js_); 
+;// CONCATENATED MODULE: ./src/componentes/capas/SisdaiCapaWms.vue
+
+
 
 
 
 /* normalize component */
 ;
-var WMS_component = normalizeComponent(
-  capas_WMSvue_type_script_lang_js_,
-  WMS_render,
-  WMS_staticRenderFns,
+var SisdaiCapaWms_component = normalizeComponent(
+  capas_SisdaiCapaWmsvue_type_script_setup_true_lang_js_,
+  SisdaiCapaWmsvue_type_template_id_373ac732_style_display_3A_20none_render,
+  SisdaiCapaWmsvue_type_template_id_373ac732_style_display_3A_20none_staticRenderFns,
   false,
   null,
   null,
@@ -47731,62 +48087,283 @@ var WMS_component = normalizeComponent(
   
 )
 
-/* harmony default export */ var WMS = (WMS_component.exports);
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/capas/XYZ.vue?vue&type=script&lang=js&
-
-
-
-/* harmony default export */ var XYZvue_type_script_lang_js_ = ({
-  name: 'SisdaiCapaXyz',
-  props: usarCapaTeselas_props,
-  emits: usarCapaTeselas_emits,
-  setup(propsSetup, {
-    emit
-  }) {
-    usarCapaTeselas(propsSetup, emit).registrar(new layer_Tile({
-      source: new source_XYZ({
-        url: propsSetup.url,
-        crossOrigin: 'Anonymous'
-      })
-      // className: this.className,
-    }));
-  },
-
-  render: () => null
-});
-;// CONCATENATED MODULE: ./src/components/capas/XYZ.vue?vue&type=script&lang=js&
- /* harmony default export */ var capas_XYZvue_type_script_lang_js_ = (XYZvue_type_script_lang_js_); 
-;// CONCATENATED MODULE: ./src/components/capas/XYZ.vue
-var XYZ_render, XYZ_staticRenderFns
-;
-
-
-
-/* normalize component */
-;
-var XYZ_component = normalizeComponent(
-  capas_XYZvue_type_script_lang_js_,
-  XYZ_render,
-  XYZ_staticRenderFns,
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* harmony default export */ var capas_XYZ = (XYZ_component.exports);
-;// CONCATENATED MODULE: ./src/components/capas/index.js
+/* harmony default export */ var SisdaiCapaWms = (SisdaiCapaWms_component.exports);
+;// CONCATENATED MODULE: ./src/componentes/capas/index.js
 /**
- * @module components/capas
+ * @module componentes/capas
  */
 
 
 
 
 
-// EXTERNAL MODULE: ./src/styles/controles.scss
-var controles = __webpack_require__(204);
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"23f98b37-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/elementos/SisdaiMapaCapas.vue?vue&type=template&id=6f54d7e2&
+var SisdaiMapaCapasvue_type_template_id_6f54d7e2_render = function render() {
+  var _vm = this,
+    _c = _vm._self._c,
+    _setup = _vm._self._setupProxy;
+  return _c('span', {
+    attrs: {
+      "nombre": _setup.nombre
+    }
+  }, [_vm._t("default")], 2);
+};
+var SisdaiMapaCapasvue_type_template_id_6f54d7e2_staticRenderFns = [];
+
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/elementos/SisdaiMapaCapas.vue?vue&type=script&setup=true&lang=js&
+/* harmony default export */ var SisdaiMapaCapasvue_type_script_setup_true_lang_js_ = ({
+  __name: 'SisdaiMapaCapas',
+  setup(__props) {
+    const nombre = 'SisdaiMapaCapas';
+    return {
+      __sfc: true,
+      nombre
+    };
+  }
+});
+;// CONCATENATED MODULE: ./src/componentes/elementos/SisdaiMapaCapas.vue?vue&type=script&setup=true&lang=js&
+ /* harmony default export */ var elementos_SisdaiMapaCapasvue_type_script_setup_true_lang_js_ = (SisdaiMapaCapasvue_type_script_setup_true_lang_js_); 
+;// CONCATENATED MODULE: ./src/componentes/elementos/SisdaiMapaCapas.vue
+
+
+
+
+
+/* normalize component */
+;
+var SisdaiMapaCapas_component = normalizeComponent(
+  elementos_SisdaiMapaCapasvue_type_script_setup_true_lang_js_,
+  SisdaiMapaCapasvue_type_template_id_6f54d7e2_render,
+  SisdaiMapaCapasvue_type_template_id_6f54d7e2_staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var SisdaiMapaCapas = (SisdaiMapaCapas_component.exports);
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"23f98b37-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/elementos/SisdaiMapaEncabezado.vue?vue&type=template&id=8615f578&scoped=true&
+var SisdaiMapaEncabezadovue_type_template_id_8615f578_scoped_true_render = function render() {
+  var _vm = this,
+    _c = _vm._self._c,
+    _setup = _vm._self._setupProxy;
+  return _c('div', {
+    staticClass: "sisdai-mapa-encabezado borde-b",
+    attrs: {
+      "nombre": _setup.nombre
+    }
+  }, [_vm._t("default")], 2);
+};
+var SisdaiMapaEncabezadovue_type_template_id_8615f578_scoped_true_staticRenderFns = [];
+
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/elementos/SisdaiMapaEncabezado.vue?vue&type=script&setup=true&lang=js&
+/* harmony default export */ var SisdaiMapaEncabezadovue_type_script_setup_true_lang_js_ = ({
+  __name: 'SisdaiMapaEncabezado',
+  setup(__props) {
+    const nombre = 'SisdaiMapaEncabezado';
+    return {
+      __sfc: true,
+      nombre
+    };
+  }
+});
+;// CONCATENATED MODULE: ./src/componentes/elementos/SisdaiMapaEncabezado.vue?vue&type=script&setup=true&lang=js&
+ /* harmony default export */ var elementos_SisdaiMapaEncabezadovue_type_script_setup_true_lang_js_ = (SisdaiMapaEncabezadovue_type_script_setup_true_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-22.use[0]!./node_modules/@vue/cli-service/node_modules/css-loader/dist/cjs.js??clonedRuleSet-22.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[2]!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[3]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-22.use[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/elementos/SisdaiMapaEncabezado.vue?vue&type=style&index=0&id=8615f578&prod&lang=scss&scoped=true&
+var SisdaiMapaEncabezadovue_type_style_index_0_id_8615f578_prod_lang_scss_scoped_true_ = __webpack_require__(256);
+;// CONCATENATED MODULE: ./src/componentes/elementos/SisdaiMapaEncabezado.vue?vue&type=style&index=0&id=8615f578&prod&lang=scss&scoped=true&
+
+;// CONCATENATED MODULE: ./src/componentes/elementos/SisdaiMapaEncabezado.vue
+
+
+
+;
+
+
+/* normalize component */
+
+var SisdaiMapaEncabezado_component = normalizeComponent(
+  elementos_SisdaiMapaEncabezadovue_type_script_setup_true_lang_js_,
+  SisdaiMapaEncabezadovue_type_template_id_8615f578_scoped_true_render,
+  SisdaiMapaEncabezadovue_type_template_id_8615f578_scoped_true_staticRenderFns,
+  false,
+  null,
+  "8615f578",
+  null
+  
+)
+
+/* harmony default export */ var SisdaiMapaEncabezado = (SisdaiMapaEncabezado_component.exports);
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"23f98b37-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/elementos/SisdaiMapaLeyenda.vue?vue&type=template&id=e5179432&
+var SisdaiMapaLeyendavue_type_template_id_e5179432_render = function render() {
+  var _vm = this,
+    _c = _vm._self._c,
+    _setup = _vm._self._setupProxy;
+  return _c('div', [_c('input', {
+    directives: [{
+      name: "model",
+      rawName: "v-model",
+      value: _setup.visibilidadCapa,
+      expression: "visibilidadCapa"
+    }],
+    attrs: {
+      "type": "checkbox",
+      "id": _setup.idCheck
+    },
+    domProps: {
+      "checked": Array.isArray(_setup.visibilidadCapa) ? _vm._i(_setup.visibilidadCapa, null) > -1 : _setup.visibilidadCapa
+    },
+    on: {
+      "change": function ($event) {
+        var $$a = _setup.visibilidadCapa,
+          $$el = $event.target,
+          $$c = $$el.checked ? true : false;
+        if (Array.isArray($$a)) {
+          var $$v = null,
+            $$i = _vm._i($$a, $$v);
+          if ($$el.checked) {
+            $$i < 0 && (_setup.visibilidadCapa = $$a.concat([$$v]));
+          } else {
+            $$i > -1 && (_setup.visibilidadCapa = $$a.slice(0, $$i).concat($$a.slice($$i + 1)));
+          }
+        } else {
+          _setup.visibilidadCapa = $$c;
+        }
+      }
+    }
+  }), _c('label', {
+    attrs: {
+      "for": _setup.idCheck
+    }
+  }, [_vm._v(_vm._s(_setup.nombreCapa))])]);
+};
+var SisdaiMapaLeyendavue_type_template_id_e5179432_staticRenderFns = [];
+
+;// CONCATENATED MODULE: ./src/composables/usarLeyenda.js
+/**
+ * @module composables/usarLeyenda
+ */
+
+
+
+const usarLeyenda_props = {
+  /**
+   * para
+   * - Tipo: `String`
+   * - Obligatorio: ✅
+   * - Interactivo: ❌
+   *
+   * Identificador de la capa a la que se quiere vincular el control de leyenda.
+   */
+  para: {
+    type: String,
+    required: true
+  }
+};
+
+/**
+ * La finalidad de este composable es acceder a las funciones del genéricas de la leyenda desde
+ * diferentes componentes o composables.
+ * @param {Object} propsParam props genéricos de leyenda.
+ * @returns {Function} composable.
+ */
+function usarLeyenda(propsParam) {
+  const visibilidadCapa = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)(false);
+  const nombreCapa = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)('Cargando...');
+
+  /**
+   * En caso de que no se encuentre la capa en las capas registradas, llegar a esta funciónß.
+   * @param {String} id id de la capa con la que se trató de vincular.
+   function capaNoVinculada(id) {
+     console.warn(`La capa '${id}' no fue encontrada`)
+    }
+   */
+
+  /**
+   * Ejecutar esta función para vincular el idCapa con alguna capa registrada.
+   */
+  function vincularCapa() {
+    // console.log('tratando de vincular', propsParam.para)
+
+    const {
+      alternarVisibilidad,
+      visibilidad,
+      nombre
+    } = usarCapasRegistradas().vincularCapa(propsParam.para);
+    visibilidadCapa.value = visibilidad.value;
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(visibilidad, nuevoValor => visibilidadCapa.value = nuevoValor);
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(visibilidadCapa, alternarVisibilidad);
+    nombreCapa.value = nombre.value;
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(nombre, nuevoValor => nombreCapa.value = nuevoValor);
+  }
+  return {
+    vincularCapa,
+    visibilidadCapa,
+    nombreCapa
+  };
+}
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/elementos/SisdaiMapaLeyenda.vue?vue&type=script&setup=true&lang=js&
+
+
+
+
+// eslint-disable-next-line
+
+/* harmony default export */ var SisdaiMapaLeyendavue_type_script_setup_true_lang_js_ = ({
+  __name: 'SisdaiMapaLeyenda',
+  props: usarLeyenda_props,
+  setup(__props) {
+    const propsSetup = __props;
+    const {
+      vincularCapa,
+      visibilidadCapa,
+      nombreCapa
+    } = usarLeyenda(propsSetup);
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.onMounted)(() => {
+      vincularCapa();
+    });
+    const idCheck = `${idAleatorio()}-${usarLeyenda_props.para}`;
+    return {
+      __sfc: true,
+      propsSetup,
+      vincularCapa,
+      visibilidadCapa,
+      nombreCapa,
+      idCheck
+    };
+  }
+});
+;// CONCATENATED MODULE: ./src/componentes/elementos/SisdaiMapaLeyenda.vue?vue&type=script&setup=true&lang=js&
+ /* harmony default export */ var elementos_SisdaiMapaLeyendavue_type_script_setup_true_lang_js_ = (SisdaiMapaLeyendavue_type_script_setup_true_lang_js_); 
+;// CONCATENATED MODULE: ./src/componentes/elementos/SisdaiMapaLeyenda.vue
+
+
+
+
+
+/* normalize component */
+;
+var SisdaiMapaLeyenda_component = normalizeComponent(
+  elementos_SisdaiMapaLeyendavue_type_script_setup_true_lang_js_,
+  SisdaiMapaLeyendavue_type_template_id_e5179432_render,
+  SisdaiMapaLeyendavue_type_template_id_e5179432_staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var SisdaiMapaLeyenda = (SisdaiMapaLeyenda_component.exports);
+;// CONCATENATED MODULE: ./src/componentes/elementos/index.js
+/**
+ * @module componentes/elementos
+ */
+
+
+
+
 ;// CONCATENATED MODULE: ./src/index.js
 
 
@@ -47797,15 +48374,15 @@ function src_plugin(Vue) {
     return;
   }
   src_plugin.installed = true;
-  Vue.component(Mapa.name, Mapa);
-  Object.entries(layouts_namespaceObject).forEach(([, contenedor]) => {
-    Vue.component(contenedor.name, contenedor);
-  });
-
-  // Capas
-  Object.entries(capas_namespaceObject).forEach(([, capa]) => {
-    Vue.component(capa.name, capa);
-  });
+  agregarComponente(SisdaiMapa);
+  agregarComponentes(capas_namespaceObject);
+  agregarComponentes(elementos_namespaceObject);
+  function agregarComponente(componente) {
+    Vue.component(componente.__name, componente);
+  }
+  function agregarComponentes(componentes) {
+    Object.values(componentes).forEach(componente => agregarComponente(componente));
+  }
 }
 
 ;// CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
