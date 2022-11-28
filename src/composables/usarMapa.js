@@ -5,9 +5,9 @@
 import { ref, toRefs, watch } from 'vue'
 // import MapEventType from 'ol/MapEventType'
 
-import ControlEscalaGrafica from './../controls/EscalaGrafica'
-import ControlVistaInicial from './../controls/VistaInicial'
-import usarRegistroCapas from './usarCapasRegistradas'
+import ControlEscalaGrafica from './../controles/EscalaGrafica'
+import ControlVistaInicial from './../controles/VistaInicial'
+import usarCapasRegistradas from './usarCapasRegistradas'
 
 /**
  * Objeto que contendrá la instancia del mapa, declararlo fuera de la función composable hace que
@@ -17,9 +17,18 @@ const olMapa = ref(undefined)
 
 export const props = {
   /**
-   * Coordenadas [x, y] del centro inicial de la vista.
+   * centro
+   * - Tipo: `Array`
+   * - Valor por defecto: `[0, 0]`
+   * - Interactivo: ✅
    *
-   * Estas coordenadas deben coincidir con la proyección definida
+   * Coordenadas `[x, y]` del centro inicial de la vista.
+   *
+   * > ℹ️ **Información:** La proyección de estas coordenadas deben coincidir con la `proyeccion`
+   * definida en el mapa.
+   *
+   * > ⚠️ **Importante:** Debe tener en cuenta que si la propiedad `extension` se define, esta
+   * propiedad será ignorada.
    */
   centro: {
     type: Array,
@@ -27,9 +36,18 @@ export const props = {
   },
 
   /**
-   * Coordenadas extremas [x1, y1, x2, y2] de la caja envolvente de la vista.
+   * extension
+   * - Tipo: `Array`
+   * - Valor por defecto: `[0, 0, 0, 0]`
+   * - Interactivo: ✅
    *
-   * Estas coordenadas deben coincidir con la proyección definida
+   * Coordenadas extremas `[x1, y1, x2, y2]` de la caja envolvente de la vista.
+   *
+   * > ℹ️ **Información:** La proyección de estas coordenadas deben coincidir con la `proyeccion`
+   * definida en el mapa.
+   *
+   * > ⚠️ **Importante:** Debe tener en cuenta que si esta propiedad es definida o diferente al
+   * valor por defecto, las propiedades `centro` y `zoom` serán ignoradas.
    */
   extension: {
     type: Array,
@@ -38,6 +56,7 @@ export const props = {
 
   /**
    * Ver el icono de Conacyt debajo del mapa
+   * deprecated??
    */
   iconoConacytVisible: {
     type: Boolean,
@@ -45,9 +64,14 @@ export const props = {
   },
 
   /**
+   * proyeccion
+   * - Tipo: `String`
+   * - Valor por defecto: `EPSG:4326`
+   * - Interactivo: ❌
+   *
    * Código de identificación SRS que define la proyección de la vista.
    *
-   * El valor predeterminado es Universal Transversal de Mercator.
+   * > ℹ️ **Información:** El valor predeterminado es Universal Transversal de Mercator.
    */
   proyeccion: {
     type: String,
@@ -64,7 +88,15 @@ export const props = {
   },
 
   /**
+   * zoom
+   * - Tipo: `Number`
+   * - Valor por defecto: `1`
+   * - Interactivo: ✅
+   *
    * Nivel de zoom utilizado para calcular la resolución inicial de la vista.
+   *
+   * > ⚠️ **Importante:** Debe tener en cuenta que si la propiedad `extension` se define, esta
+   * propiedad será ignorada.
    */
   zoom: {
     type: Number,
@@ -72,7 +104,12 @@ export const props = {
   },
 
   /**
-   * Booleano que
+   * escalaGrafica
+   * - Tipo: `Boolean`
+   * - Valor por defecto: `false`
+   * - Interactivo: ✅
+   *
+   * Define si se agrega la escala gráfica en el mapa.
    */
   escalaGrafica: {
     type: Boolean,
@@ -87,7 +124,10 @@ export const props = {
  * @returns {Function} composable
  */
 export default function usarMapa(propsParam) {
-  const { agregarTodoALMapa: agregarCapasRegistradas } = usarRegistroCapas()
+  const {
+    agregarTodoALMapa: agregarCapasRegistradas,
+    hayCapasCargadorVisibleProcesando: verCargador,
+  } = usarCapasRegistradas()
   const { centro, escalaGrafica, extension, zoom } = toRefs(propsParam)
 
   /**
@@ -95,7 +135,6 @@ export default function usarMapa(propsParam) {
    * @param {import("ol/Map.js").default} mapaInstanciado
    */
   function salvarInstancia(mapaInstanciado) {
-    // console.log('hola desde el composable del mapa', mapaInstanciado)
     agregarCapasRegistradas(mapaInstanciado)
     olMapa.value = mapaInstanciado
     // olMapa.value.on(MapEventType.LOADSTART, console.log(MapEventType.LOADSTART))
@@ -186,5 +225,6 @@ export default function usarMapa(propsParam) {
   return {
     salvarInstancia,
     alternarEscalaGrafica,
+    verCargador,
   }
 }

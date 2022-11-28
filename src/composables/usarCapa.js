@@ -2,13 +2,20 @@
  * @module composables/usarCapa
  */
 
+import { ref, toRefs, watch } from 'vue'
 import usarCapasRegistradas from './usarCapasRegistradas'
-import { idAleatorio } from '../utiles'
-import { toRefs, watch } from 'vue'
+import { idAleatorio } from './../utiles'
+import tiposEstatusCarga from './../defaults/estatusCarga'
 
 export const props = {
   /**
-   * Identificador unico de la capa. Si no es detectado, se asignará un identificador random.
+   * `id`
+   * - Tipo: `String`
+   * - Obligatorio: ✅
+   * - Interactivo: ❌
+   *
+   * Identificador único de la capa. Si no es detectado, se asignará una cadena de texto
+   * aleatorea. Para hacer uso de la leyenda esta propiedad pasa a ser obligatoria.
    */
   id: {
     type: String,
@@ -16,7 +23,13 @@ export const props = {
   },
 
   /**
-   * Nombre de la capa que aparecerá en el control de la leyenda.
+   * `nombre`
+   * - Tipo: `String`
+   * - Valor por defecto: Identificador único de la capa.
+   * - Interactivo: ✅
+   *
+   * Nombre de la capa que aparecerá en el control de la leyenda. Si no es detectado, se asignará
+   * el identificador único de la capa (`id`).
    */
   nombre: {
     type: String,
@@ -24,7 +37,26 @@ export const props = {
   },
 
   /**
-   * Visibilidad de la capa, true por defecto.
+   * `verCargador`
+   * - Tipo: `Boolean`
+   * - Valor por defecto: `false`
+   * - Interactivo: ❌
+   *
+   * Esta propiedad le comunica a la vista del mapa si se desea sobreponer la vista que indica
+   * el proceso de carga de una capa.
+   */
+  verCargador: {
+    type: Boolean,
+    default: false,
+  },
+
+  /**
+   * `visible`
+   * - Tipo: `Boolean`
+   * - Valor por defecto: `true`
+   * - Interactivo: ✅
+   *
+   * Visibilidad de la capa.
    */
   visible: {
     type: Boolean,
@@ -32,8 +64,13 @@ export const props = {
   },
 
   /**
-   * Nivel de jerarquía visible en la lista de capas, cuanto más alto el número más arriba estará
-   * la capa de otras.
+   * `zIndex`
+   * - Tipo: `Number`
+   * - Valor por defecto: [trabajando...]
+   * - Interactivo: ✅ [trabajando...]
+   *
+   * Indica la posición respecto a otras capas, cuando se define un z-index mas alto respecto a
+   * las demás capas, esa capa se posicionara enfrente de ellas.
    */
   zIndex: {
     type: Number,
@@ -41,7 +78,34 @@ export const props = {
   },
 }
 
-export const emits = ['alCambiarVisibilidad']
+export const eventos = {
+  /**
+   * Evento ejecutado cuando se detecta el cambio de visibilidad de la capa desde las propiedades
+   * reactivas o desde los controles del componente como el control de leyenda.
+   * @param {Boolean} visibilidad Visibilidad final al ejecutarse este evento.
+   */
+  alCambiarVisibilidad: 'alCambiarVisibilidad',
+
+  /**
+   * Evento ejecutado cuando se detecta que ha iniciado la carga de la información visible en el
+   * mapa. En el caso de capas vectoriales (GeoJSON) cuando inicia la consulta de los features;
+   * En el caso de capas raster (WMS) cuando inicia la consulta de la imagen; En el caso de las
+   * capas por conjunto de teselas (XYZ, OSM) cuando inicia la consulta de un grupo de teselas.
+   */
+  alIniciarCarga: 'alIniciarCarga',
+
+  /**
+   * Evento ejecutado cuando se detecta que ha finalizado la carga de la información visible en
+   * el mapa. En el caso de capas vectoriales (GeoJSON) cuando finaliza la consulta de los
+   * features; En el caso de capas raster (WMS) cuando finaliza la consulta de la imagen; En el
+   * caso de las capas por conjunto de teselas (XYZ, OSM) cuando finaliza la consulta de un
+   * grupo de teselas.
+   * @param {Boolean} cargaExitosa Indica si la carga no ha presentado error.
+   */
+  alFinalizarCarga: 'alFinalizarCarga',
+}
+
+export const emits = Object.values(eventos)
 
 /**
  * La finalidad de este composable es acceder a las funciones del genéricas de la capa desde
@@ -52,8 +116,8 @@ export const emits = ['alCambiarVisibilidad']
  */
 export default function usarCapa(propsParam, emitsParam) {
   const { registrarNuevaCapa, vincularCapa } = usarCapasRegistradas()
-
-  const { nombre, visible, zIndex } = toRefs(propsParam)
+  const { nombre, verCargador, visible, zIndex } = toRefs(propsParam)
+  const estatusCarga = ref(tiposEstatusCarga.no)
 
   /**
    * Asigna un identificador aleatorio en caso de que no se asigne.
@@ -65,8 +129,10 @@ export default function usarCapa(propsParam, emitsParam) {
    * @param {import("ol/layer/Layer.js").default} olCapa objeto de capa de openlayers.
    */
   function asignarPorps(olCapa) {
+    olCapa.set('estatusCarga', estatusCarga.value)
     olCapa.set('id', idValida)
     olCapa.set('nombre', nombre.value)
+    olCapa.set('verCargador', verCargador.value)
     olCapa.setVisible(visible.value)
     olCapa.setZIndex(zIndex.value)
   }
@@ -79,18 +145,24 @@ export default function usarCapa(propsParam, emitsParam) {
     asignarPorps(olCapa)
     registrarNuevaCapa(olCapa)
 
-    const { visibilidad, alternarVisibilidad, cambiarNombre } =
-      vincularCapa(idValida)
+    const {
+      visibilidad,
+      alternarVisibilidad,
+      cambiarNombre,
+      cambiarEstatusCarga,
+    } = vincularCapa(idValida)
 
     watch(visible, alternarVisibilidad)
     watch(visibilidad, nuevoValor =>
-      emitsParam('alCambiarVisibilidad', nuevoValor)
+      emitsParam(eventos.alCambiarVisibilidad, nuevoValor)
     )
 
     watch(nombre, cambiarNombre)
+    watch(estatusCarga, cambiarEstatusCarga)
   }
 
   return {
     registrar,
+    estatusCarga,
   }
 }

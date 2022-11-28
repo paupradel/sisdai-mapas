@@ -6,12 +6,12 @@
 
 //import "dai-maps/dist/dai-maps.css"
 // import "../../src/styles/main.scss";
-import 'dadsig-css/src/eni.scss'
+// import 'dadsig-css/src/eni.scss'
 
-//import SisDaiMapas from "dai-maps"
-import SisDaiMapas from '../../src/index.js'
+//import SisdaiMapas from "dai-maps"
+import SisdaiMapas from '../../src/index.js'
 
-// import "./styles/general.css";
+// import './styles/general.scss'
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app
@@ -19,6 +19,6 @@ export default ({
   router, // the router instance for the app
   siteData, // site metadata
 }) => {
-  Vue.use(SisDaiMapas)
+  Vue.use(SisdaiMapas)
   // ...apply enhancements for the site.
 }

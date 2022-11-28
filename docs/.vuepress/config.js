@@ -1,29 +1,24 @@
-const { description, version, repository } = require('../../package')
+const { description, version, repository } = require('./../../package')
+const navbar = require('./navbar')
+const sidebarDoc = require('./sidebarDoc')
 
 module.exports = {
   /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#title
+   * @see https://v1.vuepress.vuejs.org/config/#title
    */
   title: 'SISDAI-MAPAS',
 
   /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#description
+   * @see https://v1.vuepress.vuejs.org/config/#description
    */
   description: description,
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
    *
-   * ref：https://v1.vuepress.vuejs.org/config/#head
+   * @see https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    [
-      'link',
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Montserrat:wght@300;400;500;600&display=swap',
-      },
-    ],
     [
       'link',
       {
@@ -44,7 +39,7 @@ module.exports = {
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *
-   * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
+   * @see https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
     version: version,
@@ -53,21 +48,19 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: true,
-    nav: [
-      {
-        text: 'Pruebas',
-        link: '/pruebas/',
-      },
-    ],
-    sidebar: {},
+    nav: navbar,
+    sidebar: {
+      '/doc/': sidebarDoc,
+    },
   },
 
   /**
    * Apply plugins
-   * ref：https://v1.vuepress.vuejs.org/zh/plugin/
+   * @see https://v1.vuepress.vuejs.org/zh/plugin/
    */
   plugins: ['@vuepress/plugin-back-to-top', '@vuepress/plugin-medium-zoom'],
-  //Comando para construir sin el SSR
+
+  // Comando para construir sin el SSR
   extendCli(cli) {
     cli
       .command('buildnossr [targetDir]', 'Build without ssr')

@@ -7,7 +7,12 @@ import usarCapasRegistradas from './usarCapasRegistradas'
 
 export const props = {
   /**
-   * Identificador de la caopa a la que se quiere enlazar el control de leyenda.
+   * para
+   * - Tipo: `String`
+   * - Obligatorio: ✅
+   * - Interactivo: ❌
+   *
+   * Identificador de la capa a la que se quiere vincular el control de leyenda.
    */
   para: {
     type: String,

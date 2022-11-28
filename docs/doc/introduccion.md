@@ -1,12 +1,8 @@
-# sisdai-mapas
+# Introducción
 
-Componentes reutilizables de mapas.
+**sisdai-mapas** es una biblioteca de componentes de [Vue.js](https://vuejs.org/) para generar mapas interactivos con datos georeferenciados. Es creada con la versión 2.7.14 de [Vue.js](https://vuejs.org/) y con la versión 7.1.0 de [OpenLayers](https://openlayers.org/).
 
-Si quieres contribuir al código de este componente revisa los [lineamientos de contribución establecidos por SALSA](https://salsa.crip.conacyt.mx/guidelines/contribute/)
-
-## Como empezar a usar el componente en un proyecto de Vue.js
-
-### Instalación
+## Instalación
 
 Instalación y descarga de la biblioteca desde GitHub:
 
@@ -14,7 +10,7 @@ Instalación y descarga de la biblioteca desde GitHub:
 npm i github:salsa-community/sisdai-mapas#version-a-instalar
 ```
 
-### Importación y registro
+## Importación y registro
 
 En el archivo que se desee utilizar el componente:
 
@@ -26,7 +22,7 @@ Vue.use(SisdaiMapas)
 
 Si se utiliza el componente sisdai-mapas en dos archivos o más, se recomienda registrar el componente en el archivo `src/main.js` del proyecto.
 
-### Crear un mapa básico
+## Crear un mapa básico
 
 Dentro del componente en el que se desee crear mapas con el diseño sisdai, usa la etiqueta `SisdaiMapa` dentro del `template` del HTML y agrega las capas y directivas que necesites:
 
@@ -57,4 +53,8 @@ npm install
 npm run docs:serve
 ```
 
-Se habilitara en [localhost:8080](localhost:8080).
+Se habilitara en [localhost:8080](http://localhost:8080).
+
+## Contribución
+
+Si quieres contribuir al código de esta boblioteca revisa los [lineamientos de contribución establecidos por SALSA](https://salsa.crip.conacyt.mx/guidelines/contribute/)

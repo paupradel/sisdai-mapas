@@ -50,17 +50,15 @@
         :visible="geojson.visible"
         :zIndex="geojson.zIndex"
         @alCambiarVisibilidad="v => (geojson.visible = v)"
-        @alIniciarCarga="tipo => alIniciarCarga('geojson', tipo)"
-        @alFinalizarCarga="tipo => alFinalizarCarga('geojson', tipo)"
       />
 
-      <SisdaiCapaXyzOsm
+      <SisdaiCapaOsm
         :id="osm.id"
         :nombre="osm.nombre"
         :visible="osm.visible"
         :zIndex="osm.zIndex"
-        @alIniciarCargaTesela="tipo => alIniciarCarga('osm', tipo)"
-        @alFinalizarCargaTesela="tipo => alFinalizarCarga('osm', tipo)"
+        @alIniciarCarga="tipo => alIniciarCarga('osm', tipo)"
+        @alFinalizarCarga="tipo => alFinalizarCarga('osm', tipo)"
       />
 
       <SisdaiCapaXyz
@@ -69,8 +67,10 @@
         :url="xyz.url"
         :visible="xyz.visible"
         :zIndex="xyz.zIndex"
-        @alIniciarCargaTesela="tipo => alIniciarCarga('xyz', tipo)"
-        @alFinalizarCargaTesela="tipo => alFinalizarCarga('xyz', tipo)"
+        @alIniciarCarga="tipo => alIniciarCarga('xyz', tipo)"
+        @alFinalizarCarga="tipo => alFinalizarCarga('xyz', tipo)"
+        @alIniciarCargaTesela="tipo => alIniciarCarga('xyz tesela', tipo)"
+        @alFinalizarCargaTesela="tipo => alFinalizarCarga('xyz tesela', tipo)"
       />
 
       <SisdaiCapaWms
@@ -78,6 +78,7 @@
         :nombre="wms.nombre"
         :parametros="wms.parametros"
         :url="wms.url"
+        :verCargador="true"
         :visible="wms.visible"
         :zIndex="wms.zIndex"
         @alIniciarCarga="tipo => alIniciarCarga('wms', tipo)"
@@ -88,7 +89,7 @@
 </template>
 
 <script setup>
-import edos from './../public/capas/sample-edos.json'
+import edos from './../capas/ejemplo-edos.json'
 
 import { ref } from 'vue'
 

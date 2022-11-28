@@ -3,12 +3,17 @@
  */
 
 import { ref, watch } from 'vue'
+import tiposEstatusCarga from './../defaults/estatusCarga'
 
 /**
  * Objeto de objetos de capas de openlayers, los leys de cada objeto debe ser el id de cada capa.
  */
-const olCapas = {}
 const capasRegistradas = {}
+
+/**
+ * Variable que indica si hay capas que tienen el cargador visible en proceso de carga/actualiación.
+ */
+const hayCapasCargadorVisibleProcesando = ref(false)
 
 /**
  * La finalidad de este composable es acceder al a las capas usadan en cada intsncia del
@@ -50,21 +55,24 @@ export default function usarCapasRegistradas() {
     const idCapa = capa.get('id')
     if (laCapaYaExiste(idCapa)) return
 
-    olCapas[idCapa] = capa
     capasRegistradas[idCapa] = ref(capa)
   }
 
   /**
-   * Agrega funciones a eventos detectables.
-   * @param {String} idCapa id de la caopa a la que se agregará el evento.
-   * @param {import("ol/ObjectEventType").Types|'change:extent'|'change:maxResolution'|'change:maxZoom'|
-   *    'change:minResolution'|'change:minZoom'|'change:opacity'|'change:visible'|'change:zIndex'} tipoEvento
-   *    tipio de evento a detectar.
-   * @param {Function} funsion función que se desencadenará al detectar el evento.
-   function agregarFuncionesPorEvento(idCapa, tipoEvento, funcion) {
-     olCapas[idCapa].on(tipoEvento, funcion)
-    }
+   * Este watcher actualiza la variable `estadoCapasCargadorVisible` cada que cambie el estado
+   * de algua capa, filra solo las capas que tienen el cargador visible y checa si hay alguna
+   * capa en procesos de carga `tiposEstatusCarga.ini`.
    */
+  watch(
+    () =>
+      Object.values(capasRegistradas)
+        .filter(capa => capa.value.get('verCargador'))
+        .map(capa => capa.value.get('estatusCarga'))
+        .join(),
+    estadoCapasCargadorVisible =>
+      (hayCapasCargadorVisibleProcesando.value =
+        estadoCapasCargadorVisible.includes(tiposEstatusCarga.ini))
+  )
 
   /**
    * Esta función en un pequeño composable para acceder a propiedades reactivas y funciones de a
@@ -74,8 +82,10 @@ export default function usarCapasRegistradas() {
   function vincularCapa(idCapa) {
     const capa = () => capasRegistradas[idCapa].value
 
-    const visibilidad = ref(capa().getVisible())
     const nombre = ref(capa().get('nombre'))
+    const estatusCarga = ref(capa().get('estatusCarga'))
+    // const verCargador = ref(capa().get('verCargador'))
+    const visibilidad = ref(capa().getVisible())
 
     /**
      * Cambiar el estado de visivilidad de una capa de acuerdo con su id. Si no se define el
@@ -104,11 +114,19 @@ export default function usarCapasRegistradas() {
       nuevoValor => (nombre.value = nuevoValor)
     )
 
+    function cambiarEstatusCarga(nuevoEstatus) {
+      estatusCarga.value = nuevoEstatus
+    }
+    watch(estatusCarga, nuevoEstatus =>
+      capa().set('estatusCarga', nuevoEstatus)
+    )
+
     return {
       alternarVisibilidad,
       visibilidad,
       cambiarNombre,
       nombre,
+      cambiarEstatusCarga,
     }
   }
 
@@ -116,5 +134,6 @@ export default function usarCapasRegistradas() {
     agregarTodoALMapa,
     registrarNuevaCapa,
     vincularCapa,
+    hayCapasCargadorVisibleProcesando,
   }
 }
