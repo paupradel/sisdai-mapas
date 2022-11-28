@@ -65,6 +65,7 @@ const wms = ref({
         :url="wms.url"
         :visible="wms.visible"
         :zIndex="wms.zIndex"
+        @alCambiarVisibilidad="v => (wms.visible = v)"
       />
     </SisdaiMapaCapas>
   </SisdaiMapa>

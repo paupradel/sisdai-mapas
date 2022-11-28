@@ -124,7 +124,10 @@ export const props = {
  * @returns {Function} composable
  */
 export default function usarMapa(propsParam) {
-  const { agregarTodoALMapa: agregarCapasRegistradas } = usarCapasRegistradas()
+  const {
+    agregarTodoALMapa: agregarCapasRegistradas,
+    hayCapasCargadorVisibleProcesando: verCargador,
+  } = usarCapasRegistradas()
   const { centro, escalaGrafica, extension, zoom } = toRefs(propsParam)
 
   /**
@@ -222,5 +225,6 @@ export default function usarMapa(propsParam) {
   return {
     salvarInstancia,
     alternarEscalaGrafica,
+    verCargador,
   }
 }

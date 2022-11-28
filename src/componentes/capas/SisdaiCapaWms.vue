@@ -2,6 +2,7 @@
 import ImageLayer from 'ol/layer/Image'
 import ImageWMS from 'ol/source/ImageWMS'
 import { ImageSourceEventType } from 'ol/source/Image'
+import tiposEstatusCarga from './../../defaults/estatusCarga'
 
 import usarCapa, { props, emits } from '../../composables/usarCapa'
 
@@ -35,7 +36,7 @@ const propsSetup = defineProps({
   },
 
   /**
-   * Extensión de la capa. Con este parametro se calcularán los minimos y maximos de las capas
+   * Extensión de la capa. Con este parametro se calcularán los mínimos y máximos de las capas
    * registradas en el mapa.
    */
   extension: {
@@ -47,7 +48,9 @@ const propsSetup = defineProps({
 })
 
 // eslint-disable-next-line
-const emit = defineEmits(['alIniciarCarga', 'alFinalizarCarga', ...emits])
+const emitsSetup = defineEmits(emits)
+
+const { estatusCarga, registrar } = usarCapa(propsSetup, emitsSetup)
 
 const source = new ImageWMS({
   url: propsSetup.url,
@@ -56,15 +59,20 @@ const source = new ImageWMS({
   crossOrigin: 'Anonymous',
 })
 
-source.on(ImageSourceEventType.IMAGELOADSTART, () => emit('alIniciarCarga'))
-source.on(
-  [ImageSourceEventType.IMAGELOADEND, ImageSourceEventType.IMAGELOADERROR],
-  e => {
-    emit('alFinalizarCarga', e.type === ImageSourceEventType.IMAGELOADEND)
-  }
-)
+source.on(ImageSourceEventType.IMAGELOADSTART, () => {
+  emitsSetup('alIniciarCarga')
+  estatusCarga.value = tiposEstatusCarga.ini
+})
+source.on(ImageSourceEventType.IMAGELOADERROR, () => {
+  emitsSetup('alFinalizarCarga', true)
+  estatusCarga.value = tiposEstatusCarga.error
+})
+source.on(ImageSourceEventType.IMAGELOADEND, () => {
+  emitsSetup('alFinalizarCarga', true)
+  estatusCarga.value = tiposEstatusCarga.fin
+})
 
-usarCapa(propsSetup, emit).registrar(
+registrar(
   new ImageLayer({
     source,
     // className: this.className,

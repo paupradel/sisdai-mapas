@@ -4,6 +4,7 @@ import VectorLayer from 'ol/layer/Vector'
 import VectorSource from 'ol/source/Vector'
 import GeoJSON from 'ol/format/GeoJSON'
 import VectorEventType from 'ol/source/VectorEventType'
+import tiposEstatusCarga from './../../defaults/estatusCarga'
 
 import usarCapaVectorial, {
   props,
@@ -14,29 +15,33 @@ import usarCapaVectorial, {
 const propsSetup = defineProps(props)
 
 // eslint-disable-next-line
-const emit = defineEmits(['alIniciarCarga', 'alFinalizarCarga', ...emits])
+const emitsSetup = defineEmits(emits)
+
+const { registrar, estatusCarga } = usarCapaVectorial(propsSetup, emitsSetup)
 
 const source = new VectorSource({
   features: new GeoJSON().readFeatures({ ...propsSetup.datos }),
 })
 
 source.on(VectorEventType.FEATURESLOADSTART, ({ target }) => {
-  emit('alIniciarCarga')
+  emitsSetup('alIniciarCarga')
+  estatusCarga.value = tiposEstatusCarga.ini
 
   // si los datos no son cargados mediante url, los datos yas se tienen al alcance.
   if (target.getUrl() === undefined) {
-    emit('alFinalizarCarga', true)
+    emitsSetup('alFinalizarCarga', true)
+    estatusCarga.value = tiposEstatusCarga.fin
   }
 })
 source.on(
   // Estos eventos solo se desencadenan cuando los datos son cargados por una url.
   [VectorEventType.FEATURESLOADEND, VectorEventType.FEATURESLOADERROR],
   ({ type }) => {
-    emit('alFinalizarCarga', type === VectorEventType.FEATURESLOADEND)
+    emitsSetup('alFinalizarCarga', type === VectorEventType.FEATURESLOADEND)
   }
 )
 
-usarCapaVectorial(propsSetup, emit).registrar(
+registrar(
   new VectorLayer({
     source,
     // className: this.className,

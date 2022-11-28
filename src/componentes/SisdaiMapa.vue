@@ -7,7 +7,8 @@ import AttributionControl from 'ol/control/Attribution'
 import usarMapa, { props } from './../composables/usarMapa'
 import ControlZoomPersonalizado from './../controles/ZoomPersonalizado'
 import ControlVistaInicial from './../controles/VistaInicial'
-import BotonConacyt from './elementos/BotonConacyt.vue'
+import BotonConacyt from './externos/BotonConacyt.vue'
+import VistaCarga from './externos/VistaCarga.vue'
 
 /**
  * Relleno (en píxeles) que se agregará a la extensión de la vista. Los valores en la matriz son
@@ -18,7 +19,8 @@ const rellenoAlBordeDeLaExtension = [10, 10, 10, 10]
 
 // eslint-disable-next-line
 const propsSetup = defineProps(props)
-const { salvarInstancia, alternarEscalaGrafica } = usarMapa(propsSetup)
+const { salvarInstancia, alternarEscalaGrafica, verCargador } =
+  usarMapa(propsSetup)
 
 /**
  * Referencia al elemento html contenedor del mapa
@@ -67,6 +69,7 @@ onMounted(() => {
       ref="refMapa"
       class="sisdai-mapa"
     />
+    <VistaCarga v-show="verCargador" />
 
     <!-- Permite ingresar etiquetas dentro de etiqueta sisdai-mapa -->
     <slot />
@@ -86,17 +89,21 @@ $altura-boton-conacyt: 40px;
   position: relative;
 
   display: grid;
-  grid-template-areas: 'mapa-encabezado' 'mapa-mapa' 'boton-conacyt';
-  gap: 0;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 0;
   grid-template-rows: auto 40vh 40px;
   .sisdai-mapa-encabezado {
-    grid-area: mapa-encabezado;
+    grid-column: 1;
+    grid-row: 1;
   }
-  .sisdai-mapa {
-    grid-area: mapa-mapa;
+  .sisdai-mapa,
+  .sisdai-mapa-vista-carga {
+    grid-column: 1;
+    grid-row: 2;
   }
   .boton-conacyt {
-    grid-area: boton-conacyt;
+    grid-column: 1;
+    grid-row: 3;
   }
 
   .sisdai-mapa {

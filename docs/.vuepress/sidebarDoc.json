@@ -1,8 +1,8 @@
 [
   {
-    "title": "Guía",
+    "title": "Inicio",
     "collapsable": false,
-    "children": ["introduccion", "instalacion"]
+    "children": ["introduccion"]
   },
   {
     "title": "Mapa",
@@ -12,12 +12,12 @@
   {
     "title": "Contenedores",
     "collapsable": true,
-    "children": []
+    "children": ["contenedores"]
   },
   {
     "title": "Capas",
-    "collapsable": true,
-    "children": ["xyz"]
+    "collapsable": false,
+    "children": ["capas-general", "capas-teselas", "capas-vectoriales", "capas-xyz", "capas-wms", "capas-geojson"]
   },
   {
     "title": "Clasificación",
@@ -26,7 +26,7 @@
   },
   {
     "title": "Leyendas",
-    "collapsable": true,
+    "collapsable": false,
     "children": ["leyenda"]
   }
 ]
