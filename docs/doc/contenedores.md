@@ -10,14 +10,15 @@ Los contenedores en esta biblioteca permiten agregar elementos html o componente
 - `<SisdaiMapaPie />`
 
 ## Uso
+
 ```html{2-4}
 <SisdaiMapa>
   <SisdaiMapaEncabezado>
     <!-- Aquí se pueden añadir otros elementos -->
   </SisdaiMapaEncabezado>
-  
+
   <SisdaiMapaIzquierda />
-  
+
   <SisdaiMapaDerecha />
 
   <SisdaiMapaPie />

@@ -17,7 +17,14 @@
   {
     "title": "Capas",
     "collapsable": false,
-    "children": ["capas-general", "capas-teselas", "capas-vectoriales", "capas-xyz", "capas-wms", "capas-geojson"]
+    "children": [
+      "capas-general",
+      "capas-teselas",
+      "capas-vectoriales",
+      "capas-xyz",
+      "capas-wms",
+      "capas-geojson"
+    ]
   },
   {
     "title": "Clasificación",

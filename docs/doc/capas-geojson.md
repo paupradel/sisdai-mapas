@@ -1,6 +1,5 @@
 # SisdaiCapaGeojson
 
-
 ```html
 <SisdaiCapaGeojson
   :id="geojson.id"
