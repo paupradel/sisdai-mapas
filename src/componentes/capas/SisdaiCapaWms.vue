@@ -36,7 +36,7 @@ const propsSetup = defineProps({
   },
 
   /**
-   * Extensión de la capa. Con este parametro se calcularán los minimos y maximos de las capas
+   * Extensión de la capa. Con este parametro se calcularán los mínimos y máximos de las capas
    * registradas en el mapa.
    */
   extension: {

@@ -12,12 +12,12 @@
   {
     "title": "Contenedores",
     "collapsable": true,
-    "children": []
+    "children": ["contenedores"]
   },
   {
     "title": "Capas",
     "collapsable": false,
-    "children": ["capas-general", "capas-teselas", "capas-xyz"]
+    "children": ["capas-general", "capas-teselas", "capas-vectoriales", "capas-xyz", "capas-wms", "capas-geojson"]
   },
   {
     "title": "Clasificación",

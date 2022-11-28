@@ -4,6 +4,14 @@ Las capas por teselas están conformadas por un conjunto de imágenes georeferen
 
 ## Propiedades
 
+#### `url`
+
+- Tipo: `String`
+- Valor por defecto: `undefined`
+- Interactivo: ❌
+
+Url remota de la capa.
+
 ## Eventos
 
 #### `@alIniciarCargaTesela`

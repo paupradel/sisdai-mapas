@@ -43,10 +43,18 @@ Visibilidad de la capa.
 #### `zIndex`
 
 - Tipo: `Number`
-- Valor por defecto: [trabajando...]
-- Interactivo: ✅ [trabajando...]
+- Valor por defecto: `undefined`
+- Interactivo: ✅
 
 Indica la posición respecto a otras capas, cuando se define un z-index mas alto respecto a las demás capas, esa capa se posicionara enfrente de ellas.
+
+### `extension`
+
+- Tipo: `Array`
+- Valor por defecto: `undefined`
+- Interactivo: ❌
+
+Extensión de la capa. Con este parametro se calcularán los mínimos y máximos de las capas registradas en el mapa.
 
 ## Eventos
 

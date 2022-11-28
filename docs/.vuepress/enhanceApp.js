@@ -11,7 +11,7 @@
 //import SisdaiMapas from "dai-maps"
 import SisdaiMapas from '../../src/index.js'
 
-import './styles/general.scss'
+// import './styles/general.scss'
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app

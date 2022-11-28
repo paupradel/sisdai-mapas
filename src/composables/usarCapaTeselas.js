@@ -12,7 +12,12 @@ import tiposEstatusCarga from './../defaults/estatusCarga'
 
 export const props = {
   /**
+   * `url`
+   * - Tipo: `String`
+   * - Valor por defecto: `undefined`
+   * - Interactivo: ❌
    *
+   * Url remota de la capa.
    */
   url: {
     type: String,
