@@ -126,6 +126,7 @@ export const props = {
 export default function usarMapa(propsParam) {
   const {
     agregarTodoALMapa: agregarCapasRegistradas,
+    limpiarRegistro: limpiarCapasRegistradas,
     hayCapasCargadorVisibleProcesando: verCargador,
   } = usarCapasRegistradas()
   const { centro, escalaGrafica, extension, zoom } = toRefs(propsParam)
@@ -139,6 +140,14 @@ export default function usarMapa(propsParam) {
     olMapa.value = mapaInstanciado
     // olMapa.value.on(MapEventType.LOADSTART, console.log(MapEventType.LOADSTART))
     // olMapa.value.on(MapEventType.LOADEND, console.log(MapEventType.LOADEND))
+  }
+
+  /**
+   * Invoca la limpieza de las capas registradas y reinicia el valor del mapa instanciado.
+   */
+  function desmontar() {
+    limpiarCapasRegistradas()
+    olMapa.valor = undefined
   }
 
   /**
@@ -224,6 +233,7 @@ export default function usarMapa(propsParam) {
 
   return {
     salvarInstancia,
+    desmontar,
     alternarEscalaGrafica,
     verCargador,
   }

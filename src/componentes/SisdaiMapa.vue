@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, ref } from 'vue'
+import { onMounted, onUnmounted, ref } from 'vue'
 import 'ol/ol.css'
 import Map from 'ol/Map'
 import View from 'ol/View'
@@ -19,7 +19,7 @@ const rellenoAlBordeDeLaExtension = [10, 10, 10, 10]
 
 // eslint-disable-next-line
 const propsSetup = defineProps(props)
-const { salvarInstancia, alternarEscalaGrafica, verCargador } =
+const { salvarInstancia, desmontar, alternarEscalaGrafica, verCargador } =
   usarMapa(propsSetup)
 
 /**
@@ -60,6 +60,11 @@ onMounted(() => {
   salvarInstancia(crearMapa(refMapa.value))
 
   alternarEscalaGrafica(propsSetup.escalaGrafica)
+})
+
+onUnmounted(() => {
+  desmontar()
+  // console.log('onUnmounted')
 })
 </script>
 

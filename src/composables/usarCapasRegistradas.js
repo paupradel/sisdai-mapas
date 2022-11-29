@@ -8,7 +8,7 @@ import tiposEstatusCarga from './../defaults/estatusCarga'
 /**
  * Objeto de objetos de capas de openlayers, los leys de cada objeto debe ser el id de cada capa.
  */
-const capasRegistradas = {}
+let capasRegistradas = {}
 
 /**
  * Variable que indica si hay capas que tienen el cargador visible en proceso de carga/actualiación.
@@ -31,6 +31,13 @@ export default function usarCapasRegistradas() {
         mapa.addLayer(capasRegistradas[idCapa].value)
       }
     }
+  }
+
+  /**
+   * Limpia el objeto de capas registradas.
+   */
+  function limpiarRegistro() {
+    capasRegistradas = {}
   }
 
   /**
@@ -132,6 +139,7 @@ export default function usarCapasRegistradas() {
 
   return {
     agregarTodoALMapa,
+    limpiarRegistro,
     registrarNuevaCapa,
     vincularCapa,
     hayCapasCargadorVisibleProcesando,

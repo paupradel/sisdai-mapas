@@ -1,4 +1,5 @@
 <script setup>
+import { onMounted } from 'vue'
 import VectorLayer from 'ol/layer/Vector'
 // import VectorImage from 'ol/layer/VectorImage'
 import VectorSource from 'ol/source/Vector'
@@ -41,12 +42,14 @@ source.on(
   }
 )
 
-registrar(
-  new VectorLayer({
-    source,
-    // className: this.className,
-  })
-)
+onMounted(() => {
+  registrar(
+    new VectorLayer({
+      source,
+      // className: this.className,
+    })
+  )
+})
 </script>
 
 <template style="display: none"><span /></template>

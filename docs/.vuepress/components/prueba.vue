@@ -7,41 +7,6 @@
     <!--
       :extension="mapa.extension"
     -->
-    <SisdaiMapaEncabezado>
-      Cotroles que no son del mapa
-      <div>
-        <span>
-          <input
-            type="checkbox"
-            id="check-escala"
-            v-model="mapa.escalaGrafica"
-          />
-          <label for="check-escala">Visualizar escala</label>
-        </span>
-      </div>
-
-      <div class="inline">
-        GeoJSON:
-        <button
-          class="boton-secundario boton-chico"
-          @click="geojson.visible = !geojson.visible"
-        >
-          {{ geojson.visible ? 'Apagar' : 'Prender' }}
-        </button>
-        <input
-          type="text"
-          v-model="geojson.nombre"
-        />
-      </div>
-
-      <hr />
-      Controles del mapa
-      <SisdaiMapaLeyenda :para="osm.id" />
-      <SisdaiMapaLeyenda :para="geojson.id" />
-      <SisdaiMapaLeyenda :para="xyz.id" />
-      <SisdaiMapaLeyenda :para="wms.id" />
-    </SisdaiMapaEncabezado>
-
     <SisdaiMapaCapas>
       <SisdaiCapaGeojson
         :id="geojson.id"
@@ -85,6 +50,41 @@
         @alFinalizarCarga="tipo => alFinalizarCarga('wms', tipo)"
       />
     </SisdaiMapaCapas>
+
+    <SisdaiMapaEncabezado>
+      Cotroles que no son del mapa
+      <div>
+        <span>
+          <input
+            type="checkbox"
+            id="check-escala"
+            v-model="mapa.escalaGrafica"
+          />
+          <label for="check-escala">Visualizar escala</label>
+        </span>
+      </div>
+
+      <div class="inline">
+        GeoJSON:
+        <button
+          class="boton-secundario boton-chico"
+          @click="geojson.visible = !geojson.visible"
+        >
+          {{ geojson.visible ? 'Apagar' : 'Prender' }}
+        </button>
+        <input
+          type="text"
+          v-model="geojson.nombre"
+        />
+      </div>
+
+      <hr />
+      Controles del mapa
+      <SisdaiMapaLeyenda :para="osm.id" />
+      <SisdaiMapaLeyenda :para="geojson.id" />
+      <SisdaiMapaLeyenda :para="xyz.id" />
+      <SisdaiMapaLeyenda :para="wms.id" />
+    </SisdaiMapaEncabezado>
   </SisdaiMapa>
 </template>
 
