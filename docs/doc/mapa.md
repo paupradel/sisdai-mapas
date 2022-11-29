@@ -41,6 +41,14 @@ Coordenadas extremas `[x1, y1, x2, y2]` de la caja envolvente de la vista.
 
 > ⚠️ **Importante:** Debe tener en cuenta que si esta propiedad es definida o diferente al valor por defecto, las propiedades `centro` y `zoom` serán ignoradas.
 
+#### `extensionPorCapasVisibles`
+
+- Tipo: `Boolean`
+- Valor por defecto: `false`
+- Interactivo: ✅
+
+Define si al presionar el botón que ajusta la vista, se aplicará el zoom a las capas visibles que tengan una extensión definida.
+
 #### `proyeccion`
 
 - Tipo: `String`

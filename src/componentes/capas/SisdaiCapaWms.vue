@@ -36,15 +36,6 @@ const propsSetup = defineProps({
     default: 'geoserver',
   },
 
-  /**
-   * Extensión de la capa. Con este parametro se calcularán los mínimos y máximos de las capas
-   * registradas en el mapa.
-   */
-  extension: {
-    type: Array,
-    default: () => [],
-  },
-
   ...props,
 })
 

@@ -55,6 +55,20 @@ export const props = {
   },
 
   /**
+   * `extensionPorCapasVisibles`
+   * - Tipo: `Boolean`
+   * - Valor por defecto: `false`
+   * - Interactivo: ✅
+   *
+   * Define si al presionar el botón que ajusta la vista, se aplicará el zoom a las capas
+   * visibles que tengan una extensión definida.
+   */
+  extensionPorCapasVisibles: {
+    type: Boolean,
+    default: false,
+  },
+
+  /**
    * Ver el icono de Conacyt debajo del mapa
    * deprecated??
    */
@@ -129,7 +143,8 @@ export default function usarMapa(propsParam) {
     limpiarRegistro: limpiarCapasRegistradas,
     hayCapasCargadorVisibleProcesando: verCargador,
   } = usarCapasRegistradas()
-  const { centro, escalaGrafica, extension, zoom } = toRefs(propsParam)
+  const { centro, escalaGrafica, extension, extensionPorCapasVisibles, zoom } =
+    toRefs(propsParam)
 
   /**
    * Guarda el objeto del mapa en una variable reactiva.
@@ -138,6 +153,10 @@ export default function usarMapa(propsParam) {
   function salvarInstancia(mapaInstanciado) {
     agregarCapasRegistradas(mapaInstanciado)
     olMapa.value = mapaInstanciado
+    olMapa.value.set(
+      'extensionPorCapasVisibles',
+      extensionPorCapasVisibles.value
+    )
     // olMapa.value.on(MapEventType.LOADSTART, console.log(MapEventType.LOADSTART))
     // olMapa.value.on(MapEventType.LOADEND, console.log(MapEventType.LOADEND))
   }

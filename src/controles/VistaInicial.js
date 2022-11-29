@@ -82,7 +82,9 @@ export default class VistaInicial extends Control {
      * @type {String}
      * @private
      */
-    this.tipoDeVista = this.extensionEsValida() ? 'extension' : 'centro'
+    this.tipoDeVista = extensionEsValida(this.extension)
+      ? 'extension'
+      : 'centro'
 
     /**
      * @type {Array<number>}
@@ -116,20 +118,24 @@ export default class VistaInicial extends Control {
   }
 
   /**
-   *
-   * @returns {Boolean}
-   */
-  extensionEsValida() {
-    return Boolean(
-      Number(this.extension[0]) !== 0 && Number(this.extension[3]) !== 0
-    )
-  }
-
-  /**
    * Reinicia la vista que se difinió inicialmente en el mapa
    */
   reiniciarVista() {
     // const vInicial = this.getMap().get('vistaInicial')
+    if (this.getMap().get('extensionPorCapasVisibles')) {
+      const extensiones = this.getMap()
+        .getLayers()
+        .getArray()
+        .filter(
+          capa => capa.getVisible() && extensionEsValida(capa.get('extension'))
+        )
+        .map(x => x.get('extension'))
+      if (extensiones.length > 0) {
+        this.funcionesPorTipoDeVista.extension(calcularLimites(extensiones))
+        return
+      }
+    }
+
     this.funcionesPorTipoDeVista[this.tipoDeVista]()
     this.dispatchEvent('reset')
   }
@@ -142,10 +148,33 @@ export default class VistaInicial extends Control {
   funcionesPorTipoDeVista = {
     centro: () =>
       this.getMap().getView().animate({ zoom: this.zoom, center: this.centro }),
-    extension: () =>
-      this.getMap().getView().fit(this.extension, {
+    extension: (_extension = this.extension) =>
+      this.getMap().getView().fit(_extension, {
         padding: this.rellenoAlBordeDeLaExtension,
         duration: 1000,
       }),
   }
+}
+
+/**
+ *
+ * @param {*} extension
+ * @returns
+ */
+function extensionEsValida(extension) {
+  return Boolean(Number(extension[0]) !== 0 && Number(extension[3]) !== 0)
+}
+
+/**
+ *
+ * @param {*} vertices
+ * @returns
+ */
+function calcularLimites(vertices) {
+  return [
+    Math.min(...vertices.map(vertice => vertice[0])),
+    Math.min(...vertices.map(vertice => vertice[1])),
+    Math.max(...vertices.map(vertice => vertice[2])),
+    Math.max(...vertices.map(vertice => vertice[3])),
+  ]
 }

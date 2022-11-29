@@ -9,6 +9,20 @@ import tiposEstatusCarga from './../defaults/estatusCarga'
 
 export const props = {
   /**
+   * `extension`
+   * - Tipo: `Array`
+   * - Valor por defecto: `[0, 0, 0, 0]`
+   * - Interactivo: ❌
+   *
+   * Extensión de la capa. Con este parametro se calcularán los mínimos y máximos de las capas
+   * registradas en el mapa.
+   */
+  extension: {
+    type: Array,
+    default: () => [0, 0, 0, 0],
+  },
+
+  /**
    * `id`
    * - Tipo: `String`
    * - Obligatorio: ✅
@@ -129,6 +143,7 @@ export default function usarCapa(propsParam, emitsParam) {
    * @param {import("ol/layer/Layer.js").default} olCapa objeto de capa de openlayers.
    */
   function asignarPorps(olCapa) {
+    olCapa.set('extension', propsParam.extension)
     olCapa.set('estatusCarga', estatusCarga.value)
     olCapa.set('id', idValida)
     olCapa.set('nombre', nombre.value)
