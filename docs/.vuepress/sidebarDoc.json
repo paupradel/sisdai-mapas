@@ -7,12 +7,7 @@
   {
     "title": "Mapa",
     "collapsable": false,
-    "children": ["mapa"]
-  },
-  {
-    "title": "Contenedores",
-    "collapsable": true,
-    "children": ["contenedores"]
+    "children": ["mapa", "contenedores"]
   },
   {
     "title": "Capas",

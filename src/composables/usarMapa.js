@@ -4,7 +4,6 @@
 
 import { ref, toRefs, watch } from 'vue'
 // import MapEventType from 'ol/MapEventType'
-
 import ControlEscalaGrafica from './../controles/EscalaGrafica'
 import ControlVistaInicial from './../controles/VistaInicial'
 import usarCapasRegistradas from './usarCapasRegistradas'
@@ -102,6 +101,17 @@ export const props = {
   },
 
   /**
+   *
+   */
+  vista: {
+    type: Object,
+    default: () => ({
+      centro: [0, 0],
+      zoom: 1,
+    }),
+  },
+
+  /**
    * zoom
    * - Tipo: `Number`
    * - Valor por defecto: `1`
@@ -131,6 +141,12 @@ export const props = {
     validator: valor => typeof valor === typeof Boolean(),
   },
 }
+
+export const eventos = {
+  alAjustarVista: 'alAjustarVista',
+}
+
+export const emits = Object.values(eventos)
 
 /**
  * Uso del mapa, la finalidad de este composable es acceder al mapa desde diferentes componentes

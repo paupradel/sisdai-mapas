@@ -166,15 +166,15 @@ function extensionEsValida(extension) {
 }
 
 /**
- *
- * @param {*} vertices
- * @returns
+ * Calcula los límites de las estenciones que llegen cómo parámetro.
+ * @param {Array} extensiones Arreglo de extenciones en formato [x1, y1, x2, y2].
+ * @returns {Array} Bbox de las extenciones en formato [x1, y1, x2, y2].
  */
-function calcularLimites(vertices) {
+function calcularLimites(extensiones) {
   return [
-    Math.min(...vertices.map(vertice => vertice[0])),
-    Math.min(...vertices.map(vertice => vertice[1])),
-    Math.max(...vertices.map(vertice => vertice[2])),
-    Math.max(...vertices.map(vertice => vertice[3])),
+    Math.min(...extensiones.map(ext => ext[0])),
+    Math.min(...extensiones.map(ext => ext[1])),
+    Math.max(...extensiones.map(ext => ext[2])),
+    Math.max(...extensiones.map(ext => ext[3])),
   ]
 }
