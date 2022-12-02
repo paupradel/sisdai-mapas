@@ -1,11 +1,17 @@
-<script setup></script>
+<script setup>
+function alAjustarVista() {
+  console.log('alAjustarVista desde extensionPorCapasVisibles');
+}
+</script>
 
 <template>
   <SisdaiMapa
-    :extensionPorCapasVisibles="true"
-    :centro="[-102, 24]"
-    :escalaGrafica="true"
-    :zoom="4.5"
+    :vista="{
+      zoom: 4.5,
+    }"
+    :ajustarVistaPorCapasVisibles="true"
+    :ajustarVistaPorCapasVisiblesAutomatico="true"
+    @alAjustarVista="alAjustarVista"
   >
     <SisdaiMapaCapas>
       <SisdaiCapaOsm :zIndex="0" />
@@ -16,7 +22,7 @@
         nombre="Agricultura en la región del Tren Maya 2018"
         :parametros="{ LAYERS: 'tren_maya_agricultura_2018' }"
         url="https://gema.conacyt.mx/geoserver/wms"
-        :verCargador="true"
+        :visible="true"
         :zIndex="1"
       />
 
@@ -26,7 +32,7 @@
         nombre="Áreas Naturales Protegidas estatales en la región del Tren Maya 2020"
         :parametros="{ LAYERS: 'tren_maya_anp_estatales_2020' }"
         url="https://gema.conacyt.mx/geoserver/wms"
-        :verCargador="true"
+        :visible="false"
         :zIndex="2"
       />
     </SisdaiMapaCapas>

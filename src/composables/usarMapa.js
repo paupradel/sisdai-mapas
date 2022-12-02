@@ -7,6 +7,8 @@ import { ref, toRefs, watch } from 'vue'
 import ControlEscalaGrafica from './../controles/EscalaGrafica'
 import ControlVistaInicial from './../controles/VistaInicial'
 import usarCapasRegistradas from './usarCapasRegistradas'
+import vistaMapaDefault from './../defaults/vistaMapa'
+import { extensionEsValida } from './../utiles'
 
 /**
  * Objeto que contendrá la instancia del mapa, declararlo fuera de la función composable hace que
@@ -54,7 +56,7 @@ export const props = {
   },
 
   /**
-   * `extensionPorCapasVisibles`
+   * `ajustarVistaPorCapasVisibles`
    * - Tipo: `Boolean`
    * - Valor por defecto: `false`
    * - Interactivo: ✅
@@ -62,14 +64,14 @@ export const props = {
    * Define si al presionar el botón que ajusta la vista, se aplicará el zoom a las capas
    * visibles que tengan una extensión definida.
    */
-  extensionPorCapasVisibles: {
+  ajustarVistaPorCapasVisibles: {
     type: Boolean,
     default: false,
   },
 
   /**
    * Ver el icono de Conacyt debajo del mapa
-   * deprecated??
+   * @deprecated??
    */
   iconoConacytVisible: {
     type: Boolean,
@@ -105,10 +107,15 @@ export const props = {
    */
   vista: {
     type: Object,
-    default: () => ({
-      centro: [0, 0],
-      zoom: 1,
-    }),
+    default: () => vistaMapaDefault,
+    validator: valor => {
+      if (Number(valor.zoom) < 0 && Number(valor.zoom) > 22) {
+        console.error('El valor del zoom debe ser entre 0 y 22')
+        return false
+      }
+
+      return true
+    },
   },
 
   /**
@@ -137,7 +144,7 @@ export const props = {
    */
   escalaGrafica: {
     type: Boolean,
-    default: false,
+    default: true,
     validator: valor => typeof valor === typeof Boolean(),
   },
 }
@@ -159,20 +166,36 @@ export default function usarMapa(propsParam) {
     limpiarRegistro: limpiarCapasRegistradas,
     hayCapasCargadorVisibleProcesando: verCargador,
   } = usarCapasRegistradas()
-  const { centro, escalaGrafica, extension, extensionPorCapasVisibles, zoom } =
-    toRefs(propsParam)
+  const {
+    centro,
+    escalaGrafica,
+    extension,
+    ajustarVistaPorCapasVisibles,
+    vista,
+    zoom,
+  } = toRefs(propsParam)
+
+  function asignarProps(mapaInstanciado) {
+    const _vista = { ...vistaMapaDefault, ...vista.value }
+    _vista.tipo = extensionEsValida(_vista.extension) ? 'extension' : 'centro'
+    _vista.ajustePorCapas = ajustarVistaPorCapasVisibles.value
+    mapaInstanciado.set('vista', _vista)
+    // emitsParam(eventos.alAjustarVista)
+  }
 
   /**
    * Guarda el objeto del mapa en una variable reactiva.
    * @param {import("ol/Map.js").default} mapaInstanciado
    */
   function salvarInstancia(mapaInstanciado) {
+    asignarProps(mapaInstanciado)
     agregarCapasRegistradas(mapaInstanciado)
     olMapa.value = mapaInstanciado
-    olMapa.value.set(
-      'extensionPorCapasVisibles',
-      extensionPorCapasVisibles.value
-    )
+    // olMapa.value.set(
+    //   'ajustarVistaPorCapasVisibles',
+    //   ajustarVistaPorCapasVisibles.value
+    // )
+
     // olMapa.value.on(MapEventType.LOADSTART, console.log(MapEventType.LOADSTART))
     // olMapa.value.on(MapEventType.LOADEND, console.log(MapEventType.LOADEND))
   }
