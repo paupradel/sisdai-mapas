@@ -5,7 +5,7 @@
 import Control from 'ol/control/Control'
 import { crearContenedorControl, crearBotonControl } from './utiles'
 import { eventos } from '../composables/usarMapa'
-import { extensionEsValida } from '../utiles'
+import { extensionEsValida, validarExtension } from '../utiles'
 
 /**
  * @property {String} claseCss clase del elemnto HTML del control. La clase se concatenará con la
@@ -51,6 +51,7 @@ export default class AjusteVista extends Control {
 
   constructor(_emit) {
     emit = _emit
+
     /**
      * Elemento contenedor del control
      * @type {HTMLDivElement}
@@ -103,7 +104,7 @@ export default class AjusteVista extends Control {
   get extension() {
     const extension = this.getMap().get('vista').extension
 
-    return extensionEsValida(extension) ? extension : undefined
+    return validarExtension(extension) ? extension : undefined
   }
 
   /**
@@ -115,37 +116,50 @@ export default class AjusteVista extends Control {
 
   /**
    *
-   * @param {*} extencion
+   * @param {*} vista
    */
-  ajustarPorExtension(extencion) {
-    this.olView.fit(extencion, {
-      padding: rellenoAlBordeDeLaExtension,
-      duration: 1000,
-    })
+  ajustarPorCentroZoom() {
+    const vista = this.getMap().get('vista')
+    this.olView.animate({ zoom: vista.zoom, center: vista.centro })
   }
 
   /**
    *
-   * @param {*} vista
+   * @param {*} extencion
    */
-  ajustarPorCentroZoom(vista) {
-    this.olView.animate({ zoom: vista.zoom, center: vista.centro })
+  ajustarPorExtension() {
+    if (validarExtension(this.extension)) {
+      fitExtension(this.olView, this.extension)
+    }
+  }
+
+  /**
+   *
+   */
+  ajustarPorCapasVisibles() {
+    if (this.extensionCapasVisibles) {
+      console.log('ajustarPorCapasVisibles')
+      fitExtension(this.olView, this.extensionCapasVisibles)
+    }
+  }
+
+  get tipoAjuste() {
+    const vista = this.getMap().get('vista')
+
+    if (vista.ajustePorCapas) {
+      return 'ajustarPorCapasVisibles'
+    } else if (vista.tipo === 'extension') {
+      return 'ajustarPorExtension'
+    } else {
+      return 'ajustarPorCentroZoom'
+    }
   }
 
   /**
    *
    */
   ajustar() {
-    const vista = this.getMap().get('vista')
-
-    if (vista.ajustePorCapas && this.extensionCapasVisibles) {
-      this.ajustarPorExtension(this.extensionCapasVisibles)
-    } else if (vista.tipo === 'extension') {
-      this.ajustarPorExtension(this.extension)
-    } else {
-      this.ajustarPorCentroZoom(vista)
-    }
-
+    this[this.tipoAjuste]()
     emit(eventos.alAjustarVista)
     this.dispatchEvent('reset')
   }
@@ -181,4 +195,11 @@ function calcularLimites(extensiones) {
     Math.max(...extensiones.map(ext => ext[2])),
     Math.max(...extensiones.map(ext => ext[3])),
   ]
+}
+
+function fitExtension(olView, extension) {
+  olView.fit(extension, {
+    padding: rellenoAlBordeDeLaExtension,
+    duration: 1000,
+  })
 }

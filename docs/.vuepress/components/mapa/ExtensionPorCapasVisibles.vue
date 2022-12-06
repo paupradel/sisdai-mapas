@@ -1,6 +1,6 @@
 <script setup>
 function alAjustarVista() {
-  console.log('alAjustarVista desde extensionPorCapasVisibles');
+  console.log('alAjustarVista desde extensionPorCapasVisibles')
 }
 </script>
 

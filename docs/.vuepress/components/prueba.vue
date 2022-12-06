@@ -1,9 +1,9 @@
 <template>
   <SisdaiMapa
-    :extensionPorCapasVisibles="true"
-    :centro="mapa.centro"
-    :escalaGrafica="mapa.escalaGrafica"
-    :zoom="mapa.zoom"
+    :vista="{
+      centro: [-102, 24],
+      zoom: 4.5,
+    }"
   >
     <!--
       :extension="mapa.extension"
@@ -63,8 +63,6 @@ const extension = [
 
 const mapa = ref({
   centro: [-102, 24],
-  escalaGrafica: true,
-  iconoConacytVisible: false,
   // extension,
   zoom: 4.5,
 })

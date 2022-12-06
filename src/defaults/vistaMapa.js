@@ -11,7 +11,7 @@ export default {
   /**
    *
    */
-  extension: [0, 0, 0, 0],
+  extension: undefined,
 
   /**
    *

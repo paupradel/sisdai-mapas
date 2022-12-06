@@ -16,5 +16,37 @@ export function idAleatorio() {
  * @returns
  */
 export function extensionEsValida(extension) {
-  return Boolean(Number(extension[0]) !== 0 && Number(extension[3]) !== 0)
+  const _extension = validarExtension(extension)
+  if (_extension === undefined) return false
+
+  return Boolean(Number(_extension[0]) !== 0 && Number(_extension[3]) !== 0)
+}
+
+/**
+ *
+ * @param {*} extension
+ * @returns
+ */
+export function validarExtension(extension) {
+  if (
+    extension === undefined &&
+    !Array.isArray(extension) &&
+    !(typeof '' === typeof extension)
+  ) {
+    return
+  }
+
+  let _extension
+
+  if (Array.isArray(extension)) {
+    if (extension.length < 4) return
+
+    _extension = extension.map(cord => Number(cord))
+  }
+
+  if (typeof '' === typeof extension) {
+    _extension = extension.split(',').map(cord => Number(cord))
+  }
+
+  return _extension
 }

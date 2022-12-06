@@ -15,6 +15,12 @@ El componente `SisdaiMapa` es el componente princial de esta librería. Dentro d
 
 ## Propiedades
 
+#### `vista`
+
+- Tipo: `Object`
+- Valor por defecto: `{ centro: [0, 0], zoom: 1.5 }`
+- Interactivo: ✅
+
 ### Vista del mapa
 
 #### `centro`

@@ -1,16 +1,14 @@
 <script setup>
-import { onMounted, onUnmounted, ref } from 'vue'
+import { onMounted, onUnmounted, ref, defineExpose } from 'vue'
 import 'ol/ol.css'
 import Map from 'ol/Map'
-import View from 'ol/View'
+// import View from 'ol/View'
 import AttributionControl from 'ol/control/Attribution'
 import usarMapa, { props, emits } from './../composables/usarMapa'
 import ControlZoomPersonalizado from './../controles/ZoomPersonalizado'
-// import ControlVistaInicial from './../controles/VistaInicial'
 import ControlAjusteVista from '../controles/AjusteVista'
 import BotonConacyt from './externos/BotonConacyt.vue'
 import VistaCarga from './externos/VistaCarga.vue'
-import vistaMapaDefault from './../defaults/vistaMapa'
 
 // eslint-disable-next-line
 const propsSetup = defineProps(props)
@@ -18,8 +16,13 @@ const propsSetup = defineProps(props)
 // eslint-disable-next-line
 const emitsSetup = defineEmits(emits)
 
-const { salvarInstancia, desmontar, alternarEscalaGrafica, verCargador } =
-  usarMapa(propsSetup, emitsSetup)
+const {
+  salvarInstancia,
+  desmontar,
+  alternarEscalaGrafica,
+  verCargador,
+  ajustarVista,
+} = usarMapa(propsSetup, emitsSetup)
 
 /**
  * Referencia al elemento html contenedor del mapa
@@ -35,11 +38,6 @@ function crearMapa(target) {
   return new Map({
     target,
     layers: [],
-    view: new View({
-      center: vistaMapaDefault.centro,
-      zoom: vistaMapaDefault.zoom,
-      projection: propsSetup.proyeccion,
-    }),
     controls: [
       new ControlZoomPersonalizado(),
       new ControlAjusteVista(emitsSetup),
@@ -58,8 +56,9 @@ onMounted(() => {
 
 onUnmounted(() => {
   desmontar()
-  // console.log('onUnmounted')
 })
+
+defineExpose({ ajustarVista, ajustarVistaPorCapasVisibles: undefined })
 </script>
 
 <template>
