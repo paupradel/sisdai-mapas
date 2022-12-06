@@ -138,7 +138,6 @@ export default class AjusteVista extends Control {
    */
   ajustarPorCapasVisibles() {
     if (this.extensionCapasVisibles) {
-      console.log('ajustarPorCapasVisibles')
       fitExtension(this.olView, this.extensionCapasVisibles)
     }
   }

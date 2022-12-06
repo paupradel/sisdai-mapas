@@ -102,14 +102,14 @@ function alFinalizarCarga(tipo, estatus) {
   console.log(`Terminó de cargar ${tipo}`, estatus)
 }
 
-function consultarExtension(capa) {
-  return fetch(
-    `${geoserver}ows?service=WFS&version=1.0.0&request=GetFeature&typeName=${capa}&maxFeatures=1&outputFormat=application/json`
-  ).then(r => r.json())
-}
-consultarExtension(anp.value.parametros.LAYERS).then(d => {
-  // console.log(d.bbox)
-})
+// function consultarExtension(capa) {
+//   return fetch(
+//     `${geoserver}ows?service=WFS&version=1.0.0&request=GetFeature&typeName=${capa}&maxFeatures=1&outputFormat=application/json`
+//   ).then(r => r.json())
+// }
+// consultarExtension(anp.value.parametros.LAYERS).then(d => {
+//   console.log(d.bbox)
+// })
 </script>
 
 <style lang="scss">

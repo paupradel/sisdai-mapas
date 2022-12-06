@@ -72,6 +72,20 @@ export const props = {
   },
 
   /**
+   * escalaGrafica
+   * - Tipo: `Boolean`
+   * - Valor por defecto: `false`
+   * - Interactivo: ✅
+   *
+   * Define si se agrega la escala gráfica en el mapa.
+   */
+  escalaGrafica: {
+    type: Boolean,
+    default: true,
+    validator: valor => typeof valor === typeof Boolean(),
+  },
+
+  /**
    * proyeccion
    * - Tipo: `String`
    * - Valor por defecto: `EPSG:4326`
@@ -109,6 +123,7 @@ export const props = {
     default: () => vistaMapaDefault,
     validator: ({ centro, zoom }) => {
       if (Number(zoom) < 1 && Number(zoom) > 22) {
+        // eslint-disable-next-line
         console.error('El valor del zoom debe ser entre 1 y 22')
         return false
       }
@@ -138,20 +153,6 @@ export const props = {
      default: 1,
     },
     */
-
-  /**
-   * escalaGrafica
-   * - Tipo: `Boolean`
-   * - Valor por defecto: `false`
-   * - Interactivo: ✅
-   *
-   * Define si se agrega la escala gráfica en el mapa.
-   */
-  escalaGrafica: {
-    type: Boolean,
-    default: true,
-    validator: valor => typeof valor === typeof Boolean(),
-  },
 }
 
 export const eventos = {
