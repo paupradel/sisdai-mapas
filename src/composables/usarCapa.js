@@ -152,6 +152,10 @@ export default function usarCapa(propsParam, emitsParam) {
     olCapa.setZIndex(zIndex.value)
   }
 
+  function vincular() {
+    return vincularCapa(idValida)
+  }
+
   /**
    * Prepara la capa y la registra en el composable de capas registradas.
    * @param {import("ol/layer/Layer.js").default} olCapa objeto de capa de openlayers.
@@ -165,7 +169,7 @@ export default function usarCapa(propsParam, emitsParam) {
       alternarVisibilidad,
       cambiarNombre,
       cambiarEstatusCarga,
-    } = vincularCapa(idValida)
+    } = vincular(idValida)
 
     watch(visible, alternarVisibilidad)
     watch(visibilidad, nuevoValor =>
@@ -179,5 +183,6 @@ export default function usarCapa(propsParam, emitsParam) {
   return {
     registrar,
     estatusCarga,
+    vincular,
   }
 }

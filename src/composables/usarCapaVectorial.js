@@ -2,12 +2,13 @@
  * @module composables/usarCapaVectorial
  */
 
-import {
-  DEFAULT_FILL_COLOR,
-  DEFAULT_STROKE_COLOR,
-  DEFAULT_RADIUS,
-} from './../defaults/estiloCapa'
+import VectorEventType from 'ol/source/VectorEventType'
+import tiposEstatusCarga from './../defaults/estatusCarga'
+import { crearEstiloOl } from './casificacion/json2estiloOl'
+import estiloCapaPorDefecto from './../defaults/estiloCapa'
+import { combinarObjetos } from './../utiles/index'
 import usarCapa, { props as propsCapa, emits as emitsCapa } from './usarCapa'
+import { toRefs, watch } from 'vue'
 
 export const props = {
   /**
@@ -32,25 +33,7 @@ export const props = {
    */
   estilo: {
     type: Object,
-    default: () => ({
-      fill: {
-        color: DEFAULT_FILL_COLOR,
-      },
-      stroke: {
-        width: 1,
-        color: DEFAULT_STROKE_COLOR, // "scale["color"]"
-      },
-      circle: {
-        fill: {
-          color: DEFAULT_FILL_COLOR,
-        },
-        stroke: {
-          color: DEFAULT_STROKE_COLOR,
-          width: 1,
-        },
-        radius: DEFAULT_RADIUS,
-      },
-    }),
+    default: () => estiloCapaPorDefecto,
   },
 
   ...propsCapa,
@@ -59,9 +42,48 @@ export const props = {
 export const emits = [...emitsCapa]
 
 export default function usarCapaVectorial(propsParam, emitsParam) {
-  // function asignarEstilo(params) {}
+  const {
+    estatusCarga,
+    registrar: registrarCapa,
+    vincular,
+  } = usarCapa(propsParam, emitsParam)
+
+  const { estilo } = toRefs(propsParam)
+
+  function asignarEstilo(olCapa = vincular().capa()) {
+    olCapa.setStyle(
+      crearEstiloOl(combinarObjetos(estiloCapaPorDefecto, estilo.value))
+    )
+  }
+  watch(estilo, () => asignarEstilo())
+
+  function agregarEmitsCarga(olCapa) {
+    olCapa.getSource().on(VectorEventType.FEATURESLOADSTART, ({ target }) => {
+      emitsParam('alIniciarCarga')
+      estatusCarga.value = tiposEstatusCarga.ini
+
+      // si los datos no son cargados mediante url, los datos yas se tienen al alcance.
+      if (target.getUrl() === undefined) {
+        emitsParam('alFinalizarCarga', true)
+        estatusCarga.value = tiposEstatusCarga.fin
+      }
+    })
+    olCapa.getSource().on(
+      // Estos eventos solo se desencadenan cuando los datos son cargados por una url.
+      [VectorEventType.FEATURESLOADEND, VectorEventType.FEATURESLOADERROR],
+      ({ type }) => {
+        emitsParam('alFinalizarCarga', type === VectorEventType.FEATURESLOADEND)
+      }
+    )
+  }
+
+  function registrar(olCapa) {
+    asignarEstilo(olCapa)
+    agregarEmitsCarga(olCapa)
+    registrarCapa(olCapa)
+  }
 
   return {
-    ...usarCapa(propsParam, emitsParam),
+    registrar,
   }
 }

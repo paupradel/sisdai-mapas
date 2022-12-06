@@ -1,3 +1,3 @@
-# Vectoriales
+# Estilos Interactivos
 
 <capas-ColoresInteractivos />

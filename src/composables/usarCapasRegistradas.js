@@ -129,6 +129,7 @@ export default function usarCapasRegistradas() {
     )
 
     return {
+      capa,
       alternarVisibilidad,
       visibilidad,
       cambiarNombre,

@@ -121,16 +121,20 @@ export const props = {
   vista: {
     type: Object,
     default: () => vistaMapaDefault,
-    validator: ({ centro, zoom }) => {
-      if (Number(zoom) < 1 && Number(zoom) > 22) {
+    validator: valor => {
+      if (valor.extension) {
+        return true
+      }
+
+      if (Number(valor.zoom) < 1 && Number(valor.zoom) > 22) {
         // eslint-disable-next-line
         console.error('El valor del zoom debe ser entre 1 y 22')
         return false
       }
 
-      if (!Array.isArray(centro)) {
+      if (!Array.isArray(valor.centro)) {
         return false
-      } else if (centro.length < 2) {
+      } else if (valor.centro.length < 2) {
         return false
       }
 
