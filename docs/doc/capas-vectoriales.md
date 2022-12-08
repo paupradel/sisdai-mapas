@@ -1,3 +1,3 @@
 # Vectoriales
 
-<capas-ColoresInteractivos />
+<capas-ClasificacionCoropleta />

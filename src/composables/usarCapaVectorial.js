@@ -6,7 +6,7 @@ import VectorEventType from 'ol/source/VectorEventType'
 import tiposEstatusCarga from './../defaults/estatusCarga'
 import { crearEstiloOl } from './casificacion/json2estiloOl'
 import estiloCapaPorDefecto from './../defaults/estiloCapa'
-import { combinarObjetos } from './../utiles/index'
+// import { combinarObjetos } from './../utiles/index'
 import usarCapa, { props as propsCapa, emits as emitsCapa } from './usarCapa'
 import { toRefs, watch } from 'vue'
 
@@ -31,6 +31,23 @@ export const props = {
   /**
    *
    */
+  clasificacion: {
+    type: [Object, Array],
+    default: () => undefined,
+    validator: valor => {
+      if (!(typeof valor === typeof {}) || valor === null) {
+        console.error(
+          'Es necesario un objeto o un arreglo de objetos para realizar la clasificación de la capa'
+        )
+        return false
+      }
+      return true
+    },
+  },
+
+  /**
+   *
+   */
   estilo: {
     type: Object,
     default: () => estiloCapaPorDefecto,
@@ -48,15 +65,50 @@ export default function usarCapaVectorial(propsParam, emitsParam) {
     vincular,
   } = usarCapa(propsParam, emitsParam)
 
-  const { estilo } = toRefs(propsParam)
+  const { estilo, clasificacion } = toRefs(propsParam)
 
+  function asignarClasificacion(olCapa) {
+    const features = olCapa.getSource().getFeatures()
+
+    const propiedades = features.map(feature => feature.getProperties())
+
+    const unicos = [
+      ...new Set(
+        propiedades.map(propiedad => propiedad[clasificacion.value.columna])
+      ),
+    ]
+
+    features.forEach(feature => {
+      let _estilo = estilo.value
+      _estilo[clasificacion.value.propiedadEstilo] = {
+        color:
+          clasificacion.value.colores[
+            unicos.indexOf(feature.getProperties()[clasificacion.value.columna])
+          ],
+      }
+
+      feature.setStyle(crearEstiloOl(_estilo))
+    })
+  }
+  watch(clasificacion, () => asignarClasificacion())
+
+  /**
+   *
+   * @param {*} olCapa
+   */
   function asignarEstilo(olCapa = vincular().capa()) {
-    olCapa.setStyle(
-      crearEstiloOl(combinarObjetos(estiloCapaPorDefecto, estilo.value))
-    )
+    if (clasificacion.value !== undefined) {
+      asignarClasificacion(olCapa)
+    } else {
+      olCapa.setStyle(crearEstiloOl(estilo.value))
+    }
   }
   watch(estilo, () => asignarEstilo())
 
+  /**
+   *
+   * @param {*} olCapa
+   */
   function agregarEmitsCarga(olCapa) {
     olCapa.getSource().on(VectorEventType.FEATURESLOADSTART, ({ target }) => {
       emitsParam('alIniciarCarga')
@@ -77,6 +129,10 @@ export default function usarCapaVectorial(propsParam, emitsParam) {
     )
   }
 
+  /**
+   *
+   * @param {*} olCapa
+   */
   function registrar(olCapa) {
     asignarEstilo(olCapa)
     agregarEmitsCarga(olCapa)
