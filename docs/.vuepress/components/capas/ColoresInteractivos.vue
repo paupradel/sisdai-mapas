@@ -11,6 +11,20 @@ const grosor = ref(1)
 
 <template>
   <sisdai-mapa :vista="{ centro: [-102, 24], zoom: 4.5 }">
+    <sisdai-capa-geojson
+      id="capa-color"
+      nombre="Capa con color interactivo"
+      :datos="edos"
+      :zIndex="1"
+      :estilo="{
+        contorno:
+          colorContorno !== 'no'
+            ? { color: colorContorno, grosor: grosor }
+            : colorContorno,
+        relleno: colorRelleno !== 'no' ? { color: colorRelleno } : colorRelleno,
+      }"
+    />
+
     <sisdai-mapa-encabezado>
       Interacón del estilo de una capa vectorial: <br />
       <div class="horizontal">
@@ -48,22 +62,12 @@ const grosor = ref(1)
         />
         {{ grosor }}
       </span>
+      <hr />
+
+      <sisdai-mapa-leyenda para="capa-color" />
     </sisdai-mapa-encabezado>
 
     <sisdai-capa-xyz :zIndex="0" />
-    <sisdai-capa-geojson
-      :datos="edos"
-      :zIndex="1"
-      :estilo="{
-        contorno:
-          colorContorno !== 'no'
-            ? { color: colorContorno, grosor: grosor }
-            : colorContorno,
-        relleno: colorRelleno !== 'no' ? { color: colorRelleno } : colorRelleno,
-      }"
-    />
-    <!--
-    -->
   </sisdai-mapa>
 </template>
 

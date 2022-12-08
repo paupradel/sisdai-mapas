@@ -29,6 +29,7 @@ export const props = {
 export default function usarLeyenda(propsParam) {
   const visibilidadCapa = ref(false)
   const nombreCapa = ref('Cargando...')
+  const estiloCapa = ref({})
 
   /**
    * En caso de que no se encuentre la capa en las capas registradas, llegar a esta funciónß.
@@ -55,5 +56,10 @@ export default function usarLeyenda(propsParam) {
     watch(nombre, nuevoValor => (nombreCapa.value = nuevoValor))
   }
 
-  return { vincularCapa, visibilidadCapa, nombreCapa }
+  return {
+    vincularCapa,
+    visibilidadCapa,
+    nombreCapa,
+    estiloCapa,
+  }
 }

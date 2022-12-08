@@ -152,6 +152,10 @@ export default function usarCapa(propsParam, emitsParam) {
     olCapa.setZIndex(zIndex.value)
   }
 
+  /**
+   *
+   * @returns
+   */
   function vincular() {
     return vincularCapa(idValida)
   }
@@ -169,7 +173,7 @@ export default function usarCapa(propsParam, emitsParam) {
       alternarVisibilidad,
       cambiarNombre,
       cambiarEstatusCarga,
-    } = vincular(idValida)
+    } = vincular()
 
     watch(visible, alternarVisibilidad)
     watch(visibilidad, nuevoValor =>

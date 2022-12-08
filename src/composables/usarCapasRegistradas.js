@@ -91,8 +91,32 @@ export default function usarCapasRegistradas() {
 
     const nombre = ref(capa().get('nombre'))
     const estatusCarga = ref(capa().get('estatusCarga'))
+    const estilo = ref(capa().get('estilo'))
     // const verCargador = ref(capa().get('verCargador'))
     const visibilidad = ref(capa().getVisible())
+
+    /**
+     * Cambia el nombre de la capa, la cual es visible en la leyenda nativa.
+     * @param {String} estado nombre a asignar.
+     */
+    function cambiarNombre(nuevoNombre) {
+      capa().set('nombre', nuevoNombre)
+    }
+    watch(
+      () => capa().values_.nombre,
+      nuevoValor => (nombre.value = nuevoValor)
+    )
+
+    /**
+     *
+     * @param {*} nuevoEstatus
+     */
+    function cambiarEstatusCarga(nuevoEstatus) {
+      estatusCarga.value = nuevoEstatus
+    }
+    watch(estatusCarga, nuevoEstatus =>
+      capa().set('estatusCarga', nuevoEstatus)
+    )
 
     /**
      * Cambiar el estado de visivilidad de una capa de acuerdo con su id. Si no se define el
@@ -109,32 +133,14 @@ export default function usarCapasRegistradas() {
     )
     watch(visibilidad, alternarVisibilidad)
 
-    /**
-     * Cambia el nombre de la capa, la cual es visible en la leyenda nativa.
-     * @param {String} estado nombre a asignar.
-     */
-    function cambiarNombre(nuevoNombre) {
-      capa().set('nombre', nuevoNombre)
-    }
-    watch(
-      () => capa().values_.nombre,
-      nuevoValor => (nombre.value = nuevoValor)
-    )
-
-    function cambiarEstatusCarga(nuevoEstatus) {
-      estatusCarga.value = nuevoEstatus
-    }
-    watch(estatusCarga, nuevoEstatus =>
-      capa().set('estatusCarga', nuevoEstatus)
-    )
-
     return {
       capa,
-      alternarVisibilidad,
       visibilidad,
-      cambiarNombre,
+      alternarVisibilidad,
       nombre,
+      cambiarNombre,
       cambiarEstatusCarga,
+      estilo,
     }
   }
 

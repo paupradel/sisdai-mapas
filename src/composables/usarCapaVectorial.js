@@ -67,6 +67,10 @@ export default function usarCapaVectorial(propsParam, emitsParam) {
 
   const { estilo, clasificacion } = toRefs(propsParam)
 
+  /**
+   *
+   * @param {*} olCapa
+   */
   function asignarClasificacion(olCapa) {
     const features = olCapa.getSource().getFeatures()
 
