@@ -105,6 +105,7 @@ export default function usarCapaVectorial(propsParam, emitsParam) {
       asignarClasificacion(olCapa)
     } else {
       olCapa.setStyle(crearEstiloOl(estilo.value))
+      olCapa.set('estilo', JSON.stringify(estilo.value))
     }
   }
   watch(estilo, () => asignarEstilo())

@@ -45,15 +45,18 @@ export default function usarLeyenda(propsParam) {
   function vincularCapa() {
     // console.log('tratando de vincular', propsParam.para)
 
-    const { alternarVisibilidad, visibilidad, nombre } =
+    const { alternarVisibilidad, visibilidad, nombre, estilo } =
       usarCapasRegistradas().vincularCapa(propsParam.para)
 
     visibilidadCapa.value = visibilidad.value
-    watch(visibilidad, nuevoValor => (visibilidadCapa.value = nuevoValor))
+    watch(visibilidad, nvoValor => (visibilidadCapa.value = nvoValor))
     watch(visibilidadCapa, alternarVisibilidad)
 
     nombreCapa.value = nombre.value
-    watch(nombre, nuevoValor => (nombreCapa.value = nuevoValor))
+    watch(nombre, nvoNombre => (nombreCapa.value = nvoNombre))
+
+    estiloCapa.value = JSON.parse(estilo.value)
+    watch(estilo, nvoEstilo => (estiloCapa.value = JSON.parse(nvoEstilo)))
   }
 
   return {

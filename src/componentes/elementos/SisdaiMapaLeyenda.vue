@@ -1,5 +1,5 @@
 <script setup>
-import { computed, onMounted, watch } from 'vue'
+import { computed, onMounted } from 'vue'
 import usarLeyenda, { props } from './../../composables/usarLeyenda'
 import { idAleatorio } from './../../utiles'
 
@@ -15,11 +15,24 @@ onMounted(() => {
 
 const idCheck = `${idAleatorio()}-${props.para}`
 
-watch(estiloCapa, n => {
-  console.log(n)
+const estiloACss = estilo => ({
+  background: {
+    color: estilo.relleno?.color ? estilo.relleno.color : 'none',
+  },
+  border: {
+    width: `${estilo.contorno?.grosor ? estilo.contorno.grosor : 0}px`,
+    style: estilo.contorno?.color ? 'solid' : 'none',
+    color: estilo.contorno?.color ? estilo.contorno.color : 'none',
+  },
 })
-const rellenoColor = computed(() =>
-  estiloCapa.value.relleno ? estiloCapa.value.relleno.color : 'none'
+
+const estiloCapaCss = computed(() => estiloACss(estiloCapa.value))
+const simboloVisible = computed(
+  () =>
+    !(
+      estiloCapaCss.value.background.color === 'none' &&
+      estiloCapaCss.value.border.style === 'none'
+    )
 )
 </script>
 
@@ -33,7 +46,7 @@ const rellenoColor = computed(() =>
     <label :for="idCheck">
       <span
         class="simbolo"
-        v-show="rellenoColor !== 'none'"
+        v-show="simboloVisible"
       />
       {{ nombreCapa }}
     </label>
@@ -50,12 +63,10 @@ const rellenoColor = computed(() =>
       margin-right: 5px;
       width: 16px;
       height: 16px;
-      background-color: v-bind(rellenoColor);
-      /*
-      border-width: calc(v-bind('estiloCapa.contorno.grosor') * 1px);
-      border-style: solid;
-      border-color: v-bind('estiloCapa.contorno.color');
-      */
+      background-color: v-bind('estiloCapaCss.background.color');
+      border-width: v-bind('estiloCapaCss.border.width');
+      border-style: v-bind('estiloCapaCss.border.style');
+      border-color: v-bind('estiloCapaCss.border.color');
     }
   }
 }

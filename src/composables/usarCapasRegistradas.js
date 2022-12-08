@@ -88,34 +88,42 @@ export default function usarCapasRegistradas() {
    */
   function vincularCapa(idCapa) {
     const capa = () => capasRegistradas[idCapa].value
+    const conseguir = id => capa().values_[id]
+    const asignar = (id, nvoValor) => capa().set(id, nvoValor)
 
-    const nombre = ref(capa().get('nombre'))
-    const estatusCarga = ref(capa().get('estatusCarga'))
-    const estilo = ref(capa().get('estilo'))
-    // const verCargador = ref(capa().get('verCargador'))
+    const nombre = ref(conseguir('nombre'))
+    const estatusCarga = ref(conseguir('estatusCarga'))
+    const estilo = ref(conseguir('estilo'))
+    // const verCargador = ref(conseguir('verCargador'))
     const visibilidad = ref(capa().getVisible())
 
     /**
      * Cambia el nombre de la capa, la cual es visible en la leyenda nativa.
-     * @param {String} estado nombre a asignar.
+     * @param {String} nvoNombre nombre a asignar.
      */
-    function cambiarNombre(nuevoNombre) {
-      capa().set('nombre', nuevoNombre)
-    }
+    const cambiarNombre = nvoNombre => asignar('nombre', nvoNombre)
     watch(
-      () => capa().values_.nombre,
-      nuevoValor => (nombre.value = nuevoValor)
+      () => conseguir('nombre'),
+      nvoNombre => (nombre.value = nvoNombre)
     )
 
     /**
      *
-     * @param {*} nuevoEstatus
+     * @param {*} nvoEstatus
      */
-    function cambiarEstatusCarga(nuevoEstatus) {
-      estatusCarga.value = nuevoEstatus
+    function cambiarEstatusCarga(nvoEstatus) {
+      estatusCarga.value = nvoEstatus
     }
-    watch(estatusCarga, nuevoEstatus =>
-      capa().set('estatusCarga', nuevoEstatus)
+    watch(estatusCarga, nvoEstatus => capa().set('estatusCarga', nvoEstatus))
+
+    /**
+     *
+     * @param {*} nvoEstilo
+     */
+    const cambiarEstilo = nvoEstilo => asignar('estilo', nvoEstilo)
+    watch(
+      () => conseguir('estilo'),
+      nvoEstilo => (estilo.value = nvoEstilo)
     )
 
     /**
@@ -141,6 +149,7 @@ export default function usarCapasRegistradas() {
       cambiarNombre,
       cambiarEstatusCarga,
       estilo,
+      cambiarEstilo,
     }
   }
 
