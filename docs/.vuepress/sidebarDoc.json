@@ -23,8 +23,8 @@
   },
   {
     "title": "Clasificación",
-    "collapsable": true,
-    "children": []
+    "collapsable": false,
+    "children": ["clasificacion"]
   },
   {
     "title": "Leyendas",

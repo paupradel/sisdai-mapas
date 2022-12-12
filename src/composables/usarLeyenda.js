@@ -55,7 +55,7 @@ export default function usarLeyenda(propsParam) {
     nombreCapa.value = nombre.value
     watch(nombre, nvoNombre => (nombreCapa.value = nvoNombre))
 
-    estiloCapa.value = JSON.parse(estilo.value)
+    estiloCapa.value = JSON.parse(estilo.value ? estilo.value : '{}')
     watch(estilo, nvoEstilo => (estiloCapa.value = JSON.parse(nvoEstilo)))
   }
 

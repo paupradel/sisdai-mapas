@@ -94,7 +94,6 @@ export default function usarCapaVectorial(propsParam, emitsParam) {
       feature.setStyle(crearEstiloOl(_estilo))
     })
   }
-  watch(clasificacion, () => asignarClasificacion())
 
   /**
    *
@@ -109,6 +108,7 @@ export default function usarCapaVectorial(propsParam, emitsParam) {
     }
   }
   watch(estilo, () => asignarEstilo())
+  watch(clasificacion, () => asignarEstilo())
 
   /**
    *

@@ -4,11 +4,9 @@ import edos from './../../capas/ejemplo-edos.json'
 
 <template>
   <sisdai-mapa :vista="{ centro: [-102, 24], zoom: 4.5 }">
-    <sisdai-mapa-encabezado> </sisdai-mapa-encabezado>
-
-    <sisdai-capa-xyz :zIndex="0" />
-
     <sisdai-capa-geojson
+      id="clasificada"
+      nombre="Capa clasificada"
       :datos="edos"
       :zIndex="1"
       :clasificacion="{
@@ -18,8 +16,14 @@ import edos from './../../capas/ejemplo-edos.json'
         colores: ['red', 'black', 'yellow', 'green', 'orange'],
       }"
     />
-    <!--
-    -->
+
+    <!--<sisdai-mapa-encabezado>
+
+      <hr>
+      <sisdai-mapa-leyenda para="clasificada" />
+    </sisdai-mapa-encabezado>-->
+
+    <sisdai-capa-xyz :zIndex="0" />
   </sisdai-mapa>
 </template>
 
