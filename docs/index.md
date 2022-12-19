@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /conacyt-isotipo.png
-tagline: Biblioteca de componentes reutilizables en proyectos escritos en VueJS, que forma parte del SIS-DAI y permite crear mapas interactivos de manera sencilla con diferentes formas de representación de datos geográficos (clasificación de datos, coropletas, símbolos graduados, clusters y texturas).
+tagline: Componentes de software libre para el Sistema de Diseño y Accesibilidad para la Investigación (Sisdai).
 actionText: Empezar
 actionLink: /doc/instalacion
 #features:
