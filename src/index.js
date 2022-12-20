@@ -1,81 +1,28 @@
-import {
-    DaiMap,
-    DaiCardMapContainer,
+import './estilos/index.scss'
+import Mapa from './componentes/SisdaiMapa.vue'
+import * as Capas from './componentes/capas'
+import * as Elementos from './componentes/elementos'
 
-    DaiXyzLayer,
-    DaiXyzLayerOsm,
-    DaiGeojsonLayer,
-    DaiCapaGeojsonCluster,
-    DaiCapaGeojsonPuntosDesplazados,
-    DaiCapaGeojsonHexbin,
-    DaiWmsLayer,
-    DaiTopojsonLayer,
+export default function plugin(Vue) {
+  if (plugin.installed) {
+    return
+  }
 
-    DaiLeyendaMapa,
-    DaiMapSelector,
-    DaiMapOpacity,
-    DaiMapSwitch,
-    DaiMapSearcher,
-    DaiMapInfo
-} from "./components"
+  plugin.installed = true
 
-import {
-    WidthControl
-} from "./directives"
+  agregarComponente(Mapa)
+  agregarComponentes(Capas)
+  agregarComponentes(Elementos)
 
-import "./styles/main.scss"
-export default function plugin(Vue){
-    if (plugin.installed) {
-        return
-    }
-    plugin.installed = true
-    Vue.use(DaiMap)
-    Vue.use(DaiCardMapContainer)
+  function agregarComponente(componente) {
+    Vue.component(componente.__name, componente)
+  }
 
-    Vue.use(DaiXyzLayer)
-    Vue.use(DaiXyzLayerOsm)
-    Vue.use(DaiGeojsonLayer)
-    Vue.use(DaiCapaGeojsonCluster)
-    Vue.use(DaiCapaGeojsonPuntosDesplazados)
-    Vue.use(DaiCapaGeojsonHexbin)
-    Vue.use(DaiWmsLayer)
-    Vue.use(DaiTopojsonLayer)
-
-    Vue.use(DaiLeyendaMapa)
-    Vue.use(DaiMapSelector)
-    Vue.use(DaiMapOpacity)
-    Vue.use(DaiMapSwitch)
-    Vue.use(DaiMapSearcher)
-    Vue.use(DaiMapInfo)
-
-    //directivas
-    Vue.directive(WidthControl.name,WidthControl);
-
+  function agregarComponentes(componentes) {
+    Object.values(componentes).forEach(componente =>
+      agregarComponente(componente)
+    )
+  }
 }
 
-export {
-    plugin as install,
-    //componentes
-    DaiMap,
-    DaiCardMapContainer,
-
-    DaiXyzLayer,
-    DaiXyzLayerOsm,
-    DaiGeojsonLayer,
-    DaiCapaGeojsonCluster,
-    DaiCapaGeojsonPuntosDesplazados,
-    DaiCapaGeojsonHexbin,
-    DaiWmsLayer,
-    DaiTopojsonLayer,
-
-    DaiLeyendaMapa,
-    DaiMapSelector,
-    DaiMapOpacity,
-    DaiMapSwitch,
-    DaiMapSearcher,
-    DaiMapInfo,
-
-    //directivas
-    WidthControl
-
-}
+export { plugin as install }

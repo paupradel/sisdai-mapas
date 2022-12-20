@@ -1,0 +1,10 @@
+[
+  {
+    "text": "Documentación",
+    "link": "/doc/introduccion"
+  },
+  {
+    "text": "Prueba",
+    "link": "/dev/"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Inicio",
+    "collapsable": false,
+    "children": ["introduccion"]
+  },
+  {
+    "title": "Mapa",
+    "collapsable": false,
+    "children": ["mapa"]
+  },
+  {
+    "title": "Contenedores",
+    "collapsable": true,
+    "children": ["contenedores"]
+  },
+  {
+    "title": "Capas",
+    "collapsable": false,
+    "children": [
+      "capas-general",
+      "capas-teselas",
+      "capas-vectoriales",
+      "capas-xyz",
+      "capas-wms",
+      "capas-geojson"
+    ]
+  },
+  {
+    "title": "Clasificación",
+    "collapsable": true,
+    "children": []
+  },
+  {
+    "title": "Leyendas",
+    "collapsable": false,
+    "children": ["leyenda"]
+  }
+]
