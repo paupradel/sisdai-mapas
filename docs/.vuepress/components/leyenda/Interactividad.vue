@@ -61,9 +61,7 @@ const wms = ref({
       </div>
 
       <hr />
-      Controles del mapa
-      <SisdaiMapaLeyenda :para="wms.id" />
-      <SisdaiMapaLeyenda :para="osm.id" />
+      <SisdaiMapaLeyenda titulo="Controles del mapa" :para="[wms.id, osm.id]" />
     </SisdaiMapaEncabezado>
   </SisdaiMapa>
 </template>

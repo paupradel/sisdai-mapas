@@ -5,10 +5,10 @@ import SisdaiCapaControl from './SisdaiCapaControl.vue'
 // eslint-disable-next-line
 const propsSetup = defineProps({
   /**
-   * para
+   * `para`
    * - Tipo: `String` o `Array`
    * - Obligatorio: ✅
-   * - Interactivo: ❌
+   * - Interactivo: ✅
    *
    * Identificador de la capa a la que se quiere vincular el control de leyenda.
    */
@@ -18,7 +18,12 @@ const propsSetup = defineProps({
   },
 
   /**
+   * `titulo`
+   * - Tipo: `String`
+   * - Valor por defecto: `undefined`
+   * - Interactivo: ✅
    *
+   * Titulo que tendrá la leyenda por encima de los controles de las capas con las que se vincule.
    */
   titulo: {
     type: String,
@@ -44,14 +49,14 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="sisdai-capa-leyenda">
+  <div class="sisdai-mapa-leyenda">
     <div
       class="titulo"
       v-show="titulo !== undefined"
     >
       {{ titulo }}
     </div>
-    <div class="contenido">
+    <div class="sisdai-mapa-leyenda-contenido">
       <SisdaiCapaControl
         v-for="idx in idsCapas"
         :key="`sisdai_mapa_control_${idx}`"
@@ -62,7 +67,12 @@ onMounted(() => {
 </template>
 
 <style lang="scss">
-.sisdai-capa-leyenda {
+.sisdai-mapa-leyenda {
+  &-contenido {
+    display: flex;
+    flex-direction: column;
+  }
+
   .titulo {
     font-size: 20px;
   }
