@@ -1,7 +1,8 @@
 <script setup>
-import { computed, onMounted } from 'vue'
+import { computed, onMounted, watch } from 'vue'
 import usarCapaControl, { props } from './../../composables/usarCapaControl'
 import { idAleatorio } from './../../utiles'
+import SisdaiClaseControl from './SisdaiClaseControl.vue'
 
 // eslint-disable-next-line
 const propsSetup = defineProps(props)
@@ -13,24 +14,15 @@ onMounted(() => vincularCapa())
 
 const idCheck = `${propsSetup.para}-${idAleatorio()}`
 
-const estiloACss = estilo => ({
-  background: {
-    color: estilo.relleno?.color ? estilo.relleno.color : 'none',
-  },
-  border: {
-    width: `${estilo.contorno?.grosor ? estilo.contorno.grosor : 0}px`,
-    style: estilo.contorno?.color ? 'solid' : 'none',
-    color: estilo.contorno?.color ? estilo.contorno.color : 'none',
-  },
+const clasesEstilos = computed(() => {
+  if (Array.isArray(estiloCapa.value)) {
+    return estiloCapa.value
+  }
+  return [{ estilo: estiloCapa.value }]
 })
-const estiloCapaCss = computed(() => estiloACss(estiloCapa.value))
-
-const simboloVisible = computed(
-  () =>
-    !(
-      estiloCapaCss.value.background.color === 'none' &&
-      estiloCapaCss.value.border.style === 'none'
-    )
+watch(
+  () => clasesEstilos.value.length,
+  n => console.log('clases', n)
 )
 </script>
 
@@ -46,9 +38,10 @@ const simboloVisible = computed(
       class="sisdai-mapa-capa-control-etiequeta"
       :for="idCheck"
     >
-      <span
-        class="sisdai-mapa-capa-control-simbolo"
-        v-show="simboloVisible"
+      <SisdaiClaseControl
+        v-for="(clase, idx) in clasesEstilos"
+        :key="`estilo-${idx}`"
+        :estiloClase="clase.estilo"
       />
       {{ nombreCapa }}
     </label>
@@ -60,16 +53,6 @@ const simboloVisible = computed(
   &-etiequeta {
     align-items: center;
     // background-color: black;
-  }
-
-  &-simbolo {
-    margin-right: 5px;
-    width: 16px;
-    height: 16px;
-    background-color: v-bind('estiloCapaCss.background.color');
-    border-width: v-bind('estiloCapaCss.border.width');
-    border-style: v-bind('estiloCapaCss.border.style');
-    border-color: v-bind('estiloCapaCss.border.color');
   }
 }
 </style>
