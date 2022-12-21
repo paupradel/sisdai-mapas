@@ -82,11 +82,26 @@ export default function usarCapasRegistradas() {
   )
 
   /**
+   * Devuelve un booleando dependiendo si la capa de referencia está registrada en las capas.
+   * @param {String} idCapa identificador de la capa.
+   * @returns {Boolean} ture si la capa está registrada.
+   */
+  function capaEstaRegistrada(idCapa) {
+    return Object.hasOwnProperty.call(capasRegistradas, idCapa)
+  }
+
+  /**
    * Esta función en un pequeño composable para acceder a propiedades reactivas y funciones de a
    * una capa en especifico.
    * @param {String} idCapa id de la caopa a la que se vinculará.
    */
   function vincularCapa(idCapa) {
+    if (!capaEstaRegistrada(idCapa)) {
+      // eslint-disable-next-line
+      console.warn(`La capa ${idCapa} no existe`)
+      return {}
+    }
+
     const capa = () => capasRegistradas[idCapa].value
     const conseguir = id => capa().values_[id]
     const asignar = (id, nvoValor) => capa().set(id, nvoValor)
@@ -158,6 +173,7 @@ export default function usarCapasRegistradas() {
     limpiarRegistro,
     registrarNuevaCapa,
     vincularCapa,
+    capaEstaRegistrada,
     hayCapasCargadorVisibleProcesando,
   }
 }

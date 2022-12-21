@@ -1,7 +1,5 @@
 # Categorías
 
-
-
 <capas-ClasificacionCoropleta />
 
 ```html

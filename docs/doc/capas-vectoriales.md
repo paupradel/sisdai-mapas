@@ -9,14 +9,7 @@ Las capas vectoriales nos permiten manipular su información de forma local, est
 #### `estilo`
 
 - Tipo: `Object`
-- Valor por defecto: `{ relleno: {
-    color: 'gray',
-  },
-  contorno: {
-    color: 'white',
-    grosor: 1,
-  },
-  radio: 7 }`
+- Valor por defecto: `{ relleno: { color: 'gray', }, contorno: { color: 'white', grosor: 1, }, radio: 7 }`
 - Interactivo: ✅
 
 Esta propiedad permite asignar un estilo a los elementos de la copa. Las propiedades que no sean definidas serán ignoradas.
@@ -26,7 +19,6 @@ Esta propiedad permite asignar un estilo a los elementos de la copa. Las propied
 - Tipo: `Object`
 - Valor por defecto: `undefined`
 - Interactivo: ✅
-
 
 ## Estilo interactivo
 
