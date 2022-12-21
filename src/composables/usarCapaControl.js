@@ -1,5 +1,5 @@
 /**
- * @module composables/usarLeyenda
+ * @module composables/usarCapaControl
  */
 
 import { ref, watch } from 'vue'
@@ -35,6 +35,8 @@ export default function usarCapaControl(propsParam) {
    * Ejecutar esta función para vincular el idCapa con alguna capa registrada.
    */
   function vincularCapa() {
+    if (!usarCapasRegistradas().capaEstaRegistrada(propsParam.para)) return
+
     const { alternarVisibilidad, visibilidad, nombre, estilo } =
       usarCapasRegistradas().vincularCapa(propsParam.para)
 
