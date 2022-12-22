@@ -135,11 +135,20 @@ export default function usarCapasRegistradas() {
      *
      * @param {*} nvoEstilo
      */
-    const cambiarEstilo = nvoEstilo => asignar('estilo', nvoEstilo)
+    function cambiarEstilo(nvoEstilo, accion) {
+      asignar('estilo', JSON.stringify(nvoEstilo))
+      accion(capa())
+    }
     watch(
       () => conseguir('estilo'),
       nvoEstilo => (estilo.value = nvoEstilo)
     )
+    // function asignarEstilo() {
+    //   capa()
+    //     .getSource()
+    //     .getFeatures()
+    //     .forEach(feature => {})
+    // }
 
     /**
      * Cambiar el estado de visivilidad de una capa de acuerdo con su id. Si no se define el

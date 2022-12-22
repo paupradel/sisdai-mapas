@@ -3,10 +3,10 @@
  */
 
 import VectorEventType from 'ol/source/VectorEventType'
+import GeoJSON from 'ol/format/GeoJSON'
 import tiposEstatusCarga from './../defaults/estatusCarga'
 import { crearEstiloOl } from './casificacion/json2estiloOl'
 import estiloCapaPorDefecto from './../defaults/estiloCapa'
-// import { combinarObjetos } from './../utiles/index'
 import usarCapa, { props as propsCapa, emits as emitsCapa } from './usarCapa'
 import { toRefs, watch } from 'vue'
 
@@ -59,6 +59,8 @@ export const props = {
 export const emits = [...emitsCapa]
 
 export default function usarCapaVectorial(propsParam, emitsParam) {
+  let featuresTodos = '[]'
+
   const {
     estatusCarga,
     registrar: registrarCapa,
@@ -68,47 +70,12 @@ export default function usarCapaVectorial(propsParam, emitsParam) {
   const { estilo, clasificacion } = toRefs(propsParam)
 
   /**
-   *
-   * @param {*} olCapa
+   * Agrega los porps al objeto y propiedades de la capa.
+   * @param {import("ol/layer/Layer.js").default} olCapa objeto de capa de openlayers.
    */
-  function asignarClasificacion(olCapa) {
-    const features = olCapa.getSource().getFeatures()
-
-    const propiedades = features.map(feature => feature.getProperties())
-
-    const unicos = [
-      ...new Set(
-        propiedades.map(propiedad => propiedad[clasificacion.value.columna])
-      ),
-    ]
-
-    features.forEach(feature => {
-      let _estilo = estilo.value
-      _estilo[clasificacion.value.propiedadEstilo] = {
-        color:
-          clasificacion.value.colores[
-            unicos.indexOf(feature.getProperties()[clasificacion.value.columna])
-          ],
-      }
-
-      feature.setStyle(crearEstiloOl(_estilo))
-    })
+  function asignarPorps(olCapa) {
+    olCapa.set('estilo', JSON.stringify(estilo.value))
   }
-
-  /**
-   *
-   * @param {*} olCapa
-   */
-  function asignarEstilo(olCapa = vincular().capa()) {
-    if (clasificacion.value !== undefined) {
-      asignarClasificacion(olCapa)
-    } else {
-      olCapa.setStyle(crearEstiloOl(estilo.value))
-      olCapa.set('estilo', JSON.stringify(estilo.value))
-    }
-  }
-  watch(estilo, () => asignarEstilo())
-  watch(clasificacion, () => asignarEstilo())
 
   /**
    *
@@ -138,10 +105,94 @@ export default function usarCapaVectorial(propsParam, emitsParam) {
    *
    * @param {*} olCapa
    */
+  function asignarEstilo(olCapa) {
+    olCapa.setStyle(crearEstiloOl(estilo.value))
+  }
+
+  function conseguirClases(clasificacion) {
+    // unicos
+    return [
+      ...new Set(
+        JSON.parse(featuresTodos)
+          .map(feature => feature.properties)
+          .map(propiedad => propiedad[clasificacion.columna])
+      ),
+    ]
+  }
+
+  function conseguirEstilosClases(clases) {
+    return clases.map((clase, idx) => {
+      let _estilo = { ...estilo.value }
+      if (clasificacion.value.colores) {
+        if (clasificacion.value.colores[idx]) {
+          _estilo[clasificacion.value.propiedadEstilo] = {
+            color: clasificacion.value.colores[idx],
+          }
+        }
+      }
+
+      return {
+        clase,
+        etiqueta: clase,
+        orden: idx,
+        estilo: _estilo,
+        cantidad: 0,
+      }
+    })
+  }
+
+  function asignarClasificacion(olCapa, estilosCalses) {
+    olCapa
+      .getSource()
+      .getFeatures()
+      .forEach(feature => {
+        feature.setStyle(
+          crearEstiloOl(
+            estilosCalses.find(
+              clase => clase.clase === feature.get(clasificacion.value.columna)
+            ).estilo
+          )
+        )
+      })
+  }
+
+  /**
+   *
+   * @param {*} olCapa
+   */
   function registrar(olCapa) {
-    asignarEstilo(olCapa)
+    asignarPorps(olCapa)
     agregarEmitsCarga(olCapa)
     registrarCapa(olCapa)
+
+    const { cambiarEstilo } = vincular()
+
+    if (clasificacion.value !== undefined) {
+      console.log('clasificar')
+      featuresTodos = JSON.stringify(
+        new GeoJSON().writeFeaturesObject(olCapa.getSource().getFeatures())
+          .features
+      )
+
+      const estilosCalses = conseguirEstilosClases(
+        conseguirClases(clasificacion.value)
+      )
+      cambiarEstilo(estilosCalses, capa =>
+        asignarClasificacion(capa, estilosCalses)
+      )
+    } else {
+      cambiarEstilo(estilo.value, asignarEstilo)
+    }
+
+    watch(estilo, nuevoEstilo => cambiarEstilo(nuevoEstilo, asignarEstilo))
+    watch(clasificacion, nuevaClasificacion => {
+      const estilosCalses = conseguirEstilosClases(
+        conseguirClases(nuevaClasificacion)
+      )
+      cambiarEstilo(estilosCalses, capa =>
+        asignarClasificacion(capa, estilosCalses)
+      )
+    })
   }
 
   return {
