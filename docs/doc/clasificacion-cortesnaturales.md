@@ -1,5 +1,6 @@
-# Generalidades
+# Cortes naturales
 
+<capas-ClasificacionCategorias />
 
 ```html
 <sisdai-capa-geojson

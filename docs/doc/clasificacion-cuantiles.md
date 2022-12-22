@@ -1,5 +1,6 @@
-# Generalidades
+# Cuantiles
 
+<capas-ClasificacionCategorias />
 
 ```html
 <sisdai-capa-geojson

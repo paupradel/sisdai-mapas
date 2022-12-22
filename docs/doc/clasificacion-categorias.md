@@ -1,5 +1,6 @@
-# Generalidades
+# Categorías
 
+<capas-ClasificacionCategorias />
 
 ```html
 <sisdai-capa-geojson

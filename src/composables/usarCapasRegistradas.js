@@ -143,12 +143,6 @@ export default function usarCapasRegistradas() {
       () => conseguir('estilo'),
       nvoEstilo => (estilo.value = nvoEstilo)
     )
-    // function asignarEstilo() {
-    //   capa()
-    //     .getSource()
-    //     .getFeatures()
-    //     .forEach(feature => {})
-    // }
 
     /**
      * Cambiar el estado de visivilidad de una capa de acuerdo con su id. Si no se define el

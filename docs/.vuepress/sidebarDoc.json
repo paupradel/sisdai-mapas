@@ -24,7 +24,13 @@
   {
     "title": "Clasificación",
     "collapsable": false,
-    "children": ["clasificacion"]
+    "children": [
+      "clasificacion",
+      "clasificacion-categorias",
+      "clasificacion-cuantiles",
+      "clasificacion-linear",
+      "clasificacion-cortesnaturales"
+    ]
   },
   {
     "title": "Leyendas",

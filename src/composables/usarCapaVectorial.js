@@ -126,6 +126,7 @@ export default function usarCapaVectorial(propsParam, emitsParam) {
       if (clasificacion.value.colores) {
         if (clasificacion.value.colores[idx]) {
           _estilo[clasificacion.value.propiedadEstilo] = {
+            ..._estilo[clasificacion.value.propiedadEstilo],
             color: clasificacion.value.colores[idx],
           }
         }

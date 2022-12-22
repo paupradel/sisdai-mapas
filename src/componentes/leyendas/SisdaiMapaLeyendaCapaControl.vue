@@ -16,6 +16,7 @@ onMounted(() => vincularCapa())
 const idCheck = `${propsSetup.para}-${idAleatorio()}`
 
 function alternarVisibilidadClase(clase) {
+  // eslint-disable-next-line
   console.log('alternarVisibilidadClase', clase)
 }
 </script>

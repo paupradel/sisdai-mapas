@@ -4,7 +4,7 @@ import edos from './../../capas/ejemplo-edos.json'
 
 const propiedadesEstilo = ['relleno', 'contorno', 'radio']
 const propiedadEstilo = ref('relleno')
-const colores = ref(['red', 'black', 'yellow', 'green', 'orange'])
+const colores = ref(['green', 'greenyellow', 'yellow', 'orange', 'red'])
 </script>
 
 <template>
@@ -19,7 +19,7 @@ const colores = ref(['red', 'black', 'yellow', 'green', 'orange'])
         columna: 'grado_marg',
         propiedadEstilo: propiedadEstilo,
         colores: colores,
-        ordenCategorias: [],
+        ordenCategorias: ['Muy bajo','Bajo','Medio','Alto','Muy alto'],
         etiquetasPersonalizadas: [],
       }"
     />
@@ -39,10 +39,10 @@ const colores = ref(['red', 'black', 'yellow', 'green', 'orange'])
         </select>
       </div>
 
-      <div class="horizontal">
+      <!--<div class="horizontal">
         Colores:
         <span
-          v-for="(color, idx) in ['red', 'black', 'yellow', 'green', 'orange']"
+          v-for="(color, idx) in ['green', 'greenyellow', 'yellow', 'orange', 'red']"
           :key="`check-color-${idx}`"
         >
           <input
@@ -51,10 +51,9 @@ const colores = ref(['red', 'black', 'yellow', 'green', 'orange'])
             :value="color"
             v-model="colores"
           />
-          <label :for="`check-color-${idx}`">{{color}}</label>
+          <label :for="`check-color-${idx}`">{{ color }}</label>
         </span>
-      </div>
-      {{colores}}
+      </div>-->
 
       <hr />
       <sisdai-mapa-leyenda para="clasificada" />

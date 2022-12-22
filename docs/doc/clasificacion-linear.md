@@ -1,5 +1,6 @@
-# Generalidades
+# Linear o Intervalos iguales
 
+<capas-ClasificacionCategorias />
 
 ```html
 <sisdai-capa-geojson
