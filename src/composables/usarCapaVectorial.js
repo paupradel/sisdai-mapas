@@ -4,7 +4,7 @@
 
 import VectorEventType from 'ol/source/VectorEventType'
 import GeoJSON from 'ol/format/GeoJSON'
-import { scaleQuantile } from 'd3'
+import { scaleQuantile, scaleLinear } from 'd3'
 import tiposEstatusCarga from './../defaults/estatusCarga'
 import { crearEstiloOl } from './casificacion/json2estiloOl'
 import estiloCapaPorDefecto from './../defaults/estiloCapa'
@@ -137,6 +137,24 @@ export default function usarCapaVectorial(propsParam, emitsParam) {
 
         clasificacion.value.colores.forEach(color => {
           clases[color] = cuantiles.invertExtent(color)
+        })
+
+        return clases
+      }
+
+      case 'linear': {
+        const datosParaClasificar = conseguirDatosParaClasificar()
+        const minMax = [
+          Math.min(...datosParaClasificar),
+          Math.max(...datosParaClasificar),
+        ]
+
+        let linear_fn = scaleLinear()
+          .domain(minMax)
+          .range([0, clasificacion.value.colores.length])
+
+        clasificacion.value.colores.forEach((color, idx) => {
+          clases[color] = [linear_fn.invert(idx), linear_fn.invert(idx + 1)]
         })
 
         return clases
