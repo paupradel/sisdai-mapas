@@ -1,8 +1,9 @@
 <script setup>
 import { ref } from 'vue'
+import { personalidada } from '../../../../src/composables/casificacion/categorias'
 import edos from './../../capas/ejemplo-edos.json'
 
-const clasificaciones = ['cuantiles', 'linear', 'cortes-naturales']
+const clasificaciones = ['cuantiles', 'linear', 'cortes-naturales', 'personalidada']
 const tipoClasificacion = ref('cuantiles')
 const colores = ref(['green', 'greenyellow', 'yellow', 'orange', 'red'])
 </script>
@@ -19,6 +20,13 @@ const colores = ref(['green', 'greenyellow', 'yellow', 'orange', 'red'])
         columna: 'pob18ymas',
         propiedadEstilo: 'relleno',
         colores: colores,
+        clasificacionPersonalizada: [
+          [540672,1706000],
+          [1706000,2923000],
+          [2923000,4579000],
+          [4579000,6027000],
+          [6027000,12083969],
+        ]
       }"
     />
 

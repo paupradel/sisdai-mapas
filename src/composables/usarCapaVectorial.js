@@ -173,15 +173,16 @@ export default function usarCapaVectorial(propsParam, emitsParam) {
         return clases
       }
 
-      default:
-        return [
-          ...new Set(
-            JSON.parse(featuresTodos)
-              .map(feature => feature.properties)
-              .map(propiedad => propiedad[clasificacion.value.columna])
-          ),
-        ]
+      case 'personalidada': {
+        clasificacion.value.colores.forEach((color, idx) => {
+          clases[color] = clasificacion.value.clasificacionPersonalizada[idx]
+        })
+
+        return clases
+      }
     }
+
+    return clases
   }
 
   function estiloPorClase(color) {
