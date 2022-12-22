@@ -3,4 +3,4 @@
  */
 
 export { default as Leyenda } from './SisdaiMapaLeyenda.vue'
-export { default as Control } from './SisdaiCapaControl.vue'
+export { default as Control } from './SisdaiMapaLeyendaCapaControl.vue'

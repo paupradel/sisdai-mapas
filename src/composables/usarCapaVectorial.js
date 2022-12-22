@@ -132,8 +132,8 @@ export default function usarCapaVectorial(propsParam, emitsParam) {
       }
 
       return {
-        clase,
-        etiqueta: clase,
+        clase: String(clase),
+        etiqueta: String(clase),
         orden: idx,
         estilo: _estilo,
         cantidad: 0,
@@ -149,7 +149,8 @@ export default function usarCapaVectorial(propsParam, emitsParam) {
         feature.setStyle(
           crearEstiloOl(
             estilosCalses.find(
-              clase => clase.clase === feature.get(clasificacion.value.columna)
+              clase =>
+                clase.clase === String(feature.get(clasificacion.value.columna))
             ).estilo
           )
         )

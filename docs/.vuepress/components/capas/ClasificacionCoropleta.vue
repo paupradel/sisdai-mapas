@@ -19,7 +19,7 @@ const colores = ref(['red', 'black', 'yellow', 'green', 'orange'])
         columna: 'grado_marg',
         propiedadEstilo: propiedadEstilo,
         colores: colores,
-        ordenVisibles: [],
+        ordenCategorias: [],
         etiquetasPersonalizadas: [],
       }"
     />

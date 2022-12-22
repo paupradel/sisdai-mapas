@@ -1,6 +1,6 @@
 <script setup>
 import { onMounted, ref, toRefs, watch } from 'vue'
-import SisdaiCapaControl from './SisdaiCapaControl.vue'
+import SisdaiMapaLeyendaCapaControl from './SisdaiMapaLeyendaCapaControl.vue'
 
 // eslint-disable-next-line
 const propsSetup = defineProps({
@@ -57,7 +57,7 @@ onMounted(() => {
       {{ titulo }}
     </div>
     <div class="sisdai-mapa-leyenda-contenido">
-      <SisdaiCapaControl
+      <SisdaiMapaLeyendaCapaControl
         v-for="idx in idsCapas"
         :key="`sisdai_mapa_control_${idx}`"
         :para="idx"
