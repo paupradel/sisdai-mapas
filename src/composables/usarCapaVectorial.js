@@ -5,6 +5,7 @@
 import VectorEventType from 'ol/source/VectorEventType'
 import GeoJSON from 'ol/format/GeoJSON'
 import { scaleQuantile, scaleLinear } from 'd3'
+import ss from './../utiles/_cortes_naturales'
 import tiposEstatusCarga from './../defaults/estatusCarga'
 import { crearEstiloOl } from './casificacion/json2estiloOl'
 import estiloCapaPorDefecto from './../defaults/estiloCapa'
@@ -144,17 +145,29 @@ export default function usarCapaVectorial(propsParam, emitsParam) {
 
       case 'linear': {
         const datosParaClasificar = conseguirDatosParaClasificar()
-        const minMax = [
-          Math.min(...datosParaClasificar),
-          Math.max(...datosParaClasificar),
-        ]
 
-        let linear_fn = scaleLinear()
-          .domain(minMax)
+        let linear = scaleLinear()
+          .domain([
+            Math.min(...datosParaClasificar),
+            Math.max(...datosParaClasificar),
+          ])
           .range([0, clasificacion.value.colores.length])
 
         clasificacion.value.colores.forEach((color, idx) => {
-          clases[color] = [linear_fn.invert(idx), linear_fn.invert(idx + 1)]
+          clases[color] = [linear.invert(idx), linear.invert(idx + 1)]
+        })
+
+        return clases
+      }
+
+      case 'cortes-naturales': {
+        const cortes = ss.jenks(
+          conseguirDatosParaClasificar(),
+          clasificacion.value.colores.length
+        )
+
+        clasificacion.value.colores.forEach((color, idx) => {
+          clases[color] = [cortes[idx], cortes[idx + 1]]
         })
 
         return clases
