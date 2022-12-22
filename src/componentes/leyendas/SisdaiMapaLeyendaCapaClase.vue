@@ -44,7 +44,7 @@ const emit = defineEmits(['alternar-visibilidad'])
     @click="emit('alternar-visibilidad')"
   >
     <span class="sisdai-mapa-leyenda-capa-clase-color" />
-    {{ etiqueta }}
+    <span class="sisdai-mapa-leyenda-capa-clase-etiqueta"> {{ etiqueta }}</span>
   </div>
 </template>
 
@@ -63,6 +63,10 @@ const emit = defineEmits(['alternar-visibilidad'])
     border-width: v-bind('estiloClaseCss.border.width');
     border-style: v-bind('estiloClaseCss.border.style');
     border-color: v-bind('estiloClaseCss.border.color');
+  }
+
+  &-etiqueta {
+    text-align: center;
   }
 }
 </style>

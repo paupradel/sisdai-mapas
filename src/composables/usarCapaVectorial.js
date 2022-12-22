@@ -174,7 +174,11 @@ export default function usarCapaVectorial(propsParam, emitsParam) {
       if (Object.hasOwnProperty.call(clases, color)) {
         estilosClases.push({
           clase: String(clases[color]),
-          etiqueta: String(clases[color]),
+          etiqueta: Array.isArray(clases[color])
+            ? `${Math.round(clases[color][0])} a ${Math.round(
+                clases[color][1]
+              )}`
+            : String(clases[color]),
           regla: clases[color],
           estilo: estiloPorClase(color),
           cantidad: 0,
