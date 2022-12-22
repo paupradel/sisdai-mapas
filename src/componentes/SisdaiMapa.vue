@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, onUnmounted, ref, defineExpose } from 'vue'
+import { onMounted, onUnmounted, ref } from 'vue'
 import 'ol/ol.css'
 import Map from 'ol/Map'
 // import View from 'ol/View'
@@ -58,6 +58,7 @@ onUnmounted(() => {
   desmontar()
 })
 
+// eslint-disable-next-line
 defineExpose({ ajustarVista, ajustarVistaPorCapasVisibles: undefined })
 </script>
 

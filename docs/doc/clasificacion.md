@@ -1,6 +1,5 @@
 # Generalidades
 
-
 ```html
 <sisdai-capa-geojson
   id="clasificada"

@@ -236,7 +236,7 @@ export default function usarMapa(propsParam, emitsParam) {
    */
   function desmontar() {
     limpiarCapasRegistradas()
-    olMapa.valor = undefined
+    olMapa.value = undefined
   }
 
   /**

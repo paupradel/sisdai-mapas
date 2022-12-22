@@ -40,12 +40,11 @@ la etiqueta `SisdaiMapa` dentro del `template` del HTML y agrega las capas y
 directivas que necesites:
 
 ```html
-
 <SisdaiMapa
   :zoom="2"
   :centro="0,0"
 >
-  <SisdaiCapaXyzOsm/>
+  <SisdaiCapaXyzOsm />
 </SisdaiMapa>
 ```
 
@@ -81,5 +80,4 @@ Sisdai está alineado a las disposiciones establecidas por la Coordinación de E
 Para contribuir al proyecto, se pide que se haga por medio de los lineamientos de contribución de SALSA que se
 pueden consultar [aquí](https://salsa.crip.conacyt.mx/guidelines/contribute/).
 
-*En los lineamientos de contribución se lista la rama _master_ como principal, sin embargo en este proyecto, dicha
-rama es _main_.
+\*En los lineamientos de contribución se lista la rama _master_ como principal, sin embargo en este proyecto, dicha rama es _main_.
