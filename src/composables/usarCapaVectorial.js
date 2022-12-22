@@ -4,6 +4,7 @@
 
 import VectorEventType from 'ol/source/VectorEventType'
 import GeoJSON from 'ol/format/GeoJSON'
+import { scaleQuantile } from 'd3'
 import tiposEstatusCarga from './../defaults/estatusCarga'
 import { crearEstiloOl } from './casificacion/json2estiloOl'
 import estiloCapaPorDefecto from './../defaults/estiloCapa'
@@ -109,53 +110,108 @@ export default function usarCapaVectorial(propsParam, emitsParam) {
     olCapa.setStyle(crearEstiloOl(estilo.value))
   }
 
-  function conseguirClases(clasificacion) {
-    // unicos
-    return [
-      ...new Set(
-        JSON.parse(featuresTodos)
-          .map(feature => feature.properties)
-          .map(propiedad => propiedad[clasificacion.columna])
-      ),
-    ]
+  function conseguirDatosParaClasificar() {
+    return JSON.parse(featuresTodos).map(
+      feature => feature.properties[clasificacion.value.columna]
+    )
   }
 
-  function conseguirEstilosClases(clases) {
-    return clases.map((clase, idx) => {
-      let _estilo = { ...estilo.value }
-      if (clasificacion.value.colores) {
-        if (clasificacion.value.colores[idx]) {
-          _estilo[clasificacion.value.propiedadEstilo] = {
-            ..._estilo[clasificacion.value.propiedadEstilo],
-            color: clasificacion.value.colores[idx],
-          }
-        }
+  function conseguirClases() {
+    const clases = {}
+
+    switch (clasificacion.value.tipo) {
+      case 'categorias': {
+        const unicos = [...new Set(conseguirDatosParaClasificar())]
+
+        clasificacion.value.colores.forEach((color, idx) => {
+          clases[color] = unicos[idx]
+        })
+
+        return clases
       }
 
-      return {
-        clase: String(clase),
-        etiqueta: String(clase),
-        orden: idx,
-        estilo: _estilo,
-        cantidad: 0,
+      case 'cuantiles': {
+        const cuantiles = scaleQuantile()
+          .domain(conseguirDatosParaClasificar())
+          .range(clasificacion.value.colores)
+
+        clasificacion.value.colores.forEach(color => {
+          clases[color] = cuantiles.invertExtent(color)
+        })
+
+        return clases
       }
-    })
+
+      default:
+        return [
+          ...new Set(
+            JSON.parse(featuresTodos)
+              .map(feature => feature.properties)
+              .map(propiedad => propiedad[clasificacion.value.columna])
+          ),
+        ]
+    }
+  }
+
+  function estiloPorClase(color) {
+    let _estilo = { ...estilo.value }
+
+    if (clasificacion.value.colores) {
+      _estilo[clasificacion.value.propiedadEstilo] = {
+        ..._estilo[clasificacion.value.propiedadEstilo],
+        color: color,
+      }
+    }
+
+    return _estilo
+  }
+
+  function conseguirEstilosClases() {
+    const estilosClases = []
+    const clases = conseguirClases()
+
+    for (const color in clases) {
+      if (Object.hasOwnProperty.call(clases, color)) {
+        estilosClases.push({
+          clase: String(clases[color]),
+          etiqueta: String(clases[color]),
+          regla: clases[color],
+          estilo: estiloPorClase(color),
+          cantidad: 0,
+          // orden: idx,
+        })
+      }
+    }
+
+    return estilosClases
   }
 
   function asignarClasificacion(olCapa, estilosCalses) {
-    olCapa
-      .getSource()
-      .getFeatures()
-      .forEach(feature => {
+    const estilosCalsesOl = estilosCalses.map(clase => ({
+      estilo: crearEstiloOl(clase.estilo),
+      rango: clase.regla,
+    }))
+
+    function reglaEstilo(feature) {
+      if (clasificacion.value.tipo === 'categorias') {
         feature.setStyle(
-          crearEstiloOl(
-            estilosCalses.find(
-              clase =>
-                clase.clase === String(feature.get(clasificacion.value.columna))
-            ).estilo
-          )
+          estilosCalsesOl.find(
+            clase => clase.rango === feature.get(clasificacion.value.columna)
+          ).estilo
         )
-      })
+      } else {
+        // temp0.find(v=>x > v.rango[0] && x <= v.rango[1])
+        feature.setStyle(
+          estilosCalsesOl.find(
+            clase =>
+              feature.get(clasificacion.value.columna) >= clase.rango[0] &&
+              feature.get(clasificacion.value.columna) <= clase.rango[1]
+          ).estilo
+        )
+      }
+    }
+
+    olCapa.getSource().getFeatures().forEach(reglaEstilo)
   }
 
   /**
