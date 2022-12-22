@@ -34,15 +34,14 @@ const estiloACss = estilo => ({
 })
 const estiloClaseCss = computed(() => estiloACss(estiloClase.value))
 
-function seleccioando() {
-  console.log('seleccionado')
-}
+// eslint-disable-next-line
+const emit = defineEmits(['alternar-visibilidad'])
 </script>
 
 <template>
   <div
     class="sisdai-mapa-leyenda-capa-clase"
-    @click="seleccioando"
+    @click="emit('alternar-visibilidad')"
   >
     <span class="sisdai-mapa-leyenda-capa-clase-color" />
     {{ etiqueta }}
@@ -52,12 +51,14 @@ function seleccioando() {
 <style lang="scss" scoped>
 .sisdai-mapa-leyenda-capa-clase {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
 
   &-color {
     margin-right: 5px;
-    width: 16px;
-    height: 16px;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
     background-color: v-bind('estiloClaseCss.background.color');
     border-width: v-bind('estiloClaseCss.border.width');
     border-style: v-bind('estiloClaseCss.border.style');
