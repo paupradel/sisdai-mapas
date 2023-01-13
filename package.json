@@ -22,16 +22,16 @@
   "dependencies": {
     "core-js": "^3.27.1",
     "d3": "^7.8.0",
-    "sisdai-css": "github:salsa-community/sisdai-css",
     "ol": "^7.2.2",
     "simple-statistics": "^7.8.0",
+    "sisdai-css": "github:salsa-community/sisdai-css#v0.31.2",
     "vue": "^2.7.14"
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/eslint-parser": "^7.19.1",
     "@vue/cli-plugin-babel": "^5.0.8",
-    "@vue/cli-plugin-eslint": "~5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
     "@vue/cli-service": "^5.0.8",
     "eslint": "^8.31.0",
     "eslint-config-prettier": "^8.6.0",
