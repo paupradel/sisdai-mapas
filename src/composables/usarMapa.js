@@ -4,10 +4,13 @@
 
 import { ref, toRefs, watch } from 'vue'
 // import MapEventType from 'ol/MapEventType'
-
+import View from 'ol/View'
 import ControlEscalaGrafica from './../controles/EscalaGrafica'
-import ControlVistaInicial from './../controles/VistaInicial'
+// import ControlVistaInicial from './../controles/VistaInicial'
+import AjusteVista from './../controles/AjusteVista'
 import usarCapasRegistradas from './usarCapasRegistradas'
+import vistaMapaDefault from './../defaults/vistaMapa'
+import { extensionEsValida } from './../utiles'
 
 /**
  * Objeto que contendrá la instancia del mapa, declararlo fuera de la función composable hace que
@@ -29,11 +32,11 @@ export const props = {
    *
    * > ⚠️ **Importante:** Debe tener en cuenta que si la propiedad `extension` se define, esta
    * propiedad será ignorada.
-   */
-  centro: {
-    type: Array,
-    default: () => [0, 0],
-  },
+   centro: {
+     type: Array,
+     default: () => [0, 0],
+    },
+    */
 
   /**
    * extension
@@ -48,19 +51,38 @@ export const props = {
    *
    * > ⚠️ **Importante:** Debe tener en cuenta que si esta propiedad es definida o diferente al
    * valor por defecto, las propiedades `centro` y `zoom` serán ignoradas.
+   extension: {
+     type: Array,
+     default: () => [0, 0, 0, 0],
+    },
+    */
+
+  /**
+   * `ajustarVistaPorCapasVisibles`
+   * - Tipo: `Boolean`
+   * - Valor por defecto: `false`
+   * - Interactivo: ✅
+   *
+   * Define si al presionar el botón que ajusta la vista, se aplicará el zoom a las capas
+   * visibles que tengan una extensión definida.
    */
-  extension: {
-    type: Array,
-    default: () => [0, 0, 0, 0],
+  ajustarVistaPorCapasVisibles: {
+    type: Boolean,
+    default: false,
   },
 
   /**
-   * Ver el icono de Conacyt debajo del mapa
-   * deprecated??
+   * escalaGrafica
+   * - Tipo: `Boolean`
+   * - Valor por defecto: `false`
+   * - Interactivo: ✅
+   *
+   * Define si se agrega la escala gráfica en el mapa.
    */
-  iconoConacytVisible: {
+  escalaGrafica: {
     type: Boolean,
     default: true,
+    validator: valor => typeof valor === typeof Boolean(),
   },
 
   /**
@@ -88,6 +110,39 @@ export const props = {
   },
 
   /**
+   * `vista`
+   * - Tipo: `Object`
+   * - Valor por defecto: `{ centro: [0, 0], zoom: 1.5 }`
+   * - Interactivo: ✅
+   *
+   * Objeto que define la vista del mapa. Revisa los detalles de la vista del mapa en la
+   * sigueinte sección.
+   */
+  vista: {
+    type: Object,
+    default: () => vistaMapaDefault,
+    validator: valor => {
+      if (valor.extension) {
+        return true
+      }
+
+      if (Number(valor.zoom) < 1 && Number(valor.zoom) > 22) {
+        // eslint-disable-next-line
+        console.error('El valor del zoom debe ser entre 1 y 22')
+        return false
+      }
+
+      if (!Array.isArray(valor.centro)) {
+        return false
+      } else if (valor.centro.length < 2) {
+        return false
+      }
+
+      return true
+    },
+  },
+
+  /**
    * zoom
    * - Tipo: `Number`
    * - Valor por defecto: `1`
@@ -97,48 +152,91 @@ export const props = {
    *
    * > ⚠️ **Importante:** Debe tener en cuenta que si la propiedad `extension` se define, esta
    * propiedad será ignorada.
+   zoom: {
+     type: Number,
+     default: 1,
+    },
+    */
+}
+
+export const eventos = {
+  /**
+   *
    */
-  zoom: {
-    type: Number,
-    default: 1,
-  },
+  alAjustarVista: 'alAjustarVista',
 
   /**
-   * escalaGrafica
-   * - Tipo: `Boolean`
-   * - Valor por defecto: `false`
-   * - Interactivo: ✅
    *
-   * Define si se agrega la escala gráfica en el mapa.
    */
-  escalaGrafica: {
-    type: Boolean,
-    default: false,
-    validator: valor => typeof valor === typeof Boolean(),
-  },
+  alCambiarZoom: 'alCambiarZoom',
 }
+
+export const emits = Object.values(eventos)
 
 /**
  * Uso del mapa, la finalidad de este composable es acceder al mapa desde diferentes componentes
  * o composables
  * @returns {Function} composable
  */
-export default function usarMapa(propsParam) {
+export default function usarMapa(propsParam, emitsParam) {
   const {
     agregarTodoALMapa: agregarCapasRegistradas,
+    limpiarRegistro: limpiarCapasRegistradas,
     hayCapasCargadorVisibleProcesando: verCargador,
   } = usarCapasRegistradas()
-  const { centro, escalaGrafica, extension, zoom } = toRefs(propsParam)
+  const { escalaGrafica, ajustarVistaPorCapasVisibles, vista } =
+    toRefs(propsParam)
+
+  /**
+   *
+   * @param {import("ol/Map.js").default} mapaInstanciado
+   */
+  function asignarProps(mapaInstanciado) {
+    const vistaMapa = { ...vistaMapaDefault, ...vista.value }
+    vistaMapa.tipo = extensionEsValida(vistaMapa.extension)
+      ? 'extension'
+      : 'centro'
+    vistaMapa.ajustePorCapas = ajustarVistaPorCapasVisibles.value
+    mapaInstanciado.set('vista', vistaMapa)
+    mapaInstanciado.setView(
+      new View({
+        center: vistaMapa.centro,
+        zoom: vistaMapa.zoom,
+        projection: propsParam.proyeccion,
+      })
+    )
+
+    mapaInstanciado.on('moveend', ({ map }) => {
+      const zoomRedondeado = Math.round(map.getView().getZoom() * 100) / 100
+      if (Number(vista.value.zoom) !== zoomRedondeado) {
+        emitsParam(eventos.alCambiarZoom, zoomRedondeado)
+      }
+    })
+  }
 
   /**
    * Guarda el objeto del mapa en una variable reactiva.
    * @param {import("ol/Map.js").default} mapaInstanciado
    */
   function salvarInstancia(mapaInstanciado) {
+    asignarProps(mapaInstanciado)
     agregarCapasRegistradas(mapaInstanciado)
     olMapa.value = mapaInstanciado
+    // olMapa.value.set(
+    //   'ajustarVistaPorCapasVisibles',
+    //   ajustarVistaPorCapasVisibles.value
+    // )
+
     // olMapa.value.on(MapEventType.LOADSTART, console.log(MapEventType.LOADSTART))
     // olMapa.value.on(MapEventType.LOADEND, console.log(MapEventType.LOADEND))
+  }
+
+  /**
+   * Invoca la limpieza de las capas registradas y reinicia el valor del mapa instanciado.
+   */
+  function desmontar() {
+    limpiarCapasRegistradas()
+    olMapa.value = undefined
   }
 
   /**
@@ -184,7 +282,7 @@ export default function usarMapa(propsParam) {
       olMapa.value.getView().setCenter(centro)
     }
   }
-  watch(centro, cambiarCentro)
+  watch(() => vista.value.centro, cambiarCentro)
 
   /**
    * Quita o agrega el control de escala gáfica en el mapa dependiendo del parámetro boleano.
@@ -200,16 +298,27 @@ export default function usarMapa(propsParam) {
   watch(escalaGrafica, alternarEscalaGrafica)
 
   /**
+   *
+   */
+  function ajustarVista() {
+    const controlAjusteVista = conseguirControl(AjusteVista.nombre)
+    controlAjusteVista.ajustar()
+  }
+
+  /**
    * Cambiar la extension, esto proboca que el mapa ajuste la vista con la extención actual
    * en caso de ser valida.
    * @param {Array<Number>} extension
    */
   function cambiarExtension(nuevaExtension) {
-    const controlVistaInicial = conseguirControl(ControlVistaInicial.nombre)
-    controlVistaInicial.extension = nuevaExtension
-    controlVistaInicial.reiniciarVista()
+    olMapa.value.get('vista').tipo = extensionEsValida(nuevaExtension)
+      ? 'extension'
+      : 'centro'
+    olMapa.value.get('vista').extension = nuevaExtension
+    ajustarVista()
   }
-  watch(extension, cambiarExtension)
+  // watch(extension, cambiarExtension)
+  watch(() => vista.value.extension, cambiarExtension)
 
   /**
    * Actualiza el nivel de zoom en el mapa.
@@ -220,11 +329,13 @@ export default function usarMapa(propsParam) {
       olMapa.value.getView().setZoom(zoom)
     }
   }
-  watch(zoom, cambiarZoom)
+  watch(() => vista.value.zoom, cambiarZoom)
 
   return {
     salvarInstancia,
+    desmontar,
     alternarEscalaGrafica,
     verCargador,
+    ajustarVista,
   }
 }

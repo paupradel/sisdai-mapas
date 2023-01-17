@@ -1,30 +1,3 @@
-# Vectoriales
-
-Las capas vectoriales nos permiten manipular su información de forma local, esto nos dá la posibilidad de pintar sus elementos de forma interactiva, incluso de clasificarlos.
-
-> ⚠️ **Importante:** El uso excesivo de capas vectoriales en un solo mapa puede puede perjudicar el rendimiento de la página web.
-
-## Propiedades
-
-#### `estilo`
-
-- Tipo: `Object`
-- Valor por defecto: `{ relleno: { color: 'gray', }, contorno: { color: 'white', grosor: 1, }, radio: 7 }`
-- Interactivo: ✅
-
-Esta propiedad permite asignar un estilo a los elementos de la copa. Las propiedades que no sean definidas serán ignoradas.
-
-#### `clasificacion`
-
-- Tipo: `Object`
-- Valor por defecto: `undefined`
-- Interactivo: ✅
-
-## Estilo interactivo
-
-<capas-ColoresInteractivos />
-
-```html{14-26}
 <script setup>
 import { ref } from 'vue'
 import edos from './../../capas/ejemplo-edos.json'
@@ -97,4 +70,24 @@ const grosor = ref(1)
     <sisdai-capa-xyz :zIndex="0" />
   </sisdai-mapa>
 </template>
-```
+
+<style lang="scss" scoped>
+.horizontal {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  align-items: center;
+
+  > input,
+  > select {
+    margin: 10px 0;
+  }
+}
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
+button:not(:last-child) {
+  margin-right: 0;
+}
+</style>

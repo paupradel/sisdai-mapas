@@ -1,31 +1,33 @@
 <script setup>
-import { onMounted, ref } from 'vue'
+import { onMounted, onUnmounted, ref } from 'vue'
 import 'ol/ol.css'
 import Map from 'ol/Map'
-import View from 'ol/View'
+// import View from 'ol/View'
 import AttributionControl from 'ol/control/Attribution'
-import usarMapa, { props } from './../composables/usarMapa'
+import usarMapa, { props, emits } from './../composables/usarMapa'
 import ControlZoomPersonalizado from './../controles/ZoomPersonalizado'
-import ControlVistaInicial from './../controles/VistaInicial'
+import ControlAjusteVista from '../controles/AjusteVista'
 import BotonConacyt from './externos/BotonConacyt.vue'
 import VistaCarga from './externos/VistaCarga.vue'
 
-/**
- * Relleno (en píxeles) que se agregará a la extensión de la vista. Los valores en la matriz son
- * relleno: [superior, derecho, inferior, izquierdo] y solo es aplicable cuando la extensión es
- * definida.
- */
-const rellenoAlBordeDeLaExtension = [10, 10, 10, 10]
-
 // eslint-disable-next-line
 const propsSetup = defineProps(props)
-const { salvarInstancia, alternarEscalaGrafica, verCargador } =
-  usarMapa(propsSetup)
+
+// eslint-disable-next-line
+const emitsSetup = defineEmits(emits)
+
+const {
+  salvarInstancia,
+  desmontar,
+  alternarEscalaGrafica,
+  verCargador,
+  ajustarVista,
+} = usarMapa(propsSetup, emitsSetup)
 
 /**
  * Referencia al elemento html contenedor del mapa
  */
-const refMapa = ref(null)
+const refSisdaiMapa = ref(null)
 
 /**
  * Creación del elemento mapa con atributos definidos.
@@ -36,19 +38,9 @@ function crearMapa(target) {
   return new Map({
     target,
     layers: [],
-    view: new View({
-      center: propsSetup.centro,
-      zoom: propsSetup.zoom,
-      projection: propsSetup.proyeccion,
-    }),
     controls: [
       new ControlZoomPersonalizado(),
-      new ControlVistaInicial({
-        centro: propsSetup.centro,
-        extension: propsSetup.extension,
-        rellenoAlBordeDeLaExtension,
-        zoom: propsSetup.zoom,
-      }),
+      new ControlAjusteVista(emitsSetup),
       new AttributionControl({
         collapsible: false,
       }),
@@ -57,16 +49,23 @@ function crearMapa(target) {
 }
 
 onMounted(() => {
-  salvarInstancia(crearMapa(refMapa.value))
+  salvarInstancia(crearMapa(refSisdaiMapa.value))
 
   alternarEscalaGrafica(propsSetup.escalaGrafica)
 })
+
+onUnmounted(() => {
+  desmontar()
+})
+
+// eslint-disable-next-line
+defineExpose({ ajustarVista, ajustarVistaPorCapasVisibles: undefined })
 </script>
 
 <template>
   <div class="sisdai-mapa-contenedor borde borde-redondeado-8">
     <div
-      ref="refMapa"
+      ref="refSisdaiMapa"
       class="sisdai-mapa"
     />
     <VistaCarga v-show="verCargador" />
