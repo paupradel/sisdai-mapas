@@ -1,6 +1,7 @@
 import './estilos/index.scss'
 import Mapa from './componentes/SisdaiMapa.vue'
 import * as Capas from './componentes/capas'
+import * as Leyendas from './componentes/leyendas'
 import * as Elementos from './componentes/elementos'
 
 export default function plugin(Vue) {
@@ -9,10 +10,6 @@ export default function plugin(Vue) {
   }
 
   plugin.installed = true
-
-  agregarComponente(Mapa)
-  agregarComponentes(Capas)
-  agregarComponentes(Elementos)
 
   function agregarComponente(componente) {
     Vue.component(componente.__name, componente)
@@ -23,6 +20,11 @@ export default function plugin(Vue) {
       agregarComponente(componente)
     )
   }
+
+  agregarComponente(Mapa)
+  agregarComponentes(Capas)
+  agregarComponentes(Elementos)
+  agregarComponentes(Leyendas)
 }
 
 export { plugin as install }

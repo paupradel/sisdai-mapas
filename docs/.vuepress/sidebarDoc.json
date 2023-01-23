@@ -7,12 +7,7 @@
   {
     "title": "Mapa",
     "collapsable": false,
-    "children": ["mapa"]
-  },
-  {
-    "title": "Contenedores",
-    "collapsable": true,
-    "children": ["contenedores"]
+    "children": ["mapa", "mapa-vista", "contenedores"]
   },
   {
     "title": "Capas",
@@ -28,8 +23,14 @@
   },
   {
     "title": "Clasificación",
-    "collapsable": true,
-    "children": []
+    "collapsable": false,
+    "children": [
+      "clasificacion",
+      "clasificacion-categorias",
+      "clasificacion-cuantiles",
+      "clasificacion-linear",
+      "clasificacion-cortesnaturales"
+    ]
   },
   {
     "title": "Leyendas",

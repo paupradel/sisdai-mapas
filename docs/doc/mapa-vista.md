@@ -1,27 +1,20 @@
-# SisdaiMapa
+# Vista
 
-El componente `SisdaiMapa` es el componente princial de esta librería. Dentro de el se pueden agregar componentes de capas, leyendas y contenedores.
+Las propiedades de la vista del mapa manipulan el espacio interactivo visible del mismo. Con estas propiedades se puede definir la posicion inicial de la vista o los cambios que puede tener.
 
-## Uso
+## Uso básico
 
 ```html
-<SisdaiMapa>
-  <!-- 
-    Aquí van las capas, leyendas y contenedores que
-    quedarán dentro del mapa 
-  -->
+<SisdaiMapa
+  :vista="{
+    centro: `<Array(x, y)>`,
+    zoom: ,
+  }"
+>
 </SisdaiMapa>
 ```
 
 ## Propiedades
-
-#### `vista`
-
-- Tipo: `Object`
-- Valor por defecto: `{ centro: [0, 0], zoom: 1.5 }`
-- Interactivo: ✅
-
-### Vista del mapa
 
 #### `centro`
 
@@ -75,12 +68,4 @@ Nivel de zoom utilizado para calcular la resolución inicial de la vista.
 
 > ⚠️ **Importante:** Debe tener en cuenta que si la propiedad `extension` se define, esta propiedad será ignorada.
 
-### Controles
-
-#### `escalaGrafica`
-
-- Tipo: `Boolean`
-- Valor por defecto: `false`
-- Interactivo: ✅
-
-Define si se agrega la escala grafica en el mapa.
+<mapa-VistaInteractiva />
