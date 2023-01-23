@@ -1,14 +1,14 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 431:
+/***/ 3431:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(481);
+/* harmony import */ var _vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3481);
 /* harmony import */ var _vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(400);
+/* harmony import */ var _vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2400);
 /* harmony import */ var _vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
 // Imports
 
@@ -22,35 +22,35 @@ ___CSS_LOADER_EXPORT___.push([module.id, ":host,:root{--ol-background-color:#fff
 
 /***/ }),
 
-/***/ 467:
+/***/ 6780:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(481);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3481);
 /* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(400);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2400);
 /* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
 // Imports
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".sisdai-mapa-contenedor[data-v-51ced022]{min-height:200px;min-width:200px;position:relative;display:grid;grid-template-columns:repeat(1,1fr);grid-gap:0;grid-template-rows:auto 40vh 40px}.sisdai-mapa-contenedor .sisdai-mapa-encabezado[data-v-51ced022]{grid-column:1;grid-row:1}.sisdai-mapa-contenedor .sisdai-mapa[data-v-51ced022],.sisdai-mapa-contenedor .sisdai-mapa-vista-carga[data-v-51ced022]{grid-column:1;grid-row:2}.sisdai-mapa-contenedor .boton-conacyt[data-v-51ced022]{grid-column:1;grid-row:3}.sisdai-mapa-contenedor .sisdai-mapa[data-v-51ced022]{width:100%;background-color:#e9e9e9}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".sisdai-mapa-contenedor[data-v-3598bf92]{min-height:200px;min-width:200px;position:relative;display:grid;grid-template-columns:repeat(1,1fr);grid-gap:0;grid-template-rows:auto 40vh 40px}.sisdai-mapa-contenedor .sisdai-mapa-encabezado[data-v-3598bf92]{grid-column:1;grid-row:1}.sisdai-mapa-contenedor .sisdai-mapa[data-v-3598bf92],.sisdai-mapa-contenedor .sisdai-mapa-vista-carga[data-v-3598bf92]{grid-column:1;grid-row:2}.sisdai-mapa-contenedor .boton-conacyt[data-v-3598bf92]{grid-column:1;grid-row:3}.sisdai-mapa-contenedor .sisdai-mapa[data-v-3598bf92]{width:100%;background-color:#e9e9e9}", ""]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
 
 /***/ }),
 
-/***/ 528:
+/***/ 4528:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(481);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3481);
 /* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(400);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2400);
 /* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
 // Imports
 
@@ -64,14 +64,14 @@ ___CSS_LOADER_EXPORT___.push([module.id, ".sisdai-mapa-encabezado[data-v-8615f57
 
 /***/ }),
 
-/***/ 683:
+/***/ 1683:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(481);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3481);
 /* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(400);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2400);
 /* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
 // Imports
 
@@ -85,14 +85,14 @@ ___CSS_LOADER_EXPORT___.push([module.id, ".boton.boton-conacyt[data-v-7f6aef72]{
 
 /***/ }),
 
-/***/ 437:
+/***/ 9437:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(481);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3481);
 /* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(400);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2400);
 /* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
 // Imports
 
@@ -106,13 +106,97 @@ ___CSS_LOADER_EXPORT___.push([module.id, ".sisdai-mapa-vista-carga[data-v-6af7c9
 
 /***/ }),
 
-/***/ 50:
+/***/ 4206:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(481);
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3481);
 /* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(400);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2400);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".sisdai-mapa-leyenda-contenido{display:flex;flex-direction:column}.sisdai-mapa-leyenda .titulo{font-size:20px}", ""]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ 9894:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3481);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2400);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".sisdai-mapa-leyenda-capa-clase[data-v-0ae12032]{display:flex;flex-direction:column;align-items:center}.sisdai-mapa-leyenda-capa-clase-color[data-v-0ae12032]{margin-right:5px;width:40px;height:40px;border-radius:8px;background-color:var(--3fab6d02);border-width:var(--5bb2493a);border-style:var(--5c186964);border-color:var(--5de04600)}.sisdai-mapa-leyenda-capa-clase-etiqueta[data-v-0ae12032]{text-align:center}", ""]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ 779:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3481);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2400);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".sisdai-mapa-leyenda-capa-color[data-v-419982a0]{margin-right:5px;width:16px;height:16px;background-color:var(--55eab794);border-width:var(--bcec66d2);border-style:var(--bd5286fc);border-color:var(--bf1a6398)}", ""]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ 3511:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3481);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2400);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".sisdai-mapa-leyenda-capa-control-etiequeta[data-v-3eaadc90]{align-items:center}.sisdai-mapa-leyenda-capa-control-clasificacion[data-v-3eaadc90]{display:flex;flex-direction:column}.sisdai-mapa-leyenda-capa-control-clasificacion-clases[data-v-3eaadc90]{display:flex;flex-direction:row;justify-content:space-between;width:100%}", ""]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ 7050:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3481);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2400);
 /* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
 // Imports
 
@@ -126,36 +210,36 @@ ___CSS_LOADER_EXPORT___.push([module.id, "@font-face{font-family:sisdai-iconos;s
 
 /***/ }),
 
-/***/ 527:
+/***/ 8527:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(481);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3481);
 /* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(400);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2400);
 /* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_clonedRuleSet_24_use_1_node_modules_vue_cli_service_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_24_use_2_node_modules_vue_cli_service_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_24_use_3_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_24_use_4_icons_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(50);
-/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(806);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_clonedRuleSet_24_use_1_node_modules_vue_cli_service_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_24_use_2_node_modules_vue_cli_service_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_24_use_3_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_24_use_4_icons_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7050);
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(8806);
 /* harmony import */ var _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_3__);
 // Imports
 
 
 
 
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(130), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(3130), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.i(_node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_clonedRuleSet_24_use_1_node_modules_vue_cli_service_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_24_use_2_node_modules_vue_cli_service_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_24_use_3_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_24_use_4_icons_css__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_vue_cli_service_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_3___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".sisdai-mapa-control{position:absolute;display:flex;flex-direction:column;margin:12px}.sisdai-mapa-control-zoom>button{margin:0}.sisdai-mapa-control-zoom>button:not(:last-child){margin-bottom:6px;margin-right:0}.sisdai-mapa-control-vista-inicial{bottom:0}.sisdai-mapa-control-escala-grafica{bottom:0;left:46px!important}.sisdai-mapa-control-escala-grafica .ol-scale-bar-inner .ol-scale-step-marker{height:10px;top:0!important}.sisdai-mapa-control-escala-grafica .ol-scale-bar-inner .ol-scale-singlebar{height:3px;top:8px}.sisdai-mapa-control-escala-grafica .ol-scale-bar-inner .ol-scale-step-text{bottom:10px;font-size:11px}.sisdai-mapa-control-escala-grafica .ol-scale-bar-inner div>.ol-scale-step-marker{top:-2px!important}:root{--pagina-fondo:#fff;--tipografia-color:#141414;--tipografia-color-1:#fff;--tipografia-color-2:#6f7271;--tipografia-color-3:#404041;--tabla-fondo-impar:#f6f6f6;--tabla-fondo-notas:#a9a8a9;--detalle-fondo:#f6f6f6;--detalle-focus-sombra:#005dff;--sombra:#0000001a;--sombra-focus:#005dff;--sombra-hover:#00000033;--label-color:#6f7271;--input-fondo:transparent;--input-color:#141414;--input-borde:#a9a8a9;--input-controles-color:#14a634;--input-deshabilitado-fondo:#f6f6f6;--input-deshabilitado-color:#a9a8a9;--input-hover-borde:#6f7271;--input-focus-sombra:#005dff;--acciones-informativo:#1256c4;--acciones-error:#c51228;--acciones-advertencia:#feb301;--acciones-correcto:#069165;--borde-color-1:#141414;--borde-color-2:#6f7271;--borde-color-3:#a9a8a9;--borde-color-4:#fff;--tipografia-familia:\"Montserrat\",sans-serif;--tipografia-tamanio:16px;--boton-primario-fondo:#141414;--boton-primario-borde:#141414;--boton-primario-color:#fff;--boton-primario-sombra:transparent;--boton-primario-deshabilitado-fondo:#ddd;--boton-primario-deshabilitado-borde:#ddd;--boton-primario-deshabilitado-color:#a9a8a9;--boton-primario-deshabilitado-sombra:transparent;--boton-primario-hover-fondo:#404041;--boton-primario-hover-borde:#404041;--boton-primario-hover-color:#fff;--boton-primario-hover-sombra:#00000033;--boton-primario-focus-fondo:#141414;--boton-primario-focus-borde:#005dff;--boton-primario-focus-color:#fff;--boton-primario-focus-sombra:#005dff;--boton-secundario-fondo:#fff;--boton-secundario-borde:#141414;--boton-secundario-color:#141414;--boton-secundario-sombra:transparent;--boton-secundario-deshabilitado-fondo:#fff;--boton-secundario-deshabilitado-borde:#ddd;--boton-secundario-deshabilitado-color:#a9a8a9;--boton-secundario-deshabilitado-sombra:transparent;--boton-secundario-hover-fondo:#fff;--boton-secundario-hover-borde:#141414;--boton-secundario-hover-color:#141414;--boton-secundario-hover-sombra:#00000033;--boton-secundario-focus-fondo:#fff;--boton-secundario-focus-borde:#005dff;--boton-secundario-focus-color:#141414;--boton-secundario-focus-sombra:#005dff;--boton-terciario-fondo:transparent;--boton-terciario-borde:transparent;--boton-terciario-color:#141414;--boton-terciario-sombra:transparent;--boton-terciario-deshabilitado-fondo:transparent;--boton-terciario-deshabilitado-borde:transparent;--boton-terciario-deshabilitado-color:#a9a8a9;--boton-terciario-deshabilitado-sombra:transparent;--boton-terciario-hover-fondo:transparent;--boton-terciario-hover-borde:transparent;--boton-terciario-hover-color:#141414;--boton-terciario-hover-sombra:#00000033;--boton-terciario-focus-fondo:transparent;--boton-terciario-focus-borde:#005dff;--boton-terciario-focus-color:#141414;--boton-terciario-focus-sombra:#005dff;--hipervinculo-color:#005dff;--hipervinculo-sombra:transparent;--hipervinculo-deshabilitado-color:#a9a8a980;--hipervinculo-deshabilitado-sombra:transparent;--hipervinculo-hover-color:#356ccc;--hipervinculo-hover-sombra:transparent;--hipervinculo-focus-color:#005dff;--hipervinculo-focus-sombra:#005dff;--navegacion-fondo:#eef;--navegacion-sombra:0 1px 0 0 #ccf,0 8px 8px -4px rgba(0,0,0,.2);--navegacion-redondeado:0 0 8px 8px;--navegacion-color:#00f;--navegacion-fondo-hover:#ddf;--navegacion-sombra-hover:0 1px 0 0 #ccf,0 8px 8px -4px rgba(0,0,0,.2);--navegacion-color-hover:#00f;--navegacion-fondo-active:#00f;--navegacion-sombra-active:0 0 0 0;--navegacion-color-active:#fff}html{line-height:1.3;scroll-behavior:smooth;text-rendering:optimizeLegibility;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{padding:0;margin:0}body *{box-sizing:border-box}iframe,main{display:block}iframe{border:none}progress{vertical-align:baseline}abbr{cursor:help;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}abbr,ins{border:none}ins{-webkit-text-decoration:underline dashed;text-decoration:underline dashed}b,strong{font-weight:600}sub,sup{line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border:none}.borde{border:1px solid var(--borde-color-1)}.borde-t{border-top:1px solid var(--borde-color-1)}.borde-r{border-right:1px solid var(--borde-color-1)}.borde-b{border-bottom:1px solid var(--borde-color-1)}.borde-l,.borde-x{border-left:1px solid var(--borde-color-1)}.borde-x{border-right:1px solid var(--borde-color-1)}.borde-y{border-top:1px solid var(--borde-color-1);border-bottom:1px solid var(--borde-color-1)}.border-redondeado-t-0{border-top-left-radius:0;border-top-right-radius:0}.border-redondeado-b-0{border-bottom-left-radius:0;border-bottom-right-radius:0}.border-redondeado-l-0{border-bottom-left-radius:0;border-top-right-radius:0;border-bottom-right-radius:0}.borde-redondeado-t-l-0,.border-redondeado-l-0{border-top-left-radius:0}.borde-redondeado-t-r-0{border-top-right-radius:0}.borde-redondeado-b-l-0{border-bottom-left-radius:0}.borde-redondeado-b-r-0{border-bottom-right-radius:0}.borde-redondeado-minimo{border-radius:4px}.border-redondeado-t-minimo{border-top-left-radius:4px;border-top-right-radius:4px}.border-redondeado-b-minimo{border-bottom-left-radius:4px;border-bottom-right-radius:4px}.border-redondeado-l-minimo{border-top-left-radius:4px;border-bottom-left-radius:4px;border-top-right-radius:4px;border-bottom-right-radius:4px}.borde-redondeado-t-l-minimo{border-top-left-radius:4px}.borde-redondeado-t-r-minimo{border-top-right-radius:4px}.borde-redondeado-b-l-minimo{border-bottom-left-radius:4px}.borde-redondeado-b-r-minimo{border-bottom-right-radius:4px}.borde-redondeado-1{border-radius:8px}.border-redondeado-t-1{border-top-left-radius:8px;border-top-right-radius:8px}.border-redondeado-b-1{border-bottom-left-radius:8px;border-bottom-right-radius:8px}.border-redondeado-l-1{border-bottom-left-radius:8px;border-top-right-radius:8px;border-bottom-right-radius:8px}.borde-redondeado-t-l-1,.border-redondeado-l-1{border-top-left-radius:8px}.borde-redondeado-t-r-1{border-top-right-radius:8px}.borde-redondeado-b-l-1{border-bottom-left-radius:8px}.borde-redondeado-b-r-1{border-bottom-right-radius:8px}.borde-redondeado-2{border-radius:16px}.border-redondeado-t-2{border-top-left-radius:16px;border-top-right-radius:16px}.border-redondeado-b-2{border-bottom-left-radius:16px;border-bottom-right-radius:16px}.border-redondeado-l-2{border-bottom-left-radius:16px;border-top-right-radius:16px;border-bottom-right-radius:16px}.borde-redondeado-t-l-2,.border-redondeado-l-2{border-top-left-radius:16px}.borde-redondeado-t-r-2{border-top-right-radius:16px}.borde-redondeado-b-l-2{border-bottom-left-radius:16px}.borde-redondeado-b-r-2{border-bottom-right-radius:16px}.borde-redondeado-3{border-radius:24px}.border-redondeado-t-3{border-top-left-radius:24px;border-top-right-radius:24px}.border-redondeado-b-3{border-bottom-left-radius:24px;border-bottom-right-radius:24px}.border-redondeado-l-3{border-bottom-left-radius:24px;border-top-right-radius:24px;border-bottom-right-radius:24px}.borde-redondeado-t-l-3,.border-redondeado-l-3{border-top-left-radius:24px}.borde-redondeado-t-r-3{border-top-right-radius:24px}.borde-redondeado-b-l-3{border-bottom-left-radius:24px}.borde-redondeado-b-r-3{border-bottom-right-radius:24px}.borde-redondeado-4{border-radius:32px}.border-redondeado-t-4{border-top-left-radius:32px;border-top-right-radius:32px}.border-redondeado-b-4{border-bottom-left-radius:32px;border-bottom-right-radius:32px}.border-redondeado-l-4{border-bottom-left-radius:32px;border-top-right-radius:32px;border-bottom-right-radius:32px}.borde-redondeado-t-l-4,.border-redondeado-l-4{border-top-left-radius:32px}.borde-redondeado-t-r-4{border-top-right-radius:32px}.borde-redondeado-b-l-4{border-bottom-left-radius:32px}.borde-redondeado-b-r-4{border-bottom-right-radius:32px}.borde-redondeado-5{border-radius:40px}.border-redondeado-t-5{border-top-left-radius:40px;border-top-right-radius:40px}.border-redondeado-b-5{border-bottom-left-radius:40px;border-bottom-right-radius:40px}.border-redondeado-l-5{border-bottom-left-radius:40px;border-top-right-radius:40px;border-bottom-right-radius:40px}.borde-redondeado-t-l-5,.border-redondeado-l-5{border-top-left-radius:40px}.borde-redondeado-t-r-5{border-top-right-radius:40px}.borde-redondeado-b-l-5{border-bottom-left-radius:40px}.borde-redondeado-b-r-5{border-bottom-right-radius:40px}.borde-redondeado-6{border-radius:48px}.border-redondeado-t-6{border-top-left-radius:48px;border-top-right-radius:48px}.border-redondeado-b-6{border-bottom-left-radius:48px;border-bottom-right-radius:48px}.border-redondeado-l-6{border-bottom-left-radius:48px;border-top-right-radius:48px;border-bottom-right-radius:48px}.borde-redondeado-t-l-6,.border-redondeado-l-6{border-top-left-radius:48px}.borde-redondeado-t-r-6{border-top-right-radius:48px}.borde-redondeado-b-l-6{border-bottom-left-radius:48px}.borde-redondeado-b-r-6{border-bottom-right-radius:48px}.borde-redondeado-7{border-radius:56px}.border-redondeado-t-7{border-top-left-radius:56px;border-top-right-radius:56px}.border-redondeado-b-7{border-bottom-left-radius:56px;border-bottom-right-radius:56px}.border-redondeado-l-7{border-bottom-left-radius:56px;border-top-right-radius:56px;border-bottom-right-radius:56px}.borde-redondeado-t-l-7,.border-redondeado-l-7{border-top-left-radius:56px}.borde-redondeado-t-r-7{border-top-right-radius:56px}.borde-redondeado-b-l-7{border-bottom-left-radius:56px}.borde-redondeado-b-r-7{border-bottom-right-radius:56px}.borde-redondeado-8{border-radius:64px}.border-redondeado-t-8{border-top-left-radius:64px;border-top-right-radius:64px}.border-redondeado-b-8{border-bottom-left-radius:64px;border-bottom-right-radius:64px}.border-redondeado-l-8{border-bottom-left-radius:64px;border-top-right-radius:64px;border-bottom-right-radius:64px}.borde-redondeado-t-l-8,.border-redondeado-l-8{border-top-left-radius:64px}.borde-redondeado-t-r-8{border-top-right-radius:64px}.borde-redondeado-b-l-8{border-bottom-left-radius:64px}.borde-redondeado-b-r-8{border-bottom-right-radius:64px}.borde-redondeado-9{border-radius:72px}.border-redondeado-t-9{border-top-left-radius:72px;border-top-right-radius:72px}.border-redondeado-b-9{border-bottom-left-radius:72px;border-bottom-right-radius:72px}.border-redondeado-l-9{border-bottom-left-radius:72px;border-top-right-radius:72px;border-bottom-right-radius:72px}.borde-redondeado-t-l-9,.border-redondeado-l-9{border-top-left-radius:72px}.borde-redondeado-t-r-9{border-top-right-radius:72px}.borde-redondeado-b-l-9{border-bottom-left-radius:72px}.borde-redondeado-b-r-9{border-bottom-right-radius:72px}.borde-redondeado-10{border-radius:80px}.border-redondeado-t-10{border-top-left-radius:80px;border-top-right-radius:80px}.border-redondeado-b-10{border-bottom-left-radius:80px;border-bottom-right-radius:80px}.border-redondeado-l-10{border-bottom-left-radius:80px;border-top-right-radius:80px;border-bottom-right-radius:80px}.borde-redondeado-t-l-10,.border-redondeado-l-10{border-top-left-radius:80px}.borde-redondeado-t-r-10{border-top-right-radius:80px}.borde-redondeado-b-l-10{border-bottom-left-radius:80px}.borde-redondeado-b-r-10{border-bottom-right-radius:80px}.borde-redondeado-extra{border-radius:96px}.border-redondeado-t-extra{border-top-left-radius:96px;border-top-right-radius:96px}.border-redondeado-b-extra{border-bottom-left-radius:96px;border-bottom-right-radius:96px}.border-redondeado-l-extra{border-bottom-left-radius:96px;border-top-right-radius:96px;border-bottom-right-radius:96px}.borde-redondeado-t-l-extra,.border-redondeado-l-extra{border-top-left-radius:96px}.borde-redondeado-t-r-extra{border-top-right-radius:96px}.borde-redondeado-b-l-extra{border-bottom-left-radius:96px}.borde-redondeado-b-r-extra{border-bottom-right-radius:96px}.borde-redondeado-maximo{border-radius:120px}.border-redondeado-t-maximo{border-top-left-radius:120px;border-top-right-radius:120px}.border-redondeado-b-maximo{border-bottom-left-radius:120px;border-bottom-right-radius:120px}.border-redondeado-l-maximo{border-bottom-left-radius:120px;border-top-right-radius:120px;border-bottom-right-radius:120px}.borde-redondeado-t-l-maximo,.border-redondeado-l-maximo{border-top-left-radius:120px}.borde-redondeado-t-r-maximo{border-top-right-radius:120px}.borde-redondeado-b-l-maximo{border-bottom-left-radius:120px}.borde-redondeado-b-r-maximo{border-bottom-right-radius:120px}.borde-redondeado-0{border-radius:0}.borde-t-redondeado-0{border-top-left-radius:0;border-top-right-radius:0}.borde-b-redondeado-0{border-bottom-left-radius:0;border-bottom-right-radius:0}.borde-r-redondeado-0{border-top-left-radius:0;border-bottom-left-radius:0}.borde-l-redondeado-0{border-top-right-radius:0;border-bottom-right-radius:0}.borde-t-l-redondeado-0{border-top-left-radius:0}.borde-t-r-redondeado-0{border-top-right-radius:0}.borde-b-l-redondeado-0{border-bottom-left-radius:0}.borde-b-r-redondeado-0{border-bottom-right-radius:0}.borde-redondeado-1{border-radius:1px}.borde-t-redondeado-1{border-top-left-radius:1px;border-top-right-radius:1px}.borde-b-redondeado-1{border-bottom-left-radius:1px;border-bottom-right-radius:1px}.borde-r-redondeado-1{border-top-left-radius:1px;border-bottom-left-radius:1px}.borde-l-redondeado-1{border-top-right-radius:1px;border-bottom-right-radius:1px}.borde-t-l-redondeado-1{border-top-left-radius:1px}.borde-t-r-redondeado-1{border-top-right-radius:1px}.borde-b-l-redondeado-1{border-bottom-left-radius:1px}.borde-b-r-redondeado-1{border-bottom-right-radius:1px}.borde-redondeado-2{border-radius:2px}.borde-t-redondeado-2{border-top-left-radius:2px;border-top-right-radius:2px}.borde-b-redondeado-2{border-bottom-left-radius:2px;border-bottom-right-radius:2px}.borde-r-redondeado-2{border-top-left-radius:2px;border-bottom-left-radius:2px}.borde-l-redondeado-2{border-top-right-radius:2px;border-bottom-right-radius:2px}.borde-t-l-redondeado-2{border-top-left-radius:2px}.borde-t-r-redondeado-2{border-top-right-radius:2px}.borde-b-l-redondeado-2{border-bottom-left-radius:2px}.borde-b-r-redondeado-2{border-bottom-right-radius:2px}.borde-redondeado-4{border-radius:4px}.borde-t-redondeado-4{border-top-left-radius:4px;border-top-right-radius:4px}.borde-b-redondeado-4{border-bottom-left-radius:4px;border-bottom-right-radius:4px}.borde-r-redondeado-4{border-top-left-radius:4px;border-bottom-left-radius:4px}.borde-l-redondeado-4{border-top-right-radius:4px;border-bottom-right-radius:4px}.borde-t-l-redondeado-4{border-top-left-radius:4px}.borde-t-r-redondeado-4{border-top-right-radius:4px}.borde-b-l-redondeado-4{border-bottom-left-radius:4px}.borde-b-r-redondeado-4{border-bottom-right-radius:4px}.borde-redondeado-8{border-radius:8px}.borde-t-redondeado-8{border-top-left-radius:8px;border-top-right-radius:8px}.borde-b-redondeado-8{border-bottom-left-radius:8px;border-bottom-right-radius:8px}.borde-r-redondeado-8{border-top-left-radius:8px;border-bottom-left-radius:8px}.borde-l-redondeado-8{border-top-right-radius:8px;border-bottom-right-radius:8px}.borde-t-l-redondeado-8{border-top-left-radius:8px}.borde-t-r-redondeado-8{border-top-right-radius:8px}.borde-b-l-redondeado-8{border-bottom-left-radius:8px}.borde-b-r-redondeado-8{border-bottom-right-radius:8px}.borde-redondeado-16{border-radius:16px}.borde-t-redondeado-16{border-top-left-radius:16px;border-top-right-radius:16px}.borde-b-redondeado-16{border-bottom-left-radius:16px;border-bottom-right-radius:16px}.borde-r-redondeado-16{border-top-left-radius:16px;border-bottom-left-radius:16px}.borde-l-redondeado-16{border-top-right-radius:16px;border-bottom-right-radius:16px}.borde-t-l-redondeado-16{border-top-left-radius:16px}.borde-t-r-redondeado-16{border-top-right-radius:16px}.borde-b-l-redondeado-16{border-bottom-left-radius:16px}.borde-b-r-redondeado-16{border-bottom-right-radius:16px}.borde-color-1{border-color:var(--borde-color-1)}.borde-t-color-1{border-top-color:var(--borde-color-1)}.borde-r-color-1{border-right-color:var(--borde-color-1)}.borde-b-color-1{border-bottom-color:var(--borde-color-1)}.borde-l-color-1,.borde-x-color-1{border-left-color:var(--borde-color-1)}.borde-x-color-1{border-right-color:var(--borde-color-1)}.borde-y-color-1{border-top-color:var(--borde-color-1);border-bottom-color:var(--borde-color-1)}.borde-color-2{border-color:var(--borde-color-2)}.borde-t-color-2{border-top-color:var(--borde-color-2)}.borde-r-color-2{border-right-color:var(--borde-color-2)}.borde-b-color-2{border-bottom-color:var(--borde-color-2)}.borde-l-color-2,.borde-x-color-2{border-left-color:var(--borde-color-2)}.borde-x-color-2{border-right-color:var(--borde-color-2)}.borde-y-color-2{border-top-color:var(--borde-color-2);border-bottom-color:var(--borde-color-2)}.borde-color-3{border-color:var(--borde-color-3)}.borde-t-color-3{border-top-color:var(--borde-color-3)}.borde-r-color-3{border-right-color:var(--borde-color-3)}.borde-b-color-3{border-bottom-color:var(--borde-color-3)}.borde-l-color-3,.borde-x-color-3{border-left-color:var(--borde-color-3)}.borde-x-color-3{border-right-color:var(--borde-color-3)}.borde-y-color-3{border-top-color:var(--borde-color-3);border-bottom-color:var(--borde-color-3)}.borde-color-4{border-color:var(--borde-color-4)}.borde-t-color-4{border-top-color:var(--borde-color-4)}.borde-r-color-4{border-right-color:var(--borde-color-4)}.borde-b-color-4{border-bottom-color:var(--borde-color-4)}.borde-l-color-4,.borde-x-color-4{border-left-color:var(--borde-color-4)}.borde-x-color-4{border-right-color:var(--borde-color-4)}.borde-y-color-4{border-top-color:var(--borde-color-4);border-bottom-color:var(--borde-color-4)}.borde-grosor-0{border-width:0}.borde-t-grosor-0{border-top-width:0}.borde-r-grosor-0{border-right-width:0}.borde-b-grosor-0{border-bottom-width:0}.borde-l-grosor-0,.borde-x-grosor-0{border-left-width:0}.borde-x-grosor-0{border-right-width:0}.borde-y-grosor-0{border-top-width:0;border-bottom-width:0}.borde-grosor-1{border-width:1px}.borde-t-grosor-1{border-top-width:1px}.borde-r-grosor-1{border-right-width:1px}.borde-b-grosor-1{border-bottom-width:1px}.borde-l-grosor-1,.borde-x-grosor-1{border-left-width:1px}.borde-x-grosor-1{border-right-width:1px}.borde-y-grosor-1{border-top-width:1px;border-bottom-width:1px}.borde-grosor-2{border-width:2px}.borde-t-grosor-2{border-top-width:2px}.borde-r-grosor-2{border-right-width:2px}.borde-b-grosor-2{border-bottom-width:2px}.borde-l-grosor-2,.borde-x-grosor-2{border-left-width:2px}.borde-x-grosor-2{border-right-width:2px}.borde-y-grosor-2{border-top-width:2px;border-bottom-width:2px}.borde-grosor-4{border-width:4px}.borde-t-grosor-4{border-top-width:4px}.borde-r-grosor-4{border-right-width:4px}.borde-b-grosor-4{border-bottom-width:4px}.borde-l-grosor-4,.borde-x-grosor-4{border-left-width:4px}.borde-x-grosor-4{border-right-width:4px}.borde-y-grosor-4{border-top-width:4px;border-bottom-width:4px}.borde-grosor-8{border-width:8px}.borde-t-grosor-8{border-top-width:8px}.borde-r-grosor-8{border-right-width:8px}.borde-b-grosor-8{border-bottom-width:8px}.borde-l-grosor-8,.borde-x-grosor-8{border-left-width:8px}.borde-x-grosor-8{border-right-width:8px}.borde-y-grosor-8{border-top-width:8px;border-bottom-width:8px}.borde-grosor-16{border-width:16px}.borde-t-grosor-16{border-top-width:16px}.borde-r-grosor-16{border-right-width:16px}.borde-b-grosor-16{border-bottom-width:16px}.borde-l-grosor-16,.borde-x-grosor-16{border-left-width:16px}.borde-x-grosor-16{border-right-width:16px}.borde-y-grosor-16{border-top-width:16px;border-bottom-width:16px}hr{border-top:1px solid var(--borde-color-1);box-sizing:content-box;height:0;overflow:visible;margin-top:16px;margin-bottom:16px}h1+hr,h2+hr,h3+hr,h4+hr,h5+hr,h6+hr{margin-top:-8px}ol+hr,ul+hr{margin-top:0;margin-bottom:0}.separador,.separador-primario{border-top-color:var(--borde-color-1)}.separador-secundario{border-top-color:var(--borde-color-2)}.boton,button,input[type=button],input[type=reset],input[type=submit]{border-style:solid;border-width:1px;border-radius:4px;box-shadow:3px 3px 4px transparent;box-sizing:border-box;font-family:var(--tipografia-familia,\"sans-serif\");font-size:1rem;font-weight:500;line-height:1.3em;padding:16px 24px;text-decoration:none;text-align:center;display:inline-flex;align-items:center}.boton:not(:disabled),button:not(:disabled),input[type=button]:not(:disabled),input[type=reset]:not(:disabled),input[type=submit]:not(:disabled){cursor:pointer;transition:all .27s ease-in-out}.boton:disabled,button:disabled,input[type=button]:disabled,input[type=reset]:disabled,input[type=submit]:disabled{pointer-events:none}.boton:not(:last-child),button:not(:last-child),input[type=button]:not(:last-child),input[type=reset]:not(:last-child),input[type=submit]:not(:last-child){margin-right:8px}.boton-descarga,.boton-icono,.boton-info,.boton-primario{background-color:var(--boton-primario-fondo);border-color:var(--boton-primario-borde);color:var(--boton-primario-color)}.boton-descarga:disabled,.boton-icono:disabled,.boton-info:disabled,.boton-primario:disabled{background-color:var(--boton-primario-deshabilitado-fondo);border-color:var(--boton-primario-deshabilitado-borde);box-shadow:3px 3px 4px var(--boton-primario-deshabilitado-sombra);color:var(--boton-primario-deshabilitado-color)}.boton-descarga:not(:disabled):hover,.boton-icono:not(:disabled):hover,.boton-info:not(:disabled):hover,.boton-primario:not(:disabled):hover{background-color:var(--boton-primario-hover-fondo);border-color:var(--boton-primario-hover-borde);box-shadow:3px 3px 4px var(--boton-primario-hover-sombra);color:var(--boton-primario-hover-color)}.boton-descarga:not(:disabled):focus,.boton-icono:not(:disabled):focus,.boton-info:not(:disabled):focus,.boton-primario:not(:disabled):focus{background-color:var(--boton-primario-focus-fondo);border-color:var(--boton-primario-focus-borde);box-shadow:0 0 8px var(--boton-primario-focus-sombra);color:var(--boton-primario-focus-color);outline:none}.boton-secundario{background-color:var(--boton-secundario-fondo);border-color:var(--boton-secundario-borde);color:var(--boton-secundario-color)}.boton-secundario:disabled{background-color:var(--boton-secundario-deshabilitado-fondo);border-color:var(--boton-secundario-deshabilitado-borde);box-shadow:3px 3px 4px var(--boton-secundario-deshabilitado-sombra);color:var(--boton-secundario-deshabilitado-color)}.boton-secundario:not(:disabled):hover{background-color:var(--boton-secundario-hover-fondo);border-color:var(--boton-secundario-hover-borde);box-shadow:3px 3px 4px var(--boton-secundario-hover-sombra);color:var(--boton-secundario-hover-color)}.boton-secundario:not(:disabled):focus{background-color:var(--boton-secundario-focus-fondo);border-color:var(--boton-secundario-focus-borde);box-shadow:0 0 8px var(--boton-secundario-focus-sombra);color:var(--boton-secundario-focus-color);outline:none}.boton-terciario{background-color:var(--boton-terciario-fondo);border-color:var(--boton-terciario-borde);color:var(--boton-terciario-color)}.boton-terciario:disabled{background-color:var(--boton-terciario-deshabilitado-fondo);border-color:var(--boton-terciario-deshabilitado-borde);box-shadow:3px 3px 4px var(--boton-terciario-deshabilitado-sombra);color:var(--boton-terciario-deshabilitado-color)}.boton-terciario:not(:disabled):hover{background-color:var(--boton-terciario-hover-fondo);border-color:var(--boton-terciario-hover-borde);box-shadow:3px 3px 4px var(--boton-terciario-hover-sombra);color:var(--boton-terciario-hover-color)}.boton-terciario:not(:disabled):focus{background-color:var(--boton-terciario-focus-fondo);border-color:var(--boton-terciario-focus-borde);box-shadow:0 0 8px var(--boton-terciario-focus-sombra);color:var(--boton-terciario-focus-color);outline:none}.boton-chico{font-size:.875rem;padding:8px 16px}.boton-grande{font-size:1.125rem;padding:24px}.boton [class*=\" icono-\"],.boton [class^=icono-],[class*=\" boton-\"] [class*=\" icono-\"],[class*=\" boton-\"] [class^=icono-],[class^=boton-] [class*=\" icono-\"],[class^=boton-] [class^=icono-]{display:inline-flex;align-items:center;padding-left:8px}.boton-icono{font-size:1.5rem;line-height:0;padding:4px}.boton-icono [class*=\" icono-\"],.boton-icono [class^=icono-]{padding-left:0}.boton-icono.boton-chico{font-size:1rem}.boton-icono.boton-grande{font-size:2rem}.boton-descarga{border-radius:8px;display:block;padding:32px;text-align:left;width:100%}.boton-descarga .titulo{font-weight:600;line-height:1.2em;margin:0 0 8px}.boton-descarga .descripcion{display:flex;font-weight:300;line-height:1.2em;margin:0;align-items:center;justify-content:space-around}.boton-descarga .descripcion .texto{flex:1;margin:0;font-size:.875rem}.boton-descarga .descripcion [class*=\" icono-\"],.boton-descarga .descripcion [class^=icono-]{font-size:2rem;padding-left:32px}.boton-info{border-radius:0;border-width:0;font-size:.875rem;display:block;padding:8px;width:100%}.boton-conacyt{background-color:#f6f6f6;border-radius:0 0 8px 8px;border-width:0;box-shadow:3px 3px 4px transparent;display:flex;color:#003384;filter:grayscale(100%);padding:4px 8px;text-align:left;width:100%;cursor:pointer}.boton-conacyt img{height:28px;opacity:.5;transition:all .25s ease-in-out}.boton-conacyt:focus,.boton-conacyt:hover{filter:grayscale(0)}.boton-conacyt:focus img,.boton-conacyt:hover img{opacity:1}fieldset{background-color:var(--input-fondo);border:1px solid var(--input-borde);border-radius:4px;padding:16px;margin-top:8px;margin-bottom:24px}legend{color:var(--tipografia-color);padding:0 16px;font-family:var(--tipografia-familia,\"sans-serif\");font-size:1rem;font-weight:500}label{color:var(--label-color)}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]),select,textarea{background-color:var(--input-fondo);border:1px solid var(--input-borde);border-radius:4px;box-sizing:border-box;color:var(--input-color);font-family:var(--tipografia-familia,\"sans-serif\");font-size:1rem;font-weight:400;padding:8px 16px;margin-top:8px;margin-bottom:24px;width:100%;touch-action:manipulation}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset])::-moz-placeholder,select::-moz-placeholder,textarea::-moz-placeholder{color:var(--tipografia-color-2)}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset])::placeholder,select::placeholder,textarea::placeholder{color:var(--tipografia-color-2)}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]):disabled,select:disabled,textarea:disabled{background-color:var(--input-deshabilitado-fondo);color:var(--input-deshabilitado-color)}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]):-moz-read-only:not(select):not([type=file]),select:-moz-read-only:not(select):not([type=file]),textarea:-moz-read-only:not(select):not([type=file]){background-color:var(--input-deshabilitado-fondo)}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]):read-only:not(select):not([type=file]),select:read-only:not(select):not([type=file]),textarea:read-only:not(select):not([type=file]){background-color:var(--input-deshabilitado-fondo)}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]):not(:disabled),select:not(:disabled),textarea:not(:disabled){transition:all .27s ease-in-out}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]):not(:disabled):hover,select:not(:disabled):hover,textarea:not(:disabled):hover{border-color:var(--input-hover-borde)}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]):not(:disabled):focus,select:not(:disabled):focus,textarea:not(:disabled):focus{border-color:var(--input-focus-sombra);box-shadow:0 0 8px var(--input-focus-sombra);outline:none}[type=checkbox],[type=radio]{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}[type=checkbox]+label,[type=radio]+label{background-color:var(--input-fondo);border:1px solid transparent;border-radius:4px;color:var(--label-color);cursor:pointer;display:inline-flex;position:relative;margin-top:8px;margin-bottom:8px;margin-right:8px;padding-left:calc(1.25rem + 8px);padding-right:16px;padding-top:4px;padding-bottom:4px}[type=checkbox]:focus+label,[type=radio]:focus+label{border-color:var(--input-focus-sombra);box-shadow:0 0 8px var(--input-focus-sombra);color:var(--input-color);outline:none}[type=checkbox]:checked+label,[type=checkbox]:hover+label,[type=radio]:checked+label,[type=radio]:hover+label{color:var(--input-color)}[type=checkbox]:hover+label:before,[type=radio]:hover+label:before{box-shadow:inset 0 0 0 1px var(--input-color)}[type=checkbox]+label:before,[type=radio]+label:before{box-sizing:border-box;box-shadow:inset 0 0 0 1px var(--input-borde);content:\"\";height:1.25rem;width:1.25rem;left:4px;background-color:var(--input-fondo);position:absolute}[type=checkbox]+label:before{border:2px solid var(--pagina-fondo);border-radius:4px}[type=checkbox]:checked+label:before,[type=radio]:checked+label:before{box-shadow:inset 0 0 0 1px var(--input-controles-color);background:var(--input-controles-color)}[type=checkbox]:checked+label:after{font-family:dai-iconos;content:\"k\";color:var(--pagina-fondo);position:absolute;left:calc(.125rem + 4px)}[type=radio]+label:before{border-radius:50%}[type=radio]:checked+label:before{background-color:var(--pagina-fondo);box-shadow:inset 0 0 0 .375rem var(--input-controles-color)}select{appearance:none;-moz-appearance:none;-webkit-appearance:none;background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");background-position:calc(100% - 16px),50%;background-size:24px;background-repeat:no-repeat;padding-right:32px}[type=file]{padding-top:6px!important}[type=range]{box-sizing:border-box!important;border:1px solid transparent;width:100%;margin-top:8px;margin-bottom:24px;background-color:transparent;-webkit-appearance:none}[type=range]:focus{border-color:var(--input-focus-sombra);box-shadow:0 0 8px var(--input-focus-sombra);border-radius:4px;outline:none}[type=range]::-webkit-slider-runnable-track{background:var(--input-color);border:0;border-radius:.25rem;width:100%;height:.25rem;cursor:pointer}[type=range]::-webkit-slider-thumb{margin-top:-.625rem;width:1.5rem;height:1.5rem;background:var(--input-color);border:0;border-radius:.75rem;cursor:pointer;-webkit-appearance:none}[type=range]:focus::-webkit-slider-runnable-track{background:var(--input-color)}[type=range]::-moz-range-track{background:var(--input-color);border:0;border-radius:.25rem;width:100%;height:.25rem;cursor:pointer}[type=range]::-moz-range-thumb{width:1.5rem;height:1.5rem;background:var(--input-color);border:0;border-radius:.75rem;cursor:pointer}[type=range]::-ms-track{background:transparent;border-color:transparent;border-width:8px 0;color:transparent;width:100%;height:8px;cursor:pointer}[type=range]::-ms-fill-lower,[type=range]::-ms-fill-upper{background:var(--input-color);border:0;border-radius:1.5rem}[type=range]::-ms-thumb{width:1.5rem;height:1.5rem;border:0;border-radius:.75rem;cursor:pointer;margin-top:0}[type=range]::-ms-thumb,[type=range]:focus::-ms-fill-lower{background:var(--input-color)}[type=range]:focus::-ms-fill-upper{background:var(--input-color)}.formulario-horizontal label{margin-right:4px}.formulario-horizontal input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]),.formulario-horizontal select,.formulario-horizontal textarea{width:inherit}.formulario-horizontal input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]):not(:last-child),.formulario-horizontal select:not(:last-child),.formulario-horizontal textarea:not(:last-child){margin-right:24px}.formulario-horizontal .input-correcto,.formulario-horizontal .input-error{display:inline-flex}.formulario-horizontal .input-correcto:not(:last-child),.formulario-horizontal .input-error:not(:last-child){margin-right:24px}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".sisdai-mapa-control{position:absolute;display:flex;flex-direction:column;margin:12px}.sisdai-mapa-control-zoom>button{margin:0}.sisdai-mapa-control-zoom>button:not(:last-child){margin-bottom:6px;margin-right:0}.sisdai-mapa-control-ajuste-vista{bottom:0}.sisdai-mapa-control-escala-grafica{bottom:0;left:46px!important}.sisdai-mapa-control-escala-grafica .ol-scale-bar-inner .ol-scale-step-marker{height:10px;top:0!important}.sisdai-mapa-control-escala-grafica .ol-scale-bar-inner .ol-scale-singlebar{height:3px;top:8px}.sisdai-mapa-control-escala-grafica .ol-scale-bar-inner .ol-scale-step-text{bottom:10px;font-size:11px}.sisdai-mapa-control-escala-grafica .ol-scale-bar-inner div>.ol-scale-step-marker{top:-2px!important}:root{--pagina-fondo:#fff;--tipografia-color:#141414;--tipografia-color-1:#fff;--tipografia-color-2:#6f7271;--tipografia-color-3:#404041;--tabla-fondo-impar:#f6f6f6;--tabla-fondo-notas:#a9a8a9;--detalle-fondo:#f6f6f6;--detalle-focus-sombra:#005dff;--sombra:#0000001a;--sombra-focus:#005dff;--sombra-hover:#00000033;--label-color:#6f7271;--input-fondo:transparent;--input-color:#141414;--input-borde:#a9a8a9;--input-controles-color:#14a634;--input-deshabilitado-fondo:#f6f6f6;--input-deshabilitado-color:#a9a8a9;--input-hover-borde:#6f7271;--input-focus-sombra:#005dff;--acciones-informativo:#1256c4;--acciones-error:#c51228;--acciones-advertencia:#feb301;--acciones-correcto:#069165;--borde-color-1:#141414;--borde-color-2:#6f7271;--borde-color-3:#a9a8a9;--borde-color-4:#fff;--tipografia-familia:\"Montserrat\",sans-serif;--tipografia-tamanio:16px;--boton-primario-fondo:#141414;--boton-primario-borde:#141414;--boton-primario-color:#fff;--boton-primario-sombra:transparent;--boton-primario-deshabilitado-fondo:#ddd;--boton-primario-deshabilitado-borde:#ddd;--boton-primario-deshabilitado-color:#a9a8a9;--boton-primario-deshabilitado-sombra:transparent;--boton-primario-hover-fondo:#404041;--boton-primario-hover-borde:#404041;--boton-primario-hover-color:#fff;--boton-primario-hover-sombra:#00000033;--boton-primario-focus-fondo:#141414;--boton-primario-focus-borde:#005dff;--boton-primario-focus-color:#fff;--boton-primario-focus-sombra:#005dff;--boton-secundario-fondo:#fff;--boton-secundario-borde:#141414;--boton-secundario-color:#141414;--boton-secundario-sombra:transparent;--boton-secundario-deshabilitado-fondo:#fff;--boton-secundario-deshabilitado-borde:#ddd;--boton-secundario-deshabilitado-color:#a9a8a9;--boton-secundario-deshabilitado-sombra:transparent;--boton-secundario-hover-fondo:#fff;--boton-secundario-hover-borde:#141414;--boton-secundario-hover-color:#141414;--boton-secundario-hover-sombra:#00000033;--boton-secundario-focus-fondo:#fff;--boton-secundario-focus-borde:#005dff;--boton-secundario-focus-color:#141414;--boton-secundario-focus-sombra:#005dff;--boton-terciario-fondo:transparent;--boton-terciario-borde:transparent;--boton-terciario-color:#141414;--boton-terciario-sombra:transparent;--boton-terciario-deshabilitado-fondo:transparent;--boton-terciario-deshabilitado-borde:transparent;--boton-terciario-deshabilitado-color:#a9a8a9;--boton-terciario-deshabilitado-sombra:transparent;--boton-terciario-hover-fondo:transparent;--boton-terciario-hover-borde:transparent;--boton-terciario-hover-color:#141414;--boton-terciario-hover-sombra:#00000033;--boton-terciario-focus-fondo:transparent;--boton-terciario-focus-borde:#005dff;--boton-terciario-focus-color:#141414;--boton-terciario-focus-sombra:#005dff;--hipervinculo-color:#005dff;--hipervinculo-sombra:transparent;--hipervinculo-deshabilitado-color:#a9a8a980;--hipervinculo-deshabilitado-sombra:transparent;--hipervinculo-hover-color:#356ccc;--hipervinculo-hover-sombra:transparent;--hipervinculo-focus-color:#005dff;--hipervinculo-focus-sombra:#005dff;--navegacion-fondo:#eef;--navegacion-sombra:0 1px 0 0 #ccf,0 8px 8px -4px rgba(0,0,0,.2);--navegacion-redondeado:0 0 8px 8px;--navegacion-color:#00f;--navegacion-fondo-hover:#ddf;--navegacion-sombra-hover:0 1px 0 0 #ccf,0 8px 8px -4px rgba(0,0,0,.2);--navegacion-color-hover:#00f;--navegacion-fondo-active:#00f;--navegacion-sombra-active:0 0 0 0;--navegacion-color-active:#fff}html{line-height:1.3;scroll-behavior:smooth;text-rendering:optimizeLegibility;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{padding:0;margin:0}body *{box-sizing:border-box}iframe,main{display:block}iframe{border:none}progress{vertical-align:baseline}abbr{cursor:help;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}abbr,ins{border:none}ins{-webkit-text-decoration:underline dashed;text-decoration:underline dashed}b,strong{font-weight:600}sub,sup{line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border:none}.borde{border:1px solid var(--borde-color-1)}.borde-t{border-top:1px solid var(--borde-color-1)}.borde-r{border-right:1px solid var(--borde-color-1)}.borde-b{border-bottom:1px solid var(--borde-color-1)}.borde-l,.borde-x{border-left:1px solid var(--borde-color-1)}.borde-x{border-right:1px solid var(--borde-color-1)}.borde-y{border-top:1px solid var(--borde-color-1);border-bottom:1px solid var(--borde-color-1)}.border-redondeado-t-0{border-top-left-radius:0;border-top-right-radius:0}.border-redondeado-b-0{border-bottom-left-radius:0;border-bottom-right-radius:0}.border-redondeado-l-0{border-bottom-left-radius:0;border-top-right-radius:0;border-bottom-right-radius:0}.borde-redondeado-t-l-0,.border-redondeado-l-0{border-top-left-radius:0}.borde-redondeado-t-r-0{border-top-right-radius:0}.borde-redondeado-b-l-0{border-bottom-left-radius:0}.borde-redondeado-b-r-0{border-bottom-right-radius:0}.borde-redondeado-minimo{border-radius:4px}.border-redondeado-t-minimo{border-top-left-radius:4px;border-top-right-radius:4px}.border-redondeado-b-minimo{border-bottom-left-radius:4px;border-bottom-right-radius:4px}.border-redondeado-l-minimo{border-top-left-radius:4px;border-bottom-left-radius:4px;border-top-right-radius:4px;border-bottom-right-radius:4px}.borde-redondeado-t-l-minimo{border-top-left-radius:4px}.borde-redondeado-t-r-minimo{border-top-right-radius:4px}.borde-redondeado-b-l-minimo{border-bottom-left-radius:4px}.borde-redondeado-b-r-minimo{border-bottom-right-radius:4px}.borde-redondeado-1{border-radius:8px}.border-redondeado-t-1{border-top-left-radius:8px;border-top-right-radius:8px}.border-redondeado-b-1{border-bottom-left-radius:8px;border-bottom-right-radius:8px}.border-redondeado-l-1{border-bottom-left-radius:8px;border-top-right-radius:8px;border-bottom-right-radius:8px}.borde-redondeado-t-l-1,.border-redondeado-l-1{border-top-left-radius:8px}.borde-redondeado-t-r-1{border-top-right-radius:8px}.borde-redondeado-b-l-1{border-bottom-left-radius:8px}.borde-redondeado-b-r-1{border-bottom-right-radius:8px}.borde-redondeado-2{border-radius:16px}.border-redondeado-t-2{border-top-left-radius:16px;border-top-right-radius:16px}.border-redondeado-b-2{border-bottom-left-radius:16px;border-bottom-right-radius:16px}.border-redondeado-l-2{border-bottom-left-radius:16px;border-top-right-radius:16px;border-bottom-right-radius:16px}.borde-redondeado-t-l-2,.border-redondeado-l-2{border-top-left-radius:16px}.borde-redondeado-t-r-2{border-top-right-radius:16px}.borde-redondeado-b-l-2{border-bottom-left-radius:16px}.borde-redondeado-b-r-2{border-bottom-right-radius:16px}.borde-redondeado-3{border-radius:24px}.border-redondeado-t-3{border-top-left-radius:24px;border-top-right-radius:24px}.border-redondeado-b-3{border-bottom-left-radius:24px;border-bottom-right-radius:24px}.border-redondeado-l-3{border-bottom-left-radius:24px;border-top-right-radius:24px;border-bottom-right-radius:24px}.borde-redondeado-t-l-3,.border-redondeado-l-3{border-top-left-radius:24px}.borde-redondeado-t-r-3{border-top-right-radius:24px}.borde-redondeado-b-l-3{border-bottom-left-radius:24px}.borde-redondeado-b-r-3{border-bottom-right-radius:24px}.borde-redondeado-4{border-radius:32px}.border-redondeado-t-4{border-top-left-radius:32px;border-top-right-radius:32px}.border-redondeado-b-4{border-bottom-left-radius:32px;border-bottom-right-radius:32px}.border-redondeado-l-4{border-bottom-left-radius:32px;border-top-right-radius:32px;border-bottom-right-radius:32px}.borde-redondeado-t-l-4,.border-redondeado-l-4{border-top-left-radius:32px}.borde-redondeado-t-r-4{border-top-right-radius:32px}.borde-redondeado-b-l-4{border-bottom-left-radius:32px}.borde-redondeado-b-r-4{border-bottom-right-radius:32px}.borde-redondeado-5{border-radius:40px}.border-redondeado-t-5{border-top-left-radius:40px;border-top-right-radius:40px}.border-redondeado-b-5{border-bottom-left-radius:40px;border-bottom-right-radius:40px}.border-redondeado-l-5{border-bottom-left-radius:40px;border-top-right-radius:40px;border-bottom-right-radius:40px}.borde-redondeado-t-l-5,.border-redondeado-l-5{border-top-left-radius:40px}.borde-redondeado-t-r-5{border-top-right-radius:40px}.borde-redondeado-b-l-5{border-bottom-left-radius:40px}.borde-redondeado-b-r-5{border-bottom-right-radius:40px}.borde-redondeado-6{border-radius:48px}.border-redondeado-t-6{border-top-left-radius:48px;border-top-right-radius:48px}.border-redondeado-b-6{border-bottom-left-radius:48px;border-bottom-right-radius:48px}.border-redondeado-l-6{border-bottom-left-radius:48px;border-top-right-radius:48px;border-bottom-right-radius:48px}.borde-redondeado-t-l-6,.border-redondeado-l-6{border-top-left-radius:48px}.borde-redondeado-t-r-6{border-top-right-radius:48px}.borde-redondeado-b-l-6{border-bottom-left-radius:48px}.borde-redondeado-b-r-6{border-bottom-right-radius:48px}.borde-redondeado-7{border-radius:56px}.border-redondeado-t-7{border-top-left-radius:56px;border-top-right-radius:56px}.border-redondeado-b-7{border-bottom-left-radius:56px;border-bottom-right-radius:56px}.border-redondeado-l-7{border-bottom-left-radius:56px;border-top-right-radius:56px;border-bottom-right-radius:56px}.borde-redondeado-t-l-7,.border-redondeado-l-7{border-top-left-radius:56px}.borde-redondeado-t-r-7{border-top-right-radius:56px}.borde-redondeado-b-l-7{border-bottom-left-radius:56px}.borde-redondeado-b-r-7{border-bottom-right-radius:56px}.borde-redondeado-8{border-radius:64px}.border-redondeado-t-8{border-top-left-radius:64px;border-top-right-radius:64px}.border-redondeado-b-8{border-bottom-left-radius:64px;border-bottom-right-radius:64px}.border-redondeado-l-8{border-bottom-left-radius:64px;border-top-right-radius:64px;border-bottom-right-radius:64px}.borde-redondeado-t-l-8,.border-redondeado-l-8{border-top-left-radius:64px}.borde-redondeado-t-r-8{border-top-right-radius:64px}.borde-redondeado-b-l-8{border-bottom-left-radius:64px}.borde-redondeado-b-r-8{border-bottom-right-radius:64px}.borde-redondeado-9{border-radius:72px}.border-redondeado-t-9{border-top-left-radius:72px;border-top-right-radius:72px}.border-redondeado-b-9{border-bottom-left-radius:72px;border-bottom-right-radius:72px}.border-redondeado-l-9{border-bottom-left-radius:72px;border-top-right-radius:72px;border-bottom-right-radius:72px}.borde-redondeado-t-l-9,.border-redondeado-l-9{border-top-left-radius:72px}.borde-redondeado-t-r-9{border-top-right-radius:72px}.borde-redondeado-b-l-9{border-bottom-left-radius:72px}.borde-redondeado-b-r-9{border-bottom-right-radius:72px}.borde-redondeado-10{border-radius:80px}.border-redondeado-t-10{border-top-left-radius:80px;border-top-right-radius:80px}.border-redondeado-b-10{border-bottom-left-radius:80px;border-bottom-right-radius:80px}.border-redondeado-l-10{border-bottom-left-radius:80px;border-top-right-radius:80px;border-bottom-right-radius:80px}.borde-redondeado-t-l-10,.border-redondeado-l-10{border-top-left-radius:80px}.borde-redondeado-t-r-10{border-top-right-radius:80px}.borde-redondeado-b-l-10{border-bottom-left-radius:80px}.borde-redondeado-b-r-10{border-bottom-right-radius:80px}.borde-redondeado-extra{border-radius:96px}.border-redondeado-t-extra{border-top-left-radius:96px;border-top-right-radius:96px}.border-redondeado-b-extra{border-bottom-left-radius:96px;border-bottom-right-radius:96px}.border-redondeado-l-extra{border-bottom-left-radius:96px;border-top-right-radius:96px;border-bottom-right-radius:96px}.borde-redondeado-t-l-extra,.border-redondeado-l-extra{border-top-left-radius:96px}.borde-redondeado-t-r-extra{border-top-right-radius:96px}.borde-redondeado-b-l-extra{border-bottom-left-radius:96px}.borde-redondeado-b-r-extra{border-bottom-right-radius:96px}.borde-redondeado-maximo{border-radius:120px}.border-redondeado-t-maximo{border-top-left-radius:120px;border-top-right-radius:120px}.border-redondeado-b-maximo{border-bottom-left-radius:120px;border-bottom-right-radius:120px}.border-redondeado-l-maximo{border-bottom-left-radius:120px;border-top-right-radius:120px;border-bottom-right-radius:120px}.borde-redondeado-t-l-maximo,.border-redondeado-l-maximo{border-top-left-radius:120px}.borde-redondeado-t-r-maximo{border-top-right-radius:120px}.borde-redondeado-b-l-maximo{border-bottom-left-radius:120px}.borde-redondeado-b-r-maximo{border-bottom-right-radius:120px}.borde-redondeado-0{border-radius:0}.borde-t-redondeado-0{border-top-left-radius:0;border-top-right-radius:0}.borde-b-redondeado-0{border-bottom-left-radius:0;border-bottom-right-radius:0}.borde-r-redondeado-0{border-top-left-radius:0;border-bottom-left-radius:0}.borde-l-redondeado-0{border-top-right-radius:0;border-bottom-right-radius:0}.borde-t-l-redondeado-0{border-top-left-radius:0}.borde-t-r-redondeado-0{border-top-right-radius:0}.borde-b-l-redondeado-0{border-bottom-left-radius:0}.borde-b-r-redondeado-0{border-bottom-right-radius:0}.borde-redondeado-1{border-radius:1px}.borde-t-redondeado-1{border-top-left-radius:1px;border-top-right-radius:1px}.borde-b-redondeado-1{border-bottom-left-radius:1px;border-bottom-right-radius:1px}.borde-r-redondeado-1{border-top-left-radius:1px;border-bottom-left-radius:1px}.borde-l-redondeado-1{border-top-right-radius:1px;border-bottom-right-radius:1px}.borde-t-l-redondeado-1{border-top-left-radius:1px}.borde-t-r-redondeado-1{border-top-right-radius:1px}.borde-b-l-redondeado-1{border-bottom-left-radius:1px}.borde-b-r-redondeado-1{border-bottom-right-radius:1px}.borde-redondeado-2{border-radius:2px}.borde-t-redondeado-2{border-top-left-radius:2px;border-top-right-radius:2px}.borde-b-redondeado-2{border-bottom-left-radius:2px;border-bottom-right-radius:2px}.borde-r-redondeado-2{border-top-left-radius:2px;border-bottom-left-radius:2px}.borde-l-redondeado-2{border-top-right-radius:2px;border-bottom-right-radius:2px}.borde-t-l-redondeado-2{border-top-left-radius:2px}.borde-t-r-redondeado-2{border-top-right-radius:2px}.borde-b-l-redondeado-2{border-bottom-left-radius:2px}.borde-b-r-redondeado-2{border-bottom-right-radius:2px}.borde-redondeado-4{border-radius:4px}.borde-t-redondeado-4{border-top-left-radius:4px;border-top-right-radius:4px}.borde-b-redondeado-4{border-bottom-left-radius:4px;border-bottom-right-radius:4px}.borde-r-redondeado-4{border-top-left-radius:4px;border-bottom-left-radius:4px}.borde-l-redondeado-4{border-top-right-radius:4px;border-bottom-right-radius:4px}.borde-t-l-redondeado-4{border-top-left-radius:4px}.borde-t-r-redondeado-4{border-top-right-radius:4px}.borde-b-l-redondeado-4{border-bottom-left-radius:4px}.borde-b-r-redondeado-4{border-bottom-right-radius:4px}.borde-redondeado-8{border-radius:8px}.borde-t-redondeado-8{border-top-left-radius:8px;border-top-right-radius:8px}.borde-b-redondeado-8{border-bottom-left-radius:8px;border-bottom-right-radius:8px}.borde-r-redondeado-8{border-top-left-radius:8px;border-bottom-left-radius:8px}.borde-l-redondeado-8{border-top-right-radius:8px;border-bottom-right-radius:8px}.borde-t-l-redondeado-8{border-top-left-radius:8px}.borde-t-r-redondeado-8{border-top-right-radius:8px}.borde-b-l-redondeado-8{border-bottom-left-radius:8px}.borde-b-r-redondeado-8{border-bottom-right-radius:8px}.borde-redondeado-16{border-radius:16px}.borde-t-redondeado-16{border-top-left-radius:16px;border-top-right-radius:16px}.borde-b-redondeado-16{border-bottom-left-radius:16px;border-bottom-right-radius:16px}.borde-r-redondeado-16{border-top-left-radius:16px;border-bottom-left-radius:16px}.borde-l-redondeado-16{border-top-right-radius:16px;border-bottom-right-radius:16px}.borde-t-l-redondeado-16{border-top-left-radius:16px}.borde-t-r-redondeado-16{border-top-right-radius:16px}.borde-b-l-redondeado-16{border-bottom-left-radius:16px}.borde-b-r-redondeado-16{border-bottom-right-radius:16px}.borde-redondeado-20{border-radius:20px}.borde-t-redondeado-20{border-top-left-radius:20px;border-top-right-radius:20px}.borde-b-redondeado-20{border-bottom-left-radius:20px;border-bottom-right-radius:20px}.borde-r-redondeado-20{border-top-left-radius:20px;border-bottom-left-radius:20px}.borde-l-redondeado-20{border-top-right-radius:20px;border-bottom-right-radius:20px}.borde-t-l-redondeado-20{border-top-left-radius:20px}.borde-t-r-redondeado-20{border-top-right-radius:20px}.borde-b-l-redondeado-20{border-bottom-left-radius:20px}.borde-b-r-redondeado-20{border-bottom-right-radius:20px}.borde-color-1{border-color:var(--borde-color-1)}.borde-t-color-1{border-top-color:var(--borde-color-1)}.borde-r-color-1{border-right-color:var(--borde-color-1)}.borde-b-color-1{border-bottom-color:var(--borde-color-1)}.borde-l-color-1,.borde-x-color-1{border-left-color:var(--borde-color-1)}.borde-x-color-1{border-right-color:var(--borde-color-1)}.borde-y-color-1{border-top-color:var(--borde-color-1);border-bottom-color:var(--borde-color-1)}.borde-color-2{border-color:var(--borde-color-2)}.borde-t-color-2{border-top-color:var(--borde-color-2)}.borde-r-color-2{border-right-color:var(--borde-color-2)}.borde-b-color-2{border-bottom-color:var(--borde-color-2)}.borde-l-color-2,.borde-x-color-2{border-left-color:var(--borde-color-2)}.borde-x-color-2{border-right-color:var(--borde-color-2)}.borde-y-color-2{border-top-color:var(--borde-color-2);border-bottom-color:var(--borde-color-2)}.borde-color-3{border-color:var(--borde-color-3)}.borde-t-color-3{border-top-color:var(--borde-color-3)}.borde-r-color-3{border-right-color:var(--borde-color-3)}.borde-b-color-3{border-bottom-color:var(--borde-color-3)}.borde-l-color-3,.borde-x-color-3{border-left-color:var(--borde-color-3)}.borde-x-color-3{border-right-color:var(--borde-color-3)}.borde-y-color-3{border-top-color:var(--borde-color-3);border-bottom-color:var(--borde-color-3)}.borde-color-4{border-color:var(--borde-color-4)}.borde-t-color-4{border-top-color:var(--borde-color-4)}.borde-r-color-4{border-right-color:var(--borde-color-4)}.borde-b-color-4{border-bottom-color:var(--borde-color-4)}.borde-l-color-4,.borde-x-color-4{border-left-color:var(--borde-color-4)}.borde-x-color-4{border-right-color:var(--borde-color-4)}.borde-y-color-4{border-top-color:var(--borde-color-4);border-bottom-color:var(--borde-color-4)}.borde-grosor-0{border-width:0}.borde-t-grosor-0{border-top-width:0}.borde-r-grosor-0{border-right-width:0}.borde-b-grosor-0{border-bottom-width:0}.borde-l-grosor-0,.borde-x-grosor-0{border-left-width:0}.borde-x-grosor-0{border-right-width:0}.borde-y-grosor-0{border-top-width:0;border-bottom-width:0}.borde-grosor-1{border-width:1px}.borde-t-grosor-1{border-top-width:1px}.borde-r-grosor-1{border-right-width:1px}.borde-b-grosor-1{border-bottom-width:1px}.borde-l-grosor-1,.borde-x-grosor-1{border-left-width:1px}.borde-x-grosor-1{border-right-width:1px}.borde-y-grosor-1{border-top-width:1px;border-bottom-width:1px}.borde-grosor-2{border-width:2px}.borde-t-grosor-2{border-top-width:2px}.borde-r-grosor-2{border-right-width:2px}.borde-b-grosor-2{border-bottom-width:2px}.borde-l-grosor-2,.borde-x-grosor-2{border-left-width:2px}.borde-x-grosor-2{border-right-width:2px}.borde-y-grosor-2{border-top-width:2px;border-bottom-width:2px}.borde-grosor-4{border-width:4px}.borde-t-grosor-4{border-top-width:4px}.borde-r-grosor-4{border-right-width:4px}.borde-b-grosor-4{border-bottom-width:4px}.borde-l-grosor-4,.borde-x-grosor-4{border-left-width:4px}.borde-x-grosor-4{border-right-width:4px}.borde-y-grosor-4{border-top-width:4px;border-bottom-width:4px}.borde-grosor-8{border-width:8px}.borde-t-grosor-8{border-top-width:8px}.borde-r-grosor-8{border-right-width:8px}.borde-b-grosor-8{border-bottom-width:8px}.borde-l-grosor-8,.borde-x-grosor-8{border-left-width:8px}.borde-x-grosor-8{border-right-width:8px}.borde-y-grosor-8{border-top-width:8px;border-bottom-width:8px}.borde-grosor-16{border-width:16px}.borde-t-grosor-16{border-top-width:16px}.borde-r-grosor-16{border-right-width:16px}.borde-b-grosor-16{border-bottom-width:16px}.borde-l-grosor-16,.borde-x-grosor-16{border-left-width:16px}.borde-x-grosor-16{border-right-width:16px}.borde-y-grosor-16{border-top-width:16px;border-bottom-width:16px}.borde-grosor-20{border-width:20px}.borde-t-grosor-20{border-top-width:20px}.borde-r-grosor-20{border-right-width:20px}.borde-b-grosor-20{border-bottom-width:20px}.borde-l-grosor-20,.borde-x-grosor-20{border-left-width:20px}.borde-x-grosor-20{border-right-width:20px}.borde-y-grosor-20{border-top-width:20px;border-bottom-width:20px}hr{border-top:1px solid var(--borde-color-1);box-sizing:content-box;height:0;overflow:visible;margin-top:16px;margin-bottom:16px}h1+hr,h2+hr,h3+hr,h4+hr,h5+hr,h6+hr{margin-top:-8px}ol+hr,ul+hr{margin-top:0;margin-bottom:0}.separador,.separador-primario{border-top-color:var(--borde-color-1)}.separador-secundario{border-top-color:var(--borde-color-2)}.boton,button,input[type=button],input[type=reset],input[type=submit]{border-style:solid;border-width:1px;border-radius:4px;box-shadow:3px 3px 4px transparent;box-sizing:border-box;font-family:var(--tipografia-familia,\"sans-serif\");font-size:1rem;font-weight:500;line-height:1.3em;padding:16px 24px;text-decoration:none;text-align:center;display:inline-flex;align-items:center}.boton:not(:disabled),button:not(:disabled),input[type=button]:not(:disabled),input[type=reset]:not(:disabled),input[type=submit]:not(:disabled){cursor:pointer;transition:all .27s ease-in-out}.boton:disabled,button:disabled,input[type=button]:disabled,input[type=reset]:disabled,input[type=submit]:disabled{pointer-events:none}.boton:not(:last-child),button:not(:last-child),input[type=button]:not(:last-child),input[type=reset]:not(:last-child),input[type=submit]:not(:last-child){margin-right:8px}.boton-descarga,.boton-icono,.boton-info,.boton-primario{background-color:var(--boton-primario-fondo);border-color:var(--boton-primario-borde);color:var(--boton-primario-color)}.boton-descarga:disabled,.boton-icono:disabled,.boton-info:disabled,.boton-primario:disabled{background-color:var(--boton-primario-deshabilitado-fondo);border-color:var(--boton-primario-deshabilitado-borde);box-shadow:3px 3px 4px var(--boton-primario-deshabilitado-sombra);color:var(--boton-primario-deshabilitado-color)}.boton-descarga:not(:disabled):hover,.boton-icono:not(:disabled):hover,.boton-info:not(:disabled):hover,.boton-primario:not(:disabled):hover{background-color:var(--boton-primario-hover-fondo);border-color:var(--boton-primario-hover-borde);box-shadow:3px 3px 4px var(--boton-primario-hover-sombra);color:var(--boton-primario-hover-color)}.boton-descarga:not(:disabled):focus,.boton-icono:not(:disabled):focus,.boton-info:not(:disabled):focus,.boton-primario:not(:disabled):focus{background-color:var(--boton-primario-focus-fondo);border-color:var(--boton-primario-focus-borde);box-shadow:0 0 8px var(--boton-primario-focus-sombra);color:var(--boton-primario-focus-color);outline:none}.boton-secundario{background-color:var(--boton-secundario-fondo);border-color:var(--boton-secundario-borde);color:var(--boton-secundario-color)}.boton-secundario:disabled{background-color:var(--boton-secundario-deshabilitado-fondo);border-color:var(--boton-secundario-deshabilitado-borde);box-shadow:3px 3px 4px var(--boton-secundario-deshabilitado-sombra);color:var(--boton-secundario-deshabilitado-color)}.boton-secundario:not(:disabled):hover{background-color:var(--boton-secundario-hover-fondo);border-color:var(--boton-secundario-hover-borde);box-shadow:3px 3px 4px var(--boton-secundario-hover-sombra);color:var(--boton-secundario-hover-color)}.boton-secundario:not(:disabled):focus{background-color:var(--boton-secundario-focus-fondo);border-color:var(--boton-secundario-focus-borde);box-shadow:0 0 8px var(--boton-secundario-focus-sombra);color:var(--boton-secundario-focus-color);outline:none}.boton-terciario{background-color:var(--boton-terciario-fondo);border-color:var(--boton-terciario-borde);color:var(--boton-terciario-color)}.boton-terciario:disabled{background-color:var(--boton-terciario-deshabilitado-fondo);border-color:var(--boton-terciario-deshabilitado-borde);box-shadow:3px 3px 4px var(--boton-terciario-deshabilitado-sombra);color:var(--boton-terciario-deshabilitado-color)}.boton-terciario:not(:disabled):hover{background-color:var(--boton-terciario-hover-fondo);border-color:var(--boton-terciario-hover-borde);box-shadow:3px 3px 4px var(--boton-terciario-hover-sombra);color:var(--boton-terciario-hover-color)}.boton-terciario:not(:disabled):focus{background-color:var(--boton-terciario-focus-fondo);border-color:var(--boton-terciario-focus-borde);box-shadow:0 0 8px var(--boton-terciario-focus-sombra);color:var(--boton-terciario-focus-color);outline:none}.boton-chico{font-size:.875rem;padding:8px 16px}.boton-grande{font-size:1.125rem;padding:24px}.boton [class*=\" icono-\"],.boton [class^=icono-],[class*=\" boton-\"] [class*=\" icono-\"],[class*=\" boton-\"] [class^=icono-],[class^=boton-] [class*=\" icono-\"],[class^=boton-] [class^=icono-]{display:inline-flex;align-items:center;padding-left:8px}.boton-icono{font-size:1.5rem;line-height:0;padding:4px}.boton-icono [class*=\" icono-\"],.boton-icono [class^=icono-]{padding-left:0}.boton-icono.boton-chico{font-size:1rem}.boton-icono.boton-grande{font-size:2rem}.boton-descarga{border-radius:8px;display:block;padding:32px;text-align:left;width:100%}.boton-descarga .titulo{font-weight:600;line-height:1.2em;margin:0 0 8px}.boton-descarga .descripcion{display:flex;font-weight:300;line-height:1.2em;margin:0;align-items:center;justify-content:space-around}.boton-descarga .descripcion .texto{flex:1;margin:0;font-size:.875rem}.boton-descarga .descripcion [class*=\" icono-\"],.boton-descarga .descripcion [class^=icono-]{font-size:2rem;padding-left:32px}.boton-info{border-radius:0;border-width:0;font-size:.875rem;display:block;padding:8px;width:100%}.boton-conacyt{background-color:#f6f6f6;border-radius:0 0 8px 8px;border-width:0;box-shadow:3px 3px 4px transparent;display:flex;color:#003384;filter:grayscale(100%);padding:4px 8px;text-align:left;width:100%;cursor:pointer}.boton-conacyt img{height:28px;opacity:.5;transition:all .25s ease-in-out}.boton-conacyt:focus,.boton-conacyt:hover{filter:grayscale(0)}.boton-conacyt:focus img,.boton-conacyt:hover img{opacity:1}fieldset{background-color:var(--input-fondo);border:1px solid var(--input-borde);border-radius:4px;padding:16px;margin-top:8px;margin-bottom:24px}legend{color:var(--tipografia-color);padding:0 16px;font-family:var(--tipografia-familia,\"sans-serif\");font-size:1rem;font-weight:500}label{color:var(--label-color)}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]),select,textarea{background-color:var(--input-fondo);border:1px solid var(--input-borde);border-radius:4px;box-sizing:border-box;color:var(--input-color);font-family:var(--tipografia-familia,\"sans-serif\");font-size:1rem;font-weight:400;padding:8px 16px;margin-top:8px;margin-bottom:24px;width:100%;touch-action:manipulation}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset])::-moz-placeholder,select::-moz-placeholder,textarea::-moz-placeholder{color:var(--tipografia-color-2)}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset])::placeholder,select::placeholder,textarea::placeholder{color:var(--tipografia-color-2)}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]):disabled,select:disabled,textarea:disabled{background-color:var(--input-deshabilitado-fondo);color:var(--input-deshabilitado-color)}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]):-moz-read-only:not(select):not([type=file]),select:-moz-read-only:not(select):not([type=file]),textarea:-moz-read-only:not(select):not([type=file]){background-color:var(--input-deshabilitado-fondo)}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]):read-only:not(select):not([type=file]),select:read-only:not(select):not([type=file]),textarea:read-only:not(select):not([type=file]){background-color:var(--input-deshabilitado-fondo)}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]):not(:disabled),select:not(:disabled),textarea:not(:disabled){transition:all .27s ease-in-out}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]):not(:disabled):hover,select:not(:disabled):hover,textarea:not(:disabled):hover{border-color:var(--input-hover-borde)}input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]):not(:disabled):focus,select:not(:disabled):focus,textarea:not(:disabled):focus{border-color:var(--input-focus-sombra);box-shadow:0 0 8px var(--input-focus-sombra);outline:none}[type=checkbox],[type=radio]{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}[type=checkbox]+label,[type=radio]+label{background-color:var(--input-fondo);border:1px solid transparent;border-radius:4px;color:var(--label-color);cursor:pointer;display:inline-flex;position:relative;margin-top:8px;margin-bottom:8px;margin-right:8px;padding-left:calc(1.25rem + 8px);padding-right:16px;padding-top:4px;padding-bottom:4px}[type=checkbox]:focus+label,[type=radio]:focus+label{border-color:var(--input-focus-sombra);box-shadow:0 0 8px var(--input-focus-sombra);color:var(--input-color);outline:none}[type=checkbox]:checked+label,[type=checkbox]:hover+label,[type=radio]:checked+label,[type=radio]:hover+label{color:var(--input-color)}[type=checkbox]:hover+label:before,[type=radio]:hover+label:before{box-shadow:inset 0 0 0 1px var(--input-color)}[type=checkbox]+label:before,[type=radio]+label:before{box-sizing:border-box;box-shadow:inset 0 0 0 1px var(--input-borde);content:\"\";height:1.25rem;width:1.25rem;left:4px;background-color:var(--input-fondo);position:absolute}[type=checkbox]+label:before{border:2px solid var(--pagina-fondo);border-radius:4px}[type=checkbox]:checked+label:before,[type=radio]:checked+label:before{box-shadow:inset 0 0 0 1px var(--input-controles-color);background:var(--input-controles-color)}[type=checkbox]:checked+label:after{font-family:sisdai-iconos;content:\"k\";color:var(--pagina-fondo);position:absolute;left:calc(.125rem + 4px)}[type=radio]+label:before{border-radius:50%}[type=radio]:checked+label:before{background-color:var(--pagina-fondo);box-shadow:inset 0 0 0 .375rem var(--input-controles-color)}select{appearance:none;-moz-appearance:none;-webkit-appearance:none;background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");background-position:calc(100% - 16px),50%;background-size:24px;background-repeat:no-repeat;padding-right:32px}[type=file]{padding-top:6px!important}[type=range]{box-sizing:border-box!important;border:1px solid transparent;width:100%;margin-top:8px;margin-bottom:24px;background-color:transparent;-webkit-appearance:none}[type=range]:focus{border-color:var(--input-focus-sombra);box-shadow:0 0 8px var(--input-focus-sombra);border-radius:4px;outline:none}[type=range]::-webkit-slider-runnable-track{background:var(--input-color);border:0;border-radius:.25rem;width:100%;height:.25rem;cursor:pointer}[type=range]::-webkit-slider-thumb{margin-top:-.625rem;width:1.5rem;height:1.5rem;background:var(--input-color);border:0;border-radius:.75rem;cursor:pointer;-webkit-appearance:none}[type=range]:focus::-webkit-slider-runnable-track{background:var(--input-color)}[type=range]::-moz-range-track{background:var(--input-color);border:0;border-radius:.25rem;width:100%;height:.25rem;cursor:pointer}[type=range]::-moz-range-thumb{width:1.5rem;height:1.5rem;background:var(--input-color);border:0;border-radius:.75rem;cursor:pointer}[type=range]::-ms-track{background:transparent;border-color:transparent;border-width:8px 0;color:transparent;width:100%;height:8px;cursor:pointer}[type=range]::-ms-fill-lower,[type=range]::-ms-fill-upper{background:var(--input-color);border:0;border-radius:1.5rem}[type=range]::-ms-thumb{width:1.5rem;height:1.5rem;border:0;border-radius:.75rem;cursor:pointer;margin-top:0}[type=range]::-ms-thumb,[type=range]:focus::-ms-fill-lower{background:var(--input-color)}[type=range]:focus::-ms-fill-upper{background:var(--input-color)}.formulario-horizontal label{margin-right:4px}.formulario-horizontal input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]),.formulario-horizontal select,.formulario-horizontal textarea{width:inherit}.formulario-horizontal input:not([type=checkbox]):not([type=radio]):not([type=range]):not([type=button]):not([type=submit]):not([type=reset]):not(:last-child),.formulario-horizontal select:not(:last-child),.formulario-horizontal textarea:not(:last-child){margin-right:24px}.formulario-horizontal .input-correcto,.formulario-horizontal .input-error{display:inline-flex}.formulario-horizontal .input-correcto:not(:last-child),.formulario-horizontal .input-error:not(:last-child){margin-right:24px}", ""]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
 
 /***/ }),
 
-/***/ 400:
+/***/ 2400:
 /***/ (function(module) {
 
 "use strict";
@@ -247,7 +331,7 @@ module.exports = function (cssWithMappingToString) {
 
 /***/ }),
 
-/***/ 806:
+/***/ 8806:
 /***/ (function(module) {
 
 "use strict";
@@ -280,7 +364,7 @@ module.exports = function (url, options) {
 
 /***/ }),
 
-/***/ 481:
+/***/ 3481:
 /***/ (function(module) {
 
 "use strict";
@@ -292,7 +376,1508 @@ module.exports = function (i) {
 
 /***/ }),
 
-/***/ 582:
+/***/ 9662:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var isCallable = __webpack_require__(614);
+var tryToString = __webpack_require__(6330);
+
+var $TypeError = TypeError;
+
+// `Assert: IsCallable(argument) is true`
+module.exports = function (argument) {
+  if (isCallable(argument)) return argument;
+  throw $TypeError(tryToString(argument) + ' is not a function');
+};
+
+
+/***/ }),
+
+/***/ 9670:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var isObject = __webpack_require__(111);
+
+var $String = String;
+var $TypeError = TypeError;
+
+// `Assert: Type(argument) is Object`
+module.exports = function (argument) {
+  if (isObject(argument)) return argument;
+  throw $TypeError($String(argument) + ' is not an object');
+};
+
+
+/***/ }),
+
+/***/ 1318:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var toIndexedObject = __webpack_require__(5656);
+var toAbsoluteIndex = __webpack_require__(1400);
+var lengthOfArrayLike = __webpack_require__(6244);
+
+// `Array.prototype.{ indexOf, includes }` methods implementation
+var createMethod = function (IS_INCLUDES) {
+  return function ($this, el, fromIndex) {
+    var O = toIndexedObject($this);
+    var length = lengthOfArrayLike(O);
+    var index = toAbsoluteIndex(fromIndex, length);
+    var value;
+    // Array#includes uses SameValueZero equality algorithm
+    // eslint-disable-next-line no-self-compare -- NaN check
+    if (IS_INCLUDES && el != el) while (length > index) {
+      value = O[index++];
+      // eslint-disable-next-line no-self-compare -- NaN check
+      if (value != value) return true;
+    // Array#indexOf ignores holes, Array#includes - not
+    } else for (;length > index; index++) {
+      if ((IS_INCLUDES || index in O) && O[index] === el) return IS_INCLUDES || index || 0;
+    } return !IS_INCLUDES && -1;
+  };
+};
+
+module.exports = {
+  // `Array.prototype.includes` method
+  // https://tc39.es/ecma262/#sec-array.prototype.includes
+  includes: createMethod(true),
+  // `Array.prototype.indexOf` method
+  // https://tc39.es/ecma262/#sec-array.prototype.indexof
+  indexOf: createMethod(false)
+};
+
+
+/***/ }),
+
+/***/ 3658:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var DESCRIPTORS = __webpack_require__(9781);
+var isArray = __webpack_require__(3157);
+
+var $TypeError = TypeError;
+// eslint-disable-next-line es/no-object-getownpropertydescriptor -- safe
+var getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
+
+// Safari < 13 does not throw an error in this case
+var SILENT_ON_NON_WRITABLE_LENGTH_SET = DESCRIPTORS && !function () {
+  // makes no sense without proper strict mode support
+  if (this !== undefined) return true;
+  try {
+    // eslint-disable-next-line es/no-object-defineproperty -- safe
+    Object.defineProperty([], 'length', { writable: false }).length = 1;
+  } catch (error) {
+    return error instanceof TypeError;
+  }
+}();
+
+module.exports = SILENT_ON_NON_WRITABLE_LENGTH_SET ? function (O, length) {
+  if (isArray(O) && !getOwnPropertyDescriptor(O, 'length').writable) {
+    throw $TypeError('Cannot set read only .length');
+  } return O.length = length;
+} : function (O, length) {
+  return O.length = length;
+};
+
+
+/***/ }),
+
+/***/ 4326:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var uncurryThis = __webpack_require__(1702);
+
+var toString = uncurryThis({}.toString);
+var stringSlice = uncurryThis(''.slice);
+
+module.exports = function (it) {
+  return stringSlice(toString(it), 8, -1);
+};
+
+
+/***/ }),
+
+/***/ 9920:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var hasOwn = __webpack_require__(2597);
+var ownKeys = __webpack_require__(3887);
+var getOwnPropertyDescriptorModule = __webpack_require__(1236);
+var definePropertyModule = __webpack_require__(3070);
+
+module.exports = function (target, source, exceptions) {
+  var keys = ownKeys(source);
+  var defineProperty = definePropertyModule.f;
+  var getOwnPropertyDescriptor = getOwnPropertyDescriptorModule.f;
+  for (var i = 0; i < keys.length; i++) {
+    var key = keys[i];
+    if (!hasOwn(target, key) && !(exceptions && hasOwn(exceptions, key))) {
+      defineProperty(target, key, getOwnPropertyDescriptor(source, key));
+    }
+  }
+};
+
+
+/***/ }),
+
+/***/ 8880:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var DESCRIPTORS = __webpack_require__(9781);
+var definePropertyModule = __webpack_require__(3070);
+var createPropertyDescriptor = __webpack_require__(9114);
+
+module.exports = DESCRIPTORS ? function (object, key, value) {
+  return definePropertyModule.f(object, key, createPropertyDescriptor(1, value));
+} : function (object, key, value) {
+  object[key] = value;
+  return object;
+};
+
+
+/***/ }),
+
+/***/ 9114:
+/***/ (function(module) {
+
+module.exports = function (bitmap, value) {
+  return {
+    enumerable: !(bitmap & 1),
+    configurable: !(bitmap & 2),
+    writable: !(bitmap & 4),
+    value: value
+  };
+};
+
+
+/***/ }),
+
+/***/ 8052:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var isCallable = __webpack_require__(614);
+var definePropertyModule = __webpack_require__(3070);
+var makeBuiltIn = __webpack_require__(6339);
+var defineGlobalProperty = __webpack_require__(3072);
+
+module.exports = function (O, key, value, options) {
+  if (!options) options = {};
+  var simple = options.enumerable;
+  var name = options.name !== undefined ? options.name : key;
+  if (isCallable(value)) makeBuiltIn(value, name, options);
+  if (options.global) {
+    if (simple) O[key] = value;
+    else defineGlobalProperty(key, value);
+  } else {
+    try {
+      if (!options.unsafe) delete O[key];
+      else if (O[key]) simple = true;
+    } catch (error) { /* empty */ }
+    if (simple) O[key] = value;
+    else definePropertyModule.f(O, key, {
+      value: value,
+      enumerable: false,
+      configurable: !options.nonConfigurable,
+      writable: !options.nonWritable
+    });
+  } return O;
+};
+
+
+/***/ }),
+
+/***/ 3072:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var global = __webpack_require__(7854);
+
+// eslint-disable-next-line es/no-object-defineproperty -- safe
+var defineProperty = Object.defineProperty;
+
+module.exports = function (key, value) {
+  try {
+    defineProperty(global, key, { value: value, configurable: true, writable: true });
+  } catch (error) {
+    global[key] = value;
+  } return value;
+};
+
+
+/***/ }),
+
+/***/ 9781:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var fails = __webpack_require__(7293);
+
+// Detect IE8's incomplete defineProperty implementation
+module.exports = !fails(function () {
+  // eslint-disable-next-line es/no-object-defineproperty -- required for testing
+  return Object.defineProperty({}, 1, { get: function () { return 7; } })[1] != 7;
+});
+
+
+/***/ }),
+
+/***/ 4154:
+/***/ (function(module) {
+
+var documentAll = typeof document == 'object' && document.all;
+
+// https://tc39.es/ecma262/#sec-IsHTMLDDA-internal-slot
+// eslint-disable-next-line unicorn/no-typeof-undefined -- required for testing
+var IS_HTMLDDA = typeof documentAll == 'undefined' && documentAll !== undefined;
+
+module.exports = {
+  all: documentAll,
+  IS_HTMLDDA: IS_HTMLDDA
+};
+
+
+/***/ }),
+
+/***/ 317:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var global = __webpack_require__(7854);
+var isObject = __webpack_require__(111);
+
+var document = global.document;
+// typeof document.createElement is 'object' in old IE
+var EXISTS = isObject(document) && isObject(document.createElement);
+
+module.exports = function (it) {
+  return EXISTS ? document.createElement(it) : {};
+};
+
+
+/***/ }),
+
+/***/ 7207:
+/***/ (function(module) {
+
+var $TypeError = TypeError;
+var MAX_SAFE_INTEGER = 0x1FFFFFFFFFFFFF; // 2 ** 53 - 1 == 9007199254740991
+
+module.exports = function (it) {
+  if (it > MAX_SAFE_INTEGER) throw $TypeError('Maximum allowed index exceeded');
+  return it;
+};
+
+
+/***/ }),
+
+/***/ 8113:
+/***/ (function(module) {
+
+module.exports = typeof navigator != 'undefined' && String(navigator.userAgent) || '';
+
+
+/***/ }),
+
+/***/ 7392:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var global = __webpack_require__(7854);
+var userAgent = __webpack_require__(8113);
+
+var process = global.process;
+var Deno = global.Deno;
+var versions = process && process.versions || Deno && Deno.version;
+var v8 = versions && versions.v8;
+var match, version;
+
+if (v8) {
+  match = v8.split('.');
+  // in old Chrome, versions of V8 isn't V8 = Chrome / 10
+  // but their correct versions are not interesting for us
+  version = match[0] > 0 && match[0] < 4 ? 1 : +(match[0] + match[1]);
+}
+
+// BrowserFS NodeJS `process` polyfill incorrectly set `.v8` to `0.0`
+// so check `userAgent` even if `.v8` exists, but 0
+if (!version && userAgent) {
+  match = userAgent.match(/Edge\/(\d+)/);
+  if (!match || match[1] >= 74) {
+    match = userAgent.match(/Chrome\/(\d+)/);
+    if (match) version = +match[1];
+  }
+}
+
+module.exports = version;
+
+
+/***/ }),
+
+/***/ 748:
+/***/ (function(module) {
+
+// IE8- don't enum bug keys
+module.exports = [
+  'constructor',
+  'hasOwnProperty',
+  'isPrototypeOf',
+  'propertyIsEnumerable',
+  'toLocaleString',
+  'toString',
+  'valueOf'
+];
+
+
+/***/ }),
+
+/***/ 2109:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var global = __webpack_require__(7854);
+var getOwnPropertyDescriptor = (__webpack_require__(1236).f);
+var createNonEnumerableProperty = __webpack_require__(8880);
+var defineBuiltIn = __webpack_require__(8052);
+var defineGlobalProperty = __webpack_require__(3072);
+var copyConstructorProperties = __webpack_require__(9920);
+var isForced = __webpack_require__(4705);
+
+/*
+  options.target         - name of the target object
+  options.global         - target is the global object
+  options.stat           - export as static methods of target
+  options.proto          - export as prototype methods of target
+  options.real           - real prototype method for the `pure` version
+  options.forced         - export even if the native feature is available
+  options.bind           - bind methods to the target, required for the `pure` version
+  options.wrap           - wrap constructors to preventing global pollution, required for the `pure` version
+  options.unsafe         - use the simple assignment of property instead of delete + defineProperty
+  options.sham           - add a flag to not completely full polyfills
+  options.enumerable     - export as enumerable property
+  options.dontCallGetSet - prevent calling a getter on target
+  options.name           - the .name of the function if it does not match the key
+*/
+module.exports = function (options, source) {
+  var TARGET = options.target;
+  var GLOBAL = options.global;
+  var STATIC = options.stat;
+  var FORCED, target, key, targetProperty, sourceProperty, descriptor;
+  if (GLOBAL) {
+    target = global;
+  } else if (STATIC) {
+    target = global[TARGET] || defineGlobalProperty(TARGET, {});
+  } else {
+    target = (global[TARGET] || {}).prototype;
+  }
+  if (target) for (key in source) {
+    sourceProperty = source[key];
+    if (options.dontCallGetSet) {
+      descriptor = getOwnPropertyDescriptor(target, key);
+      targetProperty = descriptor && descriptor.value;
+    } else targetProperty = target[key];
+    FORCED = isForced(GLOBAL ? key : TARGET + (STATIC ? '.' : '#') + key, options.forced);
+    // contained in target
+    if (!FORCED && targetProperty !== undefined) {
+      if (typeof sourceProperty == typeof targetProperty) continue;
+      copyConstructorProperties(sourceProperty, targetProperty);
+    }
+    // add a flag to not completely full polyfills
+    if (options.sham || (targetProperty && targetProperty.sham)) {
+      createNonEnumerableProperty(sourceProperty, 'sham', true);
+    }
+    defineBuiltIn(target, key, sourceProperty, options);
+  }
+};
+
+
+/***/ }),
+
+/***/ 7293:
+/***/ (function(module) {
+
+module.exports = function (exec) {
+  try {
+    return !!exec();
+  } catch (error) {
+    return true;
+  }
+};
+
+
+/***/ }),
+
+/***/ 4374:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var fails = __webpack_require__(7293);
+
+module.exports = !fails(function () {
+  // eslint-disable-next-line es/no-function-prototype-bind -- safe
+  var test = (function () { /* empty */ }).bind();
+  // eslint-disable-next-line no-prototype-builtins -- safe
+  return typeof test != 'function' || test.hasOwnProperty('prototype');
+});
+
+
+/***/ }),
+
+/***/ 6916:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var NATIVE_BIND = __webpack_require__(4374);
+
+var call = Function.prototype.call;
+
+module.exports = NATIVE_BIND ? call.bind(call) : function () {
+  return call.apply(call, arguments);
+};
+
+
+/***/ }),
+
+/***/ 6530:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var DESCRIPTORS = __webpack_require__(9781);
+var hasOwn = __webpack_require__(2597);
+
+var FunctionPrototype = Function.prototype;
+// eslint-disable-next-line es/no-object-getownpropertydescriptor -- safe
+var getDescriptor = DESCRIPTORS && Object.getOwnPropertyDescriptor;
+
+var EXISTS = hasOwn(FunctionPrototype, 'name');
+// additional protection from minified / mangled / dropped function names
+var PROPER = EXISTS && (function something() { /* empty */ }).name === 'something';
+var CONFIGURABLE = EXISTS && (!DESCRIPTORS || (DESCRIPTORS && getDescriptor(FunctionPrototype, 'name').configurable));
+
+module.exports = {
+  EXISTS: EXISTS,
+  PROPER: PROPER,
+  CONFIGURABLE: CONFIGURABLE
+};
+
+
+/***/ }),
+
+/***/ 1702:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var NATIVE_BIND = __webpack_require__(4374);
+
+var FunctionPrototype = Function.prototype;
+var call = FunctionPrototype.call;
+var uncurryThisWithBind = NATIVE_BIND && FunctionPrototype.bind.bind(call, call);
+
+module.exports = NATIVE_BIND ? uncurryThisWithBind : function (fn) {
+  return function () {
+    return call.apply(fn, arguments);
+  };
+};
+
+
+/***/ }),
+
+/***/ 5005:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var global = __webpack_require__(7854);
+var isCallable = __webpack_require__(614);
+
+var aFunction = function (argument) {
+  return isCallable(argument) ? argument : undefined;
+};
+
+module.exports = function (namespace, method) {
+  return arguments.length < 2 ? aFunction(global[namespace]) : global[namespace] && global[namespace][method];
+};
+
+
+/***/ }),
+
+/***/ 8173:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var aCallable = __webpack_require__(9662);
+var isNullOrUndefined = __webpack_require__(8554);
+
+// `GetMethod` abstract operation
+// https://tc39.es/ecma262/#sec-getmethod
+module.exports = function (V, P) {
+  var func = V[P];
+  return isNullOrUndefined(func) ? undefined : aCallable(func);
+};
+
+
+/***/ }),
+
+/***/ 7854:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var check = function (it) {
+  return it && it.Math == Math && it;
+};
+
+// https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
+module.exports =
+  // eslint-disable-next-line es/no-global-this -- safe
+  check(typeof globalThis == 'object' && globalThis) ||
+  check(typeof window == 'object' && window) ||
+  // eslint-disable-next-line no-restricted-globals -- safe
+  check(typeof self == 'object' && self) ||
+  check(typeof __webpack_require__.g == 'object' && __webpack_require__.g) ||
+  // eslint-disable-next-line no-new-func -- fallback
+  (function () { return this; })() || Function('return this')();
+
+
+/***/ }),
+
+/***/ 2597:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var uncurryThis = __webpack_require__(1702);
+var toObject = __webpack_require__(7908);
+
+var hasOwnProperty = uncurryThis({}.hasOwnProperty);
+
+// `HasOwnProperty` abstract operation
+// https://tc39.es/ecma262/#sec-hasownproperty
+// eslint-disable-next-line es/no-object-hasown -- safe
+module.exports = Object.hasOwn || function hasOwn(it, key) {
+  return hasOwnProperty(toObject(it), key);
+};
+
+
+/***/ }),
+
+/***/ 3501:
+/***/ (function(module) {
+
+module.exports = {};
+
+
+/***/ }),
+
+/***/ 4664:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var DESCRIPTORS = __webpack_require__(9781);
+var fails = __webpack_require__(7293);
+var createElement = __webpack_require__(317);
+
+// Thanks to IE8 for its funny defineProperty
+module.exports = !DESCRIPTORS && !fails(function () {
+  // eslint-disable-next-line es/no-object-defineproperty -- required for testing
+  return Object.defineProperty(createElement('div'), 'a', {
+    get: function () { return 7; }
+  }).a != 7;
+});
+
+
+/***/ }),
+
+/***/ 8361:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var uncurryThis = __webpack_require__(1702);
+var fails = __webpack_require__(7293);
+var classof = __webpack_require__(4326);
+
+var $Object = Object;
+var split = uncurryThis(''.split);
+
+// fallback for non-array-like ES3 and non-enumerable old V8 strings
+module.exports = fails(function () {
+  // throws an error in rhino, see https://github.com/mozilla/rhino/issues/346
+  // eslint-disable-next-line no-prototype-builtins -- safe
+  return !$Object('z').propertyIsEnumerable(0);
+}) ? function (it) {
+  return classof(it) == 'String' ? split(it, '') : $Object(it);
+} : $Object;
+
+
+/***/ }),
+
+/***/ 2788:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var uncurryThis = __webpack_require__(1702);
+var isCallable = __webpack_require__(614);
+var store = __webpack_require__(5465);
+
+var functionToString = uncurryThis(Function.toString);
+
+// this helper broken in `core-js@3.4.1-3.4.4`, so we can't use `shared` helper
+if (!isCallable(store.inspectSource)) {
+  store.inspectSource = function (it) {
+    return functionToString(it);
+  };
+}
+
+module.exports = store.inspectSource;
+
+
+/***/ }),
+
+/***/ 9909:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var NATIVE_WEAK_MAP = __webpack_require__(4811);
+var global = __webpack_require__(7854);
+var isObject = __webpack_require__(111);
+var createNonEnumerableProperty = __webpack_require__(8880);
+var hasOwn = __webpack_require__(2597);
+var shared = __webpack_require__(5465);
+var sharedKey = __webpack_require__(6200);
+var hiddenKeys = __webpack_require__(3501);
+
+var OBJECT_ALREADY_INITIALIZED = 'Object already initialized';
+var TypeError = global.TypeError;
+var WeakMap = global.WeakMap;
+var set, get, has;
+
+var enforce = function (it) {
+  return has(it) ? get(it) : set(it, {});
+};
+
+var getterFor = function (TYPE) {
+  return function (it) {
+    var state;
+    if (!isObject(it) || (state = get(it)).type !== TYPE) {
+      throw TypeError('Incompatible receiver, ' + TYPE + ' required');
+    } return state;
+  };
+};
+
+if (NATIVE_WEAK_MAP || shared.state) {
+  var store = shared.state || (shared.state = new WeakMap());
+  /* eslint-disable no-self-assign -- prototype methods protection */
+  store.get = store.get;
+  store.has = store.has;
+  store.set = store.set;
+  /* eslint-enable no-self-assign -- prototype methods protection */
+  set = function (it, metadata) {
+    if (store.has(it)) throw TypeError(OBJECT_ALREADY_INITIALIZED);
+    metadata.facade = it;
+    store.set(it, metadata);
+    return metadata;
+  };
+  get = function (it) {
+    return store.get(it) || {};
+  };
+  has = function (it) {
+    return store.has(it);
+  };
+} else {
+  var STATE = sharedKey('state');
+  hiddenKeys[STATE] = true;
+  set = function (it, metadata) {
+    if (hasOwn(it, STATE)) throw TypeError(OBJECT_ALREADY_INITIALIZED);
+    metadata.facade = it;
+    createNonEnumerableProperty(it, STATE, metadata);
+    return metadata;
+  };
+  get = function (it) {
+    return hasOwn(it, STATE) ? it[STATE] : {};
+  };
+  has = function (it) {
+    return hasOwn(it, STATE);
+  };
+}
+
+module.exports = {
+  set: set,
+  get: get,
+  has: has,
+  enforce: enforce,
+  getterFor: getterFor
+};
+
+
+/***/ }),
+
+/***/ 3157:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var classof = __webpack_require__(4326);
+
+// `IsArray` abstract operation
+// https://tc39.es/ecma262/#sec-isarray
+// eslint-disable-next-line es/no-array-isarray -- safe
+module.exports = Array.isArray || function isArray(argument) {
+  return classof(argument) == 'Array';
+};
+
+
+/***/ }),
+
+/***/ 614:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var $documentAll = __webpack_require__(4154);
+
+var documentAll = $documentAll.all;
+
+// `IsCallable` abstract operation
+// https://tc39.es/ecma262/#sec-iscallable
+module.exports = $documentAll.IS_HTMLDDA ? function (argument) {
+  return typeof argument == 'function' || argument === documentAll;
+} : function (argument) {
+  return typeof argument == 'function';
+};
+
+
+/***/ }),
+
+/***/ 4705:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var fails = __webpack_require__(7293);
+var isCallable = __webpack_require__(614);
+
+var replacement = /#|\.prototype\./;
+
+var isForced = function (feature, detection) {
+  var value = data[normalize(feature)];
+  return value == POLYFILL ? true
+    : value == NATIVE ? false
+    : isCallable(detection) ? fails(detection)
+    : !!detection;
+};
+
+var normalize = isForced.normalize = function (string) {
+  return String(string).replace(replacement, '.').toLowerCase();
+};
+
+var data = isForced.data = {};
+var NATIVE = isForced.NATIVE = 'N';
+var POLYFILL = isForced.POLYFILL = 'P';
+
+module.exports = isForced;
+
+
+/***/ }),
+
+/***/ 8554:
+/***/ (function(module) {
+
+// we can't use just `it == null` since of `document.all` special case
+// https://tc39.es/ecma262/#sec-IsHTMLDDA-internal-slot-aec
+module.exports = function (it) {
+  return it === null || it === undefined;
+};
+
+
+/***/ }),
+
+/***/ 111:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var isCallable = __webpack_require__(614);
+var $documentAll = __webpack_require__(4154);
+
+var documentAll = $documentAll.all;
+
+module.exports = $documentAll.IS_HTMLDDA ? function (it) {
+  return typeof it == 'object' ? it !== null : isCallable(it) || it === documentAll;
+} : function (it) {
+  return typeof it == 'object' ? it !== null : isCallable(it);
+};
+
+
+/***/ }),
+
+/***/ 1913:
+/***/ (function(module) {
+
+module.exports = false;
+
+
+/***/ }),
+
+/***/ 2190:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var getBuiltIn = __webpack_require__(5005);
+var isCallable = __webpack_require__(614);
+var isPrototypeOf = __webpack_require__(7976);
+var USE_SYMBOL_AS_UID = __webpack_require__(3307);
+
+var $Object = Object;
+
+module.exports = USE_SYMBOL_AS_UID ? function (it) {
+  return typeof it == 'symbol';
+} : function (it) {
+  var $Symbol = getBuiltIn('Symbol');
+  return isCallable($Symbol) && isPrototypeOf($Symbol.prototype, $Object(it));
+};
+
+
+/***/ }),
+
+/***/ 6244:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var toLength = __webpack_require__(7466);
+
+// `LengthOfArrayLike` abstract operation
+// https://tc39.es/ecma262/#sec-lengthofarraylike
+module.exports = function (obj) {
+  return toLength(obj.length);
+};
+
+
+/***/ }),
+
+/***/ 6339:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var uncurryThis = __webpack_require__(1702);
+var fails = __webpack_require__(7293);
+var isCallable = __webpack_require__(614);
+var hasOwn = __webpack_require__(2597);
+var DESCRIPTORS = __webpack_require__(9781);
+var CONFIGURABLE_FUNCTION_NAME = (__webpack_require__(6530).CONFIGURABLE);
+var inspectSource = __webpack_require__(2788);
+var InternalStateModule = __webpack_require__(9909);
+
+var enforceInternalState = InternalStateModule.enforce;
+var getInternalState = InternalStateModule.get;
+var $String = String;
+// eslint-disable-next-line es/no-object-defineproperty -- safe
+var defineProperty = Object.defineProperty;
+var stringSlice = uncurryThis(''.slice);
+var replace = uncurryThis(''.replace);
+var join = uncurryThis([].join);
+
+var CONFIGURABLE_LENGTH = DESCRIPTORS && !fails(function () {
+  return defineProperty(function () { /* empty */ }, 'length', { value: 8 }).length !== 8;
+});
+
+var TEMPLATE = String(String).split('String');
+
+var makeBuiltIn = module.exports = function (value, name, options) {
+  if (stringSlice($String(name), 0, 7) === 'Symbol(') {
+    name = '[' + replace($String(name), /^Symbol\(([^)]*)\)/, '$1') + ']';
+  }
+  if (options && options.getter) name = 'get ' + name;
+  if (options && options.setter) name = 'set ' + name;
+  if (!hasOwn(value, 'name') || (CONFIGURABLE_FUNCTION_NAME && value.name !== name)) {
+    if (DESCRIPTORS) defineProperty(value, 'name', { value: name, configurable: true });
+    else value.name = name;
+  }
+  if (CONFIGURABLE_LENGTH && options && hasOwn(options, 'arity') && value.length !== options.arity) {
+    defineProperty(value, 'length', { value: options.arity });
+  }
+  try {
+    if (options && hasOwn(options, 'constructor') && options.constructor) {
+      if (DESCRIPTORS) defineProperty(value, 'prototype', { writable: false });
+    // in V8 ~ Chrome 53, prototypes of some methods, like `Array.prototype.values`, are non-writable
+    } else if (value.prototype) value.prototype = undefined;
+  } catch (error) { /* empty */ }
+  var state = enforceInternalState(value);
+  if (!hasOwn(state, 'source')) {
+    state.source = join(TEMPLATE, typeof name == 'string' ? name : '');
+  } return value;
+};
+
+// add fake Function#toString for correct work wrapped methods / constructors with methods like LoDash isNative
+// eslint-disable-next-line no-extend-native -- required
+Function.prototype.toString = makeBuiltIn(function toString() {
+  return isCallable(this) && getInternalState(this).source || inspectSource(this);
+}, 'toString');
+
+
+/***/ }),
+
+/***/ 4758:
+/***/ (function(module) {
+
+var ceil = Math.ceil;
+var floor = Math.floor;
+
+// `Math.trunc` method
+// https://tc39.es/ecma262/#sec-math.trunc
+// eslint-disable-next-line es/no-math-trunc -- safe
+module.exports = Math.trunc || function trunc(x) {
+  var n = +x;
+  return (n > 0 ? floor : ceil)(n);
+};
+
+
+/***/ }),
+
+/***/ 3070:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+var DESCRIPTORS = __webpack_require__(9781);
+var IE8_DOM_DEFINE = __webpack_require__(4664);
+var V8_PROTOTYPE_DEFINE_BUG = __webpack_require__(3353);
+var anObject = __webpack_require__(9670);
+var toPropertyKey = __webpack_require__(4948);
+
+var $TypeError = TypeError;
+// eslint-disable-next-line es/no-object-defineproperty -- safe
+var $defineProperty = Object.defineProperty;
+// eslint-disable-next-line es/no-object-getownpropertydescriptor -- safe
+var $getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
+var ENUMERABLE = 'enumerable';
+var CONFIGURABLE = 'configurable';
+var WRITABLE = 'writable';
+
+// `Object.defineProperty` method
+// https://tc39.es/ecma262/#sec-object.defineproperty
+exports.f = DESCRIPTORS ? V8_PROTOTYPE_DEFINE_BUG ? function defineProperty(O, P, Attributes) {
+  anObject(O);
+  P = toPropertyKey(P);
+  anObject(Attributes);
+  if (typeof O === 'function' && P === 'prototype' && 'value' in Attributes && WRITABLE in Attributes && !Attributes[WRITABLE]) {
+    var current = $getOwnPropertyDescriptor(O, P);
+    if (current && current[WRITABLE]) {
+      O[P] = Attributes.value;
+      Attributes = {
+        configurable: CONFIGURABLE in Attributes ? Attributes[CONFIGURABLE] : current[CONFIGURABLE],
+        enumerable: ENUMERABLE in Attributes ? Attributes[ENUMERABLE] : current[ENUMERABLE],
+        writable: false
+      };
+    }
+  } return $defineProperty(O, P, Attributes);
+} : $defineProperty : function defineProperty(O, P, Attributes) {
+  anObject(O);
+  P = toPropertyKey(P);
+  anObject(Attributes);
+  if (IE8_DOM_DEFINE) try {
+    return $defineProperty(O, P, Attributes);
+  } catch (error) { /* empty */ }
+  if ('get' in Attributes || 'set' in Attributes) throw $TypeError('Accessors not supported');
+  if ('value' in Attributes) O[P] = Attributes.value;
+  return O;
+};
+
+
+/***/ }),
+
+/***/ 1236:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+var DESCRIPTORS = __webpack_require__(9781);
+var call = __webpack_require__(6916);
+var propertyIsEnumerableModule = __webpack_require__(5296);
+var createPropertyDescriptor = __webpack_require__(9114);
+var toIndexedObject = __webpack_require__(5656);
+var toPropertyKey = __webpack_require__(4948);
+var hasOwn = __webpack_require__(2597);
+var IE8_DOM_DEFINE = __webpack_require__(4664);
+
+// eslint-disable-next-line es/no-object-getownpropertydescriptor -- safe
+var $getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
+
+// `Object.getOwnPropertyDescriptor` method
+// https://tc39.es/ecma262/#sec-object.getownpropertydescriptor
+exports.f = DESCRIPTORS ? $getOwnPropertyDescriptor : function getOwnPropertyDescriptor(O, P) {
+  O = toIndexedObject(O);
+  P = toPropertyKey(P);
+  if (IE8_DOM_DEFINE) try {
+    return $getOwnPropertyDescriptor(O, P);
+  } catch (error) { /* empty */ }
+  if (hasOwn(O, P)) return createPropertyDescriptor(!call(propertyIsEnumerableModule.f, O, P), O[P]);
+};
+
+
+/***/ }),
+
+/***/ 8006:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+var internalObjectKeys = __webpack_require__(6324);
+var enumBugKeys = __webpack_require__(748);
+
+var hiddenKeys = enumBugKeys.concat('length', 'prototype');
+
+// `Object.getOwnPropertyNames` method
+// https://tc39.es/ecma262/#sec-object.getownpropertynames
+// eslint-disable-next-line es/no-object-getownpropertynames -- safe
+exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
+  return internalObjectKeys(O, hiddenKeys);
+};
+
+
+/***/ }),
+
+/***/ 5181:
+/***/ (function(__unused_webpack_module, exports) {
+
+// eslint-disable-next-line es/no-object-getownpropertysymbols -- safe
+exports.f = Object.getOwnPropertySymbols;
+
+
+/***/ }),
+
+/***/ 7976:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var uncurryThis = __webpack_require__(1702);
+
+module.exports = uncurryThis({}.isPrototypeOf);
+
+
+/***/ }),
+
+/***/ 6324:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var uncurryThis = __webpack_require__(1702);
+var hasOwn = __webpack_require__(2597);
+var toIndexedObject = __webpack_require__(5656);
+var indexOf = (__webpack_require__(1318).indexOf);
+var hiddenKeys = __webpack_require__(3501);
+
+var push = uncurryThis([].push);
+
+module.exports = function (object, names) {
+  var O = toIndexedObject(object);
+  var i = 0;
+  var result = [];
+  var key;
+  for (key in O) !hasOwn(hiddenKeys, key) && hasOwn(O, key) && push(result, key);
+  // Don't enum bug & hidden keys
+  while (names.length > i) if (hasOwn(O, key = names[i++])) {
+    ~indexOf(result, key) || push(result, key);
+  }
+  return result;
+};
+
+
+/***/ }),
+
+/***/ 5296:
+/***/ (function(__unused_webpack_module, exports) {
+
+"use strict";
+
+var $propertyIsEnumerable = {}.propertyIsEnumerable;
+// eslint-disable-next-line es/no-object-getownpropertydescriptor -- safe
+var getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
+
+// Nashorn ~ JDK8 bug
+var NASHORN_BUG = getOwnPropertyDescriptor && !$propertyIsEnumerable.call({ 1: 2 }, 1);
+
+// `Object.prototype.propertyIsEnumerable` method implementation
+// https://tc39.es/ecma262/#sec-object.prototype.propertyisenumerable
+exports.f = NASHORN_BUG ? function propertyIsEnumerable(V) {
+  var descriptor = getOwnPropertyDescriptor(this, V);
+  return !!descriptor && descriptor.enumerable;
+} : $propertyIsEnumerable;
+
+
+/***/ }),
+
+/***/ 2140:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var call = __webpack_require__(6916);
+var isCallable = __webpack_require__(614);
+var isObject = __webpack_require__(111);
+
+var $TypeError = TypeError;
+
+// `OrdinaryToPrimitive` abstract operation
+// https://tc39.es/ecma262/#sec-ordinarytoprimitive
+module.exports = function (input, pref) {
+  var fn, val;
+  if (pref === 'string' && isCallable(fn = input.toString) && !isObject(val = call(fn, input))) return val;
+  if (isCallable(fn = input.valueOf) && !isObject(val = call(fn, input))) return val;
+  if (pref !== 'string' && isCallable(fn = input.toString) && !isObject(val = call(fn, input))) return val;
+  throw $TypeError("Can't convert object to primitive value");
+};
+
+
+/***/ }),
+
+/***/ 3887:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var getBuiltIn = __webpack_require__(5005);
+var uncurryThis = __webpack_require__(1702);
+var getOwnPropertyNamesModule = __webpack_require__(8006);
+var getOwnPropertySymbolsModule = __webpack_require__(5181);
+var anObject = __webpack_require__(9670);
+
+var concat = uncurryThis([].concat);
+
+// all object keys, includes non-enumerable and symbols
+module.exports = getBuiltIn('Reflect', 'ownKeys') || function ownKeys(it) {
+  var keys = getOwnPropertyNamesModule.f(anObject(it));
+  var getOwnPropertySymbols = getOwnPropertySymbolsModule.f;
+  return getOwnPropertySymbols ? concat(keys, getOwnPropertySymbols(it)) : keys;
+};
+
+
+/***/ }),
+
+/***/ 4488:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var isNullOrUndefined = __webpack_require__(8554);
+
+var $TypeError = TypeError;
+
+// `RequireObjectCoercible` abstract operation
+// https://tc39.es/ecma262/#sec-requireobjectcoercible
+module.exports = function (it) {
+  if (isNullOrUndefined(it)) throw $TypeError("Can't call method on " + it);
+  return it;
+};
+
+
+/***/ }),
+
+/***/ 6200:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var shared = __webpack_require__(2309);
+var uid = __webpack_require__(9711);
+
+var keys = shared('keys');
+
+module.exports = function (key) {
+  return keys[key] || (keys[key] = uid(key));
+};
+
+
+/***/ }),
+
+/***/ 5465:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var global = __webpack_require__(7854);
+var defineGlobalProperty = __webpack_require__(3072);
+
+var SHARED = '__core-js_shared__';
+var store = global[SHARED] || defineGlobalProperty(SHARED, {});
+
+module.exports = store;
+
+
+/***/ }),
+
+/***/ 2309:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var IS_PURE = __webpack_require__(1913);
+var store = __webpack_require__(5465);
+
+(module.exports = function (key, value) {
+  return store[key] || (store[key] = value !== undefined ? value : {});
+})('versions', []).push({
+  version: '3.27.2',
+  mode: IS_PURE ? 'pure' : 'global',
+  copyright: '© 2014-2023 Denis Pushkarev (zloirock.ru)',
+  license: 'https://github.com/zloirock/core-js/blob/v3.27.2/LICENSE',
+  source: 'https://github.com/zloirock/core-js'
+});
+
+
+/***/ }),
+
+/***/ 6293:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+/* eslint-disable es/no-symbol -- required for testing */
+var V8_VERSION = __webpack_require__(7392);
+var fails = __webpack_require__(7293);
+
+// eslint-disable-next-line es/no-object-getownpropertysymbols -- required for testing
+module.exports = !!Object.getOwnPropertySymbols && !fails(function () {
+  var symbol = Symbol();
+  // Chrome 38 Symbol has incorrect toString conversion
+  // `get-own-property-symbols` polyfill symbols converted to object are not Symbol instances
+  return !String(symbol) || !(Object(symbol) instanceof Symbol) ||
+    // Chrome 38-40 symbols are not inherited from DOM collections prototypes to instances
+    !Symbol.sham && V8_VERSION && V8_VERSION < 41;
+});
+
+
+/***/ }),
+
+/***/ 1400:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var toIntegerOrInfinity = __webpack_require__(9303);
+
+var max = Math.max;
+var min = Math.min;
+
+// Helper for a popular repeating case of the spec:
+// Let integer be ? ToInteger(index).
+// If integer < 0, let result be max((length + integer), 0); else let result be min(integer, length).
+module.exports = function (index, length) {
+  var integer = toIntegerOrInfinity(index);
+  return integer < 0 ? max(integer + length, 0) : min(integer, length);
+};
+
+
+/***/ }),
+
+/***/ 5656:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+// toObject with fallback for non-array-like ES3 strings
+var IndexedObject = __webpack_require__(8361);
+var requireObjectCoercible = __webpack_require__(4488);
+
+module.exports = function (it) {
+  return IndexedObject(requireObjectCoercible(it));
+};
+
+
+/***/ }),
+
+/***/ 9303:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var trunc = __webpack_require__(4758);
+
+// `ToIntegerOrInfinity` abstract operation
+// https://tc39.es/ecma262/#sec-tointegerorinfinity
+module.exports = function (argument) {
+  var number = +argument;
+  // eslint-disable-next-line no-self-compare -- NaN check
+  return number !== number || number === 0 ? 0 : trunc(number);
+};
+
+
+/***/ }),
+
+/***/ 7466:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var toIntegerOrInfinity = __webpack_require__(9303);
+
+var min = Math.min;
+
+// `ToLength` abstract operation
+// https://tc39.es/ecma262/#sec-tolength
+module.exports = function (argument) {
+  return argument > 0 ? min(toIntegerOrInfinity(argument), 0x1FFFFFFFFFFFFF) : 0; // 2 ** 53 - 1 == 9007199254740991
+};
+
+
+/***/ }),
+
+/***/ 7908:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var requireObjectCoercible = __webpack_require__(4488);
+
+var $Object = Object;
+
+// `ToObject` abstract operation
+// https://tc39.es/ecma262/#sec-toobject
+module.exports = function (argument) {
+  return $Object(requireObjectCoercible(argument));
+};
+
+
+/***/ }),
+
+/***/ 7593:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var call = __webpack_require__(6916);
+var isObject = __webpack_require__(111);
+var isSymbol = __webpack_require__(2190);
+var getMethod = __webpack_require__(8173);
+var ordinaryToPrimitive = __webpack_require__(2140);
+var wellKnownSymbol = __webpack_require__(5112);
+
+var $TypeError = TypeError;
+var TO_PRIMITIVE = wellKnownSymbol('toPrimitive');
+
+// `ToPrimitive` abstract operation
+// https://tc39.es/ecma262/#sec-toprimitive
+module.exports = function (input, pref) {
+  if (!isObject(input) || isSymbol(input)) return input;
+  var exoticToPrim = getMethod(input, TO_PRIMITIVE);
+  var result;
+  if (exoticToPrim) {
+    if (pref === undefined) pref = 'default';
+    result = call(exoticToPrim, input, pref);
+    if (!isObject(result) || isSymbol(result)) return result;
+    throw $TypeError("Can't convert object to primitive value");
+  }
+  if (pref === undefined) pref = 'number';
+  return ordinaryToPrimitive(input, pref);
+};
+
+
+/***/ }),
+
+/***/ 4948:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var toPrimitive = __webpack_require__(7593);
+var isSymbol = __webpack_require__(2190);
+
+// `ToPropertyKey` abstract operation
+// https://tc39.es/ecma262/#sec-topropertykey
+module.exports = function (argument) {
+  var key = toPrimitive(argument, 'string');
+  return isSymbol(key) ? key : key + '';
+};
+
+
+/***/ }),
+
+/***/ 6330:
+/***/ (function(module) {
+
+var $String = String;
+
+module.exports = function (argument) {
+  try {
+    return $String(argument);
+  } catch (error) {
+    return 'Object';
+  }
+};
+
+
+/***/ }),
+
+/***/ 9711:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var uncurryThis = __webpack_require__(1702);
+
+var id = 0;
+var postfix = Math.random();
+var toString = uncurryThis(1.0.toString);
+
+module.exports = function (key) {
+  return 'Symbol(' + (key === undefined ? '' : key) + ')_' + toString(++id + postfix, 36);
+};
+
+
+/***/ }),
+
+/***/ 3307:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+/* eslint-disable es/no-symbol -- required for testing */
+var NATIVE_SYMBOL = __webpack_require__(6293);
+
+module.exports = NATIVE_SYMBOL
+  && !Symbol.sham
+  && typeof Symbol.iterator == 'symbol';
+
+
+/***/ }),
+
+/***/ 3353:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var DESCRIPTORS = __webpack_require__(9781);
+var fails = __webpack_require__(7293);
+
+// V8 ~ Chrome 36-
+// https://bugs.chromium.org/p/v8/issues/detail?id=3334
+module.exports = DESCRIPTORS && fails(function () {
+  // eslint-disable-next-line es/no-object-defineproperty -- required for testing
+  return Object.defineProperty(function () { /* empty */ }, 'prototype', {
+    value: 42,
+    writable: false
+  }).prototype != 42;
+});
+
+
+/***/ }),
+
+/***/ 4811:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var global = __webpack_require__(7854);
+var isCallable = __webpack_require__(614);
+
+var WeakMap = global.WeakMap;
+
+module.exports = isCallable(WeakMap) && /native code/.test(String(WeakMap));
+
+
+/***/ }),
+
+/***/ 5112:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var global = __webpack_require__(7854);
+var shared = __webpack_require__(2309);
+var hasOwn = __webpack_require__(2597);
+var uid = __webpack_require__(9711);
+var NATIVE_SYMBOL = __webpack_require__(6293);
+var USE_SYMBOL_AS_UID = __webpack_require__(3307);
+
+var Symbol = global.Symbol;
+var WellKnownSymbolsStore = shared('wks');
+var createWellKnownSymbol = USE_SYMBOL_AS_UID ? Symbol['for'] || Symbol : Symbol && Symbol.withoutSetter || uid;
+
+module.exports = function (name) {
+  if (!hasOwn(WellKnownSymbolsStore, name)) {
+    WellKnownSymbolsStore[name] = NATIVE_SYMBOL && hasOwn(Symbol, name)
+      ? Symbol[name]
+      : createWellKnownSymbol('Symbol.' + name);
+  } return WellKnownSymbolsStore[name];
+};
+
+
+/***/ }),
+
+/***/ 7658:
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var $ = __webpack_require__(2109);
+var toObject = __webpack_require__(7908);
+var lengthOfArrayLike = __webpack_require__(6244);
+var setArrayLength = __webpack_require__(3658);
+var doesNotExceedSafeInteger = __webpack_require__(7207);
+var fails = __webpack_require__(7293);
+
+var INCORRECT_TO_LENGTH = fails(function () {
+  return [].push.call({ length: 0x100000000 }, 1) !== 4294967297;
+});
+
+// V8 and Safari <= 15.4, FF < 23 throws InternalError
+// https://bugs.chromium.org/p/v8/issues/detail?id=12681
+var properErrorOnNonWritableLength = function () {
+  try {
+    // eslint-disable-next-line es/no-object-defineproperty -- safe
+    Object.defineProperty([], 'length', { writable: false }).push();
+  } catch (error) {
+    return error instanceof TypeError;
+  }
+};
+
+var FORCED = INCORRECT_TO_LENGTH || !properErrorOnNonWritableLength();
+
+// `Array.prototype.push` method
+// https://tc39.es/ecma262/#sec-array.prototype.push
+$({ target: 'Array', proto: true, arity: 1, forced: FORCED }, {
+  // eslint-disable-next-line no-unused-vars -- required for `.length`
+  push: function push(item) {
+    var O = toObject(this);
+    var len = lengthOfArrayLike(O);
+    var argCount = arguments.length;
+    doesNotExceedSafeInteger(len + argCount);
+    for (var i = 0; i < argCount; i++) {
+      O[len] = arguments[i];
+      len++;
+    }
+    setArrayLength(O, len);
+    return len;
+  }
+});
+
+
+/***/ }),
+
+/***/ 2582:
 /***/ (function(module) {
 
 !function(t,i){ true?module.exports=i():0}(this,function(){"use strict";function t(t,r,e,a,h){!function t(n,r,e,a,h){for(;a>e;){if(a-e>600){var o=a-e+1,s=r-e+1,l=Math.log(o),f=.5*Math.exp(2*l/3),u=.5*Math.sqrt(l*f*(o-f)/o)*(s-o/2<0?-1:1),m=Math.max(e,Math.floor(r-s*f/o+u)),c=Math.min(a,Math.floor(r+(o-s)*f/o+u));t(n,r,m,c,h)}var p=n[r],d=e,x=a;for(i(n,e,r),h(n[a],p)>0&&i(n,e,a);d<x;){for(i(n,d,x),d++,x--;h(n[d],p)<0;)d++;for(;h(n[x],p)>0;)x--}0===h(n[e],p)?i(n,e,x):i(n,++x,a),x<=r&&(e=x+1),r<=x&&(a=x-1)}}(t,r,e||0,a||t.length-1,h||n)}function i(t,i,n){var r=t[i];t[i]=t[n],t[n]=r}function n(t,i){return t<i?-1:t>i?1:0}var r=function(t){void 0===t&&(t=9),this._maxEntries=Math.max(4,t),this._minEntries=Math.max(2,Math.ceil(.4*this._maxEntries)),this.clear()};function e(t,i,n){if(!n)return i.indexOf(t);for(var r=0;r<i.length;r++)if(n(t,i[r]))return r;return-1}function a(t,i){h(t,0,t.children.length,i,t)}function h(t,i,n,r,e){e||(e=p(null)),e.minX=1/0,e.minY=1/0,e.maxX=-1/0,e.maxY=-1/0;for(var a=i;a<n;a++){var h=t.children[a];o(e,t.leaf?r(h):h)}return e}function o(t,i){return t.minX=Math.min(t.minX,i.minX),t.minY=Math.min(t.minY,i.minY),t.maxX=Math.max(t.maxX,i.maxX),t.maxY=Math.max(t.maxY,i.maxY),t}function s(t,i){return t.minX-i.minX}function l(t,i){return t.minY-i.minY}function f(t){return(t.maxX-t.minX)*(t.maxY-t.minY)}function u(t){return t.maxX-t.minX+(t.maxY-t.minY)}function m(t,i){return t.minX<=i.minX&&t.minY<=i.minY&&i.maxX<=t.maxX&&i.maxY<=t.maxY}function c(t,i){return i.minX<=t.maxX&&i.minY<=t.maxY&&i.maxX>=t.minX&&i.maxY>=t.minY}function p(t){return{children:t,height:1,leaf:!0,minX:1/0,minY:1/0,maxX:-1/0,maxY:-1/0}}function d(i,n,r,e,a){for(var h=[n,r];h.length;)if(!((r=h.pop())-(n=h.pop())<=e)){var o=n+Math.ceil((r-n)/e/2)*e;t(i,o,n,r,a),h.push(n,o,o,r)}}return r.prototype.all=function(){return this._all(this.data,[])},r.prototype.search=function(t){var i=this.data,n=[];if(!c(t,i))return n;for(var r=this.toBBox,e=[];i;){for(var a=0;a<i.children.length;a++){var h=i.children[a],o=i.leaf?r(h):h;c(t,o)&&(i.leaf?n.push(h):m(t,o)?this._all(h,n):e.push(h))}i=e.pop()}return n},r.prototype.collides=function(t){var i=this.data;if(!c(t,i))return!1;for(var n=[];i;){for(var r=0;r<i.children.length;r++){var e=i.children[r],a=i.leaf?this.toBBox(e):e;if(c(t,a)){if(i.leaf||m(t,a))return!0;n.push(e)}}i=n.pop()}return!1},r.prototype.load=function(t){if(!t||!t.length)return this;if(t.length<this._minEntries){for(var i=0;i<t.length;i++)this.insert(t[i]);return this}var n=this._build(t.slice(),0,t.length-1,0);if(this.data.children.length)if(this.data.height===n.height)this._splitRoot(this.data,n);else{if(this.data.height<n.height){var r=this.data;this.data=n,n=r}this._insert(n,this.data.height-n.height-1,!0)}else this.data=n;return this},r.prototype.insert=function(t){return t&&this._insert(t,this.data.height-1),this},r.prototype.clear=function(){return this.data=p([]),this},r.prototype.remove=function(t,i){if(!t)return this;for(var n,r,a,h=this.data,o=this.toBBox(t),s=[],l=[];h||s.length;){if(h||(h=s.pop(),r=s[s.length-1],n=l.pop(),a=!0),h.leaf){var f=e(t,h.children,i);if(-1!==f)return h.children.splice(f,1),s.push(h),this._condense(s),this}a||h.leaf||!m(h,o)?r?(n++,h=r.children[n],a=!1):h=null:(s.push(h),l.push(n),n=0,r=h,h=h.children[0])}return this},r.prototype.toBBox=function(t){return t},r.prototype.compareMinX=function(t,i){return t.minX-i.minX},r.prototype.compareMinY=function(t,i){return t.minY-i.minY},r.prototype.toJSON=function(){return this.data},r.prototype.fromJSON=function(t){return this.data=t,this},r.prototype._all=function(t,i){for(var n=[];t;)t.leaf?i.push.apply(i,t.children):n.push.apply(n,t.children),t=n.pop();return i},r.prototype._build=function(t,i,n,r){var e,h=n-i+1,o=this._maxEntries;if(h<=o)return a(e=p(t.slice(i,n+1)),this.toBBox),e;r||(r=Math.ceil(Math.log(h)/Math.log(o)),o=Math.ceil(h/Math.pow(o,r-1))),(e=p([])).leaf=!1,e.height=r;var s=Math.ceil(h/o),l=s*Math.ceil(Math.sqrt(o));d(t,i,n,l,this.compareMinX);for(var f=i;f<=n;f+=l){var u=Math.min(f+l-1,n);d(t,f,u,s,this.compareMinY);for(var m=f;m<=u;m+=s){var c=Math.min(m+s-1,u);e.children.push(this._build(t,m,c,r-1))}}return a(e,this.toBBox),e},r.prototype._chooseSubtree=function(t,i,n,r){for(;r.push(i),!i.leaf&&r.length-1!==n;){for(var e=1/0,a=1/0,h=void 0,o=0;o<i.children.length;o++){var s=i.children[o],l=f(s),u=(m=t,c=s,(Math.max(c.maxX,m.maxX)-Math.min(c.minX,m.minX))*(Math.max(c.maxY,m.maxY)-Math.min(c.minY,m.minY))-l);u<a?(a=u,e=l<e?l:e,h=s):u===a&&l<e&&(e=l,h=s)}i=h||i.children[0]}var m,c;return i},r.prototype._insert=function(t,i,n){var r=n?t:this.toBBox(t),e=[],a=this._chooseSubtree(r,this.data,i,e);for(a.children.push(t),o(a,r);i>=0&&e[i].children.length>this._maxEntries;)this._split(e,i),i--;this._adjustParentBBoxes(r,e,i)},r.prototype._split=function(t,i){var n=t[i],r=n.children.length,e=this._minEntries;this._chooseSplitAxis(n,e,r);var h=this._chooseSplitIndex(n,e,r),o=p(n.children.splice(h,n.children.length-h));o.height=n.height,o.leaf=n.leaf,a(n,this.toBBox),a(o,this.toBBox),i?t[i-1].children.push(o):this._splitRoot(n,o)},r.prototype._splitRoot=function(t,i){this.data=p([t,i]),this.data.height=t.height+1,this.data.leaf=!1,a(this.data,this.toBBox)},r.prototype._chooseSplitIndex=function(t,i,n){for(var r,e,a,o,s,l,u,m=1/0,c=1/0,p=i;p<=n-i;p++){var d=h(t,0,p,this.toBBox),x=h(t,p,n,this.toBBox),v=(e=d,a=x,o=void 0,s=void 0,l=void 0,u=void 0,o=Math.max(e.minX,a.minX),s=Math.max(e.minY,a.minY),l=Math.min(e.maxX,a.maxX),u=Math.min(e.maxY,a.maxY),Math.max(0,l-o)*Math.max(0,u-s)),M=f(d)+f(x);v<m?(m=v,r=p,c=M<c?M:c):v===m&&M<c&&(c=M,r=p)}return r||n-i},r.prototype._chooseSplitAxis=function(t,i,n){var r=t.leaf?this.compareMinX:s,e=t.leaf?this.compareMinY:l;this._allDistMargin(t,i,n,r)<this._allDistMargin(t,i,n,e)&&t.children.sort(r)},r.prototype._allDistMargin=function(t,i,n,r){t.children.sort(r);for(var e=this.toBBox,a=h(t,0,i,e),s=h(t,n-i,n,e),l=u(a)+u(s),f=i;f<n-i;f++){var m=t.children[f];o(a,t.leaf?e(m):m),l+=u(a)}for(var c=n-i-1;c>=i;c--){var p=t.children[c];o(s,t.leaf?e(p):p),l+=u(s)}return l},r.prototype._adjustParentBBoxes=function(t,i,n){for(var r=n;r>=0;r--)o(i[r],t)},r.prototype._condense=function(t){for(var i=t.length-1,n=void 0;i>=0;i--)0===t[i].children.length?i>0?(n=t[i-1].children).splice(n.indexOf(t[i]),1):this.clear():a(t[i],this.toBBox)},r});
@@ -300,103 +1885,167 @@ module.exports = function (i) {
 
 /***/ }),
 
-/***/ 640:
+/***/ 8640:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(431);
+var content = __webpack_require__(3431);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.id, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var add = (__webpack_require__(402)/* ["default"] */ .Z)
+var add = (__webpack_require__(4402)/* ["default"] */ .Z)
 var update = add("a8943b36", content, true, {"sourceMap":false,"shadowMode":false});
 
 /***/ }),
 
-/***/ 611:
+/***/ 975:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(467);
+var content = __webpack_require__(6780);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.id, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var add = (__webpack_require__(402)/* ["default"] */ .Z)
-var update = add("3c92d823", content, true, {"sourceMap":false,"shadowMode":false});
+var add = (__webpack_require__(4402)/* ["default"] */ .Z)
+var update = add("dc380f62", content, true, {"sourceMap":false,"shadowMode":false});
 
 /***/ }),
 
-/***/ 256:
+/***/ 9256:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(528);
+var content = __webpack_require__(4528);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.id, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var add = (__webpack_require__(402)/* ["default"] */ .Z)
+var add = (__webpack_require__(4402)/* ["default"] */ .Z)
 var update = add("ffc1f492", content, true, {"sourceMap":false,"shadowMode":false});
 
 /***/ }),
 
-/***/ 890:
+/***/ 5890:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(683);
+var content = __webpack_require__(1683);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.id, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var add = (__webpack_require__(402)/* ["default"] */ .Z)
+var add = (__webpack_require__(4402)/* ["default"] */ .Z)
 var update = add("f55f6d52", content, true, {"sourceMap":false,"shadowMode":false});
 
 /***/ }),
 
-/***/ 403:
+/***/ 7403:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(437);
+var content = __webpack_require__(9437);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.id, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var add = (__webpack_require__(402)/* ["default"] */ .Z)
+var add = (__webpack_require__(4402)/* ["default"] */ .Z)
 var update = add("54dc3064", content, true, {"sourceMap":false,"shadowMode":false});
 
 /***/ }),
 
-/***/ 954:
+/***/ 2576:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(527);
+var content = __webpack_require__(4206);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.id, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var add = (__webpack_require__(402)/* ["default"] */ .Z)
+var add = (__webpack_require__(4402)/* ["default"] */ .Z)
+var update = add("4d95a543", content, true, {"sourceMap":false,"shadowMode":false});
+
+/***/ }),
+
+/***/ 4549:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(9894);
+if(content.__esModule) content = content.default;
+if(typeof content === 'string') content = [[module.id, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = (__webpack_require__(4402)/* ["default"] */ .Z)
+var update = add("5d3e2192", content, true, {"sourceMap":false,"shadowMode":false});
+
+/***/ }),
+
+/***/ 4452:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(779);
+if(content.__esModule) content = content.default;
+if(typeof content === 'string') content = [[module.id, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = (__webpack_require__(4402)/* ["default"] */ .Z)
+var update = add("31d0f704", content, true, {"sourceMap":false,"shadowMode":false});
+
+/***/ }),
+
+/***/ 5184:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(3511);
+if(content.__esModule) content = content.default;
+if(typeof content === 'string') content = [[module.id, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = (__webpack_require__(4402)/* ["default"] */ .Z)
+var update = add("7a3b3e00", content, true, {"sourceMap":false,"shadowMode":false});
+
+/***/ }),
+
+/***/ 3954:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(8527);
+if(content.__esModule) content = content.default;
+if(typeof content === 'string') content = [[module.id, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = (__webpack_require__(4402)/* ["default"] */ .Z)
 var update = add("492a86fc", content, true, {"sourceMap":false,"shadowMode":false});
 
 /***/ }),
 
-/***/ 402:
+/***/ 4402:
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -662,7 +2311,7 @@ function applyToTag (styleElement, obj) {
 
 /***/ }),
 
-/***/ 130:
+/***/ 3130:
 /***/ (function(module) {
 
 "use strict";
@@ -722,6 +2371,18 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5v
 /******/ 				}
 /******/ 			}
 /******/ 		};
+/******/ 	}();
+/******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	!function() {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
@@ -785,6 +2446,110 @@ __webpack_require__.d(__webpack_exports__, {
   "install": function() { return /* reexport */ src_plugin; }
 });
 
+// NAMESPACE OBJECT: ./node_modules/simple-statistics/dist/simple-statistics.mjs
+var simple_statistics_namespaceObject = {};
+__webpack_require__.r(simple_statistics_namespaceObject);
+__webpack_require__.d(simple_statistics_namespaceObject, {
+  "BayesianClassifier": function() { return BayesianClassifier; },
+  "PerceptronModel": function() { return PerceptronModel; },
+  "addToMean": function() { return addToMean; },
+  "approxEqual": function() { return approxEqual; },
+  "average": function() { return mean; },
+  "averageSimple": function() { return meanSimple; },
+  "bayesian": function() { return BayesianClassifier; },
+  "bernoulliDistribution": function() { return bernoulliDistribution; },
+  "binomialDistribution": function() { return binomialDistribution; },
+  "bisect": function() { return simple_statistics_bisect; },
+  "chiSquaredDistributionTable": function() { return chiSquaredDistributionTable; },
+  "chiSquaredGoodnessOfFit": function() { return chiSquaredGoodnessOfFit; },
+  "chunk": function() { return chunk; },
+  "ckmeans": function() { return ckmeans; },
+  "coefficientOfVariation": function() { return coefficientOfVariation; },
+  "combinations": function() { return combinations; },
+  "combinationsReplacement": function() { return combinationsReplacement; },
+  "combineMeans": function() { return combineMeans; },
+  "combineVariances": function() { return combineVariances; },
+  "cumulativeStdLogisticProbability": function() { return cumulativeStdLogisticProbability; },
+  "cumulativeStdNormalProbability": function() { return cumulativeStdNormalProbability; },
+  "epsilon": function() { return epsilon; },
+  "equalIntervalBreaks": function() { return equalIntervalBreaks; },
+  "erf": function() { return errorFunction; },
+  "errorFunction": function() { return errorFunction; },
+  "extent": function() { return extent; },
+  "extentSorted": function() { return extentSorted; },
+  "factorial": function() { return factorial; },
+  "gamma": function() { return simple_statistics_gamma; },
+  "gammaln": function() { return gammaln; },
+  "geometricMean": function() { return geometricMean; },
+  "harmonicMean": function() { return harmonicMean; },
+  "interquartileRange": function() { return interquartileRange; },
+  "inverseErrorFunction": function() { return inverseErrorFunction; },
+  "iqr": function() { return interquartileRange; },
+  "jenks": function() { return jenks; },
+  "kMeansCluster": function() { return kMeansCluster; },
+  "kde": function() { return kernelDensityEstimation; },
+  "kernelDensityEstimation": function() { return kernelDensityEstimation; },
+  "linearRegression": function() { return linearRegression; },
+  "linearRegressionLine": function() { return linearRegressionLine; },
+  "logAverage": function() { return logAverage; },
+  "logit": function() { return logit; },
+  "mad": function() { return medianAbsoluteDeviation; },
+  "max": function() { return simple_statistics_max; },
+  "maxSorted": function() { return maxSorted; },
+  "mean": function() { return mean; },
+  "meanSimple": function() { return meanSimple; },
+  "median": function() { return median; },
+  "medianAbsoluteDeviation": function() { return medianAbsoluteDeviation; },
+  "medianSorted": function() { return medianSorted; },
+  "min": function() { return simple_statistics_min; },
+  "minSorted": function() { return minSorted; },
+  "mode": function() { return mode; },
+  "modeFast": function() { return modeFast; },
+  "modeSorted": function() { return modeSorted; },
+  "numericSort": function() { return numericSort; },
+  "perceptron": function() { return PerceptronModel; },
+  "permutationTest": function() { return permutationTest; },
+  "permutationsHeap": function() { return permutationsHeap; },
+  "poissonDistribution": function() { return poissonDistribution; },
+  "probit": function() { return probit; },
+  "product": function() { return product; },
+  "quantile": function() { return simple_statistics_quantile; },
+  "quantileRank": function() { return quantileRank; },
+  "quantileRankSorted": function() { return quantileRankSorted; },
+  "quantileSorted": function() { return simple_statistics_quantileSorted; },
+  "quickselect": function() { return simple_statistics_quickselect; },
+  "rSquared": function() { return rSquared; },
+  "relativeError": function() { return relativeError; },
+  "rms": function() { return rootMeanSquare; },
+  "rootMeanSquare": function() { return rootMeanSquare; },
+  "sample": function() { return sample; },
+  "sampleCorrelation": function() { return sampleCorrelation; },
+  "sampleCovariance": function() { return sampleCovariance; },
+  "sampleKurtosis": function() { return sampleKurtosis; },
+  "sampleRankCorrelation": function() { return sampleRankCorrelation; },
+  "sampleSkewness": function() { return sampleSkewness; },
+  "sampleStandardDeviation": function() { return sampleStandardDeviation; },
+  "sampleVariance": function() { return sampleVariance; },
+  "sampleWithReplacement": function() { return sampleWithReplacement; },
+  "shuffle": function() { return shuffle; },
+  "shuffleInPlace": function() { return shuffleInPlace; },
+  "sign": function() { return sign; },
+  "silhouette": function() { return silhouette; },
+  "silhouetteMetric": function() { return silhouetteMetric; },
+  "standardDeviation": function() { return standardDeviation; },
+  "standardNormalTable": function() { return standardNormalTable; },
+  "subtractFromMean": function() { return subtractFromMean; },
+  "sum": function() { return sum; },
+  "sumNthPowerDeviations": function() { return sumNthPowerDeviations; },
+  "sumSimple": function() { return sumSimple; },
+  "tTest": function() { return tTest; },
+  "tTestTwoSample": function() { return tTestTwoSample; },
+  "uniqueCountSorted": function() { return uniqueCountSorted; },
+  "variance": function() { return variance; },
+  "wilcoxonRankSum": function() { return wilcoxonRankSum; },
+  "zScore": function() { return zScore; }
+});
+
 // NAMESPACE OBJECT: ./src/componentes/capas/index.js
 var capas_namespaceObject = {};
 __webpack_require__.r(capas_namespaceObject);
@@ -795,13 +2560,20 @@ __webpack_require__.d(capas_namespaceObject, {
   "XYZ": function() { return SisdaiCapaXyz; }
 });
 
+// NAMESPACE OBJECT: ./src/componentes/leyendas/index.js
+var leyendas_namespaceObject = {};
+__webpack_require__.r(leyendas_namespaceObject);
+__webpack_require__.d(leyendas_namespaceObject, {
+  "Control": function() { return SisdaiMapaLeyendaCapaControl; },
+  "Leyenda": function() { return SisdaiMapaLeyenda; }
+});
+
 // NAMESPACE OBJECT: ./src/componentes/elementos/index.js
 var elementos_namespaceObject = {};
 __webpack_require__.r(elementos_namespaceObject);
 __webpack_require__.d(elementos_namespaceObject, {
   "Capas": function() { return SisdaiMapaCapas; },
-  "Encabezado": function() { return SisdaiMapaEncabezado; },
-  "Leyenda": function() { return SisdaiMapaLeyenda; }
+  "Encabezado": function() { return SisdaiMapaEncabezado; }
 });
 
 ;// CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/setPublicPath.js
@@ -822,8 +2594,8 @@ if (typeof window !== 'undefined') {
 /* harmony default export */ var setPublicPath = (null);
 
 // EXTERNAL MODULE: ./src/estilos/index.scss
-var estilos = __webpack_require__(954);
-;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"23f98b37-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/SisdaiMapa.vue?vue&type=template&id=51ced022&scoped=true&
+var estilos = __webpack_require__(3954);
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"64cbf409-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/SisdaiMapa.vue?vue&type=template&id=3598bf92&scoped=true&
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c,
@@ -831,7 +2603,7 @@ var render = function render() {
   return _c('div', {
     staticClass: "sisdai-mapa-contenedor borde borde-redondeado-8"
   }, [_c('div', {
-    ref: "refMapa",
+    ref: "refSisdaiMapa",
     staticClass: "sisdai-mapa"
   }), _c(_setup.VistaCarga, {
     directives: [{
@@ -847,7 +2619,7 @@ var staticRenderFns = [];
 ;// CONCATENATED MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject = require("vue");
 // EXTERNAL MODULE: ./node_modules/ol/ol.css
-var ol = __webpack_require__(640);
+var ol = __webpack_require__(8640);
 ;// CONCATENATED MODULE: ./node_modules/ol/events/Event.js
 /**
  * @module ol/events/Event
@@ -1002,7 +2774,7 @@ class Disposable {
  */
 function binarySearch(haystack, needle, comparator) {
   let mid, cmp;
-  comparator = comparator || numberSafeCompareFunction;
+  comparator = comparator || ascending;
   let low = 0;
   let high = haystack.length;
   let found = false;
@@ -1028,13 +2800,13 @@ function binarySearch(haystack, needle, comparator) {
 }
 
 /**
- * Compare function for array sort that is safe for numbers.
+ * Compare function sorting arrays in ascending order.  Safe to use for numeric values.
  * @param {*} a The first object to be compared.
  * @param {*} b The second object to be compared.
  * @return {number} A negative number, zero, or a positive number as the first
  *     argument is less than, equal to, or greater than the second.
  */
-function numberSafeCompareFunction(a, b) {
+function ascending(a, b) {
   return a > b ? 1 : a < b ? -1 : 0;
 }
 
@@ -1067,41 +2839,38 @@ function linearFindNearest(arr, target, direction) {
     return 0;
   } else if (target <= arr[n - 1]) {
     return n - 1;
-  } else {
-    let i;
-    if (direction > 0) {
-      for (i = 1; i < n; ++i) {
-        if (arr[i] < target) {
-          return i - 1;
-        }
-      }
-    } else if (direction < 0) {
-      for (i = 1; i < n; ++i) {
-        if (arr[i] <= target) {
-          return i;
-        }
-      }
-    } else {
-      for (i = 1; i < n; ++i) {
-        if (arr[i] == target) {
-          return i;
-        } else if (arr[i] < target) {
-          if (typeof direction === 'function') {
-            if (direction(target, arr[i - 1], arr[i]) > 0) {
-              return i - 1;
-            } else {
-              return i;
-            }
-          } else if (arr[i - 1] - target < target - arr[i]) {
-            return i - 1;
-          } else {
-            return i;
-          }
-        }
+  }
+  let i;
+  if (direction > 0) {
+    for (i = 1; i < n; ++i) {
+      if (arr[i] < target) {
+        return i - 1;
       }
     }
-    return n - 1;
+  } else if (direction < 0) {
+    for (i = 1; i < n; ++i) {
+      if (arr[i] <= target) {
+        return i;
+      }
+    }
+  } else {
+    for (i = 1; i < n; ++i) {
+      if (arr[i] == target) {
+        return i;
+      } else if (arr[i] < target) {
+        if (typeof direction === 'function') {
+          if (direction(target, arr[i - 1], arr[i]) > 0) {
+            return i - 1;
+          }
+          return i;
+        } else if (arr[i - 1] - target < target - arr[i]) {
+          return i - 1;
+        }
+        return i;
+      }
+    }
   }
+  return n - 1;
 }
 
 /**
@@ -1194,7 +2963,7 @@ function stableSort(arr, compareFnc) {
  * @return {boolean} Return index.
  */
 function isSorted(arr, func, strict) {
-  const compare = func || numberSafeCompareFunction;
+  const compare = func || ascending;
   return arr.every(function (currentVal, index) {
     if (index === 0) {
       return true;
@@ -1750,9 +3519,8 @@ class Observable extends events_Target {
         keys[i] = listen(this, type[i], listener);
       }
       return keys;
-    } else {
-      return listen(this, /** @type {string} */ (type), listener);
     }
+    return listen(this, /** @type {string} */ (type), listener);
   }
 
   /**
@@ -1883,7 +3651,7 @@ function getUid(obj) {
  * OpenLayers version.
  * @type {string}
  */
-const VERSION = '7.1.0';
+const VERSION = '7.2.2';
 
 ;// CONCATENATED MODULE: ./node_modules/ol/Object.js
 /**
@@ -2215,6 +3983,7 @@ const messages = {
   66: '`forEachFeatureAtCoordinate` cannot be used on a WebGL layer if the hit detection logic has not been enabled. This is done by providing adequate shaders using the `hitVertexShader` and `hitFragmentShader` properties of `WebGLPointsLayerRenderer`',
   67: 'A layer can only be added to the map once. Use either `layer.setMap()` or `map.addLayer()`, not both',
   68: 'A VectorTile source can only be rendered if it has a projection compatible with the view projection',
+  69: '`width` or `height` cannot be provided together with `scale`',
 };
 
 /**
@@ -3086,14 +4855,13 @@ function buffer(extent, value, dest) {
     dest[2] = extent[2] + value;
     dest[3] = extent[3] + value;
     return dest;
-  } else {
-    return [
-      extent[0] - value,
-      extent[1] - value,
-      extent[2] + value,
-      extent[3] + value,
-    ];
   }
+  return [
+    extent[0] - value,
+    extent[1] - value,
+    extent[2] + value,
+    extent[3] + value,
+  ];
 }
 
 /**
@@ -3110,9 +4878,8 @@ function clone(extent, dest) {
     dest[2] = extent[2];
     dest[3] = extent[3];
     return dest;
-  } else {
-    return extent.slice();
   }
+  return extent.slice();
 }
 
 /**
@@ -3242,9 +5009,8 @@ function createOrUpdate(minX, minY, maxX, maxY, dest) {
     dest[2] = maxX;
     dest[3] = maxY;
     return dest;
-  } else {
-    return [minX, minY, maxX, maxY];
   }
+  return [minX, minY, maxX, maxY];
 }
 
 /**
@@ -3745,9 +5511,8 @@ function returnOrUpdate(extent, dest) {
     dest[2] = extent[2];
     dest[3] = extent[3];
     return dest;
-  } else {
-    return extent;
   }
+  return extent;
 }
 
 /**
@@ -4189,9 +5954,8 @@ const NAMED_COLOR_RE_ = /^([a-z]*)$|^hsla?\(.*\)$/i;
 function asString(color) {
   if (typeof color === 'string') {
     return color;
-  } else {
-    return color_toString(color);
   }
+  return color_toString(color);
 }
 
 /**
@@ -4207,9 +5971,8 @@ function fromNamed(color) {
     const rgb = getComputedStyle(el).color;
     document.body.removeChild(el);
     return rgb;
-  } else {
-    return '';
   }
+  return '';
 }
 
 /**
@@ -4275,9 +6038,8 @@ const fromString = (function () {
 function asArray(color) {
   if (Array.isArray(color)) {
     return color;
-  } else {
-    return fromString(color);
   }
+  return fromString(color);
 }
 
 /**
@@ -4991,13 +6753,17 @@ class BaseLayer extends ol_Object {
  * @typedef {function(import("../Map.js").FrameState):HTMLElement} RenderFunction
  */
 
+/**
+ * @typedef {'sourceready'|'change:source'} LayerEventType
+ */
+
 /***
  * @template Return
  * @typedef {import("../Observable").OnSignature<import("../Observable").EventTypes, import("../events/Event.js").default, Return> &
  *   import("../Observable").OnSignature<import("./Base").BaseLayerObjectEventTypes|
- *     'change:source', import("../Object").ObjectEvent, Return> &
+ *     LayerEventType, import("../Object").ObjectEvent, Return> &
  *   import("../Observable").OnSignature<import("../render/EventType").LayerRenderEventTypes, import("../render/Event").default, Return> &
- *   import("../Observable").CombinedOnSignature<import("../Observable").EventTypes|import("./Base").BaseLayerObjectEventTypes|'change:source'|
+ *   import("../Observable").CombinedOnSignature<import("../Observable").EventTypes|import("./Base").BaseLayerObjectEventTypes|LayerEventType|
  *     import("../render/EventType").LayerRenderEventTypes, Return>} LayerOnSignature
  */
 
@@ -5060,9 +6826,11 @@ class BaseLayer extends ol_Object {
  * [layer.setMap()]{@link module:ol/layer/Layer~Layer#setMap} instead.
  *
  * A generic `change` event is fired when the state of the source changes.
+ * A `sourceready` event is fired when the layer's source is ready.
  *
  * @fires import("../render/Event.js").RenderEvent#prerender
  * @fires import("../render/Event.js").RenderEvent#postrender
+ * @fires import("../events/Event.js").BaseEvent#sourceready
  *
  * @template {import("../source/Source.js").default} [SourceType=import("../source/Source.js").default]
  * @template {import("../renderer/Layer.js").default} [RendererType=import("../renderer/Layer.js").default]
@@ -5116,6 +6884,12 @@ class Layer extends Base {
      * @type {RendererType}
      */
     this.renderer_ = null;
+
+    /**
+     * @private
+     * @type {boolean}
+     */
+    this.sourceReady_ = false;
 
     /**
      * @protected
@@ -5193,6 +6967,11 @@ class Layer extends Base {
    */
   handleSourceChange_() {
     this.changed();
+    if (this.sourceReady_ || this.getSource().getState() !== 'ready') {
+      return;
+    }
+    this.sourceReady_ = true;
+    this.dispatchEvent('sourceready');
   }
 
   /**
@@ -5203,6 +6982,7 @@ class Layer extends Base {
       unlistenByKey(this.sourceChangeKey_);
       this.sourceChangeKey_ = null;
     }
+    this.sourceReady_ = false;
     const source = this.getSource();
     if (source) {
       this.sourceChangeKey_ = listen(
@@ -5211,18 +6991,24 @@ class Layer extends Base {
         this.handleSourceChange_,
         this
       );
+      if (source.getState() === 'ready') {
+        this.sourceReady_ = true;
+        setTimeout(() => {
+          this.dispatchEvent('sourceready');
+        }, 0);
+      }
     }
     this.changed();
   }
 
   /**
    * @param {import("../pixel").Pixel} pixel Pixel.
-   * @return {Promise<Array<import("../Feature").default>>} Promise that resolves with
+   * @return {Promise<Array<import("../Feature").FeatureLike>>} Promise that resolves with
    * an array of features.
    */
   getFeatures(pixel) {
     if (!this.renderer_) {
-      return new Promise((resolve) => resolve([]));
+      return Promise.resolve([]);
     }
     return this.renderer_.getFeatures(pixel);
   }
@@ -5432,7 +7218,7 @@ function inView(layerState, viewState) {
  *
  * Example:
  *
- *     import {add} from 'ol/coordinate';
+ *     import {add} from 'ol/coordinate.js';
  *
  *     const coord = [7.85, 47.983333];
  *     add(coord, [-2, 4]);
@@ -5526,7 +7312,7 @@ function closestOnSegment(coordinate, segment) {
  *
  * Example without specifying the fractional digits:
  *
- *     import {createStringXY} from 'ol/coordinate';
+ *     import {createStringXY} from 'ol/coordinate.js';
  *
  *     const coord = [7.85, 47.983333];
  *     const stringifyFunc = createStringXY();
@@ -5535,7 +7321,7 @@ function closestOnSegment(coordinate, segment) {
  *
  * Example with explicitly specifying 2 fractional digits:
  *
- *     import {createStringXY} from 'ol/coordinate';
+ *     import {createStringXY} from 'ol/coordinate.js';
  *
  *     const coord = [7.85, 47.983333];
  *     const stringifyFunc = createStringXY(2);
@@ -5606,7 +7392,7 @@ function degreesToStringHDMS(hemispheres, degrees, fractionDigits) {
  *
  * Example without specifying the fractional digits:
  *
- *     import {format} from 'ol/coordinate';
+ *     import {format} from 'ol/coordinate.js';
  *
  *     const coord = [7.85, 47.983333];
  *     const template = 'Coordinate is ({x}|{y}).';
@@ -5615,7 +7401,7 @@ function degreesToStringHDMS(hemispheres, degrees, fractionDigits) {
  *
  * Example explicitly specifying the fractional digits:
  *
- *     import {format} from 'ol/coordinate';
+ *     import {format} from 'ol/coordinate.js';
  *
  *     const coord = [7.85, 47.983333];
  *     const template = 'Coordinate is ({x}|{y}).';
@@ -5635,9 +7421,8 @@ function format(coordinate, template, fractionDigits) {
     return template
       .replace('{x}', coordinate[0].toFixed(fractionDigits))
       .replace('{y}', coordinate[1].toFixed(fractionDigits));
-  } else {
-    return '';
   }
+  return '';
 }
 
 /**
@@ -5662,7 +7447,7 @@ function coordinate_equals(coordinate1, coordinate2) {
  *
  * Example:
  *
- *     import {rotate} from 'ol/coordinate';
+ *     import {rotate} from 'ol/coordinate.js';
  *
  *     const coord = [7.85, 47.983333];
  *     const rotateRadians = Math.PI / 2; // 90 degrees
@@ -5690,7 +7475,7 @@ function coordinate_rotate(coordinate, angle) {
  *
  * Example:
  *
- *     import {scale as scaleCoordinate} from 'ol/coordinate';
+ *     import {scale as scaleCoordinate} from 'ol/coordinate.js';
  *
  *     const coord = [7.85, 47.983333];
  *     const scale = 1.2;
@@ -5745,7 +7530,7 @@ function squaredDistanceToSegment(coordinate, segment) {
  *
  * Example without specifying fractional digits:
  *
- *     import {toStringHDMS} from 'ol/coordinate';
+ *     import {toStringHDMS} from 'ol/coordinate.js';
  *
  *     const coord = [7.85, 47.983333];
  *     const out = toStringHDMS(coord);
@@ -5753,7 +7538,7 @@ function squaredDistanceToSegment(coordinate, segment) {
  *
  * Example explicitly specifying 1 fractional digit:
  *
- *     import {toStringHDMS} from 'ol/coordinate';
+ *     import {toStringHDMS} from 'ol/coordinate.js';
  *
  *     const coord = [7.85, 47.983333];
  *     const out = toStringHDMS(coord, 1);
@@ -5772,9 +7557,8 @@ function toStringHDMS(coordinate, fractionDigits) {
       ' ' +
       degreesToStringHDMS('EW', coordinate[0], fractionDigits)
     );
-  } else {
-    return '';
   }
+  return '';
 }
 
 /**
@@ -5782,7 +7566,7 @@ function toStringHDMS(coordinate, fractionDigits) {
  *
  * Example without specifying fractional digits:
  *
- *     import {toStringXY} from 'ol/coordinate';
+ *     import {toStringXY} from 'ol/coordinate.js';
  *
  *     const coord = [7.85, 47.983333];
  *     const out = toStringXY(coord);
@@ -5790,7 +7574,7 @@ function toStringHDMS(coordinate, fractionDigits) {
  *
  * Example explicitly specifying 1 fractional digit:
  *
- *     import {toStringXY} from 'ol/coordinate';
+ *     import {toStringXY} from 'ol/coordinate.js';
  *
  *     const coord = [7.85, 47.983333];
  *     const out = toStringXY(coord, 1);
@@ -6089,7 +7873,7 @@ function expireIconCache(map, frameState) {
   shared.expire();
 }
 
-/* harmony default export */ var Map = (MapRenderer);
+/* harmony default export */ var renderer_Map = (MapRenderer);
 
 ;// CONCATENATED MODULE: ./node_modules/ol/render/Event.js
 /**
@@ -6929,7 +8713,7 @@ function executeLabelInstructions(label, context) {
  * Canvas map renderer.
  * @api
  */
-class CompositeMapRenderer extends Map {
+class CompositeMapRenderer extends renderer_Map {
   /**
    * @param {import("../Map.js").default} map Map.
    */
@@ -7799,19 +9583,15 @@ class MapBrowserEventHandler extends events_Target {
       this.dispatchEvent(newEvent);
     } else {
       // click
-      this.clickTimeoutId_ = setTimeout(
-        /** @this {MapBrowserEventHandler} */
-        function () {
-          this.clickTimeoutId_ = undefined;
-          const newEvent = new ol_MapBrowserEvent(
-            ol_MapBrowserEventType.SINGLECLICK,
-            this.map_,
-            pointerEvent
-          );
-          this.dispatchEvent(newEvent);
-        }.bind(this),
-        250
-      );
+      this.clickTimeoutId_ = setTimeout(() => {
+        this.clickTimeoutId_ = undefined;
+        const newEvent = new ol_MapBrowserEvent(
+          ol_MapBrowserEventType.SINGLECLICK,
+          this.map_,
+          pointerEvent
+        );
+        this.dispatchEvent(newEvent);
+      }, 250);
     }
   }
 
@@ -9538,6 +11318,62 @@ function offset(c1, distance, bearing, radius) {
   return [toDegrees(lon), toDegrees(lat)];
 }
 
+;// CONCATENATED MODULE: ./node_modules/ol/console.js
+/**
+ * @module ol/console
+ */
+
+/**
+ * @typedef {'info'|'warn'|'error'|'none'} Level
+ */
+
+/**
+ * @type {Object<Level, number>}
+ */
+const levels = {
+  info: 1,
+  warn: 2,
+  error: 3,
+  none: 4,
+};
+
+/**
+ * @type {number}
+ */
+let level = levels.info;
+
+/**
+ * Set the logging level.  By default, the level is set to 'info' and all
+ * messages will be logged.  Set to 'warn' to only display warnings and errors.
+ * Set to 'error' to only display errors.  Set to 'none' to silence all messages.
+ *
+ * @param {Level} l The new level.
+ */
+function setLevel(l) {
+  level = levels[l];
+}
+
+function log(...args) {
+  if (level > levels.info) {
+    return;
+  }
+  console.log(...args); // eslint-disable-line no-console
+}
+
+function warn(...args) {
+  if (level > levels.warn) {
+    return;
+  }
+  console.warn(...args); // eslint-disable-line no-console
+}
+
+function error(...args) {
+  if (level > levels.error) {
+    return;
+  }
+  console.error(...args); // eslint-disable-line no-console
+}
+
 ;// CONCATENATED MODULE: ./node_modules/ol/proj.js
 /**
  * @module ol/proj
@@ -9605,6 +11441,7 @@ function offset(c1, distance, bearing, radius) {
 
 
 
+
 /**
  * A projection as {@link module:ol/proj/Projection~Projection}, SRS identifier
  * string or undefined.
@@ -9639,11 +11476,10 @@ function disableCoordinateWarning(disable) {
 /**
  * @param {Array<number>} input Input coordinate array.
  * @param {Array<number>} [output] Output array of coordinate values.
- * @param {number} [dimension] Dimension.
  * @return {Array<number>} Output coordinate array (new array, same coordinate
  *     values).
  */
-function cloneTransform(input, output, dimension) {
+function cloneTransform(input, output) {
   if (output !== undefined) {
     for (let i = 0, ii = input.length; i < ii; ++i) {
       output[i] = input[i];
@@ -9658,10 +11494,9 @@ function cloneTransform(input, output, dimension) {
 /**
  * @param {Array<number>} input Input coordinate array.
  * @param {Array<number>} [output] Output array of coordinate values.
- * @param {number} [dimension] Dimension.
  * @return {Array<number>} Input coordinate array (same array as input).
  */
-function identityTransform(input, output, dimension) {
+function identityTransform(input, output) {
   if (output !== undefined && input !== output) {
     for (let i = 0, ii = input.length; i < ii; ++i) {
       output[i] = input[i];
@@ -9843,9 +11678,8 @@ function createProjection(projection, defaultCode) {
     return proj_get(defaultCode);
   } else if (typeof projection === 'string') {
     return proj_get(projection);
-  } else {
-    return /** @type {Projection} */ (projection);
   }
+  return /** @type {Projection} */ (projection);
 }
 
 /**
@@ -9973,10 +11807,9 @@ function equivalent(projection1, projection2) {
   const equalUnits = projection1.getUnits() === projection2.getUnits();
   if (projection1.getCode() === projection2.getCode()) {
     return equalUnits;
-  } else {
-    const transformFunc = getTransformFromProjections(projection1, projection2);
-    return transformFunc === cloneTransform && equalUnits;
   }
+  const transformFunc = getTransformFromProjections(projection1, projection2);
+  return transformFunc === cloneTransform && equalUnits;
 }
 
 /**
@@ -10148,8 +11981,7 @@ function fromUserCoordinate(coordinate, destProjection) {
       coordinate[1] <= 90
     ) {
       showCoordinateWarning = false;
-      // eslint-disable-next-line no-console
-      console.warn(
+      warn(
         'Call useGeographic() from ol/proj once to work with [longitude, latitude] coordinates.'
       );
     }
@@ -10481,9 +12313,8 @@ function createSnapToResolutions(
           return resolutions[z + 1];
         }
         return resolutions[z];
-      } else {
-        return undefined;
       }
+      return undefined;
     }
   );
 }
@@ -10551,9 +12382,8 @@ function createSnapToPower(
         const zoomLevel = Math.max(minZoomLevel, cappedZoomLevel);
         const newResolution = maxResolution / Math.pow(power, zoomLevel);
         return math_clamp(newResolution, minResolution, cappedMaxRes);
-      } else {
-        return undefined;
       }
+      return undefined;
     }
   );
 }
@@ -10602,9 +12432,8 @@ function createMinMaxResolution(
           cappedMaxRes,
           minResolution
         );
-      } else {
-        return undefined;
       }
+      return undefined;
     }
   );
 }
@@ -10626,9 +12455,8 @@ function createMinMaxResolution(
 function disable(rotation) {
   if (rotation !== undefined) {
     return 0;
-  } else {
-    return undefined;
   }
+  return undefined;
 }
 
 /**
@@ -10638,9 +12466,8 @@ function disable(rotation) {
 function rotationconstraint_none(rotation) {
   if (rotation !== undefined) {
     return rotation;
-  } else {
-    return undefined;
   }
+  return undefined;
 }
 
 /**
@@ -10663,9 +12490,8 @@ function createSnapToN(n) {
       if (rotation !== undefined) {
         rotation = Math.floor(rotation / theta + 0.5) * theta;
         return rotation;
-      } else {
-        return undefined;
       }
+      return undefined;
     }
   );
 }
@@ -10690,12 +12516,10 @@ function createSnapToZero(tolerance) {
       if (rotation !== undefined) {
         if (Math.abs(rotation) <= tolerance) {
           return 0;
-        } else {
-          return rotation;
         }
-      } else {
-        return undefined;
+        return rotation;
       }
+      return undefined;
     }
   );
 }
@@ -10756,9 +12580,8 @@ function linear(t) {
 function upAndDown(t) {
   if (t < 0.5) {
     return inAndOut(2 * t);
-  } else {
-    return 1 - inAndOut(2 * (t - 0.5));
   }
+  return 1 - inAndOut(2 * (t - 0.5));
 }
 
 ;// CONCATENATED MODULE: ./node_modules/ol/geom/flat/transform.js
@@ -11377,16 +13200,15 @@ class SimpleGeometry extends geom_Geometry {
     const simplifiedFlatCoordinates = simplifiedGeometry.getFlatCoordinates();
     if (simplifiedFlatCoordinates.length < this.flatCoordinates.length) {
       return simplifiedGeometry;
-    } else {
-      // Simplification did not actually remove any coordinates.  We now know
-      // that any calls to getSimplifiedGeometry with a squaredTolerance less
-      // than or equal to the current squaredTolerance will also not have any
-      // effect.  This allows us to short circuit simplification (saving CPU
-      // cycles) and prevents the cache of simplified geometries from filling
-      // up with useless identical copies of this geometry (saving memory).
-      this.simplifiedGeometryMaxMinSquaredTolerance = squaredTolerance;
-      return this;
     }
+    // Simplification did not actually remove any coordinates.  We now know
+    // that any calls to getSimplifiedGeometry with a squaredTolerance less
+    // than or equal to the current squaredTolerance will also not have any
+    // effect.  This allows us to short circuit simplification (saving CPU
+    // cycles) and prevents the cache of simplified geometries from filling
+    // up with useless identical copies of this geometry (saving memory).
+    this.simplifiedGeometryMaxMinSquaredTolerance = squaredTolerance;
+    return this;
   }
 
   /**
@@ -11441,9 +13263,8 @@ class SimpleGeometry extends geom_Geometry {
           this.layout = 'XY';
           this.stride = 2;
           return;
-        } else {
-          coordinates = /** @type {Array} */ (coordinates[0]);
         }
+        coordinates = /** @type {Array} */ (coordinates[0]);
       }
       stride = coordinates.length;
       layout = getLayoutForStride(stride);
@@ -11592,17 +13413,16 @@ function transformGeom2D(simpleGeometry, transform, dest) {
   const flatCoordinates = simpleGeometry.getFlatCoordinates();
   if (!flatCoordinates) {
     return null;
-  } else {
-    const stride = simpleGeometry.getStride();
-    return transform2D(
-      flatCoordinates,
-      0,
-      flatCoordinates.length,
-      stride,
-      transform,
-      dest
-    );
   }
+  const stride = simpleGeometry.getStride();
+  return transform2D(
+    flatCoordinates,
+    0,
+    flatCoordinates.length,
+    stride,
+    transform,
+    dest
+  );
 }
 
 /* harmony default export */ var geom_SimpleGeometry = (SimpleGeometry);
@@ -11782,9 +13602,8 @@ function assignClosestPoint(
       }
       closestPoint.length = stride;
       return squaredDistance;
-    } else {
-      return minSquaredDistance;
     }
+    return minSquaredDistance;
   }
   tmpPoint = tmpPoint ? tmpPoint : [NaN, NaN];
   let index = offset + stride;
@@ -12936,9 +14755,8 @@ class Point extends geom_SimpleGeometry {
       }
       closestPoint.length = stride;
       return squaredDistance;
-    } else {
-      return minSquaredDistance;
     }
+    return minSquaredDistance;
   }
 
   /**
@@ -13200,7 +15018,7 @@ function getInteriorPointOfArray(
   // inside the linear ring.
   let pointX = NaN;
   let maxSegmentLength = -Infinity;
-  intersections.sort(numberSafeCompareFunction);
+  intersections.sort(ascending);
   x1 = intersections[0];
   for (i = 1, ii = intersections.length; i < ii; ++i) {
     x2 = intersections[i];
@@ -13222,9 +15040,8 @@ function getInteriorPointOfArray(
   if (dest) {
     dest.push(pointX, y, maxSegmentLength);
     return dest;
-  } else {
-    return [pointX, y, maxSegmentLength];
   }
+  return [pointX, y, maxSegmentLength];
 }
 
 /**
@@ -15145,9 +16962,8 @@ class View extends ol_Object {
         Math.abs(w * Math.cos(rotation)) + Math.abs(h * Math.sin(rotation)),
         Math.abs(w * Math.sin(rotation)) + Math.abs(h * Math.cos(rotation)),
       ];
-    } else {
-      return size;
     }
+    return size;
   }
 
   /**
@@ -15211,9 +17027,8 @@ class View extends ol_Object {
       hints[0] = this.hints_[0];
       hints[1] = this.hints_[1];
       return hints;
-    } else {
-      return this.hints_.slice();
     }
+    return this.hints_.slice();
   }
 
   /**
@@ -15545,11 +17360,10 @@ class View extends ol_Object {
         this.resolutions_[baseLevel] /
         Math.pow(zoomFactor, math_clamp(zoom - baseLevel, 0, 1))
       );
-    } else {
-      return (
-        this.maxResolution_ / Math.pow(this.zoomFactor_, zoom - this.minZoom_)
-      );
     }
+    return (
+      this.maxResolution_ / Math.pow(this.zoomFactor_, zoom - this.minZoom_)
+    );
   }
 
   /**
@@ -16320,12 +18134,10 @@ function createRotationConstraint(options) {
       return rotationconstraint_none;
     } else if (typeof constrainRotation === 'number') {
       return createSnapToN(constrainRotation);
-    } else {
-      return rotationconstraint_none;
     }
-  } else {
-    return disable;
+    return rotationconstraint_none;
   }
+  return disable;
 }
 
 /**
@@ -17766,7 +19578,7 @@ class PointerInteraction extends interaction_Interaction {
 
 /**
  * @param {Array<PointerEvent>} pointerEvents List of events.
- * @return {import("../pixel.js").Pixel} Centroid pixel.
+ * @return {{clientX: number, clientY: number}} Centroid pixel.
  */
 function Pointer_centroid(pointerEvents) {
   const length = pointerEvents.length;
@@ -17776,7 +19588,7 @@ function Pointer_centroid(pointerEvents) {
     clientX += pointerEvents[i].clientX;
     clientY += pointerEvents[i].clientY;
   }
-  return [clientX / length, clientY / length];
+  return {clientX: clientX / length, clientY: clientY / length};
 }
 
 /* harmony default export */ var Pointer = (PointerInteraction);
@@ -18192,12 +20004,13 @@ class DragPan extends Pointer {
    * @param {import("../MapBrowserEvent.js").default} mapBrowserEvent Event.
    */
   handleDragEvent(mapBrowserEvent) {
+    const map = mapBrowserEvent.map;
     if (!this.panning_) {
       this.panning_ = true;
-      this.getMap().getView().beginInteraction();
+      map.getView().beginInteraction();
     }
     const targetPointers = this.targetPointers;
-    const centroid = Pointer_centroid(targetPointers);
+    const centroid = map.getEventPixel(Pointer_centroid(targetPointers));
     if (targetPointers.length == this.lastPointersCount_) {
       if (this.kinetic_) {
         this.kinetic_.update(centroid[0], centroid[1]);
@@ -18252,15 +20065,14 @@ class DragPan extends Pointer {
         view.endInteraction();
       }
       return false;
-    } else {
-      if (this.kinetic_) {
-        // reset so we don't overestimate the kinetic energy after
-        // after one finger up, tiny drag, second finger up
-        this.kinetic_.begin();
-      }
-      this.lastCentroid = null;
-      return true;
     }
+    if (this.kinetic_) {
+      // reset so we don't overestimate the kinetic energy after
+      // after one finger up, tiny drag, second finger up
+      this.kinetic_.begin();
+    }
+    this.lastCentroid = null;
+    return true;
   }
 
   /**
@@ -18284,9 +20096,8 @@ class DragPan extends Pointer {
       // detected. This is to prevent nasty pans after pinch.
       this.noKinetic_ = this.targetPointers.length > 1;
       return true;
-    } else {
-      return false;
     }
+    return false;
   }
 }
 
@@ -18407,9 +20218,8 @@ class DragRotate extends Pointer {
       map.getView().beginInteraction();
       this.lastAngle_ = undefined;
       return true;
-    } else {
-      return false;
     }
+    return false;
   }
 }
 
@@ -18812,9 +20622,8 @@ class DragBox extends Pointer {
         )
       );
       return true;
-    } else {
-      return false;
     }
+    return false;
   }
 
   /**
@@ -19012,7 +20821,6 @@ class KeyboardPan extends interaction_Interaction {
    * pressed).
    * @param {import("../MapBrowserEvent.js").default} mapBrowserEvent Map browser event.
    * @return {boolean} `false` to stop event propagation.
-   * @this {KeyboardPan}
    */
   handleEvent(mapBrowserEvent) {
     let stopEvent = false;
@@ -19120,7 +20928,6 @@ class KeyboardZoom extends interaction_Interaction {
    * key pressed was '+' or '-').
    * @param {import("../MapBrowserEvent.js").default} mapBrowserEvent Map browser event.
    * @return {boolean} `false` to stop event propagation.
-   * @this {KeyboardZoom}
    */
   handleEvent(mapBrowserEvent) {
     let stopEvent = false;
@@ -19485,9 +21292,8 @@ class MouseWheelZoom extends interaction_Interaction {
 
     if (delta === 0) {
       return false;
-    } else {
-      this.lastDelta_ = delta;
     }
+    this.lastDelta_ = delta;
 
     const now = Date.now();
 
@@ -19688,11 +21494,9 @@ class PinchRotate extends Pointer {
     // rotate anchor point.
     // FIXME: should be the intersection point between the lines:
     //     touch0,touch1 and previousTouch0,previousTouch1
-    const viewportPosition = map.getViewport().getBoundingClientRect();
-    const centroid = Pointer_centroid(this.targetPointers);
-    centroid[0] -= viewportPosition.left;
-    centroid[1] -= viewportPosition.top;
-    this.anchor_ = map.getCoordinateFromPixelInternal(centroid);
+    this.anchor_ = map.getCoordinateFromPixelInternal(
+      map.getEventPixel(Pointer_centroid(this.targetPointers))
+    );
 
     // rotate
     if (this.rotating_) {
@@ -19712,9 +21516,8 @@ class PinchRotate extends Pointer {
       const view = map.getView();
       view.endInteraction(this.duration_);
       return false;
-    } else {
-      return true;
     }
+    return true;
   }
 
   /**
@@ -19733,9 +21536,8 @@ class PinchRotate extends Pointer {
         map.getView().beginInteraction();
       }
       return true;
-    } else {
-      return false;
     }
+    return false;
   }
 }
 
@@ -19829,11 +21631,9 @@ class PinchZoom extends Pointer {
     }
 
     // scale anchor point.
-    const viewportPosition = map.getViewport().getBoundingClientRect();
-    const centroid = Pointer_centroid(this.targetPointers);
-    centroid[0] -= viewportPosition.left;
-    centroid[1] -= viewportPosition.top;
-    this.anchor_ = map.getCoordinateFromPixelInternal(centroid);
+    this.anchor_ = map.getCoordinateFromPixelInternal(
+      map.getEventPixel(Pointer_centroid(this.targetPointers))
+    );
 
     // scale, bypass the resolution constraint
     map.render();
@@ -19852,9 +21652,8 @@ class PinchZoom extends Pointer {
       const direction = this.lastScaleDelta_ > 1 ? 1 : -1;
       view.endInteraction(this.duration_, direction);
       return false;
-    } else {
-      return true;
     }
+    return true;
   }
 
   /**
@@ -19872,9 +21671,8 @@ class PinchZoom extends Pointer {
         map.getView().beginInteraction();
       }
       return true;
-    } else {
-      return false;
     }
+    return false;
   }
 }
 
@@ -20094,21 +21892,22 @@ function size_scale(size, ratio, dest) {
 function toSize(size, dest) {
   if (Array.isArray(size)) {
     return size;
-  } else {
-    if (dest === undefined) {
-      dest = [size, size];
-    } else {
-      dest[0] = size;
-      dest[1] = size;
-    }
-    return dest;
   }
+  if (dest === undefined) {
+    dest = [size, size];
+  } else {
+    dest[0] = size;
+    dest[1] = size;
+  }
+  return dest;
 }
 
 ;// CONCATENATED MODULE: ./node_modules/ol/Map.js
 /**
  * @module ol/Map
  */
+
+
 
 
 
@@ -20244,6 +22043,7 @@ function toSize(size, dest) {
  * element itself or the `id` of the element. If not specified at construction
  * time, {@link module:ol/Map~Map#setTarget} must be called for the map to be
  * rendered. If passed by element, the container can be in a secondary document.
+ * **Note:** CSS `transform` support for the target element is limited to `scale`.
  * @property {View|Promise<import("./View.js").ViewOptions>} [view] The map's view.  No layer sources will be
  * fetched unless this is specified at construction time or through
  * {@link module:ol/Map~Map#setView}.
@@ -20284,10 +22084,10 @@ function setLayerMapProperty(layer, map) {
  * The map is the core component of OpenLayers. For a map to render, a view,
  * one or more layers, and a target container are needed:
  *
- *     import Map from 'ol/Map';
- *     import View from 'ol/View';
- *     import TileLayer from 'ol/layer/Tile';
- *     import OSM from 'ol/source/OSM';
+ *     import Map from 'ol/Map.js';
+ *     import View from 'ol/View.js';
+ *     import TileLayer from 'ol/layer/Tile.js';
+ *     import OSM from 'ol/source/OSM.js';
  *
  *     const map = new Map({
  *       view: new View({
@@ -20517,6 +22317,17 @@ class Map_Map extends ol_Object {
     this.targetChangeHandlerKeys_ = null;
 
     /**
+     * @private
+     * @type {HTMLElement|null}
+     */
+    this.targetElement_ = null;
+
+    /**
+     * @type {ResizeObserver}
+     */
+    this.resizeObserver_ = new ResizeObserver(() => this.updateSize());
+
+    /**
      * @type {Collection<import("./control/Control.js").default>}
      * @protected
      */
@@ -20590,9 +22401,9 @@ class Map_Map extends ol_Object {
       /**
        * @param {import("./Collection.js").CollectionEvent<import("./control/Control.js").default>} event CollectionEvent
        */
-      function (event) {
+      (event) => {
         event.element.setMap(this);
-      }.bind(this)
+      }
     );
 
     this.controls.addEventListener(
@@ -20600,9 +22411,9 @@ class Map_Map extends ol_Object {
       /**
        * @param {import("./Collection.js").CollectionEvent<import("./control/Control.js").default>} event CollectionEvent.
        */
-      function (event) {
+      (event) => {
         event.element.setMap(null);
-      }.bind(this)
+      }
     );
 
     this.interactions.addEventListener(
@@ -20610,9 +22421,9 @@ class Map_Map extends ol_Object {
       /**
        * @param {import("./Collection.js").CollectionEvent<import("./interaction/Interaction.js").default>} event CollectionEvent.
        */
-      function (event) {
+      (event) => {
         event.element.setMap(this);
-      }.bind(this)
+      }
     );
 
     this.interactions.addEventListener(
@@ -20620,9 +22431,9 @@ class Map_Map extends ol_Object {
       /**
        * @param {import("./Collection.js").CollectionEvent<import("./interaction/Interaction.js").default>} event CollectionEvent.
        */
-      function (event) {
+      (event) => {
         event.element.setMap(null);
-      }.bind(this)
+      }
     );
 
     this.overlays_.addEventListener(
@@ -20630,9 +22441,9 @@ class Map_Map extends ol_Object {
       /**
        * @param {import("./Collection.js").CollectionEvent<import("./Overlay.js").default>} event CollectionEvent.
        */
-      function (event) {
+      (event) => {
         this.addOverlayInternal_(event.element);
-      }.bind(this)
+      }
     );
 
     this.overlays_.addEventListener(
@@ -20640,33 +22451,31 @@ class Map_Map extends ol_Object {
       /**
        * @param {import("./Collection.js").CollectionEvent<import("./Overlay.js").default>} event CollectionEvent.
        */
-      function (event) {
+      (event) => {
         const id = event.element.getId();
         if (id !== undefined) {
           delete this.overlayIdIndex_[id.toString()];
         }
         event.element.setMap(null);
-      }.bind(this)
+      }
     );
 
     this.controls.forEach(
       /**
        * @param {import("./control/Control.js").default} control Control.
-       * @this {Map}
        */
-      function (control) {
+      (control) => {
         control.setMap(this);
-      }.bind(this)
+      }
     );
 
     this.interactions.forEach(
       /**
        * @param {import("./interaction/Interaction.js").default} interaction Interaction.
-       * @this {Map}
        */
-      function (interaction) {
+      (interaction) => {
         interaction.setMap(this);
-      }.bind(this)
+      }
     );
 
     this.overlays_.forEach(this.addOverlayInternal_.bind(this));
@@ -20744,6 +22553,7 @@ class Map_Map extends ol_Object {
     this.controls.clear();
     this.interactions.clear();
     this.overlays_.clear();
+    this.resizeObserver_.disconnect();
     this.setTarget(null);
     super.disposeInternal();
   }
@@ -20879,12 +22689,16 @@ class Map_Map extends ol_Object {
 
   /**
    * Returns the map pixel position for a browser event relative to the viewport.
-   * @param {UIEvent} event Event.
+   * @param {UIEvent|{clientX: number, clientY: number}} event Event.
    * @return {import("./pixel.js").Pixel} Pixel.
    * @api
    */
   getEventPixel(event) {
-    const viewportPosition = this.viewport_.getBoundingClientRect();
+    const viewport = this.viewport_;
+    const viewportPosition = viewport.getBoundingClientRect();
+    const viewportSize = this.getSize();
+    const scaleX = viewportPosition.width / viewportSize[0];
+    const scaleY = viewportPosition.height / viewportSize[1];
     const eventPosition =
       //FIXME Are we really calling this with a TouchEvent anywhere?
       'changedTouches' in event
@@ -20892,8 +22706,8 @@ class Map_Map extends ol_Object {
         : /** @type {MouseEvent} */ (event);
 
     return [
-      eventPosition.clientX - viewportPosition.left,
-      eventPosition.clientY - viewportPosition.top,
+      (eventPosition.clientX - viewportPosition.left) / scaleX,
+      (eventPosition.clientY - viewportPosition.top) / scaleY,
     ];
   }
 
@@ -20920,14 +22734,7 @@ class Map_Map extends ol_Object {
    * @api
    */
   getTargetElement() {
-    const target = this.getTarget();
-    if (target !== undefined) {
-      return typeof target === 'string'
-        ? document.getElementById(target)
-        : target;
-    } else {
-      return null;
-    }
+    return this.targetElement_;
   }
 
   /**
@@ -20954,12 +22761,8 @@ class Map_Map extends ol_Object {
     const frameState = this.frameState_;
     if (!frameState) {
       return null;
-    } else {
-      return apply(
-        frameState.pixelToCoordinateTransform,
-        pixel.slice()
-      );
     }
+    return apply(frameState.pixelToCoordinateTransform, pixel.slice());
   }
 
   /**
@@ -21091,12 +22894,11 @@ class Map_Map extends ol_Object {
     const frameState = this.frameState_;
     if (!frameState) {
       return null;
-    } else {
-      return apply(
-        frameState.coordinateToPixelTransform,
-        coordinate.slice(0, 2)
-      );
     }
+    return apply(
+      frameState.coordinateToPixelTransform,
+      coordinate.slice(0, 2)
+    );
   }
 
   /**
@@ -21347,12 +23149,23 @@ class Map_Map extends ol_Object {
       removeNode(this.viewport_);
     }
 
+    if (this.targetElement_) {
+      this.resizeObserver_.unobserve(this.targetElement_);
+      const rootNode = this.targetElement_.getRootNode();
+      if (rootNode instanceof ShadowRoot) {
+        this.resizeObserver_.unobserve(rootNode.host);
+      }
+    }
+
     // target may be undefined, null, a string or an Element.
     // If it's a string we convert it to an Element before proceeding.
     // If it's not now an Element we remove the viewport from the DOM.
     // If it's an Element we append the viewport element to it.
 
-    const targetElement = this.getTargetElement();
+    const target = this.getTarget();
+    const targetElement =
+      typeof target === 'string' ? document.getElementById(target) : target;
+    this.targetElement_ = targetElement;
     if (!targetElement) {
       if (this.renderer_) {
         clearTimeout(this.postRenderTimeoutHandle_);
@@ -21392,7 +23205,6 @@ class Map_Map extends ol_Object {
         PASSIVE_EVENT_LISTENERS ? {passive: false} : false
       );
 
-      const defaultView = this.getOwnerDocument().defaultView;
       const keyboardEventTarget = !this.keyboardEventTarget_
         ? targetElement
         : this.keyboardEventTarget_;
@@ -21409,8 +23221,12 @@ class Map_Map extends ol_Object {
           this.handleBrowserEvent,
           this
         ),
-        listen(defaultView, EventType.RESIZE, this.updateSize, this),
       ];
+      const rootNode = targetElement.getRootNode();
+      if (rootNode instanceof ShadowRoot) {
+        this.resizeObserver_.observe(rootNode.host);
+      }
+      this.resizeObserver_.observe(targetElement);
     }
 
     this.updateSize();
@@ -21792,16 +23608,18 @@ class Map_Map extends ol_Object {
             targetElement.getClientRects().length
           )
         ) {
-          // eslint-disable-next-line
-          console.warn(
+          warn(
             "No map visible because the map container's width or height are 0."
           );
         }
       }
     }
 
-    this.setSize(size);
-    this.updateViewportSize_();
+    const oldSize = this.getSize();
+    if (size && (!oldSize || !equals(size, oldSize))) {
+      this.setSize(size);
+      this.updateViewportSize_();
+    }
   }
 
   /**
@@ -22535,11 +24353,62 @@ function crearBotonControl(claseCss, icono, accion) {
   boton.addEventListener('click', accion, false);
   return boton;
 }
-;// CONCATENATED MODULE: ./src/controles/VistaInicial.js
+;// CONCATENATED MODULE: ./src/utiles/index.js
+/**
+ * @module utiles/index
+ */
 
 /**
- * @module controles/VistaInicial
+ * Devuelve una cadena de texto aleatoreo.
+ * @returns {String}
  */
+function idAleatorio() {
+  return Math.random().toString(36).substring(2);
+}
+
+/**
+ *
+ * @param {Array} extension
+ * @returns
+ */
+function extensionEsValida(extension) {
+  const _extension = validarExtension(extension);
+  if (_extension === undefined) return false;
+  return Boolean(Number(_extension[0]) !== 0 && Number(_extension[3]) !== 0);
+}
+
+/**
+ *
+ * @param {*} extension
+ * @returns
+ */
+function validarExtension(extension) {
+  if (extension === undefined && !Array.isArray(extension) && !(typeof '' === typeof extension)) {
+    return;
+  }
+  let _extension;
+  if (Array.isArray(extension)) {
+    if (extension.length < 4) return;
+    _extension = extension.map(cord => Number(cord));
+  }
+  if (typeof '' === typeof extension) {
+    _extension = extension.split(',').map(cord => Number(cord));
+  }
+  return _extension;
+}
+function combinarObjetos(obj1, obj2) {
+  return {
+    ...obj1,
+    ...obj2
+  };
+}
+;// CONCATENATED MODULE: ./src/controles/AjusteVista.js
+
+/**
+ * @module controles/AjusteVista
+ */
+
+
 
 
 
@@ -22548,16 +24417,22 @@ function crearBotonControl(claseCss, icono, accion) {
  * @property {String} claseCss clase del elemnto HTML del control. La clase se concatenará con la
  * clase genérica `sisdai-mapa-control-${claseCss}`.
  */
-const VistaInicial_claseCss = 'vista-inicial';
+const AjusteVista_claseCss = 'ajuste-vista';
 
 /**
- * @typedef {Object} Opciones
- * @property {Number} centro Coordenadas [x, y] del centro inicial de la vista.
- * @property {Array<Number>} extension Coordenadas extremas [x1, y1, x2, y2] de la caja envolvente
- * de la vista.
- * @property {Array<Number>} rellenoAlBordeDeLaExtension Relleno (en píxeles [superior, derecho,
- * inferior, izquierdo]) que se agregará a la extensión de la vista.
- * @property {Number} zoom Nivel de zoom de la vista.
+ * Relleno (en píxeles) que se agregará a la extensión de la vista. Los valores en la matriz son
+ * relleno: [superior, derecho, inferior, izquierdo] y solo es aplicable cuando la extensión es
+ * definida.
+ */
+const rellenoAlBordeDeLaExtension = [10, 10, 10, 10];
+
+/**
+ *
+ */
+let emit;
+
+/**
+ *
  */
 
 /**
@@ -22565,7 +24440,7 @@ const VistaInicial_claseCss = 'vista-inicial';
  * Agrega un control personalizado que permite volver a la vista del mapa que se definió
  * inicialmente.
  */
-class VistaInicial extends control_Control {
+class AjusteVista extends control_Control {
   /**
    * Nombre con el que se podrá extraer el control del mapa.
    * @type {String}
@@ -22576,15 +24451,17 @@ class VistaInicial extends control_Control {
    * @returns {String}
    */
   get nombre() {
-    return VistaInicial.nombre;
+    return AjusteVista.nombre;
   }
-  constructor(opciones) {
+  constructor(_emit) {
+    emit = _emit;
+
     /**
      * Elemento contenedor del control
      * @type {HTMLDivElement}
      * @private
      */
-    const contenedorControl = crearContenedorControl(VistaInicial_claseCss);
+    const contenedorControl = crearContenedorControl(AjusteVista_claseCss);
     super({
       element: contenedorControl,
       target: undefined
@@ -22595,91 +24472,122 @@ class VistaInicial extends control_Control {
      * @type {HTMLButtonElement}
      * @private
      */
-    _defineProperty(this, "funcionesPorTipoDeVista", {
-      centro: () => this.getMap().getView().animate({
-        zoom: this.zoom,
-        center: this.centro
-      }),
-      extension: () => this.getMap().getView().fit(this.extension, {
-        padding: this.rellenoAlBordeDeLaExtension,
-        duration: 1000
-      })
+    this.botonAjustarVista = crearBotonControl(AjusteVista_claseCss, 'mapa-centro', this.ajustar.bind(this));
+    contenedorControl.appendChild(this.botonAjustarVista);
+
+    /**
+     *
+     */
+    alIniciarMapa(this).then(() => this.ajustar());
+  }
+
+  /**
+   *
+   * @returns
+   */
+  get extensionCapasVisibles() {
+    const extensiones = this.getMap().getLayers().getArray().filter(capa => capa.getVisible() && extensionEsValida(capa.get('extension'))).map(capa => capa.get('extension'));
+    return extensiones.length > 0 ? calcularLimites(extensiones) : undefined;
+  }
+
+  /**
+   *
+   */
+  get extension() {
+    const extension = this.getMap().get('vista').extension;
+    return validarExtension(extension) ? extension : undefined;
+  }
+
+  /**
+   *
+   */
+  get olView() {
+    return this.getMap().getView();
+  }
+
+  /**
+   *
+   * @param {*} vista
+   */
+  ajustarPorCentroZoom() {
+    const vista = this.getMap().get('vista');
+    this.olView.animate({
+      zoom: vista.zoom,
+      center: vista.centro
     });
-    this.botonVistaInicial = crearBotonControl(VistaInicial_claseCss, 'mapa-centro', this.reiniciarVista.bind(this));
-    contenedorControl.appendChild(this.botonVistaInicial);
+  }
 
-    /**
-     * @type {number}
-     * @protected
-     */
-    this.centro = opciones.centro;
-
-    /**
-     * @type {Array<number>}
-     * @protected
-     */
-    this.extension = opciones.extension;
-
-    /**
-     * @type {String}
-     * @private
-     */
-    this.tipoDeVista = this.extensionEsValida() ? 'extension' : 'centro';
-
-    /**
-     * @type {Array<number>}
-     * @protected
-     */
-    this.rellenoAlBordeDeLaExtension = opciones.rellenoAlBordeDeLaExtension;
-
-    /**
-     * @type {number}
-     * @protected
-     */
-    this.zoom = opciones.zoom;
-
-    /**
-     * Si la vista es de tipo extension, solicitar la vista inical cuando el mapa esté listo.
-     */
-    if (this.tipoDeVista === 'extension') {
-      new Promise(resolve => {
-        const _this = this;
-        function revisarMapa() {
-          if (_this.getMap()) {
-            resolve();
-          } else setTimeout(revisarMapa, 50);
-        }
-        revisarMapa();
-      }).then(() => {
-        this.reiniciarVista();
-      });
+  /**
+   *
+   * @param {*} extencion
+   */
+  ajustarPorExtension() {
+    if (validarExtension(this.extension)) {
+      fitExtension(this.olView, this.extension);
     }
   }
 
   /**
    *
-   * @returns {Boolean}
    */
-  extensionEsValida() {
-    return Boolean(Number(this.extension[0]) !== 0 && Number(this.extension[3]) !== 0);
+  ajustarPorCapasVisibles() {
+    if (this.extensionCapasVisibles) {
+      fitExtension(this.olView, this.extensionCapasVisibles);
+    }
+  }
+  get tipoAjuste() {
+    const vista = this.getMap().get('vista');
+    if (vista.ajustePorCapas) {
+      return 'ajustarPorCapasVisibles';
+    } else if (vista.tipo === 'extension') {
+      return 'ajustarPorExtension';
+    } else {
+      return 'ajustarPorCentroZoom';
+    }
   }
 
   /**
-   * Reinicia la vista que se difinió inicialmente en el mapa
+   *
    */
-  reiniciarVista() {
-    // const vInicial = this.getMap().get('vistaInicial')
-    this.funcionesPorTipoDeVista[this.tipoDeVista]();
+  ajustar() {
+    this[this.tipoAjuste]();
+    emit(eventos.alAjustarVista);
     this.dispatchEvent('reset');
   }
-
-  /**
-   * Contiene las funciones que reinician la vista dependiendo del tipo de vista
-   * @type {Object} [centro|extension]
-   * @protected
-   */
 }
-_defineProperty(VistaInicial, "nombre", 'VistaInicial');
+
+/**
+ *
+ * @param {*} _this
+ * @returns
+ */
+_defineProperty(AjusteVista, "nombre", 'AjusteVista');
+function alIniciarMapa(_this) {
+  return new Promise(resolve => {
+    // const _this = this
+    function revisarMapa() {
+      if (_this.getMap()) {
+        resolve(_this.getMap());
+      } else setTimeout(revisarMapa, 50);
+    }
+    revisarMapa();
+  });
+}
+
+/**
+ * Calcula los límites de las estenciones que llegen cómo parámetro.
+ * @param {Array} extensiones Arreglo de extenciones en formato [x1, y1, x2, y2].
+ * @returns {Array} Bbox de las extenciones en formato [x1, y1, x2, y2].
+ */
+function calcularLimites(extensiones) {
+  return [Math.min(...extensiones.map(ext => ext[0])), Math.min(...extensiones.map(ext => ext[1])), Math.max(...extensiones.map(ext => ext[2])), Math.max(...extensiones.map(ext => ext[3]))];
+}
+function fitExtension(olView, extension) {
+  olView.fit(extension, {
+    padding: rellenoAlBordeDeLaExtension,
+    duration: 1000
+  });
+}
 ;// CONCATENATED MODULE: ./src/defaults/estatusCarga.js
 /* harmony default export */ var defaults_estatusCarga = ({
   no: 'indefinida',
@@ -22698,7 +24606,7 @@ _defineProperty(VistaInicial, "nombre", 'VistaInicial');
 /**
  * Objeto de objetos de capas de openlayers, los leys de cada objeto debe ser el id de cada capa.
  */
-const capasRegistradas = {};
+let capasRegistradas = {};
 
 /**
  * Variable que indica si hay capas que tienen el cargador visible en proceso de carga/actualiación.
@@ -22721,6 +24629,13 @@ function usarCapasRegistradas() {
         mapa.addLayer(capasRegistradas[idCapa].value);
       }
     }
+  }
+
+  /**
+   * Limpia el objeto de capas registradas.
+   */
+  function limpiarRegistro() {
+    capasRegistradas = {};
   }
 
   /**
@@ -22755,16 +24670,59 @@ function usarCapasRegistradas() {
   (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(() => Object.values(capasRegistradas).filter(capa => capa.value.get('verCargador')).map(capa => capa.value.get('estatusCarga')).join(), estadoCapasCargadorVisible => hayCapasCargadorVisibleProcesando.value = estadoCapasCargadorVisible.includes(defaults_estatusCarga.ini));
 
   /**
+   * Devuelve un booleando dependiendo si la capa de referencia está registrada en las capas.
+   * @param {String} idCapa identificador de la capa.
+   * @returns {Boolean} ture si la capa está registrada.
+   */
+  function capaEstaRegistrada(idCapa) {
+    return Object.hasOwnProperty.call(capasRegistradas, idCapa);
+  }
+
+  /**
    * Esta función en un pequeño composable para acceder a propiedades reactivas y funciones de a
    * una capa en especifico.
    * @param {String} idCapa id de la caopa a la que se vinculará.
    */
   function vincularCapa(idCapa) {
+    if (!capaEstaRegistrada(idCapa)) {
+      // eslint-disable-next-line
+      console.warn(`La capa ${idCapa} no existe`);
+      return {};
+    }
     const capa = () => capasRegistradas[idCapa].value;
-    const nombre = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)(capa().get('nombre'));
-    const estatusCarga = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)(capa().get('estatusCarga'));
-    // const verCargador = ref(capa().get('verCargador'))
+    const conseguir = id => capa().values_[id];
+    const asignar = (id, nvoValor) => capa().set(id, nvoValor);
+    const nombre = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)(conseguir('nombre'));
+    const estatusCarga = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)(conseguir('estatusCarga'));
+    const estilo = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)(conseguir('estilo'));
+    // const verCargador = ref(conseguir('verCargador'))
     const visibilidad = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)(capa().getVisible());
+
+    /**
+     * Cambia el nombre de la capa, la cual es visible en la leyenda nativa.
+     * @param {String} nvoNombre nombre a asignar.
+     */
+    const cambiarNombre = nvoNombre => asignar('nombre', nvoNombre);
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(() => conseguir('nombre'), nvoNombre => nombre.value = nvoNombre);
+
+    /**
+     *
+     * @param {*} nvoEstatus
+     */
+    function cambiarEstatusCarga(nvoEstatus) {
+      estatusCarga.value = nvoEstatus;
+    }
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(estatusCarga, nvoEstatus => capa().set('estatusCarga', nvoEstatus));
+
+    /**
+     *
+     * @param {*} nvoEstilo
+     */
+    function cambiarEstilo(nvoEstilo, accion) {
+      asignar('estilo', JSON.stringify(nvoEstilo));
+      accion(capa());
+    }
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(() => conseguir('estilo'), nvoEstilo => estilo.value = nvoEstilo);
 
     /**
      * Cambiar el estado de visivilidad de una capa de acuerdo con su id. Si no se define el
@@ -22777,34 +24735,45 @@ function usarCapasRegistradas() {
     }
     (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(() => capa().values_.visible, nuevoValor => visibilidad.value = nuevoValor);
     (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(visibilidad, alternarVisibilidad);
-
-    /**
-     * Cambia el nombre de la capa, la cual es visible en la leyenda nativa.
-     * @param {String} estado nombre a asignar.
-     */
-    function cambiarNombre(nuevoNombre) {
-      capa().set('nombre', nuevoNombre);
-    }
-    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(() => capa().values_.nombre, nuevoValor => nombre.value = nuevoValor);
-    function cambiarEstatusCarga(nuevoEstatus) {
-      estatusCarga.value = nuevoEstatus;
-    }
-    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(estatusCarga, nuevoEstatus => capa().set('estatusCarga', nuevoEstatus));
     return {
-      alternarVisibilidad,
+      capa,
       visibilidad,
-      cambiarNombre,
+      alternarVisibilidad,
       nombre,
-      cambiarEstatusCarga
+      cambiarNombre,
+      cambiarEstatusCarga,
+      estilo,
+      cambiarEstilo
     };
   }
   return {
     agregarTodoALMapa,
+    limpiarRegistro,
     registrarNuevaCapa,
     vincularCapa,
+    capaEstaRegistrada,
     hayCapasCargadorVisibleProcesando
   };
 }
+;// CONCATENATED MODULE: ./src/defaults/vistaMapa.js
+/**
+ *
+ */
+
+/* harmony default export */ var defaults_vistaMapa = ({
+  /**
+   *
+   */
+  centro: [0, 0],
+  /**
+   *
+   */
+  extension: undefined,
+  /**
+   *
+   */
+  zoom: 1.5
+});
 ;// CONCATENATED MODULE: ./src/composables/usarMapa.js
 /**
  * @module composables/usarMapa
@@ -22812,6 +24781,9 @@ function usarCapasRegistradas() {
 
 
 // import MapEventType from 'ol/MapEventType'
+
+
+// import ControlVistaInicial from './../controles/VistaInicial'
 
 
 
@@ -22836,11 +24808,12 @@ const props = {
    *
    * > ⚠️ **Importante:** Debe tener en cuenta que si la propiedad `extension` se define, esta
    * propiedad será ignorada.
-   */
-  centro: {
-    type: Array,
-    default: () => [0, 0]
-  },
+   centro: {
+     type: Array,
+     default: () => [0, 0],
+    },
+    */
+
   /**
    * extension
    * - Tipo: `Array`
@@ -22854,18 +24827,37 @@ const props = {
    *
    * > ⚠️ **Importante:** Debe tener en cuenta que si esta propiedad es definida o diferente al
    * valor por defecto, las propiedades `centro` y `zoom` serán ignoradas.
+   extension: {
+     type: Array,
+     default: () => [0, 0, 0, 0],
+    },
+    */
+
+  /**
+   * `ajustarVistaPorCapasVisibles`
+   * - Tipo: `Boolean`
+   * - Valor por defecto: `false`
+   * - Interactivo: ✅
+   *
+   * Define si al presionar el botón que ajusta la vista, se aplicará el zoom a las capas
+   * visibles que tengan una extensión definida.
    */
-  extension: {
-    type: Array,
-    default: () => [0, 0, 0, 0]
+  ajustarVistaPorCapasVisibles: {
+    type: Boolean,
+    default: false
   },
   /**
-   * Ver el icono de Conacyt debajo del mapa
-   * deprecated??
+   * escalaGrafica
+   * - Tipo: `Boolean`
+   * - Valor por defecto: `false`
+   * - Interactivo: ✅
+   *
+   * Define si se agrega la escala gráfica en el mapa.
    */
-  iconoConacytVisible: {
+  escalaGrafica: {
     type: Boolean,
-    default: true
+    default: true,
+    validator: valor => typeof valor === typeof Boolean()
   },
   /**
    * proyeccion
@@ -22890,6 +24882,36 @@ const props = {
     default: ''
   },
   /**
+   * `vista`
+   * - Tipo: `Object`
+   * - Valor por defecto: `{ centro: [0, 0], zoom: 1.5 }`
+   * - Interactivo: ✅
+   *
+   * Objeto que define la vista del mapa. Revisa los detalles de la vista del mapa en la
+   * sigueinte sección.
+   */
+  vista: {
+    type: Object,
+    default: () => defaults_vistaMapa,
+    validator: valor => {
+      if (valor.extension) {
+        return true;
+      }
+      if (Number(valor.zoom) < 1 && Number(valor.zoom) > 22) {
+        // eslint-disable-next-line
+        console.error('El valor del zoom debe ser entre 1 y 22');
+        return false;
+      }
+      if (!Array.isArray(valor.centro)) {
+        return false;
+      } else if (valor.centro.length < 2) {
+        return false;
+      }
+      return true;
+    }
+  }
+
+  /**
    * zoom
    * - Tipo: `Number`
    * - Valor por defecto: `1`
@@ -22899,52 +24921,92 @@ const props = {
    *
    * > ⚠️ **Importante:** Debe tener en cuenta que si la propiedad `extension` se define, esta
    * propiedad será ignorada.
-   */
-  zoom: {
-    type: Number,
-    default: 1
-  },
-  /**
-   * escalaGrafica
-   * - Tipo: `Boolean`
-   * - Valor por defecto: `false`
-   * - Interactivo: ✅
-   *
-   * Define si se agrega la escala gráfica en el mapa.
-   */
-  escalaGrafica: {
-    type: Boolean,
-    default: false,
-    validator: valor => typeof valor === typeof Boolean()
-  }
+   zoom: {
+     type: Number,
+     default: 1,
+    },
+    */
 };
+
+const eventos = {
+  /**
+   *
+   */
+  alAjustarVista: 'alAjustarVista',
+  /**
+   *
+   */
+  alCambiarZoom: 'alCambiarZoom'
+};
+const emits = Object.values(eventos);
 
 /**
  * Uso del mapa, la finalidad de este composable es acceder al mapa desde diferentes componentes
  * o composables
  * @returns {Function} composable
  */
-function usarMapa(propsParam) {
+function usarMapa(propsParam, emitsParam) {
   const {
     agregarTodoALMapa: agregarCapasRegistradas,
+    limpiarRegistro: limpiarCapasRegistradas,
     hayCapasCargadorVisibleProcesando: verCargador
   } = usarCapasRegistradas();
   const {
-    centro,
     escalaGrafica,
-    extension,
-    zoom
+    ajustarVistaPorCapasVisibles,
+    vista
   } = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.toRefs)(propsParam);
+
+  /**
+   *
+   * @param {import("ol/Map.js").default} mapaInstanciado
+   */
+  function asignarProps(mapaInstanciado) {
+    const vistaMapa = {
+      ...defaults_vistaMapa,
+      ...vista.value
+    };
+    vistaMapa.tipo = extensionEsValida(vistaMapa.extension) ? 'extension' : 'centro';
+    vistaMapa.ajustePorCapas = ajustarVistaPorCapasVisibles.value;
+    mapaInstanciado.set('vista', vistaMapa);
+    mapaInstanciado.setView(new ol_View({
+      center: vistaMapa.centro,
+      zoom: vistaMapa.zoom,
+      projection: propsParam.proyeccion
+    }));
+    mapaInstanciado.on('moveend', ({
+      map
+    }) => {
+      const zoomRedondeado = Math.round(map.getView().getZoom() * 100) / 100;
+      if (Number(vista.value.zoom) !== zoomRedondeado) {
+        emitsParam(eventos.alCambiarZoom, zoomRedondeado);
+      }
+    });
+  }
 
   /**
    * Guarda el objeto del mapa en una variable reactiva.
    * @param {import("ol/Map.js").default} mapaInstanciado
    */
   function salvarInstancia(mapaInstanciado) {
+    asignarProps(mapaInstanciado);
     agregarCapasRegistradas(mapaInstanciado);
     olMapa.value = mapaInstanciado;
+    // olMapa.value.set(
+    //   'ajustarVistaPorCapasVisibles',
+    //   ajustarVistaPorCapasVisibles.value
+    // )
+
     // olMapa.value.on(MapEventType.LOADSTART, console.log(MapEventType.LOADSTART))
     // olMapa.value.on(MapEventType.LOADEND, console.log(MapEventType.LOADEND))
+  }
+
+  /**
+   * Invoca la limpieza de las capas registradas y reinicia el valor del mapa instanciado.
+   */
+  function desmontar() {
+    limpiarCapasRegistradas();
+    olMapa.value = undefined;
   }
 
   /**
@@ -22987,7 +25049,7 @@ function usarMapa(propsParam) {
       olMapa.value.getView().setCenter(centro);
     }
   }
-  (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(centro, cambiarCentro);
+  (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(() => vista.value.centro, cambiarCentro);
 
   /**
    * Quita o agrega el control de escala gáfica en el mapa dependiendo del parámetro boleano.
@@ -23003,16 +25065,25 @@ function usarMapa(propsParam) {
   (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(escalaGrafica, alternarEscalaGrafica);
 
   /**
+   *
+   */
+  function ajustarVista() {
+    const controlAjusteVista = conseguirControl(AjusteVista.nombre);
+    controlAjusteVista.ajustar();
+  }
+
+  /**
    * Cambiar la extension, esto proboca que el mapa ajuste la vista con la extención actual
    * en caso de ser valida.
    * @param {Array<Number>} extension
    */
   function cambiarExtension(nuevaExtension) {
-    const controlVistaInicial = conseguirControl(VistaInicial.nombre);
-    controlVistaInicial.extension = nuevaExtension;
-    controlVistaInicial.reiniciarVista();
+    olMapa.value.get('vista').tipo = extensionEsValida(nuevaExtension) ? 'extension' : 'centro';
+    olMapa.value.get('vista').extension = nuevaExtension;
+    ajustarVista();
   }
-  (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(extension, cambiarExtension);
+  // watch(extension, cambiarExtension)
+  (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(() => vista.value.extension, cambiarExtension);
 
   /**
    * Actualiza el nivel de zoom en el mapa.
@@ -23023,11 +25094,13 @@ function usarMapa(propsParam) {
       olMapa.value.getView().setZoom(zoom);
     }
   }
-  (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(zoom, cambiarZoom);
+  (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(() => vista.value.zoom, cambiarZoom);
   return {
     salvarInstancia,
+    desmontar,
     alternarEscalaGrafica,
-    verCargador
+    verCargador,
+    ajustarVista
   };
 }
 ;// CONCATENATED MODULE: ./src/controles/ZoomPersonalizado.js
@@ -23113,7 +25186,7 @@ class ZoomPersonalizado extends control_Control {
   }
 }
 _defineProperty(ZoomPersonalizado, "nombre", 'ZoomPersonalizado');
-;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"23f98b37-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/externos/BotonConacyt.vue?vue&type=template&id=7f6aef72&scoped=true&
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"64cbf409-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/externos/BotonConacyt.vue?vue&type=template&id=7f6aef72&scoped=true&
 var BotonConacytvue_type_template_id_7f6aef72_scoped_true_render = function render() {
   var _vm = this,
     _c = _vm._self._c;
@@ -23140,7 +25213,7 @@ var BotonConacytvue_type_template_id_7f6aef72_scoped_true_staticRenderFns = [fun
 ;// CONCATENATED MODULE: ./src/componentes/externos/BotonConacyt.vue?vue&type=template&id=7f6aef72&scoped=true&
 
 // EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-22.use[0]!./node_modules/@vue/cli-service/node_modules/css-loader/dist/cjs.js??clonedRuleSet-22.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[2]!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[3]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-22.use[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/externos/BotonConacyt.vue?vue&type=style&index=0&id=7f6aef72&prod&lang=scss&scoped=true&
-var BotonConacytvue_type_style_index_0_id_7f6aef72_prod_lang_scss_scoped_true_ = __webpack_require__(890);
+var BotonConacytvue_type_style_index_0_id_7f6aef72_prod_lang_scss_scoped_true_ = __webpack_require__(5890);
 ;// CONCATENATED MODULE: ./src/componentes/externos/BotonConacyt.vue?vue&type=style&index=0&id=7f6aef72&prod&lang=scss&scoped=true&
 
 ;// CONCATENATED MODULE: ./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js
@@ -23261,7 +25334,7 @@ var component = normalizeComponent(
 )
 
 /* harmony default export */ var BotonConacyt = (component.exports);
-;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"23f98b37-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/externos/VistaCarga.vue?vue&type=template&id=6af7c961&scoped=true&
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"64cbf409-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/externos/VistaCarga.vue?vue&type=template&id=6af7c961&scoped=true&
 var VistaCargavue_type_template_id_6af7c961_scoped_true_render = function render() {
   var _vm = this,
     _c = _vm._self._c;
@@ -23347,7 +25420,7 @@ var VistaCargavue_type_template_id_6af7c961_scoped_true_render = function render
 var VistaCargavue_type_template_id_6af7c961_scoped_true_staticRenderFns = [];
 
 // EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-22.use[0]!./node_modules/@vue/cli-service/node_modules/css-loader/dist/cjs.js??clonedRuleSet-22.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[2]!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[3]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-22.use[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/externos/VistaCarga.vue?vue&type=style&index=0&id=6af7c961&prod&lang=scss&scoped=true&
-var VistaCargavue_type_style_index_0_id_6af7c961_prod_lang_scss_scoped_true_ = __webpack_require__(403);
+var VistaCargavue_type_style_index_0_id_6af7c961_prod_lang_scss_scoped_true_ = __webpack_require__(7403);
 ;// CONCATENATED MODULE: ./src/componentes/externos/VistaCarga.vue?vue&type=style&index=0&id=6af7c961&prod&lang=scss&scoped=true&
 
 ;// CONCATENATED MODULE: ./src/componentes/externos/VistaCarga.vue
@@ -23374,6 +25447,7 @@ var VistaCarga_component = normalizeComponent(
 
 
 
+// import View from 'ol/View'
 
 
 
@@ -23381,32 +25455,32 @@ var VistaCarga_component = normalizeComponent(
 
 
 
-
-/**
- * Relleno (en píxeles) que se agregará a la extensión de la vista. Los valores en la matriz son
- * relleno: [superior, derecho, inferior, izquierdo] y solo es aplicable cuando la extensión es
- * definida.
- */
+// eslint-disable-next-line
 
 /* harmony default export */ var SisdaiMapavue_type_script_setup_true_lang_js_ = ({
   __name: 'SisdaiMapa',
   props: props,
-  setup(__props) {
+  emits: emits,
+  setup(__props, {
+    expose,
+    emit: emitsSetup
+  }) {
     const propsSetup = __props;
-    const rellenoAlBordeDeLaExtension = [10, 10, 10, 10];
 
     // eslint-disable-next-line
 
     const {
       salvarInstancia,
+      desmontar,
       alternarEscalaGrafica,
-      verCargador
-    } = usarMapa(propsSetup);
+      verCargador,
+      ajustarVista
+    } = usarMapa(propsSetup, emitsSetup);
 
     /**
      * Referencia al elemento html contenedor del mapa
      */
-    const refMapa = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)(null);
+    const refSisdaiMapa = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)(null);
 
     /**
      * Creación del elemento mapa con atributos definidos.
@@ -23417,33 +25491,34 @@ var VistaCarga_component = normalizeComponent(
       return new ol_Map({
         target,
         layers: [],
-        view: new ol_View({
-          center: propsSetup.centro,
-          zoom: propsSetup.zoom,
-          projection: propsSetup.proyeccion
-        }),
-        controls: [new ZoomPersonalizado(), new VistaInicial({
-          centro: propsSetup.centro,
-          extension: propsSetup.extension,
-          rellenoAlBordeDeLaExtension,
-          zoom: propsSetup.zoom
-        }), new control_Attribution({
+        controls: [new ZoomPersonalizado(), new AjusteVista(emitsSetup), new control_Attribution({
           collapsible: false
         })]
       });
     }
     (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.onMounted)(() => {
-      salvarInstancia(crearMapa(refMapa.value));
+      salvarInstancia(crearMapa(refSisdaiMapa.value));
       alternarEscalaGrafica(propsSetup.escalaGrafica);
+    });
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.onUnmounted)(() => {
+      desmontar();
+    });
+
+    // eslint-disable-next-line
+    expose({
+      ajustarVista,
+      ajustarVistaPorCapasVisibles: undefined
     });
     return {
       __sfc: true,
-      rellenoAlBordeDeLaExtension,
       propsSetup,
+      emitsSetup,
       salvarInstancia,
+      desmontar,
       alternarEscalaGrafica,
       verCargador,
-      refMapa,
+      ajustarVista,
+      refSisdaiMapa,
       crearMapa,
       BotonConacyt: BotonConacyt,
       VistaCarga: VistaCarga
@@ -23452,9 +25527,9 @@ var VistaCarga_component = normalizeComponent(
 });
 ;// CONCATENATED MODULE: ./src/componentes/SisdaiMapa.vue?vue&type=script&setup=true&lang=js&
  /* harmony default export */ var componentes_SisdaiMapavue_type_script_setup_true_lang_js_ = (SisdaiMapavue_type_script_setup_true_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-22.use[0]!./node_modules/@vue/cli-service/node_modules/css-loader/dist/cjs.js??clonedRuleSet-22.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[2]!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[3]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-22.use[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/SisdaiMapa.vue?vue&type=style&index=0&id=51ced022&prod&lang=scss&scoped=true&
-var SisdaiMapavue_type_style_index_0_id_51ced022_prod_lang_scss_scoped_true_ = __webpack_require__(611);
-;// CONCATENATED MODULE: ./src/componentes/SisdaiMapa.vue?vue&type=style&index=0&id=51ced022&prod&lang=scss&scoped=true&
+// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-22.use[0]!./node_modules/@vue/cli-service/node_modules/css-loader/dist/cjs.js??clonedRuleSet-22.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[2]!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[3]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-22.use[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/SisdaiMapa.vue?vue&type=style&index=0&id=3598bf92&prod&lang=scss&scoped=true&
+var SisdaiMapavue_type_style_index_0_id_3598bf92_prod_lang_scss_scoped_true_ = __webpack_require__(975);
+;// CONCATENATED MODULE: ./src/componentes/SisdaiMapa.vue?vue&type=style&index=0&id=3598bf92&prod&lang=scss&scoped=true&
 
 ;// CONCATENATED MODULE: ./src/componentes/SisdaiMapa.vue
 
@@ -23471,23 +25546,23 @@ var SisdaiMapa_component = normalizeComponent(
   staticRenderFns,
   false,
   null,
-  "51ced022",
+  "3598bf92",
   null
   
 )
 
 /* harmony default export */ var SisdaiMapa = (SisdaiMapa_component.exports);
-;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"23f98b37-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/capas/SisdaiCapaGeojson.vue?vue&type=template&id=5741834d&style=display%3A%20none&
-var SisdaiCapaGeojsonvue_type_template_id_5741834d_style_display_3A_20none_render = function render() {
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"64cbf409-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/capas/SisdaiCapaGeojson.vue?vue&type=template&id=ca548b74&style=display%3A%20none&
+var SisdaiCapaGeojsonvue_type_template_id_ca548b74_style_display_3A_20none_render = function render() {
   var _vm = this,
     _c = _vm._self._c,
     _setup = _vm._self._setupProxy;
   return _c('span');
 };
-var SisdaiCapaGeojsonvue_type_template_id_5741834d_style_display_3A_20none_staticRenderFns = [];
+var SisdaiCapaGeojsonvue_type_template_id_ca548b74_style_display_3A_20none_staticRenderFns = [];
 
 // EXTERNAL MODULE: ./node_modules/rbush/rbush.min.js
-var rbush_min = __webpack_require__(582);
+var rbush_min = __webpack_require__(2582);
 ;// CONCATENATED MODULE: ./node_modules/ol/ImageState.js
 /**
  * @module ol/ImageState
@@ -23765,6 +25840,7 @@ class ImageStyle {
   setRotation(rotation) {
     this.rotation_ = rotation;
   }
+
   /**
    * Set the scale.
    *
@@ -23829,9 +25905,8 @@ class ImageStyle {
 function asColorLike(color) {
   if (Array.isArray(color)) {
     return color_toString(color);
-  } else {
-    return color;
   }
+  return color;
 }
 
 ;// CONCATENATED MODULE: ./node_modules/ol/style/RegularShape.js
@@ -24900,7 +26975,7 @@ class Stroke_Stroke {
  *
  * If no style is defined, the following default style is used:
  * ```js
- *  import {Circle, Fill, Stroke, Style} from 'ol/style';
+ *  import {Circle, Fill, Stroke, Style} from 'ol/style.js';
  *
  *  const fill = new Fill({
  *    color: 'rgba(255,255,255,0.4)',
@@ -24924,7 +26999,7 @@ class Stroke_Stroke {
  *
  * A separate editing style has the following defaults:
  * ```js
- *  import {Circle, Fill, Stroke, Style} from 'ol/style';
+ *  import {Circle, Fill, Stroke, Style} from 'ol/style.js';
  *
  *  const styles = {};
  *  const white = [255, 255, 255, 1];
@@ -25814,7 +27889,9 @@ class IconImage extends events_Target {
   isTainted_() {
     if (this.tainted_ === undefined && this.imageState_ === ImageState.LOADED) {
       if (!taintedTestContext) {
-        taintedTestContext = createCanvasContext2D(1, 1);
+        taintedTestContext = createCanvasContext2D(1, 1, undefined, {
+          willReadFrequently: true,
+        });
       }
       taintedTestContext.drawImage(this.image_, 0, 0);
       try {
@@ -26058,6 +28135,8 @@ function IconImage_get(image, src, size, crossOrigin, imageState, color) {
  * @property {Array<number>} [displacement=[0, 0]] Displacement of the icon in pixels.
  * Positive values will shift the icon right and up.
  * @property {number} [opacity=1] Opacity of the icon.
+ * @property {number} [width] The width of the icon in pixels. This can't be used together with `scale`.
+ * @property {number} [height] The height of the icon in pixels. This can't be used together with `scale`.
  * @property {number|import("../size.js").Size} [scale=1] Scale.
  * @property {boolean} [rotateWithView=false] Whether to rotate the icon with the view.
  * @property {number} [rotation=0] Rotation in radians (positive rotation clockwise).
@@ -26178,6 +28257,15 @@ class Icon extends style_Image {
     }
     asserts_assert(src !== undefined && src.length > 0, 6); // A defined and non-empty `src` or `image` must be provided
 
+    // `width` or `height` cannot be provided together with `scale`
+    asserts_assert(
+      !(
+        (options.width !== undefined || options.height !== undefined) &&
+        options.scale !== undefined
+      ),
+      69
+    );
+
     /**
      * @type {import("../ImageState.js").default}
      */
@@ -26226,6 +28314,31 @@ class Icon extends style_Image {
      * @type {import("../size.js").Size}
      */
     this.size_ = options.size !== undefined ? options.size : null;
+
+    /**
+     * @type {number|undefined}
+     */
+    this.width_ = options.width;
+
+    /**
+     * @type {number|undefined}
+     */
+    this.height_ = options.height;
+
+    /**
+     * Recalculate the scale if width or height where given.
+     */
+    if (this.width_ !== undefined || this.height_ !== undefined) {
+      const image = this.getImage(1);
+      const setScale = () => {
+        this.updateScaleFromWidthAndHeight(this.width_, this.height_);
+      };
+      if (image.width > 0) {
+        this.updateScaleFromWidthAndHeight(this.width_, this.height_);
+      } else {
+        image.addEventListener('load', setScale);
+      }
+    }
   }
 
   /**
@@ -26256,7 +28369,30 @@ class Icon extends style_Image {
       src: this.getSrc(),
       displacement: this.getDisplacement().slice(),
       declutterMode: this.getDeclutterMode(),
+      width: this.width_,
+      height: this.height_,
     });
+  }
+
+  /**
+   * Set the scale of the Icon by calculating it from given width and height and the
+   * width and height of the image.
+   *
+   * @private
+   * @param {number} width The width.
+   * @param {number} height The height.
+   */
+  updateScaleFromWidthAndHeight(width, height) {
+    const image = this.getImage(1);
+    if (width !== undefined && height !== undefined) {
+      super.setScale([width / image.width, height / image.height]);
+    } else if (width !== undefined) {
+      super.setScale([width / image.width, width / image.width]);
+    } else if (height !== undefined) {
+      super.setScale([height / image.height, height / image.height]);
+    } else {
+      super.setScale([1, 1]);
+    }
   }
 
   /**
@@ -26431,6 +28567,66 @@ class Icon extends style_Image {
    */
   getSize() {
     return !this.size_ ? this.iconImage_.getSize() : this.size_;
+  }
+
+  /**
+   * Get the width of the icon (in pixels).
+   * @return {number} Icon width (in pixels).
+   * @api
+   */
+  getWidth() {
+    return this.width_;
+  }
+
+  /**
+   * Get the height of the icon (in pixels).
+   * @return {number} Icon height (in pixels).
+   * @api
+   */
+  getHeight() {
+    return this.height_;
+  }
+
+  /**
+   * Set the width of the icon in pixels.
+   *
+   * @param {number} width The width to set.
+   */
+  setWidth(width) {
+    this.width_ = width;
+    this.updateScaleFromWidthAndHeight(width, this.height_);
+  }
+
+  /**
+   * Set the height of the icon in pixels.
+   *
+   * @param {number} height The height to set.
+   */
+  setHeight(height) {
+    this.height_ = height;
+    this.updateScaleFromWidthAndHeight(this.width_, height);
+  }
+
+  /**
+   * Set the scale and updates the width and height correspondingly.
+   *
+   * @param {number|import("../size.js").Size} scale Scale.
+   * @override
+   * @api
+   */
+  setScale(scale) {
+    super.setScale(scale);
+    const image = this.getImage(1);
+    if (image) {
+      const widthScale = Array.isArray(scale) ? scale[0] : scale;
+      if (widthScale !== undefined) {
+        this.width_ = widthScale * image.width;
+      }
+      const heightScale = Array.isArray(scale) ? scale[1] : scale;
+      if (heightScale !== undefined) {
+        this.height_ = heightScale * image.height;
+      }
+    }
   }
 
   /**
@@ -27558,7 +29754,7 @@ class BaseVectorLayer extends layer_Layer {
    * image.
    *
    * @param {import("../pixel.js").Pixel} pixel Pixel.
-   * @return {Promise<Array<import("../Feature").default>>} Promise that resolves with an array of features.
+   * @return {Promise<Array<import("../Feature").FeatureLike>>} Promise that resolves with an array of features.
    * @api
    */
   getFeatures(pixel) {
@@ -30007,7 +32203,7 @@ class LayerRenderer extends ol_Observable {
   /**
    * Asynchronous layer level hit detection.
    * @param {import("../pixel.js").Pixel} pixel Pixel.
-   * @return {Promise<Array<import("../Feature").default>>} Promise that resolves with
+   * @return {Promise<Array<import("../Feature").FeatureLike>>} Promise that resolves with
    * an array of features.
    */
   getFeatures(pixel) {
@@ -30072,12 +32268,11 @@ class LayerRenderer extends ol_Observable {
        * @param {number} zoom Zoom level.
        * @param {import("../TileRange.js").default} tileRange Tile range.
        * @return {boolean} The tile range is fully loaded.
-       * @this {LayerRenderer}
        */
-      function (zoom, tileRange) {
+      (zoom, tileRange) => {
         const callback = this.loadedTileCallback.bind(this, tiles, zoom);
         return source.forEachLoadedTile(projection, zoom, tileRange, callback);
-      }.bind(this)
+      }
     );
   }
   /**
@@ -30189,10 +32384,9 @@ const canvasPool = [];
 let pixelContext = null;
 
 function createPixelContext() {
-  const canvas = document.createElement('canvas');
-  canvas.width = 1;
-  canvas.height = 1;
-  pixelContext = canvas.getContext('2d');
+  pixelContext = createCanvasContext2D(1, 1, undefined, {
+    willReadFrequently: true,
+  });
 }
 
 /**
@@ -32108,7 +34302,9 @@ class ExecutorGroup {
     if (newContext) {
       this.hitDetectionContext_ = createCanvasContext2D(
         contextSize,
-        contextSize
+        contextSize,
+        undefined,
+        {willReadFrequently: true}
       );
     }
     const context = this.hitDetectionContext_;
@@ -32177,7 +34373,7 @@ class ExecutorGroup {
 
     /** @type {Array<number>} */
     const zs = Object.keys(this.executorsByZIndex_).map(Number);
-    zs.sort(numberSafeCompareFunction);
+    zs.sort(ascending);
 
     let i, j, executors, executor, result;
     for (i = zs.length - 1; i >= 0; --i) {
@@ -32249,7 +34445,7 @@ class ExecutorGroup {
   ) {
     /** @type {Array<number>} */
     const zs = Object.keys(this.executorsByZIndex_).map(Number);
-    zs.sort(numberSafeCompareFunction);
+    zs.sort(ascending);
 
     // setup clipping so that the parts of over-simplified geometries are not
     // visible outside the current extent when panning
@@ -32365,6 +34561,7 @@ function getPixelIndexArray(radius) {
 
 
 
+
 /**
  * @classdesc
  * A concrete subclass of {@link module:ol/render/VectorContext~VectorContext} that implements
@@ -32418,6 +34615,14 @@ class CanvasImmediateRenderer extends render_VectorContext {
      * @type {import("../../transform.js").Transform}
      */
     this.transform_ = transform;
+
+    /**
+     * @private
+     * @type {number}
+     */
+    this.transformRotation_ = transform
+      ? math_toFixed(Math.atan2(transform[1], transform[0]), 10)
+      : 0;
 
     /**
      * @private
@@ -32626,6 +34831,9 @@ class CanvasImmediateRenderer extends render_VectorContext {
       context.globalAlpha = alpha * this.imageOpacity_;
     }
     let rotation = this.imageRotation_;
+    if (this.transformRotation_ === 0) {
+      rotation -= this.viewRotation_;
+    }
     if (this.imageRotateWithView_) {
       rotation += this.viewRotation_;
     }
@@ -32711,6 +34919,9 @@ class CanvasImmediateRenderer extends render_VectorContext {
     );
     const context = this.context_;
     let rotation = this.textRotation_;
+    if (this.transformRotation_ === 0) {
+      rotation -= this.viewRotation_;
+    }
     if (this.textRotateWithView_) {
       rotation += this.viewRotation_;
     }
@@ -33557,7 +35768,7 @@ function createHitDetectionImageData(
       styles = [styles];
     }
     const index = i * indexFactor;
-    const color = '#' + ('000000' + index.toString(16)).slice(-6);
+    const color = index.toString(16).padStart(7, '#00000');
     for (let j = 0, jj = styles.length; j < jj; ++j) {
       const originalStyle = styles[j];
       const geometry = originalStyle.getGeometryFunction()(feature);
@@ -33617,16 +35828,26 @@ function createHitDetectionImageData(
         byGeometryType['LineString'] = [];
         byGeometryType['Point'] = [];
       }
-      byGeometryType[geometry.getType().replace('Multi', '')].push(
-        geometry,
-        style
-      );
+      const type = geometry.getType();
+      if (type === 'GeometryCollection') {
+        const geometries =
+          /** @type {import("../../geom/GeometryCollection.js").default} */ (
+            geometry
+          ).getGeometriesArrayRecursive();
+        for (let i = 0, ii = geometries.length; i < ii; ++i) {
+          const geometry = geometries[i];
+          byGeometryType[geometry.getType().replace('Multi', '')].push(
+            geometry,
+            style
+          );
+        }
+      } else {
+        byGeometryType[type.replace('Multi', '')].push(geometry, style);
+      }
     }
   }
 
-  const zIndexKeys = Object.keys(featuresByZIndex)
-    .map(Number)
-    .sort(numberSafeCompareFunction);
+  const zIndexKeys = Object.keys(featuresByZIndex).map(Number).sort(ascending);
   for (let i = 0, ii = zIndexKeys.length; i < ii; ++i) {
     const byGeometryType = featuresByZIndex[zIndexKeys[i]];
     for (const type in byGeometryType) {
@@ -33646,11 +35867,12 @@ function createHitDetectionImageData(
 /**
  * @param {import("../../pixel").Pixel} pixel Pixel coordinate on the hit
  * detection canvas in css pixels.
- * @param {Array<import("../../Feature").FeatureLike>} features Features. Has to
+ * @param {Array<F>} features Features. Has to
  * match the `features` array that was passed to `createHitDetectionImageData()`.
  * @param {ImageData} imageData Hit detection image data generated by
  * `createHitDetectionImageData()`.
- * @return {Array<import("../../Feature").FeatureLike>} features Features.
+ * @return {Array<F>} Features.
+ * @template {import("../../Feature.js").FeatureLike} F
  */
 function hitDetect(pixel, features, imageData) {
   const resultFeatures = [];
@@ -33673,6 +35895,7 @@ function hitDetect(pixel, features, imageData) {
       resultFeatures.push(features[i / indexFactor - 1]);
     }
   }
+  // @ts-ignore Features are copied from `features` to `resultFeatures` so the type should be the same
   return resultFeatures;
 }
 
@@ -34201,7 +36424,7 @@ class CanvasVectorLayerRenderer extends canvas_Layer {
     this.animatingOrInteracting_;
 
     /**
-     * @type {ImageData}
+     * @type {ImageData|null}
      */
     this.hitDetectionImageData_ = null;
 
@@ -34472,100 +36695,95 @@ class CanvasVectorLayerRenderer extends canvas_Layer {
   /**
    * Asynchronous layer level hit detection.
    * @param {import("../../pixel.js").Pixel} pixel Pixel.
-   * @return {Promise<Array<import("../../Feature").default>>} Promise that resolves with an array of features.
+   * @return {Promise<Array<import("../../Feature").default>>} Promise
+   * that resolves with an array of features.
    */
   getFeatures(pixel) {
-    return new Promise(
-      /**
-       * @param {function(Array<import("../../Feature").default|import("../../render/Feature").default>): void} resolve Resolver function.
-       * @this {CanvasVectorLayerRenderer}
-       */
-      function (resolve) {
-        if (!this.hitDetectionImageData_ && !this.animatingOrInteracting_) {
-          const size = [this.context.canvas.width, this.context.canvas.height];
-          apply(this.pixelTransform, size);
-          const center = this.renderedCenter_;
-          const resolution = this.renderedResolution_;
-          const rotation = this.renderedRotation_;
-          const projection = this.renderedProjection_;
-          const extent = this.wrappedRenderedExtent_;
-          const layer = this.getLayer();
-          const transforms = [];
-          const width = size[0] * HIT_DETECT_RESOLUTION;
-          const height = size[1] * HIT_DETECT_RESOLUTION;
-          transforms.push(
-            this.getRenderTransform(
-              center,
-              resolution,
-              rotation,
-              HIT_DETECT_RESOLUTION,
-              width,
-              height,
-              0
-            ).slice()
-          );
-          const source = layer.getSource();
-          const projectionExtent = projection.getExtent();
-          if (
-            source.getWrapX() &&
-            projection.canWrapX() &&
-            !containsExtent(projectionExtent, extent)
-          ) {
-            let startX = extent[0];
-            const worldWidth = extent_getWidth(projectionExtent);
-            let world = 0;
-            let offsetX;
-            while (startX < projectionExtent[0]) {
-              --world;
-              offsetX = worldWidth * world;
-              transforms.push(
-                this.getRenderTransform(
-                  center,
-                  resolution,
-                  rotation,
-                  HIT_DETECT_RESOLUTION,
-                  width,
-                  height,
-                  offsetX
-                ).slice()
-              );
-              startX += worldWidth;
-            }
-            world = 0;
-            startX = extent[2];
-            while (startX > projectionExtent[2]) {
-              ++world;
-              offsetX = worldWidth * world;
-              transforms.push(
-                this.getRenderTransform(
-                  center,
-                  resolution,
-                  rotation,
-                  HIT_DETECT_RESOLUTION,
-                  width,
-                  height,
-                  offsetX
-                ).slice()
-              );
-              startX -= worldWidth;
-            }
-          }
-
-          this.hitDetectionImageData_ = createHitDetectionImageData(
-            size,
-            transforms,
-            this.renderedFeatures_,
-            layer.getStyleFunction(),
-            extent,
+    return new Promise((resolve) => {
+      if (!this.hitDetectionImageData_ && !this.animatingOrInteracting_) {
+        const size = [this.context.canvas.width, this.context.canvas.height];
+        apply(this.pixelTransform, size);
+        const center = this.renderedCenter_;
+        const resolution = this.renderedResolution_;
+        const rotation = this.renderedRotation_;
+        const projection = this.renderedProjection_;
+        const extent = this.wrappedRenderedExtent_;
+        const layer = this.getLayer();
+        const transforms = [];
+        const width = size[0] * HIT_DETECT_RESOLUTION;
+        const height = size[1] * HIT_DETECT_RESOLUTION;
+        transforms.push(
+          this.getRenderTransform(
+            center,
             resolution,
-            rotation
-          );
-        }
-        resolve(
-          hitDetect(pixel, this.renderedFeatures_, this.hitDetectionImageData_)
+            rotation,
+            HIT_DETECT_RESOLUTION,
+            width,
+            height,
+            0
+          ).slice()
         );
-      }.bind(this)
-    );
+        const source = layer.getSource();
+        const projectionExtent = projection.getExtent();
+        if (
+          source.getWrapX() &&
+          projection.canWrapX() &&
+          !containsExtent(projectionExtent, extent)
+        ) {
+          let startX = extent[0];
+          const worldWidth = extent_getWidth(projectionExtent);
+          let world = 0;
+          let offsetX;
+          while (startX < projectionExtent[0]) {
+            --world;
+            offsetX = worldWidth * world;
+            transforms.push(
+              this.getRenderTransform(
+                center,
+                resolution,
+                rotation,
+                HIT_DETECT_RESOLUTION,
+                width,
+                height,
+                offsetX
+              ).slice()
+            );
+            startX += worldWidth;
+          }
+          world = 0;
+          startX = extent[2];
+          while (startX > projectionExtent[2]) {
+            ++world;
+            offsetX = worldWidth * world;
+            transforms.push(
+              this.getRenderTransform(
+                center,
+                resolution,
+                rotation,
+                HIT_DETECT_RESOLUTION,
+                width,
+                height,
+                offsetX
+              ).slice()
+            );
+            startX -= worldWidth;
+          }
+        }
+
+        this.hitDetectionImageData_ = createHitDetectionImageData(
+          size,
+          transforms,
+          this.renderedFeatures_,
+          layer.getStyleFunction(),
+          extent,
+          resolution,
+          rotation
+        );
+      }
+      resolve(
+        hitDetect(pixel, this.renderedFeatures_, this.hitDetectionImageData_)
+      );
+    });
   }
 
   /**
@@ -34817,9 +37035,8 @@ class CanvasVectorLayerRenderer extends canvas_Layer {
     const render =
       /**
        * @param {import("../../Feature.js").default} feature Feature.
-       * @this {CanvasVectorLayerRenderer}
        */
-      function (feature) {
+      (feature) => {
         let styles;
         const styleFunction =
           feature.getStyleFunction() || vectorLayer.getStyleFunction();
@@ -34837,7 +37054,7 @@ class CanvasVectorLayerRenderer extends canvas_Layer {
           );
           ready = ready && !dirty;
         }
-      }.bind(this);
+      };
 
     const userExtent = proj_toUserExtent(extent, projection);
     /** @type {Array<import("../../Feature.js").default>} */
@@ -35203,7 +37420,6 @@ class RBush {
 
 
 
-
 /**
  * @typedef {'undefined' | 'loading' | 'ready' | 'error'} State
  * State of the source, one of 'undefined', 'loading', 'ready' or 'error'.
@@ -35351,11 +37567,11 @@ class Source extends ol_Object {
   }
 
   /**
-   * @abstract
+   * @param {import("../proj/Projection").default} [projection] Projection.
    * @return {Array<number>|null} Resolutions.
    */
-  getResolutions() {
-    return util_abstract();
+  getResolutions(projection) {
+    return null;
   }
 
   /**
@@ -35728,7 +37944,6 @@ function xhr(url, format) {
    *      Function called when loading succeeded.
    * @param {function(): void} [failure] Failure
    *      Function called when loading failed.
-   * @this {import("./source/Vector").default}
    */
   return function (extent, resolution, projection, success, failure) {
     const source = /** @type {import("./source/Vector").default} */ (this);
@@ -35854,9 +38069,9 @@ class VectorSourceEvent extends Event {
  * Example:
  *
  * ```js
- * import {Vector} from 'ol/source';
- * import {GeoJSON} from 'ol/format';
- * import {bbox} from 'ol/loadingstrategy';
+ * import Vector from 'ol/source/Vector.js';
+ * import GeoJSON from 'ol/format/GeoJSON.js';
+ * import {bbox} from 'ol/loadingstrategy.js';
  *
  * const vectorSource = new Vector({
  *   format: new GeoJSON(),
@@ -36268,26 +38483,26 @@ class VectorSource extends source_Source {
       /**
        * @param {import("../Collection.js").CollectionEvent<import("../Feature.js").default<Geometry>>} evt The collection event
        */
-      function (evt) {
+      (evt) => {
         if (!modifyingCollection) {
           modifyingCollection = true;
           this.addFeature(evt.element);
           modifyingCollection = false;
         }
-      }.bind(this)
+      }
     );
     collection.addEventListener(
       CollectionEventType.REMOVE,
       /**
        * @param {import("../Collection.js").CollectionEvent<import("../Feature.js").default<Geometry>>} evt The collection event
        */
-      function (evt) {
+      (evt) => {
         if (!modifyingCollection) {
           modifyingCollection = true;
           this.removeFeature(evt.element);
           modifyingCollection = false;
         }
-      }.bind(this)
+      }
     );
     this.featuresCollection_ = collection;
   }
@@ -36310,9 +38525,9 @@ class VectorSource extends source_Source {
       }
     } else {
       if (this.featuresRtree_) {
-        const removeAndIgnoreReturn = function (feature) {
+        const removeAndIgnoreReturn = (feature) => {
           this.removeFeatureInternal(feature);
-        }.bind(this);
+        };
         this.featuresRtree_.forEach(removeAndIgnoreReturn);
         for (const id in this.nullGeometryFeatures_) {
           this.removeFeatureInternal(this.nullGeometryFeatures_[id]);
@@ -36371,9 +38586,8 @@ class VectorSource extends source_Source {
       const geometry = feature.getGeometry();
       if (geometry.intersectsCoordinate(coordinate)) {
         return callback(feature);
-      } else {
-        return undefined;
       }
+      return undefined;
     });
   }
 
@@ -36513,9 +38727,8 @@ class VectorSource extends source_Source {
       );
     } else if (this.featuresCollection_) {
       return this.featuresCollection_.getArray().slice(0);
-    } else {
-      return [];
     }
+    return [];
   }
 
   /**
@@ -36701,9 +38914,8 @@ class VectorSource extends source_Source {
     const id = feature.getId();
     if (id !== undefined) {
       return id in this.idIndex_;
-    } else {
-      return getUid(feature) in this.uidIndex_;
     }
+    return getUid(feature) in this.uidIndex_;
   }
 
   /**
@@ -36751,7 +38963,7 @@ class VectorSource extends source_Source {
           extentToLoad,
           resolution,
           projection,
-          function (features) {
+          (features) => {
             --this.loadingExtentsCount_;
             this.dispatchEvent(
               new VectorSourceEvent(
@@ -36760,13 +38972,13 @@ class VectorSource extends source_Source {
                 features
               )
             );
-          }.bind(this),
-          function () {
+          },
+          () => {
             --this.loadingExtentsCount_;
             this.dispatchEvent(
               new VectorSourceEvent(VectorEventType.FEATURESLOADERROR)
             );
-          }.bind(this)
+          }
         );
         loadedExtentsRtree.insert(extentToLoad, {extent: extentToLoad.slice()});
       }
@@ -36946,9 +39158,9 @@ class VectorSource extends source_Source {
  *
  * ```js
  *
- * import Feature from 'ol/Feature';
- * import Polygon from 'ol/geom/Polygon';
- * import Point from 'ol/geom/Point';
+ * import Feature from 'ol/Feature.js';
+ * import Polygon from 'ol/geom/Polygon.js';
+ * import Point from 'ol/geom/Point.js';
  *
  * const feature = new Feature({
  *   geometry: new Polygon(polyCoords),
@@ -37212,22 +39424,21 @@ class Feature extends ol_Object {
 function createStyleFunction(obj) {
   if (typeof obj === 'function') {
     return obj;
-  } else {
-    /**
-     * @type {Array<import("./style/Style.js").default>}
-     */
-    let styles;
-    if (Array.isArray(obj)) {
-      styles = obj;
-    } else {
-      asserts_assert(typeof (/** @type {?} */ (obj).getZIndex) === 'function', 41); // Expected an `import("./style/Style.js").Style` or an array of `import("./style/Style.js").Style`
-      const style = /** @type {import("./style/Style.js").default} */ (obj);
-      styles = [style];
-    }
-    return function () {
-      return styles;
-    };
   }
+  /**
+   * @type {Array<import("./style/Style.js").default>}
+   */
+  let styles;
+  if (Array.isArray(obj)) {
+    styles = obj;
+  } else {
+    asserts_assert(typeof (/** @type {?} */ (obj).getZIndex) === 'function', 41); // Expected an `import("./style/Style.js").Style` or an array of `import("./style/Style.js").Style`
+    const style = /** @type {import("./style/Style.js").default} */ (obj);
+    styles = [style];
+  }
+  return function () {
+    return styles;
+  };
 }
 /* harmony default export */ var ol_Feature = (Feature);
 
@@ -37424,10 +39635,9 @@ class GeometryCollection extends geom_Geometry {
       const simplifiedGeometryCollection = new GeometryCollection(null);
       simplifiedGeometryCollection.setGeometriesArray(simplifiedGeometries);
       return simplifiedGeometryCollection;
-    } else {
-      this.simplifiedGeometryMaxMinSquaredTolerance = squaredTolerance;
-      return this;
     }
+    this.simplifiedGeometryMaxMinSquaredTolerance = squaredTolerance;
+    return this;
   }
 
   /**
@@ -37865,9 +40075,8 @@ function transformExtentWithOptions(extent, options) {
     !equivalentProjection(featureProjection, dataProjection)
   ) {
     return transformExtent(extent, dataProjection, featureProjection);
-  } else {
-    return extent;
   }
+  return extent;
 }
 
 ;// CONCATENATED MODULE: ./node_modules/ol/format/JSONFeature.js
@@ -38075,9 +40284,8 @@ function getObject(source) {
     return object ? /** @type {Object} */ (object) : null;
   } else if (source !== null) {
     return source;
-  } else {
-    return null;
   }
+  return null;
 }
 
 /* harmony default export */ var format_JSONFeature = (JSONFeature);
@@ -38178,17 +40386,15 @@ function lineStringCoordinateAtM(
       coordinate = flatCoordinates.slice(offset, offset + stride);
       coordinate[stride - 1] = m;
       return coordinate;
-    } else {
-      return null;
     }
+    return null;
   } else if (flatCoordinates[end - 1] < m) {
     if (extrapolate) {
       coordinate = flatCoordinates.slice(end - stride, end);
       coordinate[stride - 1] = m;
       return coordinate;
-    } else {
-      return null;
     }
+    return null;
   }
   // FIXME use O(1) search
   if (m == flatCoordinates[offset + stride - 1]) {
@@ -38259,18 +40465,16 @@ function lineStringsCoordinateAtM(
       coordinate = flatCoordinates.slice(0, stride);
       coordinate[stride - 1] = m;
       return coordinate;
-    } else {
-      return null;
     }
+    return null;
   }
   if (flatCoordinates[flatCoordinates.length - 1] < m) {
     if (extrapolate) {
       coordinate = flatCoordinates.slice(flatCoordinates.length - stride);
       coordinate[stride - 1] = m;
       return coordinate;
-    } else {
-      return null;
     }
+    return null;
   }
   for (let i = 0, ii = ends.length; i < ii; ++i) {
     const end = ends[i];
@@ -40224,22 +42428,9847 @@ function writePolygonGeometry(geometry, options) {
 
 /* harmony default export */ var format_GeoJSON = (GeoJSON);
 
+// EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.push.js
+var es_array_push = __webpack_require__(7658);
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selector.js
+function selector_none() {}
+
+/* harmony default export */ function selector(selector) {
+  return selector == null ? selector_none : function() {
+    return this.querySelector(selector);
+  };
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/select.js
+
+
+
+/* harmony default export */ function selection_select(select) {
+  if (typeof select !== "function") select = selector(select);
+
+  for (var groups = this._groups, m = groups.length, subgroups = new Array(m), j = 0; j < m; ++j) {
+    for (var group = groups[j], n = group.length, subgroup = subgroups[j] = new Array(n), node, subnode, i = 0; i < n; ++i) {
+      if ((node = group[i]) && (subnode = select.call(node, node.__data__, i, group))) {
+        if ("__data__" in node) subnode.__data__ = node.__data__;
+        subgroup[i] = subnode;
+      }
+    }
+  }
+
+  return new Selection(subgroups, this._parents);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/array.js
+// Given something array like (or null), returns something that is strictly an
+// array. This is used to ensure that array-like objects passed to d3.selectAll
+// or selection.selectAll are converted into proper arrays when creating a
+// selection; we don’t ever want to create a selection backed by a live
+// HTMLCollection or NodeList. However, note that selection.selectAll will use a
+// static NodeList as a group, since it safely derived from querySelectorAll.
+function array(x) {
+  return x == null ? [] : Array.isArray(x) ? x : Array.from(x);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selectorAll.js
+function empty() {
+  return [];
+}
+
+/* harmony default export */ function selectorAll(selector) {
+  return selector == null ? empty : function() {
+    return this.querySelectorAll(selector);
+  };
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/selectAll.js
+
+
+
+
+function arrayAll(select) {
+  return function() {
+    return array(select.apply(this, arguments));
+  };
+}
+
+/* harmony default export */ function selectAll(select) {
+  if (typeof select === "function") select = arrayAll(select);
+  else select = selectorAll(select);
+
+  for (var groups = this._groups, m = groups.length, subgroups = [], parents = [], j = 0; j < m; ++j) {
+    for (var group = groups[j], n = group.length, node, i = 0; i < n; ++i) {
+      if (node = group[i]) {
+        subgroups.push(select.call(node, node.__data__, i, group));
+        parents.push(node);
+      }
+    }
+  }
+
+  return new Selection(subgroups, parents);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/matcher.js
+/* harmony default export */ function matcher(selector) {
+  return function() {
+    return this.matches(selector);
+  };
+}
+
+function childMatcher(selector) {
+  return function(node) {
+    return node.matches(selector);
+  };
+}
+
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/selectChild.js
+
+
+var find = Array.prototype.find;
+
+function childFind(match) {
+  return function() {
+    return find.call(this.children, match);
+  };
+}
+
+function childFirst() {
+  return this.firstElementChild;
+}
+
+/* harmony default export */ function selectChild(match) {
+  return this.select(match == null ? childFirst
+      : childFind(typeof match === "function" ? match : childMatcher(match)));
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/selectChildren.js
+
+
+var filter = Array.prototype.filter;
+
+function children() {
+  return Array.from(this.children);
+}
+
+function childrenFilter(match) {
+  return function() {
+    return filter.call(this.children, match);
+  };
+}
+
+/* harmony default export */ function selectChildren(match) {
+  return this.selectAll(match == null ? children
+      : childrenFilter(typeof match === "function" ? match : childMatcher(match)));
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/filter.js
+
+
+
+/* harmony default export */ function selection_filter(match) {
+  if (typeof match !== "function") match = matcher(match);
+
+  for (var groups = this._groups, m = groups.length, subgroups = new Array(m), j = 0; j < m; ++j) {
+    for (var group = groups[j], n = group.length, subgroup = subgroups[j] = [], node, i = 0; i < n; ++i) {
+      if ((node = group[i]) && match.call(node, node.__data__, i, group)) {
+        subgroup.push(node);
+      }
+    }
+  }
+
+  return new Selection(subgroups, this._parents);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/sparse.js
+/* harmony default export */ function sparse(update) {
+  return new Array(update.length);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/enter.js
+
+
+
+/* harmony default export */ function enter() {
+  return new Selection(this._enter || this._groups.map(sparse), this._parents);
+}
+
+function EnterNode(parent, datum) {
+  this.ownerDocument = parent.ownerDocument;
+  this.namespaceURI = parent.namespaceURI;
+  this._next = null;
+  this._parent = parent;
+  this.__data__ = datum;
+}
+
+EnterNode.prototype = {
+  constructor: EnterNode,
+  appendChild: function(child) { return this._parent.insertBefore(child, this._next); },
+  insertBefore: function(child, next) { return this._parent.insertBefore(child, next); },
+  querySelector: function(selector) { return this._parent.querySelector(selector); },
+  querySelectorAll: function(selector) { return this._parent.querySelectorAll(selector); }
+};
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/constant.js
+/* harmony default export */ function src_constant(x) {
+  return function() {
+    return x;
+  };
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/data.js
+
+
+
+
+function bindIndex(parent, group, enter, update, exit, data) {
+  var i = 0,
+      node,
+      groupLength = group.length,
+      dataLength = data.length;
+
+  // Put any non-null nodes that fit into update.
+  // Put any null nodes into enter.
+  // Put any remaining data into enter.
+  for (; i < dataLength; ++i) {
+    if (node = group[i]) {
+      node.__data__ = data[i];
+      update[i] = node;
+    } else {
+      enter[i] = new EnterNode(parent, data[i]);
+    }
+  }
+
+  // Put any non-null nodes that don’t fit into exit.
+  for (; i < groupLength; ++i) {
+    if (node = group[i]) {
+      exit[i] = node;
+    }
+  }
+}
+
+function bindKey(parent, group, enter, update, exit, data, key) {
+  var i,
+      node,
+      nodeByKeyValue = new Map,
+      groupLength = group.length,
+      dataLength = data.length,
+      keyValues = new Array(groupLength),
+      keyValue;
+
+  // Compute the key for each node.
+  // If multiple nodes have the same key, the duplicates are added to exit.
+  for (i = 0; i < groupLength; ++i) {
+    if (node = group[i]) {
+      keyValues[i] = keyValue = key.call(node, node.__data__, i, group) + "";
+      if (nodeByKeyValue.has(keyValue)) {
+        exit[i] = node;
+      } else {
+        nodeByKeyValue.set(keyValue, node);
+      }
+    }
+  }
+
+  // Compute the key for each datum.
+  // If there a node associated with this key, join and add it to update.
+  // If there is not (or the key is a duplicate), add it to enter.
+  for (i = 0; i < dataLength; ++i) {
+    keyValue = key.call(parent, data[i], i, data) + "";
+    if (node = nodeByKeyValue.get(keyValue)) {
+      update[i] = node;
+      node.__data__ = data[i];
+      nodeByKeyValue.delete(keyValue);
+    } else {
+      enter[i] = new EnterNode(parent, data[i]);
+    }
+  }
+
+  // Add any remaining nodes that were not bound to data to exit.
+  for (i = 0; i < groupLength; ++i) {
+    if ((node = group[i]) && (nodeByKeyValue.get(keyValues[i]) === node)) {
+      exit[i] = node;
+    }
+  }
+}
+
+function datum(node) {
+  return node.__data__;
+}
+
+/* harmony default export */ function data(value, key) {
+  if (!arguments.length) return Array.from(this, datum);
+
+  var bind = key ? bindKey : bindIndex,
+      parents = this._parents,
+      groups = this._groups;
+
+  if (typeof value !== "function") value = src_constant(value);
+
+  for (var m = groups.length, update = new Array(m), enter = new Array(m), exit = new Array(m), j = 0; j < m; ++j) {
+    var parent = parents[j],
+        group = groups[j],
+        groupLength = group.length,
+        data = arraylike(value.call(parent, parent && parent.__data__, j, parents)),
+        dataLength = data.length,
+        enterGroup = enter[j] = new Array(dataLength),
+        updateGroup = update[j] = new Array(dataLength),
+        exitGroup = exit[j] = new Array(groupLength);
+
+    bind(parent, group, enterGroup, updateGroup, exitGroup, data, key);
+
+    // Now connect the enter nodes to their following update node, such that
+    // appendChild can insert the materialized enter node before this node,
+    // rather than at the end of the parent node.
+    for (var i0 = 0, i1 = 0, previous, next; i0 < dataLength; ++i0) {
+      if (previous = enterGroup[i0]) {
+        if (i0 >= i1) i1 = i0 + 1;
+        while (!(next = updateGroup[i1]) && ++i1 < dataLength);
+        previous._next = next || null;
+      }
+    }
+  }
+
+  update = new Selection(update, parents);
+  update._enter = enter;
+  update._exit = exit;
+  return update;
+}
+
+// Given some data, this returns an array-like view of it: an object that
+// exposes a length property and allows numeric indexing. Note that unlike
+// selectAll, this isn’t worried about “live” collections because the resulting
+// array will only be used briefly while data is being bound. (It is possible to
+// cause the data to change while iterating by using a key function, but please
+// don’t; we’d rather avoid a gratuitous copy.)
+function arraylike(data) {
+  return typeof data === "object" && "length" in data
+    ? data // Array, TypedArray, NodeList, array-like
+    : Array.from(data); // Map, Set, iterable, string, or anything else
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/exit.js
+
+
+
+/* harmony default export */ function exit() {
+  return new Selection(this._exit || this._groups.map(sparse), this._parents);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/join.js
+/* harmony default export */ function join(onenter, onupdate, onexit) {
+  var enter = this.enter(), update = this, exit = this.exit();
+  if (typeof onenter === "function") {
+    enter = onenter(enter);
+    if (enter) enter = enter.selection();
+  } else {
+    enter = enter.append(onenter + "");
+  }
+  if (onupdate != null) {
+    update = onupdate(update);
+    if (update) update = update.selection();
+  }
+  if (onexit == null) exit.remove(); else onexit(exit);
+  return enter && update ? enter.merge(update).order() : update;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/merge.js
+
+
+/* harmony default export */ function merge(context) {
+  var selection = context.selection ? context.selection() : context;
+
+  for (var groups0 = this._groups, groups1 = selection._groups, m0 = groups0.length, m1 = groups1.length, m = Math.min(m0, m1), merges = new Array(m0), j = 0; j < m; ++j) {
+    for (var group0 = groups0[j], group1 = groups1[j], n = group0.length, merge = merges[j] = new Array(n), node, i = 0; i < n; ++i) {
+      if (node = group0[i] || group1[i]) {
+        merge[i] = node;
+      }
+    }
+  }
+
+  for (; j < m0; ++j) {
+    merges[j] = groups0[j];
+  }
+
+  return new Selection(merges, this._parents);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/order.js
+/* harmony default export */ function order() {
+
+  for (var groups = this._groups, j = -1, m = groups.length; ++j < m;) {
+    for (var group = groups[j], i = group.length - 1, next = group[i], node; --i >= 0;) {
+      if (node = group[i]) {
+        if (next && node.compareDocumentPosition(next) ^ 4) next.parentNode.insertBefore(node, next);
+        next = node;
+      }
+    }
+  }
+
+  return this;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/sort.js
+
+
+/* harmony default export */ function sort(compare) {
+  if (!compare) compare = sort_ascending;
+
+  function compareNode(a, b) {
+    return a && b ? compare(a.__data__, b.__data__) : !a - !b;
+  }
+
+  for (var groups = this._groups, m = groups.length, sortgroups = new Array(m), j = 0; j < m; ++j) {
+    for (var group = groups[j], n = group.length, sortgroup = sortgroups[j] = new Array(n), node, i = 0; i < n; ++i) {
+      if (node = group[i]) {
+        sortgroup[i] = node;
+      }
+    }
+    sortgroup.sort(compareNode);
+  }
+
+  return new Selection(sortgroups, this._parents).order();
+}
+
+function sort_ascending(a, b) {
+  return a < b ? -1 : a > b ? 1 : a >= b ? 0 : NaN;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/call.js
+/* harmony default export */ function call() {
+  var callback = arguments[0];
+  arguments[0] = this;
+  callback.apply(null, arguments);
+  return this;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/nodes.js
+/* harmony default export */ function nodes() {
+  return Array.from(this);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/node.js
+/* harmony default export */ function node() {
+
+  for (var groups = this._groups, j = 0, m = groups.length; j < m; ++j) {
+    for (var group = groups[j], i = 0, n = group.length; i < n; ++i) {
+      var node = group[i];
+      if (node) return node;
+    }
+  }
+
+  return null;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/size.js
+/* harmony default export */ function size() {
+  let size = 0;
+  for (const node of this) ++size; // eslint-disable-line no-unused-vars
+  return size;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/empty.js
+/* harmony default export */ function selection_empty() {
+  return !this.node();
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/each.js
+/* harmony default export */ function each(callback) {
+
+  for (var groups = this._groups, j = 0, m = groups.length; j < m; ++j) {
+    for (var group = groups[j], i = 0, n = group.length, node; i < n; ++i) {
+      if (node = group[i]) callback.call(node, node.__data__, i, group);
+    }
+  }
+
+  return this;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/namespaces.js
+var xhtml = "http://www.w3.org/1999/xhtml";
+
+/* harmony default export */ var namespaces = ({
+  svg: "http://www.w3.org/2000/svg",
+  xhtml: xhtml,
+  xlink: "http://www.w3.org/1999/xlink",
+  xml: "http://www.w3.org/XML/1998/namespace",
+  xmlns: "http://www.w3.org/2000/xmlns/"
+});
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/namespace.js
+
+
+/* harmony default export */ function namespace(name) {
+  var prefix = name += "", i = prefix.indexOf(":");
+  if (i >= 0 && (prefix = name.slice(0, i)) !== "xmlns") name = name.slice(i + 1);
+  return namespaces.hasOwnProperty(prefix) ? {space: namespaces[prefix], local: name} : name; // eslint-disable-line no-prototype-builtins
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/attr.js
+
+
+function attrRemove(name) {
+  return function() {
+    this.removeAttribute(name);
+  };
+}
+
+function attrRemoveNS(fullname) {
+  return function() {
+    this.removeAttributeNS(fullname.space, fullname.local);
+  };
+}
+
+function attrConstant(name, value) {
+  return function() {
+    this.setAttribute(name, value);
+  };
+}
+
+function attrConstantNS(fullname, value) {
+  return function() {
+    this.setAttributeNS(fullname.space, fullname.local, value);
+  };
+}
+
+function attrFunction(name, value) {
+  return function() {
+    var v = value.apply(this, arguments);
+    if (v == null) this.removeAttribute(name);
+    else this.setAttribute(name, v);
+  };
+}
+
+function attrFunctionNS(fullname, value) {
+  return function() {
+    var v = value.apply(this, arguments);
+    if (v == null) this.removeAttributeNS(fullname.space, fullname.local);
+    else this.setAttributeNS(fullname.space, fullname.local, v);
+  };
+}
+
+/* harmony default export */ function attr(name, value) {
+  var fullname = namespace(name);
+
+  if (arguments.length < 2) {
+    var node = this.node();
+    return fullname.local
+        ? node.getAttributeNS(fullname.space, fullname.local)
+        : node.getAttribute(fullname);
+  }
+
+  return this.each((value == null
+      ? (fullname.local ? attrRemoveNS : attrRemove) : (typeof value === "function"
+      ? (fullname.local ? attrFunctionNS : attrFunction)
+      : (fullname.local ? attrConstantNS : attrConstant)))(fullname, value));
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/window.js
+/* harmony default export */ function src_window(node) {
+  return (node.ownerDocument && node.ownerDocument.defaultView) // node is a Node
+      || (node.document && node) // node is a Window
+      || node.defaultView; // node is a Document
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/style.js
+
+
+function styleRemove(name) {
+  return function() {
+    this.style.removeProperty(name);
+  };
+}
+
+function styleConstant(name, value, priority) {
+  return function() {
+    this.style.setProperty(name, value, priority);
+  };
+}
+
+function styleFunction(name, value, priority) {
+  return function() {
+    var v = value.apply(this, arguments);
+    if (v == null) this.style.removeProperty(name);
+    else this.style.setProperty(name, v, priority);
+  };
+}
+
+/* harmony default export */ function style(name, value, priority) {
+  return arguments.length > 1
+      ? this.each((value == null
+            ? styleRemove : typeof value === "function"
+            ? styleFunction
+            : styleConstant)(name, value, priority == null ? "" : priority))
+      : styleValue(this.node(), name);
+}
+
+function styleValue(node, name) {
+  return node.style.getPropertyValue(name)
+      || src_window(node).getComputedStyle(node, null).getPropertyValue(name);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/property.js
+function propertyRemove(name) {
+  return function() {
+    delete this[name];
+  };
+}
+
+function propertyConstant(name, value) {
+  return function() {
+    this[name] = value;
+  };
+}
+
+function propertyFunction(name, value) {
+  return function() {
+    var v = value.apply(this, arguments);
+    if (v == null) delete this[name];
+    else this[name] = v;
+  };
+}
+
+/* harmony default export */ function property(name, value) {
+  return arguments.length > 1
+      ? this.each((value == null
+          ? propertyRemove : typeof value === "function"
+          ? propertyFunction
+          : propertyConstant)(name, value))
+      : this.node()[name];
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/classed.js
+function classArray(string) {
+  return string.trim().split(/^|\s+/);
+}
+
+function classList(node) {
+  return node.classList || new ClassList(node);
+}
+
+function ClassList(node) {
+  this._node = node;
+  this._names = classArray(node.getAttribute("class") || "");
+}
+
+ClassList.prototype = {
+  add: function(name) {
+    var i = this._names.indexOf(name);
+    if (i < 0) {
+      this._names.push(name);
+      this._node.setAttribute("class", this._names.join(" "));
+    }
+  },
+  remove: function(name) {
+    var i = this._names.indexOf(name);
+    if (i >= 0) {
+      this._names.splice(i, 1);
+      this._node.setAttribute("class", this._names.join(" "));
+    }
+  },
+  contains: function(name) {
+    return this._names.indexOf(name) >= 0;
+  }
+};
+
+function classedAdd(node, names) {
+  var list = classList(node), i = -1, n = names.length;
+  while (++i < n) list.add(names[i]);
+}
+
+function classedRemove(node, names) {
+  var list = classList(node), i = -1, n = names.length;
+  while (++i < n) list.remove(names[i]);
+}
+
+function classedTrue(names) {
+  return function() {
+    classedAdd(this, names);
+  };
+}
+
+function classedFalse(names) {
+  return function() {
+    classedRemove(this, names);
+  };
+}
+
+function classedFunction(names, value) {
+  return function() {
+    (value.apply(this, arguments) ? classedAdd : classedRemove)(this, names);
+  };
+}
+
+/* harmony default export */ function classed(name, value) {
+  var names = classArray(name + "");
+
+  if (arguments.length < 2) {
+    var list = classList(this.node()), i = -1, n = names.length;
+    while (++i < n) if (!list.contains(names[i])) return false;
+    return true;
+  }
+
+  return this.each((typeof value === "function"
+      ? classedFunction : value
+      ? classedTrue
+      : classedFalse)(names, value));
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/text.js
+function textRemove() {
+  this.textContent = "";
+}
+
+function textConstant(value) {
+  return function() {
+    this.textContent = value;
+  };
+}
+
+function textFunction(value) {
+  return function() {
+    var v = value.apply(this, arguments);
+    this.textContent = v == null ? "" : v;
+  };
+}
+
+/* harmony default export */ function selection_text(value) {
+  return arguments.length
+      ? this.each(value == null
+          ? textRemove : (typeof value === "function"
+          ? textFunction
+          : textConstant)(value))
+      : this.node().textContent;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/html.js
+function htmlRemove() {
+  this.innerHTML = "";
+}
+
+function htmlConstant(value) {
+  return function() {
+    this.innerHTML = value;
+  };
+}
+
+function htmlFunction(value) {
+  return function() {
+    var v = value.apply(this, arguments);
+    this.innerHTML = v == null ? "" : v;
+  };
+}
+
+/* harmony default export */ function html(value) {
+  return arguments.length
+      ? this.each(value == null
+          ? htmlRemove : (typeof value === "function"
+          ? htmlFunction
+          : htmlConstant)(value))
+      : this.node().innerHTML;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/raise.js
+function raise() {
+  if (this.nextSibling) this.parentNode.appendChild(this);
+}
+
+/* harmony default export */ function selection_raise() {
+  return this.each(raise);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/lower.js
+function lower() {
+  if (this.previousSibling) this.parentNode.insertBefore(this, this.parentNode.firstChild);
+}
+
+/* harmony default export */ function selection_lower() {
+  return this.each(lower);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/creator.js
+
+
+
+function creatorInherit(name) {
+  return function() {
+    var document = this.ownerDocument,
+        uri = this.namespaceURI;
+    return uri === xhtml && document.documentElement.namespaceURI === xhtml
+        ? document.createElement(name)
+        : document.createElementNS(uri, name);
+  };
+}
+
+function creatorFixed(fullname) {
+  return function() {
+    return this.ownerDocument.createElementNS(fullname.space, fullname.local);
+  };
+}
+
+/* harmony default export */ function creator(name) {
+  var fullname = namespace(name);
+  return (fullname.local
+      ? creatorFixed
+      : creatorInherit)(fullname);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/append.js
+
+
+/* harmony default export */ function append(name) {
+  var create = typeof name === "function" ? name : creator(name);
+  return this.select(function() {
+    return this.appendChild(create.apply(this, arguments));
+  });
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/insert.js
+
+
+
+function constantNull() {
+  return null;
+}
+
+/* harmony default export */ function insert(name, before) {
+  var create = typeof name === "function" ? name : creator(name),
+      select = before == null ? constantNull : typeof before === "function" ? before : selector(before);
+  return this.select(function() {
+    return this.insertBefore(create.apply(this, arguments), select.apply(this, arguments) || null);
+  });
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/remove.js
+function remove_remove() {
+  var parent = this.parentNode;
+  if (parent) parent.removeChild(this);
+}
+
+/* harmony default export */ function selection_remove() {
+  return this.each(remove_remove);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/clone.js
+function selection_cloneShallow() {
+  var clone = this.cloneNode(false), parent = this.parentNode;
+  return parent ? parent.insertBefore(clone, this.nextSibling) : clone;
+}
+
+function selection_cloneDeep() {
+  var clone = this.cloneNode(true), parent = this.parentNode;
+  return parent ? parent.insertBefore(clone, this.nextSibling) : clone;
+}
+
+/* harmony default export */ function selection_clone(deep) {
+  return this.select(deep ? selection_cloneDeep : selection_cloneShallow);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/datum.js
+/* harmony default export */ function selection_datum(value) {
+  return arguments.length
+      ? this.property("__data__", value)
+      : this.node().__data__;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/on.js
+function contextListener(listener) {
+  return function(event) {
+    listener.call(this, event, this.__data__);
+  };
+}
+
+function parseTypenames(typenames) {
+  return typenames.trim().split(/^|\s+/).map(function(t) {
+    var name = "", i = t.indexOf(".");
+    if (i >= 0) name = t.slice(i + 1), t = t.slice(0, i);
+    return {type: t, name: name};
+  });
+}
+
+function onRemove(typename) {
+  return function() {
+    var on = this.__on;
+    if (!on) return;
+    for (var j = 0, i = -1, m = on.length, o; j < m; ++j) {
+      if (o = on[j], (!typename.type || o.type === typename.type) && o.name === typename.name) {
+        this.removeEventListener(o.type, o.listener, o.options);
+      } else {
+        on[++i] = o;
+      }
+    }
+    if (++i) on.length = i;
+    else delete this.__on;
+  };
+}
+
+function onAdd(typename, value, options) {
+  return function() {
+    var on = this.__on, o, listener = contextListener(value);
+    if (on) for (var j = 0, m = on.length; j < m; ++j) {
+      if ((o = on[j]).type === typename.type && o.name === typename.name) {
+        this.removeEventListener(o.type, o.listener, o.options);
+        this.addEventListener(o.type, o.listener = listener, o.options = options);
+        o.value = value;
+        return;
+      }
+    }
+    this.addEventListener(typename.type, listener, options);
+    o = {type: typename.type, name: typename.name, value: value, listener: listener, options: options};
+    if (!on) this.__on = [o];
+    else on.push(o);
+  };
+}
+
+/* harmony default export */ function on(typename, value, options) {
+  var typenames = parseTypenames(typename + ""), i, n = typenames.length, t;
+
+  if (arguments.length < 2) {
+    var on = this.node().__on;
+    if (on) for (var j = 0, m = on.length, o; j < m; ++j) {
+      for (i = 0, o = on[j]; i < n; ++i) {
+        if ((t = typenames[i]).type === o.type && t.name === o.name) {
+          return o.value;
+        }
+      }
+    }
+    return;
+  }
+
+  on = value ? onAdd : onRemove;
+  for (i = 0; i < n; ++i) this.each(on(typenames[i], value, options));
+  return this;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/dispatch.js
+
+
+function dispatchEvent(node, type, params) {
+  var window = src_window(node),
+      event = window.CustomEvent;
+
+  if (typeof event === "function") {
+    event = new event(type, params);
+  } else {
+    event = window.document.createEvent("Event");
+    if (params) event.initEvent(type, params.bubbles, params.cancelable), event.detail = params.detail;
+    else event.initEvent(type, false, false);
+  }
+
+  node.dispatchEvent(event);
+}
+
+function dispatchConstant(type, params) {
+  return function() {
+    return dispatchEvent(this, type, params);
+  };
+}
+
+function dispatchFunction(type, params) {
+  return function() {
+    return dispatchEvent(this, type, params.apply(this, arguments));
+  };
+}
+
+/* harmony default export */ function selection_dispatch(type, params) {
+  return this.each((typeof params === "function"
+      ? dispatchFunction
+      : dispatchConstant)(type, params));
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/iterator.js
+/* harmony default export */ function* iterator() {
+  for (var groups = this._groups, j = 0, m = groups.length; j < m; ++j) {
+    for (var group = groups[j], i = 0, n = group.length, node; i < n; ++i) {
+      if (node = group[i]) yield node;
+    }
+  }
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-selection/src/selection/index.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var root = [null];
+
+function Selection(groups, parents) {
+  this._groups = groups;
+  this._parents = parents;
+}
+
+function selection() {
+  return new Selection([[document.documentElement]], root);
+}
+
+function selection_selection() {
+  return this;
+}
+
+Selection.prototype = selection.prototype = {
+  constructor: Selection,
+  select: selection_select,
+  selectAll: selectAll,
+  selectChild: selectChild,
+  selectChildren: selectChildren,
+  filter: selection_filter,
+  data: data,
+  enter: enter,
+  exit: exit,
+  join: join,
+  merge: merge,
+  selection: selection_selection,
+  order: order,
+  sort: sort,
+  call: call,
+  nodes: nodes,
+  node: node,
+  size: size,
+  empty: selection_empty,
+  each: each,
+  attr: attr,
+  style: style,
+  property: property,
+  classed: classed,
+  text: selection_text,
+  html: html,
+  raise: selection_raise,
+  lower: selection_lower,
+  append: append,
+  insert: insert,
+  remove: selection_remove,
+  clone: selection_clone,
+  datum: selection_datum,
+  on: on,
+  dispatch: selection_dispatch,
+  [Symbol.iterator]: iterator
+};
+
+/* harmony default export */ var src_selection = (selection);
+
+;// CONCATENATED MODULE: ./node_modules/d3-dispatch/src/dispatch.js
+var noop = {value: () => {}};
+
+function dispatch_dispatch() {
+  for (var i = 0, n = arguments.length, _ = {}, t; i < n; ++i) {
+    if (!(t = arguments[i] + "") || (t in _) || /[\s.]/.test(t)) throw new Error("illegal type: " + t);
+    _[t] = [];
+  }
+  return new Dispatch(_);
+}
+
+function Dispatch(_) {
+  this._ = _;
+}
+
+function dispatch_parseTypenames(typenames, types) {
+  return typenames.trim().split(/^|\s+/).map(function(t) {
+    var name = "", i = t.indexOf(".");
+    if (i >= 0) name = t.slice(i + 1), t = t.slice(0, i);
+    if (t && !types.hasOwnProperty(t)) throw new Error("unknown type: " + t);
+    return {type: t, name: name};
+  });
+}
+
+Dispatch.prototype = dispatch_dispatch.prototype = {
+  constructor: Dispatch,
+  on: function(typename, callback) {
+    var _ = this._,
+        T = dispatch_parseTypenames(typename + "", _),
+        t,
+        i = -1,
+        n = T.length;
+
+    // If no callback was specified, return the callback of the given type and name.
+    if (arguments.length < 2) {
+      while (++i < n) if ((t = (typename = T[i]).type) && (t = dispatch_get(_[t], typename.name))) return t;
+      return;
+    }
+
+    // If a type was specified, set the callback for the given type and name.
+    // Otherwise, if a null callback was specified, remove callbacks of the given name.
+    if (callback != null && typeof callback !== "function") throw new Error("invalid callback: " + callback);
+    while (++i < n) {
+      if (t = (typename = T[i]).type) _[t] = dispatch_set(_[t], typename.name, callback);
+      else if (callback == null) for (t in _) _[t] = dispatch_set(_[t], typename.name, null);
+    }
+
+    return this;
+  },
+  copy: function() {
+    var copy = {}, _ = this._;
+    for (var t in _) copy[t] = _[t].slice();
+    return new Dispatch(copy);
+  },
+  call: function(type, that) {
+    if ((n = arguments.length - 2) > 0) for (var args = new Array(n), i = 0, n, t; i < n; ++i) args[i] = arguments[i + 2];
+    if (!this._.hasOwnProperty(type)) throw new Error("unknown type: " + type);
+    for (t = this._[type], i = 0, n = t.length; i < n; ++i) t[i].value.apply(that, args);
+  },
+  apply: function(type, that, args) {
+    if (!this._.hasOwnProperty(type)) throw new Error("unknown type: " + type);
+    for (var t = this._[type], i = 0, n = t.length; i < n; ++i) t[i].value.apply(that, args);
+  }
+};
+
+function dispatch_get(type, name) {
+  for (var i = 0, n = type.length, c; i < n; ++i) {
+    if ((c = type[i]).name === name) {
+      return c.value;
+    }
+  }
+}
+
+function dispatch_set(type, name, callback) {
+  for (var i = 0, n = type.length; i < n; ++i) {
+    if (type[i].name === name) {
+      type[i] = noop, type = type.slice(0, i).concat(type.slice(i + 1));
+      break;
+    }
+  }
+  if (callback != null) type.push({name: name, value: callback});
+  return type;
+}
+
+/* harmony default export */ var src_dispatch = (dispatch_dispatch);
+
+;// CONCATENATED MODULE: ./node_modules/d3-timer/src/timer.js
+var timer_frame = 0, // is an animation frame pending?
+    timeout = 0, // is a timeout pending?
+    interval = 0, // are any timers active?
+    pokeDelay = 1000, // how frequently we check for clock skew
+    taskHead,
+    taskTail,
+    clockLast = 0,
+    clockNow = 0,
+    clockSkew = 0,
+    clock = typeof performance === "object" && performance.now ? performance : Date,
+    setFrame = typeof window === "object" && window.requestAnimationFrame ? window.requestAnimationFrame.bind(window) : function(f) { setTimeout(f, 17); };
+
+function now() {
+  return clockNow || (setFrame(clearNow), clockNow = clock.now() + clockSkew);
+}
+
+function clearNow() {
+  clockNow = 0;
+}
+
+function Timer() {
+  this._call =
+  this._time =
+  this._next = null;
+}
+
+Timer.prototype = timer.prototype = {
+  constructor: Timer,
+  restart: function(callback, delay, time) {
+    if (typeof callback !== "function") throw new TypeError("callback is not a function");
+    time = (time == null ? now() : +time) + (delay == null ? 0 : +delay);
+    if (!this._next && taskTail !== this) {
+      if (taskTail) taskTail._next = this;
+      else taskHead = this;
+      taskTail = this;
+    }
+    this._call = callback;
+    this._time = time;
+    sleep();
+  },
+  stop: function() {
+    if (this._call) {
+      this._call = null;
+      this._time = Infinity;
+      sleep();
+    }
+  }
+};
+
+function timer(callback, delay, time) {
+  var t = new Timer;
+  t.restart(callback, delay, time);
+  return t;
+}
+
+function timerFlush() {
+  now(); // Get the current time, if not already set.
+  ++timer_frame; // Pretend we’ve set an alarm, if we haven’t already.
+  var t = taskHead, e;
+  while (t) {
+    if ((e = clockNow - t._time) >= 0) t._call.call(undefined, e);
+    t = t._next;
+  }
+  --timer_frame;
+}
+
+function wake() {
+  clockNow = (clockLast = clock.now()) + clockSkew;
+  timer_frame = timeout = 0;
+  try {
+    timerFlush();
+  } finally {
+    timer_frame = 0;
+    nap();
+    clockNow = 0;
+  }
+}
+
+function poke() {
+  var now = clock.now(), delay = now - clockLast;
+  if (delay > pokeDelay) clockSkew -= delay, clockLast = now;
+}
+
+function nap() {
+  var t0, t1 = taskHead, t2, time = Infinity;
+  while (t1) {
+    if (t1._call) {
+      if (time > t1._time) time = t1._time;
+      t0 = t1, t1 = t1._next;
+    } else {
+      t2 = t1._next, t1._next = null;
+      t1 = t0 ? t0._next = t2 : taskHead = t2;
+    }
+  }
+  taskTail = t0;
+  sleep(time);
+}
+
+function sleep(time) {
+  if (timer_frame) return; // Soonest alarm already set, or will be.
+  if (timeout) timeout = clearTimeout(timeout);
+  var delay = time - clockNow; // Strictly less than if we recomputed clockNow.
+  if (delay > 24) {
+    if (time < Infinity) timeout = setTimeout(wake, time - clock.now() - clockSkew);
+    if (interval) interval = clearInterval(interval);
+  } else {
+    if (!interval) clockLast = clock.now(), interval = setInterval(poke, pokeDelay);
+    timer_frame = 1, setFrame(wake);
+  }
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-timer/src/timeout.js
+
+
+/* harmony default export */ function src_timeout(callback, delay, time) {
+  var t = new Timer;
+  delay = delay == null ? 0 : +delay;
+  t.restart(elapsed => {
+    t.stop();
+    callback(elapsed + delay);
+  }, delay, time);
+  return t;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/transition/schedule.js
+
+
+
+var emptyOn = src_dispatch("start", "end", "cancel", "interrupt");
+var emptyTween = [];
+
+var CREATED = 0;
+var SCHEDULED = 1;
+var STARTING = 2;
+var STARTED = 3;
+var RUNNING = 4;
+var ENDING = 5;
+var ENDED = 6;
+
+/* harmony default export */ function schedule(node, name, id, index, group, timing) {
+  var schedules = node.__transition;
+  if (!schedules) node.__transition = {};
+  else if (id in schedules) return;
+  schedule_create(node, id, {
+    name: name,
+    index: index, // For context during callback.
+    group: group, // For context during callback.
+    on: emptyOn,
+    tween: emptyTween,
+    time: timing.time,
+    delay: timing.delay,
+    duration: timing.duration,
+    ease: timing.ease,
+    timer: null,
+    state: CREATED
+  });
+}
+
+function init(node, id) {
+  var schedule = schedule_get(node, id);
+  if (schedule.state > CREATED) throw new Error("too late; already scheduled");
+  return schedule;
+}
+
+function schedule_set(node, id) {
+  var schedule = schedule_get(node, id);
+  if (schedule.state > STARTED) throw new Error("too late; already running");
+  return schedule;
+}
+
+function schedule_get(node, id) {
+  var schedule = node.__transition;
+  if (!schedule || !(schedule = schedule[id])) throw new Error("transition not found");
+  return schedule;
+}
+
+function schedule_create(node, id, self) {
+  var schedules = node.__transition,
+      tween;
+
+  // Initialize the self timer when the transition is created.
+  // Note the actual delay is not known until the first callback!
+  schedules[id] = self;
+  self.timer = timer(schedule, 0, self.time);
+
+  function schedule(elapsed) {
+    self.state = SCHEDULED;
+    self.timer.restart(start, self.delay, self.time);
+
+    // If the elapsed delay is less than our first sleep, start immediately.
+    if (self.delay <= elapsed) start(elapsed - self.delay);
+  }
+
+  function start(elapsed) {
+    var i, j, n, o;
+
+    // If the state is not SCHEDULED, then we previously errored on start.
+    if (self.state !== SCHEDULED) return stop();
+
+    for (i in schedules) {
+      o = schedules[i];
+      if (o.name !== self.name) continue;
+
+      // While this element already has a starting transition during this frame,
+      // defer starting an interrupting transition until that transition has a
+      // chance to tick (and possibly end); see d3/d3-transition#54!
+      if (o.state === STARTED) return src_timeout(start);
+
+      // Interrupt the active transition, if any.
+      if (o.state === RUNNING) {
+        o.state = ENDED;
+        o.timer.stop();
+        o.on.call("interrupt", node, node.__data__, o.index, o.group);
+        delete schedules[i];
+      }
+
+      // Cancel any pre-empted transitions.
+      else if (+i < id) {
+        o.state = ENDED;
+        o.timer.stop();
+        o.on.call("cancel", node, node.__data__, o.index, o.group);
+        delete schedules[i];
+      }
+    }
+
+    // Defer the first tick to end of the current frame; see d3/d3#1576.
+    // Note the transition may be canceled after start and before the first tick!
+    // Note this must be scheduled before the start event; see d3/d3-transition#16!
+    // Assuming this is successful, subsequent callbacks go straight to tick.
+    src_timeout(function() {
+      if (self.state === STARTED) {
+        self.state = RUNNING;
+        self.timer.restart(tick, self.delay, self.time);
+        tick(elapsed);
+      }
+    });
+
+    // Dispatch the start event.
+    // Note this must be done before the tween are initialized.
+    self.state = STARTING;
+    self.on.call("start", node, node.__data__, self.index, self.group);
+    if (self.state !== STARTING) return; // interrupted
+    self.state = STARTED;
+
+    // Initialize the tween, deleting null tween.
+    tween = new Array(n = self.tween.length);
+    for (i = 0, j = -1; i < n; ++i) {
+      if (o = self.tween[i].value.call(node, node.__data__, self.index, self.group)) {
+        tween[++j] = o;
+      }
+    }
+    tween.length = j + 1;
+  }
+
+  function tick(elapsed) {
+    var t = elapsed < self.duration ? self.ease.call(null, elapsed / self.duration) : (self.timer.restart(stop), self.state = ENDING, 1),
+        i = -1,
+        n = tween.length;
+
+    while (++i < n) {
+      tween[i].call(node, t);
+    }
+
+    // Dispatch the end event.
+    if (self.state === ENDING) {
+      self.on.call("end", node, node.__data__, self.index, self.group);
+      stop();
+    }
+  }
+
+  function stop() {
+    self.state = ENDED;
+    self.timer.stop();
+    delete schedules[id];
+    for (var i in schedules) return; // eslint-disable-line no-unused-vars
+    delete node.__transition;
+  }
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/interrupt.js
+
+
+/* harmony default export */ function src_interrupt(node, name) {
+  var schedules = node.__transition,
+      schedule,
+      active,
+      empty = true,
+      i;
+
+  if (!schedules) return;
+
+  name = name == null ? null : name + "";
+
+  for (i in schedules) {
+    if ((schedule = schedules[i]).name !== name) { empty = false; continue; }
+    active = schedule.state > STARTING && schedule.state < ENDING;
+    schedule.state = ENDED;
+    schedule.timer.stop();
+    schedule.on.call(active ? "interrupt" : "cancel", node, node.__data__, schedule.index, schedule.group);
+    delete schedules[i];
+  }
+
+  if (empty) delete node.__transition;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/selection/interrupt.js
+
+
+/* harmony default export */ function selection_interrupt(name) {
+  return this.each(function() {
+    src_interrupt(this, name);
+  });
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-interpolate/src/number.js
+/* harmony default export */ function number(a, b) {
+  return a = +a, b = +b, function(t) {
+    return a * (1 - t) + b * t;
+  };
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-interpolate/src/transform/decompose.js
+var degrees = 180 / Math.PI;
+
+var decompose_identity = {
+  translateX: 0,
+  translateY: 0,
+  rotate: 0,
+  skewX: 0,
+  scaleX: 1,
+  scaleY: 1
+};
+
+/* harmony default export */ function decompose(a, b, c, d, e, f) {
+  var scaleX, scaleY, skewX;
+  if (scaleX = Math.sqrt(a * a + b * b)) a /= scaleX, b /= scaleX;
+  if (skewX = a * c + b * d) c -= a * skewX, d -= b * skewX;
+  if (scaleY = Math.sqrt(c * c + d * d)) c /= scaleY, d /= scaleY, skewX /= scaleY;
+  if (a * d < b * c) a = -a, b = -b, skewX = -skewX, scaleX = -scaleX;
+  return {
+    translateX: e,
+    translateY: f,
+    rotate: Math.atan2(b, a) * degrees,
+    skewX: Math.atan(skewX) * degrees,
+    scaleX: scaleX,
+    scaleY: scaleY
+  };
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-interpolate/src/transform/parse.js
+
+
+var svgNode;
+
+/* eslint-disable no-undef */
+function parseCss(value) {
+  const m = new (typeof DOMMatrix === "function" ? DOMMatrix : WebKitCSSMatrix)(value + "");
+  return m.isIdentity ? decompose_identity : decompose(m.a, m.b, m.c, m.d, m.e, m.f);
+}
+
+function parseSvg(value) {
+  if (value == null) return decompose_identity;
+  if (!svgNode) svgNode = document.createElementNS("http://www.w3.org/2000/svg", "g");
+  svgNode.setAttribute("transform", value);
+  if (!(value = svgNode.transform.baseVal.consolidate())) return decompose_identity;
+  value = value.matrix;
+  return decompose(value.a, value.b, value.c, value.d, value.e, value.f);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-interpolate/src/transform/index.js
+
+
+
+function interpolateTransform(parse, pxComma, pxParen, degParen) {
+
+  function pop(s) {
+    return s.length ? s.pop() + " " : "";
+  }
+
+  function translate(xa, ya, xb, yb, s, q) {
+    if (xa !== xb || ya !== yb) {
+      var i = s.push("translate(", null, pxComma, null, pxParen);
+      q.push({i: i - 4, x: number(xa, xb)}, {i: i - 2, x: number(ya, yb)});
+    } else if (xb || yb) {
+      s.push("translate(" + xb + pxComma + yb + pxParen);
+    }
+  }
+
+  function rotate(a, b, s, q) {
+    if (a !== b) {
+      if (a - b > 180) b += 360; else if (b - a > 180) a += 360; // shortest path
+      q.push({i: s.push(pop(s) + "rotate(", null, degParen) - 2, x: number(a, b)});
+    } else if (b) {
+      s.push(pop(s) + "rotate(" + b + degParen);
+    }
+  }
+
+  function skewX(a, b, s, q) {
+    if (a !== b) {
+      q.push({i: s.push(pop(s) + "skewX(", null, degParen) - 2, x: number(a, b)});
+    } else if (b) {
+      s.push(pop(s) + "skewX(" + b + degParen);
+    }
+  }
+
+  function scale(xa, ya, xb, yb, s, q) {
+    if (xa !== xb || ya !== yb) {
+      var i = s.push(pop(s) + "scale(", null, ",", null, ")");
+      q.push({i: i - 4, x: number(xa, xb)}, {i: i - 2, x: number(ya, yb)});
+    } else if (xb !== 1 || yb !== 1) {
+      s.push(pop(s) + "scale(" + xb + "," + yb + ")");
+    }
+  }
+
+  return function(a, b) {
+    var s = [], // string constants and placeholders
+        q = []; // number interpolators
+    a = parse(a), b = parse(b);
+    translate(a.translateX, a.translateY, b.translateX, b.translateY, s, q);
+    rotate(a.rotate, b.rotate, s, q);
+    skewX(a.skewX, b.skewX, s, q);
+    scale(a.scaleX, a.scaleY, b.scaleX, b.scaleY, s, q);
+    a = b = null; // gc
+    return function(t) {
+      var i = -1, n = q.length, o;
+      while (++i < n) s[(o = q[i]).i] = o.x(t);
+      return s.join("");
+    };
+  };
+}
+
+var interpolateTransformCss = interpolateTransform(parseCss, "px, ", "px)", "deg)");
+var interpolateTransformSvg = interpolateTransform(parseSvg, ", ", ")", ")");
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/transition/tween.js
+
+
+function tweenRemove(id, name) {
+  var tween0, tween1;
+  return function() {
+    var schedule = schedule_set(this, id),
+        tween = schedule.tween;
+
+    // If this node shared tween with the previous node,
+    // just assign the updated shared tween and we’re done!
+    // Otherwise, copy-on-write.
+    if (tween !== tween0) {
+      tween1 = tween0 = tween;
+      for (var i = 0, n = tween1.length; i < n; ++i) {
+        if (tween1[i].name === name) {
+          tween1 = tween1.slice();
+          tween1.splice(i, 1);
+          break;
+        }
+      }
+    }
+
+    schedule.tween = tween1;
+  };
+}
+
+function tweenFunction(id, name, value) {
+  var tween0, tween1;
+  if (typeof value !== "function") throw new Error;
+  return function() {
+    var schedule = schedule_set(this, id),
+        tween = schedule.tween;
+
+    // If this node shared tween with the previous node,
+    // just assign the updated shared tween and we’re done!
+    // Otherwise, copy-on-write.
+    if (tween !== tween0) {
+      tween1 = (tween0 = tween).slice();
+      for (var t = {name: name, value: value}, i = 0, n = tween1.length; i < n; ++i) {
+        if (tween1[i].name === name) {
+          tween1[i] = t;
+          break;
+        }
+      }
+      if (i === n) tween1.push(t);
+    }
+
+    schedule.tween = tween1;
+  };
+}
+
+/* harmony default export */ function tween(name, value) {
+  var id = this._id;
+
+  name += "";
+
+  if (arguments.length < 2) {
+    var tween = schedule_get(this.node(), id).tween;
+    for (var i = 0, n = tween.length, t; i < n; ++i) {
+      if ((t = tween[i]).name === name) {
+        return t.value;
+      }
+    }
+    return null;
+  }
+
+  return this.each((value == null ? tweenRemove : tweenFunction)(id, name, value));
+}
+
+function tweenValue(transition, name, value) {
+  var id = transition._id;
+
+  transition.each(function() {
+    var schedule = schedule_set(this, id);
+    (schedule.value || (schedule.value = {}))[name] = value.apply(this, arguments);
+  });
+
+  return function(node) {
+    return schedule_get(node, id).value[name];
+  };
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-color/src/define.js
+/* harmony default export */ function src_define(constructor, factory, prototype) {
+  constructor.prototype = factory.prototype = prototype;
+  prototype.constructor = constructor;
+}
+
+function define_extend(parent, definition) {
+  var prototype = Object.create(parent.prototype);
+  for (var key in definition) prototype[key] = definition[key];
+  return prototype;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-color/src/color.js
+
+
+function Color() {}
+
+var darker = 0.7;
+var brighter = 1 / darker;
+
+var reI = "\\s*([+-]?\\d+)\\s*",
+    reN = "\\s*([+-]?(?:\\d*\\.)?\\d+(?:[eE][+-]?\\d+)?)\\s*",
+    reP = "\\s*([+-]?(?:\\d*\\.)?\\d+(?:[eE][+-]?\\d+)?)%\\s*",
+    reHex = /^#([0-9a-f]{3,8})$/,
+    reRgbInteger = new RegExp(`^rgb\\(${reI},${reI},${reI}\\)$`),
+    reRgbPercent = new RegExp(`^rgb\\(${reP},${reP},${reP}\\)$`),
+    reRgbaInteger = new RegExp(`^rgba\\(${reI},${reI},${reI},${reN}\\)$`),
+    reRgbaPercent = new RegExp(`^rgba\\(${reP},${reP},${reP},${reN}\\)$`),
+    reHslPercent = new RegExp(`^hsl\\(${reN},${reP},${reP}\\)$`),
+    reHslaPercent = new RegExp(`^hsla\\(${reN},${reP},${reP},${reN}\\)$`);
+
+var named = {
+  aliceblue: 0xf0f8ff,
+  antiquewhite: 0xfaebd7,
+  aqua: 0x00ffff,
+  aquamarine: 0x7fffd4,
+  azure: 0xf0ffff,
+  beige: 0xf5f5dc,
+  bisque: 0xffe4c4,
+  black: 0x000000,
+  blanchedalmond: 0xffebcd,
+  blue: 0x0000ff,
+  blueviolet: 0x8a2be2,
+  brown: 0xa52a2a,
+  burlywood: 0xdeb887,
+  cadetblue: 0x5f9ea0,
+  chartreuse: 0x7fff00,
+  chocolate: 0xd2691e,
+  coral: 0xff7f50,
+  cornflowerblue: 0x6495ed,
+  cornsilk: 0xfff8dc,
+  crimson: 0xdc143c,
+  cyan: 0x00ffff,
+  darkblue: 0x00008b,
+  darkcyan: 0x008b8b,
+  darkgoldenrod: 0xb8860b,
+  darkgray: 0xa9a9a9,
+  darkgreen: 0x006400,
+  darkgrey: 0xa9a9a9,
+  darkkhaki: 0xbdb76b,
+  darkmagenta: 0x8b008b,
+  darkolivegreen: 0x556b2f,
+  darkorange: 0xff8c00,
+  darkorchid: 0x9932cc,
+  darkred: 0x8b0000,
+  darksalmon: 0xe9967a,
+  darkseagreen: 0x8fbc8f,
+  darkslateblue: 0x483d8b,
+  darkslategray: 0x2f4f4f,
+  darkslategrey: 0x2f4f4f,
+  darkturquoise: 0x00ced1,
+  darkviolet: 0x9400d3,
+  deeppink: 0xff1493,
+  deepskyblue: 0x00bfff,
+  dimgray: 0x696969,
+  dimgrey: 0x696969,
+  dodgerblue: 0x1e90ff,
+  firebrick: 0xb22222,
+  floralwhite: 0xfffaf0,
+  forestgreen: 0x228b22,
+  fuchsia: 0xff00ff,
+  gainsboro: 0xdcdcdc,
+  ghostwhite: 0xf8f8ff,
+  gold: 0xffd700,
+  goldenrod: 0xdaa520,
+  gray: 0x808080,
+  green: 0x008000,
+  greenyellow: 0xadff2f,
+  grey: 0x808080,
+  honeydew: 0xf0fff0,
+  hotpink: 0xff69b4,
+  indianred: 0xcd5c5c,
+  indigo: 0x4b0082,
+  ivory: 0xfffff0,
+  khaki: 0xf0e68c,
+  lavender: 0xe6e6fa,
+  lavenderblush: 0xfff0f5,
+  lawngreen: 0x7cfc00,
+  lemonchiffon: 0xfffacd,
+  lightblue: 0xadd8e6,
+  lightcoral: 0xf08080,
+  lightcyan: 0xe0ffff,
+  lightgoldenrodyellow: 0xfafad2,
+  lightgray: 0xd3d3d3,
+  lightgreen: 0x90ee90,
+  lightgrey: 0xd3d3d3,
+  lightpink: 0xffb6c1,
+  lightsalmon: 0xffa07a,
+  lightseagreen: 0x20b2aa,
+  lightskyblue: 0x87cefa,
+  lightslategray: 0x778899,
+  lightslategrey: 0x778899,
+  lightsteelblue: 0xb0c4de,
+  lightyellow: 0xffffe0,
+  lime: 0x00ff00,
+  limegreen: 0x32cd32,
+  linen: 0xfaf0e6,
+  magenta: 0xff00ff,
+  maroon: 0x800000,
+  mediumaquamarine: 0x66cdaa,
+  mediumblue: 0x0000cd,
+  mediumorchid: 0xba55d3,
+  mediumpurple: 0x9370db,
+  mediumseagreen: 0x3cb371,
+  mediumslateblue: 0x7b68ee,
+  mediumspringgreen: 0x00fa9a,
+  mediumturquoise: 0x48d1cc,
+  mediumvioletred: 0xc71585,
+  midnightblue: 0x191970,
+  mintcream: 0xf5fffa,
+  mistyrose: 0xffe4e1,
+  moccasin: 0xffe4b5,
+  navajowhite: 0xffdead,
+  navy: 0x000080,
+  oldlace: 0xfdf5e6,
+  olive: 0x808000,
+  olivedrab: 0x6b8e23,
+  orange: 0xffa500,
+  orangered: 0xff4500,
+  orchid: 0xda70d6,
+  palegoldenrod: 0xeee8aa,
+  palegreen: 0x98fb98,
+  paleturquoise: 0xafeeee,
+  palevioletred: 0xdb7093,
+  papayawhip: 0xffefd5,
+  peachpuff: 0xffdab9,
+  peru: 0xcd853f,
+  pink: 0xffc0cb,
+  plum: 0xdda0dd,
+  powderblue: 0xb0e0e6,
+  purple: 0x800080,
+  rebeccapurple: 0x663399,
+  red: 0xff0000,
+  rosybrown: 0xbc8f8f,
+  royalblue: 0x4169e1,
+  saddlebrown: 0x8b4513,
+  salmon: 0xfa8072,
+  sandybrown: 0xf4a460,
+  seagreen: 0x2e8b57,
+  seashell: 0xfff5ee,
+  sienna: 0xa0522d,
+  silver: 0xc0c0c0,
+  skyblue: 0x87ceeb,
+  slateblue: 0x6a5acd,
+  slategray: 0x708090,
+  slategrey: 0x708090,
+  snow: 0xfffafa,
+  springgreen: 0x00ff7f,
+  steelblue: 0x4682b4,
+  tan: 0xd2b48c,
+  teal: 0x008080,
+  thistle: 0xd8bfd8,
+  tomato: 0xff6347,
+  turquoise: 0x40e0d0,
+  violet: 0xee82ee,
+  wheat: 0xf5deb3,
+  white: 0xffffff,
+  whitesmoke: 0xf5f5f5,
+  yellow: 0xffff00,
+  yellowgreen: 0x9acd32
+};
+
+src_define(Color, color, {
+  copy(channels) {
+    return Object.assign(new this.constructor, this, channels);
+  },
+  displayable() {
+    return this.rgb().displayable();
+  },
+  hex: color_formatHex, // Deprecated! Use color.formatHex.
+  formatHex: color_formatHex,
+  formatHex8: color_formatHex8,
+  formatHsl: color_formatHsl,
+  formatRgb: color_formatRgb,
+  toString: color_formatRgb
+});
+
+function color_formatHex() {
+  return this.rgb().formatHex();
+}
+
+function color_formatHex8() {
+  return this.rgb().formatHex8();
+}
+
+function color_formatHsl() {
+  return hslConvert(this).formatHsl();
+}
+
+function color_formatRgb() {
+  return this.rgb().formatRgb();
+}
+
+function color(format) {
+  var m, l;
+  format = (format + "").trim().toLowerCase();
+  return (m = reHex.exec(format)) ? (l = m[1].length, m = parseInt(m[1], 16), l === 6 ? rgbn(m) // #ff0000
+      : l === 3 ? new Rgb((m >> 8 & 0xf) | (m >> 4 & 0xf0), (m >> 4 & 0xf) | (m & 0xf0), ((m & 0xf) << 4) | (m & 0xf), 1) // #f00
+      : l === 8 ? rgba(m >> 24 & 0xff, m >> 16 & 0xff, m >> 8 & 0xff, (m & 0xff) / 0xff) // #ff000000
+      : l === 4 ? rgba((m >> 12 & 0xf) | (m >> 8 & 0xf0), (m >> 8 & 0xf) | (m >> 4 & 0xf0), (m >> 4 & 0xf) | (m & 0xf0), (((m & 0xf) << 4) | (m & 0xf)) / 0xff) // #f000
+      : null) // invalid hex
+      : (m = reRgbInteger.exec(format)) ? new Rgb(m[1], m[2], m[3], 1) // rgb(255, 0, 0)
+      : (m = reRgbPercent.exec(format)) ? new Rgb(m[1] * 255 / 100, m[2] * 255 / 100, m[3] * 255 / 100, 1) // rgb(100%, 0%, 0%)
+      : (m = reRgbaInteger.exec(format)) ? rgba(m[1], m[2], m[3], m[4]) // rgba(255, 0, 0, 1)
+      : (m = reRgbaPercent.exec(format)) ? rgba(m[1] * 255 / 100, m[2] * 255 / 100, m[3] * 255 / 100, m[4]) // rgb(100%, 0%, 0%, 1)
+      : (m = reHslPercent.exec(format)) ? hsla(m[1], m[2] / 100, m[3] / 100, 1) // hsl(120, 50%, 50%)
+      : (m = reHslaPercent.exec(format)) ? hsla(m[1], m[2] / 100, m[3] / 100, m[4]) // hsla(120, 50%, 50%, 1)
+      : named.hasOwnProperty(format) ? rgbn(named[format]) // eslint-disable-line no-prototype-builtins
+      : format === "transparent" ? new Rgb(NaN, NaN, NaN, 0)
+      : null;
+}
+
+function rgbn(n) {
+  return new Rgb(n >> 16 & 0xff, n >> 8 & 0xff, n & 0xff, 1);
+}
+
+function rgba(r, g, b, a) {
+  if (a <= 0) r = g = b = NaN;
+  return new Rgb(r, g, b, a);
+}
+
+function rgbConvert(o) {
+  if (!(o instanceof Color)) o = color(o);
+  if (!o) return new Rgb;
+  o = o.rgb();
+  return new Rgb(o.r, o.g, o.b, o.opacity);
+}
+
+function color_rgb(r, g, b, opacity) {
+  return arguments.length === 1 ? rgbConvert(r) : new Rgb(r, g, b, opacity == null ? 1 : opacity);
+}
+
+function Rgb(r, g, b, opacity) {
+  this.r = +r;
+  this.g = +g;
+  this.b = +b;
+  this.opacity = +opacity;
+}
+
+src_define(Rgb, color_rgb, define_extend(Color, {
+  brighter(k) {
+    k = k == null ? brighter : Math.pow(brighter, k);
+    return new Rgb(this.r * k, this.g * k, this.b * k, this.opacity);
+  },
+  darker(k) {
+    k = k == null ? darker : Math.pow(darker, k);
+    return new Rgb(this.r * k, this.g * k, this.b * k, this.opacity);
+  },
+  rgb() {
+    return this;
+  },
+  clamp() {
+    return new Rgb(clampi(this.r), clampi(this.g), clampi(this.b), clampa(this.opacity));
+  },
+  displayable() {
+    return (-0.5 <= this.r && this.r < 255.5)
+        && (-0.5 <= this.g && this.g < 255.5)
+        && (-0.5 <= this.b && this.b < 255.5)
+        && (0 <= this.opacity && this.opacity <= 1);
+  },
+  hex: rgb_formatHex, // Deprecated! Use color.formatHex.
+  formatHex: rgb_formatHex,
+  formatHex8: rgb_formatHex8,
+  formatRgb: rgb_formatRgb,
+  toString: rgb_formatRgb
+}));
+
+function rgb_formatHex() {
+  return `#${hex(this.r)}${hex(this.g)}${hex(this.b)}`;
+}
+
+function rgb_formatHex8() {
+  return `#${hex(this.r)}${hex(this.g)}${hex(this.b)}${hex((isNaN(this.opacity) ? 1 : this.opacity) * 255)}`;
+}
+
+function rgb_formatRgb() {
+  const a = clampa(this.opacity);
+  return `${a === 1 ? "rgb(" : "rgba("}${clampi(this.r)}, ${clampi(this.g)}, ${clampi(this.b)}${a === 1 ? ")" : `, ${a})`}`;
+}
+
+function clampa(opacity) {
+  return isNaN(opacity) ? 1 : Math.max(0, Math.min(1, opacity));
+}
+
+function clampi(value) {
+  return Math.max(0, Math.min(255, Math.round(value) || 0));
+}
+
+function hex(value) {
+  value = clampi(value);
+  return (value < 16 ? "0" : "") + value.toString(16);
+}
+
+function hsla(h, s, l, a) {
+  if (a <= 0) h = s = l = NaN;
+  else if (l <= 0 || l >= 1) h = s = NaN;
+  else if (s <= 0) h = NaN;
+  return new Hsl(h, s, l, a);
+}
+
+function hslConvert(o) {
+  if (o instanceof Hsl) return new Hsl(o.h, o.s, o.l, o.opacity);
+  if (!(o instanceof Color)) o = color(o);
+  if (!o) return new Hsl;
+  if (o instanceof Hsl) return o;
+  o = o.rgb();
+  var r = o.r / 255,
+      g = o.g / 255,
+      b = o.b / 255,
+      min = Math.min(r, g, b),
+      max = Math.max(r, g, b),
+      h = NaN,
+      s = max - min,
+      l = (max + min) / 2;
+  if (s) {
+    if (r === max) h = (g - b) / s + (g < b) * 6;
+    else if (g === max) h = (b - r) / s + 2;
+    else h = (r - g) / s + 4;
+    s /= l < 0.5 ? max + min : 2 - max - min;
+    h *= 60;
+  } else {
+    s = l > 0 && l < 1 ? 0 : h;
+  }
+  return new Hsl(h, s, l, o.opacity);
+}
+
+function hsl(h, s, l, opacity) {
+  return arguments.length === 1 ? hslConvert(h) : new Hsl(h, s, l, opacity == null ? 1 : opacity);
+}
+
+function Hsl(h, s, l, opacity) {
+  this.h = +h;
+  this.s = +s;
+  this.l = +l;
+  this.opacity = +opacity;
+}
+
+src_define(Hsl, hsl, define_extend(Color, {
+  brighter(k) {
+    k = k == null ? brighter : Math.pow(brighter, k);
+    return new Hsl(this.h, this.s, this.l * k, this.opacity);
+  },
+  darker(k) {
+    k = k == null ? darker : Math.pow(darker, k);
+    return new Hsl(this.h, this.s, this.l * k, this.opacity);
+  },
+  rgb() {
+    var h = this.h % 360 + (this.h < 0) * 360,
+        s = isNaN(h) || isNaN(this.s) ? 0 : this.s,
+        l = this.l,
+        m2 = l + (l < 0.5 ? l : 1 - l) * s,
+        m1 = 2 * l - m2;
+    return new Rgb(
+      hsl2rgb(h >= 240 ? h - 240 : h + 120, m1, m2),
+      hsl2rgb(h, m1, m2),
+      hsl2rgb(h < 120 ? h + 240 : h - 120, m1, m2),
+      this.opacity
+    );
+  },
+  clamp() {
+    return new Hsl(clamph(this.h), clampt(this.s), clampt(this.l), clampa(this.opacity));
+  },
+  displayable() {
+    return (0 <= this.s && this.s <= 1 || isNaN(this.s))
+        && (0 <= this.l && this.l <= 1)
+        && (0 <= this.opacity && this.opacity <= 1);
+  },
+  formatHsl() {
+    const a = clampa(this.opacity);
+    return `${a === 1 ? "hsl(" : "hsla("}${clamph(this.h)}, ${clampt(this.s) * 100}%, ${clampt(this.l) * 100}%${a === 1 ? ")" : `, ${a})`}`;
+  }
+}));
+
+function clamph(value) {
+  value = (value || 0) % 360;
+  return value < 0 ? value + 360 : value;
+}
+
+function clampt(value) {
+  return Math.max(0, Math.min(1, value || 0));
+}
+
+/* From FvD 13.37, CSS Color Module Level 3 */
+function hsl2rgb(h, m1, m2) {
+  return (h < 60 ? m1 + (m2 - m1) * h / 60
+      : h < 180 ? m2
+      : h < 240 ? m1 + (m2 - m1) * (240 - h) / 60
+      : m1) * 255;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-interpolate/src/basis.js
+function basis(t1, v0, v1, v2, v3) {
+  var t2 = t1 * t1, t3 = t2 * t1;
+  return ((1 - 3 * t1 + 3 * t2 - t3) * v0
+      + (4 - 6 * t2 + 3 * t3) * v1
+      + (1 + 3 * t1 + 3 * t2 - 3 * t3) * v2
+      + t3 * v3) / 6;
+}
+
+/* harmony default export */ function src_basis(values) {
+  var n = values.length - 1;
+  return function(t) {
+    var i = t <= 0 ? (t = 0) : t >= 1 ? (t = 1, n - 1) : Math.floor(t * n),
+        v1 = values[i],
+        v2 = values[i + 1],
+        v0 = i > 0 ? values[i - 1] : 2 * v1 - v2,
+        v3 = i < n - 1 ? values[i + 2] : 2 * v2 - v1;
+    return basis((t - i / n) * n, v0, v1, v2, v3);
+  };
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-interpolate/src/basisClosed.js
+
+
+/* harmony default export */ function basisClosed(values) {
+  var n = values.length;
+  return function(t) {
+    var i = Math.floor(((t %= 1) < 0 ? ++t : t) * n),
+        v0 = values[(i + n - 1) % n],
+        v1 = values[i % n],
+        v2 = values[(i + 1) % n],
+        v3 = values[(i + 2) % n];
+    return basis((t - i / n) * n, v0, v1, v2, v3);
+  };
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-interpolate/src/constant.js
+/* harmony default export */ var d3_interpolate_src_constant = (x => () => x);
+
+;// CONCATENATED MODULE: ./node_modules/d3-interpolate/src/color.js
+
+
+function color_linear(a, d) {
+  return function(t) {
+    return a + t * d;
+  };
+}
+
+function exponential(a, b, y) {
+  return a = Math.pow(a, y), b = Math.pow(b, y) - a, y = 1 / y, function(t) {
+    return Math.pow(a + t * b, y);
+  };
+}
+
+function hue(a, b) {
+  var d = b - a;
+  return d ? color_linear(a, d > 180 || d < -180 ? d - 360 * Math.round(d / 360) : d) : constant(isNaN(a) ? b : a);
+}
+
+function gamma(y) {
+  return (y = +y) === 1 ? nogamma : function(a, b) {
+    return b - a ? exponential(a, b, y) : d3_interpolate_src_constant(isNaN(a) ? b : a);
+  };
+}
+
+function nogamma(a, b) {
+  var d = b - a;
+  return d ? color_linear(a, d) : d3_interpolate_src_constant(isNaN(a) ? b : a);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-interpolate/src/rgb.js
+
+
+
+
+
+/* harmony default export */ var rgb = ((function rgbGamma(y) {
+  var color = gamma(y);
+
+  function rgb(start, end) {
+    var r = color((start = color_rgb(start)).r, (end = color_rgb(end)).r),
+        g = color(start.g, end.g),
+        b = color(start.b, end.b),
+        opacity = nogamma(start.opacity, end.opacity);
+    return function(t) {
+      start.r = r(t);
+      start.g = g(t);
+      start.b = b(t);
+      start.opacity = opacity(t);
+      return start + "";
+    };
+  }
+
+  rgb.gamma = rgbGamma;
+
+  return rgb;
+})(1));
+
+function rgbSpline(spline) {
+  return function(colors) {
+    var n = colors.length,
+        r = new Array(n),
+        g = new Array(n),
+        b = new Array(n),
+        i, color;
+    for (i = 0; i < n; ++i) {
+      color = color_rgb(colors[i]);
+      r[i] = color.r || 0;
+      g[i] = color.g || 0;
+      b[i] = color.b || 0;
+    }
+    r = spline(r);
+    g = spline(g);
+    b = spline(b);
+    color.opacity = 1;
+    return function(t) {
+      color.r = r(t);
+      color.g = g(t);
+      color.b = b(t);
+      return color + "";
+    };
+  };
+}
+
+var rgbBasis = rgbSpline(src_basis);
+var rgbBasisClosed = rgbSpline(basisClosed);
+
+;// CONCATENATED MODULE: ./node_modules/d3-interpolate/src/string.js
+
+
+var reA = /[-+]?(?:\d+\.?\d*|\.?\d+)(?:[eE][-+]?\d+)?/g,
+    reB = new RegExp(reA.source, "g");
+
+function zero(b) {
+  return function() {
+    return b;
+  };
+}
+
+function one(b) {
+  return function(t) {
+    return b(t) + "";
+  };
+}
+
+/* harmony default export */ function string(a, b) {
+  var bi = reA.lastIndex = reB.lastIndex = 0, // scan index for next number in b
+      am, // current match in a
+      bm, // current match in b
+      bs, // string preceding current number in b, if any
+      i = -1, // index in s
+      s = [], // string constants and placeholders
+      q = []; // number interpolators
+
+  // Coerce inputs to strings.
+  a = a + "", b = b + "";
+
+  // Interpolate pairs of numbers in a & b.
+  while ((am = reA.exec(a))
+      && (bm = reB.exec(b))) {
+    if ((bs = bm.index) > bi) { // a string precedes the next number in b
+      bs = b.slice(bi, bs);
+      if (s[i]) s[i] += bs; // coalesce with previous string
+      else s[++i] = bs;
+    }
+    if ((am = am[0]) === (bm = bm[0])) { // numbers in a & b match
+      if (s[i]) s[i] += bm; // coalesce with previous string
+      else s[++i] = bm;
+    } else { // interpolate non-matching numbers
+      s[++i] = null;
+      q.push({i: i, x: number(am, bm)});
+    }
+    bi = reB.lastIndex;
+  }
+
+  // Add remains of b.
+  if (bi < b.length) {
+    bs = b.slice(bi);
+    if (s[i]) s[i] += bs; // coalesce with previous string
+    else s[++i] = bs;
+  }
+
+  // Special optimization for only a single match.
+  // Otherwise, interpolate each of the numbers and rejoin the string.
+  return s.length < 2 ? (q[0]
+      ? one(q[0].x)
+      : zero(b))
+      : (b = q.length, function(t) {
+          for (var i = 0, o; i < b; ++i) s[(o = q[i]).i] = o.x(t);
+          return s.join("");
+        });
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/transition/interpolate.js
+
+
+
+/* harmony default export */ function transition_interpolate(a, b) {
+  var c;
+  return (typeof b === "number" ? number
+      : b instanceof color ? rgb
+      : (c = color(b)) ? (b = c, rgb)
+      : string)(a, b);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/transition/attr.js
+
+
+
+
+
+function attr_attrRemove(name) {
+  return function() {
+    this.removeAttribute(name);
+  };
+}
+
+function attr_attrRemoveNS(fullname) {
+  return function() {
+    this.removeAttributeNS(fullname.space, fullname.local);
+  };
+}
+
+function attr_attrConstant(name, interpolate, value1) {
+  var string00,
+      string1 = value1 + "",
+      interpolate0;
+  return function() {
+    var string0 = this.getAttribute(name);
+    return string0 === string1 ? null
+        : string0 === string00 ? interpolate0
+        : interpolate0 = interpolate(string00 = string0, value1);
+  };
+}
+
+function attr_attrConstantNS(fullname, interpolate, value1) {
+  var string00,
+      string1 = value1 + "",
+      interpolate0;
+  return function() {
+    var string0 = this.getAttributeNS(fullname.space, fullname.local);
+    return string0 === string1 ? null
+        : string0 === string00 ? interpolate0
+        : interpolate0 = interpolate(string00 = string0, value1);
+  };
+}
+
+function attr_attrFunction(name, interpolate, value) {
+  var string00,
+      string10,
+      interpolate0;
+  return function() {
+    var string0, value1 = value(this), string1;
+    if (value1 == null) return void this.removeAttribute(name);
+    string0 = this.getAttribute(name);
+    string1 = value1 + "";
+    return string0 === string1 ? null
+        : string0 === string00 && string1 === string10 ? interpolate0
+        : (string10 = string1, interpolate0 = interpolate(string00 = string0, value1));
+  };
+}
+
+function attr_attrFunctionNS(fullname, interpolate, value) {
+  var string00,
+      string10,
+      interpolate0;
+  return function() {
+    var string0, value1 = value(this), string1;
+    if (value1 == null) return void this.removeAttributeNS(fullname.space, fullname.local);
+    string0 = this.getAttributeNS(fullname.space, fullname.local);
+    string1 = value1 + "";
+    return string0 === string1 ? null
+        : string0 === string00 && string1 === string10 ? interpolate0
+        : (string10 = string1, interpolate0 = interpolate(string00 = string0, value1));
+  };
+}
+
+/* harmony default export */ function transition_attr(name, value) {
+  var fullname = namespace(name), i = fullname === "transform" ? interpolateTransformSvg : transition_interpolate;
+  return this.attrTween(name, typeof value === "function"
+      ? (fullname.local ? attr_attrFunctionNS : attr_attrFunction)(fullname, i, tweenValue(this, "attr." + name, value))
+      : value == null ? (fullname.local ? attr_attrRemoveNS : attr_attrRemove)(fullname)
+      : (fullname.local ? attr_attrConstantNS : attr_attrConstant)(fullname, i, value));
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/transition/attrTween.js
+
+
+function attrInterpolate(name, i) {
+  return function(t) {
+    this.setAttribute(name, i.call(this, t));
+  };
+}
+
+function attrInterpolateNS(fullname, i) {
+  return function(t) {
+    this.setAttributeNS(fullname.space, fullname.local, i.call(this, t));
+  };
+}
+
+function attrTweenNS(fullname, value) {
+  var t0, i0;
+  function tween() {
+    var i = value.apply(this, arguments);
+    if (i !== i0) t0 = (i0 = i) && attrInterpolateNS(fullname, i);
+    return t0;
+  }
+  tween._value = value;
+  return tween;
+}
+
+function attrTween(name, value) {
+  var t0, i0;
+  function tween() {
+    var i = value.apply(this, arguments);
+    if (i !== i0) t0 = (i0 = i) && attrInterpolate(name, i);
+    return t0;
+  }
+  tween._value = value;
+  return tween;
+}
+
+/* harmony default export */ function transition_attrTween(name, value) {
+  var key = "attr." + name;
+  if (arguments.length < 2) return (key = this.tween(key)) && key._value;
+  if (value == null) return this.tween(key, null);
+  if (typeof value !== "function") throw new Error;
+  var fullname = namespace(name);
+  return this.tween(key, (fullname.local ? attrTweenNS : attrTween)(fullname, value));
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/transition/delay.js
+
+
+function delayFunction(id, value) {
+  return function() {
+    init(this, id).delay = +value.apply(this, arguments);
+  };
+}
+
+function delayConstant(id, value) {
+  return value = +value, function() {
+    init(this, id).delay = value;
+  };
+}
+
+/* harmony default export */ function delay(value) {
+  var id = this._id;
+
+  return arguments.length
+      ? this.each((typeof value === "function"
+          ? delayFunction
+          : delayConstant)(id, value))
+      : schedule_get(this.node(), id).delay;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/transition/duration.js
+
+
+function durationFunction(id, value) {
+  return function() {
+    schedule_set(this, id).duration = +value.apply(this, arguments);
+  };
+}
+
+function durationConstant(id, value) {
+  return value = +value, function() {
+    schedule_set(this, id).duration = value;
+  };
+}
+
+/* harmony default export */ function duration(value) {
+  var id = this._id;
+
+  return arguments.length
+      ? this.each((typeof value === "function"
+          ? durationFunction
+          : durationConstant)(id, value))
+      : schedule_get(this.node(), id).duration;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/transition/ease.js
+
+
+function easeConstant(id, value) {
+  if (typeof value !== "function") throw new Error;
+  return function() {
+    schedule_set(this, id).ease = value;
+  };
+}
+
+/* harmony default export */ function ease(value) {
+  var id = this._id;
+
+  return arguments.length
+      ? this.each(easeConstant(id, value))
+      : schedule_get(this.node(), id).ease;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/transition/easeVarying.js
+
+
+function easeVarying(id, value) {
+  return function() {
+    var v = value.apply(this, arguments);
+    if (typeof v !== "function") throw new Error;
+    schedule_set(this, id).ease = v;
+  };
+}
+
+/* harmony default export */ function transition_easeVarying(value) {
+  if (typeof value !== "function") throw new Error;
+  return this.each(easeVarying(this._id, value));
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/transition/filter.js
+
+
+
+/* harmony default export */ function transition_filter(match) {
+  if (typeof match !== "function") match = matcher(match);
+
+  for (var groups = this._groups, m = groups.length, subgroups = new Array(m), j = 0; j < m; ++j) {
+    for (var group = groups[j], n = group.length, subgroup = subgroups[j] = [], node, i = 0; i < n; ++i) {
+      if ((node = group[i]) && match.call(node, node.__data__, i, group)) {
+        subgroup.push(node);
+      }
+    }
+  }
+
+  return new Transition(subgroups, this._parents, this._name, this._id);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/transition/merge.js
+
+
+/* harmony default export */ function transition_merge(transition) {
+  if (transition._id !== this._id) throw new Error;
+
+  for (var groups0 = this._groups, groups1 = transition._groups, m0 = groups0.length, m1 = groups1.length, m = Math.min(m0, m1), merges = new Array(m0), j = 0; j < m; ++j) {
+    for (var group0 = groups0[j], group1 = groups1[j], n = group0.length, merge = merges[j] = new Array(n), node, i = 0; i < n; ++i) {
+      if (node = group0[i] || group1[i]) {
+        merge[i] = node;
+      }
+    }
+  }
+
+  for (; j < m0; ++j) {
+    merges[j] = groups0[j];
+  }
+
+  return new Transition(merges, this._parents, this._name, this._id);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/transition/on.js
+
+
+function start(name) {
+  return (name + "").trim().split(/^|\s+/).every(function(t) {
+    var i = t.indexOf(".");
+    if (i >= 0) t = t.slice(0, i);
+    return !t || t === "start";
+  });
+}
+
+function onFunction(id, name, listener) {
+  var on0, on1, sit = start(name) ? init : schedule_set;
+  return function() {
+    var schedule = sit(this, id),
+        on = schedule.on;
+
+    // If this node shared a dispatch with the previous node,
+    // just assign the updated shared dispatch and we’re done!
+    // Otherwise, copy-on-write.
+    if (on !== on0) (on1 = (on0 = on).copy()).on(name, listener);
+
+    schedule.on = on1;
+  };
+}
+
+/* harmony default export */ function transition_on(name, listener) {
+  var id = this._id;
+
+  return arguments.length < 2
+      ? schedule_get(this.node(), id).on.on(name)
+      : this.each(onFunction(id, name, listener));
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/transition/remove.js
+function removeFunction(id) {
+  return function() {
+    var parent = this.parentNode;
+    for (var i in this.__transition) if (+i !== id) return;
+    if (parent) parent.removeChild(this);
+  };
+}
+
+/* harmony default export */ function transition_remove() {
+  return this.on("end.remove", removeFunction(this._id));
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/transition/select.js
+
+
+
+
+/* harmony default export */ function transition_select(select) {
+  var name = this._name,
+      id = this._id;
+
+  if (typeof select !== "function") select = selector(select);
+
+  for (var groups = this._groups, m = groups.length, subgroups = new Array(m), j = 0; j < m; ++j) {
+    for (var group = groups[j], n = group.length, subgroup = subgroups[j] = new Array(n), node, subnode, i = 0; i < n; ++i) {
+      if ((node = group[i]) && (subnode = select.call(node, node.__data__, i, group))) {
+        if ("__data__" in node) subnode.__data__ = node.__data__;
+        subgroup[i] = subnode;
+        schedule(subgroup[i], name, id, i, subgroup, schedule_get(node, id));
+      }
+    }
+  }
+
+  return new Transition(subgroups, this._parents, name, id);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/transition/selectAll.js
+
+
+
+
+/* harmony default export */ function transition_selectAll(select) {
+  var name = this._name,
+      id = this._id;
+
+  if (typeof select !== "function") select = selectorAll(select);
+
+  for (var groups = this._groups, m = groups.length, subgroups = [], parents = [], j = 0; j < m; ++j) {
+    for (var group = groups[j], n = group.length, node, i = 0; i < n; ++i) {
+      if (node = group[i]) {
+        for (var children = select.call(node, node.__data__, i, group), child, inherit = schedule_get(node, id), k = 0, l = children.length; k < l; ++k) {
+          if (child = children[k]) {
+            schedule(child, name, id, k, children, inherit);
+          }
+        }
+        subgroups.push(children);
+        parents.push(node);
+      }
+    }
+  }
+
+  return new Transition(subgroups, parents, name, id);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/transition/selection.js
+
+
+var selection_Selection = src_selection.prototype.constructor;
+
+/* harmony default export */ function transition_selection() {
+  return new selection_Selection(this._groups, this._parents);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/transition/style.js
+
+
+
+
+
+
+function styleNull(name, interpolate) {
+  var string00,
+      string10,
+      interpolate0;
+  return function() {
+    var string0 = styleValue(this, name),
+        string1 = (this.style.removeProperty(name), styleValue(this, name));
+    return string0 === string1 ? null
+        : string0 === string00 && string1 === string10 ? interpolate0
+        : interpolate0 = interpolate(string00 = string0, string10 = string1);
+  };
+}
+
+function style_styleRemove(name) {
+  return function() {
+    this.style.removeProperty(name);
+  };
+}
+
+function style_styleConstant(name, interpolate, value1) {
+  var string00,
+      string1 = value1 + "",
+      interpolate0;
+  return function() {
+    var string0 = styleValue(this, name);
+    return string0 === string1 ? null
+        : string0 === string00 ? interpolate0
+        : interpolate0 = interpolate(string00 = string0, value1);
+  };
+}
+
+function style_styleFunction(name, interpolate, value) {
+  var string00,
+      string10,
+      interpolate0;
+  return function() {
+    var string0 = styleValue(this, name),
+        value1 = value(this),
+        string1 = value1 + "";
+    if (value1 == null) string1 = value1 = (this.style.removeProperty(name), styleValue(this, name));
+    return string0 === string1 ? null
+        : string0 === string00 && string1 === string10 ? interpolate0
+        : (string10 = string1, interpolate0 = interpolate(string00 = string0, value1));
+  };
+}
+
+function styleMaybeRemove(id, name) {
+  var on0, on1, listener0, key = "style." + name, event = "end." + key, remove;
+  return function() {
+    var schedule = schedule_set(this, id),
+        on = schedule.on,
+        listener = schedule.value[key] == null ? remove || (remove = style_styleRemove(name)) : undefined;
+
+    // If this node shared a dispatch with the previous node,
+    // just assign the updated shared dispatch and we’re done!
+    // Otherwise, copy-on-write.
+    if (on !== on0 || listener0 !== listener) (on1 = (on0 = on).copy()).on(event, listener0 = listener);
+
+    schedule.on = on1;
+  };
+}
+
+/* harmony default export */ function transition_style(name, value, priority) {
+  var i = (name += "") === "transform" ? interpolateTransformCss : transition_interpolate;
+  return value == null ? this
+      .styleTween(name, styleNull(name, i))
+      .on("end.style." + name, style_styleRemove(name))
+    : typeof value === "function" ? this
+      .styleTween(name, style_styleFunction(name, i, tweenValue(this, "style." + name, value)))
+      .each(styleMaybeRemove(this._id, name))
+    : this
+      .styleTween(name, style_styleConstant(name, i, value), priority)
+      .on("end.style." + name, null);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/transition/styleTween.js
+function styleInterpolate(name, i, priority) {
+  return function(t) {
+    this.style.setProperty(name, i.call(this, t), priority);
+  };
+}
+
+function styleTween(name, value, priority) {
+  var t, i0;
+  function tween() {
+    var i = value.apply(this, arguments);
+    if (i !== i0) t = (i0 = i) && styleInterpolate(name, i, priority);
+    return t;
+  }
+  tween._value = value;
+  return tween;
+}
+
+/* harmony default export */ function transition_styleTween(name, value, priority) {
+  var key = "style." + (name += "");
+  if (arguments.length < 2) return (key = this.tween(key)) && key._value;
+  if (value == null) return this.tween(key, null);
+  if (typeof value !== "function") throw new Error;
+  return this.tween(key, styleTween(name, value, priority == null ? "" : priority));
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/transition/text.js
+
+
+function text_textConstant(value) {
+  return function() {
+    this.textContent = value;
+  };
+}
+
+function text_textFunction(value) {
+  return function() {
+    var value1 = value(this);
+    this.textContent = value1 == null ? "" : value1;
+  };
+}
+
+/* harmony default export */ function transition_text(value) {
+  return this.tween("text", typeof value === "function"
+      ? text_textFunction(tweenValue(this, "text", value))
+      : text_textConstant(value == null ? "" : value + ""));
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/transition/textTween.js
+function textInterpolate(i) {
+  return function(t) {
+    this.textContent = i.call(this, t);
+  };
+}
+
+function textTween(value) {
+  var t0, i0;
+  function tween() {
+    var i = value.apply(this, arguments);
+    if (i !== i0) t0 = (i0 = i) && textInterpolate(i);
+    return t0;
+  }
+  tween._value = value;
+  return tween;
+}
+
+/* harmony default export */ function transition_textTween(value) {
+  var key = "text";
+  if (arguments.length < 1) return (key = this.tween(key)) && key._value;
+  if (value == null) return this.tween(key, null);
+  if (typeof value !== "function") throw new Error;
+  return this.tween(key, textTween(value));
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/transition/transition.js
+
+
+
+/* harmony default export */ function transition() {
+  var name = this._name,
+      id0 = this._id,
+      id1 = newId();
+
+  for (var groups = this._groups, m = groups.length, j = 0; j < m; ++j) {
+    for (var group = groups[j], n = group.length, node, i = 0; i < n; ++i) {
+      if (node = group[i]) {
+        var inherit = schedule_get(node, id0);
+        schedule(node, name, id1, i, group, {
+          time: inherit.time + inherit.delay + inherit.duration,
+          delay: 0,
+          duration: inherit.duration,
+          ease: inherit.ease
+        });
+      }
+    }
+  }
+
+  return new Transition(groups, this._parents, name, id1);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/transition/end.js
+
+
+/* harmony default export */ function end() {
+  var on0, on1, that = this, id = that._id, size = that.size();
+  return new Promise(function(resolve, reject) {
+    var cancel = {value: reject},
+        end = {value: function() { if (--size === 0) resolve(); }};
+
+    that.each(function() {
+      var schedule = schedule_set(this, id),
+          on = schedule.on;
+
+      // If this node shared a dispatch with the previous node,
+      // just assign the updated shared dispatch and we’re done!
+      // Otherwise, copy-on-write.
+      if (on !== on0) {
+        on1 = (on0 = on).copy();
+        on1._.cancel.push(cancel);
+        on1._.interrupt.push(cancel);
+        on1._.end.push(end);
+      }
+
+      schedule.on = on1;
+    });
+
+    // The selection was empty, resolve end immediately
+    if (size === 0) resolve();
+  });
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/transition/index.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var id = 0;
+
+function Transition(groups, parents, name, id) {
+  this._groups = groups;
+  this._parents = parents;
+  this._name = name;
+  this._id = id;
+}
+
+function transition_transition(name) {
+  return src_selection().transition(name);
+}
+
+function newId() {
+  return ++id;
+}
+
+var selection_prototype = src_selection.prototype;
+
+Transition.prototype = transition_transition.prototype = {
+  constructor: Transition,
+  select: transition_select,
+  selectAll: transition_selectAll,
+  selectChild: selection_prototype.selectChild,
+  selectChildren: selection_prototype.selectChildren,
+  filter: transition_filter,
+  merge: transition_merge,
+  selection: transition_selection,
+  transition: transition,
+  call: selection_prototype.call,
+  nodes: selection_prototype.nodes,
+  node: selection_prototype.node,
+  size: selection_prototype.size,
+  empty: selection_prototype.empty,
+  each: selection_prototype.each,
+  on: transition_on,
+  attr: transition_attr,
+  attrTween: transition_attrTween,
+  style: transition_style,
+  styleTween: transition_styleTween,
+  text: transition_text,
+  textTween: transition_textTween,
+  remove: transition_remove,
+  tween: tween,
+  delay: delay,
+  duration: duration,
+  ease: ease,
+  easeVarying: transition_easeVarying,
+  end: end,
+  [Symbol.iterator]: selection_prototype[Symbol.iterator]
+};
+
+;// CONCATENATED MODULE: ./node_modules/d3-ease/src/cubic.js
+function cubicIn(t) {
+  return t * t * t;
+}
+
+function cubicOut(t) {
+  return --t * t * t + 1;
+}
+
+function cubicInOut(t) {
+  return ((t *= 2) <= 1 ? t * t * t : (t -= 2) * t * t + 2) / 2;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/selection/transition.js
+
+
+
+
+
+var defaultTiming = {
+  time: null, // Set on use.
+  delay: 0,
+  duration: 250,
+  ease: cubicInOut
+};
+
+function inherit(node, id) {
+  var timing;
+  while (!(timing = node.__transition) || !(timing = timing[id])) {
+    if (!(node = node.parentNode)) {
+      throw new Error(`transition ${id} not found`);
+    }
+  }
+  return timing;
+}
+
+/* harmony default export */ function selection_transition(name) {
+  var id,
+      timing;
+
+  if (name instanceof Transition) {
+    id = name._id, name = name._name;
+  } else {
+    id = newId(), (timing = defaultTiming).time = now(), name = name == null ? null : name + "";
+  }
+
+  for (var groups = this._groups, m = groups.length, j = 0; j < m; ++j) {
+    for (var group = groups[j], n = group.length, node, i = 0; i < n; ++i) {
+      if (node = group[i]) {
+        schedule(node, name, id, i, group, timing || inherit(node, id));
+      }
+    }
+  }
+
+  return new Transition(groups, this._parents, name, id);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/selection/index.js
+
+
+
+
+src_selection.prototype.interrupt = selection_interrupt;
+src_selection.prototype.transition = selection_transition;
+
+;// CONCATENATED MODULE: ./node_modules/d3-transition/src/index.js
+
+
+
+
+
+;// CONCATENATED MODULE: ./node_modules/d3-brush/src/brush.js
+
+
+
+
+
+
+
+
+
+var MODE_DRAG = {name: "drag"},
+    MODE_SPACE = {name: "space"},
+    MODE_HANDLE = {name: "handle"},
+    MODE_CENTER = {name: "center"};
+
+const {abs, max: brush_max, min: brush_min} = Math;
+
+function number1(e) {
+  return [+e[0], +e[1]];
+}
+
+function number2(e) {
+  return [number1(e[0]), number1(e[1])];
+}
+
+var X = {
+  name: "x",
+  handles: ["w", "e"].map(type),
+  input: function(x, e) { return x == null ? null : [[+x[0], e[0][1]], [+x[1], e[1][1]]]; },
+  output: function(xy) { return xy && [xy[0][0], xy[1][0]]; }
+};
+
+var Y = {
+  name: "y",
+  handles: ["n", "s"].map(type),
+  input: function(y, e) { return y == null ? null : [[e[0][0], +y[0]], [e[1][0], +y[1]]]; },
+  output: function(xy) { return xy && [xy[0][1], xy[1][1]]; }
+};
+
+var XY = {
+  name: "xy",
+  handles: ["n", "w", "e", "s", "nw", "ne", "sw", "se"].map(type),
+  input: function(xy) { return xy == null ? null : number2(xy); },
+  output: function(xy) { return xy; }
+};
+
+var cursors = {
+  overlay: "crosshair",
+  selection: "move",
+  n: "ns-resize",
+  e: "ew-resize",
+  s: "ns-resize",
+  w: "ew-resize",
+  nw: "nwse-resize",
+  ne: "nesw-resize",
+  se: "nwse-resize",
+  sw: "nesw-resize"
+};
+
+var flipX = {
+  e: "w",
+  w: "e",
+  nw: "ne",
+  ne: "nw",
+  se: "sw",
+  sw: "se"
+};
+
+var flipY = {
+  n: "s",
+  s: "n",
+  nw: "sw",
+  ne: "se",
+  se: "ne",
+  sw: "nw"
+};
+
+var signsX = {
+  overlay: +1,
+  selection: +1,
+  n: null,
+  e: +1,
+  s: null,
+  w: -1,
+  nw: -1,
+  ne: +1,
+  se: +1,
+  sw: -1
+};
+
+var signsY = {
+  overlay: +1,
+  selection: +1,
+  n: -1,
+  e: null,
+  s: +1,
+  w: null,
+  nw: -1,
+  ne: -1,
+  se: +1,
+  sw: +1
+};
+
+function type(t) {
+  return {type: t};
+}
+
+// Ignore right-click, since that should open the context menu.
+function defaultFilter(event) {
+  return !event.ctrlKey && !event.button;
+}
+
+function defaultExtent() {
+  var svg = this.ownerSVGElement || this;
+  if (svg.hasAttribute("viewBox")) {
+    svg = svg.viewBox.baseVal;
+    return [[svg.x, svg.y], [svg.x + svg.width, svg.y + svg.height]];
+  }
+  return [[0, 0], [svg.width.baseVal.value, svg.height.baseVal.value]];
+}
+
+function defaultTouchable() {
+  return navigator.maxTouchPoints || ("ontouchstart" in this);
+}
+
+// Like d3.local, but with the name “__brush” rather than auto-generated.
+function local(node) {
+  while (!node.__brush) if (!(node = node.parentNode)) return;
+  return node.__brush;
+}
+
+function brush_empty(extent) {
+  return extent[0][0] === extent[1][0]
+      || extent[0][1] === extent[1][1];
+}
+
+function brushSelection(node) {
+  var state = node.__brush;
+  return state ? state.dim.output(state.selection) : null;
+}
+
+function brushX() {
+  return brush_brush(X);
+}
+
+function brushY() {
+  return brush_brush(Y);
+}
+
+/* harmony default export */ function brush() {
+  return brush_brush(XY);
+}
+
+function brush_brush(dim) {
+  var extent = defaultExtent,
+      filter = defaultFilter,
+      touchable = defaultTouchable,
+      keys = true,
+      listeners = dispatch("start", "brush", "end"),
+      handleSize = 6,
+      touchending;
+
+  function brush(group) {
+    var overlay = group
+        .property("__brush", initialize)
+      .selectAll(".overlay")
+      .data([type("overlay")]);
+
+    overlay.enter().append("rect")
+        .attr("class", "overlay")
+        .attr("pointer-events", "all")
+        .attr("cursor", cursors.overlay)
+      .merge(overlay)
+        .each(function() {
+          var extent = local(this).extent;
+          select(this)
+              .attr("x", extent[0][0])
+              .attr("y", extent[0][1])
+              .attr("width", extent[1][0] - extent[0][0])
+              .attr("height", extent[1][1] - extent[0][1]);
+        });
+
+    group.selectAll(".selection")
+      .data([type("selection")])
+      .enter().append("rect")
+        .attr("class", "selection")
+        .attr("cursor", cursors.selection)
+        .attr("fill", "#777")
+        .attr("fill-opacity", 0.3)
+        .attr("stroke", "#fff")
+        .attr("shape-rendering", "crispEdges");
+
+    var handle = group.selectAll(".handle")
+      .data(dim.handles, function(d) { return d.type; });
+
+    handle.exit().remove();
+
+    handle.enter().append("rect")
+        .attr("class", function(d) { return "handle handle--" + d.type; })
+        .attr("cursor", function(d) { return cursors[d.type]; });
+
+    group
+        .each(redraw)
+        .attr("fill", "none")
+        .attr("pointer-events", "all")
+        .on("mousedown.brush", started)
+      .filter(touchable)
+        .on("touchstart.brush", started)
+        .on("touchmove.brush", touchmoved)
+        .on("touchend.brush touchcancel.brush", touchended)
+        .style("touch-action", "none")
+        .style("-webkit-tap-highlight-color", "rgba(0,0,0,0)");
+  }
+
+  brush.move = function(group, selection, event) {
+    if (group.tween) {
+      group
+          .on("start.brush", function(event) { emitter(this, arguments).beforestart().start(event); })
+          .on("interrupt.brush end.brush", function(event) { emitter(this, arguments).end(event); })
+          .tween("brush", function() {
+            var that = this,
+                state = that.__brush,
+                emit = emitter(that, arguments),
+                selection0 = state.selection,
+                selection1 = dim.input(typeof selection === "function" ? selection.apply(this, arguments) : selection, state.extent),
+                i = interpolate(selection0, selection1);
+
+            function tween(t) {
+              state.selection = t === 1 && selection1 === null ? null : i(t);
+              redraw.call(that);
+              emit.brush();
+            }
+
+            return selection0 !== null && selection1 !== null ? tween : tween(1);
+          });
+    } else {
+      group
+          .each(function() {
+            var that = this,
+                args = arguments,
+                state = that.__brush,
+                selection1 = dim.input(typeof selection === "function" ? selection.apply(that, args) : selection, state.extent),
+                emit = emitter(that, args).beforestart();
+
+            interrupt(that);
+            state.selection = selection1 === null ? null : selection1;
+            redraw.call(that);
+            emit.start(event).brush(event).end(event);
+          });
+    }
+  };
+
+  brush.clear = function(group, event) {
+    brush.move(group, null, event);
+  };
+
+  function redraw() {
+    var group = select(this),
+        selection = local(this).selection;
+
+    if (selection) {
+      group.selectAll(".selection")
+          .style("display", null)
+          .attr("x", selection[0][0])
+          .attr("y", selection[0][1])
+          .attr("width", selection[1][0] - selection[0][0])
+          .attr("height", selection[1][1] - selection[0][1]);
+
+      group.selectAll(".handle")
+          .style("display", null)
+          .attr("x", function(d) { return d.type[d.type.length - 1] === "e" ? selection[1][0] - handleSize / 2 : selection[0][0] - handleSize / 2; })
+          .attr("y", function(d) { return d.type[0] === "s" ? selection[1][1] - handleSize / 2 : selection[0][1] - handleSize / 2; })
+          .attr("width", function(d) { return d.type === "n" || d.type === "s" ? selection[1][0] - selection[0][0] + handleSize : handleSize; })
+          .attr("height", function(d) { return d.type === "e" || d.type === "w" ? selection[1][1] - selection[0][1] + handleSize : handleSize; });
+    }
+
+    else {
+      group.selectAll(".selection,.handle")
+          .style("display", "none")
+          .attr("x", null)
+          .attr("y", null)
+          .attr("width", null)
+          .attr("height", null);
+    }
+  }
+
+  function emitter(that, args, clean) {
+    var emit = that.__brush.emitter;
+    return emit && (!clean || !emit.clean) ? emit : new Emitter(that, args, clean);
+  }
+
+  function Emitter(that, args, clean) {
+    this.that = that;
+    this.args = args;
+    this.state = that.__brush;
+    this.active = 0;
+    this.clean = clean;
+  }
+
+  Emitter.prototype = {
+    beforestart: function() {
+      if (++this.active === 1) this.state.emitter = this, this.starting = true;
+      return this;
+    },
+    start: function(event, mode) {
+      if (this.starting) this.starting = false, this.emit("start", event, mode);
+      else this.emit("brush", event);
+      return this;
+    },
+    brush: function(event, mode) {
+      this.emit("brush", event, mode);
+      return this;
+    },
+    end: function(event, mode) {
+      if (--this.active === 0) delete this.state.emitter, this.emit("end", event, mode);
+      return this;
+    },
+    emit: function(type, event, mode) {
+      var d = select(this.that).datum();
+      listeners.call(
+        type,
+        this.that,
+        new BrushEvent(type, {
+          sourceEvent: event,
+          target: brush,
+          selection: dim.output(this.state.selection),
+          mode,
+          dispatch: listeners
+        }),
+        d
+      );
+    }
+  };
+
+  function started(event) {
+    if (touchending && !event.touches) return;
+    if (!filter.apply(this, arguments)) return;
+
+    var that = this,
+        type = event.target.__data__.type,
+        mode = (keys && event.metaKey ? type = "overlay" : type) === "selection" ? MODE_DRAG : (keys && event.altKey ? MODE_CENTER : MODE_HANDLE),
+        signX = dim === Y ? null : signsX[type],
+        signY = dim === X ? null : signsY[type],
+        state = local(that),
+        extent = state.extent,
+        selection = state.selection,
+        W = extent[0][0], w0, w1,
+        N = extent[0][1], n0, n1,
+        E = extent[1][0], e0, e1,
+        S = extent[1][1], s0, s1,
+        dx = 0,
+        dy = 0,
+        moving,
+        shifting = signX && signY && keys && event.shiftKey,
+        lockX,
+        lockY,
+        points = Array.from(event.touches || [event], t => {
+          const i = t.identifier;
+          t = pointer(t, that);
+          t.point0 = t.slice();
+          t.identifier = i;
+          return t;
+        });
+
+    interrupt(that);
+    var emit = emitter(that, arguments, true).beforestart();
+
+    if (type === "overlay") {
+      if (selection) moving = true;
+      const pts = [points[0], points[1] || points[0]];
+      state.selection = selection = [[
+          w0 = dim === Y ? W : brush_min(pts[0][0], pts[1][0]),
+          n0 = dim === X ? N : brush_min(pts[0][1], pts[1][1])
+        ], [
+          e0 = dim === Y ? E : brush_max(pts[0][0], pts[1][0]),
+          s0 = dim === X ? S : brush_max(pts[0][1], pts[1][1])
+        ]];
+      if (points.length > 1) move(event);
+    } else {
+      w0 = selection[0][0];
+      n0 = selection[0][1];
+      e0 = selection[1][0];
+      s0 = selection[1][1];
+    }
+
+    w1 = w0;
+    n1 = n0;
+    e1 = e0;
+    s1 = s0;
+
+    var group = select(that)
+        .attr("pointer-events", "none");
+
+    var overlay = group.selectAll(".overlay")
+        .attr("cursor", cursors[type]);
+
+    if (event.touches) {
+      emit.moved = moved;
+      emit.ended = ended;
+    } else {
+      var view = select(event.view)
+          .on("mousemove.brush", moved, true)
+          .on("mouseup.brush", ended, true);
+      if (keys) view
+          .on("keydown.brush", keydowned, true)
+          .on("keyup.brush", keyupped, true)
+
+      dragDisable(event.view);
+    }
+
+    redraw.call(that);
+    emit.start(event, mode.name);
+
+    function moved(event) {
+      for (const p of event.changedTouches || [event]) {
+        for (const d of points)
+          if (d.identifier === p.identifier) d.cur = pointer(p, that);
+      }
+      if (shifting && !lockX && !lockY && points.length === 1) {
+        const point = points[0];
+        if (abs(point.cur[0] - point[0]) > abs(point.cur[1] - point[1]))
+          lockY = true;
+        else
+          lockX = true;
+      }
+      for (const point of points)
+        if (point.cur) point[0] = point.cur[0], point[1] = point.cur[1];
+      moving = true;
+      noevent(event);
+      move(event);
+    }
+
+    function move(event) {
+      const point = points[0], point0 = point.point0;
+      var t;
+
+      dx = point[0] - point0[0];
+      dy = point[1] - point0[1];
+
+      switch (mode) {
+        case MODE_SPACE:
+        case MODE_DRAG: {
+          if (signX) dx = brush_max(W - w0, brush_min(E - e0, dx)), w1 = w0 + dx, e1 = e0 + dx;
+          if (signY) dy = brush_max(N - n0, brush_min(S - s0, dy)), n1 = n0 + dy, s1 = s0 + dy;
+          break;
+        }
+        case MODE_HANDLE: {
+          if (points[1]) {
+            if (signX) w1 = brush_max(W, brush_min(E, points[0][0])), e1 = brush_max(W, brush_min(E, points[1][0])), signX = 1;
+            if (signY) n1 = brush_max(N, brush_min(S, points[0][1])), s1 = brush_max(N, brush_min(S, points[1][1])), signY = 1;
+          } else {
+            if (signX < 0) dx = brush_max(W - w0, brush_min(E - w0, dx)), w1 = w0 + dx, e1 = e0;
+            else if (signX > 0) dx = brush_max(W - e0, brush_min(E - e0, dx)), w1 = w0, e1 = e0 + dx;
+            if (signY < 0) dy = brush_max(N - n0, brush_min(S - n0, dy)), n1 = n0 + dy, s1 = s0;
+            else if (signY > 0) dy = brush_max(N - s0, brush_min(S - s0, dy)), n1 = n0, s1 = s0 + dy;
+          }
+          break;
+        }
+        case MODE_CENTER: {
+          if (signX) w1 = brush_max(W, brush_min(E, w0 - dx * signX)), e1 = brush_max(W, brush_min(E, e0 + dx * signX));
+          if (signY) n1 = brush_max(N, brush_min(S, n0 - dy * signY)), s1 = brush_max(N, brush_min(S, s0 + dy * signY));
+          break;
+        }
+      }
+
+      if (e1 < w1) {
+        signX *= -1;
+        t = w0, w0 = e0, e0 = t;
+        t = w1, w1 = e1, e1 = t;
+        if (type in flipX) overlay.attr("cursor", cursors[type = flipX[type]]);
+      }
+
+      if (s1 < n1) {
+        signY *= -1;
+        t = n0, n0 = s0, s0 = t;
+        t = n1, n1 = s1, s1 = t;
+        if (type in flipY) overlay.attr("cursor", cursors[type = flipY[type]]);
+      }
+
+      if (state.selection) selection = state.selection; // May be set by brush.move!
+      if (lockX) w1 = selection[0][0], e1 = selection[1][0];
+      if (lockY) n1 = selection[0][1], s1 = selection[1][1];
+
+      if (selection[0][0] !== w1
+          || selection[0][1] !== n1
+          || selection[1][0] !== e1
+          || selection[1][1] !== s1) {
+        state.selection = [[w1, n1], [e1, s1]];
+        redraw.call(that);
+        emit.brush(event, mode.name);
+      }
+    }
+
+    function ended(event) {
+      nopropagation(event);
+      if (event.touches) {
+        if (event.touches.length) return;
+        if (touchending) clearTimeout(touchending);
+        touchending = setTimeout(function() { touchending = null; }, 500); // Ghost clicks are delayed!
+      } else {
+        dragEnable(event.view, moving);
+        view.on("keydown.brush keyup.brush mousemove.brush mouseup.brush", null);
+      }
+      group.attr("pointer-events", "all");
+      overlay.attr("cursor", cursors.overlay);
+      if (state.selection) selection = state.selection; // May be set by brush.move (on start)!
+      if (brush_empty(selection)) state.selection = null, redraw.call(that);
+      emit.end(event, mode.name);
+    }
+
+    function keydowned(event) {
+      switch (event.keyCode) {
+        case 16: { // SHIFT
+          shifting = signX && signY;
+          break;
+        }
+        case 18: { // ALT
+          if (mode === MODE_HANDLE) {
+            if (signX) e0 = e1 - dx * signX, w0 = w1 + dx * signX;
+            if (signY) s0 = s1 - dy * signY, n0 = n1 + dy * signY;
+            mode = MODE_CENTER;
+            move(event);
+          }
+          break;
+        }
+        case 32: { // SPACE; takes priority over ALT
+          if (mode === MODE_HANDLE || mode === MODE_CENTER) {
+            if (signX < 0) e0 = e1 - dx; else if (signX > 0) w0 = w1 - dx;
+            if (signY < 0) s0 = s1 - dy; else if (signY > 0) n0 = n1 - dy;
+            mode = MODE_SPACE;
+            overlay.attr("cursor", cursors.selection);
+            move(event);
+          }
+          break;
+        }
+        default: return;
+      }
+      noevent(event);
+    }
+
+    function keyupped(event) {
+      switch (event.keyCode) {
+        case 16: { // SHIFT
+          if (shifting) {
+            lockX = lockY = shifting = false;
+            move(event);
+          }
+          break;
+        }
+        case 18: { // ALT
+          if (mode === MODE_CENTER) {
+            if (signX < 0) e0 = e1; else if (signX > 0) w0 = w1;
+            if (signY < 0) s0 = s1; else if (signY > 0) n0 = n1;
+            mode = MODE_HANDLE;
+            move(event);
+          }
+          break;
+        }
+        case 32: { // SPACE
+          if (mode === MODE_SPACE) {
+            if (event.altKey) {
+              if (signX) e0 = e1 - dx * signX, w0 = w1 + dx * signX;
+              if (signY) s0 = s1 - dy * signY, n0 = n1 + dy * signY;
+              mode = MODE_CENTER;
+            } else {
+              if (signX < 0) e0 = e1; else if (signX > 0) w0 = w1;
+              if (signY < 0) s0 = s1; else if (signY > 0) n0 = n1;
+              mode = MODE_HANDLE;
+            }
+            overlay.attr("cursor", cursors[type]);
+            move(event);
+          }
+          break;
+        }
+        default: return;
+      }
+      noevent(event);
+    }
+  }
+
+  function touchmoved(event) {
+    emitter(this, arguments).moved(event);
+  }
+
+  function touchended(event) {
+    emitter(this, arguments).ended(event);
+  }
+
+  function initialize() {
+    var state = this.__brush || {selection: null};
+    state.extent = number2(extent.apply(this, arguments));
+    state.dim = dim;
+    return state;
+  }
+
+  brush.extent = function(_) {
+    return arguments.length ? (extent = typeof _ === "function" ? _ : constant(number2(_)), brush) : extent;
+  };
+
+  brush.filter = function(_) {
+    return arguments.length ? (filter = typeof _ === "function" ? _ : constant(!!_), brush) : filter;
+  };
+
+  brush.touchable = function(_) {
+    return arguments.length ? (touchable = typeof _ === "function" ? _ : constant(!!_), brush) : touchable;
+  };
+
+  brush.handleSize = function(_) {
+    return arguments.length ? (handleSize = +_, brush) : handleSize;
+  };
+
+  brush.keyModifiers = function(_) {
+    return arguments.length ? (keys = !!_, brush) : keys;
+  };
+
+  brush.on = function() {
+    var value = listeners.on.apply(listeners, arguments);
+    return value === listeners ? brush : value;
+  };
+
+  return brush;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-brush/src/index.js
+
+
+;// CONCATENATED MODULE: ./node_modules/d3-array/src/ticks.js
+const e10 = Math.sqrt(50),
+    e5 = Math.sqrt(10),
+    e2 = Math.sqrt(2);
+
+function tickSpec(start, stop, count) {
+  const step = (stop - start) / Math.max(0, count),
+      power = Math.floor(Math.log10(step)),
+      error = step / Math.pow(10, power),
+      factor = error >= e10 ? 10 : error >= e5 ? 5 : error >= e2 ? 2 : 1;
+  let i1, i2, inc;
+  if (power < 0) {
+    inc = Math.pow(10, -power) / factor;
+    i1 = Math.round(start * inc);
+    i2 = Math.round(stop * inc);
+    if (i1 / inc < start) ++i1;
+    if (i2 / inc > stop) --i2;
+    inc = -inc;
+  } else {
+    inc = Math.pow(10, power) * factor;
+    i1 = Math.round(start / inc);
+    i2 = Math.round(stop / inc);
+    if (i1 * inc < start) ++i1;
+    if (i2 * inc > stop) --i2;
+  }
+  if (i2 < i1 && 0.5 <= count && count < 2) return tickSpec(start, stop, count * 2);
+  return [i1, i2, inc];
+}
+
+function ticks(start, stop, count) {
+  stop = +stop, start = +start, count = +count;
+  if (!(count > 0)) return [];
+  if (start === stop) return [start];
+  const reverse = stop < start, [i1, i2, inc] = reverse ? tickSpec(stop, start, count) : tickSpec(start, stop, count);
+  if (!(i2 >= i1)) return [];
+  const n = i2 - i1 + 1, ticks = new Array(n);
+  if (reverse) {
+    if (inc < 0) for (let i = 0; i < n; ++i) ticks[i] = (i2 - i) / -inc;
+    else for (let i = 0; i < n; ++i) ticks[i] = (i2 - i) * inc;
+  } else {
+    if (inc < 0) for (let i = 0; i < n; ++i) ticks[i] = (i1 + i) / -inc;
+    else for (let i = 0; i < n; ++i) ticks[i] = (i1 + i) * inc;
+  }
+  return ticks;
+}
+
+function tickIncrement(start, stop, count) {
+  stop = +stop, start = +start, count = +count;
+  return tickSpec(start, stop, count)[2];
+}
+
+function tickStep(start, stop, count) {
+  stop = +stop, start = +start, count = +count;
+  const reverse = stop < start, inc = reverse ? tickIncrement(stop, start, count) : tickIncrement(start, stop, count);
+  return (reverse ? -1 : 1) * (inc < 0 ? 1 / -inc : inc);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-array/src/ascending.js
+function ascending_ascending(a, b) {
+  return a == null || b == null ? NaN : a < b ? -1 : a > b ? 1 : a >= b ? 0 : NaN;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-array/src/descending.js
+function descending(a, b) {
+  return a == null || b == null ? NaN
+    : b < a ? -1
+    : b > a ? 1
+    : b >= a ? 0
+    : NaN;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-array/src/bisector.js
+
+
+
+function bisector(f) {
+  let compare1, compare2, delta;
+
+  // If an accessor is specified, promote it to a comparator. In this case we
+  // can test whether the search value is (self-) comparable. We can’t do this
+  // for a comparator (except for specific, known comparators) because we can’t
+  // tell if the comparator is symmetric, and an asymmetric comparator can’t be
+  // used to test whether a single value is comparable.
+  if (f.length !== 2) {
+    compare1 = ascending_ascending;
+    compare2 = (d, x) => ascending_ascending(f(d), x);
+    delta = (d, x) => f(d) - x;
+  } else {
+    compare1 = f === ascending_ascending || f === descending ? f : bisector_zero;
+    compare2 = f;
+    delta = f;
+  }
+
+  function left(a, x, lo = 0, hi = a.length) {
+    if (lo < hi) {
+      if (compare1(x, x) !== 0) return hi;
+      do {
+        const mid = (lo + hi) >>> 1;
+        if (compare2(a[mid], x) < 0) lo = mid + 1;
+        else hi = mid;
+      } while (lo < hi);
+    }
+    return lo;
+  }
+
+  function right(a, x, lo = 0, hi = a.length) {
+    if (lo < hi) {
+      if (compare1(x, x) !== 0) return hi;
+      do {
+        const mid = (lo + hi) >>> 1;
+        if (compare2(a[mid], x) <= 0) lo = mid + 1;
+        else hi = mid;
+      } while (lo < hi);
+    }
+    return lo;
+  }
+
+  function center(a, x, lo = 0, hi = a.length) {
+    const i = left(a, x, lo, hi - 1);
+    return i > lo && delta(a[i - 1], x) > -delta(a[i], x) ? i - 1 : i;
+  }
+
+  return {left, center, right};
+}
+
+function bisector_zero() {
+  return 0;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-array/src/number.js
+function number_number(x) {
+  return x === null ? NaN : +x;
+}
+
+function* number_numbers(values, valueof) {
+  if (valueof === undefined) {
+    for (let value of values) {
+      if (value != null && (value = +value) >= value) {
+        yield value;
+      }
+    }
+  } else {
+    let index = -1;
+    for (let value of values) {
+      if ((value = valueof(value, ++index, values)) != null && (value = +value) >= value) {
+        yield value;
+      }
+    }
+  }
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-array/src/bisect.js
+
+
+
+
+const ascendingBisect = bisector(ascending_ascending);
+const bisectRight = ascendingBisect.right;
+const bisectLeft = ascendingBisect.left;
+const bisectCenter = bisector(number_number).center;
+/* harmony default export */ var bisect = (bisectRight);
+
+;// CONCATENATED MODULE: ./node_modules/d3-interpolate/src/array.js
+
+
+
+/* harmony default export */ function src_array(a, b) {
+  return (isNumberArray(b) ? numberArray : genericArray)(a, b);
+}
+
+function genericArray(a, b) {
+  var nb = b ? b.length : 0,
+      na = a ? Math.min(nb, a.length) : 0,
+      x = new Array(na),
+      c = new Array(nb),
+      i;
+
+  for (i = 0; i < na; ++i) x[i] = value(a[i], b[i]);
+  for (; i < nb; ++i) c[i] = b[i];
+
+  return function(t) {
+    for (i = 0; i < na; ++i) c[i] = x[i](t);
+    return c;
+  };
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-interpolate/src/date.js
+/* harmony default export */ function date(a, b) {
+  var d = new Date;
+  return a = +a, b = +b, function(t) {
+    return d.setTime(a * (1 - t) + b * t), d;
+  };
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-interpolate/src/object.js
+
+
+/* harmony default export */ function object(a, b) {
+  var i = {},
+      c = {},
+      k;
+
+  if (a === null || typeof a !== "object") a = {};
+  if (b === null || typeof b !== "object") b = {};
+
+  for (k in b) {
+    if (k in a) {
+      i[k] = value(a[k], b[k]);
+    } else {
+      c[k] = b[k];
+    }
+  }
+
+  return function(t) {
+    for (k in i) c[k] = i[k](t);
+    return c;
+  };
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-interpolate/src/numberArray.js
+/* harmony default export */ function src_numberArray(a, b) {
+  if (!b) b = [];
+  var n = a ? Math.min(b.length, a.length) : 0,
+      c = b.slice(),
+      i;
+  return function(t) {
+    for (i = 0; i < n; ++i) c[i] = a[i] * (1 - t) + b[i] * t;
+    return c;
+  };
+}
+
+function numberArray_isNumberArray(x) {
+  return ArrayBuffer.isView(x) && !(x instanceof DataView);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-interpolate/src/value.js
+
+
+
+
+
+
+
+
+
+
+/* harmony default export */ function value(a, b) {
+  var t = typeof b, c;
+  return b == null || t === "boolean" ? d3_interpolate_src_constant(b)
+      : (t === "number" ? number
+      : t === "string" ? ((c = color(b)) ? (b = c, rgb) : string)
+      : b instanceof color ? rgb
+      : b instanceof Date ? date
+      : numberArray_isNumberArray(b) ? src_numberArray
+      : Array.isArray(b) ? genericArray
+      : typeof b.valueOf !== "function" && typeof b.toString !== "function" || isNaN(b) ? object
+      : number)(a, b);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-interpolate/src/round.js
+/* harmony default export */ function src_round(a, b) {
+  return a = +a, b = +b, function(t) {
+    return Math.round(a * (1 - t) + b * t);
+  };
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-scale/src/constant.js
+function constants(x) {
+  return function() {
+    return x;
+  };
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-scale/src/number.js
+function src_number_number(x) {
+  return +x;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-scale/src/continuous.js
+
+
+
+
+
+var unit = [0, 1];
+
+function continuous_identity(x) {
+  return x;
+}
+
+function continuous_normalize(a, b) {
+  return (b -= (a = +a))
+      ? function(x) { return (x - a) / b; }
+      : constants(isNaN(b) ? NaN : 0.5);
+}
+
+function clamper(a, b) {
+  var t;
+  if (a > b) t = a, a = b, b = t;
+  return function(x) { return Math.max(a, Math.min(b, x)); };
+}
+
+// normalize(a, b)(x) takes a domain value x in [a,b] and returns the corresponding parameter t in [0,1].
+// interpolate(a, b)(t) takes a parameter t in [0,1] and returns the corresponding range value x in [a,b].
+function bimap(domain, range, interpolate) {
+  var d0 = domain[0], d1 = domain[1], r0 = range[0], r1 = range[1];
+  if (d1 < d0) d0 = continuous_normalize(d1, d0), r0 = interpolate(r1, r0);
+  else d0 = continuous_normalize(d0, d1), r0 = interpolate(r0, r1);
+  return function(x) { return r0(d0(x)); };
+}
+
+function polymap(domain, range, interpolate) {
+  var j = Math.min(domain.length, range.length) - 1,
+      d = new Array(j),
+      r = new Array(j),
+      i = -1;
+
+  // Reverse descending domains.
+  if (domain[j] < domain[0]) {
+    domain = domain.slice().reverse();
+    range = range.slice().reverse();
+  }
+
+  while (++i < j) {
+    d[i] = continuous_normalize(domain[i], domain[i + 1]);
+    r[i] = interpolate(range[i], range[i + 1]);
+  }
+
+  return function(x) {
+    var i = bisect(domain, x, 1, j) - 1;
+    return r[i](d[i](x));
+  };
+}
+
+function copy(source, target) {
+  return target
+      .domain(source.domain())
+      .range(source.range())
+      .interpolate(source.interpolate())
+      .clamp(source.clamp())
+      .unknown(source.unknown());
+}
+
+function transformer() {
+  var domain = unit,
+      range = unit,
+      interpolate = value,
+      transform,
+      untransform,
+      unknown,
+      clamp = continuous_identity,
+      piecewise,
+      output,
+      input;
+
+  function rescale() {
+    var n = Math.min(domain.length, range.length);
+    if (clamp !== continuous_identity) clamp = clamper(domain[0], domain[n - 1]);
+    piecewise = n > 2 ? polymap : bimap;
+    output = input = null;
+    return scale;
+  }
+
+  function scale(x) {
+    return x == null || isNaN(x = +x) ? unknown : (output || (output = piecewise(domain.map(transform), range, interpolate)))(transform(clamp(x)));
+  }
+
+  scale.invert = function(y) {
+    return clamp(untransform((input || (input = piecewise(range, domain.map(transform), number)))(y)));
+  };
+
+  scale.domain = function(_) {
+    return arguments.length ? (domain = Array.from(_, src_number_number), rescale()) : domain.slice();
+  };
+
+  scale.range = function(_) {
+    return arguments.length ? (range = Array.from(_), rescale()) : range.slice();
+  };
+
+  scale.rangeRound = function(_) {
+    return range = Array.from(_), interpolate = src_round, rescale();
+  };
+
+  scale.clamp = function(_) {
+    return arguments.length ? (clamp = _ ? true : continuous_identity, rescale()) : clamp !== continuous_identity;
+  };
+
+  scale.interpolate = function(_) {
+    return arguments.length ? (interpolate = _, rescale()) : interpolate;
+  };
+
+  scale.unknown = function(_) {
+    return arguments.length ? (unknown = _, scale) : unknown;
+  };
+
+  return function(t, u) {
+    transform = t, untransform = u;
+    return rescale();
+  };
+}
+
+function continuous() {
+  return transformer()(continuous_identity, continuous_identity);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-scale/src/init.js
+function initRange(domain, range) {
+  switch (arguments.length) {
+    case 0: break;
+    case 1: this.range(domain); break;
+    default: this.range(range).domain(domain); break;
+  }
+  return this;
+}
+
+function initInterpolator(domain, interpolator) {
+  switch (arguments.length) {
+    case 0: break;
+    case 1: {
+      if (typeof domain === "function") this.interpolator(domain);
+      else this.range(domain);
+      break;
+    }
+    default: {
+      this.domain(domain);
+      if (typeof interpolator === "function") this.interpolator(interpolator);
+      else this.range(interpolator);
+      break;
+    }
+  }
+  return this;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-format/src/formatSpecifier.js
+// [[fill]align][sign][symbol][0][width][,][.precision][~][type]
+var re = /^(?:(.)?([<>=^]))?([+\-( ])?([$#])?(0)?(\d+)?(,)?(\.\d+)?(~)?([a-z%])?$/i;
+
+function formatSpecifier(specifier) {
+  if (!(match = re.exec(specifier))) throw new Error("invalid format: " + specifier);
+  var match;
+  return new FormatSpecifier({
+    fill: match[1],
+    align: match[2],
+    sign: match[3],
+    symbol: match[4],
+    zero: match[5],
+    width: match[6],
+    comma: match[7],
+    precision: match[8] && match[8].slice(1),
+    trim: match[9],
+    type: match[10]
+  });
+}
+
+formatSpecifier.prototype = FormatSpecifier.prototype; // instanceof
+
+function FormatSpecifier(specifier) {
+  this.fill = specifier.fill === undefined ? " " : specifier.fill + "";
+  this.align = specifier.align === undefined ? ">" : specifier.align + "";
+  this.sign = specifier.sign === undefined ? "-" : specifier.sign + "";
+  this.symbol = specifier.symbol === undefined ? "" : specifier.symbol + "";
+  this.zero = !!specifier.zero;
+  this.width = specifier.width === undefined ? undefined : +specifier.width;
+  this.comma = !!specifier.comma;
+  this.precision = specifier.precision === undefined ? undefined : +specifier.precision;
+  this.trim = !!specifier.trim;
+  this.type = specifier.type === undefined ? "" : specifier.type + "";
+}
+
+FormatSpecifier.prototype.toString = function() {
+  return this.fill
+      + this.align
+      + this.sign
+      + this.symbol
+      + (this.zero ? "0" : "")
+      + (this.width === undefined ? "" : Math.max(1, this.width | 0))
+      + (this.comma ? "," : "")
+      + (this.precision === undefined ? "" : "." + Math.max(0, this.precision | 0))
+      + (this.trim ? "~" : "")
+      + this.type;
+};
+
+;// CONCATENATED MODULE: ./node_modules/d3-format/src/formatDecimal.js
+/* harmony default export */ function formatDecimal(x) {
+  return Math.abs(x = Math.round(x)) >= 1e21
+      ? x.toLocaleString("en").replace(/,/g, "")
+      : x.toString(10);
+}
+
+// Computes the decimal coefficient and exponent of the specified number x with
+// significant digits p, where x is positive and p is in [1, 21] or undefined.
+// For example, formatDecimalParts(1.23) returns ["123", 0].
+function formatDecimalParts(x, p) {
+  if ((i = (x = p ? x.toExponential(p - 1) : x.toExponential()).indexOf("e")) < 0) return null; // NaN, ±Infinity
+  var i, coefficient = x.slice(0, i);
+
+  // The string returned by toExponential either has the form \d\.\d+e[-+]\d+
+  // (e.g., 1.2e+3) or the form \de[-+]\d+ (e.g., 1e+3).
+  return [
+    coefficient.length > 1 ? coefficient[0] + coefficient.slice(2) : coefficient,
+    +x.slice(i + 1)
+  ];
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-format/src/exponent.js
+
+
+/* harmony default export */ function exponent(x) {
+  return x = formatDecimalParts(Math.abs(x)), x ? x[1] : NaN;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-format/src/precisionPrefix.js
+
+
+/* harmony default export */ function precisionPrefix(step, value) {
+  return Math.max(0, Math.max(-8, Math.min(8, Math.floor(exponent(value) / 3))) * 3 - exponent(Math.abs(step)));
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-format/src/formatGroup.js
+/* harmony default export */ function formatGroup(grouping, thousands) {
+  return function(value, width) {
+    var i = value.length,
+        t = [],
+        j = 0,
+        g = grouping[0],
+        length = 0;
+
+    while (i > 0 && g > 0) {
+      if (length + g + 1 > width) g = Math.max(1, width - length);
+      t.push(value.substring(i -= g, i + g));
+      if ((length += g + 1) > width) break;
+      g = grouping[j = (j + 1) % grouping.length];
+    }
+
+    return t.reverse().join(thousands);
+  };
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-format/src/formatNumerals.js
+/* harmony default export */ function formatNumerals(numerals) {
+  return function(value) {
+    return value.replace(/[0-9]/g, function(i) {
+      return numerals[+i];
+    });
+  };
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-format/src/formatTrim.js
+// Trims insignificant zeros, e.g., replaces 1.2000k with 1.2k.
+/* harmony default export */ function formatTrim(s) {
+  out: for (var n = s.length, i = 1, i0 = -1, i1; i < n; ++i) {
+    switch (s[i]) {
+      case ".": i0 = i1 = i; break;
+      case "0": if (i0 === 0) i0 = i; i1 = i; break;
+      default: if (!+s[i]) break out; if (i0 > 0) i0 = 0; break;
+    }
+  }
+  return i0 > 0 ? s.slice(0, i0) + s.slice(i1 + 1) : s;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-format/src/formatPrefixAuto.js
+
+
+var prefixExponent;
+
+/* harmony default export */ function formatPrefixAuto(x, p) {
+  var d = formatDecimalParts(x, p);
+  if (!d) return x + "";
+  var coefficient = d[0],
+      exponent = d[1],
+      i = exponent - (prefixExponent = Math.max(-8, Math.min(8, Math.floor(exponent / 3))) * 3) + 1,
+      n = coefficient.length;
+  return i === n ? coefficient
+      : i > n ? coefficient + new Array(i - n + 1).join("0")
+      : i > 0 ? coefficient.slice(0, i) + "." + coefficient.slice(i)
+      : "0." + new Array(1 - i).join("0") + formatDecimalParts(x, Math.max(0, p + i - 1))[0]; // less than 1y!
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-format/src/formatRounded.js
+
+
+/* harmony default export */ function formatRounded(x, p) {
+  var d = formatDecimalParts(x, p);
+  if (!d) return x + "";
+  var coefficient = d[0],
+      exponent = d[1];
+  return exponent < 0 ? "0." + new Array(-exponent).join("0") + coefficient
+      : coefficient.length > exponent + 1 ? coefficient.slice(0, exponent + 1) + "." + coefficient.slice(exponent + 1)
+      : coefficient + new Array(exponent - coefficient.length + 2).join("0");
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-format/src/formatTypes.js
+
+
+
+
+/* harmony default export */ var formatTypes = ({
+  "%": (x, p) => (x * 100).toFixed(p),
+  "b": (x) => Math.round(x).toString(2),
+  "c": (x) => x + "",
+  "d": formatDecimal,
+  "e": (x, p) => x.toExponential(p),
+  "f": (x, p) => x.toFixed(p),
+  "g": (x, p) => x.toPrecision(p),
+  "o": (x) => Math.round(x).toString(8),
+  "p": (x, p) => formatRounded(x * 100, p),
+  "r": formatRounded,
+  "s": formatPrefixAuto,
+  "X": (x) => Math.round(x).toString(16).toUpperCase(),
+  "x": (x) => Math.round(x).toString(16)
+});
+
+;// CONCATENATED MODULE: ./node_modules/d3-format/src/identity.js
+/* harmony default export */ function src_identity(x) {
+  return x;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-format/src/locale.js
+
+
+
+
+
+
+
+
+
+var map = Array.prototype.map,
+    prefixes = ["y","z","a","f","p","n","µ","m","","k","M","G","T","P","E","Z","Y"];
+
+/* harmony default export */ function locale(locale) {
+  var group = locale.grouping === undefined || locale.thousands === undefined ? src_identity : formatGroup(map.call(locale.grouping, Number), locale.thousands + ""),
+      currencyPrefix = locale.currency === undefined ? "" : locale.currency[0] + "",
+      currencySuffix = locale.currency === undefined ? "" : locale.currency[1] + "",
+      decimal = locale.decimal === undefined ? "." : locale.decimal + "",
+      numerals = locale.numerals === undefined ? src_identity : formatNumerals(map.call(locale.numerals, String)),
+      percent = locale.percent === undefined ? "%" : locale.percent + "",
+      minus = locale.minus === undefined ? "−" : locale.minus + "",
+      nan = locale.nan === undefined ? "NaN" : locale.nan + "";
+
+  function newFormat(specifier) {
+    specifier = formatSpecifier(specifier);
+
+    var fill = specifier.fill,
+        align = specifier.align,
+        sign = specifier.sign,
+        symbol = specifier.symbol,
+        zero = specifier.zero,
+        width = specifier.width,
+        comma = specifier.comma,
+        precision = specifier.precision,
+        trim = specifier.trim,
+        type = specifier.type;
+
+    // The "n" type is an alias for ",g".
+    if (type === "n") comma = true, type = "g";
+
+    // The "" type, and any invalid type, is an alias for ".12~g".
+    else if (!formatTypes[type]) precision === undefined && (precision = 12), trim = true, type = "g";
+
+    // If zero fill is specified, padding goes after sign and before digits.
+    if (zero || (fill === "0" && align === "=")) zero = true, fill = "0", align = "=";
+
+    // Compute the prefix and suffix.
+    // For SI-prefix, the suffix is lazily computed.
+    var prefix = symbol === "$" ? currencyPrefix : symbol === "#" && /[boxX]/.test(type) ? "0" + type.toLowerCase() : "",
+        suffix = symbol === "$" ? currencySuffix : /[%p]/.test(type) ? percent : "";
+
+    // What format function should we use?
+    // Is this an integer type?
+    // Can this type generate exponential notation?
+    var formatType = formatTypes[type],
+        maybeSuffix = /[defgprs%]/.test(type);
+
+    // Set the default precision if not specified,
+    // or clamp the specified precision to the supported range.
+    // For significant precision, it must be in [1, 21].
+    // For fixed precision, it must be in [0, 20].
+    precision = precision === undefined ? 6
+        : /[gprs]/.test(type) ? Math.max(1, Math.min(21, precision))
+        : Math.max(0, Math.min(20, precision));
+
+    function format(value) {
+      var valuePrefix = prefix,
+          valueSuffix = suffix,
+          i, n, c;
+
+      if (type === "c") {
+        valueSuffix = formatType(value) + valueSuffix;
+        value = "";
+      } else {
+        value = +value;
+
+        // Determine the sign. -0 is not less than 0, but 1 / -0 is!
+        var valueNegative = value < 0 || 1 / value < 0;
+
+        // Perform the initial formatting.
+        value = isNaN(value) ? nan : formatType(Math.abs(value), precision);
+
+        // Trim insignificant zeros.
+        if (trim) value = formatTrim(value);
+
+        // If a negative value rounds to zero after formatting, and no explicit positive sign is requested, hide the sign.
+        if (valueNegative && +value === 0 && sign !== "+") valueNegative = false;
+
+        // Compute the prefix and suffix.
+        valuePrefix = (valueNegative ? (sign === "(" ? sign : minus) : sign === "-" || sign === "(" ? "" : sign) + valuePrefix;
+        valueSuffix = (type === "s" ? prefixes[8 + prefixExponent / 3] : "") + valueSuffix + (valueNegative && sign === "(" ? ")" : "");
+
+        // Break the formatted value into the integer “value” part that can be
+        // grouped, and fractional or exponential “suffix” part that is not.
+        if (maybeSuffix) {
+          i = -1, n = value.length;
+          while (++i < n) {
+            if (c = value.charCodeAt(i), 48 > c || c > 57) {
+              valueSuffix = (c === 46 ? decimal + value.slice(i + 1) : value.slice(i)) + valueSuffix;
+              value = value.slice(0, i);
+              break;
+            }
+          }
+        }
+      }
+
+      // If the fill character is not "0", grouping is applied before padding.
+      if (comma && !zero) value = group(value, Infinity);
+
+      // Compute the padding.
+      var length = valuePrefix.length + value.length + valueSuffix.length,
+          padding = length < width ? new Array(width - length + 1).join(fill) : "";
+
+      // If the fill character is "0", grouping is applied after padding.
+      if (comma && zero) value = group(padding + value, padding.length ? width - valueSuffix.length : Infinity), padding = "";
+
+      // Reconstruct the final output based on the desired alignment.
+      switch (align) {
+        case "<": value = valuePrefix + value + valueSuffix + padding; break;
+        case "=": value = valuePrefix + padding + value + valueSuffix; break;
+        case "^": value = padding.slice(0, length = padding.length >> 1) + valuePrefix + value + valueSuffix + padding.slice(length); break;
+        default: value = padding + valuePrefix + value + valueSuffix; break;
+      }
+
+      return numerals(value);
+    }
+
+    format.toString = function() {
+      return specifier + "";
+    };
+
+    return format;
+  }
+
+  function formatPrefix(specifier, value) {
+    var f = newFormat((specifier = formatSpecifier(specifier), specifier.type = "f", specifier)),
+        e = Math.max(-8, Math.min(8, Math.floor(exponent(value) / 3))) * 3,
+        k = Math.pow(10, -e),
+        prefix = prefixes[8 + e / 3];
+    return function(value) {
+      return f(k * value) + prefix;
+    };
+  }
+
+  return {
+    format: newFormat,
+    formatPrefix: formatPrefix
+  };
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-format/src/defaultLocale.js
+
+
+var defaultLocale_locale;
+var defaultLocale_format;
+var formatPrefix;
+
+defaultLocale({
+  thousands: ",",
+  grouping: [3],
+  currency: ["$", ""]
+});
+
+function defaultLocale(definition) {
+  defaultLocale_locale = locale(definition);
+  defaultLocale_format = defaultLocale_locale.format;
+  formatPrefix = defaultLocale_locale.formatPrefix;
+  return defaultLocale_locale;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-format/src/precisionRound.js
+
+
+/* harmony default export */ function precisionRound(step, max) {
+  step = Math.abs(step), max = Math.abs(max) - step;
+  return Math.max(0, exponent(max) - exponent(step)) + 1;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-format/src/precisionFixed.js
+
+
+/* harmony default export */ function precisionFixed(step) {
+  return Math.max(0, -exponent(Math.abs(step)));
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-scale/src/tickFormat.js
+
+
+
+function tickFormat(start, stop, count, specifier) {
+  var step = tickStep(start, stop, count),
+      precision;
+  specifier = formatSpecifier(specifier == null ? ",f" : specifier);
+  switch (specifier.type) {
+    case "s": {
+      var value = Math.max(Math.abs(start), Math.abs(stop));
+      if (specifier.precision == null && !isNaN(precision = precisionPrefix(step, value))) specifier.precision = precision;
+      return formatPrefix(specifier, value);
+    }
+    case "":
+    case "e":
+    case "g":
+    case "p":
+    case "r": {
+      if (specifier.precision == null && !isNaN(precision = precisionRound(step, Math.max(Math.abs(start), Math.abs(stop))))) specifier.precision = precision - (specifier.type === "e");
+      break;
+    }
+    case "f":
+    case "%": {
+      if (specifier.precision == null && !isNaN(precision = precisionFixed(step))) specifier.precision = precision - (specifier.type === "%") * 2;
+      break;
+    }
+  }
+  return defaultLocale_format(specifier);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-scale/src/linear.js
+
+
+
+
+
+function linearish(scale) {
+  var domain = scale.domain;
+
+  scale.ticks = function(count) {
+    var d = domain();
+    return ticks(d[0], d[d.length - 1], count == null ? 10 : count);
+  };
+
+  scale.tickFormat = function(count, specifier) {
+    var d = domain();
+    return tickFormat(d[0], d[d.length - 1], count == null ? 10 : count, specifier);
+  };
+
+  scale.nice = function(count) {
+    if (count == null) count = 10;
+
+    var d = domain();
+    var i0 = 0;
+    var i1 = d.length - 1;
+    var start = d[i0];
+    var stop = d[i1];
+    var prestep;
+    var step;
+    var maxIter = 10;
+
+    if (stop < start) {
+      step = start, start = stop, stop = step;
+      step = i0, i0 = i1, i1 = step;
+    }
+    
+    while (maxIter-- > 0) {
+      step = tickIncrement(start, stop, count);
+      if (step === prestep) {
+        d[i0] = start
+        d[i1] = stop
+        return domain(d);
+      } else if (step > 0) {
+        start = Math.floor(start / step) * step;
+        stop = Math.ceil(stop / step) * step;
+      } else if (step < 0) {
+        start = Math.ceil(start * step) / step;
+        stop = Math.floor(stop * step) / step;
+      } else {
+        break;
+      }
+      prestep = step;
+    }
+
+    return scale;
+  };
+
+  return scale;
+}
+
+function linear_linear() {
+  var scale = continuous();
+
+  scale.copy = function() {
+    return copy(scale, linear_linear());
+  };
+
+  initRange.apply(scale, arguments);
+
+  return linearish(scale);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-array/src/quantile.js
+
+
+
+
+
+
+
+
+
+function quantile(values, p, valueof) {
+  values = Float64Array.from(numbers(values, valueof));
+  if (!(n = values.length) || isNaN(p = +p)) return;
+  if (p <= 0 || n < 2) return min(values);
+  if (p >= 1) return max(values);
+  var n,
+      i = (n - 1) * p,
+      i0 = Math.floor(i),
+      value0 = max(quickselect(values, i0).subarray(0, i0 + 1)),
+      value1 = min(values.subarray(i0 + 1));
+  return value0 + (value1 - value0) * (i - i0);
+}
+
+function quantileSorted(values, p, valueof = number_number) {
+  if (!(n = values.length) || isNaN(p = +p)) return;
+  if (p <= 0 || n < 2) return +valueof(values[0], 0, values);
+  if (p >= 1) return +valueof(values[n - 1], n - 1, values);
+  var n,
+      i = (n - 1) * p,
+      i0 = Math.floor(i),
+      value0 = +valueof(values[i0], i0, values),
+      value1 = +valueof(values[i0 + 1], i0 + 1, values);
+  return value0 + (value1 - value0) * (i - i0);
+}
+
+function quantileIndex(values, p, valueof) {
+  values = Float64Array.from(numbers(values, valueof));
+  if (!(n = values.length) || isNaN(p = +p)) return;
+  if (p <= 0 || n < 2) return minIndex(values);
+  if (p >= 1) return maxIndex(values);
+  var n,
+      i = Math.floor((n - 1) * p),
+      order = (i, j) => ascendingDefined(values[i], values[j]),
+      index = quickselect(Uint32Array.from(values, (_, i) => i), i, 0, n - 1, order);
+  return greatest(index.subarray(0, i + 1), i => values[i]);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-scale/src/quantile.js
+
+
+
+function quantile_quantile() {
+  var domain = [],
+      range = [],
+      thresholds = [],
+      unknown;
+
+  function rescale() {
+    var i = 0, n = Math.max(1, range.length);
+    thresholds = new Array(n - 1);
+    while (++i < n) thresholds[i - 1] = quantileSorted(domain, i / n);
+    return scale;
+  }
+
+  function scale(x) {
+    return x == null || isNaN(x = +x) ? unknown : range[bisect(thresholds, x)];
+  }
+
+  scale.invertExtent = function(y) {
+    var i = range.indexOf(y);
+    return i < 0 ? [NaN, NaN] : [
+      i > 0 ? thresholds[i - 1] : domain[0],
+      i < thresholds.length ? thresholds[i] : domain[domain.length - 1]
+    ];
+  };
+
+  scale.domain = function(_) {
+    if (!arguments.length) return domain.slice();
+    domain = [];
+    for (let d of _) if (d != null && !isNaN(d = +d)) domain.push(d);
+    domain.sort(ascending_ascending);
+    return rescale();
+  };
+
+  scale.range = function(_) {
+    return arguments.length ? (range = Array.from(_), rescale()) : range.slice();
+  };
+
+  scale.unknown = function(_) {
+    return arguments.length ? (unknown = _, scale) : unknown;
+  };
+
+  scale.quantiles = function() {
+    return thresholds.slice();
+  };
+
+  scale.copy = function() {
+    return quantile_quantile()
+        .domain(domain)
+        .range(range)
+        .unknown(unknown);
+  };
+
+  return initRange.apply(scale, arguments);
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-scale/src/index.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;// CONCATENATED MODULE: ./node_modules/d3-zoom/src/transform.js
+function transform_Transform(k, x, y) {
+  this.k = k;
+  this.x = x;
+  this.y = y;
+}
+
+transform_Transform.prototype = {
+  constructor: transform_Transform,
+  scale: function(k) {
+    return k === 1 ? this : new transform_Transform(this.k * k, this.x, this.y);
+  },
+  translate: function(x, y) {
+    return x === 0 & y === 0 ? this : new transform_Transform(this.k, this.x + this.k * x, this.y + this.k * y);
+  },
+  apply: function(point) {
+    return [point[0] * this.k + this.x, point[1] * this.k + this.y];
+  },
+  applyX: function(x) {
+    return x * this.k + this.x;
+  },
+  applyY: function(y) {
+    return y * this.k + this.y;
+  },
+  invert: function(location) {
+    return [(location[0] - this.x) / this.k, (location[1] - this.y) / this.k];
+  },
+  invertX: function(x) {
+    return (x - this.x) / this.k;
+  },
+  invertY: function(y) {
+    return (y - this.y) / this.k;
+  },
+  rescaleX: function(x) {
+    return x.copy().domain(x.range().map(this.invertX, this).map(x.invert, x));
+  },
+  rescaleY: function(y) {
+    return y.copy().domain(y.range().map(this.invertY, this).map(y.invert, y));
+  },
+  toString: function() {
+    return "translate(" + this.x + "," + this.y + ") scale(" + this.k + ")";
+  }
+};
+
+var transform_identity = new transform_Transform(1, 0, 0);
+
+transform_transform.prototype = transform_Transform.prototype;
+
+function transform_transform(node) {
+  while (!node.__zoom) if (!(node = node.parentNode)) return transform_identity;
+  return node.__zoom;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-zoom/src/zoom.js
+
+
+
+
+
+
+
+
+
+
+// Ignore right-click, since that should open the context menu.
+// except for pinch-to-zoom, which is sent as a wheel+ctrlKey event
+function zoom_defaultFilter(event) {
+  return (!event.ctrlKey || event.type === 'wheel') && !event.button;
+}
+
+function zoom_defaultExtent() {
+  var e = this;
+  if (e instanceof SVGElement) {
+    e = e.ownerSVGElement || e;
+    if (e.hasAttribute("viewBox")) {
+      e = e.viewBox.baseVal;
+      return [[e.x, e.y], [e.x + e.width, e.y + e.height]];
+    }
+    return [[0, 0], [e.width.baseVal.value, e.height.baseVal.value]];
+  }
+  return [[0, 0], [e.clientWidth, e.clientHeight]];
+}
+
+function defaultTransform() {
+  return this.__zoom || identity;
+}
+
+function defaultWheelDelta(event) {
+  return -event.deltaY * (event.deltaMode === 1 ? 0.05 : event.deltaMode ? 1 : 0.002) * (event.ctrlKey ? 10 : 1);
+}
+
+function zoom_defaultTouchable() {
+  return navigator.maxTouchPoints || ("ontouchstart" in this);
+}
+
+function defaultConstrain(transform, extent, translateExtent) {
+  var dx0 = transform.invertX(extent[0][0]) - translateExtent[0][0],
+      dx1 = transform.invertX(extent[1][0]) - translateExtent[1][0],
+      dy0 = transform.invertY(extent[0][1]) - translateExtent[0][1],
+      dy1 = transform.invertY(extent[1][1]) - translateExtent[1][1];
+  return transform.translate(
+    dx1 > dx0 ? (dx0 + dx1) / 2 : Math.min(0, dx0) || Math.max(0, dx1),
+    dy1 > dy0 ? (dy0 + dy1) / 2 : Math.min(0, dy0) || Math.max(0, dy1)
+  );
+}
+
+/* harmony default export */ function zoom() {
+  var filter = zoom_defaultFilter,
+      extent = zoom_defaultExtent,
+      constrain = defaultConstrain,
+      wheelDelta = defaultWheelDelta,
+      touchable = zoom_defaultTouchable,
+      scaleExtent = [0, Infinity],
+      translateExtent = [[-Infinity, -Infinity], [Infinity, Infinity]],
+      duration = 250,
+      interpolate = interpolateZoom,
+      listeners = dispatch("start", "zoom", "end"),
+      touchstarting,
+      touchfirst,
+      touchending,
+      touchDelay = 500,
+      wheelDelay = 150,
+      clickDistance2 = 0,
+      tapDistance = 10;
+
+  function zoom(selection) {
+    selection
+        .property("__zoom", defaultTransform)
+        .on("wheel.zoom", wheeled, {passive: false})
+        .on("mousedown.zoom", mousedowned)
+        .on("dblclick.zoom", dblclicked)
+      .filter(touchable)
+        .on("touchstart.zoom", touchstarted)
+        .on("touchmove.zoom", touchmoved)
+        .on("touchend.zoom touchcancel.zoom", touchended)
+        .style("-webkit-tap-highlight-color", "rgba(0,0,0,0)");
+  }
+
+  zoom.transform = function(collection, transform, point, event) {
+    var selection = collection.selection ? collection.selection() : collection;
+    selection.property("__zoom", defaultTransform);
+    if (collection !== selection) {
+      schedule(collection, transform, point, event);
+    } else {
+      selection.interrupt().each(function() {
+        gesture(this, arguments)
+          .event(event)
+          .start()
+          .zoom(null, typeof transform === "function" ? transform.apply(this, arguments) : transform)
+          .end();
+      });
+    }
+  };
+
+  zoom.scaleBy = function(selection, k, p, event) {
+    zoom.scaleTo(selection, function() {
+      var k0 = this.__zoom.k,
+          k1 = typeof k === "function" ? k.apply(this, arguments) : k;
+      return k0 * k1;
+    }, p, event);
+  };
+
+  zoom.scaleTo = function(selection, k, p, event) {
+    zoom.transform(selection, function() {
+      var e = extent.apply(this, arguments),
+          t0 = this.__zoom,
+          p0 = p == null ? centroid(e) : typeof p === "function" ? p.apply(this, arguments) : p,
+          p1 = t0.invert(p0),
+          k1 = typeof k === "function" ? k.apply(this, arguments) : k;
+      return constrain(translate(scale(t0, k1), p0, p1), e, translateExtent);
+    }, p, event);
+  };
+
+  zoom.translateBy = function(selection, x, y, event) {
+    zoom.transform(selection, function() {
+      return constrain(this.__zoom.translate(
+        typeof x === "function" ? x.apply(this, arguments) : x,
+        typeof y === "function" ? y.apply(this, arguments) : y
+      ), extent.apply(this, arguments), translateExtent);
+    }, null, event);
+  };
+
+  zoom.translateTo = function(selection, x, y, p, event) {
+    zoom.transform(selection, function() {
+      var e = extent.apply(this, arguments),
+          t = this.__zoom,
+          p0 = p == null ? centroid(e) : typeof p === "function" ? p.apply(this, arguments) : p;
+      return constrain(identity.translate(p0[0], p0[1]).scale(t.k).translate(
+        typeof x === "function" ? -x.apply(this, arguments) : -x,
+        typeof y === "function" ? -y.apply(this, arguments) : -y
+      ), e, translateExtent);
+    }, p, event);
+  };
+
+  function scale(transform, k) {
+    k = Math.max(scaleExtent[0], Math.min(scaleExtent[1], k));
+    return k === transform.k ? transform : new Transform(k, transform.x, transform.y);
+  }
+
+  function translate(transform, p0, p1) {
+    var x = p0[0] - p1[0] * transform.k, y = p0[1] - p1[1] * transform.k;
+    return x === transform.x && y === transform.y ? transform : new Transform(transform.k, x, y);
+  }
+
+  function centroid(extent) {
+    return [(+extent[0][0] + +extent[1][0]) / 2, (+extent[0][1] + +extent[1][1]) / 2];
+  }
+
+  function schedule(transition, transform, point, event) {
+    transition
+        .on("start.zoom", function() { gesture(this, arguments).event(event).start(); })
+        .on("interrupt.zoom end.zoom", function() { gesture(this, arguments).event(event).end(); })
+        .tween("zoom", function() {
+          var that = this,
+              args = arguments,
+              g = gesture(that, args).event(event),
+              e = extent.apply(that, args),
+              p = point == null ? centroid(e) : typeof point === "function" ? point.apply(that, args) : point,
+              w = Math.max(e[1][0] - e[0][0], e[1][1] - e[0][1]),
+              a = that.__zoom,
+              b = typeof transform === "function" ? transform.apply(that, args) : transform,
+              i = interpolate(a.invert(p).concat(w / a.k), b.invert(p).concat(w / b.k));
+          return function(t) {
+            if (t === 1) t = b; // Avoid rounding error on end.
+            else { var l = i(t), k = w / l[2]; t = new Transform(k, p[0] - l[0] * k, p[1] - l[1] * k); }
+            g.zoom(null, t);
+          };
+        });
+  }
+
+  function gesture(that, args, clean) {
+    return (!clean && that.__zooming) || new Gesture(that, args);
+  }
+
+  function Gesture(that, args) {
+    this.that = that;
+    this.args = args;
+    this.active = 0;
+    this.sourceEvent = null;
+    this.extent = extent.apply(that, args);
+    this.taps = 0;
+  }
+
+  Gesture.prototype = {
+    event: function(event) {
+      if (event) this.sourceEvent = event;
+      return this;
+    },
+    start: function() {
+      if (++this.active === 1) {
+        this.that.__zooming = this;
+        this.emit("start");
+      }
+      return this;
+    },
+    zoom: function(key, transform) {
+      if (this.mouse && key !== "mouse") this.mouse[1] = transform.invert(this.mouse[0]);
+      if (this.touch0 && key !== "touch") this.touch0[1] = transform.invert(this.touch0[0]);
+      if (this.touch1 && key !== "touch") this.touch1[1] = transform.invert(this.touch1[0]);
+      this.that.__zoom = transform;
+      this.emit("zoom");
+      return this;
+    },
+    end: function() {
+      if (--this.active === 0) {
+        delete this.that.__zooming;
+        this.emit("end");
+      }
+      return this;
+    },
+    emit: function(type) {
+      var d = select(this.that).datum();
+      listeners.call(
+        type,
+        this.that,
+        new ZoomEvent(type, {
+          sourceEvent: this.sourceEvent,
+          target: zoom,
+          type,
+          transform: this.that.__zoom,
+          dispatch: listeners
+        }),
+        d
+      );
+    }
+  };
+
+  function wheeled(event, ...args) {
+    if (!filter.apply(this, arguments)) return;
+    var g = gesture(this, args).event(event),
+        t = this.__zoom,
+        k = Math.max(scaleExtent[0], Math.min(scaleExtent[1], t.k * Math.pow(2, wheelDelta.apply(this, arguments)))),
+        p = pointer(event);
+
+    // If the mouse is in the same location as before, reuse it.
+    // If there were recent wheel events, reset the wheel idle timeout.
+    if (g.wheel) {
+      if (g.mouse[0][0] !== p[0] || g.mouse[0][1] !== p[1]) {
+        g.mouse[1] = t.invert(g.mouse[0] = p);
+      }
+      clearTimeout(g.wheel);
+    }
+
+    // If this wheel event won’t trigger a transform change, ignore it.
+    else if (t.k === k) return;
+
+    // Otherwise, capture the mouse point and location at the start.
+    else {
+      g.mouse = [p, t.invert(p)];
+      interrupt(this);
+      g.start();
+    }
+
+    noevent(event);
+    g.wheel = setTimeout(wheelidled, wheelDelay);
+    g.zoom("mouse", constrain(translate(scale(t, k), g.mouse[0], g.mouse[1]), g.extent, translateExtent));
+
+    function wheelidled() {
+      g.wheel = null;
+      g.end();
+    }
+  }
+
+  function mousedowned(event, ...args) {
+    if (touchending || !filter.apply(this, arguments)) return;
+    var currentTarget = event.currentTarget,
+        g = gesture(this, args, true).event(event),
+        v = select(event.view).on("mousemove.zoom", mousemoved, true).on("mouseup.zoom", mouseupped, true),
+        p = pointer(event, currentTarget),
+        x0 = event.clientX,
+        y0 = event.clientY;
+
+    dragDisable(event.view);
+    nopropagation(event);
+    g.mouse = [p, this.__zoom.invert(p)];
+    interrupt(this);
+    g.start();
+
+    function mousemoved(event) {
+      noevent(event);
+      if (!g.moved) {
+        var dx = event.clientX - x0, dy = event.clientY - y0;
+        g.moved = dx * dx + dy * dy > clickDistance2;
+      }
+      g.event(event)
+       .zoom("mouse", constrain(translate(g.that.__zoom, g.mouse[0] = pointer(event, currentTarget), g.mouse[1]), g.extent, translateExtent));
+    }
+
+    function mouseupped(event) {
+      v.on("mousemove.zoom mouseup.zoom", null);
+      dragEnable(event.view, g.moved);
+      noevent(event);
+      g.event(event).end();
+    }
+  }
+
+  function dblclicked(event, ...args) {
+    if (!filter.apply(this, arguments)) return;
+    var t0 = this.__zoom,
+        p0 = pointer(event.changedTouches ? event.changedTouches[0] : event, this),
+        p1 = t0.invert(p0),
+        k1 = t0.k * (event.shiftKey ? 0.5 : 2),
+        t1 = constrain(translate(scale(t0, k1), p0, p1), extent.apply(this, args), translateExtent);
+
+    noevent(event);
+    if (duration > 0) select(this).transition().duration(duration).call(schedule, t1, p0, event);
+    else select(this).call(zoom.transform, t1, p0, event);
+  }
+
+  function touchstarted(event, ...args) {
+    if (!filter.apply(this, arguments)) return;
+    var touches = event.touches,
+        n = touches.length,
+        g = gesture(this, args, event.changedTouches.length === n).event(event),
+        started, i, t, p;
+
+    nopropagation(event);
+    for (i = 0; i < n; ++i) {
+      t = touches[i], p = pointer(t, this);
+      p = [p, this.__zoom.invert(p), t.identifier];
+      if (!g.touch0) g.touch0 = p, started = true, g.taps = 1 + !!touchstarting;
+      else if (!g.touch1 && g.touch0[2] !== p[2]) g.touch1 = p, g.taps = 0;
+    }
+
+    if (touchstarting) touchstarting = clearTimeout(touchstarting);
+
+    if (started) {
+      if (g.taps < 2) touchfirst = p[0], touchstarting = setTimeout(function() { touchstarting = null; }, touchDelay);
+      interrupt(this);
+      g.start();
+    }
+  }
+
+  function touchmoved(event, ...args) {
+    if (!this.__zooming) return;
+    var g = gesture(this, args).event(event),
+        touches = event.changedTouches,
+        n = touches.length, i, t, p, l;
+
+    noevent(event);
+    for (i = 0; i < n; ++i) {
+      t = touches[i], p = pointer(t, this);
+      if (g.touch0 && g.touch0[2] === t.identifier) g.touch0[0] = p;
+      else if (g.touch1 && g.touch1[2] === t.identifier) g.touch1[0] = p;
+    }
+    t = g.that.__zoom;
+    if (g.touch1) {
+      var p0 = g.touch0[0], l0 = g.touch0[1],
+          p1 = g.touch1[0], l1 = g.touch1[1],
+          dp = (dp = p1[0] - p0[0]) * dp + (dp = p1[1] - p0[1]) * dp,
+          dl = (dl = l1[0] - l0[0]) * dl + (dl = l1[1] - l0[1]) * dl;
+      t = scale(t, Math.sqrt(dp / dl));
+      p = [(p0[0] + p1[0]) / 2, (p0[1] + p1[1]) / 2];
+      l = [(l0[0] + l1[0]) / 2, (l0[1] + l1[1]) / 2];
+    }
+    else if (g.touch0) p = g.touch0[0], l = g.touch0[1];
+    else return;
+
+    g.zoom("touch", constrain(translate(t, p, l), g.extent, translateExtent));
+  }
+
+  function touchended(event, ...args) {
+    if (!this.__zooming) return;
+    var g = gesture(this, args).event(event),
+        touches = event.changedTouches,
+        n = touches.length, i, t;
+
+    nopropagation(event);
+    if (touchending) clearTimeout(touchending);
+    touchending = setTimeout(function() { touchending = null; }, touchDelay);
+    for (i = 0; i < n; ++i) {
+      t = touches[i];
+      if (g.touch0 && g.touch0[2] === t.identifier) delete g.touch0;
+      else if (g.touch1 && g.touch1[2] === t.identifier) delete g.touch1;
+    }
+    if (g.touch1 && !g.touch0) g.touch0 = g.touch1, delete g.touch1;
+    if (g.touch0) g.touch0[1] = this.__zoom.invert(g.touch0[0]);
+    else {
+      g.end();
+      // If this was a dbltap, reroute to the (optional) dblclick.zoom handler.
+      if (g.taps === 2) {
+        t = pointer(t, this);
+        if (Math.hypot(touchfirst[0] - t[0], touchfirst[1] - t[1]) < tapDistance) {
+          var p = select(this).on("dblclick.zoom");
+          if (p) p.apply(this, arguments);
+        }
+      }
+    }
+  }
+
+  zoom.wheelDelta = function(_) {
+    return arguments.length ? (wheelDelta = typeof _ === "function" ? _ : constant(+_), zoom) : wheelDelta;
+  };
+
+  zoom.filter = function(_) {
+    return arguments.length ? (filter = typeof _ === "function" ? _ : constant(!!_), zoom) : filter;
+  };
+
+  zoom.touchable = function(_) {
+    return arguments.length ? (touchable = typeof _ === "function" ? _ : constant(!!_), zoom) : touchable;
+  };
+
+  zoom.extent = function(_) {
+    return arguments.length ? (extent = typeof _ === "function" ? _ : constant([[+_[0][0], +_[0][1]], [+_[1][0], +_[1][1]]]), zoom) : extent;
+  };
+
+  zoom.scaleExtent = function(_) {
+    return arguments.length ? (scaleExtent[0] = +_[0], scaleExtent[1] = +_[1], zoom) : [scaleExtent[0], scaleExtent[1]];
+  };
+
+  zoom.translateExtent = function(_) {
+    return arguments.length ? (translateExtent[0][0] = +_[0][0], translateExtent[1][0] = +_[1][0], translateExtent[0][1] = +_[0][1], translateExtent[1][1] = +_[1][1], zoom) : [[translateExtent[0][0], translateExtent[0][1]], [translateExtent[1][0], translateExtent[1][1]]];
+  };
+
+  zoom.constrain = function(_) {
+    return arguments.length ? (constrain = _, zoom) : constrain;
+  };
+
+  zoom.duration = function(_) {
+    return arguments.length ? (duration = +_, zoom) : duration;
+  };
+
+  zoom.interpolate = function(_) {
+    return arguments.length ? (interpolate = _, zoom) : interpolate;
+  };
+
+  zoom.on = function() {
+    var value = listeners.on.apply(listeners, arguments);
+    return value === listeners ? zoom : value;
+  };
+
+  zoom.clickDistance = function(_) {
+    return arguments.length ? (clickDistance2 = (_ = +_) * _, zoom) : Math.sqrt(clickDistance2);
+  };
+
+  zoom.tapDistance = function(_) {
+    return arguments.length ? (tapDistance = +_, zoom) : tapDistance;
+  };
+
+  return zoom;
+}
+
+;// CONCATENATED MODULE: ./node_modules/d3-zoom/src/index.js
+
+
+
+;// CONCATENATED MODULE: ./node_modules/d3/src/index.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;// CONCATENATED MODULE: ./node_modules/simple-statistics/dist/simple-statistics.mjs
+/**
+ * [Simple linear regression](http://en.wikipedia.org/wiki/Simple_linear_regression)
+ * is a simple way to find a fitted line
+ * between a set of coordinates. This algorithm finds the slope and y-intercept of a regression line
+ * using the least sum of squares.
+ *
+ * @param {Array<Array<number>>} data an array of two-element of arrays,
+ * like `[[0, 1], [2, 3]]`
+ * @returns {Object} object containing slope and intersect of regression line
+ * @example
+ * linearRegression([[0, 0], [1, 1]]); // => { m: 1, b: 0 }
+ */
+function linearRegression(data) {
+    var m, b;
+
+    // Store data length in a local variable to reduce
+    // repeated object property lookups
+    var dataLength = data.length;
+
+    //if there's only one point, arbitrarily choose a slope of 0
+    //and a y-intercept of whatever the y of the initial point is
+    if (dataLength === 1) {
+        m = 0;
+        b = data[0][1];
+    } else {
+        // Initialize our sums and scope the `m` and `b`
+        // variables that define the line.
+        var sumX = 0,
+            sumY = 0,
+            sumXX = 0,
+            sumXY = 0;
+
+        // Use local variables to grab point values
+        // with minimal object property lookups
+        var point, x, y;
+
+        // Gather the sum of all x values, the sum of all
+        // y values, and the sum of x^2 and (x*y) for each
+        // value.
+        //
+        // In math notation, these would be SS_x, SS_y, SS_xx, and SS_xy
+        for (var i = 0; i < dataLength; i++) {
+            point = data[i];
+            x = point[0];
+            y = point[1];
+
+            sumX += x;
+            sumY += y;
+
+            sumXX += x * x;
+            sumXY += x * y;
+        }
+
+        // `m` is the slope of the regression line
+        m =
+            (dataLength * sumXY - sumX * sumY) /
+            (dataLength * sumXX - sumX * sumX);
+
+        // `b` is the y-intercept of the line.
+        b = sumY / dataLength - (m * sumX) / dataLength;
+    }
+
+    // Return both values as an object.
+    return {
+        m: m,
+        b: b
+    };
+}
+
+/**
+ * Given the output of `linearRegression`: an object
+ * with `m` and `b` values indicating slope and intercept,
+ * respectively, generate a line function that translates
+ * x values into y values.
+ *
+ * @param {Object} mb object with `m` and `b` members, representing
+ * slope and intersect of desired line
+ * @returns {Function} method that computes y-value at any given
+ * x-value on the line.
+ * @example
+ * var l = linearRegressionLine(linearRegression([[0, 0], [1, 1]]));
+ * l(0) // = 0
+ * l(2) // = 2
+ * linearRegressionLine({ b: 0, m: 1 })(1); // => 1
+ * linearRegressionLine({ b: 1, m: 1 })(1); // => 2
+ */
+function linearRegressionLine(mb /*: { b: number, m: number }*/) {
+    // Return a function that computes a `y` value for each
+    // x value it is given, based on the values of `b` and `a`
+    // that we just computed.
+    return function (x) {
+        return mb.b + mb.m * x;
+    };
+}
+
+/**
+ * Our default sum is the [Kahan-Babuska algorithm](https://pdfs.semanticscholar.org/1760/7d467cda1d0277ad272deb2113533131dc09.pdf).
+ * This method is an improvement over the classical
+ * [Kahan summation algorithm](https://en.wikipedia.org/wiki/Kahan_summation_algorithm).
+ * It aims at computing the sum of a list of numbers while correcting for
+ * floating-point errors. Traditionally, sums are calculated as many
+ * successive additions, each one with its own floating-point roundoff. These
+ * losses in precision add up as the number of numbers increases. This alternative
+ * algorithm is more accurate than the simple way of calculating sums by simple
+ * addition.
+ *
+ * This runs in `O(n)`, linear time, with respect to the length of the array.
+ *
+ * @param {Array<number>} x input
+ * @return {number} sum of all input numbers
+ * @example
+ * sum([1, 2, 3]); // => 6
+ */
+function sum(x) {
+    // If the array is empty, we needn't bother computing its sum
+    if (x.length === 0) {
+        return 0;
+    }
+
+    // Initializing the sum as the first number in the array
+    var sum = x[0];
+
+    // Keeping track of the floating-point error correction
+    var correction = 0;
+
+    var transition;
+
+    if (typeof sum !== "number") {
+        return NaN;
+    }
+
+    for (var i = 1; i < x.length; i++) {
+        if (typeof x[i] !== "number") {
+            return NaN;
+        }
+        transition = sum + x[i];
+
+        // Here we need to update the correction in a different fashion
+        // if the new absolute value is greater than the absolute sum
+        if (Math.abs(sum) >= Math.abs(x[i])) {
+            correction += sum - transition + x[i];
+        } else {
+            correction += x[i] - transition + sum;
+        }
+
+        sum = transition;
+    }
+
+    // Returning the corrected sum
+    return sum + correction;
+}
+
+/**
+ * The mean, _also known as average_,
+ * is the sum of all values over the number of values.
+ * This is a [measure of central tendency](https://en.wikipedia.org/wiki/Central_tendency):
+ * a method of finding a typical or central value of a set of numbers.
+ *
+ * This runs in `O(n)`, linear time, with respect to the length of the array.
+ *
+ * @param {Array<number>} x sample of one or more data points
+ * @throws {Error} if the length of x is less than one
+ * @returns {number} mean
+ * @example
+ * mean([0, 10]); // => 5
+ */
+function mean(x) {
+    if (x.length === 0) {
+        throw new Error("mean requires at least one data point");
+    }
+
+    return sum(x) / x.length;
+}
+
+/**
+ * The sum of deviations to the Nth power.
+ * When n=2 it's the sum of squared deviations.
+ * When n=3 it's the sum of cubed deviations.
+ *
+ * @param {Array<number>} x
+ * @param {number} n power
+ * @returns {number} sum of nth power deviations
+ *
+ * @example
+ * var input = [1, 2, 3];
+ * // since the variance of a set is the mean squared
+ * // deviations, we can calculate that with sumNthPowerDeviations:
+ * sumNthPowerDeviations(input, 2) / input.length;
+ */
+function sumNthPowerDeviations(x, n) {
+    var meanValue = mean(x);
+    var sum = 0;
+    var tempValue;
+    var i;
+
+    // This is an optimization: when n is 2 (we're computing a number squared),
+    // multiplying the number by itself is significantly faster than using
+    // the Math.pow method.
+    if (n === 2) {
+        for (i = 0; i < x.length; i++) {
+            tempValue = x[i] - meanValue;
+            sum += tempValue * tempValue;
+        }
+    } else {
+        for (i = 0; i < x.length; i++) {
+            sum += Math.pow(x[i] - meanValue, n);
+        }
+    }
+
+    return sum;
+}
+
+/**
+ * The [variance](http://en.wikipedia.org/wiki/Variance)
+ * is the sum of squared deviations from the mean.
+ *
+ * This is an implementation of variance, not sample variance:
+ * see the `sampleVariance` method if you want a sample measure.
+ *
+ * @param {Array<number>} x a population of one or more data points
+ * @returns {number} variance: a value greater than or equal to zero.
+ * zero indicates that all values are identical.
+ * @throws {Error} if x's length is 0
+ * @example
+ * variance([1, 2, 3, 4, 5, 6]); // => 2.9166666666666665
+ */
+function variance(x) {
+    if (x.length === 0) {
+        throw new Error("variance requires at least one data point");
+    }
+
+    // Find the mean of squared deviations between the
+    // mean value and each value.
+    return sumNthPowerDeviations(x, 2) / x.length;
+}
+
+/**
+ * The [standard deviation](http://en.wikipedia.org/wiki/Standard_deviation)
+ * is the square root of the variance. This is also known as the population
+ * standard deviation. It's useful for measuring the amount
+ * of variation or dispersion in a set of values.
+ *
+ * Standard deviation is only appropriate for full-population knowledge: for
+ * samples of a population, {@link sampleStandardDeviation} is
+ * more appropriate.
+ *
+ * @param {Array<number>} x input
+ * @returns {number} standard deviation
+ * @example
+ * variance([2, 4, 4, 4, 5, 5, 7, 9]); // => 4
+ * standardDeviation([2, 4, 4, 4, 5, 5, 7, 9]); // => 2
+ */
+function standardDeviation(x) {
+    if (x.length === 1) {
+        return 0;
+    }
+    var v = variance(x);
+    return Math.sqrt(v);
+}
+
+/**
+ * The [R Squared](http://en.wikipedia.org/wiki/Coefficient_of_determination)
+ * value of data compared with a function `f`
+ * is the sum of the squared differences between the prediction
+ * and the actual value.
+ *
+ * @param {Array<Array<number>>} x input data: this should be doubly-nested
+ * @param {Function} func function called on `[i][0]` values within the dataset
+ * @returns {number} r-squared value
+ * @example
+ * var samples = [[0, 0], [1, 1]];
+ * var regressionLine = linearRegressionLine(linearRegression(samples));
+ * rSquared(samples, regressionLine); // = 1 this line is a perfect fit
+ */
+function rSquared(x, func) {
+    if (x.length < 2) {
+        return 1;
+    }
+
+    // Compute the average y value for the actual
+    // data set in order to compute the
+    // _total sum of squares_
+    var sum = 0;
+    for (var i = 0; i < x.length; i++) {
+        sum += x[i][1];
+    }
+    var average = sum / x.length;
+
+    // Compute the total sum of squares - the
+    // squared difference between each point
+    // and the average of all points.
+    var sumOfSquares = 0;
+    for (var j = 0; j < x.length; j++) {
+        sumOfSquares += Math.pow(average - x[j][1], 2);
+    }
+
+    // Finally estimate the error: the squared
+    // difference between the estimate and the actual data
+    // value at each point.
+    var err = 0;
+    for (var k = 0; k < x.length; k++) {
+        err += Math.pow(x[k][1] - func(x[k][0]), 2);
+    }
+
+    // As the error grows larger, its ratio to the
+    // sum of squares increases and the r squared
+    // value grows lower.
+    return 1 - err / sumOfSquares;
+}
+
+/**
+ * The [mode](https://en.wikipedia.org/wiki/Mode_%28statistics%29) is the number
+ * that appears in a list the highest number of times.
+ * There can be multiple modes in a list: in the event of a tie, this
+ * algorithm will return the most recently seen mode.
+ *
+ * This is a [measure of central tendency](https://en.wikipedia.org/wiki/Central_tendency):
+ * a method of finding a typical or central value of a set of numbers.
+ *
+ * This runs in `O(n)` because the input is sorted.
+ *
+ * @param {Array<number>} sorted a sample of one or more data points
+ * @returns {number} mode
+ * @throws {Error} if sorted is empty
+ * @example
+ * modeSorted([0, 0, 1]); // => 0
+ */
+function modeSorted(sorted) {
+    // Handle edge cases:
+    // The mode of an empty list is undefined
+    if (sorted.length === 0) {
+        throw new Error("mode requires at least one data point");
+    } else if (sorted.length === 1) {
+        return sorted[0];
+    }
+
+    // This assumes it is dealing with an array of size > 1, since size
+    // 0 and 1 are handled immediately. Hence it starts at index 1 in the
+    // array.
+    var last = sorted[0],
+        // store the mode as we find new modes
+        value = NaN,
+        // store how many times we've seen the mode
+        maxSeen = 0,
+        // how many times the current candidate for the mode
+        // has been seen
+        seenThis = 1;
+
+    // end at sorted.length + 1 to fix the case in which the mode is
+    // the highest number that occurs in the sequence. the last iteration
+    // compares sorted[i], which is undefined, to the highest number
+    // in the series
+    for (var i = 1; i < sorted.length + 1; i++) {
+        // we're seeing a new number pass by
+        if (sorted[i] !== last) {
+            // the last number is the new mode since we saw it more
+            // often than the old one
+            if (seenThis > maxSeen) {
+                maxSeen = seenThis;
+                value = last;
+            }
+            seenThis = 1;
+            last = sorted[i];
+            // if this isn't a new number, it's one more occurrence of
+            // the potential mode
+        } else {
+            seenThis++;
+        }
+    }
+    return value;
+}
+
+/**
+ * Sort an array of numbers by their numeric value, ensuring that the
+ * array is not changed in place.
+ *
+ * This is necessary because the default behavior of .sort
+ * in JavaScript is to sort arrays as string values
+ *
+ *     [1, 10, 12, 102, 20].sort()
+ *     // output
+ *     [1, 10, 102, 12, 20]
+ *
+ * @param {Array<number>} x input array
+ * @return {Array<number>} sorted array
+ * @private
+ * @example
+ * numericSort([3, 2, 1]) // => [1, 2, 3]
+ */
+function numericSort(x) {
+    return (
+        x
+            // ensure the array is not changed in-place
+            .slice()
+            // comparator function that treats input as numeric
+            .sort(function (a, b) {
+                return a - b;
+            })
+    );
+}
+
+/**
+ * The [mode](https://en.wikipedia.org/wiki/Mode_%28statistics%29) is the number
+ * that appears in a list the highest number of times.
+ * There can be multiple modes in a list: in the event of a tie, this
+ * algorithm will return the most recently seen mode.
+ *
+ * This is a [measure of central tendency](https://en.wikipedia.org/wiki/Central_tendency):
+ * a method of finding a typical or central value of a set of numbers.
+ *
+ * This runs in `O(n log(n))` because it needs to sort the array internally
+ * before running an `O(n)` search to find the mode.
+ *
+ * @param {Array<number>} x input
+ * @returns {number} mode
+ * @example
+ * mode([0, 0, 1]); // => 0
+ */
+function mode(x) {
+    // Sorting the array lets us iterate through it below and be sure
+    // that every time we see a new number it's new and we'll never
+    // see the same number twice
+    return modeSorted(numericSort(x));
+}
+
+/* globals Map: false */
+
+/**
+ * The [mode](https://en.wikipedia.org/wiki/Mode_%28statistics%29) is the number
+ * that appears in a list the highest number of times.
+ * There can be multiple modes in a list: in the event of a tie, this
+ * algorithm will return the most recently seen mode.
+ *
+ * modeFast uses a Map object to keep track of the mode, instead of the approach
+ * used with `mode`, a sorted array. As a result, it is faster
+ * than `mode` and supports any data type that can be compared with `==`.
+ * It also requires a
+ * [JavaScript environment with support for Map](https://kangax.github.io/compat-table/es6/#test-Map),
+ * and will throw an error if Map is not available.
+ *
+ * This is a [measure of central tendency](https://en.wikipedia.org/wiki/Central_tendency):
+ * a method of finding a typical or central value of a set of numbers.
+ *
+ * @param {Array<*>} x a sample of one or more data points
+ * @returns {?*} mode
+ * @throws {ReferenceError} if the JavaScript environment doesn't support Map
+ * @throws {Error} if x is empty
+ * @example
+ * modeFast(['rabbits', 'rabbits', 'squirrels']); // => 'rabbits'
+ */
+function modeFast(x) {
+    // This index will reflect the incidence of different values, indexing
+    // them like
+    // { value: count }
+    var index = new Map();
+
+    // A running `mode` and the number of times it has been encountered.
+    var mode;
+    var modeCount = 0;
+
+    for (var i = 0; i < x.length; i++) {
+        var newCount = index.get(x[i]);
+        if (newCount === undefined) {
+            newCount = 1;
+        } else {
+            newCount++;
+        }
+        if (newCount > modeCount) {
+            mode = x[i];
+            modeCount = newCount;
+        }
+        index.set(x[i], newCount);
+    }
+
+    if (modeCount === 0) {
+        throw new Error("mode requires at last one data point");
+    }
+
+    return mode;
+}
+
+/**
+ * The min is the lowest number in the array.
+ * This runs in `O(n)`, linear time, with respect to the length of the array.
+ *
+ * @param {Array<number>} x sample of one or more data points
+ * @throws {Error} if the length of x is less than one
+ * @returns {number} minimum value
+ * @example
+ * min([1, 5, -10, 100, 2]); // => -10
+ */
+function simple_statistics_min(x) {
+    if (x.length === 0) {
+        throw new Error("min requires at least one data point");
+    }
+
+    var value = x[0];
+    for (var i = 1; i < x.length; i++) {
+        if (x[i] < value) {
+            value = x[i];
+        }
+    }
+    return value;
+}
+
+/**
+ * This computes the maximum number in an array.
+ *
+ * This runs in `O(n)`, linear time, with respect to the length of the array.
+ *
+ * @param {Array<number>} x sample of one or more data points
+ * @returns {number} maximum value
+ * @throws {Error} if the length of x is less than one
+ * @example
+ * max([1, 2, 3, 4]);
+ * // => 4
+ */
+function simple_statistics_max(x) {
+    if (x.length === 0) {
+        throw new Error("max requires at least one data point");
+    }
+
+    var value = x[0];
+    for (var i = 1; i < x.length; i++) {
+        if (x[i] > value) {
+            value = x[i];
+        }
+    }
+    return value;
+}
+
+/**
+ * This computes the minimum & maximum number in an array.
+ *
+ * This runs in `O(n)`, linear time, with respect to the length of the array.
+ *
+ * @param {Array<number>} x sample of one or more data points
+ * @returns {Array<number>} minimum & maximum value
+ * @throws {Error} if the length of x is less than one
+ * @example
+ * extent([1, 2, 3, 4]);
+ * // => [1, 4]
+ */
+function extent(x) {
+    if (x.length === 0) {
+        throw new Error("extent requires at least one data point");
+    }
+
+    var min = x[0];
+    var max = x[0];
+    for (var i = 1; i < x.length; i++) {
+        if (x[i] > max) {
+            max = x[i];
+        }
+        if (x[i] < min) {
+            min = x[i];
+        }
+    }
+    return [min, max];
+}
+
+/**
+ * The minimum is the lowest number in the array. With a sorted array,
+ * the first element in the array is always the smallest, so this calculation
+ * can be done in one step, or constant time.
+ *
+ * @param {Array<number>} x input
+ * @returns {number} minimum value
+ * @example
+ * minSorted([-100, -10, 1, 2, 5]); // => -100
+ */
+function minSorted(x) {
+    return x[0];
+}
+
+/**
+ * The maximum is the highest number in the array. With a sorted array,
+ * the last element in the array is always the largest, so this calculation
+ * can be done in one step, or constant time.
+ *
+ * @param {Array<number>} x input
+ * @returns {number} maximum value
+ * @example
+ * maxSorted([-100, -10, 1, 2, 5]); // => 5
+ */
+function maxSorted(x) {
+    return x[x.length - 1];
+}
+
+/**
+ * The extent is the lowest & highest number in the array. With a sorted array,
+ * the first element in the array is always the lowest while the last element is always the largest, so this calculation
+ * can be done in one step, or constant time.
+ *
+ * @param {Array<number>} x input
+ * @returns {Array<number>} minimum & maximum value
+ * @example
+ * extentSorted([-100, -10, 1, 2, 5]); // => [-100, 5]
+ */
+function extentSorted(x) {
+    return [x[0], x[x.length - 1]];
+}
+
+/**
+ * The simple [sum](https://en.wikipedia.org/wiki/Summation) of an array
+ * is the result of adding all numbers together, starting from zero.
+ *
+ * This runs in `O(n)`, linear time, with respect to the length of the array.
+ *
+ * @param {Array<number>} x input
+ * @return {number} sum of all input numbers
+ * @example
+ * sumSimple([1, 2, 3]); // => 6
+ */
+function sumSimple(x) {
+    var value = 0;
+    for (var i = 0; i < x.length; i++) {
+        if (typeof x[i] !== "number") {
+            return NaN;
+        }
+        value += x[i];
+    }
+    return value;
+}
+
+/**
+ * The [product](https://en.wikipedia.org/wiki/Product_(mathematics)) of an array
+ * is the result of multiplying all numbers together, starting using one as the multiplicative identity.
+ *
+ * This runs in `O(n)`, linear time, with respect to the length of the array.
+ *
+ * @param {Array<number>} x input
+ * @return {number} product of all input numbers
+ * @example
+ * product([1, 2, 3, 4]); // => 24
+ */
+function product(x) {
+    var value = 1;
+    for (var i = 0; i < x.length; i++) {
+        value *= x[i];
+    }
+    return value;
+}
+
+/**
+ * This is the internal implementation of quantiles: when you know
+ * that the order is sorted, you don't need to re-sort it, and the computations
+ * are faster.
+ *
+ * @param {Array<number>} x sample of one or more data points
+ * @param {number} p desired quantile: a number between 0 to 1, inclusive
+ * @returns {number} quantile value
+ * @throws {Error} if p ix outside of the range from 0 to 1
+ * @throws {Error} if x is empty
+ * @example
+ * quantileSorted([3, 6, 7, 8, 8, 9, 10, 13, 15, 16, 20], 0.5); // => 9
+ */
+function simple_statistics_quantileSorted(x, p) {
+    var idx = x.length * p;
+    if (x.length === 0) {
+        throw new Error("quantile requires at least one data point.");
+    } else if (p < 0 || p > 1) {
+        throw new Error("quantiles must be between 0 and 1");
+    } else if (p === 1) {
+        // If p is 1, directly return the last element
+        return x[x.length - 1];
+    } else if (p === 0) {
+        // If p is 0, directly return the first element
+        return x[0];
+    } else if (idx % 1 !== 0) {
+        // If p is not integer, return the next element in array
+        return x[Math.ceil(idx) - 1];
+    } else if (x.length % 2 === 0) {
+        // If the list has even-length, we'll take the average of this number
+        // and the next value, if there is one
+        return (x[idx - 1] + x[idx]) / 2;
+    } else {
+        // Finally, in the simple case of an integer value
+        // with an odd-length list, return the x value at the index.
+        return x[idx];
+    }
+}
+
+/**
+ * Rearrange items in `arr` so that all items in `[left, k]` range are the smallest.
+ * The `k`-th element will have the `(k - left + 1)`-th smallest value in `[left, right]`.
+ *
+ * Implements Floyd-Rivest selection algorithm https://en.wikipedia.org/wiki/Floyd-Rivest_algorithm
+ *
+ * @param {Array<number>} arr input array
+ * @param {number} k pivot index
+ * @param {number} [left] left index
+ * @param {number} [right] right index
+ * @returns {void} mutates input array
+ * @example
+ * var arr = [65, 28, 59, 33, 21, 56, 22, 95, 50, 12, 90, 53, 28, 77, 39];
+ * quickselect(arr, 8);
+ * // = [39, 28, 28, 33, 21, 12, 22, 50, 53, 56, 59, 65, 90, 77, 95]
+ */
+function simple_statistics_quickselect(arr, k, left, right) {
+    left = left || 0;
+    right = right || arr.length - 1;
+
+    while (right > left) {
+        // 600 and 0.5 are arbitrary constants chosen in the original paper to minimize execution time
+        if (right - left > 600) {
+            var n = right - left + 1;
+            var m = k - left + 1;
+            var z = Math.log(n);
+            var s = 0.5 * Math.exp((2 * z) / 3);
+            var sd = 0.5 * Math.sqrt((z * s * (n - s)) / n);
+            if (m - n / 2 < 0) { sd *= -1; }
+            var newLeft = Math.max(left, Math.floor(k - (m * s) / n + sd));
+            var newRight = Math.min(
+                right,
+                Math.floor(k + ((n - m) * s) / n + sd)
+            );
+            simple_statistics_quickselect(arr, k, newLeft, newRight);
+        }
+
+        var t = arr[k];
+        var i = left;
+        var j = right;
+
+        swap(arr, left, k);
+        if (arr[right] > t) { swap(arr, left, right); }
+
+        while (i < j) {
+            swap(arr, i, j);
+            i++;
+            j--;
+            while (arr[i] < t) { i++; }
+            while (arr[j] > t) { j--; }
+        }
+
+        if (arr[left] === t) { swap(arr, left, j); }
+        else {
+            j++;
+            swap(arr, j, right);
+        }
+
+        if (j <= k) { left = j + 1; }
+        if (k <= j) { right = j - 1; }
+    }
+}
+
+function swap(arr, i, j) {
+    var tmp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = tmp;
+}
+
+/**
+ * The [quantile](https://en.wikipedia.org/wiki/Quantile):
+ * this is a population quantile, since we assume to know the entire
+ * dataset in this library. This is an implementation of the
+ * [Quantiles of a Population](http://en.wikipedia.org/wiki/Quantile#Quantiles_of_a_population)
+ * algorithm from wikipedia.
+ *
+ * Sample is a one-dimensional array of numbers,
+ * and p is either a decimal number from 0 to 1 or an array of decimal
+ * numbers from 0 to 1.
+ * In terms of a k/q quantile, p = k/q - it's just dealing with fractions or dealing
+ * with decimal values.
+ * When p is an array, the result of the function is also an array containing the appropriate
+ * quantiles in input order
+ *
+ * @param {Array<number>} x sample of one or more numbers
+ * @param {Array<number> | number} p the desired quantile, as a number between 0 and 1
+ * @returns {number} quantile
+ * @example
+ * quantile([3, 6, 7, 8, 8, 9, 10, 13, 15, 16, 20], 0.5); // => 9
+ */
+function simple_statistics_quantile(x, p) {
+    var copy = x.slice();
+
+    if (Array.isArray(p)) {
+        // rearrange elements so that each element corresponding to a requested
+        // quantile is on a place it would be if the array was fully sorted
+        multiQuantileSelect(copy, p);
+        // Initialize the result array
+        var results = [];
+        // For each requested quantile
+        for (var i = 0; i < p.length; i++) {
+            results[i] = simple_statistics_quantileSorted(copy, p[i]);
+        }
+        return results;
+    } else {
+        var idx = simple_statistics_quantileIndex(copy.length, p);
+        quantileSelect(copy, idx, 0, copy.length - 1);
+        return simple_statistics_quantileSorted(copy, p);
+    }
+}
+
+function quantileSelect(arr, k, left, right) {
+    if (k % 1 === 0) {
+        simple_statistics_quickselect(arr, k, left, right);
+    } else {
+        k = Math.floor(k);
+        simple_statistics_quickselect(arr, k, left, right);
+        simple_statistics_quickselect(arr, k + 1, k + 1, right);
+    }
+}
+
+function multiQuantileSelect(arr, p) {
+    var indices = [0];
+    for (var i = 0; i < p.length; i++) {
+        indices.push(simple_statistics_quantileIndex(arr.length, p[i]));
+    }
+    indices.push(arr.length - 1);
+    indices.sort(compare);
+
+    var stack = [0, indices.length - 1];
+
+    while (stack.length) {
+        var r = Math.ceil(stack.pop());
+        var l = Math.floor(stack.pop());
+        if (r - l <= 1) { continue; }
+
+        var m = Math.floor((l + r) / 2);
+        quantileSelect(
+            arr,
+            indices[m],
+            Math.floor(indices[l]),
+            Math.ceil(indices[r])
+        );
+
+        stack.push(l, m, m, r);
+    }
+}
+
+function compare(a, b) {
+    return a - b;
+}
+
+function simple_statistics_quantileIndex(len, p) {
+    var idx = len * p;
+    if (p === 1) {
+        // If p is 1, directly return the last index
+        return len - 1;
+    } else if (p === 0) {
+        // If p is 0, directly return the first index
+        return 0;
+    } else if (idx % 1 !== 0) {
+        // If index is not integer, return the next index in array
+        return Math.ceil(idx) - 1;
+    } else if (len % 2 === 0) {
+        // If the list has even-length, we'll return the middle of two indices
+        // around quantile to indicate that we need an average value of the two
+        return idx - 0.5;
+    } else {
+        // Finally, in the simple case of an integer index
+        // with an odd-length list, return the index
+        return idx;
+    }
+}
+
+/* eslint no-bitwise: 0 */
+
+/**
+ * This function returns the quantile in which one would find the given value in
+ * the given array. With a sorted array, leveraging binary search, we can find
+ * this information in logarithmic time.
+ *
+ * @param {Array<number>} x input
+ * @returns {number} value value
+ * @example
+ * quantileRankSorted([1, 2, 3, 4], 3); // => 0.75
+ * quantileRankSorted([1, 2, 3, 3, 4], 3); // => 0.7
+ * quantileRankSorted([1, 2, 3, 4], 6); // => 1
+ * quantileRankSorted([1, 2, 3, 3, 5], 4); // => 0.8
+ */
+function quantileRankSorted(x, value) {
+    // Value is lesser than any value in the array
+    if (value < x[0]) {
+        return 0;
+    }
+
+    // Value is greater than any value in the array
+    if (value > x[x.length - 1]) {
+        return 1;
+    }
+
+    var l = lowerBound(x, value);
+
+    // Value is not in the array
+    if (x[l] !== value) {
+        return l / x.length;
+    }
+
+    l++;
+
+    var u = upperBound(x, value);
+
+    // The value exists only once in the array
+    if (u === l) {
+        return l / x.length;
+    }
+
+    // Here, we are basically computing the mean of the range of indices
+    // containing our searched value. But, instead, of initializing an
+    // array and looping over it, there is a dedicated math formula that
+    // we apply below to get the result.
+    var r = u - l + 1;
+    var sum = (r * (u + l)) / 2;
+    var mean = sum / r;
+
+    return mean / x.length;
+}
+
+function lowerBound(x, value) {
+    var mid = 0;
+    var lo = 0;
+    var hi = x.length;
+
+    while (lo < hi) {
+        mid = (lo + hi) >>> 1;
+
+        if (value <= x[mid]) {
+            hi = mid;
+        } else {
+            lo = -~mid;
+        }
+    }
+
+    return lo;
+}
+
+function upperBound(x, value) {
+    var mid = 0;
+    var lo = 0;
+    var hi = x.length;
+
+    while (lo < hi) {
+        mid = (lo + hi) >>> 1;
+
+        if (value >= x[mid]) {
+            lo = -~mid;
+        } else {
+            hi = mid;
+        }
+    }
+
+    return lo;
+}
+
+/**
+ * This function returns the quantile in which one would find the given value in
+ * the given array. It will copy and sort your array before each run, so
+ * if you know your array is already sorted, you should use `quantileRankSorted`
+ * instead.
+ *
+ * @param {Array<number>} x input
+ * @returns {number} value value
+ * @example
+ * quantileRank([4, 3, 1, 2], 3); // => 0.75
+ * quantileRank([4, 3, 2, 3, 1], 3); // => 0.7
+ * quantileRank([2, 4, 1, 3], 6); // => 1
+ * quantileRank([5, 3, 1, 2, 3], 4); // => 0.8
+ */
+function quantileRank(x, value) {
+    // Cloning and sorting the array
+    var sortedCopy = numericSort(x);
+
+    return quantileRankSorted(sortedCopy, value);
+}
+
+/**
+ * The [Interquartile range](http://en.wikipedia.org/wiki/Interquartile_range) is
+ * a measure of statistical dispersion, or how scattered, spread, or
+ * concentrated a distribution is. It's computed as the difference between
+ * the third quartile and first quartile.
+ *
+ * @param {Array<number>} x sample of one or more numbers
+ * @returns {number} interquartile range: the span between lower and upper quartile,
+ * 0.25 and 0.75
+ * @example
+ * interquartileRange([0, 1, 2, 3]); // => 2
+ */
+function interquartileRange(x) {
+    // Interquartile range is the span between the upper quartile,
+    // at `0.75`, and lower quartile, `0.25`
+    var q1 = simple_statistics_quantile(x, 0.75);
+    var q2 = simple_statistics_quantile(x, 0.25);
+
+    if (typeof q1 === "number" && typeof q2 === "number") {
+        return q1 - q2;
+    }
+}
+
+/**
+ * The [median](http://en.wikipedia.org/wiki/Median) is
+ * the middle number of a list. This is often a good indicator of 'the middle'
+ * when there are outliers that skew the `mean()` value.
+ * This is a [measure of central tendency](https://en.wikipedia.org/wiki/Central_tendency):
+ * a method of finding a typical or central value of a set of numbers.
+ *
+ * The median isn't necessarily one of the elements in the list: the value
+ * can be the average of two elements if the list has an even length
+ * and the two central values are different.
+ *
+ * @param {Array<number>} x input
+ * @returns {number} median value
+ * @example
+ * median([10, 2, 5, 100, 2, 1]); // => 3.5
+ */
+function median(x) {
+    return +simple_statistics_quantile(x, 0.5);
+}
+
+/**
+ * The [Median Absolute Deviation](http://en.wikipedia.org/wiki/Median_absolute_deviation) is
+ * a robust measure of statistical
+ * dispersion. It is more resilient to outliers than the standard deviation.
+ *
+ * @param {Array<number>} x input array
+ * @returns {number} median absolute deviation
+ * @example
+ * medianAbsoluteDeviation([1, 1, 2, 2, 4, 6, 9]); // => 1
+ */
+function medianAbsoluteDeviation(x) {
+    var medianValue = median(x);
+    var medianAbsoluteDeviations = [];
+
+    // Make a list of absolute deviations from the median
+    for (var i = 0; i < x.length; i++) {
+        medianAbsoluteDeviations.push(Math.abs(x[i] - medianValue));
+    }
+
+    // Find the median value of that list
+    return median(medianAbsoluteDeviations);
+}
+
+/**
+ * Split an array into chunks of a specified size. This function
+ * has the same behavior as [PHP's array_chunk](http://php.net/manual/en/function.array-chunk.php)
+ * function, and thus will insert smaller-sized chunks at the end if
+ * the input size is not divisible by the chunk size.
+ *
+ * `x` is expected to be an array, and `chunkSize` a number.
+ * The `x` array can contain any kind of data.
+ *
+ * @param {Array} x a sample
+ * @param {number} chunkSize size of each output array. must be a positive integer
+ * @returns {Array<Array>} a chunked array
+ * @throws {Error} if chunk size is less than 1 or not an integer
+ * @example
+ * chunk([1, 2, 3, 4, 5, 6], 2);
+ * // => [[1, 2], [3, 4], [5, 6]]
+ */
+function chunk(x, chunkSize) {
+    // a list of result chunks, as arrays in an array
+    var output = [];
+
+    // `chunkSize` must be zero or higher - otherwise the loop below,
+    // in which we call `start += chunkSize`, will loop infinitely.
+    // So, we'll detect and throw in that case to indicate
+    // invalid input.
+    if (chunkSize < 1) {
+        throw new Error("chunk size must be a positive number");
+    }
+
+    if (Math.floor(chunkSize) !== chunkSize) {
+        throw new Error("chunk size must be an integer");
+    }
+
+    // `start` is the index at which `.slice` will start selecting
+    // new array elements
+    for (var start = 0; start < x.length; start += chunkSize) {
+        // for each chunk, slice that part of the array and add it
+        // to the output. The `.slice` function does not change
+        // the original array.
+        output.push(x.slice(start, start + chunkSize));
+    }
+    return output;
+}
+
+/**
+ * Sampling with replacement is a type of sampling that allows the same
+ * item to be picked out of a population more than once.
+ *
+ * @param {Array<*>} x an array of any kind of value
+ * @param {number} n count of how many elements to take
+ * @param {Function} [randomSource=Math.random] an optional entropy source that
+ * returns numbers between 0 inclusive and 1 exclusive: the range [0, 1)
+ * @return {Array} n sampled items from the population
+ * @example
+ * var values = [1, 2, 3, 4];
+ * sampleWithReplacement(values, 2); // returns 2 random values, like [2, 4];
+ */
+function sampleWithReplacement(x, n, randomSource) {
+    if (x.length === 0) {
+        return [];
+    }
+
+    // a custom random number source can be provided if you want to use
+    // a fixed seed or another random number generator, like
+    // [random-js](https://www.npmjs.org/package/random-js)
+    randomSource = randomSource || Math.random;
+
+    var length = x.length;
+    var sample = [];
+
+    for (var i = 0; i < n; i++) {
+        var index = Math.floor(randomSource() * length);
+
+        sample.push(x[index]);
+    }
+
+    return sample;
+}
+
+/**
+ * A [Fisher-Yates shuffle](http://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)
+ * in-place - which means that it **will change the order of the original
+ * array by reference**.
+ *
+ * This is an algorithm that generates a random [permutation](https://en.wikipedia.org/wiki/Permutation)
+ * of a set.
+ *
+ * @param {Array} x sample of one or more numbers
+ * @param {Function} [randomSource=Math.random] an optional entropy source that
+ * returns numbers between 0 inclusive and 1 exclusive: the range [0, 1)
+ * @returns {Array} x
+ * @example
+ * var x = [1, 2, 3, 4];
+ * shuffleInPlace(x);
+ * // x is shuffled to a value like [2, 1, 4, 3]
+ */
+function shuffleInPlace(x, randomSource) {
+    // a custom random number source can be provided if you want to use
+    // a fixed seed or another random number generator, like
+    // [random-js](https://www.npmjs.org/package/random-js)
+    randomSource = randomSource || Math.random;
+
+    // store the current length of the x to determine
+    // when no elements remain to shuffle.
+    var length = x.length;
+
+    // temporary is used to hold an item when it is being
+    // swapped between indices.
+    var temporary;
+
+    // The index to swap at each stage.
+    var index;
+
+    // While there are still items to shuffle
+    while (length > 0) {
+        // choose a random index within the subset of the array
+        // that is not yet shuffled
+        index = Math.floor(randomSource() * length--);
+
+        // store the value that we'll move temporarily
+        temporary = x[length];
+
+        // swap the value at `x[length]` with `x[index]`
+        x[length] = x[index];
+        x[index] = temporary;
+    }
+
+    return x;
+}
+
+/**
+ * A [Fisher-Yates shuffle](http://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)
+ * is a fast way to create a random permutation of a finite set. This is
+ * a function around `shuffle_in_place` that adds the guarantee that
+ * it will not modify its input.
+ *
+ * @param {Array} x sample of 0 or more numbers
+ * @param {Function} [randomSource=Math.random] an optional entropy source that
+ * returns numbers between 0 inclusive and 1 exclusive: the range [0, 1)
+ * @return {Array} shuffled version of input
+ * @example
+ * var shuffled = shuffle([1, 2, 3, 4]);
+ * shuffled; // = [2, 3, 1, 4] or any other random permutation
+ */
+function shuffle(x, randomSource) {
+    // slice the original array so that it is not modified
+    var sample = x.slice();
+
+    // and then shuffle that shallow-copied array, in place
+    return shuffleInPlace(sample, randomSource);
+}
+
+/**
+ * Create a [simple random sample](http://en.wikipedia.org/wiki/Simple_random_sample)
+ * from a given array of `n` elements.
+ *
+ * The sampled values will be in any order, not necessarily the order
+ * they appear in the input.
+ *
+ * @param {Array<any>} x input array. can contain any type
+ * @param {number} n count of how many elements to take
+ * @param {Function} [randomSource=Math.random] an optional entropy source that
+ * returns numbers between 0 inclusive and 1 exclusive: the range [0, 1)
+ * @return {Array} subset of n elements in original array
+ *
+ * @example
+ * var values = [1, 2, 4, 5, 6, 7, 8, 9];
+ * sample(values, 3); // returns 3 random values, like [2, 5, 8];
+ */
+function sample(x, n, randomSource) {
+    // shuffle the original array using a fisher-yates shuffle
+    var shuffled = shuffle(x, randomSource);
+
+    // and then return a subset of it - the first `n` elements.
+    return shuffled.slice(0, n);
+}
+
+/**
+ * Create a new column x row matrix.
+ *
+ * @private
+ * @param {number} columns
+ * @param {number} rows
+ * @return {Array<Array<number>>} matrix
+ * @example
+ * makeMatrix(10, 10);
+ */
+function makeMatrix(columns, rows) {
+    var matrix = [];
+    for (var i = 0; i < columns; i++) {
+        var column = [];
+        for (var j = 0; j < rows; j++) {
+            column.push(0);
+        }
+        matrix.push(column);
+    }
+    return matrix;
+}
+
+/**
+ * For a sorted input, counting the number of unique values
+ * is possible in constant time and constant memory. This is
+ * a simple implementation of the algorithm.
+ *
+ * Values are compared with `===`, so objects and non-primitive objects
+ * are not handled in any special way.
+ *
+ * @param {Array<*>} x an array of any kind of value
+ * @returns {number} count of unique values
+ * @example
+ * uniqueCountSorted([1, 2, 3]); // => 3
+ * uniqueCountSorted([1, 1, 1]); // => 1
+ */
+function uniqueCountSorted(x) {
+    var uniqueValueCount = 0,
+        lastSeenValue;
+    for (var i = 0; i < x.length; i++) {
+        if (i === 0 || x[i] !== lastSeenValue) {
+            lastSeenValue = x[i];
+            uniqueValueCount++;
+        }
+    }
+    return uniqueValueCount;
+}
+
+/**
+ * Generates incrementally computed values based on the sums and sums of
+ * squares for the data array
+ *
+ * @private
+ * @param {number} j
+ * @param {number} i
+ * @param {Array<number>} sums
+ * @param {Array<number>} sumsOfSquares
+ * @return {number}
+ * @example
+ * ssq(0, 1, [-1, 0, 2], [1, 1, 5]);
+ */
+function ssq(j, i, sums, sumsOfSquares) {
+    var sji; // s(j, i)
+    if (j > 0) {
+        var muji = (sums[i] - sums[j - 1]) / (i - j + 1); // mu(j, i)
+        sji =
+            sumsOfSquares[i] - sumsOfSquares[j - 1] - (i - j + 1) * muji * muji;
+    } else {
+        sji = sumsOfSquares[i] - (sums[i] * sums[i]) / (i + 1);
+    }
+    if (sji < 0) {
+        return 0;
+    }
+    return sji;
+}
+
+/**
+ * Function that recursively divides and conquers computations
+ * for cluster j
+ *
+ * @private
+ * @param {number} iMin Minimum index in cluster to be computed
+ * @param {number} iMax Maximum index in cluster to be computed
+ * @param {number} cluster Index of the cluster currently being computed
+ * @param {Array<Array<number>>} matrix
+ * @param {Array<Array<number>>} backtrackMatrix
+ * @param {Array<number>} sums
+ * @param {Array<number>} sumsOfSquares
+ */
+function fillMatrixColumn(
+    iMin,
+    iMax,
+    cluster,
+    matrix,
+    backtrackMatrix,
+    sums,
+    sumsOfSquares
+) {
+    if (iMin > iMax) {
+        return;
+    }
+
+    // Start at midpoint between iMin and iMax
+    var i = Math.floor((iMin + iMax) / 2);
+
+    matrix[cluster][i] = matrix[cluster - 1][i - 1];
+    backtrackMatrix[cluster][i] = i;
+
+    var jlow = cluster; // the lower end for j
+
+    if (iMin > cluster) {
+        jlow = Math.max(jlow, backtrackMatrix[cluster][iMin - 1] || 0);
+    }
+    jlow = Math.max(jlow, backtrackMatrix[cluster - 1][i] || 0);
+
+    var jhigh = i - 1; // the upper end for j
+    if (iMax < matrix[0].length - 1) {
+        jhigh = Math.min(jhigh, backtrackMatrix[cluster][iMax + 1] || 0);
+    }
+
+    var sji;
+    var sjlowi;
+    var ssqjlow;
+    var ssqj;
+    for (var j = jhigh; j >= jlow; --j) {
+        sji = ssq(j, i, sums, sumsOfSquares);
+
+        if (sji + matrix[cluster - 1][jlow - 1] >= matrix[cluster][i]) {
+            break;
+        }
+
+        // Examine the lower bound of the cluster border
+        sjlowi = ssq(jlow, i, sums, sumsOfSquares);
+
+        ssqjlow = sjlowi + matrix[cluster - 1][jlow - 1];
+
+        if (ssqjlow < matrix[cluster][i]) {
+            // Shrink the lower bound
+            matrix[cluster][i] = ssqjlow;
+            backtrackMatrix[cluster][i] = jlow;
+        }
+        jlow++;
+
+        ssqj = sji + matrix[cluster - 1][j - 1];
+        if (ssqj < matrix[cluster][i]) {
+            matrix[cluster][i] = ssqj;
+            backtrackMatrix[cluster][i] = j;
+        }
+    }
+
+    fillMatrixColumn(
+        iMin,
+        i - 1,
+        cluster,
+        matrix,
+        backtrackMatrix,
+        sums,
+        sumsOfSquares
+    );
+    fillMatrixColumn(
+        i + 1,
+        iMax,
+        cluster,
+        matrix,
+        backtrackMatrix,
+        sums,
+        sumsOfSquares
+    );
+}
+
+/**
+ * Initializes the main matrices used in Ckmeans and kicks
+ * off the divide and conquer cluster computation strategy
+ *
+ * @private
+ * @param {Array<number>} data sorted array of values
+ * @param {Array<Array<number>>} matrix
+ * @param {Array<Array<number>>} backtrackMatrix
+ */
+function fillMatrices(data, matrix, backtrackMatrix) {
+    var nValues = matrix[0].length;
+
+    // Shift values by the median to improve numeric stability
+    var shift = data[Math.floor(nValues / 2)];
+
+    // Cumulative sum and cumulative sum of squares for all values in data array
+    var sums = [];
+    var sumsOfSquares = [];
+
+    // Initialize first column in matrix & backtrackMatrix
+    for (var i = 0, shiftedValue = (void 0); i < nValues; ++i) {
+        shiftedValue = data[i] - shift;
+        if (i === 0) {
+            sums.push(shiftedValue);
+            sumsOfSquares.push(shiftedValue * shiftedValue);
+        } else {
+            sums.push(sums[i - 1] + shiftedValue);
+            sumsOfSquares.push(
+                sumsOfSquares[i - 1] + shiftedValue * shiftedValue
+            );
+        }
+
+        // Initialize for cluster = 0
+        matrix[0][i] = ssq(0, i, sums, sumsOfSquares);
+        backtrackMatrix[0][i] = 0;
+    }
+
+    // Initialize the rest of the columns
+    var iMin;
+    for (var cluster = 1; cluster < matrix.length; ++cluster) {
+        if (cluster < matrix.length - 1) {
+            iMin = cluster;
+        } else {
+            // No need to compute matrix[K-1][0] ... matrix[K-1][N-2]
+            iMin = nValues - 1;
+        }
+
+        fillMatrixColumn(
+            iMin,
+            nValues - 1,
+            cluster,
+            matrix,
+            backtrackMatrix,
+            sums,
+            sumsOfSquares
+        );
+    }
+}
+
+/**
+ * Ckmeans clustering is an improvement on heuristic-based clustering
+ * approaches like Jenks. The algorithm was developed in
+ * [Haizhou Wang and Mingzhou Song](http://journal.r-project.org/archive/2011-2/RJournal_2011-2_Wang+Song.pdf)
+ * as a [dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming) approach
+ * to the problem of clustering numeric data into groups with the least
+ * within-group sum-of-squared-deviations.
+ *
+ * Minimizing the difference within groups - what Wang & Song refer to as
+ * `withinss`, or within sum-of-squares, means that groups are optimally
+ * homogenous within and the data is split into representative groups.
+ * This is very useful for visualization, where you may want to represent
+ * a continuous variable in discrete color or style groups. This function
+ * can provide groups that emphasize differences between data.
+ *
+ * Being a dynamic approach, this algorithm is based on two matrices that
+ * store incrementally-computed values for squared deviations and backtracking
+ * indexes.
+ *
+ * This implementation is based on Ckmeans 3.4.6, which introduced a new divide
+ * and conquer approach that improved runtime from O(kn^2) to O(kn log(n)).
+ *
+ * Unlike the [original implementation](https://cran.r-project.org/web/packages/Ckmeans.1d.dp/index.html),
+ * this implementation does not include any code to automatically determine
+ * the optimal number of clusters: this information needs to be explicitly
+ * provided.
+ *
+ * ### References
+ * _Ckmeans.1d.dp: Optimal k-means Clustering in One Dimension by Dynamic
+ * Programming_ Haizhou Wang and Mingzhou Song ISSN 2073-4859
+ *
+ * from The R Journal Vol. 3/2, December 2011
+ * @param {Array<number>} x input data, as an array of number values
+ * @param {number} nClusters number of desired classes. This cannot be
+ * greater than the number of values in the data array.
+ * @returns {Array<Array<number>>} clustered input
+ * @throws {Error} if the number of requested clusters is higher than the size of the data
+ * @example
+ * ckmeans([-1, 2, -1, 2, 4, 5, 6, -1, 2, -1], 3);
+ * // The input, clustered into groups of similar numbers.
+ * //= [[-1, -1, -1, -1], [2, 2, 2], [4, 5, 6]]);
+ */
+function ckmeans(x, nClusters) {
+    if (nClusters > x.length) {
+        throw new Error(
+            "cannot generate more classes than there are data values"
+        );
+    }
+
+    var sorted = numericSort(x);
+    // we'll use this as the maximum number of clusters
+    var uniqueCount = uniqueCountSorted(sorted);
+
+    // if all of the input values are identical, there's one cluster
+    // with all of the input in it.
+    if (uniqueCount === 1) {
+        return [sorted];
+    }
+
+    // named 'S' originally
+    var matrix = makeMatrix(nClusters, sorted.length);
+    // named 'J' originally
+    var backtrackMatrix = makeMatrix(nClusters, sorted.length);
+
+    // This is a dynamic programming way to solve the problem of minimizing
+    // within-cluster sum of squares. It's similar to linear regression
+    // in this way, and this calculation incrementally computes the
+    // sum of squares that are later read.
+    fillMatrices(sorted, matrix, backtrackMatrix);
+
+    // The real work of Ckmeans clustering happens in the matrix generation:
+    // the generated matrices encode all possible clustering combinations, and
+    // once they're generated we can solve for the best clustering groups
+    // very quickly.
+    var clusters = [];
+    var clusterRight = backtrackMatrix[0].length - 1;
+
+    // Backtrack the clusters from the dynamic programming matrix. This
+    // starts at the bottom-right corner of the matrix (if the top-left is 0, 0),
+    // and moves the cluster target with the loop.
+    for (var cluster = backtrackMatrix.length - 1; cluster >= 0; cluster--) {
+        var clusterLeft = backtrackMatrix[cluster][clusterRight];
+
+        // fill the cluster from the sorted input by taking a slice of the
+        // array. the backtrack matrix makes this easy - it stores the
+        // indexes where the cluster should start and end.
+        clusters[cluster] = sorted.slice(clusterLeft, clusterRight + 1);
+
+        if (cluster > 0) {
+            clusterRight = clusterLeft - 1;
+        }
+    }
+
+    return clusters;
+}
+
+/*
+ * Pull Breaks Values for Jenks
+ *
+ * the second part of the jenks recipe: take the calculated matrices
+ * and derive an array of n breaks.
+ *
+ * @private
+ */
+function jenksBreaks(data, lowerClassLimits, nClasses) {
+    var k = data.length;
+    var kclass = [];
+    var countNum = nClasses;
+
+    // the calculation of classes will never include the upper
+    // bound, so we need to explicitly set it
+    kclass[nClasses] = data[data.length - 1];
+
+    // the lowerClassLimits matrix is used as indices into itself
+    // here: the `k` variable is reused in each iteration.
+    while (countNum > 0) {
+        kclass[countNum - 1] = data[lowerClassLimits[k][countNum] - 1];
+        k = lowerClassLimits[k][countNum] - 1;
+        countNum--;
+    }
+
+    return kclass;
+}
+
+/*
+ * Compute Matrices for Jenks
+ *
+ * Compute the matrices required for Jenks breaks. These matrices
+ * can be used for any classing of data with `classes <= nClasses`
+ *
+ * @private
+ */
+function jenksMatrices(data, nClasses) {
+    // in the original implementation, these matrices are referred to
+    // as `LC` and `OP`
+    //
+    // * lowerClassLimits (LC): optimal lower class limits
+    // * varianceCombinations (OP): optimal variance combinations for all classes
+    var lowerClassLimits = [];
+    var varianceCombinations = [];
+    // loop counters
+    var i, j;
+    // the variance, as computed at each step in the calculation
+    var variance = 0;
+
+    // Initialize and fill each matrix with zeroes
+    for (i = 0; i < data.length + 1; i++) {
+        var tmp1 = [];
+        var tmp2 = [];
+        // despite these arrays having the same values, we need
+        // to keep them separate so that changing one does not change
+        // the other
+        for (j = 0; j < nClasses + 1; j++) {
+            tmp1.push(0);
+            tmp2.push(0);
+        }
+        lowerClassLimits.push(tmp1);
+        varianceCombinations.push(tmp2);
+    }
+
+    for (i = 1; i < nClasses + 1; i++) {
+        lowerClassLimits[1][i] = 1;
+        varianceCombinations[1][i] = 0;
+        // in the original implementation, 9999999 is used but
+        // since Javascript has `Infinity`, we use that.
+        for (j = 2; j < data.length + 1; j++) {
+            varianceCombinations[j][i] = Infinity;
+        }
+    }
+
+    for (var l = 2; l < data.length + 1; l++) {
+        // `SZ` originally. this is the sum of the values seen thus
+        // far when calculating variance.
+        var sum = 0;
+        // `ZSQ` originally. the sum of squares of values seen
+        // thus far
+        var sumSquares = 0;
+        // `WT` originally. This is the number of
+        var w = 0;
+        // `IV` originally
+        var i4 = 0;
+
+        // in several instances, you could say `Math.pow(x, 2)`
+        // instead of `x * x`, but this is slower in some browsers
+        // introduces an unnecessary concept.
+        for (var m = 1; m < l + 1; m++) {
+            // `III` originally
+            var lowerClassLimit = l - m + 1;
+            var val = data[lowerClassLimit - 1];
+
+            // here we're estimating variance for each potential classing
+            // of the data, for each potential number of classes. `w`
+            // is the number of data points considered so far.
+            w++;
+
+            // increase the current sum and sum-of-squares
+            sum += val;
+            sumSquares += val * val;
+
+            // the variance at this point in the sequence is the difference
+            // between the sum of squares and the total x 2, over the number
+            // of samples.
+            variance = sumSquares - (sum * sum) / w;
+
+            i4 = lowerClassLimit - 1;
+
+            if (i4 !== 0) {
+                for (j = 2; j < nClasses + 1; j++) {
+                    // if adding this element to an existing class
+                    // will increase its variance beyond the limit, break
+                    // the class at this point, setting the `lowerClassLimit`
+                    // at this point.
+                    if (
+                        varianceCombinations[l][j] >=
+                        variance + varianceCombinations[i4][j - 1]
+                    ) {
+                        lowerClassLimits[l][j] = lowerClassLimit;
+                        varianceCombinations[l][j] =
+                            variance + varianceCombinations[i4][j - 1];
+                    }
+                }
+            }
+        }
+
+        lowerClassLimits[l][1] = 1;
+        varianceCombinations[l][1] = variance;
+    }
+
+    // return the two matrices. for just providing breaks, only
+    // `lowerClassLimits` is needed, but variances can be useful to
+    // evaluate goodness of fit.
+    return {
+        lowerClassLimits: lowerClassLimits,
+        varianceCombinations: varianceCombinations
+    };
+}
+
+/**
+ * The **[jenks natural breaks optimization](http://en.wikipedia.org/wiki/Jenks_natural_breaks_optimization)**
+ * is an algorithm commonly used in cartography and visualization to decide
+ * upon groupings of data values that minimize variance within themselves
+ * and maximize variation between themselves.
+ *
+ * For instance, cartographers often use jenks in order to choose which
+ * values are assigned to which colors in a [choropleth](https://en.wikipedia.org/wiki/Choropleth_map)
+ * map.
+ *
+ * @param {Array<number>} data input data, as an array of number values
+ * @param {number} nClasses number of desired classes
+ * @returns {Array<number>} array of class break positions
+ * // split data into 3 break points
+ * jenks([1, 2, 4, 5, 7, 9, 10, 20], 3) // = [1, 7, 20, 20]
+ */
+function jenks(data, nClasses) {
+    if (nClasses > data.length) {
+        return null;
+    }
+
+    // sort data in numerical order, since this is expected
+    // by the matrices function
+    data = data.slice().sort(function (a, b) {
+        return a - b;
+    });
+
+    // get our basic matrices
+    var matrices = jenksMatrices(data, nClasses);
+    // we only need lower class limits here
+    var lowerClassLimits = matrices.lowerClassLimits;
+
+    // extract nClasses out of the computed matrices
+    return jenksBreaks(data, lowerClassLimits, nClasses);
+}
+
+/**
+ * Given an array of x, this will find the extent of the
+ * x and return an array of breaks that can be used
+ * to categorize the x into a number of classes. The
+ * returned array will always be 1 longer than the number of
+ * classes because it includes the minimum value.
+ *
+ * @param {Array<number>} x an array of number values
+ * @param {number} nClasses number of desired classes
+ * @returns {Array<number>} array of class break positions
+ * @example
+ * equalIntervalBreaks([1, 2, 3, 4, 5, 6], 4); // => [1, 2.25, 3.5, 4.75, 6]
+ */
+function equalIntervalBreaks(x, nClasses) {
+    if (x.length < 2) {
+        return x;
+    }
+
+    var theMin = simple_statistics_min(x);
+    var theMax = simple_statistics_max(x);
+
+    // the first break will always be the minimum value
+    // in the xset
+    var breaks = [theMin];
+
+    // The size of each break is the full range of the x
+    // divided by the number of classes requested
+    var breakSize = (theMax - theMin) / nClasses;
+
+    // In the case of nClasses = 1, this loop won't run
+    // and the returned breaks will be [min, max]
+    for (var i = 1; i < nClasses; i++) {
+        breaks.push(breaks[0] + breakSize * i);
+    }
+
+    // the last break will always be the
+    // maximum.
+    breaks.push(theMax);
+
+    return breaks;
+}
+
+/**
+ * [Sample covariance](https://en.wikipedia.org/wiki/Sample_mean_and_covariance) of two datasets:
+ * how much do the two datasets move together?
+ * x and y are two datasets, represented as arrays of numbers.
+ *
+ * @param {Array<number>} x a sample of two or more data points
+ * @param {Array<number>} y a sample of two or more data points
+ * @throws {Error} if x and y do not have equal lengths
+ * @throws {Error} if x or y have length of one or less
+ * @returns {number} sample covariance
+ * @example
+ * sampleCovariance([1, 2, 3, 4, 5, 6], [6, 5, 4, 3, 2, 1]); // => -3.5
+ */
+function sampleCovariance(x, y) {
+    // The two datasets must have the same length which must be more than 1
+    if (x.length !== y.length) {
+        throw new Error("sampleCovariance requires samples with equal lengths");
+    }
+
+    if (x.length < 2) {
+        throw new Error(
+            "sampleCovariance requires at least two data points in each sample"
+        );
+    }
+
+    // determine the mean of each dataset so that we can judge each
+    // value of the dataset fairly as the difference from the mean. this
+    // way, if one dataset is [1, 2, 3] and [2, 3, 4], their covariance
+    // does not suffer because of the difference in absolute values
+    var xmean = mean(x);
+    var ymean = mean(y);
+    var sum = 0;
+
+    // for each pair of values, the covariance increases when their
+    // difference from the mean is associated - if both are well above
+    // or if both are well below
+    // the mean, the covariance increases significantly.
+    for (var i = 0; i < x.length; i++) {
+        sum += (x[i] - xmean) * (y[i] - ymean);
+    }
+
+    // this is Bessels' Correction: an adjustment made to sample statistics
+    // that allows for the reduced degree of freedom entailed in calculating
+    // values from samples rather than complete populations.
+    var besselsCorrection = x.length - 1;
+
+    // the covariance is weighted by the length of the datasets.
+    return sum / besselsCorrection;
+}
+
+/**
+ * The [sample variance](https://en.wikipedia.org/wiki/Variance#Sample_variance)
+ * is the sum of squared deviations from the mean. The sample variance
+ * is distinguished from the variance by the usage of [Bessel's Correction](https://en.wikipedia.org/wiki/Bessel's_correction):
+ * instead of dividing the sum of squared deviations by the length of the input,
+ * it is divided by the length minus one. This corrects the bias in estimating
+ * a value from a set that you don't know if full.
+ *
+ * References:
+ * * [Wolfram MathWorld on Sample Variance](http://mathworld.wolfram.com/SampleVariance.html)
+ *
+ * @param {Array<number>} x a sample of two or more data points
+ * @throws {Error} if the length of x is less than 2
+ * @return {number} sample variance
+ * @example
+ * sampleVariance([1, 2, 3, 4, 5]); // => 2.5
+ */
+function sampleVariance(x) {
+    if (x.length < 2) {
+        throw new Error("sampleVariance requires at least two data points");
+    }
+
+    var sumSquaredDeviationsValue = sumNthPowerDeviations(x, 2);
+
+    // this is Bessels' Correction: an adjustment made to sample statistics
+    // that allows for the reduced degree of freedom entailed in calculating
+    // values from samples rather than complete populations.
+    var besselsCorrection = x.length - 1;
+
+    // Find the mean value of that list
+    return sumSquaredDeviationsValue / besselsCorrection;
+}
+
+/**
+ * The [sample standard deviation](http://en.wikipedia.org/wiki/Standard_deviation#Sample_standard_deviation)
+ * is the square root of the sample variance.
+ *
+ * @param {Array<number>} x input array
+ * @returns {number} sample standard deviation
+ * @example
+ * sampleStandardDeviation([2, 4, 4, 4, 5, 5, 7, 9]).toFixed(2);
+ * // => '2.14'
+ */
+function sampleStandardDeviation(x) {
+    var sampleVarianceX = sampleVariance(x);
+    return Math.sqrt(sampleVarianceX);
+}
+
+/**
+ * The [correlation](http://en.wikipedia.org/wiki/Correlation_and_dependence) is
+ * a measure of how correlated two datasets are, between -1 and 1
+ *
+ * @param {Array<number>} x first input
+ * @param {Array<number>} y second input
+ * @returns {number} sample correlation
+ * @example
+ * sampleCorrelation([1, 2, 3, 4, 5, 6], [2, 2, 3, 4, 5, 60]).toFixed(2);
+ * // => '0.69'
+ */
+function sampleCorrelation(x, y) {
+    var cov = sampleCovariance(x, y);
+    var xstd = sampleStandardDeviation(x);
+    var ystd = sampleStandardDeviation(y);
+
+    return cov / xstd / ystd;
+}
+
+/**
+ * The [rank correlation](https://en.wikipedia.org/wiki/Rank_correlation) is
+ * a measure of the strength of monotonic relationship between two arrays
+ *
+ * @param {Array<number>} x first input
+ * @param {Array<number>} y second input
+ * @returns {number} sample rank correlation
+ */
+function sampleRankCorrelation(x, y) {
+    var xIndexes = x
+        .map(function (value, index) { return [value, index]; })
+        .sort(function (a, b) { return a[0] - b[0]; })
+        .map(function (pair) { return pair[1]; });
+    var yIndexes = y
+        .map(function (value, index) { return [value, index]; })
+        .sort(function (a, b) { return a[0] - b[0]; })
+        .map(function (pair) { return pair[1]; });
+
+    // At this step, we have an array of indexes
+    // that map from sorted numbers to their original indexes. We reverse
+    // that so that it is an array of the sorted destination index.
+    var xRanks = Array(xIndexes.length);
+    var yRanks = Array(xIndexes.length);
+    for (var i = 0; i < xIndexes.length; i++) {
+        xRanks[xIndexes[i]] = i;
+        yRanks[yIndexes[i]] = i;
+    }
+
+    return sampleCorrelation(xRanks, yRanks);
+}
+
+/**
+ * [Skewness](http://en.wikipedia.org/wiki/Skewness) is
+ * a measure of the extent to which a probability distribution of a
+ * real-valued random variable "leans" to one side of the mean.
+ * The skewness value can be positive or negative, or even undefined.
+ *
+ * Implementation is based on the adjusted Fisher-Pearson standardized
+ * moment coefficient, which is the version found in Excel and several
+ * statistical packages including Minitab, SAS and SPSS.
+ *
+ * @since 4.1.0
+ * @param {Array<number>} x a sample of 3 or more data points
+ * @returns {number} sample skewness
+ * @throws {Error} if x has length less than 3
+ * @example
+ * sampleSkewness([2, 4, 6, 3, 1]); // => 0.590128656384365
+ */
+function sampleSkewness(x) {
+    if (x.length < 3) {
+        throw new Error("sampleSkewness requires at least three data points");
+    }
+
+    var meanValue = mean(x);
+    var tempValue;
+    var sumSquaredDeviations = 0;
+    var sumCubedDeviations = 0;
+
+    for (var i = 0; i < x.length; i++) {
+        tempValue = x[i] - meanValue;
+        sumSquaredDeviations += tempValue * tempValue;
+        sumCubedDeviations += tempValue * tempValue * tempValue;
+    }
+
+    // this is Bessels' Correction: an adjustment made to sample statistics
+    // that allows for the reduced degree of freedom entailed in calculating
+    // values from samples rather than complete populations.
+    var besselsCorrection = x.length - 1;
+
+    // Find the mean value of that list
+    var theSampleStandardDeviation = Math.sqrt(
+        sumSquaredDeviations / besselsCorrection
+    );
+
+    var n = x.length;
+    var cubedS = Math.pow(theSampleStandardDeviation, 3);
+
+    return (n * sumCubedDeviations) / ((n - 1) * (n - 2) * cubedS);
+}
+
+/**
+ * [Kurtosis](http://en.wikipedia.org/wiki/Kurtosis) is
+ * a measure of the heaviness of a distribution's tails relative to its
+ * variance. The kurtosis value can be positive or negative, or even undefined.
+ *
+ * Implementation is based on Fisher's excess kurtosis definition and uses
+ * unbiased moment estimators. This is the version found in Excel and available
+ * in several statistical packages, including SAS and SciPy.
+ *
+ * @param {Array<number>} x a sample of 4 or more data points
+ * @returns {number} sample kurtosis
+ * @throws {Error} if x has length less than 4
+ * @example
+ * sampleKurtosis([1, 2, 2, 3, 5]); // => 1.4555765595463122
+ */
+function sampleKurtosis(x) {
+    var n = x.length;
+
+    if (n < 4) {
+        throw new Error("sampleKurtosis requires at least four data points");
+    }
+
+    var meanValue = mean(x);
+    var tempValue;
+    var secondCentralMoment = 0;
+    var fourthCentralMoment = 0;
+
+    for (var i = 0; i < n; i++) {
+        tempValue = x[i] - meanValue;
+        secondCentralMoment += tempValue * tempValue;
+        fourthCentralMoment += tempValue * tempValue * tempValue * tempValue;
+    }
+
+    return (
+        ((n - 1) / ((n - 2) * (n - 3))) *
+        ((n * (n + 1) * fourthCentralMoment) /
+            (secondCentralMoment * secondCentralMoment) -
+            3 * (n - 1))
+    );
+}
+
+/**
+ * Implementation of [Heap's Algorithm](https://en.wikipedia.org/wiki/Heap%27s_algorithm)
+ * for generating permutations.
+ *
+ * @param {Array} elements any type of data
+ * @returns {Array<Array>} array of permutations
+ */
+function permutationsHeap(elements) {
+    var indexes = new Array(elements.length);
+    var permutations = [elements.slice()];
+
+    for (var i = 0; i < elements.length; i++) {
+        indexes[i] = 0;
+    }
+
+    for (var i$1 = 0; i$1 < elements.length; ) {
+        if (indexes[i$1] < i$1) {
+            // At odd indexes, swap from indexes[i] instead
+            // of from the beginning of the array
+            var swapFrom = 0;
+            if (i$1 % 2 !== 0) {
+                swapFrom = indexes[i$1];
+            }
+
+            // swap between swapFrom and i, using
+            // a temporary variable as storage.
+            var temp = elements[swapFrom];
+            elements[swapFrom] = elements[i$1];
+            elements[i$1] = temp;
+
+            permutations.push(elements.slice());
+            indexes[i$1]++;
+            i$1 = 0;
+        } else {
+            indexes[i$1] = 0;
+            i$1++;
+        }
+    }
+
+    return permutations;
+}
+
+/**
+ * Implementation of Combinations
+ * Combinations are unique subsets of a collection - in this case, k x from a collection at a time.
+ * https://en.wikipedia.org/wiki/Combination
+ * @param {Array} x any type of data
+ * @param {int} k the number of objects in each group (without replacement)
+ * @returns {Array<Array>} array of permutations
+ * @example
+ * combinations([1, 2, 3], 2); // => [[1,2], [1,3], [2,3]]
+ */
+
+function combinations(x, k) {
+    var i;
+    var subI;
+    var combinationList = [];
+    var subsetCombinations;
+    var next;
+
+    for (i = 0; i < x.length; i++) {
+        if (k === 1) {
+            combinationList.push([x[i]]);
+        } else {
+            subsetCombinations = combinations(x.slice(i + 1, x.length), k - 1);
+            for (subI = 0; subI < subsetCombinations.length; subI++) {
+                next = subsetCombinations[subI];
+                next.unshift(x[i]);
+                combinationList.push(next);
+            }
+        }
+    }
+    return combinationList;
+}
+
+/**
+ * Implementation of [Combinations](https://en.wikipedia.org/wiki/Combination) with replacement
+ * Combinations are unique subsets of a collection - in this case, k x from a collection at a time.
+ * 'With replacement' means that a given element can be chosen multiple times.
+ * Unlike permutation, order doesn't matter for combinations.
+ *
+ * @param {Array} x any type of data
+ * @param {int} k the number of objects in each group (without replacement)
+ * @returns {Array<Array>} array of permutations
+ * @example
+ * combinationsReplacement([1, 2], 2); // => [[1, 1], [1, 2], [2, 2]]
+ */
+function combinationsReplacement(x, k) {
+    var combinationList = [];
+
+    for (var i = 0; i < x.length; i++) {
+        if (k === 1) {
+            // If we're requested to find only one element, we don't need
+            // to recurse: just push `x[i]` onto the list of combinations.
+            combinationList.push([x[i]]);
+        } else {
+            // Otherwise, recursively find combinations, given `k - 1`. Note that
+            // we request `k - 1`, so if you were looking for k=3 combinations, we're
+            // requesting k=2. This -1 gets reversed in the for loop right after this
+            // code, since we concatenate `x[i]` onto the selected combinations,
+            // bringing `k` back up to your requested level.
+            // This recursion may go many levels deep, since it only stops once
+            // k=1.
+            var subsetCombinations = combinationsReplacement(
+                x.slice(i, x.length),
+                k - 1
+            );
+
+            for (var j = 0; j < subsetCombinations.length; j++) {
+                combinationList.push([x[i]].concat(subsetCombinations[j]));
+            }
+        }
+    }
+
+    return combinationList;
+}
+
+/**
+ * When adding a new value to a list, one does not have to necessary
+ * recompute the mean of the list in linear time. They can instead use
+ * this function to compute the new mean by providing the current mean,
+ * the number of elements in the list that produced it and the new
+ * value to add.
+ *
+ * @since 2.5.0
+ * @param {number} mean current mean
+ * @param {number} n number of items in the list
+ * @param {number} newValue the added value
+ * @returns {number} the new mean
+ *
+ * @example
+ * addToMean(14, 5, 53); // => 20.5
+ */
+function addToMean(mean, n, newValue) {
+    return mean + (newValue - mean) / (n + 1);
+}
+
+/**
+ * When combining two lists of values for which one already knows the means,
+ * one does not have to necessary recompute the mean of the combined lists in
+ * linear time. They can instead use this function to compute the combined
+ * mean by providing the mean & number of values of the first list and the mean
+ * & number of values of the second list.
+ *
+ * @since 3.0.0
+ * @param {number} mean1 mean of the first list
+ * @param {number} n1 number of items in the first list
+ * @param {number} mean2 mean of the second list
+ * @param {number} n2 number of items in the second list
+ * @returns {number} the combined mean
+ *
+ * @example
+ * combineMeans(5, 3, 4, 3); // => 4.5
+ */
+function combineMeans(mean1, n1, mean2, n2) {
+    return (mean1 * n1 + mean2 * n2) / (n1 + n2);
+}
+
+/**
+ * When combining two lists of values for which one already knows the variances,
+ * one does not have to necessary recompute the variance of the combined lists
+ * in linear time. They can instead use this function to compute the combined
+ * variance by providing the variance, mean & number of values of the first list
+ * and the variance, mean & number of values of the second list.
+ *
+ * @since 3.0.0
+ * @param {number} variance1 variance of the first list
+ * @param {number} mean1 mean of the first list
+ * @param {number} n1 number of items in the first list
+ * @param {number} variance2 variance of the second list
+ * @param {number} mean2 mean of the second list
+ * @param {number} n2 number of items in the second list
+ * @returns {number} the combined mean
+ *
+ * @example
+ * combineVariances(14 / 3, 5, 3, 8 / 3, 4, 3); // => 47 / 12
+ */
+function combineVariances(variance1, mean1, n1, variance2, mean2, n2) {
+    var newMean = combineMeans(mean1, n1, mean2, n2);
+
+    return (
+        (n1 * (variance1 + Math.pow(mean1 - newMean, 2)) +
+            n2 * (variance2 + Math.pow(mean2 - newMean, 2))) /
+        (n1 + n2)
+    );
+}
+
+/**
+ * The [Geometric Mean](https://en.wikipedia.org/wiki/Geometric_mean) is
+ * a mean function that is more useful for numbers in different
+ * ranges.
+ *
+ * This is the nth root of the input numbers multiplied by each other.
+ *
+ * The geometric mean is often useful for
+ * **[proportional growth](https://en.wikipedia.org/wiki/Geometric_mean#Proportional_growth)**: given
+ * growth rates for multiple years, like _80%, 16.66% and 42.85%_, a simple
+ * mean will incorrectly estimate an average growth rate, whereas a geometric
+ * mean will correctly estimate a growth rate that, over those years,
+ * will yield the same end value.
+ *
+ * This runs in `O(n)`, linear time, with respect to the length of the array.
+ *
+ * @param {Array<number>} x sample of one or more data points
+ * @returns {number} geometric mean
+ * @throws {Error} if x is empty
+ * @throws {Error} if x contains a negative number
+ * @example
+ * var growthRates = [1.80, 1.166666, 1.428571];
+ * var averageGrowth = ss.geometricMean(growthRates);
+ * var averageGrowthRates = [averageGrowth, averageGrowth, averageGrowth];
+ * var startingValue = 10;
+ * var startingValueMean = 10;
+ * growthRates.forEach(function(rate) {
+ *   startingValue *= rate;
+ * });
+ * averageGrowthRates.forEach(function(rate) {
+ *   startingValueMean *= rate;
+ * });
+ * startingValueMean === startingValue;
+ */
+function geometricMean(x) {
+    if (x.length === 0) {
+        throw new Error("geometricMean requires at least one data point");
+    }
+
+    // the starting value.
+    var value = 1;
+
+    for (var i = 0; i < x.length; i++) {
+        // the geometric mean is only valid for positive numbers
+        if (x[i] < 0) {
+            throw new Error(
+                "geometricMean requires only non-negative numbers as input"
+            );
+        }
+
+        // repeatedly multiply the value by each number
+        value *= x[i];
+    }
+
+    return Math.pow(value, 1 / x.length);
+}
+
+/**
+ * The [log average](https://en.wikipedia.org/wiki/https://en.wikipedia.org/wiki/Geometric_mean#Relationship_with_logarithms)
+ * is an equivalent way of computing the geometric mean of an array suitable for large or small products.
+ *
+ * It's found by calculating the average logarithm of the elements and exponentiating.
+ *
+ * @param {Array<number>} x sample of one or more data points
+ * @returns {number} geometric mean
+ * @throws {Error} if x is empty
+ * @throws {Error} if x contains a negative number
+ */
+function logAverage(x) {
+    if (x.length === 0) {
+        throw new Error("logAverage requires at least one data point");
+    }
+
+    var value = 0;
+    for (var i = 0; i < x.length; i++) {
+        if (x[i] < 0) {
+            throw new Error(
+                "logAverage requires only non-negative numbers as input"
+            );
+        }
+        value += Math.log(x[i]);
+    }
+
+    return Math.exp(value / x.length);
+}
+
+/**
+ * The [Harmonic Mean](https://en.wikipedia.org/wiki/Harmonic_mean) is
+ * a mean function typically used to find the average of rates.
+ * This mean is calculated by taking the reciprocal of the arithmetic mean
+ * of the reciprocals of the input numbers.
+ *
+ * This is a [measure of central tendency](https://en.wikipedia.org/wiki/Central_tendency):
+ * a method of finding a typical or central value of a set of numbers.
+ *
+ * This runs in `O(n)`, linear time, with respect to the length of the array.
+ *
+ * @param {Array<number>} x sample of one or more data points
+ * @returns {number} harmonic mean
+ * @throws {Error} if x is empty
+ * @throws {Error} if x contains a negative number
+ * @example
+ * harmonicMean([2, 3]).toFixed(2) // => '2.40'
+ */
+function harmonicMean(x) {
+    if (x.length === 0) {
+        throw new Error("harmonicMean requires at least one data point");
+    }
+
+    var reciprocalSum = 0;
+
+    for (var i = 0; i < x.length; i++) {
+        // the harmonic mean is only valid for positive numbers
+        if (x[i] <= 0) {
+            throw new Error(
+                "harmonicMean requires only positive numbers as input"
+            );
+        }
+
+        reciprocalSum += 1 / x[i];
+    }
+
+    // divide n by the reciprocal sum
+    return x.length / reciprocalSum;
+}
+
+/**
+ * The mean, _also known as average_,
+ * is the sum of all values over the number of values.
+ * This is a [measure of central tendency](https://en.wikipedia.org/wiki/Central_tendency):
+ * a method of finding a typical or central value of a set of numbers.
+ *
+ * The simple mean uses the successive addition method internally
+ * to calculate it's result. Errors in floating-point addition are
+ * not accounted for, so if precision is required, the standard {@link mean}
+ * method should be used instead.
+ *
+ * This runs in `O(n)`, linear time, with respect to the length of the array.
+ *
+ *
+ * @param {Array<number>} x sample of one or more data points
+ * @throws {Error} if the length of x is less than one
+ * @returns {number} mean
+ * @example
+ * mean([0, 10]); // => 5
+ */
+function meanSimple(x) {
+    if (x.length === 0) {
+        throw new Error("meanSimple requires at least one data point");
+    }
+
+    return sumSimple(x) / x.length;
+}
+
+/**
+ * The [median](http://en.wikipedia.org/wiki/Median) is
+ * the middle number of a list. This is often a good indicator of 'the middle'
+ * when there are outliers that skew the `mean()` value.
+ * This is a [measure of central tendency](https://en.wikipedia.org/wiki/Central_tendency):
+ * a method of finding a typical or central value of a set of numbers.
+ *
+ * The median isn't necessarily one of the elements in the list: the value
+ * can be the average of two elements if the list has an even length
+ * and the two central values are different.
+ *
+ * @param {Array<number>} sorted input
+ * @returns {number} median value
+ * @example
+ * medianSorted([10, 2, 5, 100, 2, 1]); // => 52.5
+ */
+function medianSorted(sorted) {
+    return simple_statistics_quantileSorted(sorted, 0.5);
+}
+
+/**
+ * When removing a value from a list, one does not have to necessary
+ * recompute the mean of the list in linear time. They can instead use
+ * this function to compute the new mean by providing the current mean,
+ * the number of elements in the list that produced it and the value to remove.
+ *
+ * @since 3.0.0
+ * @param {number} mean current mean
+ * @param {number} n number of items in the list
+ * @param {number} value the value to remove
+ * @returns {number} the new mean
+ *
+ * @example
+ * subtractFromMean(20.5, 6, 53); // => 14
+ */
+function subtractFromMean(mean, n, value) {
+    return (mean * n - value) / (n - 1);
+}
+
+/**
+ * The Root Mean Square (RMS) is
+ * a mean function used as a measure of the magnitude of a set
+ * of numbers, regardless of their sign.
+ * This is the square root of the mean of the squares of the
+ * input numbers.
+ * This runs in `O(n)`, linear time, with respect to the length of the array.
+ *
+ * @param {Array<number>} x a sample of one or more data points
+ * @returns {number} root mean square
+ * @throws {Error} if x is empty
+ * @example
+ * rootMeanSquare([-1, 1, -1, 1]); // => 1
+ */
+function rootMeanSquare(x) {
+    if (x.length === 0) {
+        throw new Error("rootMeanSquare requires at least one data point");
+    }
+
+    var sumOfSquares = 0;
+    for (var i = 0; i < x.length; i++) {
+        sumOfSquares += Math.pow(x[i], 2);
+    }
+
+    return Math.sqrt(sumOfSquares / x.length);
+}
+
+/**
+ * The`coefficient of variation`_ is the ratio of the standard deviation to the mean.
+ * .._`coefficient of variation`: https://en.wikipedia.org/wiki/Coefficient_of_variation
+ *
+ *
+ * @param {Array} x input
+ * @returns {number} coefficient of variation
+ * @example
+ * coefficientOfVariation([1, 2, 3, 4]).toFixed(3); // => 0.516
+ * coefficientOfVariation([1, 2, 3, 4, 5]).toFixed(3); // => 0.527
+ * coefficientOfVariation([-1, 0, 1, 2, 3, 4]).toFixed(3); // => 1.247
+ */
+function coefficientOfVariation(x) {
+    return sampleStandardDeviation(x) / mean(x);
+}
+
+/**
+ * This is to compute [a one-sample t-test](https://en.wikipedia.org/wiki/Student%27s_t-test#One-sample_t-test), comparing the mean
+ * of a sample to a known value, x.
+ *
+ * in this case, we're trying to determine whether the
+ * population mean is equal to the value that we know, which is `x`
+ * here. Usually the results here are used to look up a
+ * [p-value](http://en.wikipedia.org/wiki/P-value), which, for
+ * a certain level of significance, will let you determine that the
+ * null hypothesis can or cannot be rejected.
+ *
+ * @param {Array<number>} x sample of one or more numbers
+ * @param {number} expectedValue expected value of the population mean
+ * @returns {number} value
+ * @example
+ * tTest([1, 2, 3, 4, 5, 6], 3.385).toFixed(2); // => '0.16'
+ */
+function tTest(x, expectedValue) {
+    // The mean of the sample
+    var sampleMean = mean(x);
+
+    // The standard deviation of the sample
+    var sd = standardDeviation(x);
+
+    // Square root the length of the sample
+    var rootN = Math.sqrt(x.length);
+
+    // returning the t value
+    return (sampleMean - expectedValue) / (sd / rootN);
+}
+
+/**
+ * This is to compute [two sample t-test](http://en.wikipedia.org/wiki/Student's_t-test).
+ * Tests whether "mean(X)-mean(Y) = difference", (
+ * in the most common case, we often have `difference == 0` to test if two samples
+ * are likely to be taken from populations with the same mean value) with
+ * no prior knowledge on standard deviations of both samples
+ * other than the fact that they have the same standard deviation.
+ *
+ * Usually the results here are used to look up a
+ * [p-value](http://en.wikipedia.org/wiki/P-value), which, for
+ * a certain level of significance, will let you determine that the
+ * null hypothesis can or cannot be rejected.
+ *
+ * `diff` can be omitted if it equals 0.
+ *
+ * [This is used to reject](https://en.wikipedia.org/wiki/Exclusion_of_the_null_hypothesis)
+ * a null hypothesis that the two populations that have been sampled into
+ * `sampleX` and `sampleY` are equal to each other.
+ *
+ * @param {Array<number>} sampleX a sample as an array of numbers
+ * @param {Array<number>} sampleY a sample as an array of numbers
+ * @param {number} [difference=0]
+ * @returns {number|null} test result
+ *
+ * @example
+ * tTestTwoSample([1, 2, 3, 4], [3, 4, 5, 6], 0); // => -2.1908902300206643
+ */
+function tTestTwoSample(sampleX, sampleY, difference) {
+    var n = sampleX.length;
+    var m = sampleY.length;
+
+    // If either sample doesn't actually have any values, we can't
+    // compute this at all, so we return `null`.
+    if (!n || !m) {
+        return null;
+    }
+
+    // default difference (mu) is zero
+    if (!difference) {
+        difference = 0;
+    }
+
+    var meanX = mean(sampleX);
+    var meanY = mean(sampleY);
+    var sampleVarianceX = sampleVariance(sampleX);
+    var sampleVarianceY = sampleVariance(sampleY);
+
+    if (
+        typeof meanX === "number" &&
+        typeof meanY === "number" &&
+        typeof sampleVarianceX === "number" &&
+        typeof sampleVarianceY === "number"
+    ) {
+        var weightedVariance =
+            ((n - 1) * sampleVarianceX + (m - 1) * sampleVarianceY) /
+            (n + m - 2);
+
+        return (
+            (meanX - meanY - difference) /
+            Math.sqrt(weightedVariance * (1 / n + 1 / m))
+        );
+    }
+}
+
+/**
+ * This function calculates the Wilcoxon rank sum statistic for the first sample
+ * with respect to the second. The Wilcoxon rank sum test is a non-parametric
+ * alternative to the t-test which is equivalent to the
+ * [Mann-Whitney U test](https://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U_test).
+ * The statistic is calculated by pooling all the observations together, ranking them,
+ * and then summing the ranks associated with one of the samples. If this rank sum is
+ * sufficiently large or small we reject the hypothesis that the two samples come
+ * from the same distribution in favor of the alternative that one is shifted with
+ * respect to the other.
+ *
+ * @param {Array<number>} sampleX a sample as an array of numbers
+ * @param {Array<number>} sampleY a sample as an array of numbers
+ * @returns {number} rank sum for sampleX
+ *
+ * @example
+ * wilcoxonRankSum([1, 4, 8], [9, 12, 15]); // => 6
+ */
+function wilcoxonRankSum(sampleX, sampleY) {
+    if (!sampleX.length || !sampleY.length) {
+        throw new Error("Neither sample can be empty");
+    }
+
+    var pooledSamples = sampleX
+        .map(function (x) { return ({ label: "x", value: x }); })
+        .concat(sampleY.map(function (y) { return ({ label: "y", value: y }); }))
+        .sort(function (a, b) { return a.value - b.value; });
+
+    for (var rank = 0; rank < pooledSamples.length; rank++) {
+        pooledSamples[rank].rank = rank;
+    }
+
+    var tiedRanks = [pooledSamples[0].rank];
+    for (var i = 1; i < pooledSamples.length; i++) {
+        if (pooledSamples[i].value === pooledSamples[i - 1].value) {
+            tiedRanks.push(pooledSamples[i].rank);
+            if (i === pooledSamples.length - 1) {
+                replaceRanksInPlace(pooledSamples, tiedRanks);
+            }
+        } else if (tiedRanks.length > 1) {
+            replaceRanksInPlace(pooledSamples, tiedRanks);
+        } else {
+            tiedRanks = [pooledSamples[i].rank];
+        }
+    }
+
+    function replaceRanksInPlace(pooledSamples, tiedRanks) {
+        var average = (tiedRanks[0] + tiedRanks[tiedRanks.length - 1]) / 2;
+        for (var i = 0; i < tiedRanks.length; i++) {
+            pooledSamples[tiedRanks[i]].rank = average;
+        }
+    }
+
+    var rankSum = 0;
+
+    for (var i$1 = 0; i$1 < pooledSamples.length; i$1++) {
+        var sample = pooledSamples[i$1];
+        if (sample.label === "x") {
+            rankSum += sample.rank + 1;
+        }
+    }
+
+    return rankSum;
+}
+
+/**
+ * [Bayesian Classifier](http://en.wikipedia.org/wiki/Naive_Bayes_classifier)
+ *
+ * This is a naïve bayesian classifier that takes
+ * singly-nested objects.
+ *
+ * @class
+ * @example
+ * var bayes = new BayesianClassifier();
+ * bayes.train({
+ *   species: 'Cat'
+ * }, 'animal');
+ * var result = bayes.score({
+ *   species: 'Cat'
+ * })
+ * // result
+ * // {
+ * //   animal: 1
+ * // }
+ */
+var BayesianClassifier = function BayesianClassifier() {
+    // The number of items that are currently
+    // classified in the model
+    this.totalCount = 0;
+    // Every item classified in the model
+    this.data = {};
+};
+
+/**
+ * Train the classifier with a new item, which has a single
+ * dimension of Javascript literal keys and values.
+ *
+ * @param {Object} item an object with singly-deep properties
+ * @param {string} category the category this item belongs to
+ * @return {undefined} adds the item to the classifier
+ */
+BayesianClassifier.prototype.train = function train (item, category) {
+    // If the data object doesn't have any values
+    // for this category, create a new object for it.
+    if (!this.data[category]) {
+        this.data[category] = {};
+    }
+
+    // Iterate through each key in the item.
+    for (var k in item) {
+        var v = item[k];
+        // Initialize the nested object `data[category][k][item[k]]`
+        // with an object of keys that equal 0.
+        if (this.data[category][k] === undefined) {
+            this.data[category][k] = {};
+        }
+        if (this.data[category][k][v] === undefined) {
+            this.data[category][k][v] = 0;
+        }
+
+        // And increment the key for this key/value combination.
+        this.data[category][k][v]++;
+    }
+
+    // Increment the number of items classified
+    this.totalCount++;
+};
+
+/**
+ * Generate a score of how well this item matches all
+ * possible categories based on its attributes
+ *
+ * @param {Object} item an item in the same format as with train
+ * @returns {Object} of probabilities that this item belongs to a
+ * given category.
+ */
+BayesianClassifier.prototype.score = function score (item) {
+    // Initialize an empty array of odds per category.
+    var odds = {};
+    var category;
+    // Iterate through each key in the item,
+    // then iterate through each category that has been used
+    // in previous calls to `.train()`
+    for (var k in item) {
+        var v = item[k];
+        for (category in this.data) {
+            // Create an empty object for storing key - value combinations
+            // for this category.
+            odds[category] = {};
+
+            // If this item doesn't even have a property, it counts for nothing,
+            // but if it does have the property that we're looking for from
+            // the item to categorize, it counts based on how popular it is
+            // versus the whole population.
+            if (this.data[category][k]) {
+                odds[category][k + "_" + v] =
+                    (this.data[category][k][v] || 0) / this.totalCount;
+            } else {
+                odds[category][k + "_" + v] = 0;
+            }
+        }
+    }
+
+    // Set up a new object that will contain sums of these odds by category
+    var oddsSums = {};
+
+    for (category in odds) {
+        // Tally all of the odds for each category-combination pair -
+        // the non-existence of a category does not add anything to the
+        // score.
+        oddsSums[category] = 0;
+        for (var combination in odds[category]) {
+            oddsSums[category] += odds[category][combination];
+        }
+    }
+
+    return oddsSums;
+};
+
+/**
+ * This is a single-layer [Perceptron Classifier](http://en.wikipedia.org/wiki/Perceptron) that takes
+ * arrays of numbers and predicts whether they should be classified
+ * as either 0 or 1 (negative or positive examples).
+ * @class
+ * @example
+ * // Create the model
+ * var p = new PerceptronModel();
+ * // Train the model with input with a diagonal boundary.
+ * for (var i = 0; i < 5; i++) {
+ *     p.train([1, 1], 1);
+ *     p.train([0, 1], 0);
+ *     p.train([1, 0], 0);
+ *     p.train([0, 0], 0);
+ * }
+ * p.predict([0, 0]); // 0
+ * p.predict([0, 1]); // 0
+ * p.predict([1, 0]); // 0
+ * p.predict([1, 1]); // 1
+ */
+var PerceptronModel = function PerceptronModel() {
+    // The weights, or coefficients of the model;
+    // weights are only populated when training with data.
+    this.weights = [];
+    // The bias term, or intercept; it is also a weight but
+    // it's stored separately for convenience as it is always
+    // multiplied by one.
+    this.bias = 0;
+};
+/**
+ * **Predict**: Use an array of features with the weight array and bias
+ * to predict whether an example is labeled 0 or 1.
+ *
+ * @param {Array<number>} features an array of features as numbers
+ * @returns {number} 1 if the score is over 0, otherwise 0
+ */
+PerceptronModel.prototype.predict = function predict (features) {
+    // Only predict if previously trained
+    // on the same size feature array(s).
+    if (features.length !== this.weights.length) {
+        return null;
+    }
+
+    // Calculate the sum of features times weights,
+    // with the bias added (implicitly times one).
+    var score = 0;
+    for (var i = 0; i < this.weights.length; i++) {
+        score += this.weights[i] * features[i];
+    }
+    score += this.bias;
+
+    // Classify as 1 if the score is over 0, otherwise 0.
+    if (score > 0) {
+        return 1;
+    } else {
+        return 0;
+    }
+};
+
+/**
+ * **Train** the classifier with a new example, which is
+ * a numeric array of features and a 0 or 1 label.
+ *
+ * @param {Array<number>} features an array of features as numbers
+ * @param {number} label either 0 or 1
+ * @returns {PerceptronModel} this
+ */
+PerceptronModel.prototype.train = function train (features, label) {
+    // Require that only labels of 0 or 1 are considered.
+    if (label !== 0 && label !== 1) {
+        return null;
+    }
+    // The length of the feature array determines
+    // the length of the weight array.
+    // The perceptron will continue learning as long as
+    // it keeps seeing feature arrays of the same length.
+    // When it sees a new data shape, it initializes.
+    if (features.length !== this.weights.length) {
+        this.weights = features;
+        this.bias = 1;
+    }
+    // Make a prediction based on current weights.
+    var prediction = this.predict(features);
+    // Update the weights if the prediction is wrong.
+    if (typeof prediction === "number" && prediction !== label) {
+        var gradient = label - prediction;
+        for (var i = 0; i < this.weights.length; i++) {
+            this.weights[i] += gradient * features[i];
+        }
+        this.bias += gradient;
+    }
+    return this;
+};
+
+/**
+ * We use `ε`, epsilon, as a stopping criterion when we want to iterate
+ * until we're "close enough". Epsilon is a very small number: for
+ * simple statistics, that number is **0.0001**
+ *
+ * This is used in calculations like the binomialDistribution, in which
+ * the process of finding a value is [iterative](https://en.wikipedia.org/wiki/Iterative_method):
+ * it progresses until it is close enough.
+ *
+ * Below is an example of using epsilon in [gradient descent](https://en.wikipedia.org/wiki/Gradient_descent),
+ * where we're trying to find a local minimum of a function's derivative,
+ * given by the `fDerivative` method.
+ *
+ * @example
+ * // From calculation, we expect that the local minimum occurs at x=9/4
+ * var x_old = 0;
+ * // The algorithm starts at x=6
+ * var x_new = 6;
+ * var stepSize = 0.01;
+ *
+ * function fDerivative(x) {
+ *   return 4 * Math.pow(x, 3) - 9 * Math.pow(x, 2);
+ * }
+ *
+ * // The loop runs until the difference between the previous
+ * // value and the current value is smaller than epsilon - a rough
+ * // meaure of 'close enough'
+ * while (Math.abs(x_new - x_old) > ss.epsilon) {
+ *   x_old = x_new;
+ *   x_new = x_old - stepSize * fDerivative(x_old);
+ * }
+ *
+ * console.log('Local minimum occurs at', x_new);
+ */
+var epsilon = 0.0001;
+
+/**
+ * A [Factorial](https://en.wikipedia.org/wiki/Factorial), usually written n!, is the product of all positive
+ * integers less than or equal to n. Often factorial is implemented
+ * recursively, but this iterative approach is significantly faster
+ * and simpler.
+ *
+ * @param {number} n input, must be an integer number 1 or greater
+ * @returns {number} factorial: n!
+ * @throws {Error} if n is less than 0 or not an integer
+ * @example
+ * factorial(5); // => 120
+ */
+function factorial(n) {
+    // factorial is mathematically undefined for negative numbers
+    if (n < 0) {
+        throw new Error("factorial requires a non-negative value");
+    }
+
+    if (Math.floor(n) !== n) {
+        throw new Error("factorial requires an integer input");
+    }
+
+    // typically you'll expand the factorial function going down, like
+    // 5! = 5 * 4 * 3 * 2 * 1. This is going in the opposite direction,
+    // counting from 2 up to the number in question, and since anything
+    // multiplied by 1 is itself, the loop only needs to start at 2.
+    var accumulator = 1;
+    for (var i = 2; i <= n; i++) {
+        // for each number up to and including the number `n`, multiply
+        // the accumulator my that number.
+        accumulator *= i;
+    }
+    return accumulator;
+}
+
+/**
+ * Compute the [gamma function](https://en.wikipedia.org/wiki/Gamma_function) of a value using Nemes' approximation.
+ * The gamma of n is equivalent to (n-1)!, but unlike the factorial function, gamma is defined for all real n except zero
+ * and negative integers (where NaN is returned). Note, the gamma function is also well-defined for complex numbers,
+ * though this implementation currently does not handle complex numbers as input values.
+ * Nemes' approximation is defined [here](https://arxiv.org/abs/1003.6020) as Theorem 2.2.
+ * Negative values use [Euler's reflection formula](https://en.wikipedia.org/wiki/Gamma_function#Properties) for computation.
+ *
+ * @param {number} n Any real number except for zero and negative integers.
+ * @returns {number} The gamma of the input value.
+ *
+ * @example
+ * gamma(11.5); // 11899423.084037038
+ * gamma(-11.5); // 2.29575810481609e-8
+ * gamma(5); // 24
+ */
+function simple_statistics_gamma(n) {
+    if (Number.isInteger(n)) {
+        if (n <= 0) {
+            // gamma not defined for zero or negative integers
+            return NaN;
+        } else {
+            // use factorial for integer inputs
+            return factorial(n - 1);
+        }
+    }
+
+    // Decrement n, because approximation is defined for n - 1
+    n--;
+
+    if (n < 0) {
+        // Use Euler's reflection formula for negative inputs
+        // see:  https://en.wikipedia.org/wiki/Gamma_function#Properties
+        return Math.PI / (Math.sin(Math.PI * -n) * simple_statistics_gamma(-n));
+    } else {
+        // Nemes' expansion approximation
+        var seriesCoefficient =
+            Math.pow(n / Math.E, n) * Math.sqrt(2 * Math.PI * (n + 1 / 6));
+
+        var seriesDenom = n + 1 / 4;
+
+        var seriesExpansion =
+            1 +
+            1 / 144 / Math.pow(seriesDenom, 2) -
+            1 / 12960 / Math.pow(seriesDenom, 3) -
+            257 / 207360 / Math.pow(seriesDenom, 4) -
+            52 / 2612736 / Math.pow(seriesDenom, 5) +
+            5741173 / 9405849600 / Math.pow(seriesDenom, 6) +
+            37529 / 18811699200 / Math.pow(seriesDenom, 7);
+
+        return seriesCoefficient * seriesExpansion;
+    }
+}
+
+// Define series coefficients
+var COEFFICIENTS = [
+    0.99999999999999709182, 57.156235665862923517, -59.597960355475491248,
+    14.136097974741747174, -0.49191381609762019978, 0.33994649984811888699e-4,
+    0.46523628927048575665e-4, -0.98374475304879564677e-4,
+    0.15808870322491248884e-3, -0.21026444172410488319e-3,
+    0.2174396181152126432e-3, -0.16431810653676389022e-3,
+    0.84418223983852743293e-4, -0.2619083840158140867e-4,
+    0.36899182659531622704e-5
+];
+
+var g = 607 / 128;
+var LOGSQRT2PI = Math.log(Math.sqrt(2 * Math.PI));
+
+/**
+ * Compute the logarithm of the [gamma function](https://en.wikipedia.org/wiki/Gamma_function) of a value using Lanczos' approximation.
+ * This function takes as input any real-value n greater than 0.
+ * This function is useful for values of n too large for the normal gamma function (n > 165).
+ * The code is based on Lanczo's Gamma approximation, defined [here](http://my.fit.edu/~gabdo/gamma.txt).
+ *
+ * @param {number} n Any real number greater than zero.
+ * @returns {number} The logarithm of gamma of the input value.
+ *
+ * @example
+ * gammaln(500); // 2605.1158503617335
+ * gammaln(2.4); // 0.21685932244884043
+ */
+function gammaln(n) {
+    // Return infinity if value not in domain
+    if (n <= 0) {
+        return Infinity;
+    }
+
+    // Decrement n, because approximation is defined for n - 1
+    n--;
+
+    // Create series approximation
+    var a = COEFFICIENTS[0];
+
+    for (var i = 1; i < 15; i++) {
+        a += COEFFICIENTS[i] / (n + i);
+    }
+
+    var tmp = g + 0.5 + n;
+
+    // Return natural logarithm of gamma(n)
+    return LOGSQRT2PI + Math.log(a) - tmp + (n + 0.5) * Math.log(tmp);
+}
+
+/**
+ * The [Bernoulli distribution](http://en.wikipedia.org/wiki/Bernoulli_distribution)
+ * is the probability discrete
+ * distribution of a random variable which takes value 1 with success
+ * probability `p` and value 0 with failure
+ * probability `q` = 1 - `p`. It can be used, for example, to represent the
+ * toss of a coin, where "1" is defined to mean "heads" and "0" is defined
+ * to mean "tails" (or vice versa). It is
+ * a special case of a Binomial Distribution
+ * where `n` = 1.
+ *
+ * @param {number} p input value, between 0 and 1 inclusive
+ * @returns {number[]} values of bernoulli distribution at this point
+ * @throws {Error} if p is outside 0 and 1
+ * @example
+ * bernoulliDistribution(0.3); // => [0.7, 0.3]
+ */
+function bernoulliDistribution(p) /*: number[] */ {
+    // Check that `p` is a valid probability (0 ≤ p ≤ 1)
+    if (p < 0 || p > 1) {
+        throw new Error(
+            "bernoulliDistribution requires probability to be between 0 and 1 inclusive"
+        );
+    }
+
+    return [1 - p, p];
+}
+
+/**
+ * The [Binomial Distribution](http://en.wikipedia.org/wiki/Binomial_distribution) is the discrete probability
+ * distribution of the number of successes in a sequence of n independent yes/no experiments, each of which yields
+ * success with probability `probability`. Such a success/failure experiment is also called a Bernoulli experiment or
+ * Bernoulli trial; when trials = 1, the Binomial Distribution is a Bernoulli Distribution.
+ *
+ * @param {number} trials number of trials to simulate
+ * @param {number} probability
+ * @returns {number[]} output
+ */
+function binomialDistribution(trials, probability) /*: ?number[] */ {
+    // Check that `p` is a valid probability (0 ≤ p ≤ 1),
+    // that `n` is an integer, strictly positive.
+    if (probability < 0 || probability > 1 || trials <= 0 || trials % 1 !== 0) {
+        return undefined;
+    }
+
+    // We initialize `x`, the random variable, and `accumulator`, an accumulator
+    // for the cumulative distribution function to 0. `distribution_functions`
+    // is the object we'll return with the `probability_of_x` and the
+    // `cumulativeProbability_of_x`, as well as the calculated mean &
+    // variance. We iterate until the `cumulativeProbability_of_x` is
+    // within `epsilon` of 1.0.
+    var x = 0;
+    var cumulativeProbability = 0;
+    var cells = [];
+    var binomialCoefficient = 1;
+
+    // This algorithm iterates through each potential outcome,
+    // until the `cumulativeProbability` is very close to 1, at
+    // which point we've defined the vast majority of outcomes
+    do {
+        // a [probability mass function](https://en.wikipedia.org/wiki/Probability_mass_function)
+        cells[x] =
+            binomialCoefficient *
+            Math.pow(probability, x) *
+            Math.pow(1 - probability, trials - x);
+        cumulativeProbability += cells[x];
+        x++;
+        binomialCoefficient = (binomialCoefficient * (trials - x + 1)) / x;
+        // when the cumulativeProbability is nearly 1, we've calculated
+        // the useful range of this distribution
+    } while (cumulativeProbability < 1 - epsilon);
+
+    return cells;
+}
+
+/**
+ * The [Poisson Distribution](http://en.wikipedia.org/wiki/Poisson_distribution)
+ * is a discrete probability distribution that expresses the probability
+ * of a given number of events occurring in a fixed interval of time
+ * and/or space if these events occur with a known average rate and
+ * independently of the time since the last event.
+ *
+ * The Poisson Distribution is characterized by the strictly positive
+ * mean arrival or occurrence rate, `λ`.
+ *
+ * @param {number} lambda location poisson distribution
+ * @returns {number[]} values of poisson distribution at that point
+ */
+function poissonDistribution(lambda) /*: ?number[] */ {
+    // Check that lambda is strictly positive
+    if (lambda <= 0) {
+        return undefined;
+    }
+
+    // our current place in the distribution
+    var x = 0;
+    // and we keep track of the current cumulative probability, in
+    // order to know when to stop calculating chances.
+    var cumulativeProbability = 0;
+    // the calculated cells to be returned
+    var cells = [];
+    var factorialX = 1;
+
+    // This algorithm iterates through each potential outcome,
+    // until the `cumulativeProbability` is very close to 1, at
+    // which point we've defined the vast majority of outcomes
+    do {
+        // a [probability mass function](https://en.wikipedia.org/wiki/Probability_mass_function)
+        cells[x] = (Math.exp(-lambda) * Math.pow(lambda, x)) / factorialX;
+        cumulativeProbability += cells[x];
+        x++;
+        factorialX *= x;
+        // when the cumulativeProbability is nearly 1, we've calculated
+        // the useful range of this distribution
+    } while (cumulativeProbability < 1 - epsilon);
+
+    return cells;
+}
+
+/**
+ * **Percentage Points of the χ2 (Chi-Squared) Distribution**
+ *
+ * The [χ2 (Chi-Squared) Distribution](http://en.wikipedia.org/wiki/Chi-squared_distribution) is used in the common
+ * chi-squared tests for goodness of fit of an observed distribution to a theoretical one, the independence of two
+ * criteria of classification of qualitative data, and in confidence interval estimation for a population standard
+ * deviation of a normal distribution from a sample standard deviation.
+ *
+ * Values from Appendix 1, Table III of William W. Hines & Douglas C. Montgomery, "Probability and Statistics in
+ * Engineering and Management Science", Wiley (1980).
+ */
+var chiSquaredDistributionTable = {
+    1: {
+        0.995: 0,
+        0.99: 0,
+        0.975: 0,
+        0.95: 0,
+        0.9: 0.02,
+        0.5: 0.45,
+        0.1: 2.71,
+        0.05: 3.84,
+        0.025: 5.02,
+        0.01: 6.63,
+        0.005: 7.88
+    },
+    2: {
+        0.995: 0.01,
+        0.99: 0.02,
+        0.975: 0.05,
+        0.95: 0.1,
+        0.9: 0.21,
+        0.5: 1.39,
+        0.1: 4.61,
+        0.05: 5.99,
+        0.025: 7.38,
+        0.01: 9.21,
+        0.005: 10.6
+    },
+    3: {
+        0.995: 0.07,
+        0.99: 0.11,
+        0.975: 0.22,
+        0.95: 0.35,
+        0.9: 0.58,
+        0.5: 2.37,
+        0.1: 6.25,
+        0.05: 7.81,
+        0.025: 9.35,
+        0.01: 11.34,
+        0.005: 12.84
+    },
+    4: {
+        0.995: 0.21,
+        0.99: 0.3,
+        0.975: 0.48,
+        0.95: 0.71,
+        0.9: 1.06,
+        0.5: 3.36,
+        0.1: 7.78,
+        0.05: 9.49,
+        0.025: 11.14,
+        0.01: 13.28,
+        0.005: 14.86
+    },
+    5: {
+        0.995: 0.41,
+        0.99: 0.55,
+        0.975: 0.83,
+        0.95: 1.15,
+        0.9: 1.61,
+        0.5: 4.35,
+        0.1: 9.24,
+        0.05: 11.07,
+        0.025: 12.83,
+        0.01: 15.09,
+        0.005: 16.75
+    },
+    6: {
+        0.995: 0.68,
+        0.99: 0.87,
+        0.975: 1.24,
+        0.95: 1.64,
+        0.9: 2.2,
+        0.5: 5.35,
+        0.1: 10.65,
+        0.05: 12.59,
+        0.025: 14.45,
+        0.01: 16.81,
+        0.005: 18.55
+    },
+    7: {
+        0.995: 0.99,
+        0.99: 1.25,
+        0.975: 1.69,
+        0.95: 2.17,
+        0.9: 2.83,
+        0.5: 6.35,
+        0.1: 12.02,
+        0.05: 14.07,
+        0.025: 16.01,
+        0.01: 18.48,
+        0.005: 20.28
+    },
+    8: {
+        0.995: 1.34,
+        0.99: 1.65,
+        0.975: 2.18,
+        0.95: 2.73,
+        0.9: 3.49,
+        0.5: 7.34,
+        0.1: 13.36,
+        0.05: 15.51,
+        0.025: 17.53,
+        0.01: 20.09,
+        0.005: 21.96
+    },
+    9: {
+        0.995: 1.73,
+        0.99: 2.09,
+        0.975: 2.7,
+        0.95: 3.33,
+        0.9: 4.17,
+        0.5: 8.34,
+        0.1: 14.68,
+        0.05: 16.92,
+        0.025: 19.02,
+        0.01: 21.67,
+        0.005: 23.59
+    },
+    10: {
+        0.995: 2.16,
+        0.99: 2.56,
+        0.975: 3.25,
+        0.95: 3.94,
+        0.9: 4.87,
+        0.5: 9.34,
+        0.1: 15.99,
+        0.05: 18.31,
+        0.025: 20.48,
+        0.01: 23.21,
+        0.005: 25.19
+    },
+    11: {
+        0.995: 2.6,
+        0.99: 3.05,
+        0.975: 3.82,
+        0.95: 4.57,
+        0.9: 5.58,
+        0.5: 10.34,
+        0.1: 17.28,
+        0.05: 19.68,
+        0.025: 21.92,
+        0.01: 24.72,
+        0.005: 26.76
+    },
+    12: {
+        0.995: 3.07,
+        0.99: 3.57,
+        0.975: 4.4,
+        0.95: 5.23,
+        0.9: 6.3,
+        0.5: 11.34,
+        0.1: 18.55,
+        0.05: 21.03,
+        0.025: 23.34,
+        0.01: 26.22,
+        0.005: 28.3
+    },
+    13: {
+        0.995: 3.57,
+        0.99: 4.11,
+        0.975: 5.01,
+        0.95: 5.89,
+        0.9: 7.04,
+        0.5: 12.34,
+        0.1: 19.81,
+        0.05: 22.36,
+        0.025: 24.74,
+        0.01: 27.69,
+        0.005: 29.82
+    },
+    14: {
+        0.995: 4.07,
+        0.99: 4.66,
+        0.975: 5.63,
+        0.95: 6.57,
+        0.9: 7.79,
+        0.5: 13.34,
+        0.1: 21.06,
+        0.05: 23.68,
+        0.025: 26.12,
+        0.01: 29.14,
+        0.005: 31.32
+    },
+    15: {
+        0.995: 4.6,
+        0.99: 5.23,
+        0.975: 6.27,
+        0.95: 7.26,
+        0.9: 8.55,
+        0.5: 14.34,
+        0.1: 22.31,
+        0.05: 25,
+        0.025: 27.49,
+        0.01: 30.58,
+        0.005: 32.8
+    },
+    16: {
+        0.995: 5.14,
+        0.99: 5.81,
+        0.975: 6.91,
+        0.95: 7.96,
+        0.9: 9.31,
+        0.5: 15.34,
+        0.1: 23.54,
+        0.05: 26.3,
+        0.025: 28.85,
+        0.01: 32,
+        0.005: 34.27
+    },
+    17: {
+        0.995: 5.7,
+        0.99: 6.41,
+        0.975: 7.56,
+        0.95: 8.67,
+        0.9: 10.09,
+        0.5: 16.34,
+        0.1: 24.77,
+        0.05: 27.59,
+        0.025: 30.19,
+        0.01: 33.41,
+        0.005: 35.72
+    },
+    18: {
+        0.995: 6.26,
+        0.99: 7.01,
+        0.975: 8.23,
+        0.95: 9.39,
+        0.9: 10.87,
+        0.5: 17.34,
+        0.1: 25.99,
+        0.05: 28.87,
+        0.025: 31.53,
+        0.01: 34.81,
+        0.005: 37.16
+    },
+    19: {
+        0.995: 6.84,
+        0.99: 7.63,
+        0.975: 8.91,
+        0.95: 10.12,
+        0.9: 11.65,
+        0.5: 18.34,
+        0.1: 27.2,
+        0.05: 30.14,
+        0.025: 32.85,
+        0.01: 36.19,
+        0.005: 38.58
+    },
+    20: {
+        0.995: 7.43,
+        0.99: 8.26,
+        0.975: 9.59,
+        0.95: 10.85,
+        0.9: 12.44,
+        0.5: 19.34,
+        0.1: 28.41,
+        0.05: 31.41,
+        0.025: 34.17,
+        0.01: 37.57,
+        0.005: 40
+    },
+    21: {
+        0.995: 8.03,
+        0.99: 8.9,
+        0.975: 10.28,
+        0.95: 11.59,
+        0.9: 13.24,
+        0.5: 20.34,
+        0.1: 29.62,
+        0.05: 32.67,
+        0.025: 35.48,
+        0.01: 38.93,
+        0.005: 41.4
+    },
+    22: {
+        0.995: 8.64,
+        0.99: 9.54,
+        0.975: 10.98,
+        0.95: 12.34,
+        0.9: 14.04,
+        0.5: 21.34,
+        0.1: 30.81,
+        0.05: 33.92,
+        0.025: 36.78,
+        0.01: 40.29,
+        0.005: 42.8
+    },
+    23: {
+        0.995: 9.26,
+        0.99: 10.2,
+        0.975: 11.69,
+        0.95: 13.09,
+        0.9: 14.85,
+        0.5: 22.34,
+        0.1: 32.01,
+        0.05: 35.17,
+        0.025: 38.08,
+        0.01: 41.64,
+        0.005: 44.18
+    },
+    24: {
+        0.995: 9.89,
+        0.99: 10.86,
+        0.975: 12.4,
+        0.95: 13.85,
+        0.9: 15.66,
+        0.5: 23.34,
+        0.1: 33.2,
+        0.05: 36.42,
+        0.025: 39.36,
+        0.01: 42.98,
+        0.005: 45.56
+    },
+    25: {
+        0.995: 10.52,
+        0.99: 11.52,
+        0.975: 13.12,
+        0.95: 14.61,
+        0.9: 16.47,
+        0.5: 24.34,
+        0.1: 34.28,
+        0.05: 37.65,
+        0.025: 40.65,
+        0.01: 44.31,
+        0.005: 46.93
+    },
+    26: {
+        0.995: 11.16,
+        0.99: 12.2,
+        0.975: 13.84,
+        0.95: 15.38,
+        0.9: 17.29,
+        0.5: 25.34,
+        0.1: 35.56,
+        0.05: 38.89,
+        0.025: 41.92,
+        0.01: 45.64,
+        0.005: 48.29
+    },
+    27: {
+        0.995: 11.81,
+        0.99: 12.88,
+        0.975: 14.57,
+        0.95: 16.15,
+        0.9: 18.11,
+        0.5: 26.34,
+        0.1: 36.74,
+        0.05: 40.11,
+        0.025: 43.19,
+        0.01: 46.96,
+        0.005: 49.65
+    },
+    28: {
+        0.995: 12.46,
+        0.99: 13.57,
+        0.975: 15.31,
+        0.95: 16.93,
+        0.9: 18.94,
+        0.5: 27.34,
+        0.1: 37.92,
+        0.05: 41.34,
+        0.025: 44.46,
+        0.01: 48.28,
+        0.005: 50.99
+    },
+    29: {
+        0.995: 13.12,
+        0.99: 14.26,
+        0.975: 16.05,
+        0.95: 17.71,
+        0.9: 19.77,
+        0.5: 28.34,
+        0.1: 39.09,
+        0.05: 42.56,
+        0.025: 45.72,
+        0.01: 49.59,
+        0.005: 52.34
+    },
+    30: {
+        0.995: 13.79,
+        0.99: 14.95,
+        0.975: 16.79,
+        0.95: 18.49,
+        0.9: 20.6,
+        0.5: 29.34,
+        0.1: 40.26,
+        0.05: 43.77,
+        0.025: 46.98,
+        0.01: 50.89,
+        0.005: 53.67
+    },
+    40: {
+        0.995: 20.71,
+        0.99: 22.16,
+        0.975: 24.43,
+        0.95: 26.51,
+        0.9: 29.05,
+        0.5: 39.34,
+        0.1: 51.81,
+        0.05: 55.76,
+        0.025: 59.34,
+        0.01: 63.69,
+        0.005: 66.77
+    },
+    50: {
+        0.995: 27.99,
+        0.99: 29.71,
+        0.975: 32.36,
+        0.95: 34.76,
+        0.9: 37.69,
+        0.5: 49.33,
+        0.1: 63.17,
+        0.05: 67.5,
+        0.025: 71.42,
+        0.01: 76.15,
+        0.005: 79.49
+    },
+    60: {
+        0.995: 35.53,
+        0.99: 37.48,
+        0.975: 40.48,
+        0.95: 43.19,
+        0.9: 46.46,
+        0.5: 59.33,
+        0.1: 74.4,
+        0.05: 79.08,
+        0.025: 83.3,
+        0.01: 88.38,
+        0.005: 91.95
+    },
+    70: {
+        0.995: 43.28,
+        0.99: 45.44,
+        0.975: 48.76,
+        0.95: 51.74,
+        0.9: 55.33,
+        0.5: 69.33,
+        0.1: 85.53,
+        0.05: 90.53,
+        0.025: 95.02,
+        0.01: 100.42,
+        0.005: 104.22
+    },
+    80: {
+        0.995: 51.17,
+        0.99: 53.54,
+        0.975: 57.15,
+        0.95: 60.39,
+        0.9: 64.28,
+        0.5: 79.33,
+        0.1: 96.58,
+        0.05: 101.88,
+        0.025: 106.63,
+        0.01: 112.33,
+        0.005: 116.32
+    },
+    90: {
+        0.995: 59.2,
+        0.99: 61.75,
+        0.975: 65.65,
+        0.95: 69.13,
+        0.9: 73.29,
+        0.5: 89.33,
+        0.1: 107.57,
+        0.05: 113.14,
+        0.025: 118.14,
+        0.01: 124.12,
+        0.005: 128.3
+    },
+    100: {
+        0.995: 67.33,
+        0.99: 70.06,
+        0.975: 74.22,
+        0.95: 77.93,
+        0.9: 82.36,
+        0.5: 99.33,
+        0.1: 118.5,
+        0.05: 124.34,
+        0.025: 129.56,
+        0.01: 135.81,
+        0.005: 140.17
+    }
+};
+
+/**
+ * The [χ2 (Chi-Squared) Goodness-of-Fit Test](http://en.wikipedia.org/wiki/Goodness_of_fit#Pearson.27s_chi-squared_test)
+ * uses a measure of goodness of fit which is the sum of differences between observed and expected outcome frequencies
+ * (that is, counts of observations), each squared and divided by the number of observations expected given the
+ * hypothesized distribution. The resulting χ2 statistic, `chiSquared`, can be compared to the chi-squared distribution
+ * to determine the goodness of fit. In order to determine the degrees of freedom of the chi-squared distribution, one
+ * takes the total number of observed frequencies and subtracts the number of estimated parameters. The test statistic
+ * follows, approximately, a chi-square distribution with (k − c) degrees of freedom where `k` is the number of non-empty
+ * cells and `c` is the number of estimated parameters for the distribution.
+ *
+ * @param {Array<number>} data
+ * @param {Function} distributionType a function that returns a point in a distribution:
+ * for instance, binomial, bernoulli, or poisson
+ * @param {number} significance
+ * @returns {number} chi squared goodness of fit
+ * @example
+ * // Data from Poisson goodness-of-fit example 10-19 in William W. Hines & Douglas C. Montgomery,
+ * // "Probability and Statistics in Engineering and Management Science", Wiley (1980).
+ * var data1019 = [
+ *     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+ *     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+ *     1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+ *     2, 2, 2, 2, 2, 2, 2, 2, 2,
+ *     3, 3, 3, 3
+ * ];
+ * ss.chiSquaredGoodnessOfFit(data1019, ss.poissonDistribution, 0.05); //= false
+ */
+function chiSquaredGoodnessOfFit(data, distributionType, significance) {
+    // Estimate from the sample data, a weighted mean.
+    var inputMean = mean(data);
+    // Calculated value of the χ2 statistic.
+    var chiSquared = 0;
+    // Number of hypothesized distribution parameters estimated, expected to be supplied in the distribution test.
+    // Lose one degree of freedom for estimating `lambda` from the sample data.
+    var c = 1;
+    // The hypothesized distribution.
+    // Generate the hypothesized distribution.
+    var hypothesizedDistribution = distributionType(inputMean);
+    var observedFrequencies = [];
+    var expectedFrequencies = [];
+
+    // Create an array holding a histogram from the sample data, of
+    // the form `{ value: numberOfOcurrences }`
+    for (var i = 0; i < data.length; i++) {
+        if (observedFrequencies[data[i]] === undefined) {
+            observedFrequencies[data[i]] = 0;
+        }
+        observedFrequencies[data[i]]++;
+    }
+
+    // The histogram we created might be sparse - there might be gaps
+    // between values. So we iterate through the histogram, making
+    // sure that instead of undefined, gaps have 0 values.
+    for (var i$1 = 0; i$1 < observedFrequencies.length; i$1++) {
+        if (observedFrequencies[i$1] === undefined) {
+            observedFrequencies[i$1] = 0;
+        }
+    }
+
+    // Create an array holding a histogram of expected data given the
+    // sample size and hypothesized distribution.
+    for (var k in hypothesizedDistribution) {
+        if (k in observedFrequencies) {
+            expectedFrequencies[+k] = hypothesizedDistribution[k] * data.length;
+        }
+    }
+
+    // Working backward through the expected frequencies, collapse classes
+    // if less than three observations are expected for a class.
+    // This transformation is applied to the observed frequencies as well.
+    for (var k$1 = expectedFrequencies.length - 1; k$1 >= 0; k$1--) {
+        if (expectedFrequencies[k$1] < 3) {
+            expectedFrequencies[k$1 - 1] += expectedFrequencies[k$1];
+            expectedFrequencies.pop();
+
+            observedFrequencies[k$1 - 1] += observedFrequencies[k$1];
+            observedFrequencies.pop();
+        }
+    }
+
+    // Iterate through the squared differences between observed & expected
+    // frequencies, accumulating the `chiSquared` statistic.
+    for (var k$2 = 0; k$2 < observedFrequencies.length; k$2++) {
+        chiSquared +=
+            Math.pow(observedFrequencies[k$2] - expectedFrequencies[k$2], 2) /
+            expectedFrequencies[k$2];
+    }
+
+    // Calculate degrees of freedom for this test and look it up in the
+    // `chiSquaredDistributionTable` in order to
+    // accept or reject the goodness-of-fit of the hypothesized distribution.
+    // Degrees of freedom, calculated as (number of class intervals -
+    // number of hypothesized distribution parameters estimated - 1)
+    var degreesOfFreedom = observedFrequencies.length - c - 1;
+    return (
+        chiSquaredDistributionTable[degreesOfFreedom][significance] < chiSquared
+    );
+}
+
+var SQRT_2PI$1 = Math.sqrt(2 * Math.PI);
+
+/**
+ * [Well-known kernels](https://en.wikipedia.org/wiki/Kernel_(statistics)#Kernel_functions_in_common_use)
+ * @private
+ */
+var kernels = {
+    /**
+     * The gaussian kernel.
+     * @private
+     */
+    gaussian: function (u) {
+        return Math.exp(-0.5 * u * u) / SQRT_2PI$1;
+    }
+};
+
+/**
+ * Well known bandwidth selection methods
+ * @private
+ */
+var bandwidthMethods = {
+    /**
+     * The ["normal reference distribution"
+     * rule-of-thumb](https://stat.ethz.ch/R-manual/R-devel/library/MASS/html/bandwidth.nrd.html),
+     * a commonly used version of [Silverman's
+     * rule-of-thumb](https://en.wikipedia.org/wiki/Kernel_density_estimation#A_rule-of-thumb_bandwidth_estimator).
+     * @private
+     */
+    nrd: function (x) {
+        var s = sampleStandardDeviation(x);
+        var iqr = interquartileRange(x);
+        if (typeof iqr === "number") {
+            s = Math.min(s, iqr / 1.34);
+        }
+        return 1.06 * s * Math.pow(x.length, -0.2);
+    }
+};
+
+/**
+ * [Kernel density estimation](https://en.wikipedia.org/wiki/Kernel_density_estimation)
+ * is a useful tool for, among other things, estimating the shape of the
+ * underlying probability distribution from a sample.
+ *
+ * @name kernelDensityEstimation
+ * @param X sample values
+ * @param kernel The kernel function to use. If a function is provided, it should return non-negative values and integrate to 1. Defaults to 'gaussian'.
+ * @param bandwidthMethod The "bandwidth selection" method to use, or a fixed bandwidth value. Defaults to "nrd", the commonly-used ["normal reference distribution" rule-of-thumb](https://stat.ethz.ch/R-manual/R-devel/library/MASS/html/bandwidth.nrd.html).
+ * @returns {Function} An estimated [probability density function](https://en.wikipedia.org/wiki/Probability_density_function) for the given sample. The returned function runs in `O(X.length)`.
+ */
+function kernelDensityEstimation(X, kernel, bandwidthMethod) {
+    var kernelFn;
+    if (kernel === undefined) {
+        kernelFn = kernels.gaussian;
+    } else if (typeof kernel === "string") {
+        if (!kernels[kernel]) {
+            throw new Error('Unknown kernel "' + kernel + '"');
+        }
+        kernelFn = kernels[kernel];
+    } else {
+        kernelFn = kernel;
+    }
+
+    var bandwidth;
+    if (typeof bandwidthMethod === "undefined") {
+        bandwidth = bandwidthMethods.nrd(X);
+    } else if (typeof bandwidthMethod === "string") {
+        if (!bandwidthMethods[bandwidthMethod]) {
+            throw new Error(
+                'Unknown bandwidth method "' + bandwidthMethod + '"'
+            );
+        }
+        bandwidth = bandwidthMethods[bandwidthMethod](X);
+    } else {
+        bandwidth = bandwidthMethod;
+    }
+
+    return function (x) {
+        var i = 0;
+        var sum = 0;
+        for (i = 0; i < X.length; i++) {
+            sum += kernelFn((x - X[i]) / bandwidth);
+        }
+        return sum / bandwidth / X.length;
+    };
+}
+
+/**
+ * The [Z-Score, or Standard Score](http://en.wikipedia.org/wiki/Standard_score).
+ *
+ * The standard score is the number of standard deviations an observation
+ * or datum is above or below the mean. Thus, a positive standard score
+ * represents a datum above the mean, while a negative standard score
+ * represents a datum below the mean. It is a dimensionless quantity
+ * obtained by subtracting the population mean from an individual raw
+ * score and then dividing the difference by the population standard
+ * deviation.
+ *
+ * The z-score is only defined if one knows the population parameters;
+ * if one only has a sample set, then the analogous computation with
+ * sample mean and sample standard deviation yields the
+ * Student's t-statistic.
+ *
+ * @param {number} x
+ * @param {number} mean
+ * @param {number} standardDeviation
+ * @return {number} z score
+ * @example
+ * zScore(78, 80, 5); // => -0.4
+ */
+function zScore(x, mean, standardDeviation) {
+    return (x - mean) / standardDeviation;
+}
+
+var SQRT_2PI = Math.sqrt(2 * Math.PI);
+
+function cumulativeDistribution(z) {
+    var sum = z,
+        tmp = z;
+
+    // 15 iterations are enough for 4-digit precision
+    for (var i = 1; i < 15; i++) {
+        tmp *= (z * z) / (2 * i + 1);
+        sum += tmp;
+    }
+    return (
+        Math.round((0.5 + (sum / SQRT_2PI) * Math.exp((-z * z) / 2)) * 1e4) /
+        1e4
+    );
+}
+
+/**
+ * A standard normal table, also called the unit normal table or Z table,
+ * is a mathematical table for the values of Φ (phi), which are the values of
+ * the [cumulative distribution function](https://en.wikipedia.org/wiki/Normal_distribution#Cumulative_distribution_function)
+ * of the normal distribution. It is used to find the probability that a
+ * statistic is observed below, above, or between values on the standard
+ * normal distribution, and by extension, any normal distribution.
+ */
+var standardNormalTable = [];
+
+for (var z = 0; z <= 3.09; z += 0.01) {
+    standardNormalTable.push(cumulativeDistribution(z));
+}
+
+/**
+ * **[Cumulative Standard Normal Probability](http://en.wikipedia.org/wiki/Standard_normal_table)**
+ *
+ * Since probability tables cannot be
+ * printed for every normal distribution, as there are an infinite variety
+ * of normal distributions, it is common practice to convert a normal to a
+ * standard normal and then use the standard normal table to find probabilities.
+ *
+ * You can use `.5 + .5 * errorFunction(x / Math.sqrt(2))` to calculate the probability
+ * instead of looking it up in a table.
+ *
+ * @param {number} z
+ * @returns {number} cumulative standard normal probability
+ */
+function cumulativeStdNormalProbability(z) {
+    // Calculate the position of this value.
+    var absZ = Math.abs(z);
+    // Each row begins with a different
+    // significant digit: 0.5, 0.6, 0.7, and so on. Each value in the table
+    // corresponds to a range of 0.01 in the input values, so the value is
+    // multiplied by 100.
+    var index = Math.min(
+        Math.round(absZ * 100),
+        standardNormalTable.length - 1
+    );
+
+    // The index we calculate must be in the table as a positive value,
+    // but we still pay attention to whether the input is positive
+    // or negative, and flip the output value as a last step.
+    if (z >= 0) {
+        return standardNormalTable[index];
+    } else {
+        // due to floating-point arithmetic, values in the table with
+        // 4 significant figures can nevertheless end up as repeating
+        // fractions when they're computed here.
+        return +(1 - standardNormalTable[index]).toFixed(4);
+    }
+}
+
+/**
+ * **[Logistic Cumulative Distribution Function](https://en.wikipedia.org/wiki/Logistic_distribution)**
+ *
+ * @param {number} x
+ * @returns {number} cumulative standard logistic probability
+ */
+function cumulativeStdLogisticProbability(x) {
+    return 1 / (Math.exp(-x) + 1);
+}
+
+/**
+ * **[Gaussian error function](http://en.wikipedia.org/wiki/Error_function)**
+ *
+ * The `errorFunction(x/(sd * Math.sqrt(2)))` is the probability that a value in a
+ * normal distribution with standard deviation sd is within x of the mean.
+ *
+ * This function returns a numerical approximation to the exact value.
+ * It uses Horner's method to evaluate the polynomial of τ (tau).
+ *
+ * @param {number} x input
+ * @return {number} error estimation
+ * @example
+ * errorFunction(1).toFixed(2); // => '0.84'
+ */
+function errorFunction(x) {
+    var t = 1 / (1 + 0.5 * Math.abs(x));
+    var tau =
+        t *
+        Math.exp(
+            -x * x +
+                ((((((((0.17087277 * t - 0.82215223) * t + 1.48851587) * t -
+                    1.13520398) *
+                    t +
+                    0.27886807) *
+                    t -
+                    0.18628806) *
+                    t +
+                    0.09678418) *
+                    t +
+                    0.37409196) *
+                    t +
+                    1.00002368) *
+                    t -
+                1.26551223
+        );
+    if (x >= 0) {
+        return 1 - tau;
+    } else {
+        return tau - 1;
+    }
+}
+
+/**
+ * The Inverse [Gaussian error function](http://en.wikipedia.org/wiki/Error_function)
+ * returns a numerical approximation to the value that would have caused
+ * `errorFunction()` to return x.
+ *
+ * @param {number} x value of error function
+ * @returns {number} estimated inverted value
+ */
+function inverseErrorFunction(x) {
+    var a = (8 * (Math.PI - 3)) / (3 * Math.PI * (4 - Math.PI));
+
+    var inv = Math.sqrt(
+        Math.sqrt(
+            Math.pow(2 / (Math.PI * a) + Math.log(1 - x * x) / 2, 2) -
+                Math.log(1 - x * x) / a
+        ) -
+            (2 / (Math.PI * a) + Math.log(1 - x * x) / 2)
+    );
+
+    if (x >= 0) {
+        return inv;
+    } else {
+        return -inv;
+    }
+}
+
+/**
+ * The [Probit](http://en.wikipedia.org/wiki/Probit)
+ * is the inverse of cumulativeStdNormalProbability(),
+ * and is also known as the normal quantile function.
+ *
+ * It returns the number of standard deviations from the mean
+ * where the p'th quantile of values can be found in a normal distribution.
+ * So, for example, probit(0.5 + 0.6827/2) ≈ 1 because 68.27% of values are
+ * normally found within 1 standard deviation above or below the mean.
+ *
+ * @param {number} p
+ * @returns {number} probit
+ */
+function probit(p) {
+    if (p === 0) {
+        p = epsilon;
+    } else if (p >= 1) {
+        p = 1 - epsilon;
+    }
+    return Math.sqrt(2) * inverseErrorFunction(2 * p - 1);
+}
+
+/**
+ * The [Logit](https://en.wikipedia.org/wiki/Logit)
+ * is the inverse of cumulativeStdLogisticProbability,
+ * and is also known as the logistic quantile function.
+ *
+ * @param {number} p
+ * @returns {number} logit
+ */
+function logit(p) {
+    if (p <= 0 || p >= 1) {
+        throw new Error("p must be strictly between zero and one");
+    }
+    return Math.log(p / (1 - p));
+}
+
+/**
+ * Conducts a [permutation test](https://en.wikipedia.org/wiki/Resampling_(statistics)#Permutation_tests)
+ * to determine if two data sets are *significantly* different from each other, using
+ * the difference of means between the groups as the test statistic.
+ * The function allows for the following hypotheses:
+ * - two_tail = Null hypothesis: the two distributions are equal.
+ * - greater = Null hypothesis: observations from sampleX tend to be smaller than those from sampleY.
+ * - less = Null hypothesis: observations from sampleX tend to be greater than those from sampleY.
+ * [Learn more about one-tail vs two-tail tests.](https://en.wikipedia.org/wiki/One-_and_two-tailed_tests)
+ *
+ * @param {Array<number>} sampleX first dataset (e.g. treatment data)
+ * @param {Array<number>} sampleY second dataset (e.g. control data)
+ * @param {string} alternative alternative hypothesis, either 'two_sided' (default), 'greater', or 'less'
+ * @param {number} k number of values in permutation distribution.
+ * @param {Function} [randomSource=Math.random] an optional entropy source
+ * @returns {number} p-value The probability of observing the difference between groups (as or more extreme than what we did), assuming the null hypothesis.
+ *
+ * @example
+ * var control = [2, 5, 3, 6, 7, 2, 5];
+ * var treatment = [20, 5, 13, 12, 7, 2, 2];
+ * permutationTest(control, treatment); // ~0.1324
+ */
+function permutationTest(sampleX, sampleY, alternative, k, randomSource) {
+    // Set default arguments
+    if (k === undefined) {
+        k = 10000;
+    }
+    if (alternative === undefined) {
+        alternative = "two_side";
+    }
+    if (
+        alternative !== "two_side" &&
+        alternative !== "greater" &&
+        alternative !== "less"
+    ) {
+        throw new Error(
+            "`alternative` must be either 'two_side', 'greater', or 'less'."
+        );
+    }
+
+    // get means for each sample
+    var meanX = mean(sampleX);
+    var meanY = mean(sampleY);
+
+    // calculate initial test statistic. This will be our point of comparison with
+    // the generated test statistics.
+    var testStatistic = meanX - meanY;
+
+    // create test-statistic distribution
+    var testStatDsn = new Array(k);
+
+    // combine datsets so we can easily shuffle later
+    var allData = sampleX.concat(sampleY);
+    var midIndex = Math.floor(allData.length / 2);
+
+    for (var i = 0; i < k; i++) {
+        // 1. shuffle data assignments
+        shuffleInPlace(allData, randomSource);
+        var permLeft = allData.slice(0, midIndex);
+        var permRight = allData.slice(midIndex, allData.length);
+
+        // 2.re-calculate test statistic
+        var permTestStatistic = mean(permLeft) - mean(permRight);
+
+        // 3. store test statistic to build test statistic distribution
+        testStatDsn[i] = permTestStatistic;
+    }
+
+    // Calculate p-value depending on alternative
+    // For this test, we calculate the percentage of 'extreme' test statistics (subject to our hypothesis)
+    // more info on permutation test p-value calculations: https://onlinecourses.science.psu.edu/stat464/node/35
+    var numExtremeTStats = 0;
+    if (alternative === "two_side") {
+        for (var i$1 = 0; i$1 <= k; i$1++) {
+            if (Math.abs(testStatDsn[i$1]) >= Math.abs(testStatistic)) {
+                numExtremeTStats += 1;
+            }
+        }
+    } else if (alternative === "greater") {
+        for (var i$2 = 0; i$2 <= k; i$2++) {
+            if (testStatDsn[i$2] >= testStatistic) {
+                numExtremeTStats += 1;
+            }
+        }
+    } else {
+        // alternative === 'less'
+        for (var i$3 = 0; i$3 <= k; i$3++) {
+            if (testStatDsn[i$3] <= testStatistic) {
+                numExtremeTStats += 1;
+            }
+        }
+    }
+
+    return numExtremeTStats / k;
+}
+
+/**
+ * [Sign](https://en.wikipedia.org/wiki/Sign_function) is a function
+ * that extracts the sign of a real number
+ *
+ * @param {number} x input value
+ * @returns {number} sign value either 1, 0 or -1
+ * @throws {TypeError} if the input argument x is not a number
+ * @private
+ *
+ * @example
+ * sign(2); // => 1
+ */
+function sign(x) {
+    if (typeof x === "number") {
+        if (x < 0) {
+            return -1;
+        } else if (x === 0) {
+            return 0;
+        } else {
+            return 1;
+        }
+    } else {
+        throw new TypeError("not a number");
+    }
+}
+
+/**
+ * [Bisection method](https://en.wikipedia.org/wiki/Bisection_method) is a root-finding
+ * method that repeatedly bisects an interval to find the root.
+ *
+ * This function returns a numerical approximation to the exact value.
+ *
+ * @param {Function} func input function
+ * @param {number} start - start of interval
+ * @param {number} end - end of interval
+ * @param {number} maxIterations - the maximum number of iterations
+ * @param {number} errorTolerance - the error tolerance
+ * @returns {number} estimated root value
+ * @throws {TypeError} Argument func must be a function
+ *
+ * @example
+ * bisect(Math.cos,0,4,100,0.003); // => 1.572265625
+ */
+function simple_statistics_bisect(func, start, end, maxIterations, errorTolerance) {
+    if (typeof func !== "function")
+        { throw new TypeError("func must be a function"); }
+
+    for (var i = 0; i < maxIterations; i++) {
+        var output = (start + end) / 2;
+
+        if (
+            func(output) === 0 ||
+            Math.abs((end - start) / 2) < errorTolerance
+        ) {
+            return output;
+        }
+
+        if (sign(func(output)) === sign(func(start))) {
+            start = output;
+        } else {
+            end = output;
+        }
+    }
+
+    throw new Error("maximum number of iterations exceeded");
+}
+
+/**
+ * Calculate Euclidean distance between two points.
+ * @param {Array<number>} left First N-dimensional point.
+ * @param {Array<number>} right Second N-dimensional point.
+ * @returns {number} Distance.
+ */
+function euclideanDistance(left, right) {
+    var sum = 0;
+    for (var i = 0; i < left.length; i++) {
+        var diff = left[i] - right[i];
+        sum += diff * diff;
+    }
+    return Math.sqrt(sum);
+}
+
+/**
+ * @typedef {Object} kMeansReturn
+ * @property {Array<number>} labels The labels.
+ * @property {Array<Array<number>>} centroids The cluster centroids.
+ */
+
+/**
+ * Perform k-means clustering.
+ *
+ * @param {Array<Array<number>>} points N-dimensional coordinates of points to be clustered.
+ * @param {number} numCluster How many clusters to create.
+ * @param {Function} randomSource An optional entropy source that generates uniform values in [0, 1).
+ * @return {kMeansReturn} Labels (same length as data) and centroids (same length as numCluster).
+ * @throws {Error} If any centroids wind up friendless (i.e., without associated points).
+ *
+ * @example
+ * kMeansCluster([[0.0, 0.5], [1.0, 0.5]], 2); // => {labels: [0, 1], centroids: [[0.0, 0.5], [1.0 0.5]]}
+ */
+function kMeansCluster(points, numCluster, randomSource) {
+    if ( randomSource === void 0 ) randomSource = Math.random;
+
+    var oldCentroids = null;
+    var newCentroids = sample(points, numCluster, randomSource);
+    var labels = null;
+    var change = Number.MAX_VALUE;
+    while (change !== 0) {
+        labels = labelPoints(points, newCentroids);
+        oldCentroids = newCentroids;
+        newCentroids = calculateCentroids(points, labels, numCluster);
+        change = calculateChange(newCentroids, oldCentroids);
+    }
+    return {
+        labels: labels,
+        centroids: newCentroids
+    };
+}
+
+/**
+ * Label each point according to which centroid it is closest to.
+ *
+ * @private
+ * @param {Array<Array<number>>} points Array of XY coordinates.
+ * @param {Array<Array<number>>} centroids Current centroids.
+ * @return {Array<number>} Group labels.
+ */
+function labelPoints(points, centroids) {
+    return points.map(function (p) {
+        var minDist = Number.MAX_VALUE;
+        var label = -1;
+        for (var i = 0; i < centroids.length; i++) {
+            var dist = euclideanDistance(p, centroids[i]);
+            if (dist < minDist) {
+                minDist = dist;
+                label = i;
+            }
+        }
+        return label;
+    });
+}
+
+/**
+ * Calculate centroids for points given labels.
+ *
+ * @private
+ * @param {Array<Array<number>>} points Array of XY coordinates.
+ * @param {Array<number>} labels Which groups points belong to.
+ * @param {number} numCluster Number of clusters being created.
+ * @return {Array<Array<number>>} Centroid for each group.
+ * @throws {Error} If any centroids wind up friendless (i.e., without associated points).
+ */
+function calculateCentroids(points, labels, numCluster) {
+    // Initialize accumulators.
+    var dimension = points[0].length;
+    var centroids = makeMatrix(numCluster, dimension);
+    var counts = Array(numCluster).fill(0);
+
+    // Add points to centroids' accumulators and count points per centroid.
+    var numPoints = points.length;
+    for (var i = 0; i < numPoints; i++) {
+        var point = points[i];
+        var label = labels[i];
+        var current = centroids[label];
+        for (var j = 0; j < dimension; j++) {
+            current[j] += point[j];
+        }
+        counts[label] += 1;
+    }
+
+    // Rescale centroids, checking for any that have no points.
+    for (var i$1 = 0; i$1 < numCluster; i$1++) {
+        if (counts[i$1] === 0) {
+            throw new Error(("Centroid " + i$1 + " has no friends"));
+        }
+        var centroid = centroids[i$1];
+        for (var j$1 = 0; j$1 < dimension; j$1++) {
+            centroid[j$1] /= counts[i$1];
+        }
+    }
+
+    return centroids;
+}
+
+/**
+ * Calculate the difference between old centroids and new centroids.
+ *
+ * @private
+ * @param {Array<Array<number>>} left One list of centroids.
+ * @param {Array<Array<number>>} right Another list of centroids.
+ * @return {number} Distance between centroids.
+ */
+function calculateChange(left, right) {
+    var total = 0;
+    for (var i = 0; i < left.length; i++) {
+        total += euclideanDistance(left[i], right[i]);
+    }
+    return total;
+}
+
+/**
+ * Calculate the [silhouette values](https://en.wikipedia.org/wiki/Silhouette_(clustering))
+ * for clustered data.
+ *
+ * @param {Array<Array<number>>} points N-dimensional coordinates of points.
+ * @param {Array<number>} labels Labels of points. This must be the same length as `points`,
+ * and values must lie in [0..G-1], where G is the number of groups.
+ * @return {Array<number>} The silhouette value for each point.
+ *
+ * @example
+ * silhouette([[0.25], [0.75]], [0, 0]); // => [1.0, 1.0]
+ */
+function silhouette(points, labels) {
+    if (points.length !== labels.length) {
+        throw new Error("must have exactly as many labels as points");
+    }
+    var groupings = createGroups(labels);
+    var distances = calculateAllDistances(points);
+    var result = [];
+    for (var i = 0; i < points.length; i++) {
+        var s = 0;
+        if (groupings[labels[i]].length > 1) {
+            var a = meanDistanceFromPointToGroup(
+                i,
+                groupings[labels[i]],
+                distances
+            );
+            var b = meanDistanceToNearestGroup(
+                i,
+                labels,
+                groupings,
+                distances
+            );
+            s = (b - a) / Math.max(a, b);
+        }
+        result.push(s);
+    }
+    return result;
+}
+
+/**
+ * Create a lookup table mapping group IDs to point IDs.
+ *
+ * @private
+ * @param {Array<number>} labels Labels of points. This must be the same length as `points`,
+ * and values must lie in [0..G-1], where G is the number of groups.
+ * @return {Array<Array<number>>} An array of length G, each of whose entries is an array
+ * containing the indices of the points in that group.
+ */
+function createGroups(labels) {
+    var numGroups = 1 + simple_statistics_max(labels);
+    var result = Array(numGroups);
+    for (var i = 0; i < labels.length; i++) {
+        var label = labels[i];
+        if (result[label] === undefined) {
+            result[label] = [];
+        }
+        result[label].push(i);
+    }
+    return result;
+}
+
+/**
+ * Create a lookup table of all inter-point distances.
+ *
+ * @private
+ * @param {Array<Array<number>>} points N-dimensional coordinates of points.
+ * @return {Array<Array<number>>} A symmetric square array of inter-point distances
+ * (zero on the diagonal).
+ */
+function calculateAllDistances(points) {
+    var numPoints = points.length;
+    var result = makeMatrix(numPoints, numPoints);
+    for (var i = 0; i < numPoints; i++) {
+        for (var j = 0; j < i; j++) {
+            result[i][j] = euclideanDistance(points[i], points[j]);
+            result[j][i] = result[i][j];
+        }
+    }
+    return result;
+}
+
+/**
+ * Calculate the mean distance between this point and all the points in the
+ * nearest group (as determined by which point in another group is closest).
+ *
+ * @private
+ * @param {number} which The index of this point.
+ * @param {Array<number>} labels Labels of points.
+ * @param {Array<Array<number>>} groupings An array whose entries are arrays
+ * containing the indices of the points in that group.
+ * @param {Array<Array<number>>} distances A symmetric square array of inter-point
+ * distances.
+ * @return {number} The mean distance from this point to others in the nearest
+ * group.
+ */
+function meanDistanceToNearestGroup(which, labels, groupings, distances) {
+    var label = labels[which];
+    var result = Number.MAX_VALUE;
+    for (var i = 0; i < groupings.length; i++) {
+        if (i !== label) {
+            var d = meanDistanceFromPointToGroup(
+                which,
+                groupings[i],
+                distances
+            );
+            if (d < result) {
+                result = d;
+            }
+        }
+    }
+    return result;
+}
+
+/**
+ * Calculate the mean distance between a point and all the points in a group
+ * (possibly its own).
+ *
+ * @private
+ * @param {number} which The index of this point.
+ * @param {Array<number>} group The indices of all the points in the group in
+ * question.
+ * @param {Array<Array<number>>} distances A symmetric square array of inter-point
+ * distances.
+ * @return {number} The mean distance from this point to others in the
+ * specified group.
+ */
+function meanDistanceFromPointToGroup(which, group, distances) {
+    var total = 0;
+    for (var i = 0; i < group.length; i++) {
+        total += distances[which][group[i]];
+    }
+    return total / group.length;
+}
+
+/**
+ * Calculate the [silhouette metric](https://en.wikipedia.org/wiki/Silhouette_(clustering))
+ * for a set of N-dimensional points arranged in groups. The metric is the largest
+ * individual silhouette value for the data.
+ *
+ * @param {Array<Array<number>>} points N-dimensional coordinates of points.
+ * @param {Array<number>} labels Labels of points. This must be the same length as `points`,
+ * and values must lie in [0..G-1], where G is the number of groups.
+ * @return {number} The silhouette metric for the groupings.
+ *
+ * @example
+ * silhouetteMetric([[0.25], [0.75]], [0, 0]); // => 1.0
+ */
+function silhouetteMetric(points, labels) {
+    var values = silhouette(points, labels);
+    return simple_statistics_max(values);
+}
+
+/**
+ * Relative error.
+ *
+ * This is more difficult to calculate than it first appears [1,2].  The usual
+ * formula for the relative error between an actual value A and an expected
+ * value E is `|(A-E)/E|`, but:
+ *
+ * 1. If the expected value is 0, any other value has infinite relative error,
+ *    which is counter-intuitive: if the expected voltage is 0, getting 1/10th
+ *    of a volt doesn't feel like an infinitely large error.
+ *
+ * 2. This formula does not satisfy the mathematical definition of a metric [3].
+ *    [4] solved this problem by defining the relative error as `|ln(|A/E|)|`,
+ *    but that formula only works if all values are positive: for example, it
+ *    reports the relative error of -10 and 10 as 0.
+ *
+ * Our implementation sticks with convention and returns:
+ *
+ * - 0 if the actual and expected values are both zero
+ * - Infinity if the actual value is non-zero and the expected value is zero
+ * - `|(A-E)/E|` in all other cases
+ *
+ * [1] https://math.stackexchange.com/questions/677852/how-to-calculate-relative-error-when-true-value-is-zero
+ * [2] https://en.wikipedia.org/wiki/Relative_change_and_difference
+ * [3] https://en.wikipedia.org/wiki/Metric_(mathematics)#Definition
+ * [4] F.W.J. Olver: "A New Approach to Error Arithmetic." SIAM Journal on
+ *     Numerical Analysis, 15(2), 1978, 10.1137/0715024.
+ *
+ * @param {number} actual The actual value.
+ * @param {number} expected The expected value.
+ * @return {number} The relative error.
+ */
+function relativeError(actual, expected) {
+    if (actual === 0 && expected === 0) {
+        return 0;
+    }
+    return Math.abs((actual - expected) / expected);
+}
+
+/**
+ * Approximate equality.
+ *
+ * @param {number} actual The value to be tested.
+ * @param {number} expected The reference value.
+ * @param {number} tolerance The acceptable relative difference.
+ * @return {boolean} Whether numbers are within tolerance.
+ */
+function approxEqual(actual, expected, tolerance) {
+    if ( tolerance === void 0 ) tolerance = epsilon;
+
+    return relativeError(actual, expected) <= tolerance;
+}
+
+
+//# sourceMappingURL=simple-statistics.mjs.map
+
+;// CONCATENATED MODULE: ./src/utiles/_cortes_naturales.js
+
+
+const ss = Object.assign({
+  jenks: undefined,
+  jenksMatrices: undefined
+}, simple_statistics_namespaceObject);
+ss['jenks'] = function (data, n_classes) {
+  // sort data in numerical order
+  data = data.slice().sort(function (a, b) {
+    return a - b;
+  });
+
+  // get our basic matrices
+  var matrices = ss.jenksMatrices(data, n_classes),
+    // we only need lower class limits here
+    lower_class_limits = matrices.lower_class_limits,
+    k = data.length - 1,
+    kclass = [],
+    countNum = n_classes;
+
+  // the calculation of classes will never include the upper and
+  // lower bounds, so we need to explicitly set them
+  kclass[n_classes] = data[data.length - 1];
+  kclass[0] = data[0];
+
+  // the lower_class_limits matrix is used as indexes into itself
+  // here: the `k` variable is reused in each iteration.
+  while (countNum > 1) {
+    kclass[countNum - 1] = data[lower_class_limits[k][countNum] - 2];
+    k = lower_class_limits[k][countNum] - 1;
+    countNum--;
+  }
+  return kclass;
+};
+ss['jenksMatrices'] = function (data, n_classes) {
+  // in the original implementation, these matrices are referred to
+  // as `LC` and `OP`
+  //
+  // * lower_class_limits (LC): optimal lower class limits
+  // * variance_combinations (OP): optimal variance combinations for all classes
+  var lower_class_limits = [],
+    variance_combinations = [],
+    // loop counters
+    i,
+    j,
+    // the variance, as computed at each step in the calculation
+    variance = 0;
+
+  // Initialize and fill each matrix with zeroes
+  for (i = 0; i < data.length + 1; i++) {
+    var tmp1 = [],
+      tmp2 = [];
+    for (j = 0; j < n_classes + 1; j++) {
+      tmp1.push(0);
+      tmp2.push(0);
+    }
+    lower_class_limits.push(tmp1);
+    variance_combinations.push(tmp2);
+  }
+  for (i = 1; i < n_classes + 1; i++) {
+    lower_class_limits[1][i] = 1;
+    variance_combinations[1][i] = 0;
+    // in the original implementation, 9999999 is used but
+    // since Javascript has `Infinity`, we use that.
+    for (j = 2; j < data.length + 1; j++) {
+      variance_combinations[j][i] = Infinity;
+    }
+  }
+  for (var l = 2; l < data.length + 1; l++) {
+    // `SZ` originally. this is the sum of the values seen thus
+    // far when calculating variance.
+    var sum = 0,
+      // `ZSQ` originally. the sum of squares of values seen
+      // thus far
+      sum_squares = 0,
+      // `WT` originally. This is the number of
+      w = 0,
+      // `IV` originally
+      i4 = 0;
+
+    // in several instances, you could say `Math.pow(x, 2)`
+    // instead of `x * x`, but this is slower in some browsers
+    // introduces an unnecessary concept.
+    for (var m = 1; m < l + 1; m++) {
+      // `III` originally
+      var lower_class_limit = l - m + 1,
+        val = data[lower_class_limit - 1];
+
+      // here we're estimating variance for each potential classing
+      // of the data, for each potential number of classes. `w`
+      // is the number of data points considered so far.
+      w++;
+
+      // increase the current sum and sum-of-squares
+      sum += val;
+      sum_squares += val * val;
+
+      // the variance at this point in the sequence is the difference
+      // between the sum of squares and the total x 2, over the number
+      // of samples.
+      variance = sum_squares - sum * sum / w;
+      i4 = lower_class_limit - 1;
+      if (i4 !== 0) {
+        for (j = 2; j < n_classes + 1; j++) {
+          if (variance_combinations[l][j] >= variance + variance_combinations[i4][j - 1]) {
+            lower_class_limits[l][j] = lower_class_limit;
+            variance_combinations[l][j] = variance + variance_combinations[i4][j - 1];
+          }
+        }
+      }
+    }
+    lower_class_limits[l][1] = 1;
+    variance_combinations[l][1] = variance;
+  }
+  return {
+    lower_class_limits: lower_class_limits,
+    variance_combinations: variance_combinations
+  };
+};
+/* harmony default export */ var _cortes_naturales = (ss);
+;// CONCATENATED MODULE: ./src/composables/casificacion/json2estiloOl.js
+
+
+
+const equivalencias = {
+  relleno: {
+    clase: style_Fill,
+    llave: 'fill'
+  },
+  contorno: {
+    clase: style_Stroke,
+    llave: 'stroke'
+  },
+  radio: {
+    llave: 'radius'
+  },
+  grosor: {
+    llave: 'width'
+  },
+  color: {
+    llave: 'color'
+  }
+};
+function jsonEstiloOl(obj) {
+  const objEstilo = {};
+  Object.keys(obj).forEach(key => {
+    if (obj[key] === 'no' || obj[key] === undefined || equivalencias[key] === undefined) {
+      return;
+    }
+    objEstilo[equivalencias[key].llave] = equivalencias[key].clase ? new equivalencias[key].clase(jsonEstiloOl(obj[key])) : obj[key];
+  });
+  return objEstilo;
+}
+function crearEstiloOl(obj) {
+  return new style_Style(jsonEstiloOl(obj));
+}
 ;// CONCATENATED MODULE: ./src/defaults/estiloCapa.js
 const estiloCapa_DEFAULT_FILL_COLOR = 'gray';
 const DEFAULT_STROKE_COLOR = 'white';
 const estiloCapa_DEFAULT_RADIUS = 7;
-;// CONCATENATED MODULE: ./src/utiles/index.js
-/**
- * @module utiles/index
- */
-
-/**
- * Devuelve una cadena de texto aleatoreo.
- * @returns {String}
- */
-function idAleatorio() {
-  return Math.random().toString(36).substring(7);
-}
+const COLOR_RELLENO = 'gray';
+const COLOR_CONTORNO = 'white';
+const GROSOR_CONTORNO = 1;
+const RADIO = 7;
+/* harmony default export */ var estiloCapa = ({
+  relleno: {
+    color: estiloCapa_DEFAULT_FILL_COLOR
+  },
+  contorno: {
+    color: COLOR_CONTORNO,
+    grosor: GROSOR_CONTORNO
+  },
+  radio: estiloCapa_DEFAULT_RADIUS
+});
 ;// CONCATENATED MODULE: ./src/composables/usarCapa.js
 /**
  * @module composables/usarCapa
@@ -40250,6 +52279,19 @@ function idAleatorio() {
 
 
 const usarCapa_props = {
+  /**
+   * `extension`
+   * - Tipo: `Array`
+   * - Valor por defecto: `[0, 0, 0, 0]`
+   * - Interactivo: ❌
+   *
+   * Extensión de la capa. Con este parametro se calcularán los mínimos y máximos de las capas
+   * registradas en el mapa.
+   */
+  extension: {
+    type: Array,
+    default: () => [0, 0, 0, 0]
+  },
   /**
    * `id`
    * - Tipo: `String`
@@ -40315,7 +52357,7 @@ const usarCapa_props = {
     default: undefined
   }
 };
-const eventos = {
+const usarCapa_eventos = {
   /**
    * Evento ejecutado cuando se detecta el cambio de visibilidad de la capa desde las propiedades
    * reactivas o desde los controles del componente como el control de leyenda.
@@ -40339,7 +52381,7 @@ const eventos = {
    */
   alFinalizarCarga: 'alFinalizarCarga'
 };
-const emits = Object.values(eventos);
+const usarCapa_emits = Object.values(usarCapa_eventos);
 
 /**
  * La finalidad de este composable es acceder a las funciones del genéricas de la capa desde
@@ -40371,12 +52413,21 @@ function usarCapa(propsParam, emitsParam) {
    * @param {import("ol/layer/Layer.js").default} olCapa objeto de capa de openlayers.
    */
   function asignarPorps(olCapa) {
+    olCapa.set('extension', propsParam.extension);
     olCapa.set('estatusCarga', estatusCarga.value);
     olCapa.set('id', idValida);
     olCapa.set('nombre', nombre.value);
     olCapa.set('verCargador', verCargador.value);
     olCapa.setVisible(visible.value);
     olCapa.setZIndex(zIndex.value);
+  }
+
+  /**
+   *
+   * @returns
+   */
+  function vincular() {
+    return vincularCapa(idValida);
   }
 
   /**
@@ -40391,21 +52442,30 @@ function usarCapa(propsParam, emitsParam) {
       alternarVisibilidad,
       cambiarNombre,
       cambiarEstatusCarga
-    } = vincularCapa(idValida);
+    } = vincular();
     (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(visible, alternarVisibilidad);
-    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(visibilidad, nuevoValor => emitsParam(eventos.alCambiarVisibilidad, nuevoValor));
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(visibilidad, nuevoValor => emitsParam(usarCapa_eventos.alCambiarVisibilidad, nuevoValor));
     (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(nombre, cambiarNombre);
     (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(estatusCarga, cambiarEstatusCarga);
   }
   return {
     registrar,
-    estatusCarga
+    estatusCarga,
+    vincular
   };
 }
 ;// CONCATENATED MODULE: ./src/composables/usarCapaVectorial.js
+
 /**
  * @module composables/usarCapaVectorial
  */
+
+
+
+
+
+
+
 
 
 
@@ -40428,44 +52488,209 @@ const usarCapaVectorial_props = {
   /**
    *
    */
+  clasificacion: {
+    type: [Object, Array],
+    default: () => undefined,
+    validator: valor => {
+      if (!(typeof valor === typeof {}) || valor === null) {
+        // eslint-disable-next-line
+        console.error('Es necesario un objeto o un arreglo de objetos para realizar la clasificación de la capa');
+        return false;
+      }
+      return true;
+    }
+  },
+  /**
+   *
+   */
   estilo: {
     type: Object,
-    default: () => ({
-      fill: {
-        color: estiloCapa_DEFAULT_FILL_COLOR
-      },
-      stroke: {
-        width: 1,
-        color: DEFAULT_STROKE_COLOR // "scale["color"]"
-      },
-
-      circle: {
-        fill: {
-          color: estiloCapa_DEFAULT_FILL_COLOR
-        },
-        stroke: {
-          color: DEFAULT_STROKE_COLOR,
-          width: 1
-        },
-        radius: estiloCapa_DEFAULT_RADIUS
-      }
-    })
+    default: () => estiloCapa
   },
   ...usarCapa_props
 };
-const usarCapaVectorial_emits = [...emits];
+const usarCapaVectorial_emits = [...usarCapa_emits];
 function usarCapaVectorial(propsParam, emitsParam) {
-  // function asignarEstilo(params) {}
+  let featuresTodos = '[]';
+  const {
+    estatusCarga,
+    registrar: registrarCapa,
+    vincular
+  } = usarCapa(propsParam, emitsParam);
+  const {
+    estilo,
+    clasificacion
+  } = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.toRefs)(propsParam);
 
+  /**
+   * Agrega los porps al objeto y propiedades de la capa.
+   * @param {import("ol/layer/Layer.js").default} olCapa objeto de capa de openlayers.
+   */
+  function asignarPorps(olCapa) {
+    olCapa.set('estilo', JSON.stringify(estilo.value));
+  }
+
+  /**
+   *
+   * @param {*} olCapa
+   */
+  function agregarEmitsCarga(olCapa) {
+    olCapa.getSource().on(VectorEventType.FEATURESLOADSTART, ({
+      target
+    }) => {
+      emitsParam('alIniciarCarga');
+      estatusCarga.value = defaults_estatusCarga.ini;
+
+      // si los datos no son cargados mediante url, los datos yas se tienen al alcance.
+      if (target.getUrl() === undefined) {
+        emitsParam('alFinalizarCarga', true);
+        estatusCarga.value = defaults_estatusCarga.fin;
+      }
+    });
+    olCapa.getSource().on(
+    // Estos eventos solo se desencadenan cuando los datos son cargados por una url.
+    [VectorEventType.FEATURESLOADEND, VectorEventType.FEATURESLOADERROR], ({
+      type
+    }) => {
+      emitsParam('alFinalizarCarga', type === VectorEventType.FEATURESLOADEND);
+    });
+  }
+
+  /**
+   *
+   * @param {*} olCapa
+   */
+  function asignarEstilo(olCapa) {
+    olCapa.setStyle(crearEstiloOl(estilo.value));
+  }
+  function conseguirDatosParaClasificar() {
+    return JSON.parse(featuresTodos).map(feature => feature.properties[clasificacion.value.columna]);
+  }
+  function conseguirClases() {
+    const clases = {};
+    switch (clasificacion.value.tipo) {
+      case 'categorias':
+        {
+          const unicos = [...new Set(conseguirDatosParaClasificar())];
+          clasificacion.value.colores.forEach((color, idx) => {
+            clases[color] = unicos[idx];
+          });
+          return clases;
+        }
+      case 'cuantiles':
+        {
+          const cuantiles = quantile_quantile().domain(conseguirDatosParaClasificar()).range(clasificacion.value.colores);
+          clasificacion.value.colores.forEach(color => {
+            clases[color] = cuantiles.invertExtent(color);
+          });
+          return clases;
+        }
+      case 'linear':
+        {
+          const datosParaClasificar = conseguirDatosParaClasificar();
+          let linear = linear_linear().domain([Math.min(...datosParaClasificar), Math.max(...datosParaClasificar)]).range([0, clasificacion.value.colores.length]);
+          clasificacion.value.colores.forEach((color, idx) => {
+            clases[color] = [linear.invert(idx), linear.invert(idx + 1)];
+          });
+          return clases;
+        }
+      case 'cortes-naturales':
+        {
+          const cortes = _cortes_naturales.jenks(conseguirDatosParaClasificar(), clasificacion.value.colores.length);
+          clasificacion.value.colores.forEach((color, idx) => {
+            clases[color] = [cortes[idx], cortes[idx + 1]];
+          });
+          return clases;
+        }
+      case 'personalidada':
+        {
+          clasificacion.value.colores.forEach((color, idx) => {
+            clases[color] = clasificacion.value.clasificacionPersonalizada[idx];
+          });
+          return clases;
+        }
+    }
+    return clases;
+  }
+  function estiloPorClase(color) {
+    let _estilo = {
+      ...estilo.value
+    };
+    if (clasificacion.value.colores) {
+      _estilo[clasificacion.value.propiedadEstilo] = {
+        ..._estilo[clasificacion.value.propiedadEstilo],
+        color: color
+      };
+    }
+    return _estilo;
+  }
+  function conseguirEstilosClases() {
+    const estilosClases = [];
+    const clases = conseguirClases();
+    for (const color in clases) {
+      if (Object.hasOwnProperty.call(clases, color)) {
+        estilosClases.push({
+          clase: String(clases[color]),
+          etiqueta: Array.isArray(clases[color]) ? `${Math.round(clases[color][0])} a ${Math.round(clases[color][1])}` : String(clases[color]),
+          regla: clases[color],
+          estilo: estiloPorClase(color),
+          cantidad: 0
+          // orden: idx,
+        });
+      }
+    }
+
+    return estilosClases;
+  }
+  function asignarClasificacion(olCapa, estilosCalses) {
+    const estilosCalsesOl = estilosCalses.map(clase => ({
+      estilo: crearEstiloOl(clase.estilo),
+      rango: clase.regla
+    }));
+    function reglaEstilo(feature) {
+      if (clasificacion.value.tipo === 'categorias') {
+        feature.setStyle(estilosCalsesOl.find(clase => clase.rango === feature.get(clasificacion.value.columna)).estilo);
+      } else {
+        // temp0.find(v=>x > v.rango[0] && x <= v.rango[1])
+        feature.setStyle(estilosCalsesOl.find(clase => feature.get(clasificacion.value.columna) >= clase.rango[0] && feature.get(clasificacion.value.columna) <= clase.rango[1]).estilo);
+      }
+    }
+    olCapa.getSource().getFeatures().forEach(reglaEstilo);
+  }
+
+  /**
+   *
+   * @param {*} olCapa
+   */
+  function registrar(olCapa) {
+    asignarPorps(olCapa);
+    agregarEmitsCarga(olCapa);
+    registrarCapa(olCapa);
+    const {
+      cambiarEstilo
+    } = vincular();
+    if (clasificacion.value !== undefined) {
+      // console.log('clasificar')
+      featuresTodos = JSON.stringify(new format_GeoJSON().writeFeaturesObject(olCapa.getSource().getFeatures()).features);
+      const estilosCalses = conseguirEstilosClases(conseguirClases(clasificacion.value));
+      cambiarEstilo(estilosCalses, capa => asignarClasificacion(capa, estilosCalses));
+    } else {
+      cambiarEstilo(estilo.value, asignarEstilo);
+    }
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(estilo, nuevoEstilo => cambiarEstilo(nuevoEstilo, asignarEstilo));
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(clasificacion, nuevaClasificacion => {
+      const estilosCalses = conseguirEstilosClases(conseguirClases(nuevaClasificacion));
+      cambiarEstilo(estilosCalses, capa => asignarClasificacion(capa, estilosCalses));
+    });
+  }
   return {
-    ...usarCapa(propsParam, emitsParam)
+    registrar
   };
 }
 ;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/capas/SisdaiCapaGeojson.vue?vue&type=script&setup=true&lang=js&
 
+
 // import VectorImage from 'ol/layer/VectorImage'
-
-
 
 
 
@@ -40483,46 +52708,21 @@ function usarCapaVectorial(propsParam, emitsParam) {
 
     // eslint-disable-next-line
 
-    const {
-      registrar,
-      estatusCarga
-    } = usarCapaVectorial(propsSetup, emitsSetup);
-    const source = new source_Vector({
-      features: new format_GeoJSON().readFeatures({
-        ...propsSetup.datos
-      })
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.onMounted)(() => {
+      usarCapaVectorial(propsSetup, emitsSetup).registrar(new Vector({
+        source: new source_Vector({
+          features: new format_GeoJSON().readFeatures({
+            ...propsSetup.datos
+          })
+        })
+        // className: this.className,
+      }));
     });
-    source.on(VectorEventType.FEATURESLOADSTART, ({
-      target
-    }) => {
-      emitsSetup('alIniciarCarga');
-      estatusCarga.value = defaults_estatusCarga.ini;
-
-      // si los datos no son cargados mediante url, los datos yas se tienen al alcance.
-      if (target.getUrl() === undefined) {
-        emitsSetup('alFinalizarCarga', true);
-        estatusCarga.value = defaults_estatusCarga.fin;
-      }
-    });
-    source.on(
-    // Estos eventos solo se desencadenan cuando los datos son cargados por una url.
-    [VectorEventType.FEATURESLOADEND, VectorEventType.FEATURESLOADERROR], ({
-      type
-    }) => {
-      emitsSetup('alFinalizarCarga', type === VectorEventType.FEATURESLOADEND);
-    });
-    registrar(new Vector({
-      source
-      // className: this.className,
-    }));
 
     return {
       __sfc: true,
       propsSetup,
-      emitsSetup,
-      registrar,
-      estatusCarga,
-      source
+      emitsSetup
     };
   }
 });
@@ -40538,8 +52738,8 @@ function usarCapaVectorial(propsParam, emitsParam) {
 ;
 var SisdaiCapaGeojson_component = normalizeComponent(
   capas_SisdaiCapaGeojsonvue_type_script_setup_true_lang_js_,
-  SisdaiCapaGeojsonvue_type_template_id_5741834d_style_display_3A_20none_render,
-  SisdaiCapaGeojsonvue_type_template_id_5741834d_style_display_3A_20none_staticRenderFns,
+  SisdaiCapaGeojsonvue_type_template_id_ca548b74_style_display_3A_20none_render,
+  SisdaiCapaGeojsonvue_type_template_id_ca548b74_style_display_3A_20none_staticRenderFns,
   false,
   null,
   null,
@@ -40548,14 +52748,14 @@ var SisdaiCapaGeojson_component = normalizeComponent(
 )
 
 /* harmony default export */ var SisdaiCapaGeojson = (SisdaiCapaGeojson_component.exports);
-;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"23f98b37-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/capas/SisdaiCapaOsm.vue?vue&type=template&id=c52245fa&style=display%3A%20none&
-var SisdaiCapaOsmvue_type_template_id_c52245fa_style_display_3A_20none_render = function render() {
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"64cbf409-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/capas/SisdaiCapaOsm.vue?vue&type=template&id=692a2492&style=display%3A%20none&
+var SisdaiCapaOsmvue_type_template_id_692a2492_style_display_3A_20none_render = function render() {
   var _vm = this,
     _c = _vm._self._c,
     _setup = _vm._self._setupProxy;
   return _c('span');
 };
-var SisdaiCapaOsmvue_type_template_id_c52245fa_style_display_3A_20none_staticRenderFns = [];
+var SisdaiCapaOsmvue_type_template_id_692a2492_style_display_3A_20none_staticRenderFns = [];
 
 ;// CONCATENATED MODULE: ./node_modules/ol/layer/TileProperty.js
 /**
@@ -40581,10 +52781,10 @@ var SisdaiCapaOsmvue_type_template_id_c52245fa_style_display_3A_20none_staticRen
  * @template Return
  * @typedef {import("../Observable").OnSignature<import("../Observable").EventTypes, import("../events/Event.js").default, Return> &
  *   import("../Observable").OnSignature<import("./Base").BaseLayerObjectEventTypes|
- *     'change:source'|'change:preload'|'change:useInterimTilesOnError', import("../Object").ObjectEvent, Return> &
+ *     import("./Layer.js").LayerEventType|'change:preload'|'change:useInterimTilesOnError', import("../Object").ObjectEvent, Return> &
  *   import("../Observable").OnSignature<import("../render/EventType").LayerRenderEventTypes, import("../render/Event").default, Return> &
  *   import("../Observable").CombinedOnSignature<import("../Observable").EventTypes|import("./Base").BaseLayerObjectEventTypes|
- *   'change:source'|'change:preload'|'change:useInterimTilesOnError'|import("../render/EventType").LayerRenderEventTypes, Return>} BaseTileLayerOnSignature
+ *   import("./Layer.js").LayerEventType|'change:preload'|'change:useInterimTilesOnError'|import("../render/EventType").LayerRenderEventTypes, Return>} BaseTileLayerOnSignature
  */
 
 /**
@@ -40754,7 +52954,7 @@ class BaseTileLayer extends layer_Layer {
  * error handling:
  *
  * ```js
- * import TileState from 'ol/TileState';
+ * import TileState from 'ol/TileState.js';
  *
  * source.setTileLoadFunction(function(tile, src) {
  *   const xhr = new XMLHttpRequest();
@@ -41452,51 +53652,49 @@ class Triangulation {
 
       // Shift triangles to be as close to `leftBound` as possible
       // (if the distance is more than `worldWidth / 2` it can be closer.
-      this.triangles_.forEach(
-        function (triangle) {
-          if (
-            Math.max(
-              triangle.source[0][0],
-              triangle.source[1][0],
-              triangle.source[2][0]
-            ) -
-              leftBound >
-            this.sourceWorldWidth_ / 2
-          ) {
-            const newTriangle = [
-              [triangle.source[0][0], triangle.source[0][1]],
-              [triangle.source[1][0], triangle.source[1][1]],
-              [triangle.source[2][0], triangle.source[2][1]],
-            ];
-            if (newTriangle[0][0] - leftBound > this.sourceWorldWidth_ / 2) {
-              newTriangle[0][0] -= this.sourceWorldWidth_;
-            }
-            if (newTriangle[1][0] - leftBound > this.sourceWorldWidth_ / 2) {
-              newTriangle[1][0] -= this.sourceWorldWidth_;
-            }
-            if (newTriangle[2][0] - leftBound > this.sourceWorldWidth_ / 2) {
-              newTriangle[2][0] -= this.sourceWorldWidth_;
-            }
-
-            // Rarely (if the extent contains both the dateline and prime meridian)
-            // the shift can in turn break some triangles.
-            // Detect this here and don't shift in such cases.
-            const minX = Math.min(
-              newTriangle[0][0],
-              newTriangle[1][0],
-              newTriangle[2][0]
-            );
-            const maxX = Math.max(
-              newTriangle[0][0],
-              newTriangle[1][0],
-              newTriangle[2][0]
-            );
-            if (maxX - minX < this.sourceWorldWidth_ / 2) {
-              triangle.source = newTriangle;
-            }
+      this.triangles_.forEach((triangle) => {
+        if (
+          Math.max(
+            triangle.source[0][0],
+            triangle.source[1][0],
+            triangle.source[2][0]
+          ) -
+            leftBound >
+          this.sourceWorldWidth_ / 2
+        ) {
+          const newTriangle = [
+            [triangle.source[0][0], triangle.source[0][1]],
+            [triangle.source[1][0], triangle.source[1][1]],
+            [triangle.source[2][0], triangle.source[2][1]],
+          ];
+          if (newTriangle[0][0] - leftBound > this.sourceWorldWidth_ / 2) {
+            newTriangle[0][0] -= this.sourceWorldWidth_;
           }
-        }.bind(this)
-      );
+          if (newTriangle[1][0] - leftBound > this.sourceWorldWidth_ / 2) {
+            newTriangle[1][0] -= this.sourceWorldWidth_;
+          }
+          if (newTriangle[2][0] - leftBound > this.sourceWorldWidth_ / 2) {
+            newTriangle[2][0] -= this.sourceWorldWidth_;
+          }
+
+          // Rarely (if the extent contains both the dateline and prime meridian)
+          // the shift can in turn break some triangles.
+          // Detect this here and don't shift in such cases.
+          const minX = Math.min(
+            newTriangle[0][0],
+            newTriangle[1][0],
+            newTriangle[2][0]
+          );
+          const maxX = Math.max(
+            newTriangle[0][0],
+            newTriangle[1][0],
+            newTriangle[2][0]
+          );
+          if (maxX - minX < this.sourceWorldWidth_ / 2) {
+            triangle.source = newTriangle;
+          }
+        }
+      });
     }
 
     transformInvCache = {};
@@ -41819,7 +54017,7 @@ function verifyBrokenDiagonalRendering(data, offset) {
  */
 function isBrokenDiagonalRendering() {
   if (brokenDiagonalRendering_ === undefined) {
-    const ctx = document.createElement('canvas').getContext('2d');
+    const ctx = createCanvasContext2D(6, 6, reproj_canvasPool);
     ctx.globalCompositeOperation = 'lighter';
     ctx.fillStyle = 'rgba(210, 0, 0, 0.75)';
     drawTestTriangle(ctx, 4, 5, 4, 0);
@@ -41829,6 +54027,8 @@ function isBrokenDiagonalRendering() {
       verifyBrokenDiagonalRendering(data, 0) ||
       verifyBrokenDiagonalRendering(data, 4) ||
       verifyBrokenDiagonalRendering(data, 8);
+    releaseCanvas(ctx);
+    reproj_canvasPool.push(ctx.canvas);
   }
 
   return brokenDiagonalRendering_;
@@ -41996,7 +54196,8 @@ function reproj_render(
   const canvasHeightInUnits = getHeight(sourceDataExtent);
   const stitchContext = createCanvasContext2D(
     Math.round((pixelRatio * canvasWidthInUnits) / sourceResolution),
-    Math.round((pixelRatio * canvasHeightInUnits) / sourceResolution)
+    Math.round((pixelRatio * canvasHeightInUnits) / sourceResolution),
+    reproj_canvasPool
   );
 
   if (!interpolate) {
@@ -42152,6 +54353,9 @@ function reproj_render(
     context.restore();
   });
 
+  releaseCanvas(stitchContext);
+  reproj_canvasPool.push(stitchContext.canvas);
+
   if (renderEdges) {
     context.save();
 
@@ -42198,7 +54402,7 @@ function reproj_render(
 
 
 /**
- * @typedef {function(number, number, number, number) : import("../Tile.js").default} FunctionType
+ * @typedef {function(number, number, number, number) : (import("../ImageTile.js").default)} FunctionType
  */
 
 /**
@@ -42283,7 +54487,7 @@ class ReprojTile extends ol_Tile {
 
     /**
      * @private
-     * @type {!Array<import("../Tile.js").default>}
+     * @type {!Array<import("../ImageTile.js").default>}
      */
     this.sourceTiles_ = [];
 
@@ -42421,16 +54625,14 @@ class ReprojTile extends ol_Tile {
    */
   reproject_() {
     const sources = [];
-    this.sourceTiles_.forEach(
-      function (tile, i, arr) {
-        if (tile && tile.getState() == TileState.LOADED) {
-          sources.push({
-            extent: this.sourceTileGrid_.getTileCoordExtent(tile.tileCoord),
-            image: tile.getImage(),
-          });
-        }
-      }.bind(this)
-    );
+    this.sourceTiles_.forEach((tile) => {
+      if (tile && tile.getState() == TileState.LOADED) {
+        sources.push({
+          extent: this.sourceTileGrid_.getTileCoordExtent(tile.tileCoord),
+          image: tile.getImage(),
+        });
+      }
+    });
     this.sourceTiles_.length = 0;
 
     if (sources.length === 0) {
@@ -42480,36 +54682,34 @@ class ReprojTile extends ol_Tile {
       let leftToLoad = 0;
 
       this.sourcesListenerKeys_ = [];
-      this.sourceTiles_.forEach(
-        function (tile, i, arr) {
-          const state = tile.getState();
-          if (state == TileState.IDLE || state == TileState.LOADING) {
-            leftToLoad++;
+      this.sourceTiles_.forEach((tile) => {
+        const state = tile.getState();
+        if (state == TileState.IDLE || state == TileState.LOADING) {
+          leftToLoad++;
 
-            const sourceListenKey = listen(
-              tile,
-              EventType.CHANGE,
-              function (e) {
-                const state = tile.getState();
-                if (
-                  state == TileState.LOADED ||
-                  state == TileState.ERROR ||
-                  state == TileState.EMPTY
-                ) {
-                  unlistenByKey(sourceListenKey);
-                  leftToLoad--;
-                  if (leftToLoad === 0) {
-                    this.unlistenSources_();
-                    this.reproject_();
-                  }
+          const sourceListenKey = listen(
+            tile,
+            EventType.CHANGE,
+            function (e) {
+              const state = tile.getState();
+              if (
+                state == TileState.LOADED ||
+                state == TileState.ERROR ||
+                state == TileState.EMPTY
+              ) {
+                unlistenByKey(sourceListenKey);
+                leftToLoad--;
+                if (leftToLoad === 0) {
+                  this.unlistenSources_();
+                  this.reproject_();
                 }
-              },
-              this
-            );
-            this.sourcesListenerKeys_.push(sourceListenKey);
-          }
-        }.bind(this)
-      );
+              }
+            },
+            this
+          );
+          this.sourcesListenerKeys_.push(sourceListenKey);
+        }
+      });
 
       if (leftToLoad === 0) {
         setTimeout(this.reproject_.bind(this), 0);
@@ -42696,9 +54896,8 @@ function TileRange_createOrUpdate(minX, maxX, minY, maxY, tileRange) {
     tileRange.minY = minY;
     tileRange.maxY = maxY;
     return tileRange;
-  } else {
-    return new TileRange(minX, maxX, minY, maxY);
   }
+  return new TileRange(minX, maxX, minY, maxY);
 }
 
 /* harmony default export */ var ol_TileRange = (TileRange);
@@ -43111,7 +55310,7 @@ class CanvasTileLayerRenderer extends canvas_Layer {
     this.renderedTiles.length = 0;
     /** @type {Array<number>} */
     let zs = Object.keys(tilesToDrawByZ).map(Number);
-    zs.sort(numberSafeCompareFunction);
+    zs.sort(ascending);
 
     let clips, clipZs, currentClip;
     if (
@@ -43807,9 +56006,8 @@ function tilecoord_createOrUpdate(z, x, y, tileCoord) {
     tileCoord[1] = x;
     tileCoord[2] = y;
     return tileCoord;
-  } else {
-    return [z, x, y];
   }
+  return [z, x, y];
 }
 
 /**
@@ -43877,9 +56075,8 @@ function withinExtentAndZ(tileCoord, tileGrid) {
   const tileRange = tileGrid.getFullTileRange(z);
   if (!tileRange) {
     return true;
-  } else {
-    return tileRange.containsXY(x, y);
   }
+  return tileRange.containsXY(x, y);
 }
 
 ;// CONCATENATED MODULE: ./node_modules/ol/TileCache.js
@@ -43921,14 +56118,12 @@ class TileCache extends structs_LRUCache {
     const key = this.peekFirstKey();
     const tileCoord = fromKey(key);
     const z = tileCoord[0];
-    this.forEach(
-      function (tile) {
-        if (tile.tileCoord[0] !== z) {
-          this.remove(tilecoord_getKey(tile.tileCoord));
-          tile.release();
-        }
-      }.bind(this)
-    );
+    this.forEach((tile) => {
+      if (tile.tileCoord[0] !== z) {
+        this.remove(tilecoord_getKey(tile.tileCoord));
+        tile.release();
+      }
+    });
   }
 }
 
@@ -44283,9 +56478,8 @@ class TileGrid {
   getOrigin(z) {
     if (this.origin_) {
       return this.origin_;
-    } else {
-      return this.origins_[z];
     }
+    return this.origins_[z];
   }
 
   /**
@@ -44407,18 +56601,13 @@ class TileGrid {
    * @return {import("../TileRange.js").default} Tile range.
    */
   getTileRangeForExtentAndZ(extent, z, tempTileRange) {
-    const tileCoord = tmpTileCoord;
-    this.getTileCoordForXYAndZ_(extent[0], extent[3], z, false, tileCoord);
-    const minX = tileCoord[1];
-    const minY = tileCoord[2];
-    this.getTileCoordForXYAndZ_(extent[2], extent[1], z, true, tileCoord);
-    return TileRange_createOrUpdate(
-      minX,
-      tileCoord[1],
-      minY,
-      tileCoord[2],
-      tempTileRange
-    );
+    this.getTileCoordForXYAndZ_(extent[0], extent[3], z, false, tmpTileCoord);
+    const minX = tmpTileCoord[1];
+    const minY = tmpTileCoord[2];
+    this.getTileCoordForXYAndZ_(extent[2], extent[1], z, true, tmpTileCoord);
+    const maxX = tmpTileCoord[1];
+    const maxY = tmpTileCoord[2];
+    return TileRange_createOrUpdate(minX, maxX, minY, maxY, tempTileRange);
   }
 
   /**
@@ -44585,9 +56774,8 @@ class TileGrid {
   getTileSize(z) {
     if (this.tileSize_) {
       return this.tileSize_;
-    } else {
-      return this.tileSizes_[z];
     }
+    return this.tileSizes_[z];
   }
 
   /**
@@ -44599,9 +56787,8 @@ class TileGrid {
       return this.extent_
         ? this.getTileRangeForExtentAndZ(this.extent_, z)
         : null;
-    } else {
-      return this.fullTileRanges_[z];
     }
+    return this.fullTileRanges_[z];
   }
 
   /**
@@ -44703,9 +56890,8 @@ function tilegrid_wrapX(tileGrid, tileCoord, projection) {
     );
     center[0] += worldWidth * worldsAway;
     return tileGrid.getTileCoordForCoordAndZ(center, z);
-  } else {
-    return tileCoord;
   }
+  return tileCoord;
 }
 
 /**
@@ -45060,13 +57246,17 @@ class TileSource extends source_Source {
   }
 
   /**
+   * @param {import("../proj/Projection").default} [projection] Projection.
    * @return {Array<number>|null} Resolutions.
    */
-  getResolutions() {
-    if (!this.tileGrid) {
+  getResolutions(projection) {
+    const tileGrid = projection
+      ? this.getTileGridForProjection(projection)
+      : this.tileGrid;
+    if (!tileGrid) {
       return null;
     }
-    return this.tileGrid.getResolutions();
+    return tileGrid.getResolutions();
   }
 
   /**
@@ -45098,9 +57288,8 @@ class TileSource extends source_Source {
   getTileGridForProjection(projection) {
     if (!this.tileGrid) {
       return getForProjection(projection);
-    } else {
-      return this.tileGrid;
     }
+    return this.tileGrid;
   }
 
   /**
@@ -45140,9 +57329,8 @@ class TileSource extends source_Source {
     const tileSize = toSize(tileGrid.getTileSize(z), this.tmpSize);
     if (tilePixelRatio == 1) {
       return tileSize;
-    } else {
-      return size_scale(tileSize, tilePixelRatio, this.tmpSize);
     }
+    return size_scale(tileSize, tilePixelRatio, this.tmpSize);
   }
 
   /**
@@ -45251,19 +57439,18 @@ function createFromTemplate(template, tileGrid) {
     function (tileCoord, pixelRatio, projection) {
       if (!tileCoord) {
         return undefined;
-      } else {
-        return template
-          .replace(zRegEx, tileCoord[0].toString())
-          .replace(xRegEx, tileCoord[1].toString())
-          .replace(yRegEx, tileCoord[2].toString())
-          .replace(dashYRegEx, function () {
-            const z = tileCoord[0];
-            const range = tileGrid.getFullTileRange(z);
-            asserts_assert(range, 55); // The {-y} placeholder requires a tile grid with extent
-            const y = range.getHeight() - tileCoord[2] - 1;
-            return y.toString();
-          });
       }
+      return template
+        .replace(zRegEx, tileCoord[0].toString())
+        .replace(xRegEx, tileCoord[1].toString())
+        .replace(yRegEx, tileCoord[2].toString())
+        .replace(dashYRegEx, function () {
+          const z = tileCoord[0];
+          const range = tileGrid.getFullTileRange(z);
+          asserts_assert(range, 55); // The {-y} placeholder requires a tile grid with extent
+          const y = range.getHeight() - tileCoord[2] - 1;
+          return y.toString();
+        });
     }
   );
 }
@@ -45300,11 +57487,10 @@ function createFromTileUrlFunctions(tileUrlFunctions) {
     function (tileCoord, pixelRatio, projection) {
       if (!tileCoord) {
         return undefined;
-      } else {
-        const h = hash(tileCoord);
-        const index = math_modulo(h, tileUrlFunctions.length);
-        return tileUrlFunctions[index](tileCoord, pixelRatio, projection);
       }
+      const h = hash(tileCoord);
+      const index = math_modulo(h, tileUrlFunctions.length);
+      return tileUrlFunctions[index](tileCoord, pixelRatio, projection);
     }
   );
 }
@@ -45722,13 +57908,13 @@ class TileImage extends source_UrlTile {
   canExpireCache() {
     if (this.tileCache.canExpireCache()) {
       return true;
-    } else {
-      for (const key in this.tileCacheForProjection) {
-        if (this.tileCacheForProjection[key].canExpireCache()) {
-          return true;
-        }
+    }
+    for (const key in this.tileCacheForProjection) {
+      if (this.tileCacheForProjection[key].canExpireCache()) {
+        return true;
       }
     }
+
     return false;
   }
 
@@ -45759,9 +57945,8 @@ class TileImage extends source_UrlTile {
       !equivalent(this.getProjection(), projection)
     ) {
       return 0;
-    } else {
-      return this.getGutter();
     }
+    return this.getGutter();
   }
 
   /**
@@ -45794,9 +57979,8 @@ class TileImage extends source_UrlTile {
       !equivalent(this.getProjection(), projection)
     ) {
       return false;
-    } else {
-      return super.getOpaque(projection);
     }
+    return super.getOpaque(projection);
   }
 
   /**
@@ -45807,14 +57991,13 @@ class TileImage extends source_UrlTile {
     const thisProj = this.getProjection();
     if (this.tileGrid && (!thisProj || equivalent(thisProj, projection))) {
       return this.tileGrid;
-    } else {
-      const projKey = getUid(projection);
-      if (!(projKey in this.tileGridForProjection)) {
-        this.tileGridForProjection[projKey] =
-          getForProjection(projection);
-      }
-      return this.tileGridForProjection[projKey];
     }
+    const projKey = getUid(projection);
+    if (!(projKey in this.tileGridForProjection)) {
+      this.tileGridForProjection[projKey] =
+        getForProjection(projection);
+    }
+    return this.tileGridForProjection[projKey];
   }
 
   /**
@@ -45825,15 +58008,14 @@ class TileImage extends source_UrlTile {
     const thisProj = this.getProjection();
     if (!thisProj || equivalent(thisProj, projection)) {
       return this.tileCache;
-    } else {
-      const projKey = getUid(projection);
-      if (!(projKey in this.tileCacheForProjection)) {
-        this.tileCacheForProjection[projKey] = new ol_TileCache(
-          this.tileCache.highWaterMark
-        );
-      }
-      return this.tileCacheForProjection[projKey];
     }
+    const projKey = getUid(projection);
+    if (!(projKey in this.tileCacheForProjection)) {
+      this.tileCacheForProjection[projKey] = new ol_TileCache(
+        this.tileCache.highWaterMark
+      );
+    }
+    return this.tileCacheForProjection[projKey];
   }
 
   /**
@@ -45890,52 +58072,49 @@ class TileImage extends source_UrlTile {
         pixelRatio,
         sourceProjection || projection
       );
-    } else {
-      const cache = this.getTileCacheForProjection(projection);
-      const tileCoord = [z, x, y];
-      let tile;
-      const tileCoordKey = tilecoord_getKey(tileCoord);
-      if (cache.containsKey(tileCoordKey)) {
-        tile = cache.get(tileCoordKey);
-      }
-      const key = this.getKey();
-      if (tile && tile.key == key) {
-        return tile;
-      } else {
-        const sourceTileGrid = this.getTileGridForProjection(sourceProjection);
-        const targetTileGrid = this.getTileGridForProjection(projection);
-        const wrappedTileCoord = this.getTileCoordForTileUrlFunction(
-          tileCoord,
-          projection
-        );
-        const newTile = new reproj_Tile(
-          sourceProjection,
-          sourceTileGrid,
-          projection,
-          targetTileGrid,
-          tileCoord,
-          wrappedTileCoord,
-          this.getTilePixelRatio(pixelRatio),
-          this.getGutter(),
-          function (z, x, y, pixelRatio) {
-            return this.getTileInternal(z, x, y, pixelRatio, sourceProjection);
-          }.bind(this),
-          this.reprojectionErrorThreshold_,
-          this.renderReprojectionEdges_,
-          this.getInterpolate()
-        );
-        newTile.key = key;
-
-        if (tile) {
-          newTile.interimTile = tile;
-          newTile.refreshInterimChain();
-          cache.replace(tileCoordKey, newTile);
-        } else {
-          cache.set(tileCoordKey, newTile);
-        }
-        return newTile;
-      }
     }
+    const cache = this.getTileCacheForProjection(projection);
+    const tileCoord = [z, x, y];
+    let tile;
+    const tileCoordKey = tilecoord_getKey(tileCoord);
+    if (cache.containsKey(tileCoordKey)) {
+      tile = cache.get(tileCoordKey);
+    }
+    const key = this.getKey();
+    if (tile && tile.key == key) {
+      return tile;
+    }
+    const sourceTileGrid = this.getTileGridForProjection(sourceProjection);
+    const targetTileGrid = this.getTileGridForProjection(projection);
+    const wrappedTileCoord = this.getTileCoordForTileUrlFunction(
+      tileCoord,
+      projection
+    );
+    const newTile = new reproj_Tile(
+      sourceProjection,
+      sourceTileGrid,
+      projection,
+      targetTileGrid,
+      tileCoord,
+      wrappedTileCoord,
+      this.getTilePixelRatio(pixelRatio),
+      this.getGutter(),
+      (z, x, y, pixelRatio) =>
+        this.getTileInternal(z, x, y, pixelRatio, sourceProjection),
+      this.reprojectionErrorThreshold_,
+      this.renderReprojectionEdges_,
+      this.getInterpolate()
+    );
+    newTile.key = key;
+
+    if (tile) {
+      newTile.interimTile = tile;
+      newTile.refreshInterimChain();
+      cache.replace(tileCoordKey, newTile);
+    } else {
+      cache.set(tileCoordKey, newTile);
+    }
+    return newTile;
   }
 
   /**
@@ -45944,7 +58123,7 @@ class TileImage extends source_UrlTile {
    * @param {number} y Tile coordinate y.
    * @param {number} pixelRatio Pixel ratio.
    * @param {!import("../proj/Projection.js").default} projection Projection.
-   * @return {!(ImageTile|ReprojTile)} Tile.
+   * @return {!ImageTile} Tile.
    * @protected
    */
   getTileInternal(z, x, y, pixelRatio, projection) {
@@ -46296,7 +58475,7 @@ const usarCapaTeselas_eventos = {
    * @param {Boolean} cargaExitosa Indica si la carga del mosaico no ha presentado error.
    */
   alFinalizarCargaTesela: 'alFinalizarCargaTesela',
-  ...eventos
+  ...usarCapa_eventos
 };
 const usarCapaTeselas_emits = Object.values(usarCapaTeselas_eventos);
 
@@ -46393,6 +58572,7 @@ function usarCapaTeselas(propsParam, emitsParam) {
 
 
 
+
 // eslint-disable-next-line
 
 /* harmony default export */ var SisdaiCapaOsmvue_type_script_setup_true_lang_js_ = ({
@@ -46406,10 +58586,12 @@ function usarCapaTeselas(propsParam, emitsParam) {
 
     // eslint-disable-next-line
 
-    usarCapaTeselas(propsSetup, emit).registrar(new layer_Tile({
-      source: new source_OSM()
-      // className: this.className,
-    }));
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.onMounted)(() => {
+      usarCapaTeselas(propsSetup, emit).registrar(new layer_Tile({
+        source: new source_OSM()
+        // className: this.className,
+      }));
+    });
 
     return {
       __sfc: true,
@@ -46430,8 +58612,8 @@ function usarCapaTeselas(propsParam, emitsParam) {
 ;
 var SisdaiCapaOsm_component = normalizeComponent(
   capas_SisdaiCapaOsmvue_type_script_setup_true_lang_js_,
-  SisdaiCapaOsmvue_type_template_id_c52245fa_style_display_3A_20none_render,
-  SisdaiCapaOsmvue_type_template_id_c52245fa_style_display_3A_20none_staticRenderFns,
+  SisdaiCapaOsmvue_type_template_id_692a2492_style_display_3A_20none_render,
+  SisdaiCapaOsmvue_type_template_id_692a2492_style_display_3A_20none_staticRenderFns,
   false,
   null,
   null,
@@ -46440,16 +58622,17 @@ var SisdaiCapaOsm_component = normalizeComponent(
 )
 
 /* harmony default export */ var SisdaiCapaOsm = (SisdaiCapaOsm_component.exports);
-;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"23f98b37-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/capas/SisdaiCapaXyz.vue?vue&type=template&id=1b294ca1&style=display%3A%20none&
-var SisdaiCapaXyzvue_type_template_id_1b294ca1_style_display_3A_20none_render = function render() {
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"64cbf409-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/capas/SisdaiCapaXyz.vue?vue&type=template&id=6e997471&style=display%3A%20none&
+var SisdaiCapaXyzvue_type_template_id_6e997471_style_display_3A_20none_render = function render() {
   var _vm = this,
     _c = _vm._self._c,
     _setup = _vm._self._setupProxy;
   return _c('span');
 };
-var SisdaiCapaXyzvue_type_template_id_1b294ca1_style_display_3A_20none_staticRenderFns = [];
+var SisdaiCapaXyzvue_type_template_id_6e997471_style_display_3A_20none_staticRenderFns = [];
 
 ;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/capas/SisdaiCapaXyz.vue?vue&type=script&setup=true&lang=js&
+
 
 
 
@@ -46467,13 +58650,15 @@ var SisdaiCapaXyzvue_type_template_id_1b294ca1_style_display_3A_20none_staticRen
 
     // eslint-disable-next-line
 
-    usarCapaTeselas(propsSetup, emit).registrar(new layer_Tile({
-      source: new source_XYZ({
-        url: propsSetup.url,
-        crossOrigin: 'Anonymous'
-      })
-      // className: this.className,
-    }));
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.onMounted)(() => {
+      usarCapaTeselas(propsSetup, emit).registrar(new layer_Tile({
+        source: new source_XYZ({
+          url: propsSetup.url,
+          crossOrigin: 'Anonymous'
+        })
+        // className: this.className,
+      }));
+    });
 
     return {
       __sfc: true,
@@ -46494,8 +58679,8 @@ var SisdaiCapaXyzvue_type_template_id_1b294ca1_style_display_3A_20none_staticRen
 ;
 var SisdaiCapaXyz_component = normalizeComponent(
   capas_SisdaiCapaXyzvue_type_script_setup_true_lang_js_,
-  SisdaiCapaXyzvue_type_template_id_1b294ca1_style_display_3A_20none_render,
-  SisdaiCapaXyzvue_type_template_id_1b294ca1_style_display_3A_20none_staticRenderFns,
+  SisdaiCapaXyzvue_type_template_id_6e997471_style_display_3A_20none_render,
+  SisdaiCapaXyzvue_type_template_id_6e997471_style_display_3A_20none_staticRenderFns,
   false,
   null,
   null,
@@ -46504,14 +58689,14 @@ var SisdaiCapaXyz_component = normalizeComponent(
 )
 
 /* harmony default export */ var SisdaiCapaXyz = (SisdaiCapaXyz_component.exports);
-;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"23f98b37-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/capas/SisdaiCapaWms.vue?vue&type=template&id=373ac732&style=display%3A%20none&
-var SisdaiCapaWmsvue_type_template_id_373ac732_style_display_3A_20none_render = function render() {
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"64cbf409-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/capas/SisdaiCapaWms.vue?vue&type=template&id=a8bd19f6&style=display%3A%20none&
+var SisdaiCapaWmsvue_type_template_id_a8bd19f6_style_display_3A_20none_render = function render() {
   var _vm = this,
     _c = _vm._self._c,
     _setup = _vm._self._setupProxy;
   return _c('span');
 };
-var SisdaiCapaWmsvue_type_template_id_373ac732_style_display_3A_20none_staticRenderFns = [];
+var SisdaiCapaWmsvue_type_template_id_a8bd19f6_style_display_3A_20none_staticRenderFns = [];
 
 ;// CONCATENATED MODULE: ./node_modules/ol/layer/BaseImage.js
 /**
@@ -47272,14 +59457,22 @@ class ImageSource extends source_Source {
   }
 
   /**
+   * @param {Array<number>|null} resolutions Resolutions.
+   */
+  setResolutions(resolutions) {
+    this.resolutions_ = resolutions;
+  }
+
+  /**
    * @protected
    * @param {number} resolution Resolution.
    * @return {number} Resolution.
    */
   findNearestResolution(resolution) {
-    if (this.resolutions_) {
-      const idx = linearFindNearest(this.resolutions_, resolution, 0);
-      resolution = this.resolutions_[idx];
+    const resolutions = this.getResolutions();
+    if (resolutions) {
+      const idx = linearFindNearest(resolutions, resolution, 0);
+      resolution = resolutions[idx];
     }
     return resolution;
   }
@@ -47302,40 +59495,33 @@ class ImageSource extends source_Source {
         projection = sourceProjection;
       }
       return this.getImageInternal(extent, resolution, pixelRatio, projection);
-    } else {
-      if (this.reprojectedImage_) {
-        if (
-          this.reprojectedRevision_ == this.getRevision() &&
-          equivalent(this.reprojectedImage_.getProjection(), projection) &&
-          this.reprojectedImage_.getResolution() == resolution &&
-          extent_equals(this.reprojectedImage_.getExtent(), extent)
-        ) {
-          return this.reprojectedImage_;
-        }
-        this.reprojectedImage_.dispose();
-        this.reprojectedImage_ = null;
-      }
-
-      this.reprojectedImage_ = new reproj_Image(
-        sourceProjection,
-        projection,
-        extent,
-        resolution,
-        pixelRatio,
-        function (extent, resolution, pixelRatio) {
-          return this.getImageInternal(
-            extent,
-            resolution,
-            pixelRatio,
-            sourceProjection
-          );
-        }.bind(this),
-        this.getInterpolate()
-      );
-      this.reprojectedRevision_ = this.getRevision();
-
-      return this.reprojectedImage_;
     }
+    if (this.reprojectedImage_) {
+      if (
+        this.reprojectedRevision_ == this.getRevision() &&
+        equivalent(this.reprojectedImage_.getProjection(), projection) &&
+        this.reprojectedImage_.getResolution() == resolution &&
+        extent_equals(this.reprojectedImage_.getExtent(), extent)
+      ) {
+        return this.reprojectedImage_;
+      }
+      this.reprojectedImage_.dispose();
+      this.reprojectedImage_ = null;
+    }
+
+    this.reprojectedImage_ = new reproj_Image(
+      sourceProjection,
+      projection,
+      extent,
+      resolution,
+      pixelRatio,
+      (extent, resolution, pixelRatio) =>
+        this.getImageInternal(extent, resolution, pixelRatio, sourceProjection),
+      this.getInterpolate()
+    );
+    this.reprojectedRevision_ = this.getRevision();
+
+    return this.reprojectedImage_;
   }
 
   /**
@@ -47982,6 +60168,7 @@ class ImageWMS extends source_Image {
 
 
 
+
 // eslint-disable-next-line
 
 /* harmony default export */ var SisdaiCapaWmsvue_type_script_setup_true_lang_js_ = ({
@@ -48011,17 +60198,9 @@ class ImageWMS extends source_Image {
       type: String,
       default: 'geoserver'
     },
-    /**
-     * Extensión de la capa. Con este parametro se calcularán los mínimos y máximos de las capas
-     * registradas en el mapa.
-     */
-    extension: {
-      type: Array,
-      default: () => []
-    },
     ...usarCapa_props
   },
-  emits: emits,
+  emits: usarCapa_emits,
   setup(__props, {
     emit: emitsSetup
   }) {
@@ -48051,10 +60230,12 @@ class ImageWMS extends source_Image {
       emitsSetup('alFinalizarCarga', true);
       estatusCarga.value = defaults_estatusCarga.fin;
     });
-    registrar(new layer_Image({
-      source
-      // className: this.className,
-    }));
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.onMounted)(() => {
+      registrar(new layer_Image({
+        source
+        // className: this.className,
+      }));
+    });
 
     return {
       __sfc: true,
@@ -48078,8 +60259,8 @@ class ImageWMS extends source_Image {
 ;
 var SisdaiCapaWms_component = normalizeComponent(
   capas_SisdaiCapaWmsvue_type_script_setup_true_lang_js_,
-  SisdaiCapaWmsvue_type_template_id_373ac732_style_display_3A_20none_render,
-  SisdaiCapaWmsvue_type_template_id_373ac732_style_display_3A_20none_staticRenderFns,
+  SisdaiCapaWmsvue_type_template_id_a8bd19f6_style_display_3A_20none_render,
+  SisdaiCapaWmsvue_type_template_id_a8bd19f6_style_display_3A_20none_staticRenderFns,
   false,
   null,
   null,
@@ -48097,7 +60278,525 @@ var SisdaiCapaWms_component = normalizeComponent(
 
 
 
-;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"23f98b37-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/elementos/SisdaiMapaCapas.vue?vue&type=template&id=6f54d7e2&
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"64cbf409-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/leyendas/SisdaiMapaLeyenda.vue?vue&type=template&id=e9c092f8&
+var SisdaiMapaLeyendavue_type_template_id_e9c092f8_render = function render() {
+  var _vm = this,
+    _c = _vm._self._c,
+    _setup = _vm._self._setupProxy;
+  return _c('div', {
+    staticClass: "sisdai-mapa-leyenda"
+  }, [_c('div', {
+    directives: [{
+      name: "show",
+      rawName: "v-show",
+      value: _setup.titulo !== undefined,
+      expression: "titulo !== undefined"
+    }],
+    staticClass: "titulo"
+  }, [_vm._v(" " + _vm._s(_setup.titulo) + " ")]), _c('div', {
+    staticClass: "sisdai-mapa-leyenda-contenido"
+  }, _vm._l(_setup.idsCapas, function (idx) {
+    return _c(_setup.SisdaiMapaLeyendaCapaControl, {
+      key: `sisdai_mapa_control_${idx}`,
+      attrs: {
+        "para": idx
+      }
+    });
+  }), 1)]);
+};
+var SisdaiMapaLeyendavue_type_template_id_e9c092f8_staticRenderFns = [];
+
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"64cbf409-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/leyendas/SisdaiMapaLeyendaCapaControl.vue?vue&type=template&id=3eaadc90&scoped=true&
+var SisdaiMapaLeyendaCapaControlvue_type_template_id_3eaadc90_scoped_true_render = function render() {
+  var _vm = this,
+    _c = _vm._self._c,
+    _setup = _vm._self._setupProxy;
+  return _c('span', {
+    staticClass: "sisdai-mapa-leyenda-capa-control"
+  }, [!Array.isArray(_setup.estiloCapa) ? _c('form', [_c('input', {
+    directives: [{
+      name: "model",
+      rawName: "v-model",
+      value: _setup.visibilidadCapa,
+      expression: "visibilidadCapa"
+    }],
+    staticClass: "sisdai-mapa-leyenda-capa-control-check",
+    attrs: {
+      "type": "checkbox",
+      "id": _setup.idCheck
+    },
+    domProps: {
+      "checked": Array.isArray(_setup.visibilidadCapa) ? _vm._i(_setup.visibilidadCapa, null) > -1 : _setup.visibilidadCapa
+    },
+    on: {
+      "change": function ($event) {
+        var $$a = _setup.visibilidadCapa,
+          $$el = $event.target,
+          $$c = $$el.checked ? true : false;
+        if (Array.isArray($$a)) {
+          var $$v = null,
+            $$i = _vm._i($$a, $$v);
+          if ($$el.checked) {
+            $$i < 0 && (_setup.visibilidadCapa = $$a.concat([$$v]));
+          } else {
+            $$i > -1 && (_setup.visibilidadCapa = $$a.slice(0, $$i).concat($$a.slice($$i + 1)));
+          }
+        } else {
+          _setup.visibilidadCapa = $$c;
+        }
+      }
+    }
+  }), _c('label', {
+    staticClass: "sisdai-mapa-leyenda-capa-control-etiequeta",
+    attrs: {
+      "for": _setup.idCheck
+    }
+  }, [_c(_setup.SisdaiMapaLeyendaCapaColor, {
+    attrs: {
+      "estiloClase": _setup.estiloCapa
+    }
+  }), _vm._v(" " + _vm._s(_setup.nombreCapa) + " ")], 1)]) : _vm._e(), Array.isArray(_setup.estiloCapa) ? _c('div', {
+    staticClass: "sisdai-mapa-leyenda-capa-control-clasificacion"
+  }, [_c('p', {
+    staticClass: "sisdai-mapa-leyenda-capa-control-clasificacion-titulo"
+  }, [_vm._v(" " + _vm._s(_setup.nombreCapa) + " ")]), _c('div', {
+    staticClass: "sisdai-mapa-leyenda-capa-control-clasificacion-clases"
+  }, _vm._l(_setup.estiloCapa, function (clase, idx) {
+    return _c(_setup.SisdaiMapaLeyendaCapaClase, {
+      key: `estilo-${idx}`,
+      attrs: {
+        "estiloClase": clase.estilo,
+        "etiqueta": clase.etiqueta
+      },
+      on: {
+        "alternar-visibilidad": () => _setup.alternarVisibilidadClase(clase.clase)
+      }
+    });
+  }), 1)]) : _vm._e()]);
+};
+var SisdaiMapaLeyendaCapaControlvue_type_template_id_3eaadc90_scoped_true_staticRenderFns = [];
+
+;// CONCATENATED MODULE: ./src/composables/usarCapaControl.js
+/**
+ * @module composables/usarCapaControl
+ */
+
+
+
+const usarCapaControl_props = {
+  /**
+   * para
+   * - Tipo: `String`
+   * - Obligatorio: ✅
+   * - Interactivo: ❌
+   *
+   * Identificador de la capa a la que se quiere vincular el control de leyenda.
+   */
+  para: {
+    type: String,
+    required: true
+  }
+};
+
+/**
+ * La finalidad de este composable es acceder a las funciones del genéricas de la leyenda desde
+ * diferentes componentes o composables.
+ * @param {Object} propsParam props genéricos de leyenda.
+ * @returns {Function} composable.
+ */
+function usarCapaControl(propsParam) {
+  const visibilidadCapa = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)(false);
+  const nombreCapa = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)('Cargando...');
+  const estiloCapa = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)({});
+
+  /**
+   * Ejecutar esta función para vincular el idCapa con alguna capa registrada.
+   */
+  function vincularCapa() {
+    if (!usarCapasRegistradas().capaEstaRegistrada(propsParam.para)) return;
+    const {
+      alternarVisibilidad,
+      visibilidad,
+      nombre,
+      estilo
+    } = usarCapasRegistradas().vincularCapa(propsParam.para);
+    visibilidadCapa.value = visibilidad.value;
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(visibilidad, nvoValor => visibilidadCapa.value = nvoValor);
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(visibilidadCapa, alternarVisibilidad);
+    nombreCapa.value = nombre.value;
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(nombre, nvoNombre => nombreCapa.value = nvoNombre);
+    estiloCapa.value = JSON.parse(estilo.value ? estilo.value : '{}');
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(estilo, nvoEstilo => estiloCapa.value = JSON.parse(nvoEstilo));
+  }
+  return {
+    vincularCapa,
+    visibilidadCapa,
+    nombreCapa,
+    estiloCapa
+  };
+}
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"64cbf409-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/leyendas/SisdaiMapaLeyendaCapaColor.vue?vue&type=template&id=419982a0&scoped=true&
+var SisdaiMapaLeyendaCapaColorvue_type_template_id_419982a0_scoped_true_render = function render() {
+  var _vm = this,
+    _c = _vm._self._c,
+    _setup = _vm._self._setupProxy;
+  return _c('span', {
+    staticClass: "sisdai-mapa-leyenda-capa-color"
+  });
+};
+var SisdaiMapaLeyendaCapaColorvue_type_template_id_419982a0_scoped_true_staticRenderFns = [];
+
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/leyendas/SisdaiMapaLeyendaCapaColor.vue?vue&type=script&setup=true&lang=js&
+
+
+
+// eslint-disable-next-line
+
+/* harmony default export */ var SisdaiMapaLeyendaCapaColorvue_type_script_setup_true_lang_js_ = ({
+  __name: 'SisdaiMapaLeyendaCapaColor',
+  props: {
+    /**
+     *
+     */
+    estiloClase: {
+      type: Object,
+      required: true
+    }
+  },
+  setup(__props) {
+    const propsSetup = __props;
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.useCssVars)((_vm, _setup) => ({
+      "55eab794": _setup.estiloClaseCss.background.color,
+      "bcec66d2": _setup.estiloClaseCss.border.width,
+      "bd5286fc": _setup.estiloClaseCss.border.style,
+      "bf1a6398": _setup.estiloClaseCss.border.color
+    }));
+    const {
+      estiloClase
+    } = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.toRefs)(propsSetup);
+    const estiloACss = estilo => ({
+      background: {
+        color: estilo.relleno?.color ? estilo.relleno.color : 'none'
+      },
+      border: {
+        width: `${estilo.contorno?.grosor ? estilo.contorno.grosor : 0}px`,
+        style: estilo.contorno?.color ? 'solid' : 'none',
+        color: estilo.contorno?.color ? estilo.contorno.color : 'none'
+      }
+    });
+    const estiloClaseCss = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.computed)(() => estiloACss(estiloClase.value));
+    return {
+      __sfc: true,
+      propsSetup,
+      estiloClase,
+      estiloACss,
+      estiloClaseCss
+    };
+  }
+});
+;// CONCATENATED MODULE: ./src/componentes/leyendas/SisdaiMapaLeyendaCapaColor.vue?vue&type=script&setup=true&lang=js&
+ /* harmony default export */ var leyendas_SisdaiMapaLeyendaCapaColorvue_type_script_setup_true_lang_js_ = (SisdaiMapaLeyendaCapaColorvue_type_script_setup_true_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-22.use[0]!./node_modules/@vue/cli-service/node_modules/css-loader/dist/cjs.js??clonedRuleSet-22.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[2]!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[3]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-22.use[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/leyendas/SisdaiMapaLeyendaCapaColor.vue?vue&type=style&index=0&id=419982a0&prod&lang=scss&scoped=true&
+var SisdaiMapaLeyendaCapaColorvue_type_style_index_0_id_419982a0_prod_lang_scss_scoped_true_ = __webpack_require__(4452);
+;// CONCATENATED MODULE: ./src/componentes/leyendas/SisdaiMapaLeyendaCapaColor.vue?vue&type=style&index=0&id=419982a0&prod&lang=scss&scoped=true&
+
+;// CONCATENATED MODULE: ./src/componentes/leyendas/SisdaiMapaLeyendaCapaColor.vue
+
+
+
+;
+
+
+/* normalize component */
+
+var SisdaiMapaLeyendaCapaColor_component = normalizeComponent(
+  leyendas_SisdaiMapaLeyendaCapaColorvue_type_script_setup_true_lang_js_,
+  SisdaiMapaLeyendaCapaColorvue_type_template_id_419982a0_scoped_true_render,
+  SisdaiMapaLeyendaCapaColorvue_type_template_id_419982a0_scoped_true_staticRenderFns,
+  false,
+  null,
+  "419982a0",
+  null
+  
+)
+
+/* harmony default export */ var SisdaiMapaLeyendaCapaColor = (SisdaiMapaLeyendaCapaColor_component.exports);
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"64cbf409-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/leyendas/SisdaiMapaLeyendaCapaClase.vue?vue&type=template&id=0ae12032&scoped=true&
+var SisdaiMapaLeyendaCapaClasevue_type_template_id_0ae12032_scoped_true_render = function render() {
+  var _vm = this,
+    _c = _vm._self._c,
+    _setup = _vm._self._setupProxy;
+  return _c('div', {
+    staticClass: "sisdai-mapa-leyenda-capa-clase",
+    on: {
+      "click": function ($event) {
+        return _setup.emit('alternar-visibilidad');
+      }
+    }
+  }, [_c('span', {
+    staticClass: "sisdai-mapa-leyenda-capa-clase-color"
+  }), _c('span', {
+    staticClass: "sisdai-mapa-leyenda-capa-clase-etiqueta"
+  }, [_vm._v(" " + _vm._s(_setup.etiqueta))])]);
+};
+var SisdaiMapaLeyendaCapaClasevue_type_template_id_0ae12032_scoped_true_staticRenderFns = [];
+
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/leyendas/SisdaiMapaLeyendaCapaClase.vue?vue&type=script&setup=true&lang=js&
+
+
+
+// eslint-disable-next-line
+
+/* harmony default export */ var SisdaiMapaLeyendaCapaClasevue_type_script_setup_true_lang_js_ = ({
+  __name: 'SisdaiMapaLeyendaCapaClase',
+  props: {
+    /**
+     *
+     */
+    estiloClase: {
+      type: Object,
+      required: true
+    },
+    /**
+     *
+     */
+    etiqueta: {
+      type: String,
+      required: true
+    }
+  },
+  emits: ['alternar-visibilidad'],
+  setup(__props, {
+    emit
+  }) {
+    const propsSetup = __props;
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.useCssVars)((_vm, _setup) => ({
+      "3fab6d02": _setup.estiloClaseCss.background.color,
+      "5bb2493a": _setup.estiloClaseCss.border.width,
+      "5c186964": _setup.estiloClaseCss.border.style,
+      "5de04600": _setup.estiloClaseCss.border.color
+    }));
+    const {
+      estiloClase,
+      etiqueta
+    } = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.toRefs)(propsSetup);
+    const estiloACss = estilo => ({
+      background: {
+        color: estilo.relleno?.color ? estilo.relleno.color : 'none'
+      },
+      border: {
+        width: `${estilo.contorno?.grosor ? estilo.contorno.grosor : 0}px`,
+        style: estilo.contorno?.color ? 'solid' : 'none',
+        color: estilo.contorno?.color ? estilo.contorno.color : 'none'
+      }
+    });
+    const estiloClaseCss = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.computed)(() => estiloACss(estiloClase.value));
+
+    // eslint-disable-next-line
+
+    return {
+      __sfc: true,
+      propsSetup,
+      estiloClase,
+      etiqueta,
+      estiloACss,
+      estiloClaseCss,
+      emit
+    };
+  }
+});
+;// CONCATENATED MODULE: ./src/componentes/leyendas/SisdaiMapaLeyendaCapaClase.vue?vue&type=script&setup=true&lang=js&
+ /* harmony default export */ var leyendas_SisdaiMapaLeyendaCapaClasevue_type_script_setup_true_lang_js_ = (SisdaiMapaLeyendaCapaClasevue_type_script_setup_true_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-22.use[0]!./node_modules/@vue/cli-service/node_modules/css-loader/dist/cjs.js??clonedRuleSet-22.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[2]!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[3]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-22.use[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/leyendas/SisdaiMapaLeyendaCapaClase.vue?vue&type=style&index=0&id=0ae12032&prod&lang=scss&scoped=true&
+var SisdaiMapaLeyendaCapaClasevue_type_style_index_0_id_0ae12032_prod_lang_scss_scoped_true_ = __webpack_require__(4549);
+;// CONCATENATED MODULE: ./src/componentes/leyendas/SisdaiMapaLeyendaCapaClase.vue?vue&type=style&index=0&id=0ae12032&prod&lang=scss&scoped=true&
+
+;// CONCATENATED MODULE: ./src/componentes/leyendas/SisdaiMapaLeyendaCapaClase.vue
+
+
+
+;
+
+
+/* normalize component */
+
+var SisdaiMapaLeyendaCapaClase_component = normalizeComponent(
+  leyendas_SisdaiMapaLeyendaCapaClasevue_type_script_setup_true_lang_js_,
+  SisdaiMapaLeyendaCapaClasevue_type_template_id_0ae12032_scoped_true_render,
+  SisdaiMapaLeyendaCapaClasevue_type_template_id_0ae12032_scoped_true_staticRenderFns,
+  false,
+  null,
+  "0ae12032",
+  null
+  
+)
+
+/* harmony default export */ var SisdaiMapaLeyendaCapaClase = (SisdaiMapaLeyendaCapaClase_component.exports);
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/leyendas/SisdaiMapaLeyendaCapaControl.vue?vue&type=script&setup=true&lang=js&
+
+
+
+
+
+
+// eslint-disable-next-line
+
+/* harmony default export */ var SisdaiMapaLeyendaCapaControlvue_type_script_setup_true_lang_js_ = ({
+  __name: 'SisdaiMapaLeyendaCapaControl',
+  props: usarCapaControl_props,
+  setup(__props) {
+    const propsSetup = __props;
+    const {
+      vincularCapa,
+      visibilidadCapa,
+      nombreCapa,
+      estiloCapa
+    } = usarCapaControl(propsSetup);
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.onMounted)(() => vincularCapa());
+    const idCheck = `${propsSetup.para}-${idAleatorio()}`;
+    function alternarVisibilidadClase(clase) {
+      // eslint-disable-next-line
+      console.log('alternarVisibilidadClase', clase);
+    }
+    return {
+      __sfc: true,
+      propsSetup,
+      vincularCapa,
+      visibilidadCapa,
+      nombreCapa,
+      estiloCapa,
+      idCheck,
+      alternarVisibilidadClase,
+      SisdaiMapaLeyendaCapaColor: SisdaiMapaLeyendaCapaColor,
+      SisdaiMapaLeyendaCapaClase: SisdaiMapaLeyendaCapaClase
+    };
+  }
+});
+;// CONCATENATED MODULE: ./src/componentes/leyendas/SisdaiMapaLeyendaCapaControl.vue?vue&type=script&setup=true&lang=js&
+ /* harmony default export */ var leyendas_SisdaiMapaLeyendaCapaControlvue_type_script_setup_true_lang_js_ = (SisdaiMapaLeyendaCapaControlvue_type_script_setup_true_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-22.use[0]!./node_modules/@vue/cli-service/node_modules/css-loader/dist/cjs.js??clonedRuleSet-22.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[2]!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[3]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-22.use[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/leyendas/SisdaiMapaLeyendaCapaControl.vue?vue&type=style&index=0&id=3eaadc90&prod&lang=scss&scoped=true&
+var SisdaiMapaLeyendaCapaControlvue_type_style_index_0_id_3eaadc90_prod_lang_scss_scoped_true_ = __webpack_require__(5184);
+;// CONCATENATED MODULE: ./src/componentes/leyendas/SisdaiMapaLeyendaCapaControl.vue?vue&type=style&index=0&id=3eaadc90&prod&lang=scss&scoped=true&
+
+;// CONCATENATED MODULE: ./src/componentes/leyendas/SisdaiMapaLeyendaCapaControl.vue
+
+
+
+;
+
+
+/* normalize component */
+
+var SisdaiMapaLeyendaCapaControl_component = normalizeComponent(
+  leyendas_SisdaiMapaLeyendaCapaControlvue_type_script_setup_true_lang_js_,
+  SisdaiMapaLeyendaCapaControlvue_type_template_id_3eaadc90_scoped_true_render,
+  SisdaiMapaLeyendaCapaControlvue_type_template_id_3eaadc90_scoped_true_staticRenderFns,
+  false,
+  null,
+  "3eaadc90",
+  null
+  
+)
+
+/* harmony default export */ var SisdaiMapaLeyendaCapaControl = (SisdaiMapaLeyendaCapaControl_component.exports);
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/leyendas/SisdaiMapaLeyenda.vue?vue&type=script&setup=true&lang=js&
+
+
+
+// eslint-disable-next-line
+
+/* harmony default export */ var SisdaiMapaLeyendavue_type_script_setup_true_lang_js_ = ({
+  __name: 'SisdaiMapaLeyenda',
+  props: {
+    /**
+     * `para`
+     * - Tipo: `String` o `Array`
+     * - Obligatorio: ✅
+     * - Interactivo: ✅
+     *
+     * Identificador de la capa a la que se quiere vincular el control de leyenda.
+     */
+    para: {
+      type: [String, Array],
+      required: true
+    },
+    /**
+     * `titulo`
+     * - Tipo: `String`
+     * - Valor por defecto: `undefined`
+     * - Interactivo: ✅
+     *
+     * Titulo que tendrá la leyenda por encima de los controles de las capas con las que se vincule.
+     */
+    titulo: {
+      type: String,
+      default: undefined
+    }
+  },
+  setup(__props) {
+    const propsSetup = __props;
+    const {
+      titulo,
+      para
+    } = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.toRefs)(propsSetup);
+    const idsCapas = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)([]);
+    function actualizarIdsCapas() {
+      if (Array.isArray(para.value)) {
+        idsCapas.value = para.value;
+      } else if (typeof para.value === typeof '') {
+        idsCapas.value = para.value.split(',');
+      }
+    }
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(para, actualizarIdsCapas);
+    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.onMounted)(() => {
+      actualizarIdsCapas();
+    });
+    return {
+      __sfc: true,
+      propsSetup,
+      titulo,
+      para,
+      idsCapas,
+      actualizarIdsCapas,
+      SisdaiMapaLeyendaCapaControl: SisdaiMapaLeyendaCapaControl
+    };
+  }
+});
+;// CONCATENATED MODULE: ./src/componentes/leyendas/SisdaiMapaLeyenda.vue?vue&type=script&setup=true&lang=js&
+ /* harmony default export */ var leyendas_SisdaiMapaLeyendavue_type_script_setup_true_lang_js_ = (SisdaiMapaLeyendavue_type_script_setup_true_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-22.use[0]!./node_modules/@vue/cli-service/node_modules/css-loader/dist/cjs.js??clonedRuleSet-22.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[2]!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[3]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-22.use[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/leyendas/SisdaiMapaLeyenda.vue?vue&type=style&index=0&id=e9c092f8&prod&lang=scss&
+var SisdaiMapaLeyendavue_type_style_index_0_id_e9c092f8_prod_lang_scss_ = __webpack_require__(2576);
+;// CONCATENATED MODULE: ./src/componentes/leyendas/SisdaiMapaLeyenda.vue?vue&type=style&index=0&id=e9c092f8&prod&lang=scss&
+
+;// CONCATENATED MODULE: ./src/componentes/leyendas/SisdaiMapaLeyenda.vue
+
+
+
+;
+
+
+/* normalize component */
+
+var SisdaiMapaLeyenda_component = normalizeComponent(
+  leyendas_SisdaiMapaLeyendavue_type_script_setup_true_lang_js_,
+  SisdaiMapaLeyendavue_type_template_id_e9c092f8_render,
+  SisdaiMapaLeyendavue_type_template_id_e9c092f8_staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var SisdaiMapaLeyenda = (SisdaiMapaLeyenda_component.exports);
+;// CONCATENATED MODULE: ./src/componentes/leyendas/index.js
+/**
+ * @module componentes/leyendas
+ */
+
+
+
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"64cbf409-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/elementos/SisdaiMapaCapas.vue?vue&type=template&id=6f54d7e2&
 var SisdaiMapaCapasvue_type_template_id_6f54d7e2_render = function render() {
   var _vm = this,
     _c = _vm._self._c,
@@ -48143,7 +60842,7 @@ var SisdaiMapaCapas_component = normalizeComponent(
 )
 
 /* harmony default export */ var SisdaiMapaCapas = (SisdaiMapaCapas_component.exports);
-;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"23f98b37-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/elementos/SisdaiMapaEncabezado.vue?vue&type=template&id=8615f578&scoped=true&
+;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"64cbf409-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/elementos/SisdaiMapaEncabezado.vue?vue&type=template&id=8615f578&scoped=true&
 var SisdaiMapaEncabezadovue_type_template_id_8615f578_scoped_true_render = function render() {
   var _vm = this,
     _c = _vm._self._c,
@@ -48171,7 +60870,7 @@ var SisdaiMapaEncabezadovue_type_template_id_8615f578_scoped_true_staticRenderFn
 ;// CONCATENATED MODULE: ./src/componentes/elementos/SisdaiMapaEncabezado.vue?vue&type=script&setup=true&lang=js&
  /* harmony default export */ var elementos_SisdaiMapaEncabezadovue_type_script_setup_true_lang_js_ = (SisdaiMapaEncabezadovue_type_script_setup_true_lang_js_); 
 // EXTERNAL MODULE: ./node_modules/vue-style-loader/index.js??clonedRuleSet-22.use[0]!./node_modules/@vue/cli-service/node_modules/css-loader/dist/cjs.js??clonedRuleSet-22.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[2]!./node_modules/@vue/cli-service/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-22.use[3]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-22.use[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/elementos/SisdaiMapaEncabezado.vue?vue&type=style&index=0&id=8615f578&prod&lang=scss&scoped=true&
-var SisdaiMapaEncabezadovue_type_style_index_0_id_8615f578_prod_lang_scss_scoped_true_ = __webpack_require__(256);
+var SisdaiMapaEncabezadovue_type_style_index_0_id_8615f578_prod_lang_scss_scoped_true_ = __webpack_require__(9256);
 ;// CONCATENATED MODULE: ./src/componentes/elementos/SisdaiMapaEncabezado.vue?vue&type=style&index=0&id=8615f578&prod&lang=scss&scoped=true&
 
 ;// CONCATENATED MODULE: ./src/componentes/elementos/SisdaiMapaEncabezado.vue
@@ -48195,167 +60894,6 @@ var SisdaiMapaEncabezado_component = normalizeComponent(
 )
 
 /* harmony default export */ var SisdaiMapaEncabezado = (SisdaiMapaEncabezado_component.exports);
-;// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"23f98b37-vue-loader-template"}!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/elementos/SisdaiMapaLeyenda.vue?vue&type=template&id=e5179432&
-var SisdaiMapaLeyendavue_type_template_id_e5179432_render = function render() {
-  var _vm = this,
-    _c = _vm._self._c,
-    _setup = _vm._self._setupProxy;
-  return _c('div', [_c('input', {
-    directives: [{
-      name: "model",
-      rawName: "v-model",
-      value: _setup.visibilidadCapa,
-      expression: "visibilidadCapa"
-    }],
-    attrs: {
-      "type": "checkbox",
-      "id": _setup.idCheck
-    },
-    domProps: {
-      "checked": Array.isArray(_setup.visibilidadCapa) ? _vm._i(_setup.visibilidadCapa, null) > -1 : _setup.visibilidadCapa
-    },
-    on: {
-      "change": function ($event) {
-        var $$a = _setup.visibilidadCapa,
-          $$el = $event.target,
-          $$c = $$el.checked ? true : false;
-        if (Array.isArray($$a)) {
-          var $$v = null,
-            $$i = _vm._i($$a, $$v);
-          if ($$el.checked) {
-            $$i < 0 && (_setup.visibilidadCapa = $$a.concat([$$v]));
-          } else {
-            $$i > -1 && (_setup.visibilidadCapa = $$a.slice(0, $$i).concat($$a.slice($$i + 1)));
-          }
-        } else {
-          _setup.visibilidadCapa = $$c;
-        }
-      }
-    }
-  }), _c('label', {
-    attrs: {
-      "for": _setup.idCheck
-    }
-  }, [_vm._v(_vm._s(_setup.nombreCapa))])]);
-};
-var SisdaiMapaLeyendavue_type_template_id_e5179432_staticRenderFns = [];
-
-;// CONCATENATED MODULE: ./src/composables/usarLeyenda.js
-/**
- * @module composables/usarLeyenda
- */
-
-
-
-const usarLeyenda_props = {
-  /**
-   * para
-   * - Tipo: `String`
-   * - Obligatorio: ✅
-   * - Interactivo: ❌
-   *
-   * Identificador de la capa a la que se quiere vincular el control de leyenda.
-   */
-  para: {
-    type: String,
-    required: true
-  }
-};
-
-/**
- * La finalidad de este composable es acceder a las funciones del genéricas de la leyenda desde
- * diferentes componentes o composables.
- * @param {Object} propsParam props genéricos de leyenda.
- * @returns {Function} composable.
- */
-function usarLeyenda(propsParam) {
-  const visibilidadCapa = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)(false);
-  const nombreCapa = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.ref)('Cargando...');
-
-  /**
-   * En caso de que no se encuentre la capa en las capas registradas, llegar a esta funciónß.
-   * @param {String} id id de la capa con la que se trató de vincular.
-   function capaNoVinculada(id) {
-     console.warn(`La capa '${id}' no fue encontrada`)
-    }
-   */
-
-  /**
-   * Ejecutar esta función para vincular el idCapa con alguna capa registrada.
-   */
-  function vincularCapa() {
-    // console.log('tratando de vincular', propsParam.para)
-
-    const {
-      alternarVisibilidad,
-      visibilidad,
-      nombre
-    } = usarCapasRegistradas().vincularCapa(propsParam.para);
-    visibilidadCapa.value = visibilidad.value;
-    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(visibilidad, nuevoValor => visibilidadCapa.value = nuevoValor);
-    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(visibilidadCapa, alternarVisibilidad);
-    nombreCapa.value = nombre.value;
-    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.watch)(nombre, nuevoValor => nombreCapa.value = nuevoValor);
-  }
-  return {
-    vincularCapa,
-    visibilidadCapa,
-    nombreCapa
-  };
-}
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/componentes/elementos/SisdaiMapaLeyenda.vue?vue&type=script&setup=true&lang=js&
-
-
-
-
-// eslint-disable-next-line
-
-/* harmony default export */ var SisdaiMapaLeyendavue_type_script_setup_true_lang_js_ = ({
-  __name: 'SisdaiMapaLeyenda',
-  props: usarLeyenda_props,
-  setup(__props) {
-    const propsSetup = __props;
-    const {
-      vincularCapa,
-      visibilidadCapa,
-      nombreCapa
-    } = usarLeyenda(propsSetup);
-    (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.onMounted)(() => {
-      vincularCapa();
-    });
-    const idCheck = `${idAleatorio()}-${usarLeyenda_props.para}`;
-    return {
-      __sfc: true,
-      propsSetup,
-      vincularCapa,
-      visibilidadCapa,
-      nombreCapa,
-      idCheck
-    };
-  }
-});
-;// CONCATENATED MODULE: ./src/componentes/elementos/SisdaiMapaLeyenda.vue?vue&type=script&setup=true&lang=js&
- /* harmony default export */ var elementos_SisdaiMapaLeyendavue_type_script_setup_true_lang_js_ = (SisdaiMapaLeyendavue_type_script_setup_true_lang_js_); 
-;// CONCATENATED MODULE: ./src/componentes/elementos/SisdaiMapaLeyenda.vue
-
-
-
-
-
-/* normalize component */
-;
-var SisdaiMapaLeyenda_component = normalizeComponent(
-  elementos_SisdaiMapaLeyendavue_type_script_setup_true_lang_js_,
-  SisdaiMapaLeyendavue_type_template_id_e5179432_render,
-  SisdaiMapaLeyendavue_type_template_id_e5179432_staticRenderFns,
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* harmony default export */ var SisdaiMapaLeyenda = (SisdaiMapaLeyenda_component.exports);
 ;// CONCATENATED MODULE: ./src/componentes/elementos/index.js
 /**
  * @module componentes/elementos
@@ -48363,8 +60901,8 @@ var SisdaiMapaLeyenda_component = normalizeComponent(
 
 
 
-
 ;// CONCATENATED MODULE: ./src/index.js
+
 
 
 
@@ -48374,15 +60912,16 @@ function src_plugin(Vue) {
     return;
   }
   src_plugin.installed = true;
-  agregarComponente(SisdaiMapa);
-  agregarComponentes(capas_namespaceObject);
-  agregarComponentes(elementos_namespaceObject);
   function agregarComponente(componente) {
     Vue.component(componente.__name, componente);
   }
   function agregarComponentes(componentes) {
     Object.values(componentes).forEach(componente => agregarComponente(componente));
   }
+  agregarComponente(SisdaiMapa);
+  agregarComponentes(capas_namespaceObject);
+  agregarComponentes(elementos_namespaceObject);
+  agregarComponentes(leyendas_namespaceObject);
 }
 
 ;// CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js

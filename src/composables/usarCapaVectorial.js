@@ -38,6 +38,7 @@ export const props = {
     default: () => undefined,
     validator: valor => {
       if (!(typeof valor === typeof {}) || valor === null) {
+        // eslint-disable-next-line
         console.error(
           'Es necesario un objeto o un arreglo de objetos para realizar la clasificación de la capa'
         )
@@ -262,7 +263,7 @@ export default function usarCapaVectorial(propsParam, emitsParam) {
     const { cambiarEstilo } = vincular()
 
     if (clasificacion.value !== undefined) {
-      console.log('clasificar')
+      // console.log('clasificar')
       featuresTodos = JSON.stringify(
         new GeoJSON().writeFeaturesObject(olCapa.getSource().getFeatures())
           .features
