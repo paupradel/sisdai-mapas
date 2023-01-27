@@ -2,7 +2,6 @@
 import { onMounted, onUnmounted, ref } from 'vue'
 import 'ol/ol.css'
 import Map from 'ol/Map'
-// import View from 'ol/View'
 import AttributionControl from 'ol/control/Attribution'
 import usarMapa, { props, emits } from './../composables/usarMapa'
 import ControlZoomPersonalizado from './../controles/ZoomPersonalizado'

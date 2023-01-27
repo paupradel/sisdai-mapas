@@ -5,13 +5,7 @@ Las propiedades de la vista del mapa manipulan el espacio interactivo visible de
 ## Uso básico
 
 ```html
-<SisdaiMapa
-  :vista="{
-    centro: `<Array(x, y)>`,
-    zoom: ,
-  }"
->
-</SisdaiMapa>
+<SisdaiMapa :vista="{}">
 ```
 
 ## Propiedades
@@ -69,3 +63,28 @@ Nivel de zoom utilizado para calcular la resolución inicial de la vista.
 > ⚠️ **Importante:** Debe tener en cuenta que si la propiedad `extension` se define, esta propiedad será ignorada.
 
 <mapa-VistaInteractiva />
+
+## Funciones
+
+A continuación se describen las funciones que pueden modificar el estado de la vista en el mapa.
+
+#### `ajustarVista()`
+
+Ajusta la vista del mapa a los valores definidos en la propiedad vista.
+
+## Eventos
+
+A continuación se describen los eventos que desencadena el mapa relacionados con los cambios de la vista.
+
+#### `@alAjustarVista`
+
+Ejecutado cuado se detecta que se ha ajustado la vista del mapa a los valores de la propiedad vista.
+
+#### `@alCambiarZoom`
+
+Ejecutado cuado se detecta que el zoom de la vista del mapa ha cambiado.
+
+__Valores Recibidos:__
+
+- Nuevo valor de zoom: `Number`.
+

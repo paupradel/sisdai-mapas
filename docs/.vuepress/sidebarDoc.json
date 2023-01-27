@@ -9,11 +9,11 @@
   },
   {
     "title": "Mapa",
-    "collapsable": false,
+    "collapsable": true,
     "children": [
-      "mapa",
-      "mapa-vista",
-      "contenedores"
+      "mapa/",
+      "mapa/vista",
+      "mapa/contenedores"
     ]
   },
   {

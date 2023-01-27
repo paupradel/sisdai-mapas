@@ -161,12 +161,14 @@ export const props = {
 
 export const eventos = {
   /**
-   *
+   * Ejecutado cuado se detecta que se ha ajustado la vista del mapa a los valores de la
+   * propiedad vista.
    */
   alAjustarVista: 'alAjustarVista',
 
   /**
-   *
+   * Ejecutado cuado se detecta que el zoom de la vista del mapa ha cambiado.
+   * @param {Number} zoom Nuevo valor de zoom.
    */
   alCambiarZoom: 'alCambiarZoom',
 }
@@ -175,7 +177,7 @@ export const emits = Object.values(eventos)
 
 /**
  * Uso del mapa, la finalidad de este composable es acceder al mapa desde diferentes componentes
- * o composables
+ * o composables.
  * @returns {Function} composable
  */
 export default function usarMapa(propsParam, emitsParam) {
@@ -298,7 +300,7 @@ export default function usarMapa(propsParam, emitsParam) {
   watch(escalaGrafica, alternarEscalaGrafica)
 
   /**
-   *
+   * Ajusta la vista del mapa a los valores definidos en la propiedad vista.
    */
   function ajustarVista() {
     const controlAjusteVista = conseguirControl(AjusteVista.nombre)
