@@ -2,23 +2,27 @@
   {
     "title": "Inicio",
     "collapsable": false,
-    "children": ["introduccion"]
+    "children": [
+      "introduccion",
+      "primeros-pasos"
+    ]
   },
   {
     "title": "Mapa",
     "collapsable": false,
-    "children": ["mapa", "mapa-vista", "contenedores"]
+    "children": [
+      "mapa",
+      "mapa-vista",
+      "contenedores"
+    ]
   },
   {
     "title": "Capas",
     "collapsable": false,
     "children": [
-      "capas-general",
-      "capas-teselas",
-      "capas-vectoriales",
-      "capas-xyz",
-      "capas-wms",
-      "capas-geojson"
+      "capas/",
+      "capas/teselas",
+      "capas/vectoriales"
     ]
   },
   {
@@ -35,6 +39,17 @@
   {
     "title": "Leyendas",
     "collapsable": false,
-    "children": ["leyenda"]
+    "children": [
+      "leyenda"
+    ]
+  },
+  {
+    "title": "Información",
+    "collapsable": true,
+    "children": [
+      "info/",
+      "info/tooltip",
+      "info/popup"
+    ]
   }
 ]
