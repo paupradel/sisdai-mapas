@@ -18,7 +18,7 @@
   },
   {
     "title": "Capas",
-    "collapsable": false,
+    "collapsable": true,
     "children": [
       "capas/",
       "capas/teselas",
@@ -27,20 +27,20 @@
   },
   {
     "title": "Clasificación",
-    "collapsable": false,
+    "collapsable": true,
     "children": [
-      "clasificacion",
-      "clasificacion-categorias",
-      "clasificacion-cuantiles",
-      "clasificacion-linear",
-      "clasificacion-cortesnaturales"
+      "clasificacion/",
+      "clasificacion/categorias",
+      "clasificacion/cuantiles",
+      "clasificacion/linear",
+      "clasificacion/cortes-naturales"
     ]
   },
   {
     "title": "Leyendas",
-    "collapsable": false,
+    "collapsable": true,
     "children": [
-      "leyenda"
+      "leyenda/"
     ]
   },
   {
@@ -51,5 +51,10 @@
       "info/tooltip",
       "info/popup"
     ]
+  },
+  {
+    "title": "Visualizaciones",
+    "collapsable": true,
+    "children": []
   }
 ]
