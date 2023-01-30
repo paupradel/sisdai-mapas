@@ -2,28 +2,17 @@
   {
     "title": "Inicio",
     "collapsable": false,
-    "children": [
-      "introduccion",
-      "primeros-pasos"
-    ]
+    "children": ["introduccion", "primeros-pasos"]
   },
   {
     "title": "Mapa",
     "collapsable": true,
-    "children": [
-      "mapa/",
-      "mapa/vista",
-      "mapa/contenedores"
-    ]
+    "children": ["mapa/", "mapa/vista", "mapa/contenedores"]
   },
   {
     "title": "Capas",
     "collapsable": true,
-    "children": [
-      "capas/",
-      "capas/teselas",
-      "capas/vectoriales"
-    ]
+    "children": ["capas/", "capas/teselas", "capas/vectoriales"]
   },
   {
     "title": "Clasificación",
@@ -39,18 +28,12 @@
   {
     "title": "Leyendas",
     "collapsable": true,
-    "children": [
-      "leyenda/"
-    ]
+    "children": ["leyenda/"]
   },
   {
     "title": "Información",
     "collapsable": true,
-    "children": [
-      "info/",
-      "info/tooltip",
-      "info/popup"
-    ]
+    "children": ["info/", "info/tooltip", "info/popup"]
   },
   {
     "title": "Visualizaciones",
