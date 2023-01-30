@@ -20,44 +20,6 @@ const olMapa = ref(undefined)
 
 export const props = {
   /**
-   * centro
-   * - Tipo: `Array`
-   * - Valor por defecto: `[0, 0]`
-   * - Interactivo: ✅
-   *
-   * Coordenadas `[x, y]` del centro inicial de la vista.
-   *
-   * > ℹ️ **Información:** La proyección de estas coordenadas deben coincidir con la `proyeccion`
-   * definida en el mapa.
-   *
-   * > ⚠️ **Importante:** Debe tener en cuenta que si la propiedad `extension` se define, esta
-   * propiedad será ignorada.
-   centro: {
-     type: Array,
-     default: () => [0, 0],
-    },
-    */
-
-  /**
-   * extension
-   * - Tipo: `Array`
-   * - Valor por defecto: `[0, 0, 0, 0]`
-   * - Interactivo: ✅
-   *
-   * Coordenadas extremas `[x1, y1, x2, y2]` de la caja envolvente de la vista.
-   *
-   * > ℹ️ **Información:** La proyección de estas coordenadas deben coincidir con la `proyeccion`
-   * definida en el mapa.
-   *
-   * > ⚠️ **Importante:** Debe tener en cuenta que si esta propiedad es definida o diferente al
-   * valor por defecto, las propiedades `centro` y `zoom` serán ignoradas.
-   extension: {
-     type: Array,
-     default: () => [0, 0, 0, 0],
-    },
-    */
-
-  /**
    * `ajustarVistaPorCapasVisibles`
    * - Tipo: `Boolean`
    * - Valor por defecto: `false`
@@ -86,6 +48,7 @@ export const props = {
   },
 
   /**
+   * EVALUAR SI VA AQUÍ O EN LA PROPIEDAD VISTA
    * proyeccion
    * - Tipo: `String`
    * - Valor por defecto: `EPSG:4326`
@@ -141,22 +104,6 @@ export const props = {
       return true
     },
   },
-
-  /**
-   * zoom
-   * - Tipo: `Number`
-   * - Valor por defecto: `1`
-   * - Interactivo: ✅
-   *
-   * Nivel de zoom utilizado para calcular la resolución inicial de la vista.
-   *
-   * > ⚠️ **Importante:** Debe tener en cuenta que si la propiedad `extension` se define, esta
-   * propiedad será ignorada.
-   zoom: {
-     type: Number,
-     default: 1,
-    },
-    */
 }
 
 export const eventos = {
@@ -299,6 +246,73 @@ export default function usarMapa(propsParam, emitsParam) {
   }
   watch(escalaGrafica, alternarEscalaGrafica)
 
+  function crearImagen(mapa) {
+    const mapCanvas = document.createElement('canvas')
+    const size = mapa.getSize()
+    mapCanvas.width = size[0]
+    mapCanvas.height = size[1]
+    const mapContext = mapCanvas.getContext('2d')
+
+    Array.prototype.forEach.call(
+      mapa.getViewport().querySelectorAll('.ol-layer canvas, canvas.ol-layer'),
+      function (canvas) {
+        if (canvas.width > 0) {
+          const opacity =
+            canvas.parentNode.style.opacity || canvas.style.opacity
+          mapContext.globalAlpha = opacity === '' ? 1 : Number(opacity)
+          let matrix
+          const transform = canvas.style.transform
+          if (transform) {
+            // Get the transform parameters from the style's transform matrix
+            matrix = transform
+              //eslint-disable-next-line
+              .match(/^matrix\(([^\(]*)\)$/)[1]
+              .split(',')
+              .map(Number)
+          } else {
+            matrix = [
+              parseFloat(canvas.style.width) / canvas.width,
+              0,
+              0,
+              parseFloat(canvas.style.height) / canvas.height,
+              0,
+              0,
+            ]
+          }
+          // Apply the transform to the export map context
+          CanvasRenderingContext2D.prototype.setTransform.apply(
+            mapContext,
+            matrix
+          )
+          const backgroundColor = canvas.parentNode.style.backgroundColor
+          if (backgroundColor) {
+            mapContext.fillStyle = backgroundColor
+            mapContext.fillRect(0, 0, canvas.width, canvas.height)
+          }
+          mapContext.drawImage(canvas, 0, 0)
+        }
+      }
+    )
+
+    mapContext.globalAlpha = 1
+    mapContext.setTransform(1, 0, 0, 1, 0, 0)
+    return mapCanvas.toDataURL()
+  }
+
+  /**
+   *
+   * @param {String} nombreCaptura
+   */
+  function exportarImagen(nombreCaptura) {
+    olMapa.value.once('rendercomplete', function () {
+      const link = document.createElement('a')
+      link.href = crearImagen(olMapa.value)
+      link.download = `${nombreCaptura}.png`
+      link.click()
+    })
+    olMapa.value.renderSync()
+  }
+
   /**
    * Ajusta la vista del mapa a los valores definidos en la propiedad vista.
    */
@@ -339,5 +353,6 @@ export default function usarMapa(propsParam, emitsParam) {
     alternarEscalaGrafica,
     verCargador,
     ajustarVista,
+    exportarImagen,
   }
 }

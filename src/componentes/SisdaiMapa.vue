@@ -20,6 +20,7 @@ const {
   desmontar,
   alternarEscalaGrafica,
   verCargador,
+  exportarImagen,
   ajustarVista,
 } = usarMapa(propsSetup, emitsSetup)
 
@@ -58,7 +59,11 @@ onUnmounted(() => {
 })
 
 // eslint-disable-next-line
-defineExpose({ ajustarVista, ajustarVistaPorCapasVisibles: undefined })
+defineExpose({
+  exportarImagen,
+  ajustarVista,
+  ajustarVistaPorCapasVisibles: undefined,
+})
 </script>
 
 <template>
