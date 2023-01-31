@@ -56,6 +56,7 @@ Define si se agrega la escala grafica en el mapa.
 Permite descargar la vista actual del mapa, con las capas visibles y zoom mostrado en pantalla, sin controles. El formato de descargá es PNG.
 
 **Parametros:**
+
 - `String` Nombre del archivo que se descargara del navegador (no debe incluir extensión).
 
 **Ejemplo:**
