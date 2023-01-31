@@ -300,8 +300,9 @@ export default function usarMapa(propsParam, emitsParam) {
   }
 
   /**
-   *
-   * @param {String} nombreCaptura
+   * Permite descargar la vista actual del mapa, con las capas visibles y zoom mostrado en
+   * pantalla, sin controles. El formato de descargá es PNG.
+   * @param {String} nombreCaptura nombre del archivo que se descargara del navegador (no debe incluir extensión).
    */
   function exportarImagen(nombreCaptura) {
     olMapa.value.once('rendercomplete', function () {
