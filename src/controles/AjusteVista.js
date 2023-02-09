@@ -4,7 +4,7 @@
 
 import Control from 'ol/control/Control'
 import { crearContenedorControl, crearBotonControl } from './utiles'
-import { eventos } from '../composables/usarMapa'
+import { eventos } from '../scripts/mapa'
 import { extensionEsValida, validarExtension } from '../utiles'
 
 /**
@@ -24,10 +24,6 @@ const rellenoAlBordeDeLaExtension = [10, 10, 10, 10]
  *
  */
 let emit
-
-/**
- *
- */
 
 /**
  * @classdesc
