@@ -5,11 +5,11 @@ import * as Leyendas from './componentes/leyendas'
 import * as Elementos from './componentes/elementos'
 
 export default function plugin(Vue) {
-  if (plugin.installed) {
-    return
-  }
-
-  plugin.installed = true
+  //if (plugin.installed) {
+  //  return
+  //}
+  //
+  //plugin.installed = true
 
   function agregarComponente(componente) {
     Vue.component(componente.__name, componente)
