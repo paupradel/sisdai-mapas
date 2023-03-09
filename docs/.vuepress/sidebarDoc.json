@@ -33,7 +33,7 @@
   {
     "title": "Información",
     "collapsable": true,
-    "children": ["info/", "info/tooltip", "info/popup"]
+    "children": ["info/", "info/globo", "info/recuadro"]
   },
   {
     "title": "Visualizaciones",
