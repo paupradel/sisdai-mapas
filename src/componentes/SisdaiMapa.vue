@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, onUnmounted, ref, toRefs, watch } from 'vue'
+import { onMounted, onUnmounted, reactive, ref, toRefs, watch } from 'vue'
 import 'ol/ol.css'
 import Map from 'ol/Map'
 import View from 'ol/View'
@@ -15,6 +15,7 @@ import BotonConacyt from './externos/BotonConacyt.vue'
 import VistaCarga from './externos/VistaCarga.vue'
 import AjusteVista from './../controles/AjusteVista'
 import exportarMapaComoImagen from './../scripts/mapa/ExportarImagen'
+import GloboInformativo from '../componentes/info/GloboInformativo'
 
 // eslint-disable-next-line
 const propsSetup = defineProps(props)
@@ -62,6 +63,25 @@ function asignarProps() {
   })
 }
 
+/**
+ *
+ */
+const tooltip = reactive({
+  visible: false,
+  ubicacion: [0, 0],
+})
+
+function invocarTooltips() {
+  olMapa.value.on('pointermove', evt => {
+    if (!tooltip.visible) tooltip.visible = true
+    tooltip.ubicacion = olMapa.value.getEventPixel(evt.originalEvent)
+  })
+
+  olMapa.value.getTargetElement().addEventListener('pointerleave', () => {
+    tooltip.visible = false
+  })
+}
+
 const {
   agregarTodoALMapa: agregarCapasRegistradas,
   hayCapasCargadorVisibleProcesando: verCargador,
@@ -90,6 +110,7 @@ function crearMapa(target) {
 onMounted(() => {
   olMapa.value = crearMapa(refSisdaiMapa.value)
   asignarProps()
+  invocarTooltips()
   alternarEscalaGrafica(propsSetup.escalaGrafica)
   agregarCapasRegistradas(olMapa.value)
 })
@@ -213,7 +234,12 @@ defineExpose({
     <div
       ref="refSisdaiMapa"
       class="sisdai-mapa"
-    />
+    >
+      <GloboInformativo
+        v-show="tooltip.visible"
+        :ubicacion="tooltip.ubicacion"
+      />
+    </div>
 
     <VistaCarga v-show="verCargador" />
 
