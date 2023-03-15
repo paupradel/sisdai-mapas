@@ -1,5 +1,15 @@
+<script setup>
+import edos from './../../capas/ejemplo-edos.json'
+</script>
+
 <template>
-  <SisdaiMapa :vista="{ centro: [0, 0], zoom: 2 }">
+  <SisdaiMapa :vista="{ centro: [-102, 24], zoom: 4.5 }">
     <SisdaiCapaXyz />
+
+    <sisdai-capa-geojson
+      :datos="edos"
+      :zIndex="1"
+      globoInformativo="jeje"
+    />
   </SisdaiMapa>
 </template>

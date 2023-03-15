@@ -11,10 +11,18 @@ export default function plugin(Vue) {
   //
   //plugin.installed = true
 
+  /**
+   *
+   * @param {Object} componente
+   */
   function agregarComponente(componente) {
     Vue.component(componente.__name, componente)
   }
 
+  /**
+   *
+   * @param {*} componentes
+   */
   function agregarComponentes(componentes) {
     Object.values(componentes).forEach(componente =>
       agregarComponente(componente)
