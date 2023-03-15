@@ -7,8 +7,8 @@ const props = defineProps({
     type: Array,
   },
   contenido: {
-    type: String,
-    default: 'Hola <b>tú</b>',
+    type: [String, Function],
+    default: undefined,
   },
 })
 

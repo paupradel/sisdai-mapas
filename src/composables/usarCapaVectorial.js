@@ -57,11 +57,12 @@ export const props = {
   },
 
   /**
-   *
+   * Contenido del globo de información que aparecerá al pasar el cursor sobre la capa (hover).
+   * Puede ser una funcion que accede a las propiedades del `feature` o un texto estatico.
    */
   globoInformativo: {
-    type: String,
-    default: '',
+    type: [String, Function],
+    default: undefined,
   },
 
   ...propsCapa,
@@ -80,14 +81,13 @@ export default function usarCapaVectorial(propsParam, emitsParam) {
 
   const { estilo, clasificacion, globoInformativo } = toRefs(propsParam)
 
-  console.log(globoInformativo.value)
-
   /**
    * Agrega los porps al objeto y propiedades de la capa.
    * @param {import("ol/layer/Layer.js").default} olCapa objeto de capa de openlayers.
    */
   function asignarPorps(olCapa) {
     olCapa.set('estilo', JSON.stringify(estilo.value))
+    olCapa.set('globoInfo', globoInformativo.value)
   }
 
   /**

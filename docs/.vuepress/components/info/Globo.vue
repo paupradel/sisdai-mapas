@@ -9,7 +9,7 @@ import edos from './../../capas/ejemplo-edos.json'
     <sisdai-capa-geojson
       :datos="edos"
       :zIndex="1"
-      globoInformativo="jeje"
+      :globoInformativo="f => `Estdo: ${f.nom_edo}`"
     />
   </SisdaiMapa>
 </template>

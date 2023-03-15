@@ -69,23 +69,32 @@ function asignarProps() {
 const tooltip = reactive({
   visible: false,
   ubicacion: [0, 0],
+  contenido: undefined,
 })
 
 function encontarFeatureEnPixel(pixel, target) {
   return target.closest('.ol-control')
     ? undefined
-    : olMapa.value.forEachFeatureAtPixel(pixel, function (feature) {
+    : olMapa.value.forEachFeatureAtPixel(pixel, function (feature, layer) {
+        const contenido = layer.get('globoInfo')
+
+        tooltip.contenido =
+          typeof contenido === 'function'
+            ? contenido(feature.getProperties())
+            : contenido
+
         return feature
       })
 }
 
 function invocarTooltips() {
-  olMapa.value.on('pointermove', evt => {
-    const pixel = olMapa.value.getEventPixel(evt.originalEvent)
-    const feature = encontarFeatureEnPixel(pixel, evt.originalEvent.target)
+  olMapa.value.on('pointermove', ({ originalEvent }) => {
+    const pixel = olMapa.value.getEventPixel(originalEvent)
+    const feature = encontarFeatureEnPixel(pixel, originalEvent.target)
 
     if (feature !== undefined) {
       // console.log(feature.get('nom_edo'))
+      // console.log(feature)
       tooltip.visible = true
       tooltip.ubicacion = pixel
     } else {
@@ -254,6 +263,7 @@ defineExpose({
       <GloboInformativo
         v-show="tooltip.visible"
         :ubicacion="tooltip.ubicacion"
+        :contenido="tooltip.contenido"
       />
     </div>
 
