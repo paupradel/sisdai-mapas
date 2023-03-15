@@ -56,6 +56,14 @@ export const props = {
     default: () => estiloCapaPorDefecto,
   },
 
+  /**
+   *
+   */
+  globoInformativo: {
+    type: String,
+    default: '',
+  },
+
   ...propsCapa,
 }
 
@@ -70,7 +78,9 @@ export default function usarCapaVectorial(propsParam, emitsParam) {
     vincular,
   } = usarCapa(propsParam, emitsParam)
 
-  const { estilo, clasificacion } = toRefs(propsParam)
+  const { estilo, clasificacion, globoInformativo } = toRefs(propsParam)
+
+  console.log(globoInformativo.value)
 
   /**
    * Agrega los porps al objeto y propiedades de la capa.
@@ -118,6 +128,10 @@ export default function usarCapaVectorial(propsParam, emitsParam) {
     )
   }
 
+  /**
+   *
+   * @returns
+   */
   function conseguirClases() {
     const clases = {}
 

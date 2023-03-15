@@ -71,10 +71,26 @@ const tooltip = reactive({
   ubicacion: [0, 0],
 })
 
+function encontarFeatureEnPixel(pixel, target) {
+  return target.closest('.ol-control')
+    ? undefined
+    : olMapa.value.forEachFeatureAtPixel(pixel, function (feature) {
+        return feature
+      })
+}
+
 function invocarTooltips() {
   olMapa.value.on('pointermove', evt => {
-    if (!tooltip.visible) tooltip.visible = true
-    tooltip.ubicacion = olMapa.value.getEventPixel(evt.originalEvent)
+    const pixel = olMapa.value.getEventPixel(evt.originalEvent)
+    const feature = encontarFeatureEnPixel(pixel, evt.originalEvent.target)
+
+    if (feature !== undefined) {
+      // console.log(feature.get('nom_edo'))
+      tooltip.visible = true
+      tooltip.ubicacion = pixel
+    } else {
+      tooltip.visible = false
+    }
   })
 
   olMapa.value.getTargetElement().addEventListener('pointerleave', () => {
