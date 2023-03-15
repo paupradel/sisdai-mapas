@@ -72,38 +72,39 @@ const globoInfo = reactive({
   contenido: undefined,
 })
 
-function encontarFeatureEnPixel(pixel, target) {
-  return target.closest('.ol-control')
-    ? undefined
-    : olMapa.value.forEachFeatureAtPixel(pixel, function (feature, layer) {
-        const contenido = layer.get('globoInfo')
+function procesarContenidoGloboInfo(feature, contenido) {
+  return typeof contenido === 'function'
+    ? contenido(feature.getProperties())
+    : contenido
+}
 
-        globoInfo.contenido =
-          typeof contenido === 'function'
-            ? contenido(feature.getProperties())
-            : contenido
+function buscarFeatureEnPixel(pixel) {
+  return olMapa.value.forEachFeatureAtPixel(pixel, (feature, layer) => {
+    globoInfo.visible = true
+    globoInfo.ubicacion = pixel
+    globoInfo.contenido = procesarContenidoGloboInfo(
+      feature,
+      layer.get('globoInfo')
+    )
 
-        return feature
-      })
+    olMapa.value.getTargetElement().style.cursor = 'pointer'
+    return true
+  })
 }
 
 function invocarGloboInfo() {
   olMapa.value.on('pointermove', ({ originalEvent }) => {
     const pixel = olMapa.value.getEventPixel(originalEvent)
-    const feature = encontarFeatureEnPixel(pixel, originalEvent.target)
 
-    if (feature !== undefined) {
-      // console.log(feature.get('nom_edo'))
-      // console.log(feature)
-      globoInfo.visible = true
-      globoInfo.ubicacion = pixel
-    } else {
+    if (buscarFeatureEnPixel(pixel) === undefined) {
       globoInfo.visible = false
+      olMapa.value.getTargetElement().style.cursor = ''
     }
   })
 
   olMapa.value.getTargetElement().addEventListener('pointerleave', () => {
     globoInfo.visible = false
+    olMapa.value.getTargetElement().style.cursor = ''
   })
 }
 
