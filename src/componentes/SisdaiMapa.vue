@@ -64,9 +64,9 @@ function asignarProps() {
 }
 
 /**
- *
+ * Objeto reactivo con las propiedades del Globo de información
  */
-const tooltip = reactive({
+const globoInfo = reactive({
   visible: false,
   ubicacion: [0, 0],
   contenido: undefined,
@@ -78,7 +78,7 @@ function encontarFeatureEnPixel(pixel, target) {
     : olMapa.value.forEachFeatureAtPixel(pixel, function (feature, layer) {
         const contenido = layer.get('globoInfo')
 
-        tooltip.contenido =
+        globoInfo.contenido =
           typeof contenido === 'function'
             ? contenido(feature.getProperties())
             : contenido
@@ -87,7 +87,7 @@ function encontarFeatureEnPixel(pixel, target) {
       })
 }
 
-function invocarTooltips() {
+function invocarGloboInfo() {
   olMapa.value.on('pointermove', ({ originalEvent }) => {
     const pixel = olMapa.value.getEventPixel(originalEvent)
     const feature = encontarFeatureEnPixel(pixel, originalEvent.target)
@@ -95,15 +95,15 @@ function invocarTooltips() {
     if (feature !== undefined) {
       // console.log(feature.get('nom_edo'))
       // console.log(feature)
-      tooltip.visible = true
-      tooltip.ubicacion = pixel
+      globoInfo.visible = true
+      globoInfo.ubicacion = pixel
     } else {
-      tooltip.visible = false
+      globoInfo.visible = false
     }
   })
 
   olMapa.value.getTargetElement().addEventListener('pointerleave', () => {
-    tooltip.visible = false
+    globoInfo.visible = false
   })
 }
 
@@ -135,7 +135,7 @@ function crearMapa(target) {
 onMounted(() => {
   olMapa.value = crearMapa(refSisdaiMapa.value)
   asignarProps()
-  invocarTooltips()
+  invocarGloboInfo()
   alternarEscalaGrafica(propsSetup.escalaGrafica)
   agregarCapasRegistradas(olMapa.value)
 })
@@ -261,9 +261,9 @@ defineExpose({
       class="sisdai-mapa"
     >
       <GloboInformativo
-        v-show="tooltip.visible"
-        :ubicacion="tooltip.ubicacion"
-        :contenido="tooltip.contenido"
+        v-show="globoInfo.visible"
+        :ubicacion="globoInfo.ubicacion"
+        :contenido="globoInfo.contenido"
       />
     </div>
 
