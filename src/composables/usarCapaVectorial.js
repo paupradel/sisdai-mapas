@@ -56,6 +56,15 @@ export const props = {
     default: () => estiloCapaPorDefecto,
   },
 
+  /**
+   * Contenido del globo de información que aparecerá al pasar el cursor sobre la capa (hover).
+   * Puede ser una funcion que accede a las propiedades del `feature` o un texto estatico.
+   */
+  globoInformativo: {
+    type: [String, Function],
+    default: undefined,
+  },
+
   ...propsCapa,
 }
 
@@ -70,7 +79,7 @@ export default function usarCapaVectorial(propsParam, emitsParam) {
     vincular,
   } = usarCapa(propsParam, emitsParam)
 
-  const { estilo, clasificacion } = toRefs(propsParam)
+  const { estilo, clasificacion, globoInformativo } = toRefs(propsParam)
 
   /**
    * Agrega los porps al objeto y propiedades de la capa.
@@ -78,6 +87,7 @@ export default function usarCapaVectorial(propsParam, emitsParam) {
    */
   function asignarPorps(olCapa) {
     olCapa.set('estilo', JSON.stringify(estilo.value))
+    olCapa.set('globoInfo', globoInformativo.value)
   }
 
   /**
@@ -118,6 +128,10 @@ export default function usarCapaVectorial(propsParam, emitsParam) {
     )
   }
 
+  /**
+   *
+   * @returns
+   */
   function conseguirClases() {
     const clases = {}
 

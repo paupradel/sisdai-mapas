@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, onUnmounted, ref, toRefs, watch } from 'vue'
+import { onMounted, onUnmounted, reactive, ref, toRefs, watch } from 'vue'
 import 'ol/ol.css'
 import Map from 'ol/Map'
 import View from 'ol/View'
@@ -15,6 +15,7 @@ import BotonConacyt from './externos/BotonConacyt.vue'
 import VistaCarga from './externos/VistaCarga.vue'
 import AjusteVista from './../controles/AjusteVista'
 import exportarMapaComoImagen from './../scripts/mapa/ExportarImagen'
+import GloboInformativo from '../componentes/info/GloboInformativo'
 
 // eslint-disable-next-line
 const propsSetup = defineProps(props)
@@ -62,6 +63,51 @@ function asignarProps() {
   })
 }
 
+/**
+ * Objeto reactivo con las propiedades del Globo de información
+ */
+const globoInfo = reactive({
+  visible: false,
+  ubicacion: [0, 0],
+  contenido: undefined,
+})
+
+function procesarContenidoGloboInfo(feature, contenido) {
+  return typeof contenido === 'function'
+    ? contenido(feature.getProperties())
+    : contenido
+}
+
+function buscarFeatureEnPixel(pixel) {
+  return olMapa.value.forEachFeatureAtPixel(pixel, (feature, layer) => {
+    globoInfo.visible = true
+    globoInfo.ubicacion = pixel
+    globoInfo.contenido = procesarContenidoGloboInfo(
+      feature,
+      layer.get('globoInfo')
+    )
+
+    olMapa.value.getTargetElement().style.cursor = 'pointer'
+    return true
+  })
+}
+
+function invocarGloboInfo() {
+  olMapa.value.on('pointermove', ({ originalEvent }) => {
+    const pixel = olMapa.value.getEventPixel(originalEvent)
+
+    if (buscarFeatureEnPixel(pixel) === undefined) {
+      globoInfo.visible = false
+      olMapa.value.getTargetElement().style.cursor = ''
+    }
+  })
+
+  olMapa.value.getTargetElement().addEventListener('pointerleave', () => {
+    globoInfo.visible = false
+    olMapa.value.getTargetElement().style.cursor = ''
+  })
+}
+
 const {
   agregarTodoALMapa: agregarCapasRegistradas,
   hayCapasCargadorVisibleProcesando: verCargador,
@@ -90,6 +136,7 @@ function crearMapa(target) {
 onMounted(() => {
   olMapa.value = crearMapa(refSisdaiMapa.value)
   asignarProps()
+  invocarGloboInfo()
   alternarEscalaGrafica(propsSetup.escalaGrafica)
   agregarCapasRegistradas(olMapa.value)
 })
@@ -213,7 +260,13 @@ defineExpose({
     <div
       ref="refSisdaiMapa"
       class="sisdai-mapa"
-    />
+    >
+      <GloboInformativo
+        v-show="globoInfo.visible"
+        :ubicacion="globoInfo.ubicacion"
+        :contenido="globoInfo.contenido"
+      />
+    </div>
 
     <VistaCarga v-show="verCargador" />
 

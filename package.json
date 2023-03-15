@@ -11,7 +11,7 @@
     "fld:build": "npm run format-lint && vuepress build docs && npm run build",
     "docs:build": "vuepress build docs",
     "docs:build-nossr": "vuepress buildnossr docs",
-    "docs:serve": "vuepress dev docs",
+    "docs": "vuepress dev docs",
     "deprecated:install": "cd deprecated && npm install",
     "deprecated:serve": "cd deprecated && vuepress dev docs"
   },
@@ -20,9 +20,9 @@
     "dist/*"
   ],
   "dependencies": {
-    "core-js": "^3.28.0",
+    "core-js": "^3.29.0",
     "d3": "^7.8.0",
-    "ol": "^7.2.2",
+    "ol": "^7.3.0",
     "simple-statistics": "^7.8.3",
     "sisdai-css": "github:salsa-community/sisdai-css#v0.31.2",
     "vue": "^2.7.14"
@@ -33,8 +33,8 @@
     "@vue/cli-plugin-babel": "^5.0.8",
     "@vue/cli-plugin-eslint": "^5.0.8",
     "@vue/cli-service": "^5.0.8",
-    "eslint": "^8.34.0",
-    "eslint-config-prettier": "^8.6.0",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.7.0",
     "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.8.0",
@@ -43,7 +43,7 @@
     "sass": "^1.57.1",
     "sass-loader": "^10.4.1",
     "vue-template-compiler": "^2.7.14",
-    "vuepress": "^1.9.8",
+    "vuepress": "^1.9.9",
     "vuepress-html-webpack-plugin": "^3.2.0"
   },
   "gitHooks": {
