@@ -17,6 +17,7 @@
   background-color: #F6F6F6;
   border-radius: 0 0 8px 8px;
   border-width: 0;
+  border-top: 1px solid black;
   box-shadow: 3px 3px 4px transparent;
   display: flex;
   color: #003384;

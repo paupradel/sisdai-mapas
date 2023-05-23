@@ -233,7 +233,8 @@ export default {
       display: grid;
       grid-template-areas:
         "head map"
-        "foot map";
+        "foot map"
+        "pielibreria pielibreria";
       //grid-template-rows: 1fr 1fr;
       grid-template-columns: 1fr 2fr;
       padding-top: 0;
@@ -260,11 +261,14 @@ export default {
         margin-bottom: 0;
         margin-left: 0;
       }
-      &.usar-margen-inferior-por-logo-lib{
-          .dai-map-container{
-              height: calc(100% - 40px);
-          }
+      .pie-mapa-libreria {
+        grid-area: pielibreria;
       }
+      // &.usar-margen-inferior-por-logo-lib{
+      //     .dai-map-container{
+      //         height: calc(100% - 40px);
+      //     }
+      // }
     }
   }
 }
