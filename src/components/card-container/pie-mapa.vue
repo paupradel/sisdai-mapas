@@ -1,7 +1,7 @@
 <template>
   <a class="pie-mapa-libreria" href="https://conacyt.mx/" target="_blank" rel="noopener noreferrer">
     <img
-      src="https://conacyt.mx/wp-content/uploads/2021/10/logo_conacyt_con_sintagma_azul_completo.svg"
+      src="./../../assets/imgs/conahcyt-azul.svg"
       alt="Conahcyt"
       height="28px"
     />
@@ -9,6 +9,9 @@
 </template>
 
 <style lang="scss">
+a.pie-mapa-libreria:hover {
+  background: #F6F6F6 !important;
+}
 .pie-mapa-libreria {
   margin-left: -0.3rem;
   width: calc(100% - 0.4rem);
